@@ -1,0 +1,38 @@
+{
+  "trend": "npc-livestreams",
+  "platforms": {
+    "tiktok": {
+      "value": 90177600,
+      "delta": 90177600
+    },
+    "youtube": {
+      "value": 1127220,
+      "delta": 1127220
+    },
+    "x": {
+      "value": 150296,
+      "delta": 150296
+    },
+    "instagram": {
+      "value": 75148,
+      "delta": 75148
+    },
+    "facebook": {
+      "value": 7514,
+      "delta": 7514
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-03T13:00:32.691854",
+      "metrics": {
+        "tiktok": 90177600,
+        "youtube": 1127220,
+        "x": 150296,
+        "instagram": 75148,
+        "facebook": 7514
+      }
+    }
+  ],
+  "last_updated": "2026-02-03T13:00:32.691854"
+}
