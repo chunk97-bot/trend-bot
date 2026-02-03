@@ -1,0 +1,38 @@
+{
+  "trend": "npc livestreams",
+  "platforms": {
+    "tiktok": {
+      "value": 0,
+      "delta": 0
+    },
+    "youtube": {
+      "value": 0,
+      "delta": 0
+    },
+    "x": {
+      "value": 0,
+      "delta": 0
+    },
+    "instagram": {
+      "value": 0,
+      "delta": 0
+    },
+    "facebook": {
+      "value": 0,
+      "delta": 0
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-03T13:06:58.654233",
+      "metrics": {
+        "tiktok": 0,
+        "youtube": 0,
+        "x": 0,
+        "instagram": 0,
+        "facebook": 0
+      }
+    }
+  ],
+  "last_updated": "2026-02-03T13:06:58.654233"
+}
