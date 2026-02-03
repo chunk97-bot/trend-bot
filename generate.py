@@ -1,67 +1,87 @@
 import os
+import json
 from datetime import datetime
 
+# =========================
+# CONFIG
+# =========================
 POSTS_DIR = "posts"
+DATA_DIR = "data"
+
 os.makedirs(POSTS_DIR, exist_ok=True)
+os.makedirs(DATA_DIR, exist_ok=True)
 
-# Create a test post
-slug = f"npc-livestream-{int(datetime.utcnow().timestamp())}"
-post_filename = f"{slug}.html"
-post_path = os.path.join(POSTS_DIR, post_filename)
+# =========================
+# SIMULATED METRIC FETCHERS
+# (real fetchers come next step)
+# =========================
+def fetch_metrics(trend):
+    """
+    Returns approximate platform metrics.
+    These numbers intentionally fluctuate to simulate growth.
+    """
+    base = hash(trend) % 100000
 
-post_html = f"""
-<html>
-<head>
-  <title>NPC livestreams are still pulling insane numbers</title>
-</head>
-<body>
-  <h1>NPC livestreams are still pulling insane numbers</h1>
+    return {
+        "tiktok": base * 1200,
+        "youtube": base * 15,
+        "x": base * 2,
+        "instagram": base,
+        "facebook": base // 10
+    }
 
-  <p><strong>Why it’s trending:</strong></p>
-  <p>
-    People know it’s repetitive, people know it’s dumb,
-    but NPC livestreams keep pulling millions of views.
-  </p>
+# =========================
+# LOAD / UPDATE METRICS
+# =========================
+def update_trend_metrics(trend):
+    filename = os.path.join(DATA_DIR, f"{trend}.json")
 
-  <pre>
-everyone said they'd stop watching
-nobody actually did
-the internet wins again
-  </pre>
+    new_metrics = fetch_metrics(trend)
+    now = datetime.utcnow().isoformat()
 
-  <p><em>Auto-posted at {datetime.utcnow()} UTC</em></p>
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            old = json.load(f)
+    else:
+        old = {
+            "trend": trend,
+            "platforms": {},
+            "history": []
+        }
 
-  <p><a href="./index.html">← Back to all posts</a></p>
-</body>
-</html>
-"""
+    deltas = {}
+    for platform, value in new_metrics.items():
+        old_value = old["platforms"].get(platform, {}).get("value", 0)
+        deltas[platform] = value - old_value
 
-with open(post_path, "w", encoding="utf-8") as f:
-    f.write(post_html)
+    snapshot = {
+        "timestamp": now,
+        "metrics": new_metrics
+    }
 
-# Build posts index
-links = []
-for file in sorted(os.listdir(POSTS_DIR), reverse=True):
-    if file.endswith(".html") and file != "index.html":
-        links.append(f'<li><a href="{file}">{file}</a></li>')
+    updated = {
+        "trend": trend,
+        "platforms": {
+            p: {
+                "value": new_metrics[p],
+                "delta": deltas[p]
+            } for p in new_metrics
+        },
+        "history": old.get("history", []) + [snapshot],
+        "last_updated": now
+    }
 
-index_html = f"""
-<html>
-<head>
-  <title>Trend Bot – Posts</title>
-</head>
-<body>
-  <h1>🔥 Trend Bot – Auto Posts</h1>
-  <ul>
-    {''.join(links)}
-  </ul>
+    with open(filename, "w") as f:
+        json.dump(updated, f, indent=2)
 
-  <p><a href="../index.html">← Home</a></p>
-</body>
-</html>
-"""
+    return updated
 
-with open(os.path.join(POSTS_DIR, "index.html"), "w", encoding="utf-8") as f:
-    f.write(index_html)
+# =========================
+# MAIN (TEMP TREND)
+# =========================
+trend_name = "npc-livestreams"
 
-print("Post and index generated successfully")
+data = update_trend_metrics(trend_name)
+
+print("Updated metrics for:", trend_name)
+print(json.dumps(data["platforms"], indent=2))
