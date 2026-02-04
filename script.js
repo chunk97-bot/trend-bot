@@ -1,16 +1,19 @@
-const container = document.getElementById("trends");
+  const container = document.getElementById("trends");
 
-// Add more JSON files here later
 const trends = [
   "data/npc livestreams.json"
 ];
 
-trends.forEach(url => {
-  fetch(url)
-    .then(res => res.json())
-    .then(data => renderTrend(data))
-    .catch(err => console.error("Failed to load", url, err));
-});
+function loadTrends() {
+  container.innerHTML = ""; // clear old cards
+
+  trends.forEach(url => {
+    fetch(url + "?t=" + Date.now()) // bypass cache
+      .then(res => res.json())
+      .then(data => renderTrend(data))
+      .catch(err => console.error("Failed to load", url, err));
+  });
+}
 
 function renderTrend(data) {
   const card = document.createElement("div");
@@ -31,7 +34,6 @@ function renderTrend(data) {
     <div class="meme">😂 ${data.analysis?.meme || ""}</div>
   `;
 
-  // GOOGLE TRENDS (only if exists)
   if (gt) {
     const directionClass =
       gt.trend_direction === "rising" ? "gt-rising" :
@@ -49,7 +51,6 @@ function renderTrend(data) {
     `;
   }
 
-  // TOKEN (only if exists)
   if (data.token) {
     card.innerHTML += `
       <div class="token">
@@ -64,3 +65,9 @@ function renderTrend(data) {
 
   container.appendChild(card);
 }
+
+// INITIAL LOAD
+loadTrends();
+
+// AUTO REFRESH EVERY 60 SECONDS
+setInterval(loadTrends, 120000);
