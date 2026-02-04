@@ -1,0 +1,20 @@
+{
+  "trend": "npcs terraria",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "falling"
+  },
+  "timestamp": "2026-02-04T10:17:33.086798",
+  "analysis": {
+    "analysis": "The Google Trends data shows that the interest in 'npcs terraria' is falling, indicating a decreasing popularity or search volume for this topic over time.",
+    "status": "declining",
+    "meme": "When your Terraria NPC squad is so disorganized, it's like herding cats with no catnip.",
+    "image_prompt": "A chaotic Terraria town where NPCs are scattered, ignoring the player's desperate attempts to organize them."
+  },
+  "token": null
+}
