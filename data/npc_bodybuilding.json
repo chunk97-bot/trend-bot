@@ -1,0 +1,36 @@
+{
+  "trend": "npc bodybuilding",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T14:28:40.803157",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend 'npc bodybuilding' has a flat interest score, indicating a lack of significant growth or decline in search interest over time. The social media engagement, however, is high across platforms like TikTok and Instagram, suggesting potential for virality and meme potential. The Non-Playable Coin (NPC) token on the Binance Smart Chain has a relatively low liquidity of around $381,665, which may limit its relevance to the broader 'npc bodybuilding' trend.",
+    "status": "flat",
+    "meme": "high",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "Non-Playable Coin",
+    "symbol": "NPC",
+    "chain": "bsc",
+    "liquidity_usd": 381665.43,
+    "url": "https://dexscreener.com/bsc/0xb2f3279107da5fde24e6d7337cf4ecaf6c5ada26"
+  },
+  "timestamp": "2026-02-04T14:28:42.272456"
+}

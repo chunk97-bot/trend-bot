@@ -1,0 +1,36 @@
+{
+  "trend": "npc housing terraria",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T14:28:37.230478",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'npc housing terraria' appears to be flat, with no significant changes in interest over time. The social media engagement is high on TikTok and Instagram, indicating some discussion around the topic. However, the momentum is currently at 0%, suggesting little recent activity or growth. The Non-Playable Coin (NPC) token on the Binance Smart Chain has a decent liquidity of $381,665.43, but it's unclear if this token is directly relevant to the Terraria NPC housing topic.",
+    "status": "neutral",
+    "meme": "low",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "Non-Playable Coin",
+    "symbol": "NPC",
+    "chain": "bsc",
+    "liquidity_usd": 381665.43,
+    "url": "https://dexscreener.com/bsc/0xb2f3279107da5fde24e6d7337cf4ecaf6c5ada26"
+  },
+  "timestamp": "2026-02-04T14:28:38.910691"
+}
