@@ -1,18 +1,16 @@
-  const container = document.getElementById("trends");
+const container = document.getElementById("trends");
 
-const trends = [
-  "data/npc livestreams.json"
-];
+async function loadTrends() {
+  container.innerHTML = "";
 
-function loadTrends() {
-  container.innerHTML = ""; // clear old cards
-
-  trends.forEach(url => {
-    fetch(url + "?t=" + Date.now()) // bypass cache
-      .then(res => res.json())
-      .then(data => renderTrend(data))
-      .catch(err => console.error("Failed to load", url, err));
-  });
+  try {
+    const res = await fetch("./data/npc livestreams.json");
+    const data = await res.json();
+    renderTrend(data);
+  } catch (err) {
+    container.innerHTML = "<p>Failed to load trend data.</p>";
+    console.error(err);
+  }
 }
 
 function renderTrend(data) {
@@ -20,7 +18,15 @@ function renderTrend(data) {
   card.className = "card";
 
   const status = data.analysis?.status || "stable";
-  const gt = data.google_trends || null;
+  const gt = data.google_trends || { interest_score: 0 };
+
+  const metrics = data.metrics || {};
+  const tiktok = metrics.tiktok || 0;
+  const youtube = metrics.youtube || 0;
+  const x = metrics.x || 0;
+  const google = gt.interest_score || 0;
+
+  const totalInterest = tiktok + youtube + x + google;
 
   card.innerHTML = `
     <h2>${data.trend}</h2>
@@ -32,24 +38,19 @@ function renderTrend(data) {
     <p>${data.analysis?.analysis || "No analysis yet."}</p>
 
     <div class="meme">😂 ${data.analysis?.meme || ""}</div>
-  `;
 
-  if (gt) {
-    const directionClass =
-      gt.trend_direction === "rising" ? "gt-rising" :
-      gt.trend_direction === "falling" ? "gt-falling" :
-      "gt-flat";
-
-    card.innerHTML += `
-      <div class="google-trends">
-        🔎 Google Trends:
-        <strong>${gt.interest_score}/100</strong>
-        <span class="gt-badge ${directionClass}">
-          ${gt.trend_direction.toUpperCase()}
-        </span>
+    <div class="counters">
+      <div class="total">
+        👀 <strong>Total Interest:</strong> ${totalInterest}
       </div>
-    `;
-  }
+      <div class="counter-row">
+        <span>🎵 TikTok: ${tiktok}</span>
+        <span>▶️ YouTube: ${youtube}</span>
+        <span>🐦 X: ${x}</span>
+        <span>🔎 Google: ${google}</span>
+      </div>
+    </div>
+  `;
 
   if (data.token) {
     card.innerHTML += `
@@ -66,8 +67,8 @@ function renderTrend(data) {
   container.appendChild(card);
 }
 
-// INITIAL LOAD
+// Initial load
 loadTrends();
 
-// AUTO REFRESH EVERY 60 SECONDS
+// Auto refresh every 2 minutes
 setInterval(loadTrends, 120000);
