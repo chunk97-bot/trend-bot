@@ -1,20 +1,30 @@
 {
   "trend": "streamelements",
-  "metrics": {
-    "tiktok": 0,
-    "youtube": 0,
-    "x": 0
-  },
   "google_trends": {
     "interest_score": 0,
     "trend_direction": "flat"
   },
-  "timestamp": "2026-02-04T10:04:42.493939",
-  "analysis": {
-    "analysis": "The Google Trends data shows that the interest in the search term 'streamelements' has remained flat, indicating a stable trend with no significant changes over time.",
-    "status": "stable",
-    "meme": "When your stream is as smooth as a StreamElements dashboard.",
-    "image_prompt": "A person casually navigating a StreamElements interface, surrounded by a whimsical cloud of data and widgets."
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
   },
-  "token": null
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:34:36.613550",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'streamelements' appears to be relatively flat, with little to no significant increase or decrease in interest over time. The social media presence is mixed, with high activity on TikTok and a low presence on Instagram. The overall momentum is at 0%, indicating a lack of significant growth or decline. Since no token information is provided, the token relevance cannot be determined.",
+    "status": "Neutral",
+    "meme": "Steady as she goes, like a ship on a calm sea.",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T11:34:38.063392"
 }
