@@ -12,14 +12,6 @@
     "x": {
       "value": 0,
       "delta": 0
-    },
-    "instagram": {
-      "value": 0,
-      "delta": 0
-    },
-    "facebook": {
-      "value": 0,
-      "delta": 0
     }
   },
   "history": [
@@ -122,7 +114,20 @@
         "instagram": 0,
         "facebook": 0
       }
+    },
+    {
+      "timestamp": "2026-02-04T05:59:28.120736",
+      "metrics": {
+        "tiktok": 0,
+        "youtube": 0,
+        "x": 0
+      }
     }
   ],
-  "last_updated": "2026-02-04T05:53:51.640651"
+  "analysis": {
+    "analysis": "Tracking live engagement across platforms.",
+    "status": "stable",
+    "meme": "people are watching\nnobody knows why but it works"
+  },
+  "last_updated": "2026-02-04T05:59:28.120736"
 }
