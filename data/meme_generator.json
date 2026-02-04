@@ -1,0 +1,36 @@
+{
+  "trend": "meme generator",
+  "google_trends": {
+    "interest_score": 52,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:54:31.084446",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The data provided indicates that the meme generator trend is falling, with a Google interest score of 52. However, the social media presence remains high, particularly on TikTok and Instagram. The momentum for the trend is 0%, suggesting a lack of growth. The token associated with the trend is MEMEcoin, which has a liquidity of $8,910,628.85 and is based on the Solana blockchain.",
+    "status": "Neutral",
+    "meme": "The meme generator trend appears to be in a declining phase, with a falling Google interest and 0% momentum. However, the social media presence remains strong, indicating that the trend may still have some relevance.",
+    "token_relevant": "The MEMEcoin token is somewhat relevant to the meme generator trend, as it is a crypto asset associated with the broader meme culture. However, its liquidity and chain (Solana) may limit its direct impact on the meme generator trend itself."
+  },
+  "token": {
+    "name": "MEMEcoin",
+    "symbol": "MEME",
+    "chain": "solana",
+    "liquidity_usd": 8910628.85,
+    "url": "https://dexscreener.com/solana/26hq83ubjaxgmcmtbgqqrwmurtwg92eejgfuyd7zkvuh"
+  },
+  "timestamp": "2026-02-04T11:54:33.204910"
+}

@@ -1,0 +1,36 @@
+{
+  "trend": "ai image generator",
+  "google_trends": {
+    "interest_score": 68,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:54:27.581767",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The rising trend in AI image generators suggests that there is significant interest and demand in this technology. The high interest on social media platforms like TikTok and the low momentum score indicate that the trend is still in its early stages, with the potential for further growth. The token 'Any Inu' (AI) seems to have a relatively low liquidity, which may limit its relevance to the AI image generator trend.",
+    "status": "Rising",
+    "meme": "The AI image generator trend is gaining traction, with the 'Any Inu' (AI) token potentially being a meme-worthy play on the technology.",
+    "token_relevant": "The 'Any Inu' (AI) token has limited relevance to the AI image generator trend due to its low liquidity and lack of direct connection to the technology."
+  },
+  "token": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "chain": "bsc",
+    "liquidity_usd": 26188.83,
+    "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
+  },
+  "timestamp": "2026-02-04T11:54:29.517469"
+}
