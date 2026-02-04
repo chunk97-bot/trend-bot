@@ -3,66 +3,62 @@ const container = document.getElementById("trends");
 async function loadTrends() {
   container.innerHTML = "";
 
-  const files = await fetch("./data")
-    .then(() => [])
-    .catch(() => []);
-
-  const trendFiles = [
-    "npc_livestreams.json",
-    "girl_dinner.json",
-    "ai_yearbook_photos.json",
-    "skull_emoji_era.json"
-  ];
+  let index;
+  try {
+    const res = await fetch(`./data/index.json?ts=${Date.now()}`);
+    index = await res.json();
+  } catch {
+    container.innerHTML = "<p>Failed to load trends.</p>";
+    return;
+  }
 
   const trends = [];
 
-  for (const file of trendFiles) {
+  for (const file of index.files) {
     try {
-      const res = await fetch(`./data/${file}?t=${Date.now()}`);
-      const data = await res.json();
-      trends.push(data);
+      const res = await fetch(`./data/${file}?ts=${Date.now()}`);
+      trends.push(await res.json());
     } catch {}
   }
 
-  trends.sort((a, b) => b.signal_score - a.signal_score);
+  trends.sort((a, b) => (b.signal_score || 0) - (a.signal_score || 0));
   trends.forEach(renderTrend);
 }
 
-function renderTrend(trend) {
+function renderTrend(t) {
   const card = document.createElement("div");
   card.className = "card";
-  if (trend.highlight) card.classList.add("highlight");
+  if (t.highlight) card.classList.add("highlight");
 
   card.innerHTML = `
-    <h2>${trend.trend}</h2>
+    <h2>${t.trend}</h2>
 
-    <div class="lifecycle ${trend.lifecycle}">
-      ${trend.lifecycle.toUpperCase()}
+    <div class="lifecycle ${t.lifecycle}">
+      ${t.lifecycle.toUpperCase()}
     </div>
 
-    <p>${trend.analysis.analysis}</p>
+    <p>${t.analysis.analysis}</p>
 
-    <div class="meme">😂 ${trend.analysis.meme}</div>
+    <div class="meme">😂 ${t.analysis.meme}</div>
 
     <div class="metrics">
-      🚀 Momentum: <strong>${trend.momentum}</strong><br/>
-      📊 Signal Score: ${trend.signal_score}
+      🚀 Momentum: <strong>${t.momentum}</strong><br/>
+      📊 Signal Score: ${t.signal_score}
     </div>
 
     <div class="social">
-      🐦 X: ${trend.social_presence.x} |
-      🎵 TikTok: ${trend.social_presence.tiktok} |
-      📸 Instagram: ${trend.social_presence.instagram}
+      🐦 X: ${t.social_presence.x} |
+      🎵 TikTok: ${t.social_presence.tiktok} |
+      📸 Instagram: ${t.social_presence.instagram}
     </div>
   `;
 
-  if (trend.token) {
+  if (t.token) {
     card.innerHTML += `
       <div class="token">
-        🪙 <strong>${trend.token.symbol}</strong>
-        (${trend.token.chain})<br/>
-        Liquidity: $${trend.token.liquidity_usd || "N/A"}<br/>
-        <a href="${trend.token.url}" target="_blank">View on DexScreener</a>
+        🪙 <strong>${t.token.symbol}</strong> (${t.token.chain})<br/>
+        Liquidity: $${t.token.liquidity_usd || "N/A"}<br/>
+        <a href="${t.token.url}" target="_blank">View on DexScreener</a>
       </div>
     `;
   }
