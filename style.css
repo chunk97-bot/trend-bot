@@ -17,15 +17,23 @@ header {
 
 .card {
   background: linear-gradient(180deg, #1c1c24, #141418);
-  border-radius: 14px;
+  border-radius: 16px;
   padding: 24px;
   max-width: 900px;
   margin-bottom: 24px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.trend-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
 
 .card h2 {
-  margin-top: 0;
+  margin: 0 0 10px;
   font-size: 26px;
 }
 
@@ -63,12 +71,6 @@ header {
   margin-top: 18px;
   padding-top: 12px;
   border-top: 1px solid #333;
-  font-size: 14px;
-}
-
-.counters .total {
-  font-size: 16px;
-  margin-bottom: 8px;
 }
 
 .counter-row {
@@ -78,19 +80,7 @@ header {
   opacity: 0.9;
 }
 
-.token {
-  margin-top: 18px;
-  padding: 14px;
-  background: #0f172a;
-  border-radius: 10px;
-  border: 1px solid #1e293b;
-  font-size: 14px;
-}
-.trend-image {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin-bottom: 16px;
-  object-fit: cover;
-  max-height: 420px;
+.total {
+  margin-bottom: 8px;
+  font-size: 16px;
 }
