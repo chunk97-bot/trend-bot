@@ -1,0 +1,30 @@
+{
+  "trend": "streamlight",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:18:48.716251",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'streamlight' appears to be flat, with no significant growth or decline in interest over time. The brand has a strong social media presence, particularly on TikTok and Instagram, indicating high engagement among its target audience. However, the low momentum score suggests that the brand may not be experiencing significant growth or momentum at the moment. Without a specific token associated with the brand, it's difficult to provide any insights related to a token's performance.",
+    "status": "flat",
+    "meme": "Streamlight, the brand that shines a light on your everyday adventures, but the trend seems to be stuck in the shadows.",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T11:18:50.530668"
+}

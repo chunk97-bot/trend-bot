@@ -1,0 +1,36 @@
+{
+  "trend": "meme soundboard",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:18:44.395658",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for meme soundboard appears to be flat, with no significant increase or decrease in interest over time. The social media engagement is high across platforms like TikTok and Instagram, indicating a strong presence and popularity of meme-related content. However, the momentum score of 0% suggests that the trend is not currently gaining significant traction. The MEMEcoin token, which is based on the Solana blockchain, has a relatively high liquidity of over $8.9 million, indicating a level of market activity and interest in meme-related cryptocurrency projects. Overall, the data suggests a stable but not rapidly growing interest in meme soundboards and related content.",
+    "status": "stable",
+    "meme": true,
+    "token_relevant": true
+  },
+  "token": {
+    "name": "MEMEcoin",
+    "symbol": "MEME",
+    "chain": "solana",
+    "liquidity_usd": 8910628.85,
+    "url": "https://dexscreener.com/solana/26hq83ubjaxgmcmtbgqqrwmurtwg92eejgfuyd7zkvuh"
+  },
+  "timestamp": "2026-02-04T11:18:46.420930"
+}
