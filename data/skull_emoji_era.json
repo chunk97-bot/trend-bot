@@ -1,0 +1,20 @@
+{
+  "trend": "skull emoji era",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T09:16:02.766048",
+  "analysis": {
+    "analysis": "The 'skull emoji era' seems to have plateaued, with no significant increase or decrease in search interest over time. This suggests the trend has reached a stable, consistent level of popularity.",
+    "status": "stable",
+    "meme": "When you see the skull emoji, you know it's time to get *bone*-ified.",
+    "image_prompt": "A group of skeletons gathered around a table, playing a heated game of poker and surrounded by a haze of cigarette smoke."
+  },
+  "token": null
+}

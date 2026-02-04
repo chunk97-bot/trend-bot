@@ -1,0 +1,20 @@
+{
+  "trend": "girl dinner",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T09:16:00.758791",
+  "analysis": {
+    "analysis": "The 'girl dinner' trend refers to the social phenomenon where young women share images and stories of their simple but satisfying meals, often consisting of just a few basic ingredients. However, the Google Trends data suggests that this trend has not gained significant traction or interest over time.",
+    "status": "declining",
+    "meme": "When your 'girl dinner' is just a bag of chips and a diet coke, but you still post it on Instagram like it's a gourmet meal.",
+    "image_prompt": "A girl sitting on the floor, surrounded by empty takeout containers, scrolling through her phone and captioning the image 'Treat yo self!'"
+  },
+  "token": null
+}

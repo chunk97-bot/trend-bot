@@ -1,0 +1,20 @@
+{
+  "trend": "ai yearbook photos",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T09:16:04.265337",
+  "analysis": {
+    "analysis": "The trend for 'ai yearbook photos' shows a flat interest over time, indicating a lack of significant growth or decline in this topic.",
+    "status": "stable",
+    "meme": "When your AI yearbook photo looks more human than you do.",
+    "image_prompt": "An AI-generated yearbook photo of a robot smiling awkwardly next to a human student."
+  },
+  "token": null
+}
