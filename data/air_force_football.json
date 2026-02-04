@@ -1,0 +1,30 @@
+{
+  "trend": "air force football",
+  "google_trends": {
+    "interest_score": 75,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T19:30:08.630406",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'air force football' is rising, with a high interest score and high social engagement, particularly on TikTok. However, the momentum is currently at 0%, indicating that the trend may have plateaued or is in a lull. The related token 'THIN AIR' (AIR) on the Solana blockchain has a decent liquidity of $37,715.97, suggesting some investor interest in air force-related digital assets.",
+    "status": "Trending but momentum is stagnant",
+    "meme": "Airborne touchdown celebrations going viral on TikTok!",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T19:30:10.475134"
+}

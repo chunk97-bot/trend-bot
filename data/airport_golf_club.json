@@ -1,0 +1,36 @@
+{
+  "trend": "airport golf club",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T19:30:04.783845",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'airport golf club' is falling, with a low interest score. The social media presence is high on TikTok and high overall, but low on Instagram. The momentum is stagnant at 0%. The token 'AIRPORTNOY' is on the Solana blockchain, but its liquidity and other details are unknown.",
+    "status": "Bearish",
+    "meme": "The trend and social media activity suggest that 'airport golf club' is not a particularly hot or relevant topic at the moment. The lack of momentum and limited information on the associated token make it seem like a niche and potentially not very active or liquid project.",
+    "token_relevant": "The token 'AIRPORTNOY' on the Solana blockchain has limited available information, which makes it difficult to assess its relevance or potential. More details on the token's liquidity, trading volume, and project behind it would be needed to determine if it is a worthwhile investment."
+  },
+  "token": {
+    "name": "David Airportnoy",
+    "symbol": "AIRPORTNOY",
+    "chain": "solana",
+    "liquidity_usd": null,
+    "url": "https://dexscreener.com/solana/4mni5chr2pynjlsvrdfrfaafp2heyxfiaxncch9kinoq"
+  },
+  "timestamp": "2026-02-04T19:30:07.274850"
+}
