@@ -2,15 +2,17 @@ const container = document.getElementById("featured-trend");
 
 async function loadTopTrend() {
   try {
-    const indexRes = await fetch("./data/index.json");
+    const indexRes = await fetch(`./data/index.json?ts=${Date.now()}`);
     const index = await indexRes.json();
 
     let trends = [];
 
     for (const file of index.files) {
-      const res = await fetch(`./data/${file}`);
-      const data = await res.json();
-      trends.push(data);
+      try {
+        const res = await fetch(`./data/${file}?ts=${Date.now()}`);
+        const data = await res.json();
+        trends.push(data);
+      } catch {}
     }
 
     // Prefer rising trends, then highest signal score
@@ -20,8 +22,9 @@ async function loadTopTrend() {
       return (b.signal_score || 0) - (a.signal_score || 0);
     });
 
-    const top = trends[0];
-    renderTop(top);
+    if (trends.length > 0) {
+      renderTop(trends[0]);
+    }
   } catch (e) {
     container.innerHTML = "<p>Failed to load top trend.</p>";
   }
@@ -53,5 +56,8 @@ function renderTop(t) {
   `;
 }
 
-// Init
+// Initial load
 loadTopTrend();
+
+// 🔁 Auto refresh every 2 minutes
+setInterval(loadTopTrend, 120000);
