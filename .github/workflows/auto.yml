@@ -2,29 +2,47 @@ name: Trend Bot Automation
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"   # runs every 10 minutes
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run:
     runs-on: ubuntu-latest
 
     steps:
+      # ---------------------------
+      # 1. Checkout repository
+      # ---------------------------
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # ---------------------------
+      # 2. Set up Python
+      # ---------------------------
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
+      # ---------------------------
+      # 3. Run trend bot (Claude wired here)
+      # ---------------------------
       - name: Run trend bot
-        run: python generate.py
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          python generate.py
 
+      # ---------------------------
+      # 4. Commit and push changes
+      # ---------------------------
       - name: Commit and push changes
         run: |
           git config --global user.name "trend-bot"
           git config --global user.email "trend-bot@users.noreply.github.com"
           git add .
-          git commit -m "auto: generate trend post" || echo "No changes"
+          git commit -m "auto: update trend data" || echo "No changes to commit"
           git push
