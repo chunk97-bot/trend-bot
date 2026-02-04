@@ -171,3 +171,33 @@ section h3 {
   font-size: 16px;
   margin: 20px;
 }
+/* ===== HEADER ===== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background: linear-gradient(180deg, #0b0b0b, #000);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.logo {
+  height: 42px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.nav a {
+  margin-left: 28px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.75);
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #ffd34d;
+}
