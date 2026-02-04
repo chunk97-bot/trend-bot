@@ -4,11 +4,11 @@ async function loadTrends() {
   container.innerHTML = "";
 
   try {
-    const res = await fetch("./data/npc livestreams.json?ts=" + Date.now());
+    const res = await fetch("./data/npc_livestreams.json?ts=" + Date.now());
     const data = await res.json();
     renderTrend(data);
   } catch (err) {
-    container.innerHTML = "<p>Failed to load trend data.</p>";
+    container.innerHTML = "<p>Failed to load trend.</p>";
     console.error(err);
   }
 }
@@ -18,55 +18,46 @@ function renderTrend(data) {
   card.className = "card";
 
   const status = data.analysis?.status || "stable";
-  const gt = data.google_trends || { interest_score: 0 };
   const metrics = data.metrics || {};
+  const gt = data.google_trends || {};
 
-  const tiktok = metrics.tiktok || 0;
-  const youtube = metrics.youtube || 0;
-  const x = metrics.x || 0;
-  const google = gt.interest_score || 0;
-  const totalInterest = tiktok + youtube + x + google;
+  const imagePrompt = data.analysis?.image_prompt || data.trend;
+  const imageUrl = `https://source.unsplash.com/900x500/?${encodeURIComponent(imagePrompt)}`;
 
-  const imageQuery = encodeURIComponent(data.trend);
-  const imageUrl = `https://source.unsplash.com/900x500/?${imageQuery}`;
+  const total =
+    (metrics.tiktok || 0) +
+    (metrics.youtube || 0) +
+    (metrics.x || 0) +
+    (gt.interest_score || 0);
 
-  card.innerHTML = `
-    <img class="trend-image" src="${imageUrl}" alt="${data.trend}" />
+  const img = document.createElement("img");
+  img.src = imageUrl;
+  img.className = "trend-image";
+  img.onerror = () => img.remove();
 
+  card.appendChild(img);
+
+  card.innerHTML += `
     <h2>${data.trend}</h2>
 
     <div class="status ${status}">
       ${status.toUpperCase()}
     </div>
 
-    <p>${data.analysis?.analysis || "No analysis yet."}</p>
+    <p>${data.analysis?.analysis || ""}</p>
 
     <div class="meme">😂 ${data.analysis?.meme || ""}</div>
 
     <div class="counters">
-      <div class="total">
-        👀 <strong>Total Interest:</strong> ${totalInterest}
-      </div>
+      <div class="total">👀 <strong>Total Interest:</strong> ${total}</div>
       <div class="counter-row">
-        <span>🎵 TikTok: ${tiktok}</span>
-        <span>▶️ YouTube: ${youtube}</span>
-        <span>🐦 X: ${x}</span>
-        <span>🔎 Google: ${google}</span>
+        <span>🎵 TikTok: ${metrics.tiktok || 0}</span>
+        <span>▶️ YouTube: ${metrics.youtube || 0}</span>
+        <span>🐦 X: ${metrics.x || 0}</span>
+        <span>🔎 Google: ${gt.interest_score || 0}</span>
       </div>
     </div>
   `;
-
-  if (data.token) {
-    card.innerHTML += `
-      <div class="token">
-        <strong>🪙 Token Detected</strong><br/>
-        ${data.token.ticker} (${data.token.chain})<br/>
-        Liquidity: $${data.token.liquidity.toLocaleString()}<br/>
-        1h Volume: $${data.token.volume_1h.toLocaleString()}<br/>
-        5m Change: ${data.token.price_change_5m}%
-      </div>
-    `;
-  }
 
   container.appendChild(card);
 }
