@@ -5,11 +5,15 @@
     "youtube": 0,
     "x": 0
   },
-  "timestamp": "2026-02-04T06:49:28.468537",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T07:21:36.596107",
   "analysis": {
-    "analysis": "The 'npc livestreams' trend refers to the phenomenon of people streaming themselves behaving like non-playable characters (NPCs) in video games. This could involve mimicking the repetitive, scripted actions and dialogue of NPC characters or portraying themselves as 'human NPCs' in real-life situations. The trend seems to be a playful exploration of the boundaries between human and artificial behavior, and a commentary on the perceived lack of individuality or agency in modern life.",
+    "analysis": "The 'npc livestreams' trend refers to the growing popularity of live streams where the streamer acts as a 'non-player character' (NPC) from various video games or other media. This type of content allows viewers to interact with the streamer as if they were in a virtual world, creating a unique and immersive experience.",
     "status": "stable",
-    "meme": "When your life is on auto-pilot, you might as well be an NPC.",
+    "meme": "Become the NPC you were born to be!",
     "token": null
   }
 }
