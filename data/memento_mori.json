@@ -1,0 +1,36 @@
+{
+  "trend": "memento mori",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T13:14:43.123838",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend 'memento mori' is currently flat based on Google search interest, with no significant momentum. However, it has a high presence on social media platforms like TikTok and a low presence on Instagram. The Memento token on the Base chain has relatively low liquidity, indicating a niche or emerging project.",
+    "status": "flat",
+    "meme": "high",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "Memento",
+    "symbol": "DEXTF",
+    "chain": "base",
+    "liquidity_usd": 286787.27,
+    "url": "https://dexscreener.com/base/0xc3f617c8a3da6d286c8f97af946a8f293632c852"
+  },
+  "timestamp": "2026-02-04T13:14:44.729039"
+}
