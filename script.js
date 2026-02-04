@@ -17,6 +17,7 @@ function renderTrend(data) {
   card.className = "card";
 
   const status = data.analysis?.status || "stable";
+  const gt = data.google_trends || null;
 
   card.innerHTML = `
     <h2>${data.trend}</h2>
@@ -29,6 +30,24 @@ function renderTrend(data) {
 
     <div class="meme">😂 ${data.analysis?.meme || ""}</div>
   `;
+
+  // GOOGLE TRENDS (only if exists)
+  if (gt) {
+    const directionClass =
+      gt.trend_direction === "rising" ? "gt-rising" :
+      gt.trend_direction === "falling" ? "gt-falling" :
+      "gt-flat";
+
+    card.innerHTML += `
+      <div class="google-trends">
+        🔎 Google Trends:
+        <strong>${gt.interest_score}/100</strong>
+        <span class="gt-badge ${directionClass}">
+          ${gt.trend_direction.toUpperCase()}
+        </span>
+      </div>
+    `;
+  }
 
   // TOKEN (only if exists)
   if (data.token) {
