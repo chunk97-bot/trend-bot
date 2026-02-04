@@ -1,25 +1,36 @@
 {
   "trend": "ai checker",
-  "metrics": {
-    "tiktok": 0,
-    "youtube": 0,
-    "x": 0
-  },
   "google_trends": {
-    "interest_score": 0,
-    "trend_direction": "flat"
+    "interest_score": 50,
+    "trend_direction": "rising"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "timestamp": "2026-02-04T10:37:01.970502",
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T21:56:33.797023",
+      "signal_score": 100
+    }
+  ],
   "analysis": {
-    "analysis": "The trend for 'ai checker' is currently flat, indicating a stable interest level over time. This suggests that the search volume for this term has not been experiencing significant growth or decline.",
-    "status": "stable",
-    "meme": "When your AI assistant knows more about you than your own mom.",
-    "image_prompt": "A robot standing in front of a mirror, scratching its metallic head in confusion."
+    "analysis": "The trend for 'ai checker' is rising, with a Google interest score of 50. The social media presence is high on TikTok and moderately high on other platforms. However, the momentum is currently at 0%. The token 'Any Inu' (AI) is on the Binance Smart Chain, with a liquidity of $24,756.27. Overall, the trend and social media presence indicate potential interest, but the lack of momentum and the meme-like nature of the token suggest that it may not be highly relevant or impactful at the moment.",
+    "status": "neutral",
+    "meme": "high",
+    "token_relevant": "low"
   },
-  "token": null
+  "token": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "chain": "bsc",
+    "liquidity_usd": 24756.27,
+    "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
+  },
+  "timestamp": "2026-02-04T21:56:35.302559"
 }
