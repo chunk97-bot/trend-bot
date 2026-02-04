@@ -1,0 +1,30 @@
+{
+  "trend": "memento",
+  "google_trends": {
+    "interest_score": 52,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T22:55:58.196510",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T22:55:59.946470"
+}
