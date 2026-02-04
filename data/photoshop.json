@@ -1,0 +1,30 @@
+{
+  "trend": "photoshop",
+  "google_trends": {
+    "interest_score": 98,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T17:12:42.416920",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend data shows that interest in Photoshop is falling, with a high social media presence across platforms like TikTok and Instagram. The momentum for the trend is 0%, indicating a lack of growth or renewed interest. The token 'The Worst Photoshop' does not seem to be highly relevant to the Photoshop trend, as it is not a widely known or popular project.",
+    "status": "declining",
+    "meme": "Photoshop disasters and memes have been a staple of internet culture for years, but the declining interest suggests the trend may be losing its momentum. However, the continued high social media presence indicates that Photoshop-related content still resonates with many users.",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T17:12:44.714097"
+}
