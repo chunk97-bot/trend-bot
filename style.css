@@ -244,3 +244,11 @@ footer {
     margin-left: 18px;
   }
 }
+/* FORCE LOGO SIZE */
+.site-header img.logo {
+  height: 64px !important;
+  width: auto !important;
+  max-height: none !important;
+  max-width: none !important;
+  display: block;
+}
