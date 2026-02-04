@@ -4,9 +4,7 @@ import datetime
 import requests
 from pytrends.request import TrendReq
 
-# =====================================================
-# CONFIG
-# =====================================================
+# ================= CONFIG =================
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 CLAUDE_MODEL = "claude-3-haiku-20240307"
@@ -20,16 +18,14 @@ DISCOVERY_SCORE_THRESHOLD = 30
 
 SEED_KEYWORDS = [
     "npc", "ai", "meme", "viral",
-    "trend", "internet", "live",
-    "photo", "stream"
+    "trend", "internet", "stream",
+    "photo", "live"
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# =====================================================
-# UTIL
-# =====================================================
+# ================= UTILS =================
 
 def safe_name(t):
     return t.lower().replace(" ", "_").replace("-", "_")
@@ -44,16 +40,18 @@ def save_tracked_trends(trends):
     with open(TRACK_FILE, "w") as f:
         json.dump({"trends": sorted(set(trends))}, f, indent=2)
 
+def update_index_file(trends):
+    files = [f"{safe_name(t)}.json" for t in trends]
+    with open(f"{DATA_DIR}/index.json", "w") as f:
+        json.dump({"files": files}, f, indent=2)
+
 def check_url(url):
     try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        return r.status_code == 200
+        return requests.get(url, headers=HEADERS, timeout=8).status_code == 200
     except:
         return False
 
-# =====================================================
-# SOCIAL PRESENCE (NO APIs)
-# =====================================================
+# ================= SOCIAL PRESENCE =================
 
 def get_social_presence(trend):
     tag = trend.replace(" ", "")
@@ -65,9 +63,7 @@ def get_social_presence(trend):
         ) else "low"
     }
 
-# =====================================================
-# GOOGLE DISCOVERY
-# =====================================================
+# ================= GOOGLE DISCOVERY =================
 
 def google_autocomplete(seed):
     try:
@@ -75,7 +71,7 @@ def google_autocomplete(seed):
             "https://suggestqueries.google.com/complete/search",
             params={"client": "firefox", "q": seed},
             headers=HEADERS,
-            timeout=10
+            timeout=8
         )
         return r.json()[1][:10]
     except:
@@ -89,67 +85,56 @@ def trending_searches():
     except:
         return []
 
+def score_trend(t):
+    score = 0
+    if len(t.split()) >= 2:
+        score += 10
+    if any(w in t for w in ["npc", "ai", "meme", "viral", "stream", "photo"]):
+        score += 20
+    if len(t) < 35:
+        score += 10
+    return score
+
 def discover_trends():
-    candidates = set()
+    c = set()
     for seed in SEED_KEYWORDS:
         for term in google_autocomplete(seed):
-            candidates.add(term.lower())
+            if score_trend(term.lower()) >= DISCOVERY_SCORE_THRESHOLD:
+                c.add(term.lower())
     for term in trending_searches():
-        candidates.add(term.lower())
-    return [t for t in candidates if score_trend(t) >= DISCOVERY_SCORE_THRESHOLD]
+        if score_trend(term.lower()) >= DISCOVERY_SCORE_THRESHOLD:
+            c.add(term.lower())
+    return list(c)
 
-# =====================================================
-# GOOGLE TRENDS METRICS
-# =====================================================
+# ================= GOOGLE TRENDS =================
 
 def get_google_trends(keyword):
     try:
         pytrends = TrendReq(hl="en-US", tz=360)
         pytrends.build_payload([keyword], timeframe="now 7-d")
         df = pytrends.interest_over_time()
-
         if df.empty:
             return {"interest_score": 0, "trend_direction": "flat"}
 
-        values = df[keyword].tolist()
-        latest = values[-1]
-        prev = values[-2] if len(values) > 1 else latest
-
-        direction = "flat"
-        if latest > prev:
-            direction = "rising"
-        elif latest < prev:
-            direction = "falling"
-
+        v = df[keyword].tolist()
+        latest, prev = v[-1], v[-2] if len(v) > 1 else v[-1]
         return {
             "interest_score": int(latest),
-            "trend_direction": direction
+            "trend_direction": "rising" if latest > prev else "falling" if latest < prev else "flat"
         }
     except:
         return {"interest_score": 0, "trend_direction": "flat"}
 
-# =====================================================
-# SCORING + MOMENTUM
-# =====================================================
+# ================= SIGNAL & LIFECYCLE =================
 
-def score_trend(keyword):
-    score = 0
-    if len(keyword.split()) >= 2:
-        score += 10
-    if any(w in keyword for w in ["npc", "ai", "meme", "viral", "stream"]):
-        score += 20
-    if len(keyword) < 35:
-        score += 10
-    return score
+def social_weight(v):
+    return {"low": 5, "medium": 15, "high": 30}.get(v, 0)
 
-def social_weight(level):
-    return {"low": 5, "medium": 15, "high": 30}.get(level, 0)
-
-def compute_signal_score(google, social):
-    score = google.get("interest_score", 0)
+def compute_signal(google, social):
+    s = google.get("interest_score", 0)
     for v in social.values():
-        score += social_weight(v)
-    return min(score, 100)
+        s += social_weight(v)
+    return min(s, 100)
 
 def compute_momentum(history, current):
     if not history:
@@ -157,58 +142,48 @@ def compute_momentum(history, current):
     prev = history[-1]["signal_score"]
     if prev == 0:
         return "0%"
-    delta = ((current - prev) / prev) * 100
-    return f"{delta:+.0f}%"
+    return f"{((current - prev) / prev * 100):+.0f}%"
 
-def determine_lifecycle(history, signal_score, momentum):
+def determine_lifecycle(history, signal, momentum):
     if len(history) < 3:
         return "new"
-    try:
-        delta = int(momentum.replace("%", ""))
-    except:
-        delta = 0
-
-    if signal_score < 20:
+    d = int(momentum.replace("%", ""))
+    if signal < 20:
         return "dead"
-    if delta >= 10:
+    if d >= 10:
         return "rising"
-    if -5 <= delta <= 5:
+    if -5 <= d <= 5:
         return "peak"
-    if delta <= -10:
+    if d <= -10:
         return "fading"
     return "stable"
 
-# =====================================================
-# MEME COIN (ONLY WHEN RELEVANT)
-# =====================================================
+# ================= MEME COIN =================
 
 def search_meme_coin(trend):
     try:
         q = trend.split()[0]
         r = requests.get(
             f"https://api.dexscreener.com/latest/dex/search/?q={q}",
-            timeout=10
+            timeout=8
         )
-        pairs = r.json().get("pairs", [])
-        if not pairs:
+        p = r.json().get("pairs", [])
+        if not p:
             return None
-        top = pairs[0]
+        t = p[0]
         return {
-            "name": top["baseToken"]["name"],
-            "symbol": top["baseToken"]["symbol"],
-            "chain": top["chainId"],
-            "dex": top["dexId"],
-            "liquidity_usd": top.get("liquidity", {}).get("usd"),
-            "url": top.get("url")
+            "name": t["baseToken"]["name"],
+            "symbol": t["baseToken"]["symbol"],
+            "chain": t["chainId"],
+            "liquidity_usd": t.get("liquidity", {}).get("usd"),
+            "url": t.get("url")
         }
     except:
         return None
 
-# =====================================================
-# CLAUDE
-# =====================================================
+# ================= CLAUDE =================
 
-def call_claude(prompt, max_tokens=400):
+def call_claude(prompt, max_tokens=350):
     if not CLAUDE_API_KEY:
         return None
     try:
@@ -224,7 +199,7 @@ def call_claude(prompt, max_tokens=400):
                 "max_tokens": max_tokens,
                 "messages": [{"role": "user", "content": prompt}]
             },
-            timeout=30
+            timeout=25
         )
         return r.json()["content"][0]["text"]
     except:
@@ -233,42 +208,27 @@ def call_claude(prompt, max_tokens=400):
 def claude_analysis(trend, google, social, momentum, token):
     prompt = f"""
 Trend: {trend}
-Google Trends: {google}
-Social Presence: {social}
+Google: {google}
+Social: {social}
 Momentum: {momentum}
 Token: {token}
 
-Tasks:
-1. Explain the trend (2–3 sentences)
-2. Status (accelerating / stable / declining)
-3. One meme line
-4. Is the token genuinely related?
-
-Respond ONLY as JSON:
+Return JSON:
 analysis, status, meme, token_relevant
 """
-    text = call_claude(prompt)
     try:
-        return json.loads(text)
+        return json.loads(call_claude(prompt))
     except:
-        return {
-            "analysis": "Analysis unavailable.",
-            "status": "stable",
-            "meme": "",
-            "token_relevant": False
-        }
+        return {"analysis": "", "status": "stable", "meme": "", "token_relevant": False}
 
-# =====================================================
-# MAIN
-# =====================================================
+# ================= MAIN =================
 
 def main():
     tracked = load_tracked_trends()
     all_trends = tracked.copy()
 
     if ENABLE_AUTO_DISCOVERY:
-        discovered = discover_trends()
-        for t in discovered:
+        for t in discover_trends():
             if t not in all_trends:
                 all_trends.append(t)
                 if len(all_trends) - len(tracked) >= MAX_NEW_TRENDS_PER_RUN:
@@ -276,16 +236,16 @@ def main():
         save_tracked_trends(all_trends)
 
     for trend in all_trends:
-        file = f"{DATA_DIR}/{safe_name(trend)}.json"
+        path = f"{DATA_DIR}/{safe_name(trend)}.json"
         history = []
 
-        if os.path.exists(file):
-            with open(file) as f:
+        if os.path.exists(path):
+            with open(path) as f:
                 history = json.load(f).get("history", [])
 
         google = get_google_trends(trend)
         social = get_social_presence(trend)
-        signal = compute_signal_score(google, social)
+        signal = compute_signal(google, social)
         momentum = compute_momentum(history, signal)
 
         history.append({
@@ -299,7 +259,6 @@ def main():
         token = token_candidate if analysis.get("token_relevant") else None
 
         lifecycle = determine_lifecycle(history, signal, momentum)
-        highlight = True if token else False
 
         data = {
             "trend": trend,
@@ -308,17 +267,17 @@ def main():
             "signal_score": signal,
             "momentum": momentum,
             "lifecycle": lifecycle,
-            "highlight": highlight,
+            "highlight": bool(token),
             "history": history,
-            "timestamp": datetime.datetime.utcnow().isoformat(),
             "analysis": analysis,
-            "token": token
+            "token": token,
+            "timestamp": datetime.datetime.utcnow().isoformat()
         }
 
-        with open(file, "w") as f:
+        with open(path, "w") as f:
             json.dump(data, f, indent=2)
 
-        print("Updated:", trend)
+    update_index_file(all_trends)
 
 if __name__ == "__main__":
     main()
