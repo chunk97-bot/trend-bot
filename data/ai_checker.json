@@ -1,0 +1,25 @@
+{
+  "trend": "ai checker",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "timestamp": "2026-02-04T10:37:01.970502",
+  "analysis": {
+    "analysis": "The trend for 'ai checker' is currently flat, indicating a stable interest level over time. This suggests that the search volume for this term has not been experiencing significant growth or decline.",
+    "status": "stable",
+    "meme": "When your AI assistant knows more about you than your own mom.",
+    "image_prompt": "A robot standing in front of a mirror, scratching its metallic head in confusion."
+  },
+  "token": null
+}
