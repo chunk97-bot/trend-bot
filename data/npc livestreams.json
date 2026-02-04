@@ -5,10 +5,11 @@
     "youtube": 0,
     "x": 0
   },
-  "timestamp": "2026-02-04T06:40:47.407998",
+  "timestamp": "2026-02-04T06:49:28.468537",
   "analysis": {
-    "analysis": "NPC (Non-Player Character) livestreams have emerged as a unique form of entertainment where people role-play as AI-controlled characters found in video games. These streams often feature performers who aim to mimic the behavior and dialogue of NPCs, creating an immersive and humorous experience for viewers.",
-    "status": "accelerating",
-    "meme": "Become the NPC you were born to be! Let the algorithms guide your every move, while the internet watches in amusement."
+    "analysis": "The 'npc livestreams' trend refers to the phenomenon of people streaming themselves behaving like non-playable characters (NPCs) in video games. This could involve mimicking the repetitive, scripted actions and dialogue of NPC characters or portraying themselves as 'human NPCs' in real-life situations. The trend seems to be a playful exploration of the boundaries between human and artificial behavior, and a commentary on the perceived lack of individuality or agency in modern life.",
+    "status": "stable",
+    "meme": "When your life is on auto-pilot, you might as well be an NPC.",
+    "token": null
   }
 }
