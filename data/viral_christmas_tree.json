@@ -1,0 +1,20 @@
+{
+  "trend": "viral christmas tree",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T10:04:45.064654",
+  "analysis": {
+    "analysis": "The Google Trends data shows that the interest in 'viral christmas tree' has remained flat, indicating no significant increase or decrease in popularity over time.",
+    "status": "stable",
+    "meme": "When your Christmas tree is so extra, it goes viral faster than Rudolph's nose!",
+    "image_prompt": "A Christmas tree adorned with flashing lights, tinsel, and quirky ornaments, captioned: 'The Viral Christmas Tree of the Season'"
+  },
+  "token": null
+}

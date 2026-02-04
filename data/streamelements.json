@@ -1,0 +1,20 @@
+{
+  "trend": "streamelements",
+  "metrics": {
+    "tiktok": 0,
+    "youtube": 0,
+    "x": 0
+  },
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "timestamp": "2026-02-04T10:04:42.493939",
+  "analysis": {
+    "analysis": "The Google Trends data shows that the interest in the search term 'streamelements' has remained flat, indicating a stable trend with no significant changes over time.",
+    "status": "stable",
+    "meme": "When your stream is as smooth as a StreamElements dashboard.",
+    "image_prompt": "A person casually navigating a StreamElements interface, surrounded by a whimsical cloud of data and widgets."
+  },
+  "token": null
+}
