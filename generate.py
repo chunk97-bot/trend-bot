@@ -26,8 +26,12 @@ SEED_KEYWORDS = [
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
+
 # =====================================================
-# UTIL: LOAD / SAVE TRACKED TRENDS
+# LOAD / SAVE TRACKED TRENDS
 # =====================================================
 
 def load_tracked_trends():
@@ -41,7 +45,39 @@ def save_tracked_trends(trends):
         json.dump({"trends": sorted(list(set(trends)))}, f, indent=2)
 
 # =====================================================
-# GOOGLE AUTOCOMPLETE (FREE)
+# SOCIAL PRESENCE (NO APIS)
+# =====================================================
+
+def check_url_exists(url):
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        return r.status_code == 200
+    except:
+        return False
+
+def get_social_presence(trend):
+    query = trend.replace(" ", "")
+    presence = {}
+
+    # X
+    presence["x"] = "high" if check_url_exists(
+        f"https://x.com/search?q={trend}"
+    ) else "low"
+
+    # TikTok
+    presence["tiktok"] = "high" if check_url_exists(
+        f"https://www.tiktok.com/tag/{query}"
+    ) else "low"
+
+    # Instagram
+    presence["instagram"] = "high" if check_url_exists(
+        f"https://www.instagram.com/explore/tags/{query}/"
+    ) else "low"
+
+    return presence
+
+# =====================================================
+# GOOGLE AUTOCOMPLETE
 # =====================================================
 
 def google_autocomplete(seed):
@@ -49,6 +85,7 @@ def google_autocomplete(seed):
         r = requests.get(
             "https://suggestqueries.google.com/complete/search",
             params={"client": "firefox", "q": seed},
+            headers=HEADERS,
             timeout=10
         )
         return r.json()[1][:10]
@@ -56,7 +93,7 @@ def google_autocomplete(seed):
         return []
 
 # =====================================================
-# GOOGLE TRENDS DISCOVERY (FREE)
+# GOOGLE TRENDS DISCOVERY
 # =====================================================
 
 def google_trends_discovery():
@@ -68,7 +105,7 @@ def google_trends_discovery():
         return []
 
 # =====================================================
-# DISCOVER RAW CANDIDATES
+# DISCOVER CANDIDATES
 # =====================================================
 
 def discover_candidates():
@@ -84,7 +121,7 @@ def discover_candidates():
     return list(candidates)
 
 # =====================================================
-# SCORE TREND (NO APIS)
+# SCORE TREND
 # =====================================================
 
 def score_trend(keyword):
@@ -133,7 +170,7 @@ def get_google_trends(keyword):
         return {"interest_score": 0, "trend_direction": "flat"}
 
 # =====================================================
-# CLAUDE CALL (GENERIC)
+# CLAUDE CALL
 # =====================================================
 
 def call_claude(prompt, max_tokens=300):
@@ -160,43 +197,21 @@ def call_claude(prompt, max_tokens=300):
         return None
 
 # =====================================================
-# CLAUDE VALIDATION (NOISE FILTER)
-# =====================================================
-
-def claude_validate_trend(trend):
-    prompt = f"""
-You are validating internet trends.
-
-Trend: "{trend}"
-
-Is this a real emerging internet or meme trend, or just noise?
-
-Respond ONLY as JSON:
-{{
-  "verdict": "approve" or "reject",
-  "confidence": "low|medium|high",
-  "reason": "short explanation"
-}}
-"""
-    text = call_claude(prompt, 200)
-    try:
-        return json.loads(text)
-    except:
-        return {"verdict": "reject"}
-
-# =====================================================
 # CLAUDE ANALYSIS
 # =====================================================
 
-def claude_analysis(trend, google_trends):
+def claude_analysis(trend, google_trends, social_presence):
     prompt = f"""
 Trend: {trend}
 
 Google Trends:
 {google_trends}
 
+Social Presence Signals:
+{social_presence}
+
 Tasks:
-1. Explain the trend in 2–3 sentences
+1. Explain the trend (2–3 sentences)
 2. Classify as accelerating, stable, or declining
 3. Write ONE meme-style sentence
 4. Write ONE short image prompt
@@ -223,7 +238,6 @@ def main():
     tracked = load_tracked_trends()
     all_trends = tracked.copy()
 
-    # -------- AUTO DISCOVERY --------
     if ENABLE_AUTO_DISCOVERY:
         candidates = discover_candidates()
         new_trends = []
@@ -234,10 +248,7 @@ def main():
             if score_trend(term) < DISCOVERY_SCORE_THRESHOLD:
                 continue
 
-            verdict = claude_validate_trend(term)
-            if verdict.get("verdict") == "approve":
-                new_trends.append(term)
-
+            new_trends.append(term)
             if len(new_trends) >= MAX_NEW_TRENDS_PER_RUN:
                 break
 
@@ -245,13 +256,13 @@ def main():
             all_trends.extend(new_trends)
             save_tracked_trends(all_trends)
 
-    # -------- GENERATE DATA --------
     for trend in all_trends:
         safe = trend.replace(" ", "_").lower()
         outfile = f"{DATA_DIR}/{safe}.json"
 
         google = get_google_trends(trend)
-        analysis = claude_analysis(trend, google)
+        social = get_social_presence(trend)
+        analysis = claude_analysis(trend, google, social)
 
         data = {
             "trend": trend,
@@ -261,6 +272,7 @@ def main():
                 "x": 0
             },
             "google_trends": google,
+            "social_presence": social,
             "timestamp": datetime.datetime.utcnow().isoformat(),
             "analysis": analysis,
             "token": None
@@ -270,10 +282,6 @@ def main():
             json.dump(data, f, indent=2)
 
         print("Updated:", trend)
-
-# =====================================================
-# ENTRY
-# =====================================================
 
 if __name__ == "__main__":
     main()
