@@ -30,11 +30,18 @@ function renderTrend(data) {
     (metrics.x || 0) +
     (gt.interest_score || 0);
 
-  const img = document.createElement("img");
-  img.src = imageUrl;
-  img.className = "trend-image";
-  img.onerror = () => img.remove();
+const img = document.createElement("img");
+img.className = "trend-image";
+img.style.display = "none";
+img.src = imageUrl;
 
+img.onload = () => {
+  img.style.display = "block";
+};
+
+img.onerror = () => {
+  img.remove();
+};
   card.appendChild(img);
 
   card.innerHTML += `
