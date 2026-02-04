@@ -1,0 +1,36 @@
+{
+  "trend": "npc news online",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-04T23:54:38.447678",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'npc news online' appears to be flat, with no significant increase or decrease in search interest. The high social media engagement, especially on TikTok and Instagram, suggests that this topic may have some meme or viral potential. However, the momentum score of 0% indicates a lack of current growth or momentum. The Non-Playable Coin (NPC) token appears to have moderate liquidity, but it's unclear if it is directly relevant to the 'npc news online' topic.",
+    "status": "flat",
+    "meme": "high",
+    "token_relevant": "moderate"
+  },
+  "token": {
+    "name": "Non-Playable Coin",
+    "symbol": "NPC",
+    "chain": "bsc",
+    "liquidity_usd": 376128.4,
+    "url": "https://dexscreener.com/bsc/0xb2f3279107da5fde24e6d7337cf4ecaf6c5ada26"
+  },
+  "timestamp": "2026-02-04T23:54:40.108776"
+}
