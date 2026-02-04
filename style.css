@@ -84,3 +84,19 @@ header {
   margin-bottom: 8px;
   font-size: 16px;
 }
+.featured {
+  padding: 40px 20px;
+  background: #111;
+  border-top: 1px solid #222;
+}
+
+.featured h3 {
+  margin-bottom: 20px;
+}
+
+.btn.small {
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  display: inline-block;
+}
