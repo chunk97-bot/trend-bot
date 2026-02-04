@@ -86,3 +86,11 @@ header {
   border: 1px solid #1e293b;
   font-size: 14px;
 }
+.trend-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  object-fit: cover;
+  max-height: 420px;
+}
