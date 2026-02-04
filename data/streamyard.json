@@ -1,0 +1,30 @@
+{
+  "trend": "streamyard",
+  "google_trends": {
+    "interest_score": 67,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T21:02:44.667596",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "Streamyard is a rising trend with high interest and social media presence, especially on platforms like TikTok and Instagram. However, the momentum is currently at 0%, indicating that the trend may not be experiencing significant growth at the moment. Without a token, there is no specific cryptocurrency-related information to provide.",
+    "status": "Neutral",
+    "meme": "None",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T21:02:46.240752"
+}

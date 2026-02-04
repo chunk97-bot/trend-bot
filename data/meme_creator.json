@@ -1,28 +1,40 @@
 {
   "trend": "meme creator",
   "google_trends": {
-    "interest_score": 23,
-    "trend_direction": "falling"
+    "interest_score": 42,
+    "trend_direction": "rising"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
     "instagram": "low"
   },
-  "signal_score": 88,
-  "momentum": "0%",
+  "signal_score": 100,
+  "momentum": "+14%",
+  "lifecycle": "new",
+  "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T10:59:18.173920",
       "signal_score": 88
+    },
+    {
+      "timestamp": "2026-02-04T21:02:40.235498",
+      "signal_score": 100
     }
   ],
-  "timestamp": "2026-02-04T10:59:19.471204",
   "analysis": {
-    "analysis": "The trend for 'meme creator' is falling, indicating a decline in interest over time. The Google Trends data shows an interest score of 23, which is relatively low.",
-    "status": "declining",
-    "meme": "When your meme game is as weak as your social presence...",
-    "token_relevant": false
+    "analysis": "The meme creator trend is rising with a Google interest score of 42, indicating growing popularity. The social media presence is also high, especially on TikTok and to a lesser extent on Instagram. The momentum is positive at +14%, suggesting the trend is gaining traction. The related token, MEMEcoin, is available on the Solana blockchain and has a decent liquidity of around $8.9 million, making it potentially relevant to the meme creator trend.",
+    "status": "positive",
+    "meme": "The meme creator trend is showing signs of growth, with increasing interest and social media presence.",
+    "token_relevant": true
   },
-  "token": null
+  "token": {
+    "name": "MEMEcoin",
+    "symbol": "MEME",
+    "chain": "solana",
+    "liquidity_usd": 8910628.85,
+    "url": "https://dexscreener.com/solana/26hq83ubjaxgmcmtbgqqrwmurtwg92eejgfuyd7zkvuh"
+  },
+  "timestamp": "2026-02-04T21:02:42.754753"
 }
