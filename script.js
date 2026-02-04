@@ -4,7 +4,7 @@ async function loadTrends() {
   container.innerHTML = "";
 
   try {
-    const res = await fetch("./data/npc livestreams.json");
+    const res = await fetch("./data/npc livestreams.json?ts=" + Date.now());
     const data = await res.json();
     renderTrend(data);
   } catch (err) {
@@ -19,16 +19,20 @@ function renderTrend(data) {
 
   const status = data.analysis?.status || "stable";
   const gt = data.google_trends || { interest_score: 0 };
-
   const metrics = data.metrics || {};
+
   const tiktok = metrics.tiktok || 0;
   const youtube = metrics.youtube || 0;
   const x = metrics.x || 0;
   const google = gt.interest_score || 0;
-
   const totalInterest = tiktok + youtube + x + google;
 
+  const imageQuery = encodeURIComponent(data.trend);
+  const imageUrl = `https://source.unsplash.com/900x500/?${imageQuery}`;
+
   card.innerHTML = `
+    <img class="trend-image" src="${imageUrl}" alt="${data.trend}" />
+
     <h2>${data.trend}</h2>
 
     <div class="status ${status}">
@@ -67,8 +71,5 @@ function renderTrend(data) {
   container.appendChild(card);
 }
 
-// Initial load
 loadTrends();
-
-// Auto refresh every 2 minutes
 setInterval(loadTrends, 120000);
