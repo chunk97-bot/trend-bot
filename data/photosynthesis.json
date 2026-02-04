@@ -1,0 +1,30 @@
+{
+  "trend": "photosynthesis",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-04T11:44:50.375371",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'photosynthesis' shows a flat interest on Google, indicating a stable but not rapidly growing level of search interest. However, the social media data suggests high engagement across platforms like TikTok and Instagram, indicating strong interest and discussion around the topic on social media. The momentum is currently at 0%, implying no significant recent changes in the trend. Based on the data, this topic appears to have a strong social media presence but lacks a significant uptick in search interest on Google.",
+    "status": "Stable",
+    "meme": "A plant-based pun: 'Let's leaf the search trends and grow our social media game!'",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-04T11:44:52.612155"
+}
