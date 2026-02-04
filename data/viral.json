@@ -1,0 +1,28 @@
+{
+  "trend": "viral",
+  "google_trends": {
+    "interest_score": 54,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "history": [
+    {
+      "timestamp": "2026-02-04T10:59:20.649240",
+      "signal_score": 100
+    }
+  ],
+  "timestamp": "2026-02-04T10:59:21.727061",
+  "analysis": {
+    "analysis": "The trend for this token is falling, with a Google Trends interest score of 54, indicating declining popularity over time.",
+    "status": "declining",
+    "meme": "When your token's hype is as dead as a dodo, time to find a new shiny thing to pump!",
+    "token_relevant": false
+  },
+  "token": null
+}

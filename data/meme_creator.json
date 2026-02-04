@@ -1,25 +1,28 @@
 {
   "trend": "meme creator",
-  "metrics": {
-    "tiktok": 0,
-    "youtube": 0,
-    "x": 0
-  },
   "google_trends": {
-    "interest_score": 0,
-    "trend_direction": "flat"
+    "interest_score": 23,
+    "trend_direction": "falling"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "timestamp": "2026-02-04T10:37:04.457284",
+  "signal_score": 88,
+  "momentum": "0%",
+  "history": [
+    {
+      "timestamp": "2026-02-04T10:59:18.173920",
+      "signal_score": 88
+    }
+  ],
+  "timestamp": "2026-02-04T10:59:19.471204",
   "analysis": {
-    "analysis": "The trend for 'meme creator' shows little to no interest, indicating a flat trend. However, the strong social presence signals suggest a high level of activity on popular platforms like TikTok and Instagram, implying a potentially engaged audience.",
-    "status": "stable",
-    "meme": "When your meme is so dank, it creates a new dimension of laughter.",
-    "image_prompt": "A quirky character dancing among a collage of viral internet images."
+    "analysis": "The trend for 'meme creator' is falling, indicating a decline in interest over time. The Google Trends data shows an interest score of 23, which is relatively low.",
+    "status": "declining",
+    "meme": "When your meme game is as weak as your social presence...",
+    "token_relevant": false
   },
   "token": null
 }
