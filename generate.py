@@ -2,13 +2,13 @@ import os
 import json
 import urllib.request
 from datetime import datetime
+from pytrends.request import TrendReq
 
-# =========================================
+# =====================================================
 # CONFIG
-# =========================================
+# =====================================================
 TREND = "npc livestreams"
 DATA_DIR = "data"
-
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 CLAUDE_MODEL = "claude-3-haiku-20240307"
 
@@ -17,9 +17,9 @@ os.makedirs(DATA_DIR, exist_ok=True)
 print("=== GENERATE.PY START ===")
 print("Claude key exists:", bool(CLAUDE_API_KEY))
 
-# =========================================
-# METRICS (PLACEHOLDER – WILL IMPROVE LATER)
-# =========================================
+# =====================================================
+# SOCIAL METRICS (PLACEHOLDER FOR NOW)
+# =====================================================
 def get_metrics():
     return {
         "tiktok": 0,
@@ -27,9 +27,46 @@ def get_metrics():
         "x": 0
     }
 
-# =========================================
-# DEXSCREENER LOOKUP (CONDITIONAL)
-# =========================================
+# =====================================================
+# GOOGLE TRENDS (NO API KEY)
+# =====================================================
+def fetch_google_trends(trend):
+    try:
+        pytrends = TrendReq(hl="en-US", tz=360)
+        pytrends.build_payload([trend], timeframe="now 7-d")
+        interest = pytrends.interest_over_time()
+
+        if interest.empty:
+            return {
+                "interest_score": 0,
+                "trend_direction": "flat"
+            }
+
+        values = interest[trend].tolist()
+        latest = values[-1]
+        previous = values[-2] if len(values) > 1 else latest
+
+        direction = (
+            "rising" if latest > previous else
+            "falling" if latest < previous else
+            "flat"
+        )
+
+        return {
+            "interest_score": int(latest),
+            "trend_direction": direction
+        }
+
+    except Exception as e:
+        print("Google Trends error:", e)
+        return {
+            "interest_score": 0,
+            "trend_direction": "unknown"
+        }
+
+# =====================================================
+# DEXSCREENER (ONLY IF TOKEN IS RELEVANT)
+# =====================================================
 def fetch_token_from_dexscreener(ticker):
     try:
         symbol = ticker.replace("$", "")
@@ -57,45 +94,40 @@ def fetch_token_from_dexscreener(ticker):
         print("DexScreener error:", e)
         return None
 
-# =========================================
-# CLAUDE CALL
-# =========================================
-def call_claude(trend, metrics):
+# =====================================================
+# CLAUDE AI
+# =====================================================
+def call_claude(trend, metrics, google_trends):
     prompt = f"""
 You are an internet trend analyst.
 
-Trend: {trend}
+Trend:
+{trend}
 
-Metrics:
+Social Metrics:
 {json.dumps(metrics, indent=2)}
+
+Google Trends:
+{json.dumps(google_trends, indent=2)}
 
 Tasks:
 1. Explain what is happening with this trend
 2. Classify it as accelerating, stable, or fading
 3. Write a short meme-style line (1–2 lines)
-4. Determine if THIS trend explicitly involves a crypto or meme coin
+4. Decide if this trend explicitly involves a crypto or meme coin
 
-Rules for token detection:
-- Only return a token if it is clearly part of the trend narrative
-- Token must be relevant to the trend itself
+Rules:
+- Only return a token if it is clearly part of the trend
 - If unsure, return null
+- Do NOT hallucinate tokens
 
-Return ONLY valid JSON in one of these formats:
-
-{{
-  "analysis": "...",
-  "status": "accelerating | stable | fading",
-  "meme": "...",
-  "token": null
-}}
-
-OR (only if clearly relevant):
+Return ONLY valid JSON:
 
 {{
   "analysis": "...",
   "status": "accelerating | stable | fading",
   "meme": "...",
-  "token": {{
+  "token": null OR {{
     "name": "TokenName",
     "ticker": "$TICKER"
   }}
@@ -124,43 +156,41 @@ OR (only if clearly relevant):
         response = json.loads(r.read().decode("utf-8"))
         return json.loads(response["content"][0]["text"])
 
-# =========================================
+# =====================================================
 # MAIN
-# =========================================
+# =====================================================
 file_path = os.path.join(DATA_DIR, f"{TREND}.json")
 
 metrics = get_metrics()
+google_trends = fetch_google_trends(TREND)
 
 data = {
     "trend": TREND,
     "metrics": metrics,
+    "google_trends": google_trends,
     "timestamp": datetime.utcnow().isoformat()
 }
 
-# Run Claude
 if CLAUDE_API_KEY:
     try:
         print("Calling Claude...")
-        analysis = call_claude(TREND, metrics)
+        analysis = call_claude(TREND, metrics, google_trends)
         data["analysis"] = analysis
         print("Claude analysis saved")
 
-        # Attach token data ONLY if relevant and not already attached
+        # Attach token ONLY if Claude says so
         if analysis.get("token"):
             print("Claude detected token:", analysis["token"]["ticker"])
-
-            if "token" not in data:
-                token_data = fetch_token_from_dexscreener(
-                    analysis["token"]["ticker"]
-                )
-                if token_data:
-                    data["token"] = token_data
-                    print("Token attached:", token_data["ticker"])
+            token_data = fetch_token_from_dexscreener(
+                analysis["token"]["ticker"]
+            )
+            if token_data:
+                data["token"] = token_data
+                print("Token attached:", token_data["ticker"])
 
     except Exception as e:
         print("Claude error:", e)
 
-# Persist data
 with open(file_path, "w") as f:
     json.dump(data, f, indent=2)
 
