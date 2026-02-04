@@ -1,4 +1,7 @@
 import os
+print("Claude key exists:", bool(os.getenv("CLAUDE_API_KEY")))
+
+import os
 import json
 import re
 import urllib.request
