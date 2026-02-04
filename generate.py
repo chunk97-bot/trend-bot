@@ -194,7 +194,7 @@ analysis_block = {
     "meme": "people are watching\nnobody knows why but it works"
 }
 
-if CLAUDE_API_KEY and should_call_claude(history):
+if CLAUDE_API_KEY:
     try:
         old = history[-2]["metrics"] if len(history) >= 2 else {}
         new = history[-1]["metrics"]
