@@ -24,28 +24,25 @@ SEED_KEYWORDS = [
     "photo", "stream"
 ]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
-
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # =====================================================
-# UTILITIES
+# UTIL
 # =====================================================
 
-def safe_name(text):
-    return text.lower().replace(" ", "_").replace("-", "_")
+def safe_name(t):
+    return t.lower().replace(" ", "_").replace("-", "_")
 
 def load_tracked_trends():
     if not os.path.exists(TRACK_FILE):
         return []
-    with open(TRACK_FILE, "r") as f:
+    with open(TRACK_FILE) as f:
         return json.load(f).get("trends", [])
 
 def save_tracked_trends(trends):
     with open(TRACK_FILE, "w") as f:
-        json.dump({"trends": sorted(list(set(trends)))}, f, indent=2)
+        json.dump({"trends": sorted(set(trends))}, f, indent=2)
 
 def check_url(url):
     try:
@@ -63,11 +60,13 @@ def get_social_presence(trend):
     return {
         "x": "high" if check_url(f"https://x.com/search?q={trend}") else "low",
         "tiktok": "high" if check_url(f"https://www.tiktok.com/tag/{tag}") else "low",
-        "instagram": "high" if check_url(f"https://www.instagram.com/explore/tags/{tag}/") else "low"
+        "instagram": "high" if check_url(
+            f"https://www.instagram.com/explore/tags/{tag}/"
+        ) else "low"
     }
 
 # =====================================================
-# GOOGLE AUTOCOMPLETE + TRENDS
+# GOOGLE DISCOVERY
 # =====================================================
 
 def google_autocomplete(seed):
@@ -89,6 +88,19 @@ def trending_searches():
         return df[0].tolist()[:10]
     except:
         return []
+
+def discover_trends():
+    candidates = set()
+    for seed in SEED_KEYWORDS:
+        for term in google_autocomplete(seed):
+            candidates.add(term.lower())
+    for term in trending_searches():
+        candidates.add(term.lower())
+    return [t for t in candidates if score_trend(t) >= DISCOVERY_SCORE_THRESHOLD]
+
+# =====================================================
+# GOOGLE TRENDS METRICS
+# =====================================================
 
 def get_google_trends(keyword):
     try:
@@ -117,34 +129,18 @@ def get_google_trends(keyword):
         return {"interest_score": 0, "trend_direction": "flat"}
 
 # =====================================================
-# TREND DISCOVERY
+# SCORING + MOMENTUM
 # =====================================================
 
 def score_trend(keyword):
     score = 0
     if len(keyword.split()) >= 2:
         score += 10
-    if any(w in keyword for w in ["npc", "ai", "meme", "viral", "photo", "stream"]):
+    if any(w in keyword for w in ["npc", "ai", "meme", "viral", "stream"]):
         score += 20
     if len(keyword) < 35:
         score += 10
     return score
-
-def discover_trends():
-    candidates = set()
-
-    for seed in SEED_KEYWORDS:
-        for term in google_autocomplete(seed):
-            candidates.add(term.lower())
-
-    for term in trending_searches():
-        candidates.add(term.lower())
-
-    return [t for t in candidates if score_trend(t) >= DISCOVERY_SCORE_THRESHOLD]
-
-# =====================================================
-# MOMENTUM + SIGNAL SCORE
-# =====================================================
 
 def social_weight(level):
     return {"low": 5, "medium": 15, "high": 30}.get(level, 0)
@@ -164,8 +160,26 @@ def compute_momentum(history, current):
     delta = ((current - prev) / prev) * 100
     return f"{delta:+.0f}%"
 
+def determine_lifecycle(history, signal_score, momentum):
+    if len(history) < 3:
+        return "new"
+    try:
+        delta = int(momentum.replace("%", ""))
+    except:
+        delta = 0
+
+    if signal_score < 20:
+        return "dead"
+    if delta >= 10:
+        return "rising"
+    if -5 <= delta <= 5:
+        return "peak"
+    if delta <= -10:
+        return "fading"
+    return "stable"
+
 # =====================================================
-# MEME COIN DETECTION (DEXSCREENER – SAFE MODE)
+# MEME COIN (ONLY WHEN RELEVANT)
 # =====================================================
 
 def search_meme_coin(trend):
@@ -178,14 +192,12 @@ def search_meme_coin(trend):
         pairs = r.json().get("pairs", [])
         if not pairs:
             return None
-
         top = pairs[0]
-
         return {
-            "name": top.get("baseToken", {}).get("name"),
-            "symbol": top.get("baseToken", {}).get("symbol"),
-            "chain": top.get("chainId"),
-            "dex": top.get("dexId"),
+            "name": top["baseToken"]["name"],
+            "symbol": top["baseToken"]["symbol"],
+            "chain": top["chainId"],
+            "dex": top["dexId"],
             "liquidity_usd": top.get("liquidity", {}).get("usd"),
             "url": top.get("url")
         }
@@ -199,7 +211,6 @@ def search_meme_coin(trend):
 def call_claude(prompt, max_tokens=400):
     if not CLAUDE_API_KEY:
         return None
-
     try:
         r = requests.post(
             "https://api.anthropic.com/v1/messages",
@@ -222,17 +233,16 @@ def call_claude(prompt, max_tokens=400):
 def claude_analysis(trend, google, social, momentum, token):
     prompt = f"""
 Trend: {trend}
-
 Google Trends: {google}
 Social Presence: {social}
 Momentum: {momentum}
-Token Data: {token}
+Token: {token}
 
 Tasks:
 1. Explain the trend (2–3 sentences)
-2. Classify status (accelerating / stable / declining)
-3. Write ONE meme-style line
-4. Say if the token is genuinely relevant or not
+2. Status (accelerating / stable / declining)
+3. One meme line
+4. Is the token genuinely related?
 
 Respond ONLY as JSON:
 analysis, status, meme, token_relevant
@@ -258,19 +268,19 @@ def main():
 
     if ENABLE_AUTO_DISCOVERY:
         discovered = discover_trends()
-        for trend in discovered:
-            if trend not in all_trends:
-                all_trends.append(trend)
+        for t in discovered:
+            if t not in all_trends:
+                all_trends.append(t)
                 if len(all_trends) - len(tracked) >= MAX_NEW_TRENDS_PER_RUN:
                     break
         save_tracked_trends(all_trends)
 
     for trend in all_trends:
-        filename = f"{DATA_DIR}/{safe_name(trend)}.json"
+        file = f"{DATA_DIR}/{safe_name(trend)}.json"
         history = []
 
-        if os.path.exists(filename):
-            with open(filename, "r") as f:
+        if os.path.exists(file):
+            with open(file) as f:
                 history = json.load(f).get("history", [])
 
         google = get_google_trends(trend)
@@ -286,8 +296,10 @@ def main():
 
         token_candidate = search_meme_coin(trend)
         analysis = claude_analysis(trend, google, social, momentum, token_candidate)
-
         token = token_candidate if analysis.get("token_relevant") else None
+
+        lifecycle = determine_lifecycle(history, signal, momentum)
+        highlight = True if token else False
 
         data = {
             "trend": trend,
@@ -295,17 +307,18 @@ def main():
             "social_presence": social,
             "signal_score": signal,
             "momentum": momentum,
+            "lifecycle": lifecycle,
+            "highlight": highlight,
             "history": history,
             "timestamp": datetime.datetime.utcnow().isoformat(),
             "analysis": analysis,
             "token": token
         }
 
-        with open(filename, "w") as f:
+        with open(file, "w") as f:
             json.dump(data, f, indent=2)
 
         print("Updated:", trend)
 
 if __name__ == "__main__":
     main()
-
