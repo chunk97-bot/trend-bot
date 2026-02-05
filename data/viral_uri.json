@@ -1,0 +1,36 @@
+{
+  "trend": "viral uri",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T07:55:54.869342",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'viral uri' appears to be flat based on the Google search interest score, indicating a lack of significant growth in search volume. The social media data shows high engagement on TikTok and Instagram, suggesting a potentially viral online presence. However, the momentum metric of 0% indicates no recent momentum in the trend. The token 'ViralCoinApp' (VIRAL) is on the Solana blockchain, with a relatively low liquidity of $33,028.14, which may limit its relevance to the overall trend.",
+    "status": "flat",
+    "meme": "high",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "ViralCoinApp",
+    "symbol": "VIRAL",
+    "chain": "solana",
+    "liquidity_usd": 33028.14,
+    "url": "https://dexscreener.com/solana/4wpvnswrjzudxgqaum3xzfnjsdyfqiiqxgptipb7klm5"
+  },
+  "timestamp": "2026-02-05T07:55:56.701900"
+}

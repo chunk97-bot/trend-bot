@@ -1,0 +1,36 @@
+{
+  "trend": "npc",
+  "google_trends": {
+    "interest_score": 59,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T07:55:50.476457",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The Non-Playable Coin (NPC) trend is currently falling, with a Google search interest score of 59. The social media presence is high on TikTok and Instagram, indicating potential meme-worthiness. However, the token's liquidity on the Ethereum chain is relatively low at $2.3 million, suggesting limited adoption and potential volatility. Overall, the NPC token may have some meme potential, but the falling trend and low liquidity could make it a risky investment.",
+    "status": "Falling",
+    "meme": "Moderately High",
+    "token_relevant": "Moderately Relevant"
+  },
+  "token": {
+    "name": "Non-Playable Coin",
+    "symbol": "NPC",
+    "chain": "ethereum",
+    "liquidity_usd": 2377408.56,
+    "url": "https://dexscreener.com/ethereum/0x69c7bd26512f52bf6f76fab834140d13dda673ca"
+  },
+  "timestamp": "2026-02-05T07:55:53.391817"
+}
