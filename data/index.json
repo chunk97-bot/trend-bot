@@ -1,6 +1,6 @@
 {
   "files": [
-    "npc.json",
-    "viral_uri.json"
+    "npc_meaning.json",
+    "ai_humanizer.json"
   ]
 }

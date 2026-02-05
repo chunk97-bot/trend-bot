@@ -1,0 +1,36 @@
+{
+  "trend": "ai humanizer",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T10:10:19.693105",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend 'ai humanizer' is currently flat, indicating no significant change in interest over time. However, the social media metrics show a high level of activity across various platforms, suggesting a potentially high level of online engagement and discussion around this topic. The token 'Any Inu' (symbol: AI) has a relatively low liquidity of $24,562.95 on the Binance Smart Chain (BSC) network, and it's unclear how directly relevant this token is to the 'ai humanizer' trend.",
+    "status": "Neutral",
+    "meme": "The high social media activity suggests there could be a meme-like quality to the 'ai humanizer' trend, but the lack of a clear price trend and the low liquidity of the 'Any Inu' token make it difficult to definitively characterize this as a 'meme' trend.",
+    "token_relevant": "The 'Any Inu' token does not appear to be highly relevant to the 'ai humanizer' trend, as there is no clear connection between the token and the topic. The low liquidity of the token also suggests it may not be a significant player in the 'ai humanizer' ecosystem."
+  },
+  "token": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "chain": "bsc",
+    "liquidity_usd": 24562.95,
+    "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
+  },
+  "timestamp": "2026-02-05T10:10:22.059301"
+}

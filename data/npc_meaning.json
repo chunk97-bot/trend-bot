@@ -1,36 +1,40 @@
 {
   "trend": "npc meaning",
   "google_trends": {
-    "interest_score": 23,
+    "interest_score": 0,
     "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "low"
+    "instagram": "high"
   },
-  "signal_score": 88,
-  "momentum": "0%",
+  "signal_score": 90,
+  "momentum": "+2%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T11:49:05.899322",
       "signal_score": 88
+    },
+    {
+      "timestamp": "2026-02-05T10:10:16.735513",
+      "signal_score": 90
     }
   ],
   "analysis": {
-    "analysis": "The term 'NPC' (Non-Playable Character) is primarily used in the context of video games and online communities, and it does not appear to have a direct connection to a cryptocurrency or token called 'Non-Playable Coin' (NPC). The provided information about the 'Non-Playable Coin' token, including its details and liquidity, suggests that it is a relatively obscure and potentially low-volume cryptocurrency, and it is not clear how it is related to the more common usage of the 'NPC' term.",
-    "status": "The search query 'npc meaning' does not appear to be directly related to the 'Non-Playable Coin' (NPC) token, and the provided information does not indicate a strong connection between the two.",
-    "meme": "The 'NPC' term is sometimes used in a meme-like or derogatory way to refer to individuals who are perceived as unthinking or conformist, but this usage is not directly related to the 'Non-Playable Coin' token.",
-    "token_relevant": "The 'Non-Playable Coin' (NPC) token appears to be a relatively obscure cryptocurrency with limited information available, and it is not clear how it is related to the more common usage of the 'NPC' term. The provided information does not suggest that the token is particularly relevant or significant in the broader cryptocurrency or online communities."
+    "analysis": "The trend for 'npc meaning' is relatively flat, with no significant increase or decrease in search interest. However, the term appears to be popular on social media platforms like TikTok and Instagram, indicating a high level of discussion and engagement around the topic. The momentum of the trend is slightly positive, suggesting a minor increase in interest over time. There is a token called 'Non-Playable Coin' (NPC) on the Ethereum blockchain, but it's unclear if this is directly related to the 'npc meaning' search term.",
+    "status": "flat",
+    "meme": "high",
+    "token_relevant": "low"
   },
   "token": {
     "name": "Non-Playable Coin",
     "symbol": "NPC",
-    "chain": "bsc",
-    "liquidity_usd": 391420.72,
-    "url": "https://dexscreener.com/bsc/0xb2f3279107da5fde24e6d7337cf4ecaf6c5ada26"
+    "chain": "ethereum",
+    "liquidity_usd": 2384480.68,
+    "url": "https://dexscreener.com/ethereum/0x69c7bd26512f52bf6f76fab834140d13dda673ca"
   },
-  "timestamp": "2026-02-04T11:49:13.874896"
+  "timestamp": "2026-02-05T10:10:18.180484"
 }
