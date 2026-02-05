@@ -1,0 +1,36 @@
+{
+  "trend": "photographer",
+  "google_trends": {
+    "interest_score": 75,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T11:53:09.354823",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'photographer' is rising, with a high interest score of 75. The social media presence for photographers is also high across platforms like TikTok and Instagram. However, the momentum for the token 'PHOTOGRAPHER: SEM PRESSER' is currently 0%, indicating a lack of significant price movement. While the token may be relevant for photographers, the current data suggests there is not a significant investment opportunity or meme potential.",
+    "status": "neutral",
+    "meme": "low",
+    "token_relevant": "medium"
+  },
+  "token": {
+    "name": "PHOTOGRAPHER: SEM PRESSER",
+    "symbol": "PHOTOGRAPHER: SEM PRESSER",
+    "chain": "base",
+    "liquidity_usd": null,
+    "url": "https://dexscreener.com/base/0x8a030b966fd6d07bb1c5fe421deeecceb168feb233c011fcc07692fdb630f204"
+  },
+  "timestamp": "2026-02-05T11:53:10.830408"
+}

@@ -1,7 +1,7 @@
 {
   "trend": "meme soundboard",
   "google_trends": {
-    "interest_score": 0,
+    "interest_score": 28,
     "trend_direction": "flat"
   },
   "social_presence": {
@@ -9,28 +9,32 @@
     "tiktok": "high",
     "instagram": "high"
   },
-  "signal_score": 90,
-  "momentum": "0%",
+  "signal_score": 100,
+  "momentum": "+11%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T11:18:44.395658",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-05T11:53:12.505350",
+      "signal_score": 100
     }
   ],
   "analysis": {
-    "analysis": "The trend for meme soundboard appears to be flat, with no significant increase or decrease in interest over time. The social media engagement is high across platforms like TikTok and Instagram, indicating a strong presence and popularity of meme-related content. However, the momentum score of 0% suggests that the trend is not currently gaining significant traction. The MEMEcoin token, which is based on the Solana blockchain, has a relatively high liquidity of over $8.9 million, indicating a level of market activity and interest in meme-related cryptocurrency projects. Overall, the data suggests a stable but not rapidly growing interest in meme soundboards and related content.",
-    "status": "stable",
-    "meme": true,
-    "token_relevant": true
+    "analysis": "The 'meme soundboard' trend seems to be experiencing a flat interest level, with a high presence on social media platforms like TikTok and Instagram. The momentum is also positive, indicating a potential for growth. While there is a cryptocurrency called 'MEMEcoin' that is relevant to this trend, the liquidity is relatively low, which may limit its potential impact.",
+    "status": "Stable",
+    "meme": "The meme soundboard trend has a consistent, high-level presence on social media, suggesting it is a well-established and popular trend.",
+    "token_relevant": "The 'MEMEcoin' token is relevant to the meme soundboard trend, but its relatively low liquidity may limit its immediate impact or usefulness for this particular trend."
   },
   "token": {
     "name": "MEMEcoin",
     "symbol": "MEME",
     "chain": "solana",
-    "liquidity_usd": 8910628.85,
+    "liquidity_usd": 8910630.54,
     "url": "https://dexscreener.com/solana/26hq83ubjaxgmcmtbgqqrwmurtwg92eejgfuyd7zkvuh"
   },
-  "timestamp": "2026-02-04T11:18:46.420930"
+  "timestamp": "2026-02-05T11:53:14.711936"
 }
