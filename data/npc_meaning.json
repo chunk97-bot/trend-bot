@@ -2,16 +2,16 @@
   "trend": "npc meaning",
   "google_trends": {
     "interest_score": 0,
-    "trend_direction": "flat"
+    "trend_direction": "falling"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "signal_score": 90,
-  "momentum": "+2%",
-  "lifecycle": "new",
+  "signal_score": 65,
+  "momentum": "-28%",
+  "lifecycle": "fading",
   "highlight": true,
   "history": [
     {
@@ -21,20 +21,24 @@
     {
       "timestamp": "2026-02-05T10:10:16.735513",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-05T21:03:25.521584",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The trend for 'npc meaning' is relatively flat, with no significant increase or decrease in search interest. However, the term appears to be popular on social media platforms like TikTok and Instagram, indicating a high level of discussion and engagement around the topic. The momentum of the trend is slightly positive, suggesting a minor increase in interest over time. There is a token called 'Non-Playable Coin' (NPC) on the Ethereum blockchain, but it's unclear if this is directly related to the 'npc meaning' search term.",
-    "status": "flat",
-    "meme": "high",
-    "token_relevant": "low"
+    "analysis": "The term 'NPC' (Non-Playable Character) is a commonly used term in the gaming community, referring to characters in a game that are controlled by the game's artificial intelligence rather than a human player. However, the information provided does not indicate that there is a significant trend or interest in the term 'NPC' at the moment, as the Google Trends data shows a falling interest score and the social media data suggests relatively low interest across platforms. The token information provided seems unrelated to the 'NPC' term, and appears to be for a cryptocurrency called 'Non-Playable Coin' rather than a term or trend related to non-playable characters in games.",
+    "status": "not_trending",
+    "meme": "low",
+    "token_relevant": "false"
   },
   "token": {
     "name": "Non-Playable Coin",
     "symbol": "NPC",
     "chain": "ethereum",
-    "liquidity_usd": 2384480.68,
+    "liquidity_usd": 2209677.13,
     "url": "https://dexscreener.com/ethereum/0x69c7bd26512f52bf6f76fab834140d13dda673ca"
   },
-  "timestamp": "2026-02-05T10:10:18.180484"
+  "timestamp": "2026-02-05T21:03:27.236942"
 }
