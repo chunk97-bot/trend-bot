@@ -1,7 +1,7 @@
 {
   "trend": "ai checker",
   "google_trends": {
-    "interest_score": 50,
+    "interest_score": 42,
     "trend_direction": "rising"
   },
   "social_presence": {
@@ -10,27 +10,31 @@
     "instagram": "low"
   },
   "signal_score": 100,
-  "momentum": "0%",
+  "momentum": "+0%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T21:56:33.797023",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-05T21:57:30.821017",
+      "signal_score": 100
     }
   ],
   "analysis": {
-    "analysis": "The trend for 'ai checker' is rising, with a Google interest score of 50. The social media presence is high on TikTok and moderately high on other platforms. However, the momentum is currently at 0%. The token 'Any Inu' (AI) is on the Binance Smart Chain, with a liquidity of $24,756.27. Overall, the trend and social media presence indicate potential interest, but the lack of momentum and the meme-like nature of the token suggest that it may not be highly relevant or impactful at the moment.",
+    "analysis": "The 'AI checker' trend is rising on Google with a score of 42, indicating increasing interest. However, the social media metrics show a mixed picture, with high interest on TikTok and 'x', but low interest on Instagram. The momentum for this trend is currently flat at 0%. The token 'Any Inu' (symbol: AI) is on the Binance Smart Chain and has a liquidity of $21,462.05. Overall, the trend is gaining traction, but the mixed social media signals and flat momentum suggest the meme potential may be limited.",
     "status": "neutral",
-    "meme": "high",
-    "token_relevant": "low"
+    "meme": "low",
+    "token_relevant": "moderate"
   },
   "token": {
     "name": "Any Inu",
     "symbol": "AI",
     "chain": "bsc",
-    "liquidity_usd": 24756.27,
+    "liquidity_usd": 21462.05,
     "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
   },
-  "timestamp": "2026-02-04T21:56:35.302559"
+  "timestamp": "2026-02-05T21:57:32.395808"
 }
