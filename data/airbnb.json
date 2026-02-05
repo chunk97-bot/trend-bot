@@ -1,0 +1,36 @@
+{
+  "trend": "airbnb",
+  "google_trends": {
+    "interest_score": 78,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T23:52:15.644121",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for Airbnb appears to be relatively flat, with a Google interest score of 78. However, the social media presence of the brand is high, especially on TikTok and Instagram. While the momentum is at 0%, the token information provided suggests a reasonable level of liquidity, indicating a potentially active market. Overall, the data suggests a stable and popular brand with a strong social media presence, but limited momentum in the short-term.",
+    "status": "stable",
+    "meme": "low",
+    "token_relevant": "yes"
+  },
+  "token": {
+    "name": "AIRBNB",
+    "symbol": "AIRBNB",
+    "chain": "bsc",
+    "liquidity_usd": 13273.81,
+    "url": "https://dexscreener.com/bsc/0x78ee2eee4cfa167c4f217e595f7b1a77baa43b87"
+  },
+  "timestamp": "2026-02-05T23:52:17.444177"
+}

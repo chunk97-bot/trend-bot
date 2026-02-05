@@ -1,0 +1,30 @@
+{
+  "trend": "npc college",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-05T23:52:19.531623",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-05T23:52:22.540033"
+}
