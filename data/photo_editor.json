@@ -1,0 +1,36 @@
+{
+  "trend": "photo editor",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 90,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T19:48:37.286387",
+      "signal_score": 90
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'photo editor' appears to be flat, with no significant increase or decrease in interest. However, the social media data shows high engagement on platforms like TikTok and Instagram, indicating a strong presence in the social media landscape. The momentum is at 0%, suggesting the trend is not currently gaining significant traction. The token SAND is not directly relevant to the 'photo editor' trend, as it is a cryptocurrency token and not a photo editing tool or service.",
+    "status": "neutral",
+    "meme": "low",
+    "token_relevant": "no"
+  },
+  "token": {
+    "name": "SAND",
+    "symbol": "SAND",
+    "chain": "base",
+    "liquidity_usd": null,
+    "url": "https://dexscreener.com/base/0x209520543001f7129e5f2d693310943f9bb00037035fcdf1336ba96280fa9852"
+  },
+  "timestamp": "2026-02-05T19:48:39.308955"
+}

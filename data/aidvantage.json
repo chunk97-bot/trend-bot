@@ -1,0 +1,30 @@
+{
+  "trend": "aidvantage",
+  "google_trends": {
+    "interest_score": 65,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-05T19:48:41.246194",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend 'aidvantage' appears to be falling in Google search interest, with a score of 65. However, it has high social media engagement across various platforms like TikTok and Instagram. The momentum is at 0%, indicating a lack of significant growth or change. Without a token associated with this trend, there is limited information to provide a more comprehensive analysis.",
+    "status": "neutral",
+    "meme": "None",
+    "token_relevant": "No"
+  },
+  "token": null,
+  "timestamp": "2026-02-05T19:48:42.853510"
+}
