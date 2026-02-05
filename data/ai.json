@@ -1,0 +1,30 @@
+{
+  "trend": "ai",
+  "google_trends": {
+    "interest_score": 73,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-05T22:59:36.534264",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The provided data indicates a rising trend for the term 'ai', with high interest on Google and social media platforms like TikTok and Instagram. However, the token 'Any Inu' with the symbol 'AI' does not seem to be directly relevant to the AI trend, as it has a relatively low liquidity of around $21,950 and is not a widely known or popular token. Therefore, this token is unlikely to be a significant part of the broader AI trend.",
+    "status": "Not relevant",
+    "meme": "No",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-05T22:59:38.148041"
+}

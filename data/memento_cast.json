@@ -1,0 +1,36 @@
+{
+  "trend": "memento cast",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T22:59:39.717628",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The search trend for 'memento cast' is flat, indicating no significant interest or changes in search volume over time. The social media activity is high on TikTok and high overall, but low on Instagram. The token 'Memento' (DEXTF) has a low liquidity of around $241,769 on the Base chain. Based on this information, the 'memento cast' topic does not appear to be a strong meme or trend, and the 'Memento' token is not highly relevant to the query.",
+    "status": "neutral",
+    "meme": "low",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "Memento",
+    "symbol": "DEXTF",
+    "chain": "base",
+    "liquidity_usd": 241769.59,
+    "url": "https://dexscreener.com/base/0xc3f617c8a3da6d286c8f97af946a8f293632c852"
+  },
+  "timestamp": "2026-02-05T22:59:41.135300"
+}
