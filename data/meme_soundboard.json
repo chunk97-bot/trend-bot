@@ -1,17 +1,17 @@
 {
   "trend": "meme soundboard",
   "google_trends": {
-    "interest_score": 28,
+    "interest_score": 0,
     "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "signal_score": 100,
-  "momentum": "+11%",
-  "lifecycle": "new",
+  "signal_score": 65,
+  "momentum": "-35%",
+  "lifecycle": "fading",
   "highlight": true,
   "history": [
     {
@@ -21,13 +21,17 @@
     {
       "timestamp": "2026-02-05T11:53:12.505350",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-05T14:34:18.129560",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The 'meme soundboard' trend seems to be experiencing a flat interest level, with a high presence on social media platforms like TikTok and Instagram. The momentum is also positive, indicating a potential for growth. While there is a cryptocurrency called 'MEMEcoin' that is relevant to this trend, the liquidity is relatively low, which may limit its potential impact.",
-    "status": "Stable",
-    "meme": "The meme soundboard trend has a consistent, high-level presence on social media, suggesting it is a well-established and popular trend.",
-    "token_relevant": "The 'MEMEcoin' token is relevant to the meme soundboard trend, but its relatively low liquidity may limit its immediate impact or usefulness for this particular trend."
+    "analysis": "The overall trend for meme soundboards is flat, with low interest and social media activity. The momentum for the trend is negative, indicating a decline in popularity. The token 'MEMEcoin' is relevant to the meme soundboard trend, with a decent level of liquidity on the Solana blockchain. However, the low overall trend and momentum suggest that the meme soundboard market may not be the most promising opportunity at the moment.",
+    "status": "flat",
+    "meme": "low",
+    "token_relevant": true
   },
   "token": {
     "name": "MEMEcoin",
@@ -36,5 +40,5 @@
     "liquidity_usd": 8910630.54,
     "url": "https://dexscreener.com/solana/26hq83ubjaxgmcmtbgqqrwmurtwg92eejgfuyd7zkvuh"
   },
-  "timestamp": "2026-02-05T11:53:14.711936"
+  "timestamp": "2026-02-05T14:34:19.774646"
 }

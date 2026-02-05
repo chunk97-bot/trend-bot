@@ -1,36 +1,40 @@
 {
   "trend": "viral meningitis",
   "google_trends": {
-    "interest_score": 29,
-    "trend_direction": "rising"
+    "interest_score": 0,
+    "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
     "instagram": "low"
   },
-  "signal_score": 94,
-  "momentum": "0%",
+  "signal_score": 65,
+  "momentum": "-31%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T11:49:14.816294",
       "signal_score": 94
+    },
+    {
+      "timestamp": "2026-02-05T14:34:21.349393",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The trend for 'viral meningitis' is rising, with a Google Trends interest score of 29. The social media interest is high on platforms like TikTok and Instagram. However, the momentum for this trend is currently at 0%. While there is a token named 'ViralCoinApp' (symbol: VIRAL) on the Solana blockchain, with a liquidity of $34,594.06, it does not seem directly relevant to the 'viral meningitis' trend.",
-    "status": "rising",
-    "meme": "low",
-    "token_relevant": "no"
+    "analysis": "The trend for 'viral meningitis' is currently flat, indicating a stable interest level. The social media engagement is high on TikTok and high on Instagram, suggesting a potential viral or meme-like nature. However, the momentum is negative, showing a recent decline in interest. The token 'ViralCoinApp' (VIRAL) is listed on the Solana blockchain, but with relatively low liquidity, indicating a potentially speculative or niche project.",
+    "status": "neutral",
+    "meme": "high",
+    "token_relevant": "low"
   },
   "token": {
     "name": "ViralCoinApp",
     "symbol": "VIRAL",
     "chain": "solana",
-    "liquidity_usd": 34594.06,
+    "liquidity_usd": 32787.16,
     "url": "https://dexscreener.com/solana/4wpvnswrjzudxgqaum3xzfnjsdyfqiiqxgptipb7klm5"
   },
-  "timestamp": "2026-02-04T11:49:16.261590"
+  "timestamp": "2026-02-05T14:34:22.941951"
 }
