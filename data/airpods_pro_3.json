@@ -1,0 +1,30 @@
+{
+  "trend": "airpods pro 3",
+  "google_trends": {
+    "interest_score": 0,
+    "trend_direction": "flat"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-05T17:32:14.783767",
+      "signal_score": 65
+    }
+  ],
+  "analysis": {
+    "analysis": "The data indicates that the trend for AirPods Pro 3 is currently flat, with no significant increase or decrease in interest. The social media interest is mixed, with high activity on TikTok and Twitter, but low activity on Instagram. The momentum is stagnant at 0%. Based on this, there is no strong evidence to suggest a significant upcoming release or trend for the AirPods Pro 3.",
+    "status": "flat",
+    "meme": "The AirPods Pro 3 trend seems to be in a holding pattern, like a plane circling the airport waiting for clearance to land. Maybe Apple is just fine-tuning them in secret before unveiling the next big upgrade.",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-05T17:32:16.842596"
+}
