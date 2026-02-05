@@ -1,0 +1,36 @@
+{
+  "trend": "ai mode",
+  "google_trends": {
+    "interest_score": 79,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-05T05:09:44.676506",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The 'ai mode' trend appears to be on a downward trajectory, with a declining Google search interest score of 79. However, the token 'Any Inu' (AI) is still generating significant social media buzz, with high activity on platforms like TikTok and Instagram. The token's liquidity of $24,102.12 on the Binance Smart Chain (BSC) network suggests some level of market activity. Given the declining trend but ongoing social media presence, the overall assessment is that the 'ai mode' trend may be losing momentum, but the 'Any Inu' token could still be relevant to some degree as a meme-inspired project.",
+    "status": "falling",
+    "meme": "high",
+    "token_relevant": "moderately"
+  },
+  "token": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "chain": "bsc",
+    "liquidity_usd": 24102.12,
+    "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
+  },
+  "timestamp": "2026-02-05T05:09:46.314999"
+}

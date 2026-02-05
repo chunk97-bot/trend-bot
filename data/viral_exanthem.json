@@ -1,36 +1,40 @@
 {
   "trend": "viral exanthem",
   "google_trends": {
-    "interest_score": 36,
-    "trend_direction": "rising"
+    "interest_score": 0,
+    "trend_direction": "falling"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "signal_score": 100,
-  "momentum": "0%",
+  "signal_score": 65,
+  "momentum": "-35%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T22:55:54.423034",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-05T05:09:40.769641",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The trend 'viral exanthem' is experiencing a rising interest based on the Google Trends data, with a relatively high score of 36. Additionally, the social media activity around this trend is also high across platforms like TikTok and Instagram. However, the momentum for this trend is 0%, indicating that it may not be growing rapidly or consistently. The 'ViralCoinApp' token on the Solana blockchain has a relatively low liquidity of $32,615.51, suggesting that it may not be directly relevant to the 'viral exanthem' trend.",
-    "status": "Rising interest, high social media activity, low momentum, token not directly relevant",
-    "meme": "The 'viral exanthem' trend could potentially spawn some memes or viral content related to skin rashes or viral infections, but the low momentum suggests it may not be a prime candidate for a breakout meme at the moment.",
-    "token_relevant": 2
+    "analysis": "The trend for 'viral exanthem' is currently falling, with a momentum decrease of 35%. The online interest and social media engagement appear to be high, indicating a potential decrease in public attention. However, the token 'ViralCoinApp' (VIRAL) on the Solana blockchain has relatively low liquidity, suggesting limited relevance to the viral exanthem trend.",
+    "status": "declining",
+    "meme": "low",
+    "token_relevant": "no"
   },
   "token": {
     "name": "ViralCoinApp",
     "symbol": "VIRAL",
     "chain": "solana",
-    "liquidity_usd": 32615.51,
+    "liquidity_usd": 33028.14,
     "url": "https://dexscreener.com/solana/4wpvnswrjzudxgqaum3xzfnjsdyfqiiqxgptipb7klm5"
   },
-  "timestamp": "2026-02-04T22:55:56.594103"
+  "timestamp": "2026-02-05T05:09:42.210038"
 }
