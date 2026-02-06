@@ -1,0 +1,30 @@
+{
+  "trend": "airpods 4",
+  "google_trends": {
+    "interest_score": 74,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-06T07:52:35.319063",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for AirPods 4 is rising, with high interest on Google and strong social media presence. However, the momentum for this trend is 0%, indicating a lack of significant growth or change in the near future. Without any additional token information, it's difficult to provide a more comprehensive analysis.",
+    "status": "Rising",
+    "meme": "AirPods 4 hype train coming through!",
+    "token_relevant": false
+  },
+  "token": null,
+  "timestamp": "2026-02-06T07:52:36.868103"
+}

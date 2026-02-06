@@ -1,36 +1,40 @@
 {
   "trend": "npcap",
   "google_trends": {
-    "interest_score": 0,
-    "trend_direction": "flat"
+    "interest_score": 74,
+    "trend_direction": "rising"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
-    "instagram": "high"
+    "instagram": "low"
   },
-  "signal_score": 90,
-  "momentum": "0%",
+  "signal_score": 100,
+  "momentum": "+11%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T11:44:55.007837",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-06T07:52:31.368175",
+      "signal_score": 100
     }
   ],
   "analysis": {
-    "analysis": "The trend for 'npcap' appears to be flat, with a Google interest score of 0 and no significant momentum. The social media presence is high across platforms like TikTok and Instagram, indicating strong online engagement. The Lobster Language Model (LLM) token has a relatively low liquidity of $3,963.81 on the Solana blockchain, suggesting it may not be a widely traded or popular token at the moment.",
-    "status": "neutral",
-    "meme": "The high social media presence and flat trend could indicate a potential meme-worthy opportunity, but the low token liquidity suggests it may not have gained significant traction yet.",
-    "token_relevant": "The Lobster Language Model (LLM) token is not directly relevant to the 'npcap' trend, as it appears to be a separate token on the Solana blockchain. The low liquidity of the LLM token indicates it may not be a major factor in the analysis of the 'npcap' trend."
+    "analysis": "The provided data indicates a rising trend for 'npcap', with a high level of interest and social media engagement, particularly on TikTok and Instagram. The momentum is also positive, suggesting an increase in the token's performance. However, the provided token information is not very relevant, as it does not seem to be directly related to the 'npcap' trend. Further investigation would be needed to determine if this token is actually connected to the 'npcap' trend.",
+    "status": "mixed",
+    "meme": "The high social media activity, especially on TikTok and Instagram, suggests that the 'npcap' trend may have some meme-like qualities, but more information would be needed to confirm this.",
+    "token_relevant": "low"
   },
   "token": {
-    "name": "Lobster Language Model",
-    "symbol": "LLM",
+    "name": "MoodengOfficialtrumpNpcApeDoge",
+    "symbol": "Monad",
     "chain": "solana",
-    "liquidity_usd": 3963.81,
-    "url": "https://dexscreener.com/solana/wbmchjonunpcapq4qmbhay9rme7v5tcecb5sg6pxblc"
+    "liquidity_usd": null,
+    "url": "https://dexscreener.com/solana/fuercc3rum7inudkeddpktvf7lxbb3tfzcgrikavbtnc"
   },
-  "timestamp": "2026-02-04T11:44:57.467111"
+  "timestamp": "2026-02-06T07:52:33.201074"
 }
