@@ -1,27 +1,31 @@
 {
   "trend": "memento movie",
   "google_trends": {
-    "interest_score": 39,
-    "trend_direction": "rising"
+    "interest_score": 0,
+    "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
     "instagram": "high"
   },
-  "signal_score": 100,
-  "momentum": "0%",
+  "signal_score": 90,
+  "momentum": "-10%",
   "lifecycle": "new",
   "highlight": true,
   "history": [
     {
       "timestamp": "2026-02-04T23:54:35.041409",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T10:07:07.118023",
+      "signal_score": 90
     }
   ],
   "analysis": {
-    "analysis": "The movie Memento has a rising trend with high interest and engagement on social media platforms like TikTok and Instagram. However, the Momentum score is 0%, indicating a lack of recent growth in the trend. The token 'DEXTF' is related to the movie, but its low liquidity of $278,445.99 suggests it may not be a highly relevant or active token in the market.",
-    "status": "rising",
+    "analysis": "The trend for the movie 'Memento' appears to be flat, with no significant increase or decrease in interest over time. However, the movie has high social media engagement across various platforms, indicating ongoing popularity and discussion among audiences. The token 'Memento' (DEXTF) on the Base chain has a relatively low liquidity of $242,119.6, suggesting it may not be a highly relevant or active cryptocurrency related to the movie.",
+    "status": "flat",
     "meme": "high",
     "token_relevant": "low"
   },
@@ -29,8 +33,8 @@
     "name": "Memento",
     "symbol": "DEXTF",
     "chain": "base",
-    "liquidity_usd": 278445.99,
+    "liquidity_usd": 242119.6,
     "url": "https://dexscreener.com/base/0xc3f617c8a3da6d286c8f97af946a8f293632c852"
   },
-  "timestamp": "2026-02-04T23:54:36.480351"
+  "timestamp": "2026-02-06T10:07:08.789365"
 }
