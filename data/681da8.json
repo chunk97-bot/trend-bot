@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "51.1K",
-      "reposts": "16.5K",
-      "raw_posts": 51088,
-      "raw_reposts": 16503
+      "posts": "99.6K",
+      "reposts": "8.9K",
+      "raw_posts": 99603,
+      "raw_reposts": 8873
     },
     "tiktok": {
-      "views": "9.8M",
-      "videos": "12.7K",
-      "raw_views": 9834043
+      "views": "4.5M",
+      "videos": "21.9K",
+      "raw_views": 4512141
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 90,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral TikTok Trend Sparks Debate Over Digital Authenticity",
-    "summary": "A new TikTok trend involving an enigmatic hexadecimal code is captivating the internet, raising questions about the line between genuine online expression and orchestrated virality.",
-    "origin_story": "The trend first emerged on TikTok, where users have been sharing videos featuring the hexadecimal code '681da8', leading to a surge of activity across the platform.",
-    "expert_analysis": "This trend taps into the growing desire for digital experiences that feel more authentic and unscripted. As social media users become increasingly savvy to the mechanics of viral marketing, they are drawn to content that appears to be organic and spontaneous, rather than overtly engineered for engagement.",
-    "impact": "The popularity of this trend highlights the power of mystery and user interpretation to drive online discourse and engagement.",
+    "headline": "Mysterious Hex Code Captivates the Internet: What's Behind the Viral Trend?",
+    "summary": "A mysterious six-character hex code, 681da8, has taken the internet by storm, sparking widespread intrigue and speculation across various social media platforms. The trend's rapid rise has left many users curious about its origins and significance.",
+    "origin_story": "The hex code first gained traction on platforms like Twitter and TikTok, with users sharing posts and videos exploring its possible meanings and potential hidden messages.",
+    "expert_analysis": "This trend taps into the human desire to uncover hidden meanings and solve intriguing mysteries. In an age where digital communication is ubiquitous, the simplicity of a single hex code has captured the imagination of users, who are eager to collectively decipher its significance and uncover its origins.",
+    "impact": "The viral nature of this trend has the potential to inspire creative collaborations and investigations, fostering a sense of community among curious internet users.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T21:04:06.457050+00:00",
+  "timestamp": "2026-02-06T21:56:44.411415+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -100,6 +100,10 @@
     {
       "timestamp": "2026-02-06T21:04:06.457066+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T21:56:44.411431+00:00",
+      "signal_score": 90
     }
   ]
 }

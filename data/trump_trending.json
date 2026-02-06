@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "253.3K",
-      "raw": 253349
+      "searches": "108.7K",
+      "raw": 108712
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches as Controversial Figure Remains in Spotlight",
-    "summary": "Former President Donald Trump has once again captured the public's attention, with his name dominating Google searches in recent days. This surge of interest reflects the ongoing fascination and polarization surrounding one of the most divisive political figures of our time.",
-    "origin_story": "Trump's name has been a consistent top search term on Google, a trend that has persisted since his time in the White House and the events surrounding the 2020 election.",
-    "expert_analysis": "Trump's ability to command the spotlight, even after leaving office, speaks to the enduring influence of his brand and the deep divisions he has sown within American politics. This trend highlights the power of online search as a barometer of public interest and the enduring impact of Trump's polarizing presence in the national discourse.",
-    "impact": "The sustained interest in Trump on Google could shape media coverage, public discourse, and even the political landscape as the nation grapples with the lasting effects of his presidency.",
+    "headline": "Trump Surges Back into Spotlight as Impeachment Chatter Heats Up",
+    "summary": "Former President Donald Trump has once again dominated the online conversation, with Google searches for his name spiking as renewed calls for his impeachment gain traction. The renewed interest in Trump comes amid growing speculation about his potential 2024 presidential run.",
+    "origin_story": "The latest Trump-related trending spike appears to have been triggered by comments made by Democratic lawmakers about the possibility of impeaching the former president over his role in the January 6th Capitol riots.",
+    "expert_analysis": "Trump's enduring presence in the national conversation, even after leaving office, underscores his unique ability to captivate the public's attention. This trend reflects the deep political polarization in the US, as well as the former president's skill at generating controversy and driving the news cycle.",
+    "impact": "The renewed focus on Trump could have significant implications for the 2024 election cycle and the broader political landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T21:04:35.980610+00:00",
+  "timestamp": "2026-02-06T21:57:23.764103+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -60,6 +60,10 @@
     },
     {
       "timestamp": "2026-02-06T21:04:35.980624+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:23.764118+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "123.1K",
-      "raw": 123060
+      "searches": "183.7K",
+      "raw": 183746
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Topics Dominate Google Search as Public Fascination Grows",
-    "summary": "Artificial intelligence has taken the internet by storm, with an explosion of Google searches around AI-related topics. This surge of public interest reflects the rapid advancements and widespread impact of AI technology in our daily lives.",
-    "origin_story": "The spike in AI-related Google searches can be traced to the recent launch and widespread adoption of AI chatbots and language models, such as ChatGPT, which have captivated the public's imagination.",
-    "expert_analysis": "The trending interest in AI topics underscores the public's curiosity and excitement about the transformative potential of this technology. As AI becomes more integrated into our personal and professional lives, people are eager to understand its capabilities, applications, and implications for the future.",
-    "impact": "This surge in AI-related searches suggests that the technology is poised to play an increasingly central role in shaping our digital landscape and everyday experiences.",
+    "headline": "AI Takes the Spotlight as Trending Google Search Topic",
+    "summary": "Artificial intelligence (AI) has emerged as a dominant search trend on Google, reflecting the growing public fascination with this transformative technology. From chatbots to machine learning, AI is capturing the imagination of internet users across the globe.",
+    "origin_story": "The surge in AI-related searches can be traced back to the recent launch and widespread adoption of AI-powered chatbots, such as OpenAI's ChatGPT, which have demonstrated remarkable language understanding and generation capabilities.",
+    "expert_analysis": "This AI search trend underscores the public's eagerness to explore the possibilities and implications of this rapidly evolving technology. As AI systems become more sophisticated and integrated into our daily lives, people are seeking to understand how these tools can enhance productivity, creativity, and decision-making across various sectors.",
+    "impact": "The increasing popularity of AI-related searches on Google suggests that this technology is poised to have a profound and far-reaching impact on our personal and professional lives in the years to come.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T21:04:25.317162+00:00",
+  "timestamp": "2026-02-06T21:57:04.329819+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -54,6 +54,10 @@
     },
     {
       "timestamp": "2026-02-06T21:04:25.317177+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:04.329837+00:00",
       "signal_score": 50
     }
   ]

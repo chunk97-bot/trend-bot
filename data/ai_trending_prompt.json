@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "184.8K",
-      "raw": 184815
+      "searches": "214.3K",
+      "raw": 214326
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Prompts Spark Creativity Boom Across the Web",
-    "summary": "AI-powered text generation tools like ChatGPT have ignited a surge of interest in crafting unique, AI-assisted prompts. People are using these prompts to generate everything from artwork to stories, tapping into a new era of AI-fueled creativity.",
-    "origin_story": "The trend first gained momentum on social media, as users shared their AI-generated creations and the prompts used to produce them.",
-    "expert_analysis": "This trend reflects a broader cultural fascination with the capabilities of generative AI. As these tools become more accessible, people are exploring how to harness their power to unlock new forms of self-expression and imagination, blurring the lines between human and machine creativity.",
-    "impact": "The AI prompt trend is driving innovation across creative industries, from visual art to writing and beyond.",
-    "status": "viral"
+    "headline": "AI Prompt Writing Sparks Creativity Boom Across the Web",
+    "summary": "As AI language models become more sophisticated, internet users are harnessing the power of customized prompts to unlock new realms of creative expression. This trending practice is rapidly gaining popularity as a means to generate unique content, from artwork to stories.",
+    "origin_story": "The trend of AI prompt writing began on social media platforms like Twitter and TikTok, where users started sharing their prompts and the results, inspiring others to try it out.",
+    "expert_analysis": "This trend reflects a growing fascination with the capabilities of AI and a desire to harness them for personal creative expression. It also speaks to the human need for novel forms of self-expression in the digital age, as people seek new ways to stand out and showcase their unique perspectives.",
+    "impact": "The surge in AI prompt writing has the potential to revolutionize creative industries, as more people discover the power of AI-assisted content generation.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T21:04:22.116090+00:00",
+  "timestamp": "2026-02-06T21:57:00.406482+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-06T21:04:22.116105+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:00.406498+00:00",
       "signal_score": 50
     }
   ]
