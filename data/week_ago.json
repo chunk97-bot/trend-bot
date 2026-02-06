@@ -1,0 +1,76 @@
+{
+  "trend": "Week Ago",
+  "category": "memes",
+  "platforms": {
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "133.8K",
+      "reposts": "27.6K",
+      "raw_posts": 133810,
+      "raw_reposts": 27557
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 55,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Viral 'Week Ago' Trend Taps Into Nostalgic Longing for Simpler Times",
+    "summary": "The resurgence of the 'Week Ago' meme has captured the internet's imagination, as people seek respite from the chaos of the present by reminiscing about the relatively carefree days of just one week prior.",
+    "origin_story": "The trend originated on various social media platforms, where users have been sharing images and captions expressing a longing for the simplicity of the recent past.",
+    "expert_analysis": "This viral trend taps into a widespread desire to escape the overwhelming nature of modern life, even if just for a brief moment. By reflecting on the recent past, people are finding a sense of comfort and control in a world that often feels chaotic and unpredictable.",
+    "impact": "The 'Week Ago' trend has resonated with millions of internet users, providing a temporary refuge from the stresses and uncertainties of the present.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:25:51.079325+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:17.053375+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T11:08:23.526416+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T11:13:24.809563+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T11:47:15.087899+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:10:38.314923+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:20:32.695985+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:25:51.079325+00:00",
+      "signal_score": 55
+    }
+  ]
+}

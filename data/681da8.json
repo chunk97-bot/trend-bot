@@ -1,0 +1,89 @@
+{
+  "trend": "681da8",
+  "category": "internet culture",
+  "platforms": {
+    "x": true,
+    "tiktok": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "39.9K",
+      "reposts": "5.0K",
+      "raw_posts": 39947,
+      "raw_reposts": 5031
+    },
+    "tiktok": {
+      "views": "5.3M",
+      "videos": "13.8K",
+      "raw_views": 5329963
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Mysterious Hexadecimal Code Captivates TikTok and Twitter",
+    "summary": "A cryptic 6-digit hexadecimal code, '681da8', has gone viral across social media, sparking a wave of speculation and intrigue about its meaning and origin.",
+    "origin_story": "The trend first emerged on TikTok, where users began posting videos exploring potential interpretations and searching for clues about the code's significance.",
+    "expert_analysis": "This viral trend taps into the human desire to uncover hidden meanings and solve mysteries. The ambiguity of the code has captured the imagination of internet users, who are eager to crack the code and uncover its secrets, revealing our fascination with the unknown.",
+    "impact": "The viral spread of this enigmatic code has led to a surge of engagement across social media platforms, showcasing the power of participatory internet culture to captivate audiences.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:25:30.652325+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:43:01.180677+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-06T10:48:12.462433+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-06T11:08:13.920008+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-06T11:13:09.234499+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-06T11:29:32.829236+00:00",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-06T11:32:27.233961+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T11:47:06.441640+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T12:10:23.770715+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-06T12:20:11.872058+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T12:25:30.652325+00:00",
+      "signal_score": 75
+    }
+  ]
+}

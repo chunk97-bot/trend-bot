@@ -1,18 +1,19 @@
 {
   "trend": "viral",
+  "category": "memes",
   "google_trends": {
     "interest_score": 0,
     "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
-    "tiktok": "high",
-    "instagram": "low"
+    "tiktok": "low",
+    "instagram": "high"
   },
   "signal_score": 65,
-  "momentum": "-35%",
-  "lifecycle": "new",
-  "highlight": true,
+  "momentum": "+0%",
+  "lifecycle": "peak",
+  "highlight": false,
   "history": [
     {
       "timestamp": "2026-02-04T10:59:20.649240",
@@ -21,20 +22,24 @@
     {
       "timestamp": "2026-02-04T11:34:33.807580",
       "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-06T10:17:19.364741",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-06T10:26:27.428968",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The current trend for 'viral' is flat, with a low interest score and mixed social media performance. The momentum is negative, indicating a recent decline. The token 'ViralCoinApp' (VIRAL) is a Solana-based token with moderate liquidity.",
-    "status": "neutral",
-    "meme": "The overall trend and performance suggest a neutral meme status, without strong signs of virality or momentum.",
-    "token_relevant": "The token 'ViralCoinApp' (VIRAL) may be relevant to the 'viral' trend, but its current performance and metrics do not indicate a strong connection or potential for significant growth."
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false,
+    "image_prompt": null
   },
-  "token": {
-    "name": "ViralCoinApp",
-    "symbol": "VIRAL",
-    "chain": "solana",
-    "liquidity_usd": 34594.06,
-    "url": "https://dexscreener.com/solana/4wpvnswrjzudxgqaum3xzfnjsdyfqiiqxgptipb7klm5"
-  },
-  "timestamp": "2026-02-04T11:34:35.469581"
+  "token": null,
+  "image": null,
+  "timestamp": "2026-02-06T10:26:28.296548"
 }

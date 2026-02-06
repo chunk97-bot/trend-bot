@@ -1,6 +1,6 @@
 {
-  "trend": "npc",
-  "category": "memes",
+  "trend": "breaking bad season 2",
+  "category": "news",
   "google_trends": {
     "interest_score": 0,
     "trend_direction": "flat"
@@ -12,19 +12,15 @@
   },
   "signal_score": 65,
   "momentum": "+0%",
-  "lifecycle": "peak",
+  "lifecycle": "new",
   "highlight": false,
   "history": [
     {
-      "timestamp": "2026-02-05T07:55:50.476457",
-      "signal_score": 100
-    },
-    {
-      "timestamp": "2026-02-06T10:16:51.104744",
+      "timestamp": "2026-02-06T10:20:16.543743",
       "signal_score": 65
     },
     {
-      "timestamp": "2026-02-06T10:24:30.518769",
+      "timestamp": "2026-02-06T10:23:44.333126",
       "signal_score": 65
     }
   ],
@@ -37,5 +33,5 @@
   },
   "token": null,
   "image": null,
-  "timestamp": "2026-02-06T10:24:31.484291"
+  "timestamp": "2026-02-06T10:23:45.391473"
 }

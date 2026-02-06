@@ -1,0 +1,84 @@
+{
+  "trend": "trump trending news",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "287.5K",
+      "raw": 287460
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "trump trending news",
+    "trump trending",
+    "trump trending news today"
+  ],
+  "analysis": {
+    "headline": "Trump News Dominates Searches as Ex-President Makes Headlines",
+    "summary": "Interest in news about former President Donald Trump is surging, as the Republican continues to make waves with his ongoing political activities and legal battles. This spike in search activity reflects the enduring public fascination with Trump's divisive persona and his central role in the current political landscape.",
+    "origin_story": "Trump's name has remained a top search term on Google as he remains a central figure in American politics, with his potential 2024 presidential run and the various investigations surrounding him driving intense media coverage.",
+    "expert_analysis": "Trump's ability to command public attention, even after leaving office, underscores his unique status as a polarizing political force. This trend reflects the degree to which Trump has become a symbol, both for his supporters and critics, in the ongoing ideological battles shaping the US political discourse.",
+    "impact": "The sustained public interest in Trump-related news signals the lasting impact of his presidency and the pivotal role he is likely to play in the upcoming election cycle.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:26:29.128571+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:23.902569+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:45.773346+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:13:50.414662+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:33:02.779234+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:47.879082+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:11:13.035874+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:21:03.084773+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:29.128571+00:00",
+      "signal_score": 50
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trend": "super bowl trends betting",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "237.9K",
+      "raw": 237868
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Bettors Bet Big on Super Bowl LVII",
+    "summary": "With the Super Bowl just around the corner, sports betting enthusiasts are flocking to place their wagers, driving a surge in related online searches.",
+    "origin_story": "The Super Bowl has long been a major event for sports betting, and this year's game is no exception.",
+    "impact": "The increasing popularity of sports betting is transforming the way fans engage with the biggest game of the year.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T11:08:59.208063+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:29.869056+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:59.208063+00:00",
+      "signal_score": 50
+    }
+  ]
+}

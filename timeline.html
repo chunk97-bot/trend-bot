@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trend Timeline - Trend Radar</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="./index.html" class="logo-link">
+    <div class="logo-3d">
+      <div class="glow"></div>
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+      <div class="orb"></div>
+      <div class="scan-line"></div>
+    </div>
+    <span class="logo-text">Trend Radar</span>
+  </a>
+
+  <nav class="nav">
+    <a href="./index.html">🏠 Home</a>
+    <a href="./trending.html">🔥 Trending</a>
+    <a href="./crypto.html">🪙 Crypto</a>
+    <a href="./search.html">🔍 Search</a>
+    <a href="./timeline.html" class="active">📅 Timeline</a>
+    <a href="./bookmarks.html">🔖 Bookmarks</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon icon-sun">☀️</span>
+      <span class="theme-icon icon-moon">🌙</span>
+    </button>
+  </nav>
+</header>
+
+<div class="timeline-page">
+  <div class="timeline-header">
+    <h1>📅 Trend Timeline</h1>
+    <p>See what was trending on any day</p>
+  </div>
+
+  <!-- Date Picker -->
+  <div class="date-picker-section">
+    <label for="timeline-date">Select Date:</label>
+    <input type="date" id="timeline-date" class="date-input" />
+    <button class="btn" id="go-to-date">Go</button>
+  </div>
+
+  <!-- Calendar View -->
+  <div class="calendar-section">
+    <div class="calendar-header">
+      <button class="calendar-nav" id="prev-month">◀</button>
+      <h3 id="calendar-month-year">February 2026</h3>
+      <button class="calendar-nav" id="next-month">▶</button>
+    </div>
+    <div class="calendar-weekdays">
+      <span>Sun</span>
+      <span>Mon</span>
+      <span>Tue</span>
+      <span>Wed</span>
+      <span>Thu</span>
+      <span>Fri</span>
+      <span>Sat</span>
+    </div>
+    <div class="timeline-calendar" id="timeline-calendar">
+      <!-- Calendar days will be generated here -->
+    </div>
+  </div>
+
+  <!-- Trends for Selected Day -->
+  <div class="selected-day-section">
+    <h3 id="selected-day-title">Trends for Today</h3>
+    <div class="timeline-trends" id="timeline-trends">
+      <!-- Trends will be listed here -->
+    </div>
+    <div class="no-trends-message" id="no-trends-message" style="display: none;">
+      <p>📭 No trends recorded for this date</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Built with automation · Updated every few minutes</p>
+</footer>
+
+<script src="features.js"></script>
+<script>
+// Timeline page logic
+let currentMonth = new Date().getMonth();
+let currentYear = new Date().getFullYear();
+let selectedDate = new Date();
+let allTrendsData = [];
+
+// Load all trends
+async function loadAllTrends() {
+  try {
+    const indexRes = await fetch('./data/index.json?ts=' + Date.now());
+    const index = await indexRes.json();
+    
+    const trends = [];
+    for (const file of index.files) {
+      try {
+        const res = await fetch('./data/' + file + '?ts=' + Date.now());
+        const data = await res.json();
+        trends.push(data);
+      } catch (e) {}
+    }
+    
+    allTrendsData = trends;
+    renderCalendar();
+    renderTrendsForDate(selectedDate);
+  } catch (e) {
+    console.error('Failed to load trends:', e);
+  }
+}
+
+// Render calendar
+function renderCalendar() {
+  const calendar = document.getElementById('timeline-calendar');
+  const monthYearLabel = document.getElementById('calendar-month-year');
+  
+  const firstDay = new Date(currentYear, currentMonth, 1);
+  const lastDay = new Date(currentYear, currentMonth + 1, 0);
+  const startingDay = firstDay.getDay();
+  const monthLength = lastDay.getDate();
+  
+  monthYearLabel.textContent = firstDay.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+  
+  let html = '';
+  
+  // Empty cells before first day
+  for (let i = 0; i < startingDay; i++) {
+    html += '<div class="calendar-day empty"></div>';
+  }
+  
+  // Days of the month
+  for (let day = 1; day <= monthLength; day++) {
+    const date = new Date(currentYear, currentMonth, day);
+    const isToday = isSameDay(date, new Date());
+    const isSelected = isSameDay(date, selectedDate);
+    const hasTrends = getTrendsForDate(date).length > 0;
+    
+    let classes = 'calendar-day';
+    if (isSelected) classes += ' active';
+    if (hasTrends) classes += ' has-trends';
+    if (isToday) classes += ' today';
+    
+    html += `<div class="${classes}" onclick="selectDate(${currentYear}, ${currentMonth}, ${day})">${day}</div>`;
+  }
+  
+  calendar.innerHTML = html;
+}
+
+// Get trends for a specific date
+function getTrendsForDate(date) {
+  return allTrendsData.filter(t => {
+    if (!t.timestamp) return false;
+    const trendDate = new Date(t.timestamp);
+    return isSameDay(trendDate, date);
+  });
+}
+
+// Check if two dates are the same day
+function isSameDay(d1, d2) {
+  return d1.getFullYear() === d2.getFullYear() &&
+         d1.getMonth() === d2.getMonth() &&
+         d1.getDate() === d2.getDate();
+}
+
+// Select a date
+function selectDate(year, month, day) {
+  selectedDate = new Date(year, month, day);
+  renderCalendar();
+  renderTrendsForDate(selectedDate);
+}
+
+// Render trends for selected date
+function renderTrendsForDate(date) {
+  const container = document.getElementById('timeline-trends');
+  const noTrendsMsg = document.getElementById('no-trends-message');
+  const title = document.getElementById('selected-day-title');
+  
+  const dateStr = date.toLocaleDateString('en-US', { 
+    weekday: 'long', 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric' 
+  });
+  title.textContent = `Trends for ${dateStr}`;
+  
+  const trends = getTrendsForDate(date);
+  
+  if (trends.length === 0) {
+    container.innerHTML = '';
+    noTrendsMsg.style.display = 'block';
+    return;
+  }
+  
+  noTrendsMsg.style.display = 'none';
+  
+  container.innerHTML = trends.map(t => {
+    const time = new Date(t.timestamp).toLocaleTimeString('en-US', { 
+      hour: '2-digit', 
+      minute: '2-digit' 
+    });
+    const categoryIcon = getCategoryIcon(t.category);
+    
+    return `
+      <div class="timeline-trend-item" onclick="window.location.href='./trending.html?trend=${encodeURIComponent(t.trend)}'">
+        <div class="timeline-time">${time}</div>
+        <div class="timeline-content">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+            <span class="category-tag">${categoryIcon} ${t.category || 'other'}</span>
+            <span class="lifecycle ${t.lifecycle}">${t.lifecycle?.toUpperCase()}</span>
+          </div>
+          <h4>${t.trend}</h4>
+          <p>${(t.analysis?.analysis || '').substring(0, 120)}...</p>
+          <div style="display: flex; gap: 16px; margin-top: 8px; font-size: 12px; color: var(--text-muted);">
+            <span>📊 Score: ${t.signal_score}</span>
+            <span>🚀 ${t.momentum}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// Category icons
+function getCategoryIcon(category) {
+  const icons = {
+    politics: "🏛️",
+    technology: "💻",
+    crypto: "🪙",
+    gaming: "🎮",
+    entertainment: "🎬",
+    memes: "😂",
+    sports: "🏈",
+    news: "📰",
+    music: "🎵",
+    culture: "🛍️",
+    other: "🌐"
+  };
+  return icons[category] || "🌐";
+}
+
+// Navigation
+document.getElementById('prev-month').addEventListener('click', () => {
+  currentMonth--;
+  if (currentMonth < 0) {
+    currentMonth = 11;
+    currentYear--;
+  }
+  renderCalendar();
+});
+
+document.getElementById('next-month').addEventListener('click', () => {
+  currentMonth++;
+  if (currentMonth > 11) {
+    currentMonth = 0;
+    currentYear++;
+  }
+  renderCalendar();
+});
+
+// Date picker
+document.getElementById('go-to-date').addEventListener('click', () => {
+  const input = document.getElementById('timeline-date');
+  if (input.value) {
+    const [year, month, day] = input.value.split('-').map(Number);
+    currentYear = year;
+    currentMonth = month - 1;
+    selectDate(year, month - 1, day);
+  }
+});
+
+// Set default date
+document.getElementById('timeline-date').valueAsDate = new Date();
+
+// Initialize
+loadAllTrends();
+</script>
+
+<style>
+/* Timeline page specific styles */
+.date-picker-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.date-picker-section label {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.date-input {
+  padding: 10px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.calendar-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.calendar-nav {
+  padding: 8px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.calendar-nav:hover {
+  background: var(--accent-primary);
+  color: white;
+  border-color: var(--accent-primary);
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.calendar-day.empty {
+  background: transparent;
+  border: none;
+  cursor: default;
+}
+
+.calendar-day.today {
+  border-color: var(--accent-primary);
+  font-weight: 700;
+}
+
+.selected-day-section h3 {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.no-trends-message {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+}
+
+.no-trends-message p {
+  font-size: 16px;
+  margin: 0;
+}
+</style>
+</body>
+</html>

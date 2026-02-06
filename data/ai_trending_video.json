@@ -1,0 +1,72 @@
+{
+  "trend": "ai trending video",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "177.9K",
+      "raw": 177920
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "AI-Generated Video Craze Captivates the Internet",
+    "summary": "AI-powered tools that can create hyper-realistic videos of people saying or doing anything have sparked a viral trend, as users explore the technology's capabilities and implications.",
+    "origin_story": "The trend emerged as advanced AI models, like DALL-E and Stable Diffusion, gained mainstream attention for their ability to generate highly detailed images. Now, similar AI video tools are capturing the public's imagination.",
+    "expert_analysis": "This trend highlights the rapid progress of AI technology and the public's fascination with its creative potential. However, it also raises concerns about the potential for misuse, such as the creation of deepfakes and the blurring of reality and fiction.",
+    "impact": "As the technology continues to evolve, the implications for media, entertainment, and even politics could be far-reaching.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:20:47.574201+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:20.172238+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:34.891655+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:32:46.919495+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:32.045956+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:10:53.509638+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:20:47.574201+00:00",
+      "signal_score": 50
+    }
+  ]
+}

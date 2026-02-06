@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Trends | Trend Radar</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="./index.html" class="logo-link">
+    <div class="logo-3d">
+      <div class="glow"></div>
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+      <div class="orb"></div>
+      <div class="scan-line"></div>
+    </div>
+    <span class="logo-text">Trend Radar</span>
+  </a>
+
+  <nav class="nav">
+    <a href="./index.html">🏠 Home</a>
+    <a href="./trending.html">🔥 Trending</a>
+    <a href="./crypto.html" class="active">🪙 Crypto</a>
+    <a href="./search.html">🔍 Search</a>
+    <a href="./bookmarks.html">🔖 Bookmarks</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon icon-sun">☀️</span>
+      <span class="theme-icon icon-moon">🌙</span>
+    </button>
+  </nav>
+</header>
+
+<section class="page-header crypto-header">
+  <h1>🪙 Crypto Trends</h1>
+  <p>Real-time cryptocurrency trends, news & market sentiment · Powered by AI analysis</p>
+</section>
+
+<!-- CRYPTO STATS BAR -->
+<section class="crypto-stats-bar">
+  <div class="crypto-stat">
+    <span class="stat-icon">₿</span>
+    <div class="stat-info">
+      <span class="stat-label">Bitcoin</span>
+      <span class="stat-value" id="btc-price">Loading...</span>
+    </div>
+  </div>
+  <div class="crypto-stat">
+    <span class="stat-icon">Ξ</span>
+    <div class="stat-info">
+      <span class="stat-label">Ethereum</span>
+      <span class="stat-value" id="eth-price">Loading...</span>
+    </div>
+  </div>
+  <div class="crypto-stat">
+    <span class="stat-icon">📊</span>
+    <div class="stat-info">
+      <span class="stat-label">Market Sentiment</span>
+      <span class="stat-value sentiment" id="market-sentiment">Analyzing...</span>
+    </div>
+  </div>
+  <div class="crypto-stat">
+    <span class="stat-icon">🔥</span>
+    <div class="stat-info">
+      <span class="stat-label">Trending Coins</span>
+      <span class="stat-value" id="trending-coins-count">--</span>
+    </div>
+  </div>
+</section>
+
+<!-- CRYPTO FILTER TABS -->
+<section class="filter-section">
+  <div class="filter-container">
+    <div class="filter-label">Filter:</div>
+    <div class="filter-buttons" id="crypto-filter-buttons">
+      <button class="filter-btn active" data-filter="all">🌐 All Crypto</button>
+      <button class="filter-btn" data-filter="bitcoin">₿ Bitcoin</button>
+      <button class="filter-btn" data-filter="ethereum">Ξ Ethereum</button>
+      <button class="filter-btn" data-filter="altcoins">🪙 Altcoins</button>
+      <button class="filter-btn" data-filter="defi">🏦 DeFi</button>
+      <button class="filter-btn" data-filter="nft">🖼️ NFTs</button>
+      <button class="filter-btn" data-filter="memecoins">🐕 Meme Coins</button>
+      <button class="filter-btn" data-filter="regulations">⚖️ Regulations</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRENDS COUNT -->
+<div class="trends-info">
+  <span id="trends-count">Loading crypto trends...</span>
+  <div class="live-status">
+    <span class="live-indicator pulse">
+      <span class="live-dot"></span>
+      LIVE
+    </span>
+    <span class="last-updated">Last updated: <span id="last-updated-time">--</span></span>
+  </div>
+</div>
+
+<!-- TOOLBAR -->
+<div class="trends-toolbar">
+  <div class="sort-options">
+    <span class="sort-label">Sort by:</span>
+    <select id="sort-select" class="sort-select">
+      <option value="score">📊 Signal Score</option>
+      <option value="date">📅 Latest</option>
+      <option value="momentum">🚀 Momentum</option>
+      <option value="name">🔤 Name</option>
+    </select>
+  </div>
+  <div class="toolbar-actions">
+    <button class="toolbar-btn" id="random-trend-btn">
+      🎲 Random Crypto
+    </button>
+    <a href="./bookmarks.html" class="toolbar-btn" style="text-decoration: none;">
+      🔖 Bookmarks <span id="bookmark-count" class="bookmark-count">0</span>
+    </a>
+  </div>
+</div>
+
+<!-- MAIN TRENDS CONTAINER -->
+<main id="trends"></main>
+
+<!-- Pagination -->
+<div id="pagination"></div>
+
+<!-- NO CRYPTO MESSAGE -->
+<div id="no-crypto-message" class="no-crypto-message" style="display: none;">
+  <div class="no-crypto-icon">🪙</div>
+  <h3>No Crypto Trends Found</h3>
+  <p>There are no cryptocurrency trends at the moment. Check back soon or explore all trends.</p>
+  <a href="./trending.html" class="btn-explore">Explore All Trends →</a>
+</div>
+
+<footer>
+  <p>Built with automation · Crypto data updates every 15 minutes</p>
+</footer>
+
+<script src="features.js"></script>
+<script src="crypto.js"></script>
+</body>
+</html>

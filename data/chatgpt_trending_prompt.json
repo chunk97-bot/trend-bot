@@ -1,0 +1,83 @@
+{
+  "trend": "chatgpt trending prompt",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "126.1K",
+      "raw": 126111
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending prompt",
+    "chatgpt trending prompt for photo editing"
+  ],
+  "analysis": {
+    "headline": "ChatGPT Trends as Users Discover Powerful Prompt Engineering",
+    "summary": "ChatGPT, the AI language model, is trending as users delve into the art of prompt engineering - crafting precise instructions to elicit remarkably nuanced responses from the AI. This trend reveals a growing fascination with the system's capabilities and the potential for creative expression through carefully curated prompts.",
+    "origin_story": "The trend emerged on social media platforms as users shared their experiments with prompting ChatGPT, showcasing the AI's versatility in tasks ranging from creative writing to analysis and even photo editing.",
+    "expert_analysis": "This trend highlights the public's rapidly evolving understanding of AI systems and their desire to push the boundaries of what these technologies can do. It reflects a cultural shift towards a more active and engaged relationship with AI, where users seek to harness its power through strategic prompting rather than passively consuming its outputs.",
+    "impact": "As this trend gains momentum, it may lead to the development of new prompt engineering best practices, fostering a more sophisticated and collaborative relationship between humans and AI.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:26:10.551829+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:20.856273+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:38.574017+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:13:40.086871+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:32:50.912774+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:35.178537+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:10:58.471750+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:20:52.192806+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:10.551829+00:00",
+      "signal_score": 50
+    }
+  ]
+}

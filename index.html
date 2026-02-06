@@ -1,62 +1,434 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Trend Radar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trend Radar - AI-Powered Internet Trend Tracking</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
 </head>
-<body>
+<body class="landing-page has-splash">
+
+<!-- SPLASH INTRO SCREEN -->
+<div class="splash-screen" id="splash">
+  <div class="splash-bg">
+    <!-- Neural Network Animation -->
+    <canvas id="neural-canvas"></canvas>
+    
+    <!-- Floating AI Elements -->
+    <div class="ai-nodes">
+      <div class="ai-node"></div>
+      <div class="ai-node"></div>
+      <div class="ai-node"></div>
+      <div class="ai-node"></div>
+      <div class="ai-node"></div>
+    </div>
+  </div>
+  
+  <div class="splash-content">
+    <div class="splash-logo">
+      <div class="logo-3d logo-3d-large">
+        <div class="glow"></div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="orb"></div>
+        <div class="scan-line"></div>
+      </div>
+      <span class="splash-title">Trend Radar</span>
+    </div>
+    
+    <div class="ai-typing">
+      <span class="typing-text" id="typing-text"></span>
+      <span class="cursor">|</span>
+    </div>
+    
+    <div class="splash-tagline">AI-Powered Internet Intelligence</div>
+    
+    <button class="enter-btn" id="enter-btn">
+      <span class="enter-text">Enter</span>
+      <span class="enter-arrow">→</span>
+    </button>
+    
+    <div class="swipe-hint" id="swipe-hint">
+      <div class="swipe-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+      </div>
+      <span>Swipe up to enter</span>
+    </div>
+  </div>
+  
+  <div class="splash-progress">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+</div>
+
+<!-- Main Content Wrapper -->
+<div class="main-content" id="main-content">
+
+<!-- Futuristic Animated Background -->
+<div class="animated-bg"></div>
+<div class="grid-overlay"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+<div class="particles">
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+</div>
 
 <header class="site-header">
   <a href="./index.html" class="logo-link">
-    <img src="./assets/logo.png" alt="Trend Bot Logo" class="logo">
+    <div class="logo-3d">
+      <div class="glow"></div>
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+      <div class="orb"></div>
+      <div class="scan-line"></div>
+    </div>
+    <span class="logo-text">Trend Radar</span>
   </a>
 
   <nav class="nav">
-    <a href="./index.html">Home</a>
-    <a href="./trending.html">Trending Now</a>
+    <a href="./index.html">🏠 Home</a>
+    <a href="./trending.html">🔥 Trending</a>
+    <a href="./crypto.html">🪙 Crypto</a>
+    <a href="./search.html">🔍 Search</a>
+    <a href="./bookmarks.html" class="nav-bookmark">
+      🔖 <span id="nav-bookmark-count" class="bookmark-count">0</span>
+    </a>
+    <div class="notification-wrapper">
+      <button class="notification-bell" id="notification-bell" aria-label="Notifications">
+        <span class="bell-icon">🔔</span>
+        <span id="notification-count">0</span>
+      </button>
+      <div class="notification-dropdown" id="notification-dropdown">
+        <div class="notification-toggle-item" id="notification-toggle">
+          <span class="toggle-icon">🔔</span>
+          <span class="toggle-text">Push Notifications</span>
+          <div class="toggle-switch">
+            <input type="checkbox" id="notification-switch">
+            <span class="toggle-slider"></span>
+          </div>
+        </div>
+        <div class="notification-status" id="notification-status">
+          Notifications are <strong>disabled</strong>
+        </div>
+        <p class="notification-hint">Get notified when new trends are detected</p>
+      </div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon icon-sun">☀️</span>
+      <span class="theme-icon icon-moon">🌙</span>
+    </button>
   </nav>
 </header>
 
+<!-- HERO SECTION -->
 <section class="hero">
-  <h2>AI-Powered Internet Trend Radar</h2>
-  <p>
-    We track what the internet is feeling — using momentum,
-    social signals, and AI. No fake numbers. No hype.
+  <h1>AI-Powered Internet Trend Radar</h1>
+  <p class="hero-subtitle">
+    We track what the internet is feeling — using real-time momentum analysis, 
+    social signals, and AI. No fake numbers. No hype. Just pure data.
   </p>
-
-  <a class="btn" href="trending.html">🔥 View Trending Now</a>
+  <a class="btn" href="trending.html">🔥 Explore Trending Now</a>
 </section>
 
-<section class="about">
-  <h3>How It Works</h3>
-  <ul>
-    <li>Google search momentum</li>
-    <li>Social presence on X, TikTok, Instagram</li>
-    <li>AI-driven trend lifecycle analysis</li>
-    <li>Meme coins only when genuinely relevant</li>
-  </ul>
+<!-- ABOUT US SECTION -->
+<section class="about-full">
+  <div class="about-container">
+    <h2>About Trend Radar</h2>
+    <p class="about-intro">
+      Trend Radar is an AI-powered intelligence platform that monitors, analyzes, and predicts 
+      internet trends in real-time. We cut through the noise to deliver actionable insights 
+      on what's genuinely capturing the world's attention.
+    </p>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">🔍</div>
+        <h3>Real-Time Monitoring</h3>
+        <p>
+          Our system continuously scans Google Trends, social media platforms, and news sources 
+          to identify emerging trends before they go mainstream. We update every few minutes 
+          to ensure you never miss what's next.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">🤖</div>
+        <h3>AI-Powered Analysis</h3>
+        <p>
+          Using Claude AI, we analyze each trend's context, sentiment, and trajectory. 
+          Our AI determines whether a trend is rising, peaking, or fading — and predicts 
+          its potential longevity.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">📊</div>
+        <h3>Signal Scoring</h3>
+        <p>
+          Every trend receives a proprietary Signal Score (0-100) based on search momentum, 
+          social engagement, and cross-platform presence. Higher scores indicate stronger, 
+          more authentic viral potential.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">🌐</div>
+        <h3>Multi-Platform Tracking</h3>
+        <p>
+          We monitor X (Twitter), TikTok, Instagram, and Google to give you a complete 
+          picture of where trends are gaining traction. Different platforms often signal 
+          different audience demographics.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">📈</div>
+        <h3>Lifecycle Analysis</h3>
+        <p>
+          Trends go through stages: New → Rising → Peak → Stable → Fading → Dead. 
+          We track this lifecycle in real-time so you know exactly when to engage 
+          and when to move on.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">🪙</div>
+        <h3>Crypto & Meme Coins</h3>
+        <p>
+          When relevant, we surface associated meme coins and tokens via DexScreener. 
+          We only show tokens when there's genuine market activity — no pump-and-dump 
+          promotions, just raw data.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES SECTION -->
+<section class="categories-section">
+  <div class="categories-container">
+    <h2>What We Track</h2>
+    <p class="categories-intro">
+      From viral memes to breaking news, we cover the full spectrum of internet culture.
+    </p>
+
+    <div class="category-pills">
+      <a href="trending.html?category=politics" class="category-pill">🏛️ Politics</a>
+      <a href="trending.html?category=technology" class="category-pill">💻 Technology</a>
+      <a href="trending.html?category=crypto" class="category-pill">🪙 Crypto</a>
+      <a href="trending.html?category=gaming" class="category-pill">🎮 Gaming</a>
+      <a href="trending.html?category=entertainment" class="category-pill">🎬 Entertainment</a>
+      <a href="trending.html?category=memes" class="category-pill">😂 Memes</a>
+      <a href="trending.html?category=sports" class="category-pill">🏈 Sports</a>
+      <a href="trending.html?category=news" class="category-pill">📰 News</a>
+      <a href="trending.html?category=music" class="category-pill">🎵 Music</a>
+      <a href="trending.html?category=culture" class="category-pill">🛍️ Culture</a>
+    </div>
+
+    <a class="btn" href="trending.html">View All Categories →</a>
+  </div>
+</section>
+
+<!-- HOW IT WORKS SECTION -->
+<section class="how-it-works">
+  <div class="how-container">
+    <h2>How It Works</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Data Collection</h3>
+        <p>We gather data from Google Trends, X, TikTok, Instagram, and news APIs every few minutes.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>AI Processing</h3>
+        <p>Claude AI analyzes context, sentiment, and momentum to understand what's really happening.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Scoring & Ranking</h3>
+        <p>Each trend gets a Signal Score and lifecycle stage, then ranked by viral potential.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Real-Time Updates</h3>
+        <p>Our dashboard updates automatically so you always see the latest trends first.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS SECTION -->
+<section class="stats-section">
+  <div class="stats-container">
+    <div class="stat">
+      <div class="stat-number">24/7</div>
+      <div class="stat-label">Monitoring</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">5+</div>
+      <div class="stat-label">Platforms Tracked</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">100+</div>
+      <div class="stat-label">Trends Analyzed Daily</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">2 min</div>
+      <div class="stat-label">Update Frequency</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+  <h2>Ready to See What's Trending?</h2>
+  <p>Discover the trends shaping the internet right now.</p>
+  <a class="btn large" href="trending.html">🔥 View Trending Now</a>
+</section>
+
+<!-- WEEKLY DIGEST PREVIEW -->
+<section class="digest-preview">
+  <div class="digest-preview-container">
+    <div class="digest-section" id="weekly-digest">
+      <div class="digest-header">
+        <h3>📅 This Week's Highlights</h3>
+        <span class="digest-date" id="digest-date"></span>
+      </div>
+      <div class="digest-content">
+        <div class="digest-top">
+          <h4>🏆 Top Trending</h4>
+          <ol class="top-list" id="top-trends-list">
+            <li><span class="rank">#1</span><span class="trend-name">Loading...</span></li>
+          </ol>
+        </div>
+        <div class="digest-breakdown">
+          <h4>📊 Category Activity</h4>
+          <div class="category-bars" id="category-bars">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <footer>
-  <p>Built with automation · Updated every few minutes</p>
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="logo-3d logo-3d-small">
+        <div class="glow"></div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="orb"></div>
+      </div>
+      <span class="logo-text">Trend Radar</span>
+    </div>
+    <p>Built with AI automation · Updated every few minutes</p>
+    <p class="footer-links">
+      <a href="./index.html">Home</a> · 
+      <a href="./trending.html">Trending</a> · 
+      <a href="./search.html">Search</a> ·
+      <a href="./bookmarks.html">Bookmarks</a>
+    </p>
+  </div>
 </footer>
 
+</div><!-- End main-content -->
+
+<script src="features.js"></script>
+<script src="splash.js"></script>
+<script src="home.js"></script>
+<script>
+  // Update digest date
+  document.getElementById('digest-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+  
+  // Load top trends for digest
+  fetch('./data/index.json')
+    .then(r => r.json())
+    .then(async index => {
+      const trends = [];
+      for (const file of index.files.slice(0, 5)) {
+        try {
+          const res = await fetch(`./data/${file}`);
+          const data = await res.json();
+          trends.push(data);
+        } catch {}
+      }
+      
+      // Sort by score
+      trends.sort((a, b) => (b.signal_score || 0) - (a.signal_score || 0));
+      
+      // Update top trends list
+      const list = document.getElementById('top-trends-list');
+      list.innerHTML = trends.slice(0, 5).map((t, i) => `
+        <li>
+          <span class="rank">#${i + 1}</span>
+          <span class="trend-name">${t.trend}</span>
+          <span class="trend-score">${t.signal_score}</span>
+        </li>
+      `).join('');
+      
+      // Count categories
+      const catCounts = {};
+      trends.forEach(t => {
+        const cat = t.category || 'other';
+        catCounts[cat] = (catCounts[cat] || 0) + 1;
+      });
+      
+      const bars = document.getElementById('category-bars');
+      bars.innerHTML = Object.entries(catCounts).map(([cat, count]) => `
+        <div class="category-bar-item">
+          <span class="cat-name">${cat}</span>
+          <div class="cat-bar">
+            <div class="cat-fill" style="width: ${(count / trends.length) * 100}%"></div>
+          </div>
+          <span class="cat-count">${count}</span>
+        </div>
+      `).join('');
+    });
+  
+  // Update live stats
+  function updateLiveStats() {
+    const viewers = Math.floor(Math.random() * 50) + 100;
+    document.getElementById('live-viewers').textContent = viewers;
+  }
+  setInterval(updateLiveStats, 5000);
+  
+  // Update bookmark count in nav
+  if (typeof Bookmarks !== 'undefined') {
+    const count = Bookmarks.getAll().length;
+    const badge = document.getElementById('nav-bookmark-count');
+    if (badge) {
+      badge.textContent = count;
+      badge.style.display = count > 0 ? 'inline' : 'none';
+    }
+  }
+</script>
 </body>
 </html>
-
-<section class="featured">
-  <h3>🔥 Trending Now</h3>
-
-  <div id="featured-trend" class="card">
-    <p>Loading top trend…</p>
-  </div>
-
-  <a href="trending.html" class="btn small">
-    View All Trends →
-  </a>
-</section>
-
-<p class="live-note">🔄 Updates automatically every 2 minutes</p>
-
-<script src="home.js"></script>

@@ -1,0 +1,86 @@
+{
+  "trend": "biden trending",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "245.0K",
+      "raw": 244967
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "biden trending",
+    "joe biden trending",
+    "hunter biden trending",
+    "jill biden trending",
+    "joe biden trending news"
+  ],
+  "analysis": {
+    "headline": "Biden Trending Amid Growing Scrutiny of First Family",
+    "summary": "The Biden family is once again at the center of public attention as various topics related to President Joe Biden, his son Hunter, and their political and business dealings continue to generate significant online discussion and search interest.",
+    "origin_story": "The trending topics surrounding the Biden family appear to have been fueled by ongoing media coverage and public discourse around recent developments, including investigations and allegations.",
+    "expert_analysis": "This renewed focus on the Biden family reflects the intense political polarization and the public's desire for transparency and accountability from those in power. The trending topics highlight the ongoing debates around ethics, corruption, and the intersection of politics and personal interests.",
+    "impact": "The Biden family trending could shape public opinion and have potential implications for the administration's agenda and the upcoming 2024 presidential election.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:26:41.361400+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:28.329726+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:55.200198+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:13:56.497559+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:33:14.407589+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:57.668101+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:11:25.983776+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:21:11.194960+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:41.361400+00:00",
+      "signal_score": 50
+    }
+  ]
+}

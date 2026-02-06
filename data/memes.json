@@ -1,36 +1,41 @@
 {
   "trend": "memes",
+  "category": "memes",
   "google_trends": {
     "interest_score": 0,
     "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
-    "tiktok": "high",
+    "tiktok": "low",
     "instagram": "high"
   },
-  "signal_score": 90,
-  "momentum": "0%",
-  "lifecycle": "new",
-  "highlight": true,
+  "signal_score": 65,
+  "momentum": "+62%",
+  "lifecycle": "rising",
+  "highlight": false,
   "history": [
     {
       "timestamp": "2026-02-04T13:14:47.329447",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-06T10:17:51.621081",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-06T10:24:07.924677",
+      "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The trend for memes appears to be flat, with a Google Trends interest score of 0. However, social media engagement for memes is high across platforms like TikTok and Instagram. The momentum for memes is neutral at 0%. The 'memes will continue' token has a decent level of liquidity on the Binance Smart Chain, which suggests there is some investor interest in the meme theme. Overall, the data indicates that memes remain a popular and relevant cultural phenomenon, though the trend may not be experiencing significant growth at the moment.",
-    "status": "Neutral",
-    "meme": "Relevant",
-    "token_relevant": "Moderately Relevant"
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false,
+    "image_prompt": null
   },
-  "token": {
-    "name": "memes will continue",
-    "symbol": "memes",
-    "chain": "bsc",
-    "liquidity_usd": 168339.67,
-    "url": "https://dexscreener.com/bsc/0xd3c8668bff07b02d78019afe7f9a6e581499def2"
-  },
-  "timestamp": "2026-02-04T13:14:49.095876"
+  "token": null,
+  "image": null,
+  "timestamp": "2026-02-06T10:24:09.082614"
 }

@@ -1,0 +1,68 @@
+{
+  "trend": "super bowl trending",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "173.4K",
+      "raw": 173380
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "super bowl trending",
+    "super bowl trending twitter",
+    "super bowl trending song"
+  ],
+  "analysis": {
+    "headline": "Super Bowl Fever Sweeps the Internet as Big Game Approaches",
+    "summary": "As the highly anticipated Super Bowl nears, fans and spectators alike are turning to Google to search for the latest updates, news, and information surrounding the big event. The surge in interest reflects the growing anticipation and excitement leading up to the championship showdown.",
+    "origin_story": "The spike in Google searches for 'super bowl trending' and related terms is a clear indicator that the Super Bowl has captured the public's attention, with fans eagerly following the developments and discussions around the game.",
+    "expert_analysis": "The intense interest in the Super Bowl is a testament to the event's enduring cultural significance. The big game has transcended its status as a mere sports event, becoming a cultural phenomenon that encompasses entertainment, advertising, and social commentary. This trend reflects the deep-rooted passion and engagement of sports fans, as well as the broader public's fascination with the spectacle and pageantry surrounding the Super Bowl.",
+    "impact": "The widespread interest in the Super Bowl and its related trends is likely to translate into increased viewership, engagement, and conversations, ultimately driving broader cultural and economic impact.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:26:50.372998+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T11:14:00.482771+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:33:18.489184+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:21:15.305097+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:50.372998+00:00",
+      "signal_score": 50
+    }
+  ]
+}

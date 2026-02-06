@@ -1,0 +1,79 @@
+{
+  "trend": "chatgpt trending image",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "152.1K",
+      "raw": 152064
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending image",
+    "chatgpt trending image prompt"
+  ],
+  "analysis": {
+    "headline": "ChatGPT-Generated Images Take the Internet by Storm",
+    "summary": "The ability to create photorealistic images using ChatGPT's text-to-image capabilities has sparked a wave of fascination and creative experimentation among internet users. This trend is driven by the tool's impressive visual generation skills and the endless possibilities for unique and imaginative content.",
+    "origin_story": "The trend emerged as users began sharing their ChatGPT-generated images on various social media platforms, showcasing the tool's ability to bring their written prompts to life in stunning detail.",
+    "expert_analysis": "This trend reflects the growing interest in the capabilities of artificial intelligence, particularly in the realm of creative expression. The ability to transform textual descriptions into visual art challenges traditional notions of human creativity and opens up new avenues for artistic exploration and collaboration between humans and machines.",
+    "impact": "The widespread sharing and discussion of ChatGPT-generated images has the potential to influence the way we think about the role of AI in creative industries and spark further innovation in the field of generative art.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:26:14.947599+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:22.241371+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:13:43.219822+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:32:54.725238+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:38.608039+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:11:03.111757+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:20:55.997760+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:14.947599+00:00",
+      "signal_score": 50
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "trend": "ai trending prompt",
+  "category": "technology",
+  "platforms": {
+    "google": true,
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "192.6K",
+      "raw": 192587
+    },
+    "x": {
+      "posts": "112.9K",
+      "reposts": "44.3K",
+      "raw_posts": 112865,
+      "raw_reposts": 44281
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 100,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "ai trending prompt",
+    "ai trending",
+    "Trending"
+  ],
+  "analysis": {
+    "headline": "The AI Prompt Revolution: How Creative Wizardry is Captivating the Web",
+    "summary": "AI-powered text generation is taking the internet by storm, as users discover the boundless creative potential of prompting AI models to produce content. From imaginative art to clever writing, this trend reflects a profound shift in how we interact with technology.",
+    "origin_story": "The AI prompt trend emerged from the growing popularity of AI art and language models like DALL-E and GPT-3, which allow users to generate custom images and text by inputting text prompts.",
+    "expert_analysis": "This trend highlights our desire for more engaging, personalized digital experiences. By leveraging AI, users can unleash their creativity in novel ways, blurring the lines between human and machine intelligence. It also taps into the public's fascination with the capabilities and limitations of AI technology.",
+    "impact": "As AI prompting becomes more mainstream, it could revolutionize content creation, problem-solving, and even education, empowering individuals to harness the power of artificial intelligence in their daily lives.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:25:24.170040+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:14.370934+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-06T11:08:17.234351+00:00",
+      "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-06T11:13:13.446856+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-06T11:32:22.422323+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T11:47:27.728920+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:10:03.744794+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T12:20:43.112931+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:25:24.201970+00:00",
+      "signal_score": 100
+    }
+  ]
+}

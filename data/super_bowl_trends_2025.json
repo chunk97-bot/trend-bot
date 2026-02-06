@@ -1,0 +1,54 @@
+{
+  "trend": "super bowl trends 2025",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "168.2K",
+      "raw": 168216
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Super Bowl 2025 Promises Innovative Experiences",
+    "summary": "With 168.2K Google searches, the trends for Super Bowl 2025 are on the rise, indicating heightened public interest in the event's evolving offerings.",
+    "origin_story": "As technology continues to shape the future of live events, the Super Bowl is poised to unveil new and exciting experiences for fans.",
+    "impact": "The trends suggest that the Super Bowl 2025 will push the boundaries of sports entertainment, captivating audiences with cutting-edge innovations.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T11:09:03.367866+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:31.383817+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:09:03.367866+00:00",
+      "signal_score": 50
+    }
+  ]
+}

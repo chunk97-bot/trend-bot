@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bookmarks - Trend Radar</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="./index.html" class="logo-link">
+    <div class="logo-3d">
+      <div class="glow"></div>
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+      <div class="orb"></div>
+      <div class="scan-line"></div>
+    </div>
+    <span class="logo-text">Trend Radar</span>
+  </a>
+
+  <nav class="nav">
+    <a href="./index.html">🏠 Home</a>
+    <a href="./trending.html">🔥 Trending</a>
+    <a href="./crypto.html">🪙 Crypto</a>
+    <a href="./search.html">🔍 Search</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon icon-sun">☀️</span>
+      <span class="theme-icon icon-moon">🌙</span>
+    </button>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>🔖 My Bookmarks</h1>
+  <p>Your saved trends for later viewing</p>
+</section>
+
+<main class="container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+  <div id="bookmarks-container"></div>
+</main>
+
+<footer>
+  <p>Built with automation · Updated every few minutes</p>
+</footer>
+
+<script src="features.js"></script>
+<script>
+  function renderBookmarks() {
+    const container = document.getElementById('bookmarks-container');
+    const bookmarks = Bookmarks.getAll();
+    
+    if (bookmarks.length === 0) {
+      container.innerHTML = `
+        <div class="empty-bookmarks">
+          <div class="empty-bookmarks-icon">📑</div>
+          <h3>No bookmarks yet</h3>
+          <p>Browse trends and click the bookmark icon to save them here!</p>
+          <a href="./trending.html" class="cta-btn primary" style="margin-top: 20px; display: inline-block; text-decoration: none;">
+            Explore Trends
+          </a>
+        </div>
+      `;
+      return;
+    }
+    
+    container.innerHTML = `
+      <div class="bookmarks-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <p style="color: var(--text-muted);">${bookmarks.length} saved trend${bookmarks.length !== 1 ? 's' : ''}</p>
+        <button onclick="clearAllBookmarks()" class="toolbar-btn" style="background: #ef4444; color: white; border-color: #ef4444;">
+          🗑️ Clear All
+        </button>
+      </div>
+      <div class="bookmarks-grid">
+        ${bookmarks.map(b => renderBookmarkCard(b)).join('')}
+      </div>
+    `;
+  }
+  
+  function renderBookmarkCard(trend) {
+    const categoryIcons = {
+      politics: "🏛️", technology: "💻", crypto: "🪙", gaming: "🎮",
+      entertainment: "🎬", memes: "😂", sports: "🏈", news: "📰",
+      music: "🎵", culture: "🛍️", other: "🌐"
+    };
+    const icon = categoryIcons[trend.category] || "🌐";
+    const bookmarkDate = new Date(trend.bookmarkedAt).toLocaleDateString();
+    
+    return `
+      <div class="card">
+        <div class="card-header">
+          <span class="category-tag">${icon} ${trend.category || 'other'}</span>
+          <div class="lifecycle ${trend.lifecycle}">${trend.lifecycle?.toUpperCase() || 'NEW'}</div>
+        </div>
+        
+        <h2>${trend.trend}</h2>
+        
+        <p>${(trend.analysis?.analysis || '').substring(0, 150)}...</p>
+        
+        <div class="metrics">
+          🚀 Momentum: <strong>${trend.momentum || 'N/A'}</strong><br/>
+          📊 Signal Score: <strong>${trend.signal_score || 'N/A'}</strong>
+        </div>
+        
+        <div class="card-actions">
+          <span style="font-size: 12px; color: var(--text-muted);">Saved ${bookmarkDate}</span>
+          <button class="bookmark-btn active" onclick="removeBookmark('${trend.trend.replace(/'/g, "\\'")}')">
+            🔖
+          </button>
+        </div>
+      </div>
+    `;
+  }
+  
+  function removeBookmark(trendName) {
+    Bookmarks.remove(trendName);
+    renderBookmarks();
+  }
+  
+  function clearAllBookmarks() {
+    if (confirm('Are you sure you want to remove all bookmarks?')) {
+      localStorage.removeItem('trend_radar_bookmarks');
+      renderBookmarks();
+      Bookmarks.showToast('All bookmarks cleared');
+    }
+  }
+  
+  // Initialize
+  renderBookmarks();
+</script>
+</body>
+</html>

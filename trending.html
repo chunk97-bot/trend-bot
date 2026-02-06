@@ -2,26 +2,154 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trending Now</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
 </head>
 <body>
 
-<header>
-  <a href="index.html" class="logo">
-    <img src="logo.png" alt="Trend Radar Logo" />
-    <span>Trend Radar</span>
+<header class="site-header">
+  <a href="./index.html" class="logo-link">
+    <div class="logo-3d">
+      <div class="glow"></div>
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+      <div class="orb"></div>
+      <div class="scan-line"></div>
+    </div>
+    <span class="logo-text">Trend Radar</span>
   </a>
 
-  <nav>
-    <a href="trending.html">Trending</a>
-    <a href="search.html">Search</a>
+  <nav class="nav">
+    <a href="./index.html">🏠 Home</a>
+    <a href="./trending.html">🔥 Trending</a>
+    <a href="./crypto.html">🪙 Crypto</a>
+    <a href="./search.html">🔍 Search</a>
+    <a href="./bookmarks.html">🔖 Bookmarks</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon icon-sun">☀️</span>
+      <span class="theme-icon icon-moon">🌙</span>
+    </button>
   </nav>
 </header>
 
+<section class="page-header">
+  <h1>🔥 Trending Now</h1>
+  <p>Real-time trends powered by AI analysis · Backend updates every 15 minutes</p>
+</section>
+
+<!-- FILTER SECTION -->
+<section class="filter-section">
+  <div class="filter-container">
+    <div class="filter-label">Filter by Category:</div>
+    <div class="filter-buttons" id="filter-buttons">
+      <button class="filter-btn active" data-category="all">🌐 All</button>
+      <button class="filter-btn" data-category="politics">🏛️ Politics</button>
+      <button class="filter-btn" data-category="technology">💻 Technology</button>
+      <button class="filter-btn" data-category="crypto">🪙 Crypto</button>
+      <button class="filter-btn" data-category="gaming">🎮 Gaming</button>
+      <button class="filter-btn" data-category="entertainment">🎬 Entertainment</button>
+      <button class="filter-btn" data-category="memes">😂 Memes</button>
+      <button class="filter-btn" data-category="sports">🏈 Sports</button>
+      <button class="filter-btn" data-category="news">📰 News</button>
+      <button class="filter-btn" data-category="music">🎵 Music</button>
+      <button class="filter-btn" data-category="culture">🛍️ Culture</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRENDS COUNT -->
+<div class="trends-info">
+  <span id="trends-count">Loading trends...</span>
+  <div class="live-status">
+    <span class="live-indicator pulse">
+      <span class="live-dot"></span>
+      LIVE
+    </span>
+    <span class="last-updated">Last updated: <span id="last-updated-time">--</span></span>
+  </div>
+</div>
+
+<!-- TOOLBAR -->
+<div class="trends-toolbar">
+  <div class="sort-options">
+    <span class="sort-label">Sort by:</span>
+    <select id="sort-select" class="sort-select">
+      <option value="score">📊 Signal Score</option>
+      <option value="date">📅 Latest</option>
+      <option value="momentum">🚀 Momentum</option>
+      <option value="name">🔤 Name</option>
+    </select>
+  </div>
+  <div class="toolbar-actions">
+    <!-- Date Filter Dropdown -->
+    <div class="date-filter-wrapper">
+      <button class="toolbar-btn" id="date-filter-btn">
+        📅 <span id="date-filter-label">All Time</span>
+      </button>
+      <div class="date-filter-dropdown" id="date-filter-dropdown">
+        <div class="date-dropdown-header">
+          <span>📅 Filter by Date</span>
+        </div>
+        <div class="date-options">
+          <button class="date-option active" data-range="all">All Time</button>
+          <button class="date-option" data-range="today">Today</button>
+          <button class="date-option" data-range="yesterday">Yesterday</button>
+          <button class="date-option" data-range="week">Last 7 Days</button>
+          <button class="date-option" data-range="custom">Custom Date</button>
+        </div>
+        <div class="custom-date-picker" id="custom-date-picker" style="display: none;">
+          <input type="date" id="custom-date-input" class="date-input" />
+          <button class="btn-apply-date" id="apply-custom-date">Apply</button>
+        </div>
+        <div class="date-result-info" id="date-result-info" style="display: none;">
+          Showing trends from: <strong id="date-result-text">-</strong>
+        </div>
+      </div>
+    </div>
+    <button class="toolbar-btn" id="random-trend-btn">
+      🎲 Discover Random
+    </button>
+    <a href="./bookmarks.html" class="toolbar-btn" style="text-decoration: none;">
+      🔖 Bookmarks <span id="bookmark-count" class="bookmark-count">0</span>
+    </a>
+  </div>
+</div>
+
+<!-- MISSED TRENDS SECTION -->
+<section class="missed-trends-section" id="missed-trends-section" style="display: none;">
+  <div class="missed-header">
+    <h3>👀 Trends You Might Have Missed</h3>
+    <button class="dismiss-missed" onclick="dismissMissedTrends()">✕ Dismiss</button>
+  </div>
+  <div class="missed-trends-scroll" id="missed-trends-container">
+    <!-- Missed trends will be inserted here -->
+  </div>
+</section>
+
+<!-- TOPIC ALERTS PANEL -->
+<section class="topic-alerts-section" id="topic-alerts-section">
+  <div class="alerts-header">
+    <h3>🔔 Your Topic Alerts</h3>
+    <span class="alerts-count" id="alerts-count">0</span>
+  </div>
+  <div class="alerts-list" id="alerts-list">
+    <!-- Alert topics will be listed here -->
+  </div>
+</section>
 
 <main id="trends"></main>
 
+<!-- Pagination -->
+<div id="pagination"></div>
+
+<footer>
+  <p>Built with automation · Updated every few minutes</p>
+</footer>
+
+<script src="features.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

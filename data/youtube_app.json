@@ -1,6 +1,6 @@
 {
-  "trend": "npc",
-  "category": "memes",
+  "trend": "youtube app",
+  "category": "technology",
   "google_trends": {
     "interest_score": 0,
     "trend_direction": "flat"
@@ -11,20 +11,12 @@
     "instagram": "high"
   },
   "signal_score": 65,
-  "momentum": "+0%",
-  "lifecycle": "peak",
+  "momentum": "0%",
+  "lifecycle": "new",
   "highlight": false,
   "history": [
     {
-      "timestamp": "2026-02-05T07:55:50.476457",
-      "signal_score": 100
-    },
-    {
-      "timestamp": "2026-02-06T10:16:51.104744",
-      "signal_score": 65
-    },
-    {
-      "timestamp": "2026-02-06T10:24:30.518769",
+      "timestamp": "2026-02-06T10:28:27.306760",
       "signal_score": 65
     }
   ],
@@ -37,5 +29,5 @@
   },
   "token": null,
   "image": null,
-  "timestamp": "2026-02-06T10:24:31.484291"
+  "timestamp": "2026-02-06T10:28:28.441617"
 }

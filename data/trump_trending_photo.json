@@ -1,0 +1,68 @@
+{
+  "trend": "trump trending photo",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "275.2K",
+      "raw": 275185
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Iconic Trump Mug Shot Sparks Viral Social Media Frenzy",
+    "summary": "A mugshot of former President Donald Trump has gone viral across the internet, captivating millions as the latest development in his ongoing legal battles. The striking image has become a subject of intense fascination and discussion.",
+    "origin_story": "The mugshot was taken following Trump's surrender at the Fulton County Jail in Georgia, where he faces charges related to his efforts to overturn the 2020 election results in the state.",
+    "expert_analysis": "This trend taps into the public's enduring fascination with Trump, a polarizing figure whose every move is scrutinized and dissected. The mugshot provides a visually striking representation of his legal troubles, fueling memes, commentary and heated debates about the implications for the 2024 presidential race.",
+    "impact": "The viral spread of this mugshot has the potential to shape the national discourse around Trump's legal woes and their political ramifications.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:11:21.664664+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:48:26.918171+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:08:52.316284+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:33:10.755431+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:54.288695+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:11:21.665371+00:00",
+      "signal_score": 50
+    }
+  ]
+}

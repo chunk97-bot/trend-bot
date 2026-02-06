@@ -1,20 +1,37 @@
 {
   "trend": "streaming services",
-  "metrics": {
-    "tiktok": 0,
-    "youtube": 0,
-    "x": 0
-  },
+  "category": "entertainment",
   "google_trends": {
-    "interest_score": 27,
-    "trend_direction": "rising"
+    "interest_score": 0,
+    "trend_direction": "flat"
   },
-  "timestamp": "2026-02-04T10:17:31.251185",
+  "social_presence": {
+    "x": "high",
+    "tiktok": "low",
+    "instagram": "high"
+  },
+  "signal_score": 65,
+  "momentum": "+0%",
+  "lifecycle": "new",
+  "highlight": false,
+  "history": [
+    {
+      "timestamp": "2026-02-06T10:18:39.826855",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-06T10:25:25.753067",
+      "signal_score": 65
+    }
+  ],
   "analysis": {
-    "analysis": "The interest in streaming services has been rising steadily, indicating a growing demand for on-demand and personalized media consumption. This trend reflects the shift in consumer behavior away from traditional cable/satellite TV towards more flexible and accessible digital platforms.",
-    "status": "accelerating",
-    "meme": "When your Netflix queue is longer than your to-watch list on Disney+, you know the streaming wars are real.",
-    "image_prompt": "A living room with multiple streaming devices, remote controls, and a confused-looking person trying to decide what to watch next."
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false,
+    "image_prompt": null
   },
-  "token": null
+  "token": null,
+  "image": null,
+  "timestamp": "2026-02-06T10:25:26.233522"
 }

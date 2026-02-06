@@ -1,0 +1,76 @@
+{
+  "trend": "chatpata trending",
+  "category": "food",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "272.8K",
+      "raw": 272804
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Chatpata Craze Sweeps the Internet: The Spicy Snack Sensation Taking Over Google",
+    "summary": "The search term 'chatpata' has seen a sudden surge in popularity on Google, as people across the globe become intrigued by this spicy, savory snack sensation. The craving for this unique Indian delicacy is driving thousands to learn more about its origins and flavors.",
+    "origin_story": "The term 'chatpata' first gained traction on social media platforms, where food enthusiasts shared their love for this punchy, tangy snack. As word spread, curious consumers began searching for more information about this must-try culinary delight.",
+    "expert_analysis": "The 'chatpata' trend reflects a growing global appetite for bold, flavorful food experiences. In an age of ubiquitous bland snacks, this zesty Indian snack offers a refreshing alternative that resonates with adventurous eaters seeking new taste sensations. The surge in interest also highlights the power of social media to propel niche cultural phenomena into mainstream consciousness.",
+    "impact": "As the 'chatpata' craze continues to spread, it could lead to increased demand and availability of this unique snack in international markets, exposing more people to the rich diversity of Indian cuisine.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T12:26:21.093687+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T11:08:41.986883+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:13:46.488307+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:32:58.910852+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T11:47:43.240854+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:11:08.702192+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:20:59.900091+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T12:26:21.093687+00:00",
+      "signal_score": 50
+    }
+  ]
+}

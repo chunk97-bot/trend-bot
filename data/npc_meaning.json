@@ -1,18 +1,19 @@
 {
   "trend": "npc meaning",
+  "category": "memes",
   "google_trends": {
     "interest_score": 0,
-    "trend_direction": "falling"
+    "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
-    "tiktok": "high",
-    "instagram": "low"
+    "tiktok": "low",
+    "instagram": "high"
   },
   "signal_score": 65,
-  "momentum": "-28%",
-  "lifecycle": "fading",
-  "highlight": true,
+  "momentum": "+0%",
+  "lifecycle": "peak",
+  "highlight": false,
   "history": [
     {
       "timestamp": "2026-02-04T11:49:05.899322",
@@ -23,22 +24,22 @@
       "signal_score": 90
     },
     {
-      "timestamp": "2026-02-05T21:03:25.521584",
+      "timestamp": "2026-02-06T10:15:24.528295",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-06T10:24:56.427972",
       "signal_score": 65
     }
   ],
   "analysis": {
-    "analysis": "The term 'NPC' (Non-Playable Character) is a commonly used term in the gaming community, referring to characters in a game that are controlled by the game's artificial intelligence rather than a human player. However, the information provided does not indicate that there is a significant trend or interest in the term 'NPC' at the moment, as the Google Trends data shows a falling interest score and the social media data suggests relatively low interest across platforms. The token information provided seems unrelated to the 'NPC' term, and appears to be for a cryptocurrency called 'Non-Playable Coin' rather than a term or trend related to non-playable characters in games.",
-    "status": "not_trending",
-    "meme": "low",
-    "token_relevant": "false"
+    "analysis": "",
+    "status": "stable",
+    "meme": "",
+    "token_relevant": false,
+    "image_prompt": null
   },
-  "token": {
-    "name": "Non-Playable Coin",
-    "symbol": "NPC",
-    "chain": "ethereum",
-    "liquidity_usd": 2209677.13,
-    "url": "https://dexscreener.com/ethereum/0x69c7bd26512f52bf6f76fab834140d13dda673ca"
-  },
-  "timestamp": "2026-02-05T21:03:27.236942"
+  "token": null,
+  "image": null,
+  "timestamp": "2026-02-06T10:24:57.180709"
 }

@@ -1,0 +1,68 @@
+{
+  "trend": "Month Ago",
+  "category": "entertainment",
+  "platforms": {
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "189.1K",
+      "reposts": "41.0K",
+      "raw_posts": 189108,
+      "raw_reposts": 40968
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 55,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Viral Throwback Trend Sparks Nostalgia Across Social Media",
+    "summary": "A month-old internet trend featuring a beloved piece of pop culture from the early 2000s has recently surged in popularity, capturing the attention of millions across various social media platforms.",
+    "origin_story": "The trend originated on TikTok, where users have been recreating and sharing scenes from a classic TV show that was a cultural phenomenon two decades ago.",
+    "expert_analysis": "This viral resurgence taps into the powerful force of nostalgia, as millennials and Gen Z users seek to revisit and share the media that defined their childhoods. The trend's rapid spread reflects the internet's ability to rapidly revive and amplify niche cultural touchstones.",
+    "impact": "The renewed interest in this beloved show has driven a spike in viewership and online engagement, potentially spurring a revival or renewed mainstream attention.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T12:25:56.306737+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T11:13:28.807366+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T11:47:19.088124+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:10:43.181652+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:20:38.389487+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T12:25:56.306737+00:00",
+      "signal_score": 55
+    }
+  ]
+}
