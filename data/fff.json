@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "2.4M",
-      "videos": "17.7K",
-      "raw_views": 2440862
+      "views": "52.6M",
+      "videos": "201.5K",
+      "raw_views": 52597260
     },
     "instagram": {
-      "posts": "6.6M",
-      "reach": "21.8M",
-      "raw_posts": 6623869
+      "posts": "4.7M",
+      "reach": "43.4M",
+      "raw_posts": 4748404
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Rise of fff: When Minimalism Meets Digital Aesthetics",
-    "summary": "The simple, understated 'fff' trend is taking the internet by storm, captivating users across TikTok and Instagram with its striking visual appeal and minimalist charm.",
-    "origin_story": "The trend first gained traction on TikTok, where users began sharing videos featuring the '#fff' hashtag, showcasing various creative applications of the color white.",
-    "expert_analysis": "The 'fff' trend taps into the growing popularity of minimalist aesthetics and the desire for digital spaces that offer a sense of calm and simplicity. In a world increasingly saturated with visual stimuli, this trend reflects a longing for a pared-down, distraction-free online experience.",
-    "impact": "The widespread adoption of 'fff' showcases the power of digital trends to shape visual culture and influence creative expression across various platforms.",
+    "headline": "The Mysterious Allure of the '#fff' Trend: Decoding the Internet's Latest Fixation",
+    "summary": "The '#fff' hashtag has taken the internet by storm, sparking a viral craze across TikTok and Instagram. At the heart of this trend lies a seemingly simple, yet intriguing concept: the exploration of the color white and its symbolic significance.",
+    "origin_story": "The '#fff' trend first gained traction on TikTok, where users have been sharing creative and unexpected interpretations of the color, often using it as a canvas for visual storytelling.",
+    "expert_analysis": "This trend taps into the human fascination with minimalism, simplicity, and the power of understated visuals. In a world often dominated by vibrant, attention-grabbing content, the '#fff' movement invites users to pause, reflect, and find beauty in the absence of color. It speaks to a growing desire for digital detoxification and a yearning for a more contemplative online experience.",
+    "impact": "The widespread adoption of the '#fff' trend across social media platforms highlights the internet's evolving appetite for introspective, aesthetically-driven content that encourages self-reflection and a sense of digital calm.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T22:53:33.900017+00:00",
+  "timestamp": "2026-02-06T23:53:49.983435+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -70,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-06T22:53:33.900043+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-06T23:53:49.983451+00:00",
       "signal_score": 90
     }
   ]

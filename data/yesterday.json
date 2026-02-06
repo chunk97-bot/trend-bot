@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "entertainment",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "54.2K",
-      "reposts": "37.5K",
-      "raw_posts": 54187,
-      "raw_reposts": 37492
+      "posts": "99.7K",
+      "reposts": "41.6K",
+      "raw_posts": 99680,
+      "raw_reposts": 41613
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgic Resurgence of 'Yesterday': Capturing the Hearts of Millennials",
-    "summary": "In a surprising twist, the timeless 2019 film 'Yesterday' has emerged as a viral internet sensation, captivating audiences and sparking a renewed conversation around the enduring power of music and pop culture iconography.",
-    "origin_story": "The film, which imagines a world where The Beatles never existed, has recently resurfaced on various social media platforms, inspiring a wave of nostalgic discussions and fan engagement.",
-    "expert_analysis": "This trend speaks to the ongoing cultural fascination with the legacy of the Fab Four, as well as the deep-seated yearning for simpler times and the universally beloved music that defined a generation. As the world navigates uncertain times, the appeal of 'Yesterday' lies in its ability to transport viewers to a world where the soundtrack to their lives remains unaltered.",
-    "impact": "The viral resurgence of 'Yesterday' has the potential to introduce the film to a new generation of viewers and reignite the timeless debate around the enduring influence of The Beatles on popular culture.",
+    "headline": "Nostalgia Reigns Supreme as 'Yesterday' Becomes Viral Phenomenon",
+    "summary": "Social media users are reminiscing about the bygone era of 'Yesterday,' a time when life was simpler and technology less intrusive. The sudden surge in popularity showcases our collective yearning for a slower-paced, pre-digital past.",
+    "origin_story": "The trend first emerged on TikTok, where users have been sharing nostalgic stories and memories of 'Yesterday' in creative, often humorous ways.",
+    "expert_analysis": "This viral trend taps into a deeper societal longing for a time when life was less complicated. In an age of constant connectivity and information overload, people are seeking refuge in the comforts of the past, where simpler pleasures and authentic human connections reigned supreme.",
+    "impact": "The widespread engagement with this trend suggests a widespread desire to unplug and escape the demands of modern life, even if just for a fleeting moment.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T22:53:37.498327+00:00",
+  "timestamp": "2026-02-06T23:53:57.291287+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-06T22:53:37.498342+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T23:53:57.291305+00:00",
       "signal_score": 55
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "200.8K",
-      "raw": 200792
+      "searches": "106.4K",
+      "raw": 106365
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches Amid Shifting Political Landscape",
-    "summary": "Former President Donald Trump has once again captured the public's attention, with his name topping Google search trends. This surge of interest coincides with ongoing legal battles and his potential 2024 presidential run.",
-    "origin_story": "The renewed interest in Trump can be traced to recent developments, including the investigation into his handling of classified documents and the January 6th hearings.",
-    "expert_analysis": "Trump's enduring presence in the public consciousness reflects the deep polarization within American politics. As he continues to play a central role in the nation's political discourse, this trend underscores the public's fascination with his unique brand of leadership and the ongoing debate around his legacy.",
-    "impact": "The elevated search interest in Trump is likely to shape the political landscape and media narratives in the coming months.",
+    "headline": "Trump Dominates Search Trends as Political Controversy Swirls",
+    "summary": "Donald Trump's name has taken over Google search trends as the former president faces a growing slate of legal and political challenges, capturing the public's attention once again.",
+    "origin_story": "The spike in Trump-related searches began following the recent indictment of the Trump Organization and its chief financial officer, as well as ongoing investigations into the January 6th Capitol riots.",
+    "expert_analysis": "This renewed focus on Trump underscores the public's enduring fascination with the former president, who remains a polarizing figure in American politics. The trending data reflects how Trump's legal troubles and political maneuverings continue to captivate and divide the nation.",
+    "impact": "The intense interest in Trump could shape public discourse and political momentum in the coming months.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T22:54:09.152402+00:00",
+  "timestamp": "2026-02-06T23:54:29.463641+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -68,6 +68,10 @@
     },
     {
       "timestamp": "2026-02-06T22:54:09.152417+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:29.463657+00:00",
       "signal_score": 50
     }
   ]

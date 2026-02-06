@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "85.3K",
-      "reposts": "2.4K",
-      "raw_posts": 85260,
-      "raw_reposts": 2353
+      "posts": "46.3K",
+      "reposts": "16.2K",
+      "raw_posts": 46335,
+      "raw_reposts": 16170
     },
     "tiktok": {
-      "views": "5.5M",
-      "videos": "15.4K",
-      "raw_views": 5495335
+      "views": "3.6M",
+      "videos": "1.3K",
+      "raw_views": 3564044
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 90,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Mysterious Hex Code Captivating the Internet",
-    "summary": "A seemingly innocuous hex code, 681da8, has taken the internet by storm, sparking widespread speculation and curiosity. The surge in popularity across social media platforms like TikTok and X has people eager to uncover the meaning behind this digital phenomenon.",
-    "origin_story": "The trend first emerged on TikTok, where users began sharing videos exploring the significance of the hex code and its potential hidden meanings.",
-    "expert_analysis": "This trend reflects the internet's insatiable appetite for mystery and the collective desire to unravel the unknown. The rapid spread of the 681da8 code taps into our fascination with deciphering codes and hidden messages, showcasing how the online world can quickly become captivated by the enigmatic and unexplained.",
-    "impact": "As the trend continues to gain momentum, it highlights the power of the internet to amplify and propagate viral phenomena, blurring the line between the digital and the real world.",
+    "headline": "Mysterious '681da8' Trend Captivates the Internet",
+    "summary": "A bizarre alphanumeric code, '681da8,' has taken the internet by storm, amassing millions of views and posts across TikTok and other platforms. The trend has sparked widespread curiosity and speculation about its origins and meaning.",
+    "origin_story": "The trend first emerged on TikTok, where users have been sharing short videos discussing and trying to decipher the mysterious code.",
+    "expert_analysis": "This trend taps into the human fascination with solving puzzles and uncovering hidden meanings. In an era where information is readily available, the allure of a true mystery captivates audiences, driving them to collaborate and collectively unravel the code's secrets.",
+    "impact": "As the trend continues to gain momentum, it has the potential to transcend social media, inspiring creative interpretations and even real-world investigations.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T22:53:30.089189+00:00",
+  "timestamp": "2026-02-06T23:53:53.218119+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -108,6 +108,10 @@
     {
       "timestamp": "2026-02-06T22:53:30.089202+00:00",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-06T23:53:53.218135+00:00",
+      "signal_score": 85
     }
   ]
 }

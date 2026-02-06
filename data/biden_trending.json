@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "154.6K",
-      "raw": 154649
+      "searches": "104.6K",
+      "raw": 104590
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to Top of Google Searches Amid Political Controversy",
-    "summary": "President Joe Biden has dominated Google searches as the public closely follows the latest developments surrounding his administration and family. Heightened interest is driven by ongoing political debates and media coverage.",
-    "origin_story": "The spike in Biden-related searches started on Google as news broke about various political and personal matters involving the president and his family.",
-    "expert_analysis": "This trend highlights the public's keen interest in the Biden presidency and the intense scrutiny that comes with the office. It reflects the polarized political climate, with both supporters and critics closely monitoring the administration's every move.",
-    "impact": "The high search volume underscores the significant influence of political narratives in shaping public discourse and perception, particularly in the digital age.",
-    "status": "viral"
+    "headline": "Biden Trending Amid Scrutiny Over Classified Documents",
+    "summary": "President Joe Biden is trending on Google as news breaks about classified documents found in his personal office and home, raising questions about his handling of sensitive information.",
+    "origin_story": "The trend began after reports surfaced that a small number of classified documents from Biden's time as Vice President were discovered at the Penn Biden Center, a think tank in Washington D.C.",
+    "expert_analysis": "This story highlights the political risks that come with the mishandling of classified materials, an issue that has dogged both Democrats and Republicans in recent years. It also underscores the intense public interest in any perceived missteps by the President, particularly as the 2024 election cycle looms.",
+    "impact": "The evolving situation has the potential to dominate news cycles and shape the political discourse in the coming weeks and months.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T22:54:12.069914+00:00",
+  "timestamp": "2026-02-06T23:54:32.127861+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -92,6 +92,10 @@
     },
     {
       "timestamp": "2026-02-06T22:54:12.069928+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:32.127878+00:00",
       "signal_score": 50
     }
   ]

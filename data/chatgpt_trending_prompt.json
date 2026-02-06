@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "283.7K",
-      "raw": 283672
+      "searches": "197.0K",
+      "raw": 197043
     },
     "x": {
       "posts": "0",
@@ -33,16 +33,19 @@
   "locations": [
     "global"
   ],
-  "related_trends": [],
+  "related_trends": [
+    "chatgpt trending prompt",
+    "chatgpt trending prompt christmas"
+  ],
   "analysis": {
-    "headline": "The 'ChatGPT Prompt' Takeover: Unlocking AI's Creative Potential",
-    "summary": "People are flocking to Google to search for the best prompts to unlock ChatGPT's impressive capabilities, reflecting a growing fascination with the AI's versatility and creative applications.",
-    "origin_story": "The trend emerged as users discovered the power of crafting specific prompts to generate unique and imaginative content with ChatGPT, an advanced language model.",
-    "expert_analysis": "This surge in interest highlights the public's eagerness to explore the boundaries of AI-assisted creativity. By experimenting with prompts, users are tapping into ChatGPT's ability to generate everything from poetry to code, signaling a wider societal embrace of AI as a collaborative tool.",
-    "impact": "As more people discover the potential of prompt engineering, we may see a rise in AI-powered content creation across various industries, from marketing to education.",
-    "status": "rising"
+    "headline": "ChatGPT Prompts Take the Internet by Storm",
+    "summary": "As the AI chatbot ChatGPT continues to captivate the public's imagination, a new trend has emerged: the creation and sharing of unique ChatGPT prompts. People are using these prompts to push the limits of the AI's capabilities and uncover its quirks and hidden talents.",
+    "origin_story": "The trend of sharing ChatGPT prompts first gained traction on social media platforms like Twitter and Reddit, where users began showcasing the impressive and sometimes unexpected results they were able to achieve.",
+    "expert_analysis": "The popularity of ChatGPT prompts reflects the public's growing fascination with the potential of AI technology. By experimenting with different prompts, users are able to explore the boundaries of what ChatGPT can do, and in the process, gain a deeper understanding of the AI's strengths, weaknesses, and underlying biases.",
+    "impact": "As the trend continues to spread, it is likely to have far-reaching implications for the way people interact with and perceive AI technology, shaping the public discourse around the ethical and societal implications of these rapidly evolving tools.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T22:53:58.701834+00:00",
+  "timestamp": "2026-02-06T23:54:19.209388+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -90,6 +93,10 @@
     },
     {
       "timestamp": "2026-02-06T22:53:58.701849+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:19.209404+00:00",
       "signal_score": 50
     }
   ]
