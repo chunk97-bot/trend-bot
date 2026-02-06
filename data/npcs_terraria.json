@@ -1,20 +1,36 @@
 {
   "trend": "npcs terraria",
-  "metrics": {
-    "tiktok": 0,
-    "youtube": 0,
-    "x": 0
-  },
   "google_trends": {
     "interest_score": 0,
-    "trend_direction": "falling"
+    "trend_direction": "flat"
   },
-  "timestamp": "2026-02-04T10:17:33.086798",
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "low"
+  },
+  "signal_score": 65,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-06T11:50:03.507751",
+      "signal_score": 65
+    }
+  ],
   "analysis": {
-    "analysis": "The Google Trends data shows that the interest in 'npcs terraria' is falling, indicating a decreasing popularity or search volume for this topic over time.",
-    "status": "declining",
-    "meme": "When your Terraria NPC squad is so disorganized, it's like herding cats with no catnip.",
-    "image_prompt": "A chaotic Terraria town where NPCs are scattered, ignoring the player's desperate attempts to organize them."
+    "analysis": "The trend for 'npcs terraria' is currently flat, with a low level of interest. The social media activity is high on TikTok and Instagram, indicating potential for growth. The token 'NPC Solana' (NPCS) has a liquidity of $106,611.68 on the Solana blockchain, which is a relatively low amount for a token. Overall, the data suggests that the 'npcs terraria' trend is not very active at the moment, and the 'NPC Solana' token is not highly relevant to this topic.",
+    "status": "flat",
+    "meme": "low",
+    "token_relevant": "low"
   },
-  "token": null
+  "token": {
+    "name": "NPC Solana",
+    "symbol": "NPCS",
+    "chain": "solana",
+    "liquidity_usd": 106611.68,
+    "url": "https://dexscreener.com/solana/4bkrq2il3rv8mspdsfm5fnkz9sgq4iaqrytgnwjge3s4"
+  },
+  "timestamp": "2026-02-06T11:50:05.420494"
 }

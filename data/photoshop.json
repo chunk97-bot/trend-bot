@@ -1,30 +1,34 @@
 {
   "trend": "photoshop",
   "google_trends": {
-    "interest_score": 98,
-    "trend_direction": "falling"
+    "interest_score": 0,
+    "trend_direction": "flat"
   },
   "social_presence": {
     "x": "high",
     "tiktok": "high",
     "instagram": "high"
   },
-  "signal_score": 100,
-  "momentum": "0%",
+  "signal_score": 90,
+  "momentum": "-10%",
   "lifecycle": "new",
   "highlight": false,
   "history": [
     {
       "timestamp": "2026-02-04T17:12:42.416920",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-06T11:49:59.928161",
+      "signal_score": 90
     }
   ],
   "analysis": {
-    "analysis": "The trend data shows that interest in Photoshop is falling, with a high social media presence across platforms like TikTok and Instagram. The momentum for the trend is 0%, indicating a lack of growth or renewed interest. The token 'The Worst Photoshop' does not seem to be highly relevant to the Photoshop trend, as it is not a widely known or popular project.",
-    "status": "declining",
-    "meme": "Photoshop disasters and memes have been a staple of internet culture for years, but the declining interest suggests the trend may be losing its momentum. However, the continued high social media presence indicates that Photoshop-related content still resonates with many users.",
+    "analysis": "Photoshop is a popular image editing software that has been widely used for many years. The trend data shows that interest in Photoshop is relatively flat, indicating that it has maintained a consistent level of popularity over time. The social media data suggests that Photoshop-related content is highly engaged with on platforms like TikTok and Instagram, which are popular among younger audiences. However, the momentum data shows a slight decline of 10%, indicating that the overall interest in Photoshop may be waning slightly. Overall, Photoshop remains a relevant and widely used tool, but its momentum is showing signs of slowing down.",
+    "status": "stable",
+    "meme": "Photoshop: The Digital Wizard's Playground",
     "token_relevant": false
   },
   "token": null,
-  "timestamp": "2026-02-04T17:12:44.714097"
+  "timestamp": "2026-02-06T11:50:01.919610"
 }
