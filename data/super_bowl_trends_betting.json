@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "157.2K",
-      "raw": 157220
+      "searches": "190.6K",
+      "raw": 190631
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Betting Surges as Fans Embrace the Thrill",
-    "summary": "With the biggest football event of the year fast approaching, sports enthusiasts are flocking to online platforms to place their bets on Super Bowl outcomes, reflecting a growing embrace of sports gambling.",
-    "origin_story": "The surge in Super Bowl betting coincides with the continued expansion of legalized sports betting across the United States, with more and more states opening up to this industry.",
-    "expert_analysis": "This trend underscores the growing popularity of sports gambling, which has become increasingly normalized and integrated into the fan experience. As the Super Bowl captivates the nation, the ability to bet on the game adds an extra layer of excitement and engagement for many viewers.",
-    "impact": "The rise in Super Bowl betting is likely to translate into significant revenue for sportsbooks and a heightened level of viewer interest in the game's outcome.",
+    "headline": "Super Bowl Betting Fever Grips the Nation as Big Game Approaches",
+    "summary": "With the biggest sporting event of the year just around the corner, Americans are flocking to online platforms to research and place bets on the outcome of the Super Bowl. This surge in betting interest reflects the growing popularity and mainstream acceptance of sports gambling in the U.S.",
+    "origin_story": "The increased search activity around Super Bowl betting can be traced to the Supreme Court's 2018 decision to overturn the federal ban on sports betting, paving the way for individual states to legalize the practice.",
+    "expert_analysis": "The spike in Super Bowl betting interest highlights how sports gambling has become deeply embedded in the American sports landscape. Fans are no longer just passive viewers, but active participants looking to profit off the game's outcome. This trend reflects a broader cultural shift towards monetizing fan engagement and transforming sports into an interactive entertainment experience.",
+    "impact": "With billions of dollars expected to be wagered on the Super Bowl, the proliferation of sports betting will have significant implications for the sports industry, media companies, and state governments that have legalized the practice.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T17:32:09.075708+00:00",
+  "timestamp": "2026-02-06T19:50:42.713197+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:29.869056+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-06T17:32:09.075722+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T19:50:42.713212+00:00",
       "signal_score": 50
     }
   ]

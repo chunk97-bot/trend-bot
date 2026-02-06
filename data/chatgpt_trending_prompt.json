@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "166.5K",
-      "raw": 166462
+      "searches": "290.4K",
+      "raw": 290444
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "ChatGPT Prompts Take Google by Storm, Sparking Curiosity and Concern",
-    "summary": "The explosive interest in ChatGPT prompts on Google reflects a growing fascination with the capabilities of AI language models, as people explore ways to harness this powerful technology for various tasks.",
-    "origin_story": "ChatGPT, the highly-capable AI chatbot developed by OpenAI, has been gaining widespread attention since its launch in November 2022, leading to a surge of curiosity and experimentation with prompt engineering.",
-    "expert_analysis": "This trend highlights the public's growing appetite for AI-powered tools that can assist with everything from creative writing to problem-solving. However, it also raises questions about the ethical implications of relying on AI to generate content, as well as concerns about the potential for misuse or deception.",
-    "impact": "As the popularity of ChatGPT prompts continues to grow, it will likely shape the way we interact with and think about artificial intelligence in the years to come.",
-    "status": "rising"
+    "headline": "The ChatGPT Prompt Craze: Why Everyone's Searching for the Perfect Prompt",
+    "summary": "ChatGPT, the groundbreaking AI language model, has captured the public's imagination, leading to a surge in searches for the best prompts to unlock its full potential. As users explore the limits of this transformative technology, the quest for the ultimate prompt has become a viral trend.",
+    "origin_story": "The trend emerged as ChatGPT's impressive capabilities spread across social media, inspiring users to experiment with different prompts to see what the AI can do.",
+    "expert_analysis": "This trend reflects the public's insatiable curiosity about the possibilities of AI and the desire to harness its power for a wide range of applications, from creative writing to task automation. The search for the perfect prompt highlights the ongoing exploration of AI's potential and the need for users to understand how to effectively communicate with these advanced language models.",
+    "impact": "The ChatGPT prompt craze has the potential to drive further innovation and adoption of AI technologies, as individuals and businesses seek to unlock new use cases and optimize their interactions with these transformative tools.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T17:31:51.043957+00:00",
+  "timestamp": "2026-02-06T19:50:30.224857+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-06T17:31:51.043969+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T19:50:30.224874+00:00",
       "signal_score": 50
     }
   ]

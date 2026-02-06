@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "110.3K",
-      "raw": 110251
+      "searches": "202.5K",
+      "raw": 202469
     },
     "x": {
       "posts": "0",
@@ -33,19 +33,16 @@
   "locations": [
     "global"
   ],
-  "related_trends": [
-    "ai trending photo",
-    "ai trending photo prompt"
-  ],
+  "related_trends": [],
   "analysis": {
     "headline": "AI-Generated Photos Take the Internet by Storm",
-    "summary": "The latest craze sweeping the internet is the ability to create stunningly realistic images using artificial intelligence. People are flocking to try out AI photo generation tools, leading to a surge in popularity and online discussion.",
-    "origin_story": "The trend started gaining momentum on social media platforms like Twitter, where users began sharing their AI-generated creations and marveling at the technology's capabilities.",
-    "expert_analysis": "This trend speaks to our collective fascination with the rapid advancements in AI technology and its ability to blur the lines between reality and imagination. It also highlights our growing appetite for creative self-expression, as people use these tools to explore their artistic side and push the boundaries of what's possible.",
-    "impact": "The rise of AI-generated photos has the potential to revolutionize the way we create and consume visual content, with far-reaching implications for industries like art, advertising, and entertainment.",
-    "status": "rising"
+    "summary": "Artificial intelligence-powered tools that can create photorealistic images from text prompts have become a viral sensation, captivating the online world with their remarkable capabilities and sparking debates around the future of creative work.",
+    "origin_story": "The surge in interest can be traced to the widespread adoption of models like DALL-E, Midjourney, and Stable Diffusion, which have democratized AI image generation and made it accessible to a broader audience.",
+    "expert_analysis": "This trend reflects the public's fascination with the rapid advancements in AI and the transformative impact they're having on various industries, from art and design to entertainment and even journalism. As these tools become more sophisticated, they raise questions about the role of human creativity and the potential implications for traditional creative professions.",
+    "impact": "The popularity of AI-generated photos has the potential to revolutionize how visual content is produced and consumed, with far-reaching implications for the creative economy and the way we interact with digital media.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T12:26:06.453062+00:00",
+  "timestamp": "2026-02-06T19:50:22.853265+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:19.285980+00:00",
@@ -73,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-06T12:26:06.453062+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T19:50:22.853282+00:00",
       "signal_score": 50
     }
   ]

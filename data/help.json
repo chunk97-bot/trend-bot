@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "110.5K",
-      "reposts": "28.5K",
-      "raw_posts": 110527,
-      "raw_reposts": 28492
+      "posts": "53.3K",
+      "reposts": "29.2K",
+      "raw_posts": 53312,
+      "raw_reposts": 29161
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Internet Rallies Behind Viral 'Help' Trend: A Cry for Connection",
-    "summary": "A simple yet powerful word has taken the internet by storm, as users across platforms flood feeds with pleas for 'help.' This outpouring reflects a deep-seated longing for community and support during challenging times.",
-    "origin_story": "The trend first gained traction on social media, with users posting variations of the word 'help' to express their struggles and seek solace from others.",
-    "expert_analysis": "This viral 'help' phenomenon taps into the universal human desire for empathy and belonging. In an increasingly isolating digital landscape, people are using this trend to forge connections and find comfort in shared experiences.",
-    "impact": "The widespread resonance of this trend underscores the vital role of online communities in providing emotional support and resources during times of distress.",
+    "headline": "Viral 'Help' Trend Sheds Light on Mental Health Struggles",
+    "summary": "A simple yet powerful social media trend of people posting the word 'help' has gone viral, reflecting a growing need for open dialogues around mental health and destigmatizing asking for support.",
+    "origin_story": "The trend appears to have started on TikTok, where users have been posting videos with just the word 'help' as the caption, often accompanied by a somber expression or background music.",
+    "expert_analysis": "The 'help' trend taps into a universal human experience - the desire to be heard and understood, especially during difficult times. It underscores the importance of creating safe spaces for people to openly express their struggles and seek community support.",
+    "impact": "The trend has sparked important conversations around mental health and the power of vulnerability, with many users sharing their own stories and offering resources to those in need.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T17:31:32.165599+00:00",
+  "timestamp": "2026-02-06T19:50:05.543146+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:16.214848+00:00",
@@ -74,6 +74,10 @@
     },
     {
       "timestamp": "2026-02-06T17:31:32.165610+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T19:50:05.543161+00:00",
       "signal_score": 55
     }
   ]

@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "69.8K",
-      "reposts": "14.7K",
-      "raw_posts": 69811,
-      "raw_reposts": 14694
+      "posts": "82.1K",
+      "reposts": "37.5K",
+      "raw_posts": 82127,
+      "raw_reposts": 37486
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Viral Comeback of Month Ago: Decoding the Internet's Nostalgic Obsession",
-    "summary": "After a month-long hiatus, the forgotten internet phenomenon 'Month Ago' has unexpectedly resurfaced, capturing the attention of users across multiple platforms. The sudden resurgence has left many scratching their heads, wondering what's fueling this unexpected comeback.",
-    "origin_story": "The trend first gained traction on various social media platforms around a month ago, sparking a wave of posts and reposts from users.",
-    "expert_analysis": "The renewed interest in Month Ago suggests a deeper yearning for nostalgia and simpler times among internet users. In a world that often feels chaotic and overwhelming, the familiar comfort of this past trend provides a soothing escape. This phenomenon highlights the power of collective reminiscence and the human desire to revisit and relive moments that have left an indelible mark on the digital landscape.",
-    "impact": "The viral resurgence of Month Ago has the potential to reignite conversations, inspire creative content, and even influence broader cultural trends.",
-    "status": "viral"
+    "headline": "Month Ago Takes Over The Internet",
+    "summary": "The topic 'Month Ago' is trending across x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T17:31:40.499191+00:00",
+  "timestamp": "2026-02-06T19:50:12.808095+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -70,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-06T17:31:40.499203+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T19:50:12.808109+00:00",
       "signal_score": 55
     }
   ]
