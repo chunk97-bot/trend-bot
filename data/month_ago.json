@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "entertainment",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "82.1K",
-      "reposts": "37.5K",
-      "raw_posts": 82127,
-      "raw_reposts": 37486
+      "posts": "185.8K",
+      "reposts": "16.5K",
+      "raw_posts": 185791,
+      "raw_reposts": 16512
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Month Ago Takes Over The Internet",
-    "summary": "The topic 'Month Ago' is trending across x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "The Viral Resurgence of a One-Month-Old Meme: What's Driving the Craze?",
+    "summary": "A seemingly forgotten meme from a month ago has suddenly taken the internet by storm, with thousands of posts and reposts across various platforms. The unexpected revival has left many users scratching their heads, wondering what exactly is fueling this unexpected trend.",
+    "origin_story": "The meme first gained traction on social media platforms around a month ago, but its sudden resurgence has caught many by surprise.",
+    "expert_analysis": "This trend likely speaks to the cyclical nature of internet culture, where seemingly forgotten memes can unexpectedly resurface and capture the collective attention of users. It also highlights the power of social media algorithms and the unpredictable way content can gain virality, even long after its initial popularity.",
+    "impact": "The viral resurgence of this meme could lead to renewed interest and engagement, potentially spawning new iterations or sparking related trends.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T19:50:12.808095+00:00",
+  "timestamp": "2026-02-06T22:53:41.391322+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -74,6 +74,10 @@
     },
     {
       "timestamp": "2026-02-06T19:50:12.808109+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T22:53:41.391338+00:00",
       "signal_score": 55
     }
   ]

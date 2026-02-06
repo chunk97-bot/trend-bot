@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "106.8K",
-      "raw": 106836
+      "searches": "155.7K",
+      "raw": 155668
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Fever Grips the Nation as Searches Soar",
-    "summary": "The annual Super Bowl frenzy has taken the internet by storm, with a surge in Google searches reflecting the growing excitement and anticipation leading up to the big game. Fans are eager to stay updated on the latest news, predictions, and discussions surrounding this year's event.",
-    "origin_story": "The Super Bowl is a highly anticipated event in the United States, and the increasing online chatter is a testament to the widespread interest and passion surrounding the game.",
-    "expert_analysis": "This spike in Super Bowl-related searches underscores the cultural significance of the event, which has become a unifying force that transcends sports, bringing together fans, casual viewers, and even those who may not typically follow football. The intense interest reflects the event's ability to captivate the nation and spark a shared experience, even in the digital age.",
-    "impact": "As the Super Bowl approaches, the heightened online activity suggests that the event will continue to be a major cultural phenomenon, generating significant media coverage and driving widespread engagement across various platforms.",
-    "status": "viral"
+    "headline": "Super Bowl Fever Grips the Internet as Fans Eagerly Await the Big Game",
+    "summary": "The Super Bowl, one of the most anticipated sporting events of the year, is dominating online conversations as fans eagerly await the highly anticipated matchup. Google searches for 'super bowl trending' have spiked, indicating a growing interest in the upcoming game and related events.",
+    "origin_story": "The surge in online chatter about the Super Bowl can be traced back to the official announcement of the teams and performers scheduled to participate in the event.",
+    "expert_analysis": "The intense interest in the Super Bowl reflects the cultural significance of the event, which transcends the boundaries of sports. It's a time when fans come together to celebrate the pageantry, the commercials, and the shared experience of watching the biggest game of the year.",
+    "impact": "The Super Bowl's trending status on Google is a testament to its enduring popularity and the way it captivates the attention of millions of people around the world.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T21:04:44.481321+00:00",
+  "timestamp": "2026-02-06T22:54:15.943325+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:14:00.482771+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-06T21:04:44.481337+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:54:15.943340+00:00",
       "signal_score": 50
     }
   ]

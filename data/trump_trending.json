@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "108.7K",
-      "raw": 108712
+      "searches": "200.8K",
+      "raw": 200792
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Surges Back into Spotlight as Impeachment Chatter Heats Up",
-    "summary": "Former President Donald Trump has once again dominated the online conversation, with Google searches for his name spiking as renewed calls for his impeachment gain traction. The renewed interest in Trump comes amid growing speculation about his potential 2024 presidential run.",
-    "origin_story": "The latest Trump-related trending spike appears to have been triggered by comments made by Democratic lawmakers about the possibility of impeaching the former president over his role in the January 6th Capitol riots.",
-    "expert_analysis": "Trump's enduring presence in the national conversation, even after leaving office, underscores his unique ability to captivate the public's attention. This trend reflects the deep political polarization in the US, as well as the former president's skill at generating controversy and driving the news cycle.",
-    "impact": "The renewed focus on Trump could have significant implications for the 2024 election cycle and the broader political landscape.",
+    "headline": "Trump Dominates Google Searches Amid Shifting Political Landscape",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name topping Google search trends. This surge of interest coincides with ongoing legal battles and his potential 2024 presidential run.",
+    "origin_story": "The renewed interest in Trump can be traced to recent developments, including the investigation into his handling of classified documents and the January 6th hearings.",
+    "expert_analysis": "Trump's enduring presence in the public consciousness reflects the deep polarization within American politics. As he continues to play a central role in the nation's political discourse, this trend underscores the public's fascination with his unique brand of leadership and the ongoing debate around his legacy.",
+    "impact": "The elevated search interest in Trump is likely to shape the political landscape and media narratives in the coming months.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T21:57:23.764103+00:00",
+  "timestamp": "2026-02-06T22:54:09.152402+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -64,6 +64,10 @@
     },
     {
       "timestamp": "2026-02-06T21:57:23.764118+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:54:09.152417+00:00",
       "signal_score": 50
     }
   ]

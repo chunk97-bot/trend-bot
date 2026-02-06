@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "183.7K",
-      "raw": 183746
+      "searches": "182.6K",
+      "raw": 182596
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Takes the Spotlight as Trending Google Search Topic",
-    "summary": "Artificial intelligence (AI) has emerged as a dominant search trend on Google, reflecting the growing public fascination with this transformative technology. From chatbots to machine learning, AI is capturing the imagination of internet users across the globe.",
-    "origin_story": "The surge in AI-related searches can be traced back to the recent launch and widespread adoption of AI-powered chatbots, such as OpenAI's ChatGPT, which have demonstrated remarkable language understanding and generation capabilities.",
-    "expert_analysis": "This AI search trend underscores the public's eagerness to explore the possibilities and implications of this rapidly evolving technology. As AI systems become more sophisticated and integrated into our daily lives, people are seeking to understand how these tools can enhance productivity, creativity, and decision-making across various sectors.",
-    "impact": "The increasing popularity of AI-related searches on Google suggests that this technology is poised to have a profound and far-reaching impact on our personal and professional lives in the years to come.",
+    "headline": "AI Dominates Search Trends as Generative AI Captivates the World",
+    "summary": "Google searches for 'AI' have surged, reflecting the public's growing fascination with the rapid advancements in generative AI technologies like ChatGPT. This trend underscores the profound impact these tools are having on how we consume and create information.",
+    "origin_story": "The spike in AI-related searches can be traced to the viral success of ChatGPT, the conversational AI model developed by OpenAI, which has captured the public's imagination with its impressive language abilities.",
+    "expert_analysis": "The AI trend reveals how rapidly this technology is evolving and being integrated into our daily lives. As generative AI systems become more sophisticated, they are transforming the way we work, learn, and interact with information, raising important questions about the future of jobs, education, and the very nature of human creativity.",
+    "impact": "The growing interest in AI has the potential to drive further innovation and investment in this field, with far-reaching implications for industries and society as a whole.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T21:57:04.329819+00:00",
+  "timestamp": "2026-02-06T22:53:52.553122+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-06T21:57:04.329837+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:53:52.553136+00:00",
       "signal_score": 50
     }
   ]

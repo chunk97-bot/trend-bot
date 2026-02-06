@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "225.8K",
-      "raw": 225809
+      "searches": "222.2K",
+      "raw": 222213
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The AI-Powered Image Generation Trend Sweeps the Internet",
-    "summary": "Fueled by the growing popularity of ChatGPT, people are increasingly exploring the capabilities of AI-powered image generators, leading to a surge in online interest and experimentation.",
-    "origin_story": "The trend gained momentum after the release of ChatGPT, an AI language model developed by OpenAI, which demonstrated its ability to generate human-like text. This has now expanded to image generation, with users exploring the creative potential of these AI tools.",
-    "expert_analysis": "This trend reflects the public's fascination with the rapid advancements in artificial intelligence and the transformative impact it can have on creative processes. As these AI models become more accessible and powerful, they are challenging traditional notions of art and creativity, sparking discussions about the role of technology in human expression.",
-    "impact": "The surge in interest in AI-powered image generation is likely to drive further innovation and experimentation in this field, potentially leading to new artistic and commercial applications.",
-    "status": "rising"
+    "headline": "The AI Art Explosion: Prompting a Creative Revolution",
+    "summary": "The soaring popularity of AI-generated images through chatGPT's image prompt feature has sparked a creative frenzy, as users explore the boundless possibilities of AI-powered art.",
+    "origin_story": "The trend gained significant momentum after the release of ChatGPT, an advanced language model developed by OpenAI that can generate high-quality images based on textual prompts.",
+    "expert_analysis": "This surge in AI-generated art reflects a growing fascination with the intersection of technology and creativity. As the capabilities of AI continue to evolve, the public is captivated by the potential for machines to push the boundaries of artistic expression.",
+    "impact": "The rise of AI art could have far-reaching implications, transforming the creative industries and challenging traditional notions of authorship and originality.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T21:57:17.422839+00:00",
+  "timestamp": "2026-02-06T22:54:02.616362+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:26.910838+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-06T21:57:17.422855+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:54:02.616375+00:00",
       "signal_score": 50
     }
   ]
