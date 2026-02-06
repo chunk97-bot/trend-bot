@@ -1,6 +1,6 @@
 {
   "trend": "Year Ago",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "91.5K",
-      "reposts": "44.7K",
-      "raw_posts": 91514,
-      "raw_reposts": 44672
+      "posts": "195.2K",
+      "reposts": "32.3K",
+      "raw_posts": 195162,
+      "raw_reposts": 32264
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgia Reigns as 'Year Ago' Trend Captivates Social Media",
-    "summary": "Across various platforms, users are reminiscing about their lives and experiences from exactly one year prior, sparking a wave of nostalgic reflections and a renewed appreciation for the passage of time.",
-    "origin_story": "The 'Year Ago' trend originated on platforms like TikTok and Twitter, where users began sharing memories, photos, and videos from the same date the previous year.",
-    "expert_analysis": "This trend taps into the human desire to connect with our past selves and the poignant realization of how much can change in the span of a year. It reflects a broader cultural yearning for simpler times and a chance to reflect on personal growth and the fleeting nature of life.",
-    "impact": "The 'Year Ago' trend has resonated with millions, fostering a sense of community and shared experience amidst the constant flux of everyday life.",
-    "status": "viral"
+    "headline": "Year Ago Takes Over The Internet",
+    "summary": "The topic 'Year Ago' is trending across x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T19:50:16.249587+00:00",
+  "timestamp": "2026-02-06T21:04:18.074669+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:18.284403+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-06T19:50:16.249602+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T21:04:18.074682+00:00",
       "signal_score": 55
     }
   ]

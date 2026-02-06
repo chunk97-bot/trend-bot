@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "109.1K",
-      "raw": 109057
+      "searches": "123.1K",
+      "raw": 123060
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Google Searches as the Future of Tech Takes Center Stage",
-    "summary": "Artificial intelligence has captured the public's imagination, with searches for AI-related topics surging on Google. This trend reflects the growing influence of AI in shaping our technological landscape and the widespread curiosity about its potential applications.",
-    "origin_story": "The spike in AI-related searches can be traced back to the recent advancements and increased media attention surrounding AI technologies, such as the viral success of ChatGPT.",
-    "expert_analysis": "This trend underscores the public's fascination with the transformative power of AI and the desire to understand its implications for various industries and our daily lives. As AI continues to evolve, this surge in interest highlights the need for thoughtful discussions about the ethical, social, and economic impacts of these technologies.",
-    "impact": "The growing interest in AI could drive further investment, innovation, and public discourse around the future of this transformative technology.",
-    "status": "rising"
+    "headline": "AI Topics Dominate Google Search as Public Fascination Grows",
+    "summary": "Artificial intelligence has taken the internet by storm, with an explosion of Google searches around AI-related topics. This surge of public interest reflects the rapid advancements and widespread impact of AI technology in our daily lives.",
+    "origin_story": "The spike in AI-related Google searches can be traced to the recent launch and widespread adoption of AI chatbots and language models, such as ChatGPT, which have captivated the public's imagination.",
+    "expert_analysis": "The trending interest in AI topics underscores the public's curiosity and excitement about the transformative potential of this technology. As AI becomes more integrated into our personal and professional lives, people are eager to understand its capabilities, applications, and implications for the future.",
+    "impact": "This surge in AI-related searches suggests that the technology is poised to play an increasingly central role in shaping our digital landscape and everyday experiences.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T19:50:18.858511+00:00",
+  "timestamp": "2026-02-06T21:04:25.317162+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-06T19:50:18.858529+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:04:25.317177+00:00",
       "signal_score": 50
     }
   ]

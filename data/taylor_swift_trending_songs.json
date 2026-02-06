@@ -1,0 +1,55 @@
+{
+  "trend": "taylor swift trending songs",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "211.7K",
+      "raw": 211715
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "taylor swift trending songs",
+    "taylor swift trending"
+  ],
+  "analysis": {
+    "headline": "Taylor Swift Dominates Music Charts with Surprise Album Releases",
+    "summary": "Fans of Taylor Swift are flocking to Google to search for her latest album releases, as the pop superstar continues to surprise and delight her loyal fanbase with unexpected drops of new music.",
+    "origin_story": "The recent spike in Google searches for 'Taylor Swift trending songs' can be traced back to the artist's surprise release of her 10th studio album, 'Midnights', on October 21st.",
+    "expert_analysis": "Swift's ability to generate massive excitement and engagement with her music, even without traditional promotional campaigns, speaks to her unparalleled connection with her fans. This trend highlights the power of fan loyalty and the influence of social media in driving music industry success.",
+    "impact": "The continued dominance of Taylor Swift's music on streaming platforms and the charts will likely cement her status as one of the most influential and successful artists of her generation.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T21:04:50.971896+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T21:04:50.971929+00:00",
+      "signal_score": 50
+    }
+  ]
+}

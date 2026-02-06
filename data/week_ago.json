@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "125.5K",
-      "reposts": "45.8K",
-      "raw_posts": 125452,
-      "raw_reposts": 45761
+      "posts": "124.4K",
+      "reposts": "20.6K",
+      "raw_posts": 124447,
+      "raw_reposts": 20617
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Week-Old Meme That's Sparking Viral Conversations",
-    "summary": "A week-old meme has suddenly exploded across social media, capturing the attention of millions with its clever commentary on modern life. The rapid spread of this relatable content has left many users wondering what's fueling its sudden popularity.",
-    "origin_story": "The meme first emerged on X, a popular social media platform, where it quickly racked up over 125,000 posts and 45,800 reposts from engaged users.",
-    "expert_analysis": "The week-old meme's sudden viral surge taps into a universal human experience that resonates with the online masses. Its ability to encapsulate a shared cultural sentiment in a concise, humorous format has struck a chord, reflecting the internet's appetite for content that both entertains and provides a sense of communal understanding.",
-    "impact": "The meme's rapid rise has sparked widespread discussion and interaction, underscoring the power of social media to rapidly amplify and spread cultural touchpoints.",
+    "headline": "Nostalgic 'Week Ago' Meme Relives Our Collective Pandemic Experience",
+    "summary": "The 'Week Ago' meme has taken the internet by storm, allowing people to humorously reflect on the rapid changes in their lives and mindsets over the past year of the pandemic.",
+    "origin_story": "The meme first gained traction on TikTok, where users would share side-by-side photos or videos contrasting their current selves with how they looked or felt just a week prior.",
+    "expert_analysis": "The 'Week Ago' meme taps into a universal experience of the pandemic's ability to distort our sense of time and rapidly shift our perspectives. It reveals our collective desire to find humor and relatability in the emotional whiplash of living through such uncertain times.",
+    "impact": "The meme has sparked an outpouring of engagement across social media platforms, allowing people to connect over their shared pandemic experiences.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T17:31:37.079210+00:00",
+  "timestamp": "2026-02-06T21:04:14.184365+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-06T17:31:37.079226+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T21:04:14.184380+00:00",
       "signal_score": 55
     }
   ]

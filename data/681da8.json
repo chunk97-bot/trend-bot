@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "12.2K",
-      "reposts": "15.8K",
-      "raw_posts": 12236,
-      "raw_reposts": 15826
+      "posts": "51.1K",
+      "reposts": "16.5K",
+      "raw_posts": 51088,
+      "raw_reposts": 16503
     },
     "tiktok": {
-      "views": "3.3M",
-      "videos": "11.5K",
-      "raw_views": 3297454
+      "views": "9.8M",
+      "videos": "12.7K",
+      "raw_views": 9834043
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious '681da8' Craze Sweeps Social Media, Sparking Curiosity",
-    "summary": "An enigmatic trend centered around the cryptic code '681da8' has captured the attention of millions across TikTok and Twitter. This viral phenomenon has users speculating about its hidden meaning and significance.",
-    "origin_story": "The trend first emerged on TikTok, where users began sharing videos featuring the mysterious code, driving millions of views and sparking widespread discussion.",
-    "expert_analysis": "This trend speaks to the internet's ongoing fascination with cracking codes and uncovering hidden meanings. It taps into our innate human desire to uncover the unknown, leading users to engage in collective sensemaking and theorizing about the potential significance behind '681da8'.",
-    "impact": "As the trend continues to spread, it has the potential to inspire creative interpretations, fan theories, and even potential real-world applications if the meaning is eventually decoded.",
+    "headline": "Viral TikTok Trend Sparks Debate Over Digital Authenticity",
+    "summary": "A new TikTok trend involving an enigmatic hexadecimal code is captivating the internet, raising questions about the line between genuine online expression and orchestrated virality.",
+    "origin_story": "The trend first emerged on TikTok, where users have been sharing videos featuring the hexadecimal code '681da8', leading to a surge of activity across the platform.",
+    "expert_analysis": "This trend taps into the growing desire for digital experiences that feel more authentic and unscripted. As social media users become increasingly savvy to the mechanics of viral marketing, they are drawn to content that appears to be organic and spontaneous, rather than overtly engineered for engagement.",
+    "impact": "The popularity of this trend highlights the power of mystery and user interpretation to drive online discourse and engagement.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T19:50:03.144490+00:00",
+  "timestamp": "2026-02-06T21:04:06.457050+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -96,6 +96,10 @@
     {
       "timestamp": "2026-02-06T19:50:03.144506+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-06T21:04:06.457066+00:00",
+      "signal_score": 100
     }
   ]
 }
