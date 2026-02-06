@@ -1,0 +1,36 @@
+{
+  "trend": "ai detector",
+  "google_trends": {
+    "interest_score": 81,
+    "trend_direction": "rising"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-06T05:07:14.895050",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The 'AI detector' trend is rising, with high interest across various social media platforms like Google, TikTok, and Instagram. However, the momentum is currently at 0%, indicating that the trend may not be picking up significant traction at the moment. The token 'Any Inu' (symbol: AI) is on the Binance Smart Chain (BSC) with a liquidity of $21,848.2. While the token's name and symbol may be related to the 'AI detector' trend, its low liquidity and lack of momentum suggest that it may not be directly relevant to the current trend.",
+    "status": "neutral",
+    "meme": "low",
+    "token_relevant": "low"
+  },
+  "token": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "chain": "bsc",
+    "liquidity_usd": 21848.2,
+    "url": "https://dexscreener.com/bsc/0xbacbea108e060aeb3aa4bd55bf46534bdde6f6b7"
+  },
+  "timestamp": "2026-02-06T05:07:17.824683"
+}

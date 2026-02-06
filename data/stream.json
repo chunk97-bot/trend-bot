@@ -1,0 +1,36 @@
+{
+  "trend": "stream",
+  "google_trends": {
+    "interest_score": 35,
+    "trend_direction": "falling"
+  },
+  "social_presence": {
+    "x": "high",
+    "tiktok": "high",
+    "instagram": "high"
+  },
+  "signal_score": 100,
+  "momentum": "0%",
+  "lifecycle": "new",
+  "highlight": true,
+  "history": [
+    {
+      "timestamp": "2026-02-06T05:07:10.520462",
+      "signal_score": 100
+    }
+  ],
+  "analysis": {
+    "analysis": "The trend for 'stream' is falling, with a Google Trends interest score of 35. The token 'Streamflow' (STREAM) on the Solana chain has high social media presence on platforms like TikTok and Instagram, indicating potential popularity. However, its liquidity of $76,283.83 suggests it may not be a highly active or widely adopted token. Overall, the token's relevance to the 'stream' trend is moderate.",
+    "status": "neutral",
+    "meme": "The token's name 'Streamflow' and its association with the 'stream' trend could potentially be used for meme-related content, but the limited liquidity and falling trend interest may limit its memetic potential.",
+    "token_relevant": 3
+  },
+  "token": {
+    "name": "Streamflow",
+    "symbol": "STREAM",
+    "chain": "solana",
+    "liquidity_usd": 76283.83,
+    "url": "https://dexscreener.com/solana/7ssvbzdx3tned3dry7kpupdw78qdmgd7qzufqbznmvjy"
+  },
+  "timestamp": "2026-02-06T05:07:12.427381"
+}
