@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "200.5K",
-      "raw": 200459
+      "searches": "293.4K",
+      "raw": 293391
     },
     "x": {
       "posts": "0",
@@ -38,17 +38,21 @@
     "chatgpt trending"
   ],
   "analysis": {
-    "headline": "ChatGPT Fever: The AI-Powered Photo Craze Taking the Internet by Storm",
-    "summary": "Users are flocking to ChatGPT, the AI language model, to create striking, AI-generated images - a trend that has taken the internet by surprise. The ability to produce captivating visuals with just a few prompts has sparked widespread fascination and debate.",
-    "origin_story": "The trend emerged as people discovered ChatGPT's image generation capabilities, which were added as a new feature in recent months. The surge in interest has driven a spike in Google searches for 'ChatGPT trending photo'.",
-    "expert_analysis": "This trend reflects the public's growing curiosity and excitement about the potential of AI technology. The ease with which ChatGPT can generate unique, artistic images has captured the imagination of users, sparking conversations about the future of creative endeavors and the implications of AI-powered tools.",
-    "impact": "The ChatGPT photo craze has the potential to reshape various industries, from digital art and design to marketing and advertising, as more people explore the capabilities of AI-generated visuals.",
-    "status": "rising"
+    "headline": "ChatGPT Mania Sweeps the Internet as Users Showcase Viral Images",
+    "summary": "Social media is abuzz with users sharing striking images created by the AI language model ChatGPT, showcasing its remarkable visual generation capabilities. This trend has captured the public's imagination, as people explore the limits of what this powerful tool can produce.",
+    "origin_story": "The trend began on social media platforms like Twitter, where users started sharing their ChatGPT-generated images, often showcasing its ability to create photorealistic and imaginative visuals.",
+    "expert_analysis": "This ChatGPT photo trend reveals the public's fascination with the rapid advancements in AI technology and its potential to revolutionize creative workflows. As the line between human-generated and AI-generated content blurs, it raises questions about the future of art, design, and visual communication.",
+    "impact": "The widespread interest in ChatGPT-created images highlights the growing influence of AI in our daily lives and the need for discussions around the ethical and societal implications of these technologies.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T15:06:23.746485+00:00",
+  "timestamp": "2026-02-06T17:31:48.128649+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:23.746499+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T17:31:48.128663+00:00",
       "signal_score": 50
     }
   ]

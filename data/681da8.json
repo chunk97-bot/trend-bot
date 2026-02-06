@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "14.8K",
-      "reposts": "6.4K",
-      "raw_posts": 14754,
-      "raw_reposts": 6372
+      "posts": "13.7K",
+      "reposts": "8.5K",
+      "raw_posts": 13674,
+      "raw_reposts": 8509
     },
     "tiktok": {
-      "views": "7.9M",
-      "videos": "44.7K",
-      "raw_views": 7949401
+      "views": "4.3M",
+      "videos": "14.6K",
+      "raw_views": 4272546
     },
     "instagram": {
       "posts": "0",
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Cryptic Allure of '681da8': An Internet Phenomenon Captivates Millions",
-    "summary": "A mysterious alphanumeric code, '681da8,' has taken the internet by storm, sparking a viral craze across platforms like TikTok and Twitter. Users are intrigued by the cryptic nature of this trend, fueling its rapid spread.",
-    "origin_story": "The trend first emerged on TikTok, with users creating videos speculating about the meaning behind the code and sharing their own interpretations.",
-    "expert_analysis": "The appeal of '681da8' lies in its enigmatic nature, tapping into the human desire to solve puzzles and uncover hidden meanings. This trend reflects the internet's insatiable appetite for mystery and the power of shared curiosity to drive viral engagement.",
-    "impact": "The trend's widespread popularity has sparked discussions and theories among users, demonstrating the internet's ability to collectively captivate attention around a seemingly innocuous code.",
+    "headline": "The Mysterious Hexadecimal Hashtag Captivating the Internet",
+    "summary": "A cryptic hexadecimal code, '681da8', has taken social media by storm, sparking intrigue and speculation among millions of users. The hidden meaning behind this enigmatic trend is baffling the internet.",
+    "origin_story": "The trend first emerged on X and TikTok, where users have been sharing the code and trying to uncover its significance.",
+    "expert_analysis": "This trend taps into our innate human desire to solve mysteries and uncover hidden meanings. In an age of information overload, the allure of a puzzle that has no obvious solution is captivating people's imaginations and fueling intense discussion and speculation.",
+    "impact": "The viral spread of this trend has sparked a sense of community as people come together to collectively try to decipher the code's hidden message.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T15:05:52.254114+00:00",
+  "timestamp": "2026-02-06T17:31:29.333019+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -87,6 +87,10 @@
     },
     {
       "timestamp": "2026-02-06T15:05:52.254129+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-06T17:31:29.333039+00:00",
       "signal_score": 75
     }
   ]

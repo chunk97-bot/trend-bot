@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "91.2K",
-      "reposts": "47.7K",
-      "raw_posts": 91234,
-      "raw_reposts": 47713
+      "posts": "69.8K",
+      "reposts": "14.7K",
+      "raw_posts": 69811,
+      "raw_reposts": 14694
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Craze Sweeps Internet: The Story Behind the Month-Old Trend",
-    "summary": "A month-old trend has taken the internet by storm, captivating users across multiple platforms. The phenomenon has sparked widespread engagement, with over 91,000 posts and 47,700 reposts, showcasing its widespread appeal.",
-    "origin_story": "The trend first emerged on various social media platforms, where users began sharing and engaging with the content, sparking a viral wave of interest and participation.",
-    "expert_analysis": "This trend reflects the internet's ability to rapidly amplify and spread cultural phenomena, highlighting our collective fascination with the novel and the unexpected. It also underscores the power of social media to shape and influence our cultural narratives in real-time.",
-    "impact": "The widespread popularity of this trend suggests it may have broader cultural implications and could potentially shape future trends or discussions online.",
+    "headline": "The Viral Comeback of Month Ago: Decoding the Internet's Nostalgic Obsession",
+    "summary": "After a month-long hiatus, the forgotten internet phenomenon 'Month Ago' has unexpectedly resurfaced, capturing the attention of users across multiple platforms. The sudden resurgence has left many scratching their heads, wondering what's fueling this unexpected comeback.",
+    "origin_story": "The trend first gained traction on various social media platforms around a month ago, sparking a wave of posts and reposts from users.",
+    "expert_analysis": "The renewed interest in Month Ago suggests a deeper yearning for nostalgia and simpler times among internet users. In a world that often feels chaotic and overwhelming, the familiar comfort of this past trend provides a soothing escape. This phenomenon highlights the power of collective reminiscence and the human desire to revisit and relive moments that have left an indelible mark on the digital landscape.",
+    "impact": "The viral resurgence of Month Ago has the potential to reignite conversations, inspire creative content, and even influence broader cultural trends.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T15:06:07.843242+00:00",
+  "timestamp": "2026-02-06T17:31:40.499191+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -66,6 +66,10 @@
     },
     {
       "timestamp": "2026-02-06T15:06:07.843256+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-06T17:31:40.499203+00:00",
       "signal_score": 55
     }
   ]

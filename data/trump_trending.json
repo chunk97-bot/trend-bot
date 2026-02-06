@@ -1,14 +1,14 @@
 {
   "trend": "trump trending",
-  "category": "politics",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "245.8K",
-      "raw": 245780
+      "searches": "266.3K",
+      "raw": 266283
     },
     "x": {
       "posts": "0",
@@ -41,17 +41,21 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Former President Trump Surges Back into National Spotlight",
-    "summary": "Searches for 'Trump' have skyrocketed as the former president's presence dominates online conversations, sparked by his recent legal troubles and potential 2024 candidacy.",
-    "origin_story": "The spike in Google searches for 'Trump' began after news broke of federal investigations into his handling of classified documents and his role in the January 6th Capitol riots.",
-    "expert_analysis": "Trump's enduring popularity and ability to command national attention, even out of office, reflects the deep partisan divide and ongoing political polarization in the United States. This trend suggests many Americans remain captivated by the former president's controversial brand of politics.",
-    "impact": "The renewed focus on Trump could have significant implications for the upcoming 2024 presidential election cycle.",
-    "status": "viral"
+    "headline": "trump trending Takes Over The Internet",
+    "summary": "The topic 'trump trending' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T15:06:29.758884+00:00",
+  "timestamp": "2026-02-06T17:32:01.621005+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T17:32:01.621019+00:00",
       "signal_score": 50
     }
   ]
