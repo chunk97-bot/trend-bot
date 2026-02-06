@@ -1,0 +1,56 @@
+{
+  "trend": "fff",
+  "category": "entertainment",
+  "platforms": {
+    "tiktok": true,
+    "instagram": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "14.6M",
+      "videos": "469.8K",
+      "raw_views": 14646936
+    },
+    "instagram": {
+      "posts": "4.3M",
+      "reach": "4.2M",
+      "raw_posts": 4335946
+    }
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "#fff",
+    "#FFFFFF"
+  ],
+  "analysis": {
+    "headline": "The Blank Canvas Trend: Minimalist Expression Takes Over Social Media",
+    "summary": "Across TikTok and Instagram, users are captivating audiences with simple, white-background videos and posts under the hashtags #fff and #FFFFFF. This pared-down aesthetic has become a viral sensation, tapping into our collective desire for digital decluttering and focus.",
+    "origin_story": "The trend originated on TikTok, where users began posting minimalist videos with a pure white background, often showcasing clever visual effects or dancing to stripped-down music.",
+    "expert_analysis": "The 'fff' trend reflects our yearning for digital minimalism in an overstimulating online landscape. By stripping away distractions, these posts allow viewers to concentrate on the core creative expression, whether it's a mesmerizing visual or a powerful dance routine. This trend speaks to our need for simplicity and focus in a world saturated with content.",
+    "impact": "The widespread adoption of this trend across major social platforms demonstrates its broad appeal and ability to cut through the noise.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T15:05:48.293406+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:05:48.293420+00:00",
+      "signal_score": 90
+    }
+  ]
+}

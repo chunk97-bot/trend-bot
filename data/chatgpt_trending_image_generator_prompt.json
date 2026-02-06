@@ -1,0 +1,52 @@
+{
+  "trend": "chatgpt trending image generator prompt",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "186.8K",
+      "raw": 186837
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Chatbots Unleash a New Era of AI-Powered Creativity",
+    "summary": "AI-powered image generators like ChatGPT are capturing the public's imagination, allowing users to create stunning visuals with just a few lines of text. This new trend is changing the way people think about art and creative expression.",
+    "origin_story": "The surge in interest around ChatGPT's image generation capabilities started on social media, where users began sharing their prompt-generated artworks.",
+    "expert_analysis": "This trend reflects a growing fascination with the creative potential of AI. As these tools become more sophisticated, they challenge traditional notions of authorship and the role of technology in artistic expression. It also highlights how AI can democratize creativity, empowering anyone to bring their ideas to life.",
+    "impact": "The rise of AI-powered image generation could have far-reaching implications for the creative industries, from advertising to entertainment.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T15:06:26.910824+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:26.910838+00:00",
+      "signal_score": 50
+    }
+  ]
+}

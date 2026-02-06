@@ -1,0 +1,58 @@
+{
+  "trend": "trump trending",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "245.8K",
+      "raw": 245780
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "trump trending",
+    "trump trending news",
+    "trump trending news today",
+    "trump trending now",
+    "trump trending photo"
+  ],
+  "analysis": {
+    "headline": "Former President Trump Surges Back into National Spotlight",
+    "summary": "Searches for 'Trump' have skyrocketed as the former president's presence dominates online conversations, sparked by his recent legal troubles and potential 2024 candidacy.",
+    "origin_story": "The spike in Google searches for 'Trump' began after news broke of federal investigations into his handling of classified documents and his role in the January 6th Capitol riots.",
+    "expert_analysis": "Trump's enduring popularity and ability to command national attention, even out of office, reflects the deep partisan divide and ongoing political polarization in the United States. This trend suggests many Americans remain captivated by the former president's controversial brand of politics.",
+    "impact": "The renewed focus on Trump could have significant implications for the upcoming 2024 presidential election cycle.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T15:06:29.758884+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:29.758917+00:00",
+      "signal_score": 50
+    }
+  ]
+}

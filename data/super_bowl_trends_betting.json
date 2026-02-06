@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "237.9K",
-      "raw": 237868
+      "searches": "251.3K",
+      "raw": 251302
     },
     "x": {
       "posts": "0",
@@ -29,18 +29,20 @@
   },
   "signal_score": 50,
   "momentum": "stable",
+  "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bettors Bet Big on Super Bowl LVII",
-    "summary": "With the Super Bowl just around the corner, sports betting enthusiasts are flocking to place their wagers, driving a surge in related online searches.",
-    "origin_story": "The Super Bowl has long been a major event for sports betting, and this year's game is no exception.",
-    "impact": "The increasing popularity of sports betting is transforming the way fans engage with the biggest game of the year.",
-    "status": "rising"
+    "headline": "Super Bowl Betting Craze Sweeps the Nation as Fans Wager Big",
+    "summary": "With the Super Bowl just around the corner, sports fans across the country are flocking to online platforms to place bets on the big game, driving a surge in search interest for Super Bowl betting trends.",
+    "origin_story": "The increasing legalization and normalization of sports betting in the US has fueled this growing obsession, with more states offering legal options for fans to wager on the outcome.",
+    "expert_analysis": "This Super Bowl betting frenzy reflects the deep passion and commitment of sports enthusiasts, who are willing to put their money where their fandom is. It also highlights the growing influence of the gambling industry in the world of professional sports.",
+    "impact": "The spike in Super Bowl betting could have significant financial and cultural implications, from increased sportsbook revenues to the potential for gambling-related controversies.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T11:08:59.208063+00:00",
+  "timestamp": "2026-02-06T15:06:37.875550+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:29.869056+00:00",
@@ -48,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-06T11:08:59.208063+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T15:06:37.875562+00:00",
       "signal_score": 50
     }
   ]

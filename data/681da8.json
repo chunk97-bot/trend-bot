@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "internet culture",
+  "category": "memes",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "39.9K",
-      "reposts": "5.0K",
-      "raw_posts": 39947,
-      "raw_reposts": 5031
+      "posts": "14.8K",
+      "reposts": "6.4K",
+      "raw_posts": 14754,
+      "raw_reposts": 6372
     },
     "tiktok": {
-      "views": "5.3M",
-      "videos": "13.8K",
-      "raw_views": 5329963
+      "views": "7.9M",
+      "videos": "44.7K",
+      "raw_views": 7949401
     },
     "instagram": {
       "posts": "0",
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hexadecimal Code Captivates TikTok and Twitter",
-    "summary": "A cryptic 6-digit hexadecimal code, '681da8', has gone viral across social media, sparking a wave of speculation and intrigue about its meaning and origin.",
-    "origin_story": "The trend first emerged on TikTok, where users began posting videos exploring potential interpretations and searching for clues about the code's significance.",
-    "expert_analysis": "This viral trend taps into the human desire to uncover hidden meanings and solve mysteries. The ambiguity of the code has captured the imagination of internet users, who are eager to crack the code and uncover its secrets, revealing our fascination with the unknown.",
-    "impact": "The viral spread of this enigmatic code has led to a surge of engagement across social media platforms, showcasing the power of participatory internet culture to captivate audiences.",
-    "status": "rising"
+    "headline": "The Cryptic Allure of '681da8': An Internet Phenomenon Captivates Millions",
+    "summary": "A mysterious alphanumeric code, '681da8,' has taken the internet by storm, sparking a viral craze across platforms like TikTok and Twitter. Users are intrigued by the cryptic nature of this trend, fueling its rapid spread.",
+    "origin_story": "The trend first emerged on TikTok, with users creating videos speculating about the meaning behind the code and sharing their own interpretations.",
+    "expert_analysis": "The appeal of '681da8' lies in its enigmatic nature, tapping into the human desire to solve puzzles and uncover hidden meanings. This trend reflects the internet's insatiable appetite for mystery and the power of shared curiosity to drive viral engagement.",
+    "impact": "The trend's widespread popularity has sparked discussions and theories among users, demonstrating the internet's ability to collectively captivate attention around a seemingly innocuous code.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T12:25:30.652325+00:00",
+  "timestamp": "2026-02-06T15:05:52.254114+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -83,6 +83,10 @@
     },
     {
       "timestamp": "2026-02-06T12:25:30.652325+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-06T15:05:52.254129+00:00",
       "signal_score": 75
     }
   ]

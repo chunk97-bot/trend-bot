@@ -1,0 +1,52 @@
+{
+  "trend": "ai trending topics",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "193.7K",
+      "raw": 193652
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "AI Trends Dominate Google Searches as Tech Enthusiasts Explore the Future",
+    "summary": "Searches for 'AI' and related topics have surged on Google, reflecting a growing public fascination with the rapidly evolving field of artificial intelligence and its potential impact on our lives.",
+    "origin_story": "The spike in AI-related searches coincides with the widespread release and adoption of ChatGPT, a groundbreaking AI-powered chatbot that has captured the public's imagination.",
+    "expert_analysis": "The intense interest in AI signals a profound shift in how people view the role of technology in their lives. As AI systems become more sophisticated and integrated into various aspects of society, the public is eager to understand the implications, both positive and negative, of this transformative technology.",
+    "impact": "The AI trend has the potential to shape the future of industries, education, and even interpersonal interactions, as the public grapples with the ethical and practical considerations of this powerful technology.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T15:06:19.181421+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:19.181435+00:00",
+      "signal_score": 50
+    }
+  ]
+}

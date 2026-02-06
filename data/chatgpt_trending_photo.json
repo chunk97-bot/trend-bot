@@ -1,0 +1,55 @@
+{
+  "trend": "chatgpt trending photo",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "200.5K",
+      "raw": 200459
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending photo",
+    "chatgpt trending"
+  ],
+  "analysis": {
+    "headline": "ChatGPT Fever: The AI-Powered Photo Craze Taking the Internet by Storm",
+    "summary": "Users are flocking to ChatGPT, the AI language model, to create striking, AI-generated images - a trend that has taken the internet by surprise. The ability to produce captivating visuals with just a few prompts has sparked widespread fascination and debate.",
+    "origin_story": "The trend emerged as people discovered ChatGPT's image generation capabilities, which were added as a new feature in recent months. The surge in interest has driven a spike in Google searches for 'ChatGPT trending photo'.",
+    "expert_analysis": "This trend reflects the public's growing curiosity and excitement about the potential of AI technology. The ease with which ChatGPT can generate unique, artistic images has captured the imagination of users, sparking conversations about the future of creative endeavors and the implications of AI-powered tools.",
+    "impact": "The ChatGPT photo craze has the potential to reshape various industries, from digital art and design to marketing and advertising, as more people explore the capabilities of AI-generated visuals.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-06T15:06:23.746485+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:23.746499+00:00",
+      "signal_score": 50
+    }
+  ]
+}

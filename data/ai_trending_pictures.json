@@ -1,0 +1,52 @@
+{
+  "trend": "ai trending pictures",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "164.3K",
+      "raw": 164334
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "AI-Generated Images Take the Internet by Storm",
+    "summary": "A new wave of AI-powered image generation tools has captured the public's imagination, allowing users to create stunning, photorealistic visuals with just a few text prompts. This trend is sparking widespread creativity and debate around the future of art and technology.",
+    "origin_story": "The recent popularity of AI image generators like DALL-E, Midjourney, and Stable Diffusion has fueled this trend, as people discover the endless possibilities of crafting unique images from scratch.",
+    "expert_analysis": "This trend reveals our fascination with the rapidly evolving capabilities of artificial intelligence. As these tools become more accessible and powerful, they are democratizing the creative process and challenging traditional notions of authorship and artistic expression. The ability to conjure up imaginative, high-quality visuals on demand taps into our desire for visual stimulation and self-expression.",
+    "impact": "The rise of AI-generated imagery is likely to have far-reaching implications for industries like advertising, entertainment, and fine art, as well as broader societal discussions around the role of technology in creative pursuits.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-06T15:06:15.670766+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:15.670780+00:00",
+      "signal_score": 50
+    }
+  ]
+}
