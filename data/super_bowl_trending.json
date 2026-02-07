@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "155.7K",
-      "raw": 155668
+      "searches": "116.2K",
+      "raw": 116237
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Fever Grips the Internet as Fans Eagerly Await the Big Game",
-    "summary": "The Super Bowl, one of the most anticipated sporting events of the year, is dominating online conversations as fans eagerly await the highly anticipated matchup. Google searches for 'super bowl trending' have spiked, indicating a growing interest in the upcoming game and related events.",
-    "origin_story": "The surge in online chatter about the Super Bowl can be traced back to the official announcement of the teams and performers scheduled to participate in the event.",
-    "expert_analysis": "The intense interest in the Super Bowl reflects the cultural significance of the event, which transcends the boundaries of sports. It's a time when fans come together to celebrate the pageantry, the commercials, and the shared experience of watching the biggest game of the year.",
-    "impact": "The Super Bowl's trending status on Google is a testament to its enduring popularity and the way it captivates the attention of millions of people around the world.",
-    "status": "rising"
+    "headline": "Super Bowl LIV Hype Explodes as Game Day Nears",
+    "summary": "With the biggest sporting event of the year just around the corner, Google searches for 'Super Bowl' have skyrocketed as fans and casual viewers alike gear up for the big game. The annual championship matchup is capturing the public's attention like never before.",
+    "origin_story": "Interest in the Super Bowl typically spikes in the days leading up to the event, as viewers research teams, players, halftime performers, and more. This year's search trends show that anticipation is at a fevered pitch.",
+    "expert_analysis": "The Super Bowl has cemented its status as a true cultural phenomenon, transcending the realm of sports and serving as a major touchstone for entertainment, advertising, and even politics. The sheer volume of online activity surrounding the game underscores just how central it has become in the public consciousness.",
+    "impact": "With millions tuning in, the Super Bowl commands an unparalleled audience and global reach, making it a prime platform for brands, musicians, and other cultural influencers to make a major impact.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T22:54:15.943325+00:00",
+  "timestamp": "2026-02-07T07:11:38.554819+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:14:00.482771+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-06T22:54:15.943340+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:38.554836+00:00",
       "signal_score": 50
     }
   ]

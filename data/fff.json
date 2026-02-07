@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "89.5M",
-      "videos": "332.1K",
-      "raw_views": 89543802
+      "views": "30.6M",
+      "videos": "372.5K",
+      "raw_views": 30597899
     },
     "instagram": {
-      "posts": "8.8M",
-      "reach": "47.1M",
-      "raw_posts": 8774150
+      "posts": "863.1K",
+      "reach": "23.6M",
+      "raw_posts": 863067
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Viral White Trend Taking Over Social Media",
-    "summary": "The simple yet striking '#fff' hashtag has taken over TikTok and Instagram, captivating millions with its pure white aesthetic. As this minimalist trend sweeps the internet, it's sparking discussions around the power of visual simplicity and the rise of 'anti-aesthetic' content.",
-    "origin_story": "The '#fff' trend first gained traction on TikTok, where users began posting plain white videos and images to showcase the striking visual effect. The hashtag has since spread to Instagram, amassing over 8.8 million posts.",
-    "expert_analysis": "The '#fff' trend taps into a growing appetite for digital minimalism and 'anti-aesthetic' content that rejects the overly curated look of much social media. In a world saturated with visual noise, the stark whiteness provides a refreshing, almost meditative reprieve that allows users to focus on the inherent beauty of simplicity.",
-    "impact": "This trend not only reflects our evolving social media preferences but also highlights the power of restraint and the enduring appeal of the minimalist design.",
-    "status": "viral"
+    "headline": "The Mysterious Allure of Blank Screens: What's Driving the 'fff' Trend?",
+    "summary": "Across TikTok and Instagram, users are captivating audiences with a seemingly simple yet enigmatic trend: posting blank, white screens tagged with '#fff' and '#FFFFFF'. This unexpected phenomenon has amassed millions of views and interactions, leaving many wondering: what's the meaning behind this digital minimalism?",
+    "origin_story": "The 'fff' trend first gained traction on TikTok, where users began sharing plain, white video and image posts, often accompanied by ambient sounds or silence. This minimalist approach quickly spread to Instagram, where the trend continues to dominate feeds.",
+    "expert_analysis": "The 'fff' trend taps into a growing desire for digital minimalism and visual respite in an increasingly cluttered online landscape. In a world saturated with content, these blank screens offer a moment of calm and contemplation, allowing users to create a sense of digital zen. Moreover, the trend's simplicity and universality have made it a canvas for creative expression and personal interpretation, resonating with audiences seeking a break from the noise.",
+    "impact": "The widespread appeal of 'fff' highlights the evolving preferences of social media users, who are craving more thoughtful, pared-down digital experiences that provide a counterbalance to the constant stream of information and stimulation.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T04:54:59.185652+00:00",
+  "timestamp": "2026-02-07T07:10:52.034241+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-07T04:54:59.185669+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T07:10:52.034257+00:00",
       "signal_score": 90
     }
   ]

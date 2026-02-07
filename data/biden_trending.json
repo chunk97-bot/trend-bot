@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "104.6K",
-      "raw": 104590
+      "searches": "145.7K",
+      "raw": 145651
     },
     "x": {
       "posts": "0",
@@ -35,20 +35,20 @@
   ],
   "related_trends": [
     "biden trending",
-    "joe biden trending",
-    "hunter biden trending",
-    "jill biden trending",
-    "joe biden trending news"
+    "biden trending news",
+    "biden trending video",
+    "biden trending debate",
+    "joe biden trending"
   ],
   "analysis": {
-    "headline": "Biden Trending Amid Scrutiny Over Classified Documents",
-    "summary": "President Joe Biden is trending on Google as news breaks about classified documents found in his personal office and home, raising questions about his handling of sensitive information.",
-    "origin_story": "The trend began after reports surfaced that a small number of classified documents from Biden's time as Vice President were discovered at the Penn Biden Center, a think tank in Washington D.C.",
-    "expert_analysis": "This story highlights the political risks that come with the mishandling of classified materials, an issue that has dogged both Democrats and Republicans in recent years. It also underscores the intense public interest in any perceived missteps by the President, particularly as the 2024 election cycle looms.",
-    "impact": "The evolving situation has the potential to dominate news cycles and shape the political discourse in the coming weeks and months.",
-    "status": "rising"
+    "headline": "Biden Dominates Search Trends as Presidency Faces Scrutiny",
+    "summary": "President Joe Biden has surged to the top of Google search trends as his administration navigates a series of high-profile challenges, from the economy to foreign policy. The spike in online interest reflects the public's keen focus on Biden's leadership during these consequential times.",
+    "origin_story": "The search trend began gaining momentum in recent days as Biden addressed pressing issues like inflation, the war in Ukraine, and the baby formula shortage.",
+    "expert_analysis": "This heightened attention on Biden underscores the public's desire for clear and decisive leadership from the White House. As the president faces growing political headwinds, online searches suggest a keen interest in how he will navigate these complex challenges and their impact on Americans' daily lives.",
+    "impact": "The Biden search trend highlights the powerful influence of digital media in shaping the national discourse and the public's perception of the presidency.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T23:54:32.127861+00:00",
+  "timestamp": "2026-02-07T07:11:35.698332+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -96,6 +96,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:32.127878+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:35.698347+00:00",
       "signal_score": 50
     }
   ]

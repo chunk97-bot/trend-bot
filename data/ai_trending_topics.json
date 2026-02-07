@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "278.5K",
-      "raw": 278452
+      "searches": "143.3K",
+      "raw": 143272
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Google Searches as Tech Enthusiasts Crave the Future",
-    "summary": "Artificial intelligence has taken the internet by storm, with Google searches for AI-related topics soaring to unprecedented levels. People are captivated by the rapid advancements in AI technology and the potential implications for everyday life.",
-    "origin_story": "The surge in AI-related searches likely stems from the recent launch of ChatGPT, a highly sophisticated language model that has captured the public's imagination.",
-    "expert_analysis": "This trend reflects the growing public fascination with the capabilities of AI and the desire to understand its impact on various industries, from healthcare to entertainment. As AI becomes more ubiquitous, people are eager to stay informed and explore the possibilities that this technology presents.",
-    "impact": "The high volume of AI-related searches underscores the need for reliable information and informed discussions around the ethical and societal implications of AI development.",
-    "status": "viral"
+    "headline": "AI Dominates Search Engine Queries as Public Fascination Grows",
+    "summary": "The surge in Google searches for 'AI' signals a widespread public interest and curiosity around the rapid advancements in artificial intelligence technology. This trend reflects a growing desire to understand the implications and applications of AI as it becomes more prevalent in our daily lives.",
+    "origin_story": "The spike in AI-related searches can be traced to the recent launch and widespread adoption of ChatGPT, the AI-powered chatbot that has captured the public's imagination with its conversational abilities and potential to revolutionize various industries.",
+    "expert_analysis": "This trend underscores the public's fascination with the transformative power of AI and the need to grapple with the ethical and societal implications of these technologies. As AI becomes more sophisticated and integrated into our lives, this increased interest reflects a desire to stay informed and engaged with the rapidly evolving landscape of artificial intelligence.",
+    "impact": "The high volume of AI-related searches suggests that the public is eager to understand and shape the future of this technology, which has the potential to profoundly impact various sectors, from education and healthcare to entertainment and the workforce.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T23:54:12.850161+00:00",
+  "timestamp": "2026-02-07T07:11:17.216874+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -66,6 +66,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:12.850190+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:17.216890+00:00",
       "signal_score": 50
     }
   ]

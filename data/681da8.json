@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "74.9K",
-      "reposts": "21.2K",
-      "raw_posts": 74892,
-      "raw_reposts": 21192
+      "posts": "83.2K",
+      "reposts": "1.5K",
+      "raw_posts": 83211,
+      "raw_reposts": 1530
     },
     "tiktok": {
-      "views": "4.6M",
-      "videos": "25.8K",
-      "raw_views": 4567720
+      "views": "190.7K",
+      "videos": "9.0K",
+      "raw_views": 190686
     },
     "instagram": {
       "posts": "0",
@@ -28,22 +28,22 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 70,
+  "momentum": "stable",
+  "lifecycle": "rising",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Cryptic Color Trend Taking Over the Internet",
-    "summary": "A mysterious hexadecimal code, '681da8', has suddenly become a viral sensation across social media, sparking endless speculation and creativity among users.",
-    "origin_story": "The trend first emerged on TikTok, where users began sharing short videos exploring the significance of the enigmatic code.",
-    "expert_analysis": "This trend taps into the human fascination with decoding mysteries and finding hidden meanings. The anonymity and ambiguity of the code have fueled imagination and wild theorizing, reflecting the internet's capacity to transform the mundane into the captivating.",
-    "impact": "As the trend continues to spread, it has the potential to inspire collaborative problem-solving and creative expression across platforms.",
+    "headline": "Mysterious '#681da8' Hashtag Ignites Viral Craze Across TikTok and Twitter",
+    "summary": "A puzzling new online trend has captured the attention of millions, as users across TikTok and Twitter scramble to decipher the meaning behind the cryptic '#681da8' hashtag. The surge in engagement has social media buzzing with speculation and intrigue.",
+    "origin_story": "The trend appears to have first emerged on TikTok, with users creating short videos showcasing the vivid purple-tinted '#681da8' hashtag, leading to a rapid spread across the platform and onto Twitter.",
+    "expert_analysis": "This trend taps into the human desire to solve mysteries and uncover hidden meanings. The ambiguous nature of the '#681da8' hashtag has fostered a sense of community as people come together to collectively investigate the source and significance of this peculiar online phenomenon.",
+    "impact": "As the trend continues to gain momentum, it has the potential to transcend the digital realm, sparking real-world discussions and collaborative efforts to unveil the true purpose behind this enigmatic hashtag.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T04:54:56.135417+00:00",
+  "timestamp": "2026-02-07T07:10:56.306910+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -116,6 +116,10 @@
     {
       "timestamp": "2026-02-07T04:54:56.135432+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T07:10:56.306927+00:00",
+      "signal_score": 70
     }
   ]
 }

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "275.6K",
-      "raw": 275570
+      "searches": "273.2K",
+      "raw": 273220
     },
     "x": {
       "posts": "0",
@@ -33,19 +33,16 @@
   "locations": [
     "global"
   ],
-  "related_trends": [
-    "chatgpt trending photo",
-    "chatgpt trending photo prompt"
-  ],
+  "related_trends": [],
   "analysis": {
-    "headline": "The Captivating Trend of ChatGPT-Generated Photos Sweeps the Internet",
-    "summary": "People are fascinated by the ability of the AI language model ChatGPT to create unique and visually striking images from simple text prompts, sparking a viral trend of sharing and discussing these AI-generated photos.",
-    "origin_story": "The trend started gaining momentum on social media platforms as users began experimenting with ChatGPT's image generation capabilities and sharing the results.",
-    "expert_analysis": "This trend highlights the public's growing interest in the capabilities of AI, particularly in the realm of creative expression. It also reflects the ongoing blurring of the lines between human-created and machine-generated content, raising questions about the future of art, design, and visual communication.",
-    "impact": "The widespread fascination with ChatGPT-generated photos has the potential to shape the future of visual media and content creation.",
+    "headline": "ChatGPT's Viral Selfie Trend Sparks Conversation on AI Creativity",
+    "summary": "The ability to generate AI-created images using ChatGPT has taken the internet by storm, with users excitedly sharing their unique AI-generated selfies across social media platforms.",
+    "origin_story": "The trend emerged after ChatGPT, the AI language model, was updated to include image generation capabilities, allowing users to input text prompts and receive custom-made visuals.",
+    "expert_analysis": "This viral trend highlights the growing fascination with the creative potential of AI technology. As language models like ChatGPT continue to evolve, the line between human and machine-generated content becomes increasingly blurred, raising questions about the nature of creativity and artistic expression.",
+    "impact": "The ChatGPT selfie trend has sparked lively discussions about the future of AI and its implications for various industries, from art and design to entertainment and beyond.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T04:55:23.585452+00:00",
+  "timestamp": "2026-02-07T07:11:20.873336+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:23.746499+00:00",
@@ -77,6 +74,10 @@
     },
     {
       "timestamp": "2026-02-07T04:55:23.585468+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:20.873352+00:00",
       "signal_score": 50
     }
   ]

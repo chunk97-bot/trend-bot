@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "219.4K",
-      "raw": 219438
+      "searches": "180.4K",
+      "raw": 180394
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Prompts Captivate the AI-Obsessed: Exploring the Trend Driving the Masses",
-    "summary": "As AI systems become more advanced, the public's fascination with interacting with them through carefully crafted prompts has skyrocketed. Google searches for 'AI trending prompt' have surged, reflecting the growing desire to push the boundaries of what these AI models can do.",
-    "origin_story": "The trend started on social media platforms like Twitter, where users began sharing their most creative and imaginative prompts for AI art generators and language models, sparking widespread interest and engagement.",
-    "expert_analysis": "This trend taps into the public's growing curiosity about the capabilities and limitations of AI technology. It reveals a desire to actively participate in the development and exploration of these systems, blurring the lines between human and machine creativity.",
-    "impact": "As the trend continues to gain momentum, it could lead to further advancements in AI technology as developers strive to meet the public's evolving demands and expectations.",
-    "status": "rising"
+    "headline": "AI-Powered Prompts Take the Internet by Storm",
+    "summary": "As AI language models like ChatGPT revolutionize content creation, people are flocking to Google to learn how to harness the power of AI-generated prompts for a wide range of applications, from creative writing to task automation.",
+    "origin_story": "The recent surge in interest around AI-powered prompts can be traced back to the growing popularity of advanced language models, which have become increasingly accessible to the general public.",
+    "expert_analysis": "This trend reflects a broader shift in how people approach content creation and problem-solving. By leveraging AI's ability to generate coherent and relevant text, users are discovering new ways to streamline their workflows, spark their creativity, and tackle complex tasks more efficiently.",
+    "impact": "The widespread adoption of AI-powered prompts could have far-reaching implications for various industries, from education and media to marketing and software development.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T04:55:20.728875+00:00",
+  "timestamp": "2026-02-07T07:11:13.186317+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-07T04:55:20.728890+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:13.186332+00:00",
       "signal_score": 50
     }
   ]

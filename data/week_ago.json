@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "memes",
+  "category": "fashion",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "124.4K",
-      "reposts": "20.6K",
-      "raw_posts": 124447,
-      "raw_reposts": 20617
+      "posts": "125.9K",
+      "reposts": "17.9K",
+      "raw_posts": 125871,
+      "raw_reposts": 17907
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic 'Week Ago' Meme Relives Our Collective Pandemic Experience",
-    "summary": "The 'Week Ago' meme has taken the internet by storm, allowing people to humorously reflect on the rapid changes in their lives and mindsets over the past year of the pandemic.",
-    "origin_story": "The meme first gained traction on TikTok, where users would share side-by-side photos or videos contrasting their current selves with how they looked or felt just a week prior.",
-    "expert_analysis": "The 'Week Ago' meme taps into a universal experience of the pandemic's ability to distort our sense of time and rapidly shift our perspectives. It reveals our collective desire to find humor and relatability in the emotional whiplash of living through such uncertain times.",
-    "impact": "The meme has sparked an outpouring of engagement across social media platforms, allowing people to connect over their shared pandemic experiences.",
+    "headline": "Nostalgia Reigns as Retro Fashion Trends Grip the Internet",
+    "summary": "In a world increasingly dominated by digital experiences, people are seeking connection to the past through vintage fashion statements. From '90s grunge to Y2K aesthetics, these retro styles are capturing the imagination of social media users worldwide.",
+    "origin_story": "The recent surge in retro fashion trends can be traced back to content creators on platforms like TikTok, where users have been showcasing their thrifted finds and DIY transformations of iconic looks from bygone eras.",
+    "expert_analysis": "This trend reflects a broader cultural yearning for simpler times and a desire to recapture the carefree spirit of past decades. As the pace of modern life accelerates, people are finding solace in the nostalgic comforts of retro fashion, which offers a tangible connection to the past and a means of self-expression that transcends current trends.",
+    "impact": "With major retail chains and fashion brands quick to capitalize on this wave of nostalgia, the impact of these retro fashion trends is likely to extend beyond social media and influence the broader consumer landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T21:04:14.184365+00:00",
+  "timestamp": "2026-02-07T07:10:59.534051+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-06T21:04:14.184380+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T07:10:59.534067+00:00",
       "signal_score": 55
     }
   ]

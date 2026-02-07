@@ -1,14 +1,14 @@
 {
   "trend": "chatgpt trending prompt",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "153.6K",
-      "raw": 153597
+      "searches": "125.9K",
+      "raw": 125905
     },
     "x": {
       "posts": "0",
@@ -33,16 +33,19 @@
   "locations": [
     "global"
   ],
-  "related_trends": [],
+  "related_trends": [
+    "chatgpt trending prompt",
+    "chatgpt trending prompt christmas"
+  ],
   "analysis": {
-    "headline": "ChatGPT Sparks Viral Prompts: The AI's Creative Takeover",
-    "summary": "The internet is abuzz with creative prompts for the powerful AI chatbot ChatGPT, as users discover novel ways to harness its impressive language generation capabilities for everything from storytelling to coding.",
-    "origin_story": "The ChatGPT trend first gained traction on social media platforms like Twitter and Reddit, where users began sharing their innovative prompts and the impressive results they generated.",
-    "expert_analysis": "This trend reveals the public's insatiable appetite for AI-powered creativity and the potential of large language models to transform how we approach tasks ranging from writing to problem-solving. It also highlights the growing role of AI in shaping internet culture and the need for critical assessment of its implications.",
-    "impact": "As ChatGPT's capabilities continue to capture the public's imagination, this trend could have far-reaching effects on education, the creative industries, and even the job market.",
-    "status": "viral"
+    "headline": "chatgpt trending prompt Takes Over The Internet",
+    "summary": "The topic 'chatgpt trending prompt' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T04:55:26.872426+00:00",
+  "timestamp": "2026-02-07T07:11:23.709442+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -98,6 +101,10 @@
     },
     {
       "timestamp": "2026-02-07T04:55:26.872442+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:23.709473+00:00",
       "signal_score": 50
     }
   ]
