@@ -1,14 +1,14 @@
 {
   "trend": "super bowl trends 2025",
-  "category": "entertainment",
+  "category": "sports",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "173.9K",
-      "raw": 173861
+      "searches": "252.4K",
+      "raw": 252384
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "super bowl trends 2025 Takes Over The Internet",
-    "summary": "The topic 'super bowl trends 2025' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Super Bowl Trends Dominate 2025 as Fans Crave Next Big Moment",
+    "summary": "The 2025 Super Bowl has become the epicenter of internet attention, with a surge in Google searches as fans eagerly anticipate the biggest event in American sports. The upcoming game has captured the collective imagination, driving conversations and speculation around the teams, matchups, and potential game-changing moments.",
+    "origin_story": "The buzz around the Super Bowl has always been strong, but this year's event seems to have struck a chord with digital-savvy fans who are turning to Google to stay up-to-date on the latest developments.",
+    "expert_analysis": "The intense interest in the 2025 Super Bowl reflects a broader cultural shift towards live, shared experiences that captivate the public imagination. In an era of fragmented attention spans and endless content options, major sporting events like the Super Bowl have become rare communal touchpoints that bring people together, both online and offline.",
+    "impact": "The surging interest in the Super Bowl is likely to have a significant impact on advertising, viewership, and the overall cultural footprint of the event.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T17:32:12.557382+00:00",
+  "timestamp": "2026-02-07T10:58:37.589724+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -54,6 +54,10 @@
     },
     {
       "timestamp": "2026-02-06T17:32:12.557392+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T10:58:37.589738+00:00",
       "signal_score": 50
     }
   ]

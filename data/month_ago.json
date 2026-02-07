@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "entertainment",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "173.9K",
-      "reposts": "40.6K",
-      "raw_posts": 173937,
-      "raw_reposts": 40650
+      "posts": "78.1K",
+      "reposts": "43.7K",
+      "raw_posts": 78123,
+      "raw_reposts": 43678
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Dance Craze Sweeps the Internet, Sparking Joy Amid Chaos",
-    "summary": "A recent month-old dance trend has taken the internet by storm, captivating users across various platforms with its upbeat, feel-good energy. The surge in popularity reflects a collective need for lighthearted escapism during these turbulent times.",
-    "origin_story": "The dance originated on TikTok, where users have been sharing their own interpretations and iterations of the choreography.",
-    "expert_analysis": "This trend speaks to the power of social media to unite people around shared experiences and expressions of joy. In a world often consumed by negative news and uncertainty, the viral dance craze offers a much-needed respite, allowing people to connect through the universal language of music and movement.",
-    "impact": "The trend has transcended social media, with the dance being performed and shared across a wide range of online and offline communities.",
+    "headline": "Viral 'Month Ago' Meme Captures Collective Nostalgia",
+    "summary": "The resurgence of the 'Month Ago' meme has struck a chord with internet users, as they reminisce about the simpler times and experiences from just a few weeks prior.",
+    "origin_story": "The meme first gained traction on various social media platforms, with users posting images or text comparing their lives 'a month ago' to the present day.",
+    "expert_analysis": "The 'Month Ago' meme taps into a universal human experience - the feeling of how quickly time can pass and how much can change in a short period. In a fast-paced digital era, this meme allows people to pause and reflect on the fleeting nature of the present.",
+    "impact": "The viral popularity of this meme highlights the internet's role as a space for shared cultural experiences and collective nostalgia.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:16.346202+00:00",
+  "timestamp": "2026-02-07T10:58:19.809862+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:16.346219+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T10:58:19.809876+00:00",
       "signal_score": 55
     }
   ]

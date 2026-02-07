@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "173.4K",
-      "reposts": "13.4K",
-      "raw_posts": 173387,
-      "raw_reposts": 13393
+      "posts": "174.9K",
+      "reposts": "40.5K",
+      "raw_posts": 174933,
+      "raw_reposts": 40463
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgic Resurgence of 'Yesterday' Sweeps the Internet",
-    "summary": "Users across social media platforms are sharing posts and memories about the simple joy of 'yesterday' - a day free from the complexities of modern life. This viral trend taps into a widespread desire for a simpler time.",
-    "origin_story": "The trend appears to have started on TikTok, where users have been posting videos and photos reminiscing about the carefree days of the past.",
-    "expert_analysis": "This trend reflects a broader cultural longing for a sense of stability and escape from the stresses of the present day. In a world of constant change and uncertainty, 'yesterday' has become a comforting refuge for many, evoking a sense of nostalgia and simpler times.",
-    "impact": "The widespread engagement with this trend suggests a deep-seated need for people to reconnect with their personal histories and find solace in the familiar.",
+    "headline": "The Rise of 'Yesterday' as the New Social Media Zeitgeist",
+    "summary": "Across social media platforms, users have been captivated by the simple yet profound concept of 'yesterday,' sparking a viral trend that taps into our collective nostalgia and desire for introspection.",
+    "origin_story": "The trend emerged organically on Twitter, where users started sharing their personal reflections and experiences from the previous day, creating a sense of shared human experience.",
+    "expert_analysis": "This trend reflects a growing cultural shift towards mindfulness and a deeper appreciation for the present moment. In a world increasingly dominated by digital distractions, the appeal of 'yesterday' lies in its ability to ground us in the tangible experiences of our daily lives, fostering a sense of community and personal growth.",
+    "impact": "As this trend continues to spread, it has the potential to inspire meaningful conversations and promote a healthier relationship with social media, emphasizing the importance of reflection and self-awareness.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T09:02:58.997271+00:00",
+  "timestamp": "2026-02-07T10:58:12.126167+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-07T09:02:58.997291+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T10:58:12.126181+00:00",
       "signal_score": 55
     }
   ]

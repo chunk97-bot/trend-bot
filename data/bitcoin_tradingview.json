@@ -1,0 +1,55 @@
+{
+  "trend": "bitcoin tradingview",
+  "category": "crypto",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "129.9K",
+      "raw": 129905
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "bitcoin tradingview",
+    "bitcoin trading"
+  ],
+  "analysis": {
+    "headline": "Bitcoin TradingView Searches Soar as Crypto Traders Seek Insights",
+    "summary": "Amid the ongoing volatility in the cryptocurrency markets, Bitcoin traders are flocking to TradingView in droves to analyze market trends and chart patterns, driving a surge in related Google searches.",
+    "origin_story": "The spike in Bitcoin TradingView searches can be traced to the platform's popularity among crypto enthusiasts, who rely on its advanced charting tools and community insights to navigate the dynamic digital asset landscape.",
+    "expert_analysis": "The heightened interest in Bitcoin TradingView reflects the growing sophistication and engagement of cryptocurrency traders, who are actively seeking out specialized tools and resources to make informed investment decisions in the face of market uncertainty.",
+    "impact": "The surge in Bitcoin TradingView searches underscores the pivotal role that data analysis and technical indicators play in the crypto trading ecosystem, as investors strive to stay ahead of the curve in an increasingly complex and volatile market.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T10:58:47.112856+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T10:58:47.112871+00:00",
+      "signal_score": 50
+    }
+  ]
+}

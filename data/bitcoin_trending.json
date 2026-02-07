@@ -1,0 +1,52 @@
+{
+  "trend": "bitcoin trending",
+  "category": "crypto",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "116.1K",
+      "raw": 116114
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Bitcoin Surges as Crypto Craze Intensifies Amid Inflation Fears",
+    "summary": "Bitcoin's skyrocketing search volume on Google reflects growing public interest in the leading cryptocurrency as investors seek refuge from rising inflation and economic uncertainty.",
+    "origin_story": "The recent spike in Bitcoin-related searches is driven by ongoing volatility in the crypto market, with Bitcoin's price fluctuating significantly in recent weeks.",
+    "expert_analysis": "The renewed interest in Bitcoin highlights the cryptocurrency's enduring appeal as a potential hedge against inflation and a diversification tool for investment portfolios. This trend reflects the public's growing awareness of digital assets and the desire for alternative financial instruments amid concerns about the traditional financial system.",
+    "impact": "The surge in Bitcoin searches could lead to increased adoption and investment in the cryptocurrency, potentially driving further market growth and mainstream acceptance.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-07T10:58:44.024402+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T10:58:44.024417+00:00",
+      "signal_score": 50
+    }
+  ]
+}

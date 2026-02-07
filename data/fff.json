@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "19.1M",
-      "videos": "420.3K",
-      "raw_views": 19141403
+      "views": "72.1M",
+      "videos": "132.0K",
+      "raw_views": 72084176
     },
     "instagram": {
-      "posts": "7.7M",
-      "reach": "18.3M",
-      "raw_posts": 7661974
+      "posts": "8.8M",
+      "reach": "26.4M",
+      "raw_posts": 8839522
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Unexpected Rise of the Colorless Craze: fff Sweeps Social Media",
-    "summary": "The simple, hexadecimal color code '#fff' has taken the internet by storm, with millions of TikTok views and Instagram posts featuring the enigmatic trend. Users are captivated by the minimalist, yet powerful, allure of this colorless phenomenon.",
-    "origin_story": "The '#fff' trend first gained traction on TikTok, where users began experimenting with the unique aesthetics and implications of this blank canvas.",
-    "expert_analysis": "The widespread appeal of '#fff' suggests a desire for digital simplicity and a rejection of the overstimulation that often characterizes modern social media. This trend reflects a growing yearning for a respite from the noise, allowing users to focus on the inherent power of absence and the beauty in the unadorned.",
-    "impact": "This trend has the potential to influence design, art, and the way we perceive and engage with digital content moving forward.",
+    "headline": "The Viral Allure of the Simplest Hex Code: #fff",
+    "summary": "The humble #fff hex code, representing the color white, has taken the internet by storm, with millions of TikTok views and Instagram posts. This minimalist trend reveals our collective fascination with the power of simplicity in a visually cluttered digital landscape.",
+    "origin_story": "The #fff trend first gained traction on TikTok, where users began creating content celebrating the pure, clean aesthetic of the classic white hex code.",
+    "expert_analysis": "The viral success of #fff speaks to our innate human desire for visual harmony and minimalism. In a world increasingly dominated by vibrant, attention-grabbing visuals, the allure of the simple white hex code provides a refreshing respite, tapping into our need for digital zen.",
+    "impact": "This trend has transcended social media, with brands and creators leveraging the universal appeal of #fff to connect with audiences and create a sense of visual calm.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:02.114173+00:00",
+  "timestamp": "2026-02-07T10:58:02.737465+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:02.114194+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T10:58:02.737486+00:00",
       "signal_score": 90
     }
   ]

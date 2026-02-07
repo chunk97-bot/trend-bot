@@ -1,0 +1,58 @@
+{
+  "trend": "nfl trending",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "282.7K",
+      "raw": 282741
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "nfl trending",
+    "nfl trending news",
+    "nfl trending players",
+    "nfl trending topics",
+    "nfl trending twitter"
+  ],
+  "analysis": {
+    "headline": "NFL Dominates Google Searches as Football Fever Sweeps the Nation",
+    "summary": "The NFL is dominating Google searches as fans eagerly anticipate the upcoming season. From discussions of star players to the latest team news, people are turning to the internet to stay up-to-date on all things football.",
+    "origin_story": "The spike in NFL-related searches likely stems from pre-season hype and the recent release of team schedules, which have fans buzzing about the upcoming games.",
+    "expert_analysis": "The NFL's enduring popularity reflects America's deep-rooted love for the sport. Football serves as a unifying cultural force, bringing communities together and sparking passionate debates among fans. This trend highlights the NFL's ability to captivate the public's attention, even during the offseason.",
+    "impact": "The high volume of Google searches ensures the NFL remains a dominant force in the sports and entertainment landscape.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T10:58:40.398983+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T10:58:40.398998+00:00",
+      "signal_score": 50
+    }
+  ]
+}

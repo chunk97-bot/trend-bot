@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "memes",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "191.0K",
-      "reposts": "21.5K",
-      "raw_posts": 190984,
-      "raw_reposts": 21475
+      "posts": "112.7K",
+      "reposts": "14.4K",
+      "raw_posts": 112652,
+      "raw_reposts": 14424
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Week Ago' Meme Captures Fleeting Relevance of Internet Trends",
-    "summary": "The 'Week Ago' meme has taken social media by storm, poking fun at how quickly online crazes come and go in the digital age. The simple image juxtaposes a popular topic from just days prior with the realization of its now-waning relevance.",
-    "origin_story": "The 'Week Ago' meme originated on Reddit, where users began posting the image to poke fun at faddish internet trends.",
-    "expert_analysis": "This viral meme taps into a universal experience - the realization that something that was all the rage just days ago has already been replaced by the next big thing. It highlights the fleeting nature of online attention, and how quickly the cultural zeitgeist can shift in our fast-paced digital world.",
-    "impact": "The 'Week Ago' meme has resonated widely, sparking tens of thousands of posts across social media as users relate to the sentiment of internet trends' short-lived relevance.",
+    "headline": "The Internet Can't Get Enough of This Perfectly Timed Optical Illusion",
+    "summary": "An eye-catching optical illusion video has taken the internet by storm, captivating viewers with its seamless blending of reality and visual trickery. The trend highlights our collective fascination with the quirks and surprises of the physical world.",
+    "origin_story": "The viral video first surfaced on TikTok, where users have been sharing and reacting to the mind-bending clip.",
+    "expert_analysis": "This trend taps into our inherent human curiosity about the world around us. The video's ability to challenge our perceptions and blur the line between what is real and what is not sparks a sense of wonder and amusement, resonating with viewers across social media platforms.",
+    "impact": "The widespread sharing and discussion of this optical illusion showcases the internet's insatiable appetite for visually striking, shareable content that can captivate and confuse in equal measure.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:12.765100+00:00",
+  "timestamp": "2026-02-07T10:58:16.941817+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:12.765115+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T10:58:16.941832+00:00",
       "signal_score": 55
     }
   ]

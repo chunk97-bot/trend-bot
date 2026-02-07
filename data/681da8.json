@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "memes",
+  "category": "technology",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "43.8K",
-      "reposts": "17.7K",
-      "raw_posts": 43760,
-      "raw_reposts": 17685
+      "posts": "31.7K",
+      "reposts": "19.3K",
+      "raw_posts": 31711,
+      "raw_reposts": 19309
     },
     "tiktok": {
-      "views": "7.6M",
-      "videos": "16.3K",
-      "raw_views": 7573585
+      "views": "8.0M",
+      "videos": "32.2K",
+      "raw_views": 7964332
     },
     "instagram": {
       "posts": "0",
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hexagon Sparks Widespread Online Fascination",
-    "summary": "A mysterious hexagonal symbol has taken the internet by storm, captivating users across social media platforms with its enigmatic nature and potential hidden meaning.",
-    "origin_story": "The symbol, identified as '681da8', first gained traction on TikTok and other visual-centric platforms, sparking speculation and curiosity among a growing number of users.",
-    "expert_analysis": "This trend speaks to the internet's insatiable appetite for mysteries and hidden codes. In an age where information is readily available, the allure of an uncracked digital puzzle has clearly resonated with a wide audience, tapping into our collective desire to uncover the unknown.",
-    "impact": "As this viral phenomenon continues to spread, it has the potential to inspire creative problem-solving, community-driven investigations, and even new artistic or cultural expressions.",
+    "headline": "Mysterious Hex Code Captivates Netizens Across Social Media",
+    "summary": "A seemingly innocuous 6-digit hexadecimal code, '681da8', has taken the internet by storm, sparking widespread speculation and intrigue among users on platforms like TikTok and X.",
+    "origin_story": "The trend first emerged on TikTok, where users began creating videos exploring the possible meanings and origins of the enigmatic code.",
+    "expert_analysis": "This viral phenomenon taps into the human fascination with mystery and the desire to uncover hidden meanings. The rapid spread of the trend across social media speaks to the power of collective curiosity and the internet's ability to rapidly amplify and propagate cryptic cultural phenomena.",
+    "impact": "As the trend continues to gain momentum, it has the potential to spawn a wide range of creative interpretations and spur further investigation into the code's significance.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:09.714110+00:00",
+  "timestamp": "2026-02-07T10:58:06.191968+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -131,6 +131,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:09.714126+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T10:58:06.191983+00:00",
       "signal_score": 85
     }
   ]
