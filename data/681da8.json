@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "68.3K",
-      "reposts": "17.9K",
-      "raw_posts": 68291,
-      "raw_reposts": 17908
+      "posts": "62.1K",
+      "reposts": "12.2K",
+      "raw_posts": 62123,
+      "raw_reposts": 12193
     },
     "tiktok": {
-      "views": "5.8M",
-      "videos": "22.2K",
-      "raw_views": 5797682
+      "views": "7.2M",
+      "videos": "42.9K",
+      "raw_views": 7163008
     },
     "instagram": {
       "posts": "0",
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Color Trend Sparks Creativity and Community Online",
-    "summary": "A mysterious hexadecimal color code, '681da8', has taken the internet by storm, with users across platforms like TikTok and Instagram exploring its visual potential through art, fashion, and more. The trend is captivating audiences with its vibrant, enigmatic appeal.",
-    "origin_story": "The color first gained traction on TikTok, where users began sharing their creative interpretations, from fashion looks to digital art and photography.",
-    "expert_analysis": "This trend taps into our innate human desire to find meaning and beauty in the unexpected. The color's ambiguity allows for personal interpretation and expression, fostering a sense of community as users collaborate and inspire one another. It reflects the internet's power to transform the mundane into the extraordinary.",
-    "impact": "As the trend continues to spread, it's shaping online culture and sparking conversations around the power of color to unite and inspire creativity.",
-    "status": "viral"
+    "headline": "Mysterious Hexadecimal Code Captivates Viral Internet Audiences",
+    "summary": "A mysterious hexadecimal code, '681da8', has taken the internet by storm, sparking intense speculation and intrigue across social media platforms like TikTok and Twitter.",
+    "origin_story": "The trend appears to have started on TikTok, where users have been creating videos exploring the potential meaning and origins of the code.",
+    "expert_analysis": "This viral phenomenon taps into the human desire to uncover hidden meanings and solve mysteries. The cryptic nature of the code has captured the imagination of internet users, who are eager to collectively decipher its significance, reflecting the power of online communities to collectively investigate and speculate.",
+    "impact": "The widespread interest in the '681da8' code has the potential to spawn creative fan theories, artistic interpretations, and even real-world investigations, demonstrating the internet's ability to amplify and propel even the most enigmatic of trends.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T17:19:22.800767+00:00",
+  "timestamp": "2026-02-07T17:56:52.707455+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:47:06.441640+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-06T12:10:23.770715+00:00",
       "signal_score": 85
@@ -139,6 +135,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:22.800789+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T17:56:52.707471+00:00",
       "signal_score": 100
     }
   ]

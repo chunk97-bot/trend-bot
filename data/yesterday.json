@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "175.6K",
-      "reposts": "23.1K",
-      "raw_posts": 175566,
-      "raw_reposts": 23128
+      "posts": "55.9K",
+      "reposts": "23.7K",
+      "raw_posts": 55850,
+      "raw_reposts": 23715
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Yesterday Sweeps Social Media with Nostalgic Resurgence",
-    "summary": "The 2022 film 'Yesterday' has unexpectedly become a viral trend, as people rediscover the whimsical story of a world without The Beatles. Fans are reminiscing about the movie and its feel-good message at a time when many seek comfort in familiar pop culture.",
-    "origin_story": "The trend started on TikTok, where users have been posting clips and reactions to the film's memorable scenes and soundtrack.",
-    "expert_analysis": "The sudden popularity of 'Yesterday' taps into a broader cultural phenomenon - the public's insatiable appetite for nostalgic media that provides an escape from the challenges of the present day. This trend reflects a collective yearning for simpler times and the timeless music of The Beatles.",
-    "impact": "The renewed interest may spur a resurgence in viewership for the film and boost sales of its soundtrack.",
+    "headline": "The Nostalgic Craze of Rewatching 'Yesterday' Sweeps the Internet",
+    "summary": "People are rediscovering the charming 2019 film 'Yesterday,' sparking a wave of nostalgic rewatching and discussion. The movie's feel-good portrayal of a world without the Beatles has resonated with audiences seeking comfort and escapism.",
+    "origin_story": "The trend emerged on TikTok, where users have been sharing their reactions and favorite moments from the film, driving a surge in online engagement.",
+    "expert_analysis": "This trend taps into the public's enduring fascination with the Beatles and the timeless appeal of 'what-if' narratives. In a world grappling with uncertainty, the movie's depiction of a life-changing event provides a familiar and comforting distraction.",
+    "impact": "The resurgence of interest in 'Yesterday' could lead to increased viewership and possibly renewed appreciation for the film's message about the power of music and human connections.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T17:19:36.251434+00:00",
+  "timestamp": "2026-02-07T17:57:02.628073+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -126,6 +126,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:36.251450+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:57:02.628088+00:00",
       "signal_score": 55
     }
   ]

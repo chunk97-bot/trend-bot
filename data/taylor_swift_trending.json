@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "173.0K",
-      "raw": 172982
+      "searches": "223.0K",
+      "raw": 222961
     },
     "x": {
       "posts": "0",
@@ -37,18 +37,18 @@
     "taylor swift trending",
     "taylor swift trending songs",
     "taylor swift trending dance",
-    "taylor swift trending news",
-    "taylor swift trending tiktok song"
+    "taylor swift trending song now",
+    "taylor swift trending song on tiktok"
   ],
   "analysis": {
-    "headline": "Taylor Swift Dominates Trending Charts Amid Album Speculation",
-    "summary": "Taylor Swift's name has skyrocketed on Google search trends, fueled by speculation about a potential new album release. Fans are eagerly searching for any clues or updates about the pop superstar's next musical era.",
-    "origin_story": "The spike in interest began after Swift shared a cryptic video on social media, leading to widespread fan theories and increased online activity.",
-    "expert_analysis": "Taylor Swift's ability to captivate her fanbase and drive cultural conversations is unparalleled. This trend reflects the intense anticipation and loyalty of 'Swifties' who are always on the lookout for the next chapter in the singer's career.",
-    "impact": "With Swift's influence transcending music, this trending topic is poised to dominate the entertainment landscape in the coming weeks.",
+    "headline": "Taylor Swift Dominates Google Searches as New Album Drops",
+    "summary": "Fans are swarming Google to search for details on Taylor Swift's highly anticipated 10th studio album, 'Midnights,' which was just released. The album has generated massive buzz across social media.",
+    "origin_story": "The surge in Google searches started immediately after Swift announced the album's release date and tracklist on her social media channels.",
+    "expert_analysis": "This trend reflects the intense devotion of Taylor Swift's fanbase, known as 'Swifties,' who eagerly follow her every move. The buzz around a new album drop is a reliable indicator of her continued cultural relevance and power to captivate audiences.",
+    "impact": "Swift's music and branding often have widespread influence, shaping pop culture conversations and even impacting commercial trends.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:20:18.589332+00:00",
+  "timestamp": "2026-02-07T17:57:35.560137+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -56,6 +56,10 @@
     },
     {
       "timestamp": "2026-02-07T17:20:18.589367+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:35.560152+00:00",
       "signal_score": 50
     }
   ]

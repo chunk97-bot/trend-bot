@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "79.8K",
-      "reposts": "16.7K",
-      "raw_posts": 79777,
-      "raw_reposts": 16733
+      "posts": "183.7K",
+      "reposts": "19.4K",
+      "raw_posts": 183669,
+      "raw_reposts": 19371
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Nostalgia Wave Sweeps the Internet as Retro Trends Captivate Millennials",
-    "summary": "A resurgence of 90s and early 2000s nostalgia has taken the internet by storm, with millennials eagerly sharing and engaging with content that evokes the cultural touchstones of their youth.",
-    "origin_story": "This trend first gained momentum on TikTok, where users have been creating videos celebrating and reminiscing about beloved TV shows, music, fashion, and other artifacts from the '90s and early 2000s.",
-    "expert_analysis": "The rise of these retro trends speaks to the powerful draw of nostalgia, as millennials seek to reconnect with the formative years of their adolescence. In an era of rapid technological and social change, these trends offer a comforting sense of familiarity and a shared cultural experience that transcends individual experiences.",
-    "impact": "The widespread popularity of these nostalgic trends has the potential to influence marketing, entertainment, and even fashion, as brands and creators capitalize on the powerful emotional resonance of the past.",
+    "headline": "The Nostalgic Resurgence of Month Ago Sparks Viral Conversations",
+    "summary": "As the world grapples with the constant march of time, the recent surge in popularity for Month Ago has struck a chord with internet users. This unexpected trend taps into a universal desire to revisit and reflect on the recent past.",
+    "origin_story": "The trend first emerged on various social media platforms, with users sharing memories, memes, and discussions around the events and experiences of Month Ago.",
+    "expert_analysis": "This viral interest in Month Ago underscores the human need for connection, nostalgia, and a sense of collective experience. In a fast-paced digital landscape, where the present moment can feel fleeting, this trend suggests a longing to pause and collectively reflect on shared experiences, even if they are just a few weeks old.",
+    "impact": "The widespread engagement with this trend has the potential to foster deeper social bonds and a greater appreciation for the present, as users collectively revisit and reframe the recent past.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:19:40.263703+00:00",
+  "timestamp": "2026-02-07T17:57:08.053338+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -126,6 +126,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:40.263718+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:57:08.053354+00:00",
       "signal_score": 55
     }
   ]

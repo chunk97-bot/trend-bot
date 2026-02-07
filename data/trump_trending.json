@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "275.9K",
-      "raw": 275863
+      "searches": "186.6K",
+      "raw": 186598
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches as Political Storm Rages On",
-    "summary": "Former President Donald Trump has once again captured the public's attention, with his name trending on Google as the latest developments in his political and legal battles take center stage.",
-    "origin_story": "The surge in Trump-related searches comes amid a series of high-profile events, including the ongoing investigations into his handling of classified documents and the January 6th Capitol riots.",
-    "expert_analysis": "This trend reflects the enduring fascination and divisiveness that surrounds Trump, a polarizing figure who continues to wield significant influence within the Republican Party. The intense interest in his activities suggests that his political future remains a matter of intense speculation and debate.",
-    "impact": "The sustained public attention on Trump could have far-reaching implications for the upcoming 2024 presidential election cycle and the broader political landscape.",
+    "headline": "Trump Dominates Online Search as Political Tensions Escalate",
+    "summary": "Former President Donald Trump is once again a hot topic on Google, with searches for his name spiking amidst ongoing legal battles and his potential 2024 presidential run. The renewed interest highlights the continued polarization and fascination surrounding Trump's political career.",
+    "origin_story": "The surge in Trump-related searches appears to be driven by a combination of recent developments, including the investigation into the handling of classified documents at his Mar-a-Lago residence and his ongoing legal challenges.",
+    "expert_analysis": "Trump's enduring presence in online discourse reflects the deep division in American politics. While his supporters remain fervent, the intense scrutiny and legal troubles he faces are fueling renewed interest and debate around his political future and influence.",
+    "impact": "The high-profile nature of these developments ensures that Trump will continue to be a dominant figure in the national conversation, with far-reaching implications for the political landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:02:30.607493+00:00",
+  "timestamp": "2026-02-07T17:57:25.110488+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -108,6 +108,10 @@
     },
     {
       "timestamp": "2026-02-07T17:02:30.607508+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:25.110503+00:00",
       "signal_score": 50
     }
   ]

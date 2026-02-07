@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "287.0K",
-      "raw": 287046
+      "searches": "228.4K",
+      "raw": 228445
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Prompts Take the Internet by Storm, Igniting Creativity and Debate",
-    "summary": "The rise of AI-powered content creation tools has sparked a viral trend, as internet users harness the power of AI prompts to generate everything from whimsical artworks to thought-provoking essays. This surge in popularity reflects a growing fascination with the capabilities and limitations of AI technology.",
-    "origin_story": "The trend emerged on platforms like Google, where people have been searching for information on AI prompts and how to use them to produce unique and compelling content.",
-    "expert_analysis": "The AI prompt trend taps into our human desire to be creative and expressive, while also grappling with the implications of AI's growing influence. As people experiment with these tools, they are exploring the boundaries between human and machine-generated creativity, sparking conversations about the future of art, writing, and even decision-making.",
-    "impact": "The widespread adoption of AI prompts could have far-reaching effects, from transforming creative industries to raising ethical questions about the role of technology in shaping our cultural landscape.",
-    "status": "rising"
+    "headline": "AI Prompts Take the Internet by Storm: Unlocking Creativity and Sparking Debate",
+    "summary": "AI-generated text prompts have taken the internet by storm, empowering users to create unique and imaginative content. As AI language models become more sophisticated, people are exploring the potential and implications of this emerging technology.",
+    "origin_story": "The trend of AI prompts gained significant traction on platforms like Twitter and Reddit, where users have been sharing their creations and discussing the various applications of this technology.",
+    "expert_analysis": "This trend reflects a growing interest in the capabilities of AI and the creative possibilities it offers. It also sparks discussions around the ethics and limitations of AI-generated content, as well as its potential impact on traditional forms of art and creative expression.",
+    "impact": "The rise of AI prompts has the potential to democratize content creation, allowing individuals to explore their creativity and push the boundaries of what's possible with technology.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T17:19:49.595052+00:00",
+  "timestamp": "2026-02-07T17:57:17.885280+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -134,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:49.595067+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:17.885297+00:00",
       "signal_score": 50
     }
   ]

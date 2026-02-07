@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "171.5K",
-      "reposts": "42.7K",
-      "raw_posts": 171489,
-      "raw_reposts": 42723
+      "posts": "58.8K",
+      "reposts": "14.4K",
+      "raw_posts": 58815,
+      "raw_reposts": 14360
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic 'Week Ago' Meme Captures Fleeting Nature of Internet Trends",
-    "summary": "A simple meme showing a 'week ago' timestamp has gone viral, resonating with internet users who feel the rapid pace of online discourse. The format allows for playful commentary on how quickly moments and trends come and go in the digital sphere.",
-    "origin_story": "The 'Week Ago' meme first gained traction on TikTok, where users have been posting videos with the text overlay to humorously reflect on the ephemeral nature of viral content.",
-    "expert_analysis": "The popularity of the 'Week Ago' meme speaks to the internet's short attention span and the constant churn of new trends. It taps into a wider cultural sentiment around the fleeting nature of online relevance, where even the most viral sensations can feel like ancient history just days later.",
-    "impact": "This meme has struck a chord across social media platforms, spurring countless relatable reactions and creative spins that continue to drive engagement.",
+    "headline": "The 'Week Ago' Meme Sweeps the Internet, Capturing Nostalgia and Relatability",
+    "summary": "The 'Week Ago' meme has taken the internet by storm, with thousands of users sharing relatable images and captions about the fleeting nature of time and the speed at which life can change in just a matter of days.",
+    "origin_story": "The trend appears to have started on various social media platforms, where users began posting side-by-side comparisons of their lives from one week ago to the present.",
+    "expert_analysis": "This meme taps into the universal human experience of how quickly things can evolve, both for better and for worse. It reflects our collective desire to pause and reflect on the rapid pace of modern life, while also finding humor and connection in the shared experience of change.",
+    "impact": "The 'Week Ago' meme has resonated with millions of people, sparking conversations about the passage of time, personal growth, and the rollercoaster of emotions we all face in our daily lives.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T15:52:49.044058+00:00",
+  "timestamp": "2026-02-07T17:57:05.501630+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -110,6 +110,10 @@
     },
     {
       "timestamp": "2026-02-07T15:52:49.044072+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:57:05.501646+00:00",
       "signal_score": 55
     }
   ]

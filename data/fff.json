@@ -1,6 +1,6 @@
 {
   "trend": "fff",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "tiktok": true,
     "instagram": true
@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "95.7M",
-      "videos": "128.4K",
-      "raw_views": 95741205
+      "views": "63.1M",
+      "videos": "391.3K",
+      "raw_views": 63100931
     },
     "instagram": {
-      "posts": "5.3M",
-      "reach": "15.1M",
-      "raw_posts": 5308452
+      "posts": "1.5M",
+      "reach": "47.5M",
+      "raw_posts": 1499174
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The #fff Craze: Minimalist Aesthetics Take Over Social Media",
-    "summary": "The hashtag #fff, representing the hexadecimal code for the color white, has taken the internet by storm, with millions of posts across TikTok and Instagram showcasing a minimalist, visually-striking trend.",
-    "origin_story": "The trend originated on TikTok, where users started posting simple, white-themed videos and images, creating a unified, aesthetically-pleasing feed.",
-    "expert_analysis": "The #fff trend taps into the growing desire for visual simplicity and minimalism in a world increasingly saturated with digital content. By embracing a pared-down, monochromatic aesthetic, users are seeking a sense of calm and clarity amidst the noise of social media.",
-    "impact": "The widespread adoption of the #fff trend has led brands and influencers to incorporate the clean, minimalist look into their social media strategies, further driving the popularity of this visually-driven internet phenomenon.",
+    "headline": "The Dazzling Allure of Blank Canvases: Why 'fff' Is Captivating Social Media",
+    "summary": "The simple yet mesmerizing trend of posting images with the hex code '#fff' (representing the color white) has taken the internet by storm, amassing millions of views and engagements across TikTok and Instagram.",
+    "origin_story": "The trend began on TikTok, where users discovered the visual appeal of a plain white canvas and the creative possibilities it offers.",
+    "expert_analysis": "The 'fff' trend speaks to our innate human desire for simplicity and minimalism in a visually cluttered digital landscape. It taps into the calming power of empty spaces, allowing users to project their own interpretations and emotions onto a blank slate.",
+    "impact": "This trend has transcended its digital boundaries, with users exploring the concept in physical spaces and art forms, showcasing the trend's broader cultural resonance.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:19:26.963643+00:00",
+  "timestamp": "2026-02-07T17:56:56.844343+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -126,6 +126,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:26.963659+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T17:56:56.844358+00:00",
       "signal_score": 90
     }
   ]
