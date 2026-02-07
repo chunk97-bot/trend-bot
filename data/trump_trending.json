@@ -1,14 +1,14 @@
 {
   "trend": "trump trending",
-  "category": "entertainment",
+  "category": "politics",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "215.2K",
-      "raw": 215208
+      "searches": "290.4K",
+      "raw": 290406
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "trump trending Takes Over The Internet",
-    "summary": "The topic 'trump trending' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Trump Dominates the Internet as Searches Surge Amid Political Turmoil",
+    "summary": "Former President Donald Trump has once again captured the attention of the internet as his name becomes a top search term on Google. This renewed online interest reflects the ongoing political upheaval and his continued influence in the public discourse.",
+    "origin_story": "The spike in Trump-related searches likely stems from the latest developments in the legal cases and investigations surrounding the former president, as well as his ongoing involvement in the Republican party's activities.",
+    "expert_analysis": "Trump's ability to consistently drive online conversations underscores his enduring impact on American politics and the public's fascination with his persona. This trend speaks to the polarized nature of the current political climate and the power of celebrity in shaping the national dialogue.",
+    "impact": "As Trump continues to dominate internet searches, it highlights the outsized influence he wields in shaping the national narrative and the challenges faced by the political establishment in moving the discourse beyond his divisive presence.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:47.043718+00:00",
+  "timestamp": "2026-02-07T11:45:47.825048+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -92,6 +92,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:47.043733+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:47.825057+00:00",
       "signal_score": 50
     }
   ]

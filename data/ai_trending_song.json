@@ -1,6 +1,6 @@
 {
   "trend": "ai trending song",
-  "category": "music",
+  "category": "technology",
   "platforms": {
     "google": true,
     "x": true
@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "79.5K",
-      "raw": 79480
+      "searches": "277.5K",
+      "raw": 277534
     },
     "x": {
-      "posts": "157.7K",
-      "reposts": "23.8K",
-      "raw_posts": 157749,
-      "raw_reposts": 23758
+      "posts": "13.3K",
+      "reposts": "25.9K",
+      "raw_posts": 13266,
+      "raw_reposts": 25858
     },
     "tiktok": {
       "views": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 80,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Music Takes the Internet by Storm",
-    "summary": "Fueled by the rise of powerful AI music generation tools, a new wave of AI-created songs is captivating listeners worldwide. This trend taps into our fascination with the potential of artificial intelligence.",
-    "origin_story": "The trend emerged as AI music models like Jukebox and MusicLM gained attention, allowing anyone to create unique, AI-generated tracks with just a text prompt.",
-    "expert_analysis": "This trend reflects our evolving relationship with technology and creativity. As AI systems become more sophisticated, they challenge traditional notions of music authorship and composition, sparking debates around the role of human versus machine in the artistic process.",
-    "impact": "The proliferation of AI-generated music could disrupt the music industry, opening up new avenues for experimentation and creativity while raising questions about authenticity and the value of human artistry.",
-    "status": "rising"
+    "headline": "AI-Generated Music Sparks Viral Craze Among Online Listeners",
+    "summary": "The internet is abuzz with fascination over AI-created songs that have started appearing online. People are rushing to discover, share, and discuss these algorithmically-produced musical compositions that are blurring the lines between human and machine creativity.",
+    "origin_story": "The trend emerged as AI text-to-image tools like DALL-E and Midjourney gained mainstream popularity, leading creators to experiment with expanding AI's capabilities into music generation.",
+    "expert_analysis": "This viral interest in AI-powered music reflects a broader cultural curiosity about the potential of artificial intelligence. As AI systems become more sophisticated, people are grappling with questions about the nature of art, creativity, and the future role of humans in an increasingly automated world.",
+    "impact": "The rise of AI-generated music could have far-reaching implications for the music industry, challenging traditional notions of authorship and provoking discussions around the ethics of AI-powered creativity.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T10:58:09.260203+00:00",
+  "timestamp": "2026-02-07T11:45:07.706769+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -96,6 +96,10 @@
     {
       "timestamp": "2026-02-07T10:58:09.260218+00:00",
       "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-07T11:45:07.706777+00:00",
+      "signal_score": 85
     }
   ]
 }

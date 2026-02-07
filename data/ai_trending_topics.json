@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "113.0K",
-      "raw": 112962
+      "searches": "197.6K",
+      "raw": 197645
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Artificial Intelligence Dominates Trending Topics Across the Web",
-    "summary": "AI has become a major point of fascination and discussion online, with searches for AI-related topics spiking to over 113,000 on Google as people seek to understand the latest advancements and implications of this rapidly evolving technology.",
-    "origin_story": "The surge in AI-related searches can be traced back to the viral success of ChatGPT, the advanced language model developed by OpenAI that has captured the public's imagination with its remarkable conversational abilities.",
-    "expert_analysis": "The intense interest in AI reflects a growing awareness and curiosity about the transformative potential of this technology, which is poised to disrupt numerous industries and reshape the way we live, work, and interact. As AI systems become more sophisticated, the public is grappling with both the exciting possibilities and the ethical challenges that come with these advancements.",
-    "impact": "The prevalence of AI-related trends underscores the far-reaching impact that this technology will have on our society, driving both innovation and complex conversations about the future.",
+    "headline": "AI Dominates Search Trends as the Future of Computing Captivates the Public",
+    "summary": "Artificial intelligence has seized the public's attention, with a surge in Google searches reflecting a growing fascination with the transformative potential of this technology. From chatbots to machine learning, AI is shaping the way we interact with the digital world.",
+    "origin_story": "The recent breakthroughs and public debuts of advanced AI models like ChatGPT have ignited widespread interest, sparking discussions about the implications of these intelligent systems.",
+    "expert_analysis": "The AI trend reveals a societal shift towards embracing technology that can augment and enhance human capabilities. As AI becomes more sophisticated and accessible, people are eager to explore its applications in fields ranging from creative pursuits to problem-solving, signaling a growing comfort with the integration of artificial and human intelligence.",
+    "impact": "The surge in AI-related searches underscores the public's desire to understand and harness the transformative power of this technology, which is poised to reshape industries, transform workflows, and redefine the future of human-machine interaction.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:58:31.157148+00:00",
+  "timestamp": "2026-02-07T11:45:33.246378+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-07T09:58:31.157164+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:33.246388+00:00",
       "signal_score": 50
     }
   ]

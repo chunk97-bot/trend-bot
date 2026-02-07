@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "202.0K",
-      "raw": 201951
+      "searches": "158.5K",
+      "raw": 158451
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Prompts Take Over the Internet, Revolutionizing Creative Expression",
-    "summary": "AI-generated prompts, where users input text and AI models produce unique and imaginative visuals, have become the latest viral sensation online. This trend showcases the public's fascination with the power of AI technology to augment and enhance creativity.",
-    "origin_story": "The rise of AI prompts can be traced back to the growing popularity of text-to-image AI models like DALL-E, Midjourney, and Stable Diffusion, which have made it possible for anyone to create stunning, AI-generated artwork with just a few words.",
-    "expert_analysis": "This trend reflects the public's growing curiosity and excitement about the capabilities of AI technology. As AI systems become increasingly sophisticated, they are blurring the lines between human and machine creativity, allowing users to explore new frontiers of imagination and self-expression.",
-    "impact": "The popularity of AI prompts suggests that this technology could have a significant impact on the creative industries, empowering amateur and professional artists alike to push the boundaries of what's possible.",
-    "status": "viral"
+    "headline": "The AI Prompt Craze: Sparking Creativity and Controversy Online",
+    "summary": "As AI-generated content becomes more prevalent, people are increasingly turning to AI prompts to inspire their own creative works. This trend has sparked both excitement and debate around the role of AI in art and expression.",
+    "origin_story": "The surge in interest around AI prompts can be traced back to the rise of AI text-generation models like GPT-3, which allow users to input a prompt and have the AI produce human-like text in response.",
+    "expert_analysis": "This trend reflects a growing fascination with the creative potential of AI, as well as the desire to harness advanced technology for personal expression. However, it also raises questions about authenticity, ownership, and the role of human artists in an AI-powered world.",
+    "impact": "As AI prompts continue to gain popularity, they could significantly shape the future of creative industries and challenge traditional notions of authorship and originality.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T10:58:25.849362+00:00",
+  "timestamp": "2026-02-07T11:45:30.044859+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -114,6 +114,10 @@
     },
     {
       "timestamp": "2026-02-07T10:58:25.849375+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:30.044870+00:00",
       "signal_score": 50
     }
   ]

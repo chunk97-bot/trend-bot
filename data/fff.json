@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "72.1M",
-      "videos": "132.0K",
-      "raw_views": 72084176
+      "views": "16.3M",
+      "videos": "11.7K",
+      "raw_views": 16346022
     },
     "instagram": {
-      "posts": "8.8M",
-      "reach": "26.4M",
-      "raw_posts": 8839522
+      "posts": "5.0M",
+      "reach": "11.7M",
+      "raw_posts": 5014957
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Viral Allure of the Simplest Hex Code: #fff",
-    "summary": "The humble #fff hex code, representing the color white, has taken the internet by storm, with millions of TikTok views and Instagram posts. This minimalist trend reveals our collective fascination with the power of simplicity in a visually cluttered digital landscape.",
-    "origin_story": "The #fff trend first gained traction on TikTok, where users began creating content celebrating the pure, clean aesthetic of the classic white hex code.",
-    "expert_analysis": "The viral success of #fff speaks to our innate human desire for visual harmony and minimalism. In a world increasingly dominated by vibrant, attention-grabbing visuals, the allure of the simple white hex code provides a refreshing respite, tapping into our need for digital zen.",
-    "impact": "This trend has transcended social media, with brands and creators leveraging the universal appeal of #fff to connect with audiences and create a sense of visual calm.",
+    "headline": "The Allure of the Blank Canvas: Why the 'fff' Trend is Captivating the Internet",
+    "summary": "The simple yet mesmerizing '#fff' (or '#FFFFFF') trend has taken social media by storm, with users sharing minimalist content that celebrates the power of the blank canvas. The trend's meteoric rise speaks to our collective desire for digital respite in an increasingly cluttered online landscape.",
+    "origin_story": "The '#fff' trend first gained traction on TikTok, where users began posting videos showcasing the hypnotic allure of the pure white screen or background. It has since expanded to Instagram, where the hashtag has amassed over 5 million posts.",
+    "expert_analysis": "This trend taps into a fundamental human desire for simplicity and visual calm. In a world saturated with vibrant visuals and constant stimulation, the '#fff' movement offers a digital palate cleanser, inviting users to pause and appreciate the beauty in the absence of clutter. It reflects a growing cultural yearning for minimalism and digital detoxification.",
+    "impact": "The widespread appeal of the '#fff' trend suggests a shifting tide in social media usage, where users are seeking more intentional and contemplative online experiences.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T10:58:02.737465+00:00",
+  "timestamp": "2026-02-07T11:45:05.044884+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-07T10:58:02.737486+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T11:45:05.044901+00:00",
       "signal_score": 90
     }
   ]

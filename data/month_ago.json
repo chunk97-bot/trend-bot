@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "78.1K",
-      "reposts": "43.7K",
-      "raw_posts": 78123,
-      "raw_reposts": 43678
+      "posts": "161.2K",
+      "reposts": "23.6K",
+      "raw_posts": 161174,
+      "raw_reposts": 23635
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Month Ago' Meme Captures Collective Nostalgia",
-    "summary": "The resurgence of the 'Month Ago' meme has struck a chord with internet users, as they reminisce about the simpler times and experiences from just a few weeks prior.",
-    "origin_story": "The meme first gained traction on various social media platforms, with users posting images or text comparing their lives 'a month ago' to the present day.",
-    "expert_analysis": "The 'Month Ago' meme taps into a universal human experience - the feeling of how quickly time can pass and how much can change in a short period. In a fast-paced digital era, this meme allows people to pause and reflect on the fleeting nature of the present.",
-    "impact": "The viral popularity of this meme highlights the internet's role as a space for shared cultural experiences and collective nostalgia.",
+    "headline": "Vintage 'Month Ago' Craze Sweeps the Internet as Gen Z Rediscovers Nostalgia",
+    "summary": "Seemingly out of nowhere, posts and reposts celebrating the now-obscure 'Month Ago' meme have flooded social media feeds, captivating younger users seeking a dose of internet history.",
+    "origin_story": "The 'Month Ago' meme first gained traction on various platforms about a month ago, sparked by users sharing their recollections and reactions to the once-popular inside joke.",
+    "expert_analysis": "This sudden resurgence speaks to Gen Z's growing fascination with internet culture from the late 2010s, a time they see as a bygone era of simpler memes and more organic online communities. The nostalgia trail has become a powerful source of engagement, allowing young users to bond over shared experiences, even if they missed the original 'Month Ago' moment.",
+    "impact": "As the trend continues to spread, it highlights how rapidly internet fads can cycle back into relevance, driven by users' desire to uncover 'lost' cultural touchstones.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T10:58:19.809862+00:00",
+  "timestamp": "2026-02-07T11:45:23.053129+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -102,6 +102,10 @@
     },
     {
       "timestamp": "2026-02-07T10:58:19.809876+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T11:45:23.053140+00:00",
       "signal_score": 55
     }
   ]

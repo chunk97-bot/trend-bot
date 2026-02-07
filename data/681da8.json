@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "31.7K",
-      "reposts": "19.3K",
-      "raw_posts": 31711,
-      "raw_reposts": 19309
+      "posts": "8.2K",
+      "reposts": "3.2K",
+      "raw_posts": 8153,
+      "raw_reposts": 3177
     },
     "tiktok": {
-      "views": "8.0M",
-      "videos": "32.2K",
-      "raw_views": 7964332
+      "views": "4.2M",
+      "videos": "7.9K",
+      "raw_views": 4190567
     },
     "instagram": {
       "posts": "0",
@@ -28,22 +28,22 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
+  "signal_score": 75,
   "momentum": "rising",
-  "lifecycle": "new",
+  "lifecycle": "rising",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hex Code Captivates Netizens Across Social Media",
-    "summary": "A seemingly innocuous 6-digit hexadecimal code, '681da8', has taken the internet by storm, sparking widespread speculation and intrigue among users on platforms like TikTok and X.",
-    "origin_story": "The trend first emerged on TikTok, where users began creating videos exploring the possible meanings and origins of the enigmatic code.",
-    "expert_analysis": "This viral phenomenon taps into the human fascination with mystery and the desire to uncover hidden meanings. The rapid spread of the trend across social media speaks to the power of collective curiosity and the internet's ability to rapidly amplify and propagate cryptic cultural phenomena.",
-    "impact": "As the trend continues to gain momentum, it has the potential to spawn a wide range of creative interpretations and spur further investigation into the code's significance.",
-    "status": "viral"
+    "headline": "681da8 Takes Over The Internet",
+    "summary": "The topic '681da8' is trending across x, tiktok.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T10:58:06.191968+00:00",
+  "timestamp": "2026-02-07T11:45:10.522929+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -136,6 +136,10 @@
     {
       "timestamp": "2026-02-07T10:58:06.191983+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T11:45:10.522941+00:00",
+      "signal_score": 75
     }
   ]
 }

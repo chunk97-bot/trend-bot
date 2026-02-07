@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "160.5K",
-      "raw": 160480
+      "searches": "135.6K",
+      "raw": 135559
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to Top of Google Searches Amid Controversy",
-    "summary": "President Joe Biden's name has skyrocketed to the top of Google search trends, driven by a flurry of news coverage around his son Hunter Biden's business dealings and a classified documents scandal.",
-    "origin_story": "The spike in searches began in early January 2023 as reports emerged about classified government documents found at Biden's private residence and former office.",
-    "expert_analysis": "This trend reflects the public's enduring fascination with political scandals and the Biden family's controversies. It also highlights the powerful role that online search data can play in shaping the national conversation around elected officials and their families.",
-    "impact": "The sustained interest in this story could put increasing pressure on the Biden administration and shape the political landscape heading into the 2024 presidential election.",
+    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Biden's Business Dealings",
+    "summary": "The name 'Biden' has surged in Google searches as the public focuses on newly released documents related to Hunter Biden's overseas business activities and the potential involvement of his father, President Joe Biden.",
+    "origin_story": "The trend began after new reports emerged about Hunter Biden's foreign business dealings, igniting renewed discussions about potential conflicts of interest.",
+    "expert_analysis": "This trend reflects the ongoing political tensions and public interest in the Biden family's business relationships. It highlights the enduring power of political scandals to captivate public attention, even in the midst of other pressing national issues.",
+    "impact": "The Biden family's business dealings continue to be a source of intense debate and could have broader implications for the president's agenda and public perception.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:58:15.106431+00:00",
+  "timestamp": "2026-02-07T11:45:51.375677+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -104,6 +104,10 @@
     },
     {
       "timestamp": "2026-02-07T07:58:15.106444+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:51.375688+00:00",
       "signal_score": 50
     }
   ]
