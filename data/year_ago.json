@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "96.1K",
-      "reposts": "41.6K",
-      "raw_posts": 96119,
-      "raw_reposts": 41556
+      "posts": "61.1K",
+      "reposts": "20.2K",
+      "raw_posts": 61053,
+      "raw_reposts": 20165
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgia Wave: Why 'Year Ago' is Captivating the Internet",
-    "summary": "As people reflect on the past year, the 'Year Ago' trend has gone viral, with users sharing memories and experiences from exactly 12 months prior. This digital time capsule offers a unique window into the collective consciousness.",
-    "origin_story": "The trend first emerged on various social media platforms, including Twitter and Reddit, where users began posting side-by-side comparisons of their lives from the current year and the year before.",
-    "expert_analysis": "The 'Year Ago' trend taps into a universal human desire to make sense of the passage of time and the changes in our lives. In a world that often feels in flux, this nostalgic look back provides a sense of grounding and perspective, allowing people to reflect on personal growth, relationships, and the broader societal shifts that have occurred.",
-    "impact": "As the trend continues to spread, it has the potential to foster deeper connections and understanding among internet users, as they share their unique experiences and find common ground in the universal human experience of time and change.",
+    "headline": "'Year Ago' Sparks Nostalgic Reflections Across Social Media",
+    "summary": "The phrase 'Year Ago' has emerged as a trending topic, prompting users across various platforms to share personal memories and experiences from 12 months prior. This viral phenomenon taps into our innate desire to reflect on the past and find meaning in the passage of time.",
+    "origin_story": "The trend appears to have originated organically on social media, as users began posting 'Year Ago' captions alongside images or recollections from the same period last year.",
+    "expert_analysis": "This trend speaks to the human need for nostalgia and the way social media amplifies our collective sense of shared experience. By revisiting the past, people are seeking to make sense of the present and find comfort in the familiarity of their own life journeys.",
+    "impact": "The 'Year Ago' trend has the potential to foster deeper connections and a sense of community among social media users as they collectively reminisce about the highs and lows of the past year.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T23:54:04.080152+00:00",
+  "timestamp": "2026-02-07T04:55:10.544496+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:18.284403+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:04.080167+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T04:55:10.544514+00:00",
       "signal_score": 55
     }
   ]

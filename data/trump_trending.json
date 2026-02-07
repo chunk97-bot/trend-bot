@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "106.4K",
-      "raw": 106365
+      "searches": "183.1K",
+      "raw": 183136
     },
     "x": {
       "posts": "0",
@@ -36,19 +36,19 @@
   "related_trends": [
     "trump trending",
     "trump trending news",
-    "trump trending news today",
     "trump trending now",
+    "trump trending news today",
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Search Trends as Political Controversy Swirls",
-    "summary": "Donald Trump's name has taken over Google search trends as the former president faces a growing slate of legal and political challenges, capturing the public's attention once again.",
-    "origin_story": "The spike in Trump-related searches began following the recent indictment of the Trump Organization and its chief financial officer, as well as ongoing investigations into the January 6th Capitol riots.",
-    "expert_analysis": "This renewed focus on Trump underscores the public's enduring fascination with the former president, who remains a polarizing figure in American politics. The trending data reflects how Trump's legal troubles and political maneuverings continue to captivate and divide the nation.",
-    "impact": "The intense interest in Trump could shape public discourse and political momentum in the coming months.",
+    "headline": "Trump Dominates Google Searches Amid Mounting Legal Battles",
+    "summary": "Former President Donald Trump has once again captured the public's attention, as his name surges to the top of Google's search trends. The spike in interest coincides with a series of high-profile legal challenges the ex-leader is facing, fueling widespread discussion and speculation.",
+    "origin_story": "Trump's name has trended on Google following the latest developments in the various investigations and court cases involving the former president.",
+    "expert_analysis": "This trend reflects the ongoing public fascination with Trump, even as he navigates an increasingly complex legal landscape. It underscores the enduring influence of the former president, whose presence continues to loom large in the national discourse.",
+    "impact": "The intense Google search activity surrounding Trump could shape public opinion and drive further media coverage of the unfolding events.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T23:54:29.463641+00:00",
+  "timestamp": "2026-02-07T04:55:36.357531+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -72,6 +72,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:29.463657+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:36.357547+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "265.1K",
-      "raw": 265122
+      "searches": "275.6K",
+      "raw": 275570
     },
     "x": {
       "posts": "0",
@@ -33,16 +33,19 @@
   "locations": [
     "global"
   ],
-  "related_trends": [],
+  "related_trends": [
+    "chatgpt trending photo",
+    "chatgpt trending photo prompt"
+  ],
   "analysis": {
-    "headline": "The Viral Spread of ChatGPT-Inspired Photos Captivates the Internet",
-    "summary": "People are flocking to Google to search for images of themselves generated using the popular AI chatbot ChatGPT. The ability to create personalized, AI-rendered portraits has sparked a wave of creative expression and intrigue among internet users.",
-    "origin_story": "The trend appears to have emerged from social media, where users began sharing their unique ChatGPT-generated portraits and encouraging others to try the AI image generation tool.",
-    "expert_analysis": "This trend taps into the public's growing fascination with AI technology and its creative potential. It reflects a desire to experiment with and understand the capabilities of these advanced systems, while also indulging in a touch of digital self-expression.",
-    "impact": "The widespread interest in ChatGPT-inspired photos could drive further advancements and mainstream adoption of AI-powered image generation tools.",
+    "headline": "The Captivating Trend of ChatGPT-Generated Photos Sweeps the Internet",
+    "summary": "People are fascinated by the ability of the AI language model ChatGPT to create unique and visually striking images from simple text prompts, sparking a viral trend of sharing and discussing these AI-generated photos.",
+    "origin_story": "The trend started gaining momentum on social media platforms as users began experimenting with ChatGPT's image generation capabilities and sharing the results.",
+    "expert_analysis": "This trend highlights the public's growing interest in the capabilities of AI, particularly in the realm of creative expression. It also reflects the ongoing blurring of the lines between human-created and machine-generated content, raising questions about the future of art, design, and visual communication.",
+    "impact": "The widespread fascination with ChatGPT-generated photos has the potential to shape the future of visual media and content creation.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T23:54:15.901187+00:00",
+  "timestamp": "2026-02-07T04:55:23.585452+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:23.746499+00:00",
@@ -70,6 +73,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:15.901202+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:23.585468+00:00",
       "signal_score": 50
     }
   ]

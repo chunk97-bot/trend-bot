@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "249.2K",
-      "raw": 249223
+      "searches": "164.8K",
+      "raw": 164769
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Music Captures the Attention of the Internet",
-    "summary": "The internet is abuzz with the latest trend of AI-generated songs, captivating listeners with their unique and often surprisingly lifelike musical compositions.",
-    "origin_story": "The trend emerged from the growing accessibility and advancements in AI music generation tools, allowing anyone to create original music with the click of a button.",
-    "expert_analysis": "This trend reflects the public's fascination with the capabilities of AI and its potential to disrupt traditional artistic domains. It raises questions about the role of human creativity and the future of music production.",
-    "impact": "As AI-generated music gains more attention, it could lead to changes in the music industry, potentially challenging the status quo and redefining the creative process.",
-    "status": "rising"
+    "headline": "AI-Generated Song Takes Internet by Storm: What's Behind the Hype?",
+    "summary": "As AI technology continues to advance, the emergence of an AI-generated song has captured the attention of internet users worldwide. This viral trend sheds light on the evolving capabilities of artificial intelligence and its potential impact on the music industry.",
+    "origin_story": "The song first gained traction on various social media platforms, with users sharing their reactions and speculations about its creation.",
+    "expert_analysis": "This AI-generated song trend reflects the public's fascination with the intersection of technology and creativity. It highlights the ongoing debate about the role of AI in art and whether machines can truly replicate the emotional depth and authenticity of human-created music.",
+    "impact": "The success of this AI-generated song could pave the way for further exploration and integration of AI in the music industry, potentially changing the landscape of music production and consumption.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T23:54:06.915572+00:00",
+  "timestamp": "2026-02-07T04:55:13.758498+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -66,6 +66,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:06.915589+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:13.758514+00:00",
       "signal_score": 50
     }
   ]

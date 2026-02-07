@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "99.7K",
-      "reposts": "41.6K",
-      "raw_posts": 99680,
-      "raw_reposts": 41613
+      "posts": "62.1K",
+      "reposts": "26.1K",
+      "raw_posts": 62130,
+      "raw_reposts": 26111
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgia Reigns Supreme as 'Yesterday' Becomes Viral Phenomenon",
-    "summary": "Social media users are reminiscing about the bygone era of 'Yesterday,' a time when life was simpler and technology less intrusive. The sudden surge in popularity showcases our collective yearning for a slower-paced, pre-digital past.",
-    "origin_story": "The trend first emerged on TikTok, where users have been sharing nostalgic stories and memories of 'Yesterday' in creative, often humorous ways.",
-    "expert_analysis": "This viral trend taps into a deeper societal longing for a time when life was less complicated. In an age of constant connectivity and information overload, people are seeking refuge in the comforts of the past, where simpler pleasures and authentic human connections reigned supreme.",
-    "impact": "The widespread engagement with this trend suggests a widespread desire to unplug and escape the demands of modern life, even if just for a fleeting moment.",
+    "headline": "Nostalgia for 'Yesterday' Sparks Viral Reminiscence on Social Media",
+    "summary": "The simple word 'yesterday' has captured the attention of internet users, as they reminisce about the past and ponder the fleeting nature of time. This unexpected trend speaks to a collective yearning for simpler times and the desire to reflect on personal memories.",
+    "origin_story": "The trend began organically on various social media platforms, with users sharing their thoughts, experiences, and personal stories about 'yesterday'.",
+    "expert_analysis": "This viral trend reflects a broader cultural shift towards nostalgia and a longing for the past. In an increasingly fast-paced and uncertain world, the word 'yesterday' serves as a touchstone, allowing people to pause and reconnect with their personal histories and the memories that shape their lives.",
+    "impact": "This trend has the potential to foster meaningful conversations and a shared sense of community as people come together to share their stories and find common ground in their experiences of the past.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T23:53:57.291287+00:00",
+  "timestamp": "2026-02-07T04:55:04.979674+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-06T23:53:57.291305+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T04:55:04.979690+00:00",
       "signal_score": 55
     }
   ]

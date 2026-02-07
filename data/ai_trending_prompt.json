@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "119.5K",
-      "raw": 119538
+      "searches": "219.4K",
+      "raw": 219438
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The AI Prompt Revolution: Unleashing Creativity in the Digital Age",
-    "summary": "AI-generated prompts have taken the internet by storm, empowering users to create unique and visually stunning content with ease. This trend reflects a growing demand for accessible creative tools and the public's fascination with the capabilities of artificial intelligence.",
-    "origin_story": "The surge in interest around AI prompts can be traced back to the rise of text-to-image AI models like DALL-E and Stable Diffusion, which have democratized the art creation process.",
-    "expert_analysis": "This trend underscores the public's desire for creative self-expression and the power of AI to unlock new avenues for artistic exploration. It also highlights the evolving relationship between humans and technology, as we increasingly rely on AI-driven tools to augment and enhance our creative abilities.",
-    "impact": "The widespread adoption of AI prompts has the potential to transform various industries, from marketing and advertising to entertainment and education, as businesses and individuals leverage these tools to generate visually compelling content.",
-    "status": "viral"
+    "headline": "Prompts Captivate the AI-Obsessed: Exploring the Trend Driving the Masses",
+    "summary": "As AI systems become more advanced, the public's fascination with interacting with them through carefully crafted prompts has skyrocketed. Google searches for 'AI trending prompt' have surged, reflecting the growing desire to push the boundaries of what these AI models can do.",
+    "origin_story": "The trend started on social media platforms like Twitter, where users began sharing their most creative and imaginative prompts for AI art generators and language models, sparking widespread interest and engagement.",
+    "expert_analysis": "This trend taps into the public's growing curiosity about the capabilities and limitations of AI technology. It reveals a desire to actively participate in the development and exploration of these systems, blurring the lines between human and machine creativity.",
+    "impact": "As the trend continues to gain momentum, it could lead to further advancements in AI technology as developers strive to meet the public's evolving demands and expectations.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T23:54:10.032654+00:00",
+  "timestamp": "2026-02-07T04:55:20.728875+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-06T23:54:10.032670+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:20.728890+00:00",
       "signal_score": 50
     }
   ]
