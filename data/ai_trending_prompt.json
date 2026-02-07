@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "165.4K",
-      "raw": 165431
+      "searches": "135.1K",
+      "raw": 135061
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Chatbots Take Over the Internet: Prompts Become the New Craze",
-    "summary": "AI-powered chatbots and language models have captured the public's imagination, with people flocking to create and share unique prompts that elicit fascinating responses from these advanced systems.",
-    "origin_story": "The trend began with the launch of OpenAI's ChatGPT, a conversational AI that can engage in remarkably human-like dialogue. This fueled widespread interest in exploring the capabilities of AI language models.",
-    "expert_analysis": "The rise of AI prompts reflects our fascination with the rapidly evolving field of artificial intelligence. People are eager to push the boundaries of what these systems can do, from creative writing to problem-solving, revealing both the potential and limitations of current AI technology.",
-    "impact": "As the popularity of AI prompts continues to grow, it could shape the way we interact with technology and fundamentally alter how we approach tasks that were once the exclusive domain of humans.",
+    "headline": "AI Prompts Take Over Google as Latest Viral Trend",
+    "summary": "Crafting captivating AI-generated prompts has become a viral phenomenon, with people flocking to Google to discover the art of prompting. This trend taps into the public's growing fascination with artificial intelligence and the creative possibilities it unlocks.",
+    "origin_story": "The trend emerged from the increasing accessibility and capabilities of AI language models, allowing users to experiment with generating unique and imaginative content.",
+    "expert_analysis": "This trend reflects the public's eagerness to engage with AI technology in new and innovative ways. It showcases how AI can be a powerful tool for creative expression, blurring the lines between human and machine-generated content. As AI continues to advance, we can expect to see more widespread adoption and experimentation with this technology.",
+    "impact": "The AI prompt trend has the potential to influence various industries, from marketing and advertising to entertainment and education, as more people explore the creative potential of AI-powered tools.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T15:53:03.475974+00:00",
+  "timestamp": "2026-02-07T17:02:24.008291+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -126,6 +126,10 @@
     },
     {
       "timestamp": "2026-02-07T15:53:03.475990+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:24.008306+00:00",
       "signal_score": 50
     }
   ]

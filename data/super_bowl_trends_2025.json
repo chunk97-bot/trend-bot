@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "215.4K",
-      "raw": 215406
+      "searches": "257.2K",
+      "raw": 257225
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl 2025: The Metaverse Takeover Captivates Fans",
-    "summary": "As the world's biggest sporting event, the Super Bowl has evolved with the times, and in 2025, it's set to take a giant leap into the virtual realm. Fans are abuzz with excitement over the prospect of experiencing the game like never before.",
-    "origin_story": "Sparked by tech giants' investments in the metaverse, the hype around Super Bowl 2025's virtual offering has been building for months on Google and social media.",
-    "expert_analysis": "This trend reflects the growing influence of the metaverse and virtual experiences in our lives. Fans are eager to be immersed in the game, connecting with others in a shared digital space and potentially customizing their viewing experience. It's a sign of how technology is transforming the way we consume and engage with major events.",
-    "impact": "The Super Bowl's metaverse integration could pave the way for a new era of digital sports entertainment, blurring the lines between the physical and virtual worlds.",
-    "status": "rising"
+    "headline": "Super Bowl Trends Capture Attention Ahead of 2025 Big Game",
+    "summary": "As the countdown to the 2025 Super Bowl intensifies, a surge of online interest in the event has captured the attention of the digital landscape. With Google searches spiking, fans are eagerly anticipating the upcoming clash of the titans on the gridiron.",
+    "origin_story": "The rise in Super Bowl-related trends can be traced back to the recent release of the official team rosters and schedules, fueling widespread speculation and excitement among fans across various social media platforms.",
+    "expert_analysis": "This spike in Super Bowl-related searches reflects the enduring popularity of the event, which has long been a cultural phenomenon that transcends the boundaries of sports. The intense interest also speaks to the growing influence of digital media in shaping and amplifying fan engagement, as people increasingly turn to online platforms to stay informed and share their enthusiasm.",
+    "impact": "The sustained interest in Super Bowl trends underscores the event's ability to captivate the global audience and drive widespread cultural conversations, both on and offline.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T15:53:24.486840+00:00",
+  "timestamp": "2026-02-07T17:02:42.148160+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -70,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-07T15:53:24.486855+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:42.148175+00:00",
       "signal_score": 50
     }
   ]

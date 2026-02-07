@@ -1,6 +1,6 @@
 {
   "trend": "fff",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "tiktok": true,
     "instagram": true
@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "2.8M",
-      "videos": "67.6K",
-      "raw_views": 2848269
+      "views": "6.2M",
+      "videos": "282.0K",
+      "raw_views": 6151073
     },
     "instagram": {
-      "posts": "9.1M",
-      "reach": "19.6M",
-      "raw_posts": 9054859
+      "posts": "3.9M",
+      "reach": "26.7M",
+      "raw_posts": 3880544
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Enigmatic #fff Craze: Decoding the Allure of the Blank Canvas",
-    "summary": "The simple yet captivating hashtag #fff has taken the internet by storm, sparking a viral wave of content across TikTok and Instagram. This minimalist trend has users exploring the power of the blank canvas, driving engagement and sparking conversations about creative expression.",
-    "origin_story": "The trend appears to have originated on TikTok, where users have been posting videos showcasing their interactions with the #fff hashtag, which represents the hexadecimal code for the color white.",
-    "expert_analysis": "The #fff trend taps into the human desire for simplicity and the allure of the blank slate. In an age of information overload and constant stimulation, this trend offers a refreshing respite, allowing users to embrace the beauty of the unadorned. It also reflects a growing appreciation for minimalism and the power of subtlety in a visually saturated digital landscape.",
-    "impact": "The widespread adoption of the #fff trend across social media platforms suggests a craving for a more contemplative and introspective online experience, with users finding solace in the purity of the blank canvas.",
+    "headline": "The Mysterious Allure of 'fff': Why the Blank White Trend Captivates the Internet",
+    "summary": "The simple yet perplexing 'fff' trend has taken the internet by storm, with millions of users across TikTok and Instagram sharing blank white images and videos. The phenomenon has sparked intrigue, as people try to decipher the meaning behind this minimalist craze.",
+    "origin_story": "The 'fff' trend first emerged on TikTok, where users began posting blank white images or videos with the hashtag '#fff' or '#FFFFFF', the hexadecimal code for the color white.",
+    "expert_analysis": "The appeal of 'fff' lies in its ambiguity, allowing users to project their own interpretations and emotions onto the empty canvas. This trend taps into the growing desire for digital minimalism and the power of simplicity in a cluttered online landscape. The trend's popularity also reflects the human need for connection and shared experiences, even in the most abstract form.",
+    "impact": "The 'fff' trend has reached a staggering scale, with millions of interactions across social media, indicating its widespread cultural impact.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T15:52:39.156569+00:00",
+  "timestamp": "2026-02-07T17:02:01.514090+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -118,6 +118,10 @@
     },
     {
       "timestamp": "2026-02-07T15:52:39.156584+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T17:02:01.514105+00:00",
       "signal_score": 90
     }
   ]

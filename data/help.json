@@ -1,6 +1,6 @@
 {
   "trend": "Help",
-  "category": "culture",
+  "category": "mental health",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "172.6K",
-      "reposts": "19.6K",
-      "raw_posts": 172647,
-      "raw_reposts": 19565
+      "posts": "99.3K",
+      "reposts": "48.2K",
+      "raw_posts": 99282,
+      "raw_reposts": 48242
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Unexpected Power of 'Help': A Viral Plea Sparking Empathy Across the Internet",
-    "summary": "A simple yet poignant cry for assistance has taken social media by storm, as users unite to offer support, advice, and a listening ear to those in need. This trend taps into a universal human desire to help and connect.",
-    "origin_story": "The trend originated on various social media platforms, with users posting the single-word plea 'Help' to express their struggles or ask for support from the online community.",
-    "expert_analysis": "This trend underscores the innate human need for community and the power of vulnerability to bring people together. In a time of increasing isolation and mental health challenges, the viral response to these 'Help' posts reveals a collective desire to empathize, uplift, and support one another.",
-    "impact": "The trend has the potential to foster meaningful connections and provide crucial assistance to those in distress, while also destigmatizing the act of seeking help.",
+    "headline": "Cries for 'Help' Flood Social Media as Mental Health Crisis Deepens",
+    "summary": "Amid the COVID-19 pandemic and growing economic uncertainty, people across social media platforms are urgently posting messages pleading for 'help' as mental health struggles reach a breaking point for many.",
+    "origin_story": "The trend started gaining momentum on Twitter and TikTok, where users have been sharing personal stories and reaching out for support.",
+    "expert_analysis": "This outpouring of vulnerability reflects the immense psychological toll of the past two years, as people grapple with isolation, anxiety, and despair. The trend underscores a widespread mental health crisis that has only been exacerbated by the challenges of the pandemic.",
+    "impact": "This stark cry for help has the potential to destigmatize mental health discussions and mobilize resources to address this growing public health issue.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T13:57:14.773022+00:00",
+  "timestamp": "2026-02-07T17:02:04.645649+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:16.214848+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-07T13:57:14.773036+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:02:04.645664+00:00",
       "signal_score": 55
     }
   ]

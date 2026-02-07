@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "299.4K",
-      "raw": 299381
+      "searches": "275.9K",
+      "raw": 275863
     },
     "x": {
       "posts": "0",
@@ -36,19 +36,19 @@
   "related_trends": [
     "trump trending",
     "trump trending news",
-    "trump trending now",
     "trump trending news today",
+    "trump trending now",
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Trending Searches as Speculation Swirls",
-    "summary": "Former President Donald Trump has once again seized the public's attention, with his name surfacing as a top trending search on Google. This renewed interest comes amid ongoing political and legal developments surrounding the ex-president.",
-    "origin_story": "The surge in Trump-related searches appears to have been sparked by a series of news reports and statements from the former president himself.",
-    "expert_analysis": "Trump's enduring popularity and polarizing presence in the public discourse underscores the continued influence he wields, even after leaving office. This trend reflects the intense political and cultural divisions in the country, as well as the insatiable public appetite for news and commentary about the former president.",
-    "impact": "The high volume of searches surrounding Trump is likely to further fuel speculation about his future political aspirations and the ongoing investigations into his actions.",
+    "headline": "Trump Dominates Google Searches as Political Storm Rages On",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name trending on Google as the latest developments in his political and legal battles take center stage.",
+    "origin_story": "The surge in Trump-related searches comes amid a series of high-profile events, including the ongoing investigations into his handling of classified documents and the January 6th Capitol riots.",
+    "expert_analysis": "This trend reflects the enduring fascination and divisiveness that surrounds Trump, a polarizing figure who continues to wield significant influence within the Republican Party. The intense interest in his activities suggests that his political future remains a matter of intense speculation and debate.",
+    "impact": "The sustained public attention on Trump could have far-reaching implications for the upcoming 2024 presidential election cycle and the broader political landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T14:58:06.794492+00:00",
+  "timestamp": "2026-02-07T17:02:30.607493+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -104,6 +104,10 @@
     },
     {
       "timestamp": "2026-02-07T14:58:06.794512+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:30.607508+00:00",
       "signal_score": 50
     }
   ]

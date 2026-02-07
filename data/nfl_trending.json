@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "155.2K",
-      "raw": 155236
+      "searches": "108.7K",
+      "raw": 108710
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "nfl trending twitter"
   ],
   "analysis": {
-    "headline": "NFL Dominates Online Searches as Football Season Heats Up",
-    "summary": "Football fans across the country are flocking to Google to stay up-to-date on the latest NFL news and developments as the new season kicks off. Searches for 'NFL trending' have spiked, reflecting the high level of public interest in the league's teams, players, and storylines.",
-    "origin_story": "The surge in NFL-related searches began as the league's preseason games got underway, with fans eager to catch glimpses of their favorite teams and players in action.",
-    "expert_analysis": "The NFL's enduring popularity is a testament to its ability to captivate audiences year after year. As a cultural touchstone, the league's drama and rivalries often transcend the playing field, sparking passionate discussions and debates among fans across social media and other platforms.",
-    "impact": "The high volume of NFL-related searches underscores the sport's continued relevance and influence in the digital age.",
+    "headline": "NFL Dominates Google Searches as Fans Eagerly Await the Season",
+    "summary": "With the NFL preseason in full swing and the regular season just around the corner, football fans are flocking to Google to stay up-to-date on the latest team news and player updates.",
+    "origin_story": "The surge in NFL-related searches on Google is a natural consequence of the sport's immense popularity and the excitement building around the upcoming season.",
+    "expert_analysis": "The NFL's enduring appeal reflects its deep cultural significance in America, where the sport has become intertwined with identity, community, and the celebration of athleticism. As the league navigates ongoing challenges, such as player safety concerns and social justice issues, the public's fascination with the game continues to captivate.",
+    "impact": "The high volume of NFL-related searches on Google underscores the sport's continued relevance and the intense interest of fans eager to follow their favorite teams and players.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T14:58:23.475713+00:00",
+  "timestamp": "2026-02-07T17:02:46.063496+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T10:58:40.398998+00:00",
@@ -56,6 +56,10 @@
     },
     {
       "timestamp": "2026-02-07T14:58:23.475732+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:46.063511+00:00",
       "signal_score": 50
     }
   ]

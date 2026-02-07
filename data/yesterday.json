@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "music",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "164.1K",
-      "reposts": "11.2K",
-      "raw_posts": 164057,
-      "raw_reposts": 11205
+      "posts": "131.9K",
+      "reposts": "22.8K",
+      "raw_posts": 131877,
+      "raw_reposts": 22776
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgic Allure of 'Yesterday': A Viral Resurgence Captures Gen Z's Attention",
-    "summary": "The classic song 'Yesterday' by the Beatles has unexpectedly gone viral on social media, tapping into a growing Gen Z fascination with retro pop culture and music from previous generations.",
-    "origin_story": "The trend began on TikTok, where users have been sharing videos of themselves discovering or rediscovering the timeless ballad.",
-    "expert_analysis": "This sudden popularity of 'Yesterday' reflects a broader cultural shift, as younger audiences seek connection with the musical touchstones of the past. In a world saturated with constant digital stimulation, this trend speaks to a desire for simplicity, authenticity, and emotional resonance that older songs can provide.",
-    "impact": "The viral resurgence of 'Yesterday' has the potential to introduce classic rock and the Beatles' iconic catalog to a new generation of listeners, further cementing the band's enduring legacy.",
-    "status": "viral"
+    "headline": "The Nostalgia Wave: Why 'Yesterday' is Capturing the Internet's Attention",
+    "summary": "The sudden surge of online chatter around the word 'yesterday' has struck a chord with internet users, reflecting a collective longing for simpler times and a desire to unplug from the constant digital demands of modern life.",
+    "origin_story": "The trend emerged organically on various social media platforms, with users sharing personal anecdotes and reflections on the concept of 'yesterday'.",
+    "expert_analysis": "This trend speaks to a growing cultural phenomenon \u2013 a yearning for a time before the ubiquity of technology and the relentless pace of the digital age. In a world that often feels overwhelming, 'yesterday' represents a reprieve, a chance to slow down and appreciate the fleeting moments that make up our lives.",
+    "impact": "As this trend continues to gain momentum, it could serve as a reminder to individuals and society at large to pause, reflect, and find ways to reconnect with the nostalgia and simplicity of the past.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T15:52:45.575593+00:00",
+  "timestamp": "2026-02-07T17:02:08.845570+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -118,6 +118,10 @@
     },
     {
       "timestamp": "2026-02-07T15:52:45.575608+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:02:08.845586+00:00",
       "signal_score": 55
     }
   ]

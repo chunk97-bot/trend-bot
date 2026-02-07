@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "204.7K",
-      "raw": 204679
+      "searches": "267.5K",
+      "raw": 267475
     },
     "x": {
       "posts": "0",
@@ -35,20 +35,20 @@
   ],
   "related_trends": [
     "biden trending",
-    "joe biden trending",
-    "hunter biden trending",
-    "jill biden trending",
-    "joe biden trending news"
+    "biden trending news",
+    "biden trending video",
+    "biden trending debate",
+    "joe biden trending"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Search Trends, Sparking Debate and Curiosity",
-    "summary": "The name 'Biden' has skyrocketed in Google search traffic, reflecting a renewed public interest in the US President amidst ongoing political and social issues. The spike in searches coincides with recent developments in the Biden administration and the 2024 election landscape.",
-    "origin_story": "The surge in Biden-related searches appears to have started on popular online forums and social media platforms, where discussions around the President's policies, performance, and potential re-election bid have been gaining traction.",
-    "expert_analysis": "This trend highlights the public's continued fascination with the Biden presidency and the evolving political dynamics in the United States. The heightened search interest likely stems from a combination of factors, including ongoing debates around the administration's handling of the economy, the 2024 election, and Biden's personal and family matters.",
-    "impact": "The widespread interest in Biden could shape public discourse and influence the political landscape as the 2024 election cycle approaches.",
-    "status": "rising"
+    "headline": "Biden Surges to the Top of Google Trends Amid Ongoing Controversies",
+    "summary": "President Joe Biden has found himself at the center of a major trending story on Google, as the public searches for more information about the latest developments surrounding his administration. This spike in interest reflects the intensifying political climate and the public's desire to stay informed.",
+    "origin_story": "The recent surge in Biden-related searches on Google can be traced to a variety of news stories and events, including the ongoing debt ceiling negotiations, Biden's decision to pardon federal marijuana convictions, and the president's remarks on the midterm elections.",
+    "expert_analysis": "This trend highlights the public's keen interest in the actions and decisions of the Biden administration, as well as the growing polarization of the political landscape. The high volume of searches suggests that people are closely following the latest news and developments, underscoring the significant impact that the presidency can have on the national discourse.",
+    "impact": "The sustained attention on Biden could shape public opinion, influence policy decisions, and even have implications for the upcoming midterm elections.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T15:53:14.370063+00:00",
+  "timestamp": "2026-02-07T17:02:34.559589+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -124,6 +124,10 @@
     },
     {
       "timestamp": "2026-02-07T15:53:14.370079+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:34.559605+00:00",
       "signal_score": 50
     }
   ]

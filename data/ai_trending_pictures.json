@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "148.7K",
-      "raw": 148661
+      "searches": "194.4K",
+      "raw": 194406
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Rise of AI-Generated Pictures: A Window into Our Digital Imagination",
-    "summary": "AI-powered image generation tools have captivated the internet, allowing users to create unique, artistic visuals with just a few text prompts. This trend reflects a growing public fascination with the capabilities of artificial intelligence.",
-    "origin_story": "The recent surge in interest around AI-generated pictures can be traced back to the widespread adoption of platforms like DALL-E, Midjourney, and Stable Diffusion, which have democratized access to this technology.",
-    "expert_analysis": "This trend highlights the public's eagerness to experiment with the creative potential of AI, blurring the lines between human and machine-driven artistry. It also signals a desire to push the boundaries of visual expression and storytelling in the digital age.",
-    "impact": "As AI-generated images become more prevalent, they may reshape how we create, consume, and interact with visual media, with profound implications for industries like advertising, entertainment, and fine art.",
-    "status": "rising"
+    "headline": "AI-Generated Images Take the Internet by Storm",
+    "summary": "Fueled by the rapid advancements in artificial intelligence, the ability to create photorealistic images from text prompts has captivated internet users. This emerging trend showcases the remarkable potential of AI-powered image generation.",
+    "origin_story": "The surge in popularity can be traced back to the release of advanced AI models like DALL-E, Midjourney, and Stable Diffusion, which have democratized the art of image creation.",
+    "expert_analysis": "This trend taps into the human fascination with the intersection of technology and creativity. As AI becomes increasingly sophisticated, the line between human and machine-generated art blurs, sparking discussions about the future of artistic expression and the role of technology in shaping our visual landscape.",
+    "impact": "The widespread adoption of AI-generated images could disrupt the creative industries, from advertising to photography, as businesses and individuals explore new ways to leverage this powerful technology.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T15:53:00.295400+00:00",
+  "timestamp": "2026-02-07T17:02:19.400786+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:15.670780+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-07T15:53:00.295415+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:19.400801+00:00",
       "signal_score": 50
     }
   ]

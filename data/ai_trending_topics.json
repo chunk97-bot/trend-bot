@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "246.5K",
-      "raw": 246529
+      "searches": "264.9K",
+      "raw": 264889
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Google Searches as Curiosity Soars",
-    "summary": "Artificial intelligence (AI) has taken the internet by storm, with a surge in Google searches as people seek to understand this rapidly evolving technology and its implications.",
-    "origin_story": "The growing popularity of AI-powered chatbots, virtual assistants, and machine learning applications has sparked widespread public interest in the field.",
-    "expert_analysis": "The AI trend reflects a deep fascination with the potential of technology to transform our lives, coupled with concerns about the societal and ethical implications of these powerful tools. As AI capabilities continue to advance, this trend is likely to persist as people grapple with both the promises and perils of this transformative technology.",
-    "impact": "The AI trend has far-reaching implications, from the future of work and education to privacy, security, and the very nature of human-machine interaction.",
-    "status": "rising"
+    "headline": "AI Dominates Google Searches as Tech's Future Captivates the Public",
+    "summary": "Artificial intelligence has taken the internet by storm, with Google searches for AI-related topics surging to unprecedented levels. This spike in interest reflects the public's growing fascination with the potential of this transformative technology.",
+    "origin_story": "The rise in AI-related searches coincides with the widespread buzz around the recent advancements in large language models and generative AI tools like ChatGPT, which have captured the public's imagination.",
+    "expert_analysis": "The surge in AI-related Google searches underscores the public's eagerness to understand and engage with this emerging technology. As AI continues to disrupt industries and reshape our daily lives, people are seeking to learn more about its capabilities, implications, and future potential.",
+    "impact": "This trend reflects a pivotal moment in the evolution of AI, as the technology moves from the realm of science fiction to become a tangible and influential force in our lives.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T15:53:07.189379+00:00",
+  "timestamp": "2026-02-07T17:02:27.708395+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-07T15:53:07.189394+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:27.708410+00:00",
       "signal_score": 50
     }
   ]
