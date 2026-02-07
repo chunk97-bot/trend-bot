@@ -1,6 +1,6 @@
 {
   "trend": "fff",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "tiktok": true,
     "instagram": true
@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "30.6M",
-      "videos": "372.5K",
-      "raw_views": 30597899
+      "views": "65.1M",
+      "videos": "34.0K",
+      "raw_views": 65086554
     },
     "instagram": {
-      "posts": "863.1K",
-      "reach": "23.6M",
-      "raw_posts": 863067
+      "posts": "5.8M",
+      "reach": "42.7M",
+      "raw_posts": 5790876
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Mysterious Allure of Blank Screens: What's Driving the 'fff' Trend?",
-    "summary": "Across TikTok and Instagram, users are captivating audiences with a seemingly simple yet enigmatic trend: posting blank, white screens tagged with '#fff' and '#FFFFFF'. This unexpected phenomenon has amassed millions of views and interactions, leaving many wondering: what's the meaning behind this digital minimalism?",
-    "origin_story": "The 'fff' trend first gained traction on TikTok, where users began sharing plain, white video and image posts, often accompanied by ambient sounds or silence. This minimalist approach quickly spread to Instagram, where the trend continues to dominate feeds.",
-    "expert_analysis": "The 'fff' trend taps into a growing desire for digital minimalism and visual respite in an increasingly cluttered online landscape. In a world saturated with content, these blank screens offer a moment of calm and contemplation, allowing users to create a sense of digital zen. Moreover, the trend's simplicity and universality have made it a canvas for creative expression and personal interpretation, resonating with audiences seeking a break from the noise.",
-    "impact": "The widespread appeal of 'fff' highlights the evolving preferences of social media users, who are craving more thoughtful, pared-down digital experiences that provide a counterbalance to the constant stream of information and stimulation.",
-    "status": "rising"
+    "headline": "The Viral Online Obsession with Hexadecimal Color Code #FFF",
+    "summary": "The simple hexadecimal color code #FFF, representing pure white, has taken the internet by storm, with millions of TikTok views and Instagram posts. This unexpected trend speaks to our collective fascination with the minimalist and the visually captivating.",
+    "origin_story": "The trend first gained traction on TikTok, where users began posting content featuring the bright, pure white color, often in the form of simple visual effects or aesthetic displays.",
+    "expert_analysis": "The popularity of #FFF reflects our digital culture's appreciation for clean, striking visuals that transcend language and speak to our senses. In a world saturated with information, this trend taps into our desire for visual simplicity and focus, offering a respite from the chaos.",
+    "impact": "This viral phenomenon has crossed platforms, sparking creative expressions and engaging discussions around the power of minimalism and the universal appeal of pure, unadulterated whiteness.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T07:10:52.034241+00:00",
+  "timestamp": "2026-02-07T07:57:26.415164+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-07T07:10:52.034257+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T07:57:26.415177+00:00",
       "signal_score": 90
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "273.2K",
-      "raw": 273220
+      "searches": "131.8K",
+      "raw": 131813
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "ChatGPT's Viral Selfie Trend Sparks Conversation on AI Creativity",
-    "summary": "The ability to generate AI-created images using ChatGPT has taken the internet by storm, with users excitedly sharing their unique AI-generated selfies across social media platforms.",
-    "origin_story": "The trend emerged after ChatGPT, the AI language model, was updated to include image generation capabilities, allowing users to input text prompts and receive custom-made visuals.",
-    "expert_analysis": "This viral trend highlights the growing fascination with the creative potential of AI technology. As language models like ChatGPT continue to evolve, the line between human and machine-generated content becomes increasingly blurred, raising questions about the nature of creativity and artistic expression.",
-    "impact": "The ChatGPT selfie trend has sparked lively discussions about the future of AI and its implications for various industries, from art and design to entertainment and beyond.",
-    "status": "viral"
+    "headline": "ChatGPT Sparks Surge in Viral AI-Generated Images",
+    "summary": "As ChatGPT's impressive capabilities continue to captivate the public, a new trend has emerged: users are leveraging the AI's image generation capabilities to create and share unique, eye-catching visuals that have taken the internet by storm.",
+    "origin_story": "The trend began after ChatGPT unveiled its ability to generate custom images based on user prompts, allowing users to explore the AI's creative potential beyond just text-based interactions.",
+    "expert_analysis": "This trend reflects the public's growing fascination with the capabilities of large language models like ChatGPT, which can seemingly perform a wide range of tasks once thought to be the exclusive domain of human creativity. As these AI systems become more advanced, we're likely to see even more creative and unexpected applications emerge.",
+    "impact": "The popularity of ChatGPT-generated images underscores the technology's potential to disrupt traditional creative industries, as well as raise important questions about the ethics and implications of AI-powered art and media.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T07:11:20.873336+00:00",
+  "timestamp": "2026-02-07T07:57:56.567527+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:23.746499+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-07T07:11:20.873352+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:57:56.567538+00:00",
       "signal_score": 50
     }
   ]

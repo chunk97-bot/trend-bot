@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "145.7K",
-      "raw": 145651
+      "searches": "160.5K",
+      "raw": 160480
     },
     "x": {
       "posts": "0",
@@ -35,20 +35,20 @@
   ],
   "related_trends": [
     "biden trending",
-    "biden trending news",
-    "biden trending video",
-    "biden trending debate",
-    "joe biden trending"
+    "joe biden trending",
+    "hunter biden trending",
+    "jill biden trending",
+    "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Dominates Search Trends as Presidency Faces Scrutiny",
-    "summary": "President Joe Biden has surged to the top of Google search trends as his administration navigates a series of high-profile challenges, from the economy to foreign policy. The spike in online interest reflects the public's keen focus on Biden's leadership during these consequential times.",
-    "origin_story": "The search trend began gaining momentum in recent days as Biden addressed pressing issues like inflation, the war in Ukraine, and the baby formula shortage.",
-    "expert_analysis": "This heightened attention on Biden underscores the public's desire for clear and decisive leadership from the White House. As the president faces growing political headwinds, online searches suggest a keen interest in how he will navigate these complex challenges and their impact on Americans' daily lives.",
-    "impact": "The Biden search trend highlights the powerful influence of digital media in shaping the national discourse and the public's perception of the presidency.",
+    "headline": "Biden Surges to Top of Google Searches Amid Controversy",
+    "summary": "President Joe Biden's name has skyrocketed to the top of Google search trends, driven by a flurry of news coverage around his son Hunter Biden's business dealings and a classified documents scandal.",
+    "origin_story": "The spike in searches began in early January 2023 as reports emerged about classified government documents found at Biden's private residence and former office.",
+    "expert_analysis": "This trend reflects the public's enduring fascination with political scandals and the Biden family's controversies. It also highlights the powerful role that online search data can play in shaping the national conversation around elected officials and their families.",
+    "impact": "The sustained interest in this story could put increasing pressure on the Biden administration and shape the political landscape heading into the 2024 presidential election.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:11:35.698332+00:00",
+  "timestamp": "2026-02-07T07:58:15.106431+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -100,6 +100,10 @@
     },
     {
       "timestamp": "2026-02-07T07:11:35.698347+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:58:15.106444+00:00",
       "signal_score": 50
     }
   ]

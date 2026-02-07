@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "276.2K",
-      "raw": 276189
+      "searches": "109.1K",
+      "raw": 109116
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Images Take the Internet by Storm",
-    "summary": "As AI image generation tools like DALL-E and Midjourney become more accessible, people are creating and sharing stunning, surreal, and often bizarre images that are captivating the online world.",
-    "origin_story": "The recent surge in AI-generated art can be traced back to the public release of tools like DALL-E and Midjourney, which allow users to create images from text prompts.",
-    "expert_analysis": "This trend reflects the public's fascination with the capabilities of AI and the creative potential of these new technologies. It also highlights the growing blurring of the line between human and machine-created art, sparking discussions about the nature of creativity and artistic expression.",
-    "impact": "The popularity of AI-generated images is likely to drive further innovation and democratization of these tools, empowering more people to experiment with AI-powered art creation.",
+    "headline": "Generative AI Art Takes the Internet by Storm",
+    "summary": "People are using powerful AI tools to generate unique, imaginative images with just a few text prompts. The ability to create visuals on demand has captured the public's fascination and creativity.",
+    "origin_story": "The trend exploded on platforms like Google and social media as more users experimented with AI art generators like DALL-E, Midjourney, and Stable Diffusion.",
+    "expert_analysis": "This AI art boom taps into our innate human desire to create and express ourselves visually. It democratizes artistic ability and allows anyone to bring their ideas to life, blurring the lines between man and machine.",
+    "impact": "The rise of AI-generated art could transform how we approach creative work, from marketing and entertainment to education and therapy.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:11:09.243578+00:00",
+  "timestamp": "2026-02-07T07:57:49.337402+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:15.670780+00:00",
@@ -54,6 +54,10 @@
     },
     {
       "timestamp": "2026-02-07T07:11:09.243595+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:57:49.337412+00:00",
       "signal_score": 50
     }
   ]
