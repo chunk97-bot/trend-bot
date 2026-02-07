@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "memes",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "190.5K",
-      "reposts": "10.8K",
-      "raw_posts": 190513,
-      "raw_reposts": 10849
+      "posts": "132.0K",
+      "reposts": "13.8K",
+      "raw_posts": 131973,
+      "raw_reposts": 13811
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Unexpected Revival of Yesterday: How a Forgotten Meme Captivates the Internet",
-    "summary": "A seemingly forgotten meme from the past has unexpectedly resurfaced, capturing the attention of social media users across various platforms. The sudden surge of interest in this nostalgic trend has left many scratching their heads, wondering what has sparked this unexpected revival.",
-    "origin_story": "The meme, which first gained traction years ago, has suddenly seen a significant increase in engagement, with over 190,000 posts and 10,800 reposts across multiple social media platforms.",
-    "expert_analysis": "This trend suggests a growing desire among internet users to connect with the past and find solace in familiar, albeit forgotten, forms of online entertainment. The revival of this meme may also reflect a broader societal longing for simpler times, as people seek comfort in the familiarity of the past during uncertain or turbulent periods.",
-    "impact": "The unexpected resurgence of this meme has the potential to spark a wider cultural conversation about the cyclical nature of internet trends and the enduring power of nostalgia in the digital age.",
+    "headline": "Nostalgic Flashback: Why 'Yesterday' is Trending Across Social Media",
+    "summary": "The 2019 film 'Yesterday' has suddenly resurfaced in online conversations, sparking a wave of nostalgic reminiscence about the movie's unique premise and cultural impact.",
+    "origin_story": "The sudden resurgence of interest in 'Yesterday' appears to have started on social media platforms like Twitter and Reddit, where users have been sharing their thoughts and memories about the film.",
+    "expert_analysis": "The trending of 'Yesterday' taps into a broader cultural fascination with alternative histories and thought experiments. In a world increasingly defined by rapid technological change, the movie's exploration of a world without the Beatles resonates with audiences seeking solace in the familiar comforts of the past.",
+    "impact": "The renewed interest in 'Yesterday' could lead to a surge in viewership, both on streaming platforms and potentially even a theatrical re-release, giving the film a second chance to connect with audiences.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T11:59:25.360613+00:00",
+  "timestamp": "2026-02-07T13:57:19.426594+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -110,6 +110,10 @@
     },
     {
       "timestamp": "2026-02-07T11:59:25.360629+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T13:57:19.426610+00:00",
       "signal_score": 55
     }
   ]

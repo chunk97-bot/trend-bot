@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "140.9K",
-      "raw": 140851
+      "searches": "121.2K",
+      "raw": 121158
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Searches as Public Fascination Grows",
-    "summary": "Across Google, searches for 'AI' have surged to over 140,900, reflecting the public's growing curiosity and excitement around the rapid advancement of artificial intelligence technology.",
-    "origin_story": "The recent explosion of AI-powered chatbots, image generators, and other applications has captured the public's imagination, driving this surge in online interest.",
-    "expert_analysis": "This spike in AI-related searches underscores the public's eagerness to understand and engage with these transformative technologies. As AI becomes increasingly integrated into our daily lives, this trend signals a widespread fascination with the potential - and potential pitfalls - of artificial intelligence.",
-    "impact": "The intense public focus on AI is poised to reshape everything from education and the workforce to entertainment and creative industries.",
-    "status": "viral"
+    "headline": "AI Emerges as Top Trending Topic as Public Fascination Grows",
+    "summary": "As artificial intelligence (AI) systems continue to captivate the public's imagination, Google searches for AI-related topics have surged, reflecting a growing interest in the technology's capabilities and potential impact.",
+    "origin_story": "The recent release of powerful AI language models like ChatGPT has sparked widespread curiosity, leading to a spike in online searches for information about AI.",
+    "expert_analysis": "This trend highlights the public's fascination with the rapid advancements in AI and the transformative role it could play in various sectors. People are eager to understand the implications of AI, from its potential to revolutionize industries to the ethical considerations surrounding its development and use.",
+    "impact": "The surge in AI-related searches indicates that the technology is becoming a topic of mainstream interest, with the potential to shape public discourse and influence the future direction of innovation.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T11:59:35.908701+00:00",
+  "timestamp": "2026-02-07T13:57:37.367464+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-07T11:59:35.908717+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T13:57:37.367480+00:00",
       "signal_score": 50
     }
   ]

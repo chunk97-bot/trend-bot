@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "283.4K",
-      "raw": 283420
+      "searches": "249.5K",
+      "raw": 249521
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to Top of Search Trends Amid Controversy",
-    "summary": "President Joe Biden's name has spiked in Google searches as the public follows the latest developments surrounding him and his family. This trend coincides with increased attention on issues like the classified documents case and Hunter Biden's business dealings.",
-    "origin_story": "The recent spike in Biden-related searches began after news broke of classified documents being discovered at the president's home and former office.",
-    "expert_analysis": "The renewed focus on Biden reflects the public's enduring fascination with the nation's leadership and its controversies. This trend underscores the intense political polarization in the US, where any perceived misstep by the president quickly captivates national attention.",
-    "impact": "The continued prominence of Biden-related searches will shape the political discourse and media coverage in the coming weeks and months.",
-    "status": "viral"
+    "headline": "Biden Trending as Voters Anticipate Potential 2024 Announcement",
+    "summary": "President Joe Biden's name has surged on Google searches as speculation builds around his potential 2024 presidential run. The increased interest comes amid ongoing debates around his policies and performance in office.",
+    "origin_story": "The Biden trend started gaining traction on Google as news outlets reported on the President's remarks about his 2024 plans, which he has hinted at revealing in the coming weeks.",
+    "expert_analysis": "This spike in online interest reflects the high anticipation and polarization surrounding Biden's political future. Supporters and critics alike are closely following any signals about his re-election ambitions, underscoring the intense partisan divides in the country.",
+    "impact": "Biden's decision on 2024 will have major implications for the Democratic party and the direction of the country's leadership.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T11:59:51.686357+00:00",
+  "timestamp": "2026-02-07T13:57:50.922945+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -112,6 +112,10 @@
     },
     {
       "timestamp": "2026-02-07T11:59:51.686373+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T13:57:50.922960+00:00",
       "signal_score": 50
     }
   ]
