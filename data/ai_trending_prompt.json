@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "149.0K",
-      "raw": 148985
+      "searches": "288.3K",
+      "raw": 288347
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Artificial Intelligence Prompts Take the Internet by Storm",
-    "summary": "AI-generated content has become the latest craze, with people flocking to create and share their own AI-powered prompts, images, and more. This trend reflects a growing fascination with the power and potential of artificial intelligence.",
-    "origin_story": "The trend began on social media platforms like Twitter and Instagram, where users started experimenting with AI text and image generation tools like DALL-E and Midjourney.",
-    "expert_analysis": "This trend speaks to the public's growing curiosity and excitement about the capabilities of AI. As these technologies become more accessible, people are eager to explore their creative and expressive potential, blurring the lines between human and machine-generated content.",
-    "impact": "The rise of AI-powered prompts could have far-reaching implications for the creative industries, digital art, and the future of human-AI collaboration.",
-    "status": "viral"
+    "headline": "AI-Powered Prompts Captivate the Internet: The Rise of a New Creative Frontier",
+    "summary": "As AI models like ChatGPT have grown in sophistication, a new trend has emerged - the use of AI-generated prompts to inspire and guide creative expression. People are flocking to explore the endless possibilities unlocked by this innovative approach to art, writing, and more.",
+    "origin_story": "The trend gained momentum on social media platforms like Twitter, where users began sharing their AI-generated prompts and the intriguing results they produced.",
+    "expert_analysis": "This trend reflects a growing fascination with the capabilities of AI and a desire to harness this technology to push the boundaries of creativity. It also speaks to the human need for inspiration and the way technology can facilitate new forms of self-expression.",
+    "impact": "As AI-powered prompts continue to captivate the public, we may see a surge in innovative artistic and literary works, as well as the emergence of new creative communities and collaborations.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T07:57:52.437530+00:00",
+  "timestamp": "2026-02-07T09:03:13.309756+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -102,6 +102,10 @@
     },
     {
       "timestamp": "2026-02-07T07:57:52.437542+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:13.309772+00:00",
       "signal_score": 50
     }
   ]

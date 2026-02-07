@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "61.1K",
-      "reposts": "20.2K",
-      "raw_posts": 61053,
-      "raw_reposts": 20165
+      "posts": "66.0K",
+      "reposts": "12.2K",
+      "raw_posts": 66028,
+      "raw_reposts": 12245
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "'Year Ago' Sparks Nostalgic Reflections Across Social Media",
-    "summary": "The phrase 'Year Ago' has emerged as a trending topic, prompting users across various platforms to share personal memories and experiences from 12 months prior. This viral phenomenon taps into our innate desire to reflect on the past and find meaning in the passage of time.",
-    "origin_story": "The trend appears to have originated organically on social media, as users began posting 'Year Ago' captions alongside images or recollections from the same period last year.",
-    "expert_analysis": "This trend speaks to the human need for nostalgia and the way social media amplifies our collective sense of shared experience. By revisiting the past, people are seeking to make sense of the present and find comfort in the familiarity of their own life journeys.",
-    "impact": "The 'Year Ago' trend has the potential to foster deeper connections and a sense of community among social media users as they collectively reminisce about the highs and lows of the past year.",
+    "headline": "Nostalgic Resurgence: Why 'A Year Ago' is Captivating the Internet",
+    "summary": "The widespread sharing of posts marking 'A Year Ago' on social media platforms has become a viral trend, as people look back on their lives and experiences from 12 months prior.",
+    "origin_story": "The trend originated on TikTok, where users have been sharing sentimental reflections and comparisons of their lives from a year ago.",
+    "expert_analysis": "This trend taps into our universal human desire to reflect on the passage of time and how our lives have evolved. In a year defined by the ongoing pandemic, many are using this as a means to process personal growth, lost opportunities, and the bittersweet nature of change.",
+    "impact": "The trend has spread across social media, sparking nostalgic conversations and prompting users to take stock of their personal journeys.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T04:55:10.544496+00:00",
+  "timestamp": "2026-02-07T09:03:05.549343+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:18.284403+00:00",
@@ -102,6 +102,10 @@
     },
     {
       "timestamp": "2026-02-07T04:55:10.544514+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T09:03:05.549360+00:00",
       "signal_score": 55
     }
   ]

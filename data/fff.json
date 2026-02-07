@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "65.1M",
-      "videos": "34.0K",
-      "raw_views": 65086554
+      "views": "10.8M",
+      "videos": "404.1K",
+      "raw_views": 10829180
     },
     "instagram": {
-      "posts": "5.8M",
-      "reach": "42.7M",
-      "raw_posts": 5790876
+      "posts": "7.2M",
+      "reach": "32.6M",
+      "raw_posts": 7176014
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Viral Online Obsession with Hexadecimal Color Code #FFF",
-    "summary": "The simple hexadecimal color code #FFF, representing pure white, has taken the internet by storm, with millions of TikTok views and Instagram posts. This unexpected trend speaks to our collective fascination with the minimalist and the visually captivating.",
-    "origin_story": "The trend first gained traction on TikTok, where users began posting content featuring the bright, pure white color, often in the form of simple visual effects or aesthetic displays.",
-    "expert_analysis": "The popularity of #FFF reflects our digital culture's appreciation for clean, striking visuals that transcend language and speak to our senses. In a world saturated with information, this trend taps into our desire for visual simplicity and focus, offering a respite from the chaos.",
-    "impact": "This viral phenomenon has crossed platforms, sparking creative expressions and engaging discussions around the power of minimalism and the universal appeal of pure, unadulterated whiteness.",
+    "headline": "The Viral Allure of the Mysterious 'fff' Trend Sweeping Social Media",
+    "summary": "Across TikTok and Instagram, users are captivated by the minimalist 'fff' trend, sparking millions of views and posts as people explore the creative and philosophical possibilities behind this simple yet enigmatic symbol.",
+    "origin_story": "The 'fff' trend appears to have originated on TikTok, where users began posting short videos featuring the characters against various backgrounds, inviting viewers to interpret the meaning.",
+    "expert_analysis": "The 'fff' trend taps into our universal human desire to find meaning in the most basic of symbols. In an era of digital noise and information overload, this pared-down aesthetic offers a refreshing escape, allowing users to project their own thoughts and emotions onto the simplicity of 'fff'.",
+    "impact": "As the trend continues to spread, it underscores the power of visual minimalism to captivate and unite online communities.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:57:26.415164+00:00",
+  "timestamp": "2026-02-07T09:02:52.568354+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-07T07:57:26.415177+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T09:02:52.568372+00:00",
       "signal_score": 90
     }
   ]

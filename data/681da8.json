@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "19.5K",
-      "reposts": "5.8K",
-      "raw_posts": 19479,
-      "raw_reposts": 5817
+      "posts": "59.7K",
+      "reposts": "22.4K",
+      "raw_posts": 59718,
+      "raw_reposts": 22409
     },
     "tiktok": {
-      "views": "4.3M",
-      "videos": "36.8K",
-      "raw_views": 4268424
+      "views": "8.8M",
+      "videos": "15.0K",
+      "raw_views": 8819171
     },
     "instagram": {
       "posts": "0",
@@ -28,22 +28,22 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 75,
+  "signal_score": 100,
   "momentum": "rising",
-  "lifecycle": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious 681da8 Hashtag Sparks Viral Internet Phenomenon",
-    "summary": "A cryptic alphanumeric hashtag, 681da8, has taken the internet by storm, with users across platforms like TikTok and X scrambling to decipher its meaning and origin. The trend has amassed millions of views and posts, captivating the attention of curious netizens.",
-    "origin_story": "The 681da8 trend first emerged on TikTok, where users began posting videos speculating about its significance. The hashtag has since spread to other platforms, fueling a widespread online curiosity.",
-    "expert_analysis": "This viral trend taps into the internet's innate fascination with mystery and the unknown. The ambiguous nature of 681da8 has sparked countless theories and discussions, reflecting the public's appetite for engaging with puzzles and uncovering hidden meanings in the digital age.",
-    "impact": "As the 681da8 trend continues to gain momentum, it has the potential to transcend the boundaries of the internet, sparking real-world conversations and potentially inspiring creative projects or collaborative investigations.",
-    "status": "viral"
+    "headline": "Mysterious Hex Code Captivates Social Media: A Colorful Craze Unraveled",
+    "summary": "A seemingly innocuous string of hexadecimal digits, '681da8', has taken the internet by storm, sparking a viral frenzy across platforms like TikTok and Twitter. Users are eager to uncover the meaning and origin behind this captivating code.",
+    "origin_story": "The trend first emerged on TikTok, where users began sharing videos speculating about the significance of the hex code, leading to a wave of engagement and creative content.",
+    "expert_analysis": "This trend reflects the internet's insatiable curiosity and collective desire to find meaning in the seemingly mundane. The allure of deciphering hidden codes or uncovering the unexpected captivates a generation of digital natives, who find joy in solving online mysteries and participating in viral challenges.",
+    "impact": "As the trend continues to gain momentum, it highlights the power of social media to amplify niche interests and foster a sense of community around even the most enigmatic of digital phenomena.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T07:57:30.093591+00:00",
+  "timestamp": "2026-02-07T09:02:49.371376+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -124,6 +124,10 @@
     {
       "timestamp": "2026-02-07T07:57:30.093603+00:00",
       "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-07T09:02:49.371400+00:00",
+      "signal_score": 100
     }
   ]
 }

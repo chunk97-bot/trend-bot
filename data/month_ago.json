@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "66.5K",
-      "reposts": "14.1K",
-      "raw_posts": 66534,
-      "raw_reposts": 14115
+      "posts": "134.1K",
+      "reposts": "32.1K",
+      "raw_posts": 134110,
+      "raw_reposts": 32101
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Millennials Lose it Over Retro Tamagotchi Craze",
-    "summary": "After a decades-long hiatus, the iconic '90s virtual pet Tamagotchi is making a major comeback among millennials and Gen Z. The small, egg-shaped digital critters are flying off the shelves as nostalgic young adults scramble to care for their retro digital pets.",
-    "origin_story": "The Tamagotchi revival started last month when the original manufacturer, Bandai, released a new line of updated Tamagotchi devices in a variety of stylish designs. The devices quickly went viral on TikTok and Instagram as millennials shared their joyful experiences re-bonding with their virtual pets.",
-    "expert_analysis": "The Tamagotchi trend speaks to the enduring power of 90s nostalgia among younger generations. As millennials and Gen Z seek comfort and escapism, the Tamagotchi offers a familiar, low-stakes digital companion that taps into the formative experiences of their youth. This craze also highlights how retro tech can still capture the public imagination when repackaged for modern tastes.",
-    "impact": "With Tamagotchis flying off the shelves, the revived interest is likely to drive a new wave of Tamagotchi-related products, merch, and content in the coming months.",
+    "headline": "Retro Aesthetic Reclaims Internet Amid Uncertain Times",
+    "summary": "A nostalgic trend for '90s and early 2000s aesthetics has taken over social media, as people seek comfort in familiar digital styles during a period of global instability.",
+    "origin_story": "The trend originated on platforms like TikTok, where users have been recreating iconic website designs and sharing their favorite retro tech.",
+    "expert_analysis": "This aesthetic revival reflects a broader cultural longing for simpler, more carefree digital spaces. As the modern internet feels increasingly chaotic and overwhelming, people are turning to the familiar comforts of the past to find solace.",
+    "impact": "The trend has sparked a wave of creativity, with users building retro-inspired websites and apps that offer a respite from the complexities of the present.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:57:46.045041+00:00",
+  "timestamp": "2026-02-07T09:03:02.143985+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-07T07:57:46.045056+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T09:03:02.144004+00:00",
       "signal_score": 55
     }
   ]

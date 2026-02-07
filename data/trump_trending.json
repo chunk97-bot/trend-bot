@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "274.4K",
-      "raw": 274394
+      "searches": "209.0K",
+      "raw": 209009
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump's Resurgence: Whirlwind of Controversy Captivates the Internet",
-    "summary": "Amid a flurry of legal proceedings and political drama, former President Donald Trump has once again captured the public's attention, with his name trending on Google searches across the country. The renewed interest appears to be driven by a mix of ongoing investigations, speculations about his future, and the enduring polarization surrounding his tenure.",
-    "origin_story": "The spike in Trump-related searches began in the wake of the FBI's search of his Mar-a-Lago residence, which ignited a firestorm of reactions and renewed discussions about his legal troubles and political ambitions.",
-    "expert_analysis": "Trump's ability to command the spotlight, even in the face of adversity, speaks to the enduring power of his political brand and the deep divisions that continue to shape the national discourse. This trend reflects the ongoing fascination, both positive and negative, that the former president elicits from the American public, underscoring the profound impact he has had on the country's political landscape.",
-    "impact": "As Trump's legal battles and political maneuverings continue to unfold, the sustained interest in his activities is likely to have far-reaching implications for the country's political landscape and the upcoming 2024 presidential election.",
+    "headline": "Trump's Latest Controversy Sparks Renewed Interest Across the Web",
+    "summary": "Former President Donald Trump's name has once again captured the public's attention, with a surge in Google searches as the latest developments in his political and legal saga continue to unfold.",
+    "origin_story": "The renewed interest in Trump appears to have stemmed from a combination of recent news reports and ongoing discussions around his potential 2024 presidential run.",
+    "expert_analysis": "This trend reflects the enduring fascination and polarization surrounding Trump's political career. It underscores the public's continued engagement with the former president, even as he remains a divisive figure in American politics.",
+    "impact": "The high search volume suggests that Trump's influence and the controversies surrounding him continue to shape the national discourse, with significant implications for the upcoming election cycle.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:58:11.379068+00:00",
+  "timestamp": "2026-02-07T09:03:30.506252+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -84,6 +84,10 @@
     },
     {
       "timestamp": "2026-02-07T07:58:11.379082+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:30.506271+00:00",
       "signal_score": 50
     }
   ]

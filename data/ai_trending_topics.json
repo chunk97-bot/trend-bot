@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "143.3K",
-      "raw": 143272
+      "searches": "256.1K",
+      "raw": 256100
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Search Engine Queries as Public Fascination Grows",
-    "summary": "The surge in Google searches for 'AI' signals a widespread public interest and curiosity around the rapid advancements in artificial intelligence technology. This trend reflects a growing desire to understand the implications and applications of AI as it becomes more prevalent in our daily lives.",
-    "origin_story": "The spike in AI-related searches can be traced to the recent launch and widespread adoption of ChatGPT, the AI-powered chatbot that has captured the public's imagination with its conversational abilities and potential to revolutionize various industries.",
-    "expert_analysis": "This trend underscores the public's fascination with the transformative power of AI and the need to grapple with the ethical and societal implications of these technologies. As AI becomes more sophisticated and integrated into our lives, this increased interest reflects a desire to stay informed and engaged with the rapidly evolving landscape of artificial intelligence.",
-    "impact": "The high volume of AI-related searches suggests that the public is eager to understand and shape the future of this technology, which has the potential to profoundly impact various sectors, from education and healthcare to entertainment and the workforce.",
-    "status": "rising"
+    "headline": "AI Dominates Google Searches as Curiosity and Confusion Swirl",
+    "summary": "People are flocking to Google to learn more about artificial intelligence, driven by the rapid advancements and public fascination with AI-powered chatbots and tools. This surge in interest reflects both excitement and uncertainty around the technology's potential impact.",
+    "origin_story": "The recent release of ChatGPT, a highly capable AI chatbot, has sparked widespread curiosity and discussion about the capabilities of AI across the internet.",
+    "expert_analysis": "The spike in AI-related searches underscores the public's eagerness to understand and engage with this transformative technology. As AI systems become more sophisticated and accessible, people are grappling with both the promise and the pitfalls, leading to this heightened level of interest and inquiry.",
+    "impact": "This trend signals that AI is poised to shape the future in significant ways, with implications for industries, workplaces, and daily life.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T07:11:17.216874+00:00",
+  "timestamp": "2026-02-07T09:03:17.377528+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -70,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-07T07:11:17.216890+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:17.377545+00:00",
       "signal_score": 50
     }
   ]

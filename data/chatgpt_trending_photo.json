@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "131.8K",
-      "raw": 131813
+      "searches": "290.9K",
+      "raw": 290861
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "ChatGPT Sparks Surge in Viral AI-Generated Images",
-    "summary": "As ChatGPT's impressive capabilities continue to captivate the public, a new trend has emerged: users are leveraging the AI's image generation capabilities to create and share unique, eye-catching visuals that have taken the internet by storm.",
-    "origin_story": "The trend began after ChatGPT unveiled its ability to generate custom images based on user prompts, allowing users to explore the AI's creative potential beyond just text-based interactions.",
-    "expert_analysis": "This trend reflects the public's growing fascination with the capabilities of large language models like ChatGPT, which can seemingly perform a wide range of tasks once thought to be the exclusive domain of human creativity. As these AI systems become more advanced, we're likely to see even more creative and unexpected applications emerge.",
-    "impact": "The popularity of ChatGPT-generated images underscores the technology's potential to disrupt traditional creative industries, as well as raise important questions about the ethics and implications of AI-powered art and media.",
-    "status": "rising"
+    "headline": "ChatGPT Sparks Fascination as AI Chatbot Goes Viral Worldwide",
+    "summary": "The AI-powered chatbot ChatGPT has taken the internet by storm, captivating users with its strikingly human-like responses and impressive capabilities across a wide range of conversational tasks.",
+    "origin_story": "ChatGPT was launched in late November 2022 by the artificial intelligence research company OpenAI, quickly gaining traction on social media and search engines.",
+    "expert_analysis": "This viral trend speaks to the growing public interest and fascination with the rapid advancements in artificial intelligence. ChatGPT's ability to engage in thoughtful, nuanced dialogue challenges preconceptions about the limitations of AI, sparking discussions about the future implications of such technology.",
+    "impact": "As ChatGPT continues to captivate users, it could reshape how we interact with computers and potentially transform industries ranging from education to customer service.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T07:57:56.567527+00:00",
+  "timestamp": "2026-02-07T09:03:21.031243+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:23.746499+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-07T07:57:56.567538+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:21.031262+00:00",
       "signal_score": 50
     }
   ]
