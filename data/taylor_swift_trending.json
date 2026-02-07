@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "261.5K",
-      "raw": 261519
+      "searches": "173.0K",
+      "raw": 172982
     },
     "x": {
       "posts": "0",
@@ -37,21 +37,25 @@
     "taylor swift trending",
     "taylor swift trending songs",
     "taylor swift trending dance",
-    "taylor swift trending song now",
-    "taylor swift trending song on tiktok"
+    "taylor swift trending news",
+    "taylor swift trending tiktok song"
   ],
   "analysis": {
-    "headline": "Taylor Swift's 'Lavender Haze' Takes the Internet by Storm",
-    "summary": "Taylor Swift's new single 'Lavender Haze' has taken the internet by storm, with fans and music enthusiasts alike captivated by the song's dreamy, ethereal sound and the singer's latest creative direction.",
-    "origin_story": "The track is part of Swift's acclaimed 10th studio album, 'Midnights', which was released on October 21st, 2022, sparking a wave of online discussion and anticipation.",
-    "expert_analysis": "The surge in interest around 'Lavender Haze' reflects Swift's enduring popularity and her ability to consistently capture the public's imagination with her music. The song's hazy, atmospheric production and introspective lyrics have resonated with listeners, tapping into the current cultural zeitgeist of introspection and escapism.",
-    "impact": "The widespread attention on 'Lavender Haze' is likely to drive increased streams and sales for Swift's latest album, further cementing her status as one of the most influential and successful artists of her generation.",
+    "headline": "Taylor Swift Dominates Trending Charts Amid Album Speculation",
+    "summary": "Taylor Swift's name has skyrocketed on Google search trends, fueled by speculation about a potential new album release. Fans are eagerly searching for any clues or updates about the pop superstar's next musical era.",
+    "origin_story": "The spike in interest began after Swift shared a cryptic video on social media, leading to widespread fan theories and increased online activity.",
+    "expert_analysis": "Taylor Swift's ability to captivate her fanbase and drive cultural conversations is unparalleled. This trend reflects the intense anticipation and loyalty of 'Swifties' who are always on the lookout for the next chapter in the singer's career.",
+    "impact": "With Swift's influence transcending music, this trending topic is poised to dominate the entertainment landscape in the coming weeks.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T14:58:20.756919+00:00",
+  "timestamp": "2026-02-07T17:20:18.589332+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:18.589367+00:00",
       "signal_score": 50
     }
   ]

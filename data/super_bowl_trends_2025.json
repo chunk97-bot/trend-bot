@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "257.2K",
-      "raw": 257225
+      "searches": "104.3K",
+      "raw": 104265
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Trends Capture Attention Ahead of 2025 Big Game",
-    "summary": "As the countdown to the 2025 Super Bowl intensifies, a surge of online interest in the event has captured the attention of the digital landscape. With Google searches spiking, fans are eagerly anticipating the upcoming clash of the titans on the gridiron.",
-    "origin_story": "The rise in Super Bowl-related trends can be traced back to the recent release of the official team rosters and schedules, fueling widespread speculation and excitement among fans across various social media platforms.",
-    "expert_analysis": "This spike in Super Bowl-related searches reflects the enduring popularity of the event, which has long been a cultural phenomenon that transcends the boundaries of sports. The intense interest also speaks to the growing influence of digital media in shaping and amplifying fan engagement, as people increasingly turn to online platforms to stay informed and share their enthusiasm.",
-    "impact": "The sustained interest in Super Bowl trends underscores the event's ability to captivate the global audience and drive widespread cultural conversations, both on and offline.",
+    "headline": "Super Bowl Fever Grips the Internet as 2025 Trends Explode",
+    "summary": "The excitement for the 2025 Super Bowl has reached a fever pitch online, as evidenced by the staggering 104.3K Google searches. Fans are eagerly anticipating the game, speculating on the matchup, and buzzing about the anticipated halftime show.",
+    "origin_story": "The surge in Super Bowl-related searches began in the aftermath of the previous year's championship game, as fans immediately started looking forward to the next iteration of the biggest event in American sports.",
+    "expert_analysis": "This trend reflects the enduring cultural significance of the Super Bowl, which has become a true national phenomenon transcending the boundaries of sports. The intense online interest speaks to the event's ability to captivate the public's imagination, driven by factors like high-stakes competition, star-studded performances, and the shared experience of millions of viewers.",
+    "impact": "The sheer volume of Super Bowl-related searches underscores the immense influence of the event, which extends far beyond the field and into the realms of popular culture, media, and even the economy.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:02:42.148160+00:00",
+  "timestamp": "2026-02-07T17:20:15.533788+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -74,6 +74,10 @@
     },
     {
       "timestamp": "2026-02-07T17:02:42.148175+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:15.533803+00:00",
       "signal_score": 50
     }
   ]

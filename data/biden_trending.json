@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "267.5K",
-      "raw": 267475
+      "searches": "273.1K",
+      "raw": 273143
     },
     "x": {
       "posts": "0",
@@ -38,17 +38,17 @@
     "biden trending news",
     "biden trending video",
     "biden trending debate",
-    "joe biden trending"
+    "biden trending news today"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Google Trends Amid Ongoing Controversies",
-    "summary": "President Joe Biden has found himself at the center of a major trending story on Google, as the public searches for more information about the latest developments surrounding his administration. This spike in interest reflects the intensifying political climate and the public's desire to stay informed.",
-    "origin_story": "The recent surge in Biden-related searches on Google can be traced to a variety of news stories and events, including the ongoing debt ceiling negotiations, Biden's decision to pardon federal marijuana convictions, and the president's remarks on the midterm elections.",
-    "expert_analysis": "This trend highlights the public's keen interest in the actions and decisions of the Biden administration, as well as the growing polarization of the political landscape. The high volume of searches suggests that people are closely following the latest news and developments, underscoring the significant impact that the presidency can have on the national discourse.",
-    "impact": "The sustained attention on Biden could shape public opinion, influence policy decisions, and even have implications for the upcoming midterm elections.",
+    "headline": "Biden Surges to Top of Google Searches Amid Heated Discourse",
+    "summary": "President Joe Biden has found himself at the center of intense online attention, with his name dominating Google search trends. This surge in interest reflects the divisive political climate and the public's ongoing fascination with the administration's policies and actions.",
+    "origin_story": "The increased search activity around Biden likely stems from a combination of recent news events and the continued polarization of American politics.",
+    "expert_analysis": "This trend underscores the outsized influence of the internet and social media in shaping political narratives. The public's voracious appetite for information, both factual and speculative, has made Biden a focal point of discussion, fueling ongoing debates around his leadership and the direction of the country.",
+    "impact": "The intensity of this online interest could shape public opinion and influence the political landscape in the months and years ahead.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:02:34.559589+00:00",
+  "timestamp": "2026-02-07T17:19:58.767268+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -128,6 +128,10 @@
     },
     {
       "timestamp": "2026-02-07T17:02:34.559605+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:19:58.767284+00:00",
       "signal_score": 50
     }
   ]

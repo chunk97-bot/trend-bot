@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "84.9K",
-      "reposts": "11.5K",
-      "raw_posts": 84860,
-      "raw_reposts": 11500
+      "posts": "68.3K",
+      "reposts": "17.9K",
+      "raw_posts": 68291,
+      "raw_reposts": 17908
     },
     "tiktok": {
-      "views": "6.7M",
-      "videos": "43.5K",
-      "raw_views": 6736223
+      "views": "5.8M",
+      "videos": "22.2K",
+      "raw_views": 5797682
     },
     "instagram": {
       "posts": "0",
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hexcode Captivates Millions, Sparking Online Frenzy",
-    "summary": "A cryptic hexcode, '681da8', has taken the internet by storm, inspiring a massive wave of creative content across platforms like TikTok and X. As users scramble to uncover its meaning, the trend reveals a collective fascination with digital mysteries.",
-    "origin_story": "The trend first gained traction on TikTok, where users began posting videos exploring the significance of the hexcode and speculating about its origins.",
-    "expert_analysis": "This trend taps into the human desire to solve puzzles and uncover hidden meanings. In an era dominated by information overload, the allure of a simple, enigmatic code has captivated audiences, fostering a sense of community as people collaborate to crack the code.",
-    "impact": "The rapid spread of this trend across social media platforms underscores the power of digital culture to spark viral phenomena and shape contemporary discourse.",
-    "status": "rising"
+    "headline": "Viral Color Trend Sparks Creativity and Community Online",
+    "summary": "A mysterious hexadecimal color code, '681da8', has taken the internet by storm, with users across platforms like TikTok and Instagram exploring its visual potential through art, fashion, and more. The trend is captivating audiences with its vibrant, enigmatic appeal.",
+    "origin_story": "The color first gained traction on TikTok, where users began sharing their creative interpretations, from fashion looks to digital art and photography.",
+    "expert_analysis": "This trend taps into our innate human desire to find meaning and beauty in the unexpected. The color's ambiguity allows for personal interpretation and expression, fostering a sense of community as users collaborate and inspire one another. It reflects the internet's power to transform the mundane into the extraordinary.",
+    "impact": "As the trend continues to spread, it's shaping online culture and sparking conversations around the power of color to unite and inspire creativity.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T17:01:58.753130+00:00",
+  "timestamp": "2026-02-07T17:19:22.800767+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:32:27.233961+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-06T11:47:06.441640+00:00",
       "signal_score": 100
@@ -139,6 +135,10 @@
     },
     {
       "timestamp": "2026-02-07T17:01:58.753146+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T17:19:22.800789+00:00",
       "signal_score": 100
     }
   ]

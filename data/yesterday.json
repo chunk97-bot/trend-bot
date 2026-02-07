@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "131.9K",
-      "reposts": "22.8K",
-      "raw_posts": 131877,
-      "raw_reposts": 22776
+      "posts": "175.6K",
+      "reposts": "23.1K",
+      "raw_posts": 175566,
+      "raw_reposts": 23128
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgia Wave: Why 'Yesterday' is Capturing the Internet's Attention",
-    "summary": "The sudden surge of online chatter around the word 'yesterday' has struck a chord with internet users, reflecting a collective longing for simpler times and a desire to unplug from the constant digital demands of modern life.",
-    "origin_story": "The trend emerged organically on various social media platforms, with users sharing personal anecdotes and reflections on the concept of 'yesterday'.",
-    "expert_analysis": "This trend speaks to a growing cultural phenomenon \u2013 a yearning for a time before the ubiquity of technology and the relentless pace of the digital age. In a world that often feels overwhelming, 'yesterday' represents a reprieve, a chance to slow down and appreciate the fleeting moments that make up our lives.",
-    "impact": "As this trend continues to gain momentum, it could serve as a reminder to individuals and society at large to pause, reflect, and find ways to reconnect with the nostalgia and simplicity of the past.",
+    "headline": "Yesterday Sweeps Social Media with Nostalgic Resurgence",
+    "summary": "The 2022 film 'Yesterday' has unexpectedly become a viral trend, as people rediscover the whimsical story of a world without The Beatles. Fans are reminiscing about the movie and its feel-good message at a time when many seek comfort in familiar pop culture.",
+    "origin_story": "The trend started on TikTok, where users have been posting clips and reactions to the film's memorable scenes and soundtrack.",
+    "expert_analysis": "The sudden popularity of 'Yesterday' taps into a broader cultural phenomenon - the public's insatiable appetite for nostalgic media that provides an escape from the challenges of the present day. This trend reflects a collective yearning for simpler times and the timeless music of The Beatles.",
+    "impact": "The renewed interest may spur a resurgence in viewership for the film and boost sales of its soundtrack.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T17:02:08.845570+00:00",
+  "timestamp": "2026-02-07T17:19:36.251434+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -122,6 +122,10 @@
     },
     {
       "timestamp": "2026-02-07T17:02:08.845586+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:19:36.251450+00:00",
       "signal_score": 55
     }
   ]
