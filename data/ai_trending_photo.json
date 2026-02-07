@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "92.4K",
-      "raw": 92435
+      "searches": "143.6K",
+      "raw": 143584
     },
     "x": {
-      "posts": "30.0K",
-      "reposts": "28.5K",
-      "raw_posts": 29998,
-      "raw_reposts": 28494
+      "posts": "56.5K",
+      "reposts": "40.6K",
+      "raw_posts": 56479,
+      "raw_reposts": 40600
     },
     "tiktok": {
       "views": "0",
@@ -28,9 +28,9 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 65,
-  "momentum": "stable",
-  "lifecycle": "rising",
+  "signal_score": 100,
+  "momentum": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Images Take the Internet by Storm",
-    "summary": "Fueled by the rapid advancements in AI technology, the ability to create photorealistic images from text prompts is captivating users across the web. This powerful new tool is sparking creativity and debate in equal measure.",
-    "origin_story": "The trend took off as more people gained access to AI image generation models like DALL-E and Midjourney, which allow anyone to conjure up unique visuals with just a few words.",
-    "expert_analysis": "This trend taps into our innate human desire to create and explore the boundaries of what's possible. It also raises questions about the nature of art, authorship, and the role of technology in shaping our visual landscape. As AI models become more sophisticated, we're likely to see an explosion of imaginative, genre-blending images that challenge our perceptions.",
-    "impact": "The rise of AI-generated art has the potential to disrupt traditional creative industries, from advertising to film and beyond.",
-    "status": "rising"
+    "headline": "The AI-Generated Photo Trend Captivating the Internet",
+    "summary": "AI-generated photos are taking social media by storm, as users discover the endless creative possibilities of this cutting-edge technology. From surreal landscapes to photorealistic portraits, the ability to craft images from scratch is sparking widespread fascination.",
+    "origin_story": "The trend emerged on platforms like Google and X, where users have been sharing their AI-generated creations and marveling at the technology's capabilities.",
+    "expert_analysis": "This trend underscores the public's growing interest in and comfort with AI technology. As these tools become more accessible and user-friendly, people are exploring their creative potential, blurring the lines between human and machine-made art. This could signal a shift in how we perceive and engage with visual media in the digital age.",
+    "impact": "The AI-generated photo trend has the potential to revolutionize the way we create and consume visual content, impacting industries like advertising, entertainment, and even journalism.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T20:57:12.795961+00:00",
+  "timestamp": "2026-02-07T21:54:33.614335+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:19.285980+00:00",
@@ -96,6 +96,10 @@
     {
       "timestamp": "2026-02-07T20:57:12.795976+00:00",
       "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-07T21:54:33.614358+00:00",
+      "signal_score": 100
     }
   ]
 }

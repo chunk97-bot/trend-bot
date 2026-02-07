@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "266.1K",
-      "raw": 266068
+      "searches": "154.1K",
+      "raw": 154096
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Google Searches Amid Renewed Spotlight",
-    "summary": "Amid the ongoing controversy surrounding the Biden family, searches for 'Biden', 'Joe Biden', and 'Hunter Biden' have skyrocketed on Google, indicating renewed public interest in the president and his son.",
-    "origin_story": "The spike in searches was triggered by the latest developments in the ongoing saga surrounding Hunter Biden's business dealings, which have once again thrust the Biden family into the national spotlight.",
-    "expert_analysis": "This trend reflects the enduring polarization and political divisions within the United States, as well as the public's insatiable appetite for drama and scandal involving high-profile political figures. The sustained interest in the Bidens suggests that the issue continues to resonate with a significant portion of the electorate.",
-    "impact": "The increased attention could have far-reaching implications, potentially shaping public opinion and influencing the political landscape in the run-up to the 2024 presidential election.",
-    "status": "viral"
+    "headline": "Biden Trending as Speculation Swirls Over President's 2024 Plans",
+    "summary": "Searches for 'Biden' have surged on Google as rumors circulate about the president's potential run for a second term in 2024. The renewed interest comes amid ongoing discussions about the Democratic party's leadership and the future of American politics.",
+    "origin_story": "The spike in 'Biden' searches appears to have been sparked by recent media reports and political commentary surrounding the president's future plans.",
+    "expert_analysis": "This trend highlights the intense public fascination with the Biden presidency and the high stakes of the 2024 election. It reflects the deep political polarization in the US, as well as the enduring influence of internet discourse on the national conversation.",
+    "impact": "The Biden trending topic could shape the political narrative in the coming months and influence the direction of the Democratic party.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T20:57:32.992923+00:00",
+  "timestamp": "2026-02-07T21:55:13.654724+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -140,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:32.992938+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:13.654742+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "109.2K",
-      "raw": 109150
+      "searches": "156.1K",
+      "raw": 156129
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Surges Back into the Spotlight as Midterm Elections Loom",
-    "summary": "As the 2022 midterm elections approach, former President Donald Trump has once again become a dominant figure in the political discourse, with his name seeing a significant surge in Google searches.",
-    "origin_story": "Trump's continued influence and involvement in the Republican party, as well as his potential 2024 presidential run, have kept him a central topic of discussion on social media and in the news.",
-    "expert_analysis": "Trump's trending status reflects the deep political divisions in the country and the ongoing debate over his legacy. While his supporters remain ardent, his critics are equally vocal, underscoring the polarized nature of American politics in the post-Trump era.",
-    "impact": "The intensity of public interest in Trump could shape the dynamics of the upcoming midterm elections and beyond, as both his allies and opponents seek to leverage his prominence for their respective political agendas.",
+    "headline": "Trump Surges Back into the Spotlight as Chatter Ramps Up",
+    "summary": "Former President Donald Trump has once again become a major topic of discussion online, with a significant spike in Google searches around his name. This heightened interest comes amidst ongoing political and legal developments surrounding Trump.",
+    "origin_story": "The renewed interest in Trump appears to have been sparked by a range of recent events, including the ongoing investigation into the January 6th Capitol attack and the FBI's search of his Mar-a-Lago residence.",
+    "expert_analysis": "Trump's ability to captivate public attention, even out of office, speaks to his enduring influence and the deep partisan divisions in the country. This trend reflects the intense polarization in American politics, as well as the public's fascination with political drama and controversy.",
+    "impact": "As Trump remains a central figure in the national discourse, this surge in online interest could impact public opinion, media coverage, and the broader political landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T20:57:29.381294+00:00",
+  "timestamp": "2026-02-07T21:55:10.167517+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -124,6 +124,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:29.381309+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:10.167533+00:00",
       "signal_score": 50
     }
   ]

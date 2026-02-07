@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "114.8K",
-      "reposts": "23.8K",
-      "raw_posts": 114776,
-      "raw_reposts": 23752
+      "posts": "145.7K",
+      "reposts": "49.1K",
+      "raw_posts": 145748,
+      "raw_reposts": 49127
     },
     "tiktok": {
       "views": "0",
@@ -42,12 +42,8 @@
     "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T19:49:40.526482+00:00",
+  "timestamp": "2026-02-07T21:54:48.793926+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:19.796452+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:13:20.976673+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:49:40.526497+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T21:54:48.793942+00:00",
       "signal_score": 55
     }
   ]

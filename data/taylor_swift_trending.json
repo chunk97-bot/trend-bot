@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "263.2K",
-      "raw": 263175
+      "searches": "201.3K",
+      "raw": 201314
     },
     "x": {
       "posts": "0",
@@ -37,18 +37,18 @@
     "taylor swift trending",
     "taylor swift trending songs",
     "taylor swift trending dance",
-    "taylor swift trending news",
-    "taylor swift trending tiktok song"
+    "taylor swift trending song now",
+    "taylor swift trending song on tiktok"
   ],
   "analysis": {
-    "headline": "Swifties Flood the Internet as Taylor's Music Dominates Trends",
-    "summary": "Taylor Swift's music is taking the internet by storm, with her songs and dance challenges dominating Google search trends. Fans are rallying behind the pop star, driving massive engagement across social media and streaming platforms.",
-    "origin_story": "The surge in Taylor Swift's popularity can be traced to the release of her 10th studio album, 'Midnights,' which dropped on October 21st and has been met with widespread critical acclaim.",
-    "expert_analysis": "Taylor Swift's ability to captivate her audience and generate viral online phenomena speaks to her enduring influence as a cultural icon. Her dedicated fanbase, known as 'Swifties,' are known for their passionate engagement, which is fueling this latest trend and underscoring the power of stan culture in the digital age.",
-    "impact": "The ongoing trend around Taylor Swift's music is likely to drive increased streams, sales, and social media activity, solidifying her status as one of the biggest artists in the world.",
+    "headline": "Taylor Swift Fever Grips the Internet as New Song Captivates Fans",
+    "summary": "Taylor Swift's highly anticipated new single has taken the internet by storm, with searches for the artist and her music skyrocketing. Fans are eagerly dissecting the lyrics and speculating about the song's deeper meaning.",
+    "origin_story": "The trend began on Google as fans searched for information about Swift's latest release, which has sparked widespread discussion and excitement across social media platforms.",
+    "expert_analysis": "This surge in interest highlights the enduring popularity and cultural influence of Taylor Swift, who has managed to maintain her status as a global superstar and a lightning rod for fan engagement. The intense reaction to her new music underscores the deep emotional connection she has forged with her audience over the years.",
+    "impact": "The trend is expected to continue as fans immerse themselves in the new song and await further updates from the artist.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T20:57:43.238279+00:00",
+  "timestamp": "2026-02-07T21:55:23.161101+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -64,6 +64,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:43.238295+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:23.161118+00:00",
       "signal_score": 50
     }
   ]

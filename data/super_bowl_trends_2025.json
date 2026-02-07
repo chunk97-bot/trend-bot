@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "264.9K",
-      "raw": 264878
+      "searches": "219.7K",
+      "raw": 219681
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl 2025 Dominates Search Trends Amid Hype and Nostalgia",
-    "summary": "The upcoming Super Bowl in 2025 has taken the internet by storm, with Google searches reaching nearly 265,000 as fans eagerly anticipate the biggest event in American sports.",
-    "origin_story": "The surge in interest can be traced back to the announcement of the Super Bowl's return to a classic venue, sparking a wave of nostalgia and excitement among longtime fans.",
-    "expert_analysis": "This trend reflects the enduring appeal of the Super Bowl, a cultural institution that transcends the game itself. The anticipation speaks to the event's ability to unite communities and capture the public's imagination, even years in advance.",
-    "impact": "The intense online buzz suggests the 2025 Super Bowl could break viewership records and generate massive engagement across social media platforms.",
+    "headline": "Super Bowl 2025 Hype Dominates Google Searches",
+    "summary": "Fans are scouring the internet for details on the upcoming Super Bowl in 2025, as the annual championship game continues to captivate audiences worldwide. The surge in Google searches reflects the immense anticipation and excitement surrounding this highly anticipated event.",
+    "origin_story": "The buzz around Super Bowl 2025 began building as soon as the previous year's game ended, with fans eager to learn more about the teams, halftime show, and other details for the upcoming edition.",
+    "expert_analysis": "The enduring popularity of the Super Bowl highlights the cultural significance of this event, which transcends the boundaries of sports. It's a shared experience that brings people together, sparking conversations and generating a sense of community among fans and casual viewers alike.",
+    "impact": "The intense interest in Super Bowl 2025 will undoubtedly drive increased media coverage, merchandise sales, and social media engagement, further cementing the game's status as a major cultural phenomenon.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T20:57:39.853176+00:00",
+  "timestamp": "2026-02-07T21:55:20.266420+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:39.853192+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:20.266436+00:00",
       "signal_score": 50
     }
   ]

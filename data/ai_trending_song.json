@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "286.6K",
-      "raw": 286647
+      "searches": "254.3K",
+      "raw": 254335
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Song Captivates the Internet, Sparking Debate and Wonder",
-    "summary": "An AI-composed song has gone viral, captivating listeners with its uncanny ability to mimic human-made music. This trend has sparked discussions around the future of music and the role of artificial intelligence in creative pursuits.",
-    "origin_story": "The song emerged from the rapid advancements in AI technology, with platforms like Google leading the charge in developing increasingly sophisticated language and music models.",
-    "expert_analysis": "This viral trend reflects the growing public fascination with the intersection of technology and creativity. As AI systems become more adept at generating content that can pass as human-made, it raises questions about the nature of artistic expression and the role of human ingenuity in a rapidly evolving digital landscape.",
-    "impact": "The popularity of this AI-generated song could pave the way for more widespread integration of AI in the music industry, sparking debates about the future of human creativity and the potential impacts on the livelihoods of traditional musicians.",
-    "status": "viral"
+    "headline": "AI-Generated Songs Take the Internet by Storm",
+    "summary": "Artificial intelligence is now capable of creating its own music, and people are flocking to discover these AI-generated songs. The rise in popularity showcases the public's fascination with the capabilities of AI technology.",
+    "origin_story": "The trend emerged as AI models like Jukebox and Mubert began producing original musical compositions, which users have been sharing across social media platforms.",
+    "expert_analysis": "This trend highlights the public's appetite for innovative and unconventional forms of artistic expression. As AI technology continues to advance, the line between human and machine-created art will continue to blur, raising questions about the nature of creativity and the future of the music industry.",
+    "impact": "The growing popularity of AI-generated music could disrupt traditional music production and distribution, as well as impact the livelihoods of human musicians.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T20:57:22.995234+00:00",
+  "timestamp": "2026-02-07T21:54:57.993555+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -134,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:22.995250+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:54:57.993572+00:00",
       "signal_score": 50
     }
   ]
