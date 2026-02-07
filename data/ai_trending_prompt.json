@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "189.0K",
-      "raw": 189015
+      "searches": "165.4K",
+      "raw": 165431
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Prompts Take the Internet by Storm: The Rise of a Creative Revolution",
-    "summary": "AI-generated prompts have become the latest viral sensation, captivating the attention of internet users worldwide. Powered by advanced language models, these prompts are enabling users to create stunning and imaginative visual art with just a few words.",
-    "origin_story": "The trend first gained traction on platforms like Twitter and Reddit, where users began sharing their AI-generated creations and experimenting with prompt-writing techniques.",
-    "expert_analysis": "This trend reflects a growing fascination with the capabilities of AI and its potential to democratize creativity. By harnessing the power of language models, anyone can now explore their artistic side, blurring the lines between human and machine-generated art. It also speaks to the public's desire for innovative and engaging digital experiences.",
-    "impact": "As this trend continues to gain momentum, we may see a surge in AI-powered creative tools and applications, transforming the way we approach art, design, and visual expression.",
+    "headline": "AI Chatbots Take Over the Internet: Prompts Become the New Craze",
+    "summary": "AI-powered chatbots and language models have captured the public's imagination, with people flocking to create and share unique prompts that elicit fascinating responses from these advanced systems.",
+    "origin_story": "The trend began with the launch of OpenAI's ChatGPT, a conversational AI that can engage in remarkably human-like dialogue. This fueled widespread interest in exploring the capabilities of AI language models.",
+    "expert_analysis": "The rise of AI prompts reflects our fascination with the rapidly evolving field of artificial intelligence. People are eager to push the boundaries of what these systems can do, from creative writing to problem-solving, revealing both the potential and limitations of current AI technology.",
+    "impact": "As the popularity of AI prompts continues to grow, it could shape the way we interact with technology and fundamentally alter how we approach tasks that were once the exclusive domain of humans.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T14:58:03.844573+00:00",
+  "timestamp": "2026-02-07T15:53:03.475974+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -122,6 +122,10 @@
     },
     {
       "timestamp": "2026-02-07T14:58:03.844595+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:03.475990+00:00",
       "signal_score": 50
     }
   ]

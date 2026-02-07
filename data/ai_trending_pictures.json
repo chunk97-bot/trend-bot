@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "242.2K",
-      "raw": 242187
+      "searches": "148.7K",
+      "raw": 148661
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Images Take the Internet by Storm",
-    "summary": "The internet has been captivated by the stunning and often surreal AI-generated images that have been flooding social media and search platforms. People are eager to explore the creative possibilities of this cutting-edge technology.",
-    "origin_story": "The recent surge in popularity of AI image generation tools, such as DALL-E and Midjourney, has sparked a widespread fascination with the ability to create highly detailed and imaginative visuals with just a few text prompts.",
-    "expert_analysis": "This trend reflects the public's growing interest in the power and potential of artificial intelligence, particularly in the creative realm. As these AI models continue to improve, they are blurring the lines between human and machine-generated art, raising questions about the nature of creativity and the future of visual media.",
-    "impact": "The widespread sharing and discussion of these AI-generated images on social media and search platforms suggest that this trend is likely to continue growing, with potentially significant implications for the art and design industries.",
-    "status": "viral"
+    "headline": "The Rise of AI-Generated Pictures: A Window into Our Digital Imagination",
+    "summary": "AI-powered image generation tools have captivated the internet, allowing users to create unique, artistic visuals with just a few text prompts. This trend reflects a growing public fascination with the capabilities of artificial intelligence.",
+    "origin_story": "The recent surge in interest around AI-generated pictures can be traced back to the widespread adoption of platforms like DALL-E, Midjourney, and Stable Diffusion, which have democratized access to this technology.",
+    "expert_analysis": "This trend highlights the public's eagerness to experiment with the creative potential of AI, blurring the lines between human and machine-driven artistry. It also signals a desire to push the boundaries of visual expression and storytelling in the digital age.",
+    "impact": "As AI-generated images become more prevalent, they may reshape how we create, consume, and interact with visual media, with profound implications for industries like advertising, entertainment, and fine art.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T14:58:00.384799+00:00",
+  "timestamp": "2026-02-07T15:53:00.295400+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:15.670780+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-07T14:58:00.384816+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:00.295415+00:00",
       "signal_score": 50
     }
   ]

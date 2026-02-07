@@ -1,0 +1,58 @@
+{
+  "trend": "chatgpt trending",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "195.2K",
+      "raw": 195183
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending",
+    "chatgpt trending prompt",
+    "chatgpt trending photo prompt",
+    "chatgpt trending image generator prompt",
+    "chatgpt trending christmas photo prompt"
+  ],
+  "analysis": {
+    "headline": "ChatGPT Mania Sweeps the Internet as AI's Capabilities Astound",
+    "summary": "The viral popularity of OpenAI's ChatGPT has exploded, with users marveling at the AI's ability to engage in natural conversations and produce human-like text on a wide range of topics. This surge of interest is driven by the tool's impressive performance and the broader excitement around the rapid advancement of artificial intelligence.",
+    "origin_story": "ChatGPT was launched by OpenAI in late November 2022, and the platform has since seen a meteoric rise in usage and widespread media attention.",
+    "expert_analysis": "The ChatGPT trend speaks to the public's fascination with the capabilities of AI and the transformative potential of this technology. The ease with which the AI can generate coherent, contextual responses has sparked both wonder and concern about the future implications of such advanced language models.",
+    "impact": "The immense interest in ChatGPT could accelerate the development and adoption of AI-powered tools, with far-reaching consequences for industries ranging from education to journalism.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T15:53:10.581247+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T15:53:10.581263+00:00",
+      "signal_score": 50
+    }
+  ]
+}

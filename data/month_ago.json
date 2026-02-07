@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "163.7K",
-      "reposts": "40.7K",
-      "raw_posts": 163677,
-      "raw_reposts": 40700
+      "posts": "143.2K",
+      "reposts": "12.2K",
+      "raw_posts": 143202,
+      "raw_reposts": 12242
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Viral Resurgence of a Month-Old Phenomenon: Unpacking the Trend",
-    "summary": "A peculiar internet phenomenon from a month ago has suddenly resurfaced, captivating users across various social media platforms. The renewed interest has sparked discussions about the nature of viral trends and their longevity in the digital age.",
-    "origin_story": "The trend first emerged on [platform] around a month ago, where users began sharing and engaging with a specific type of content.",
-    "expert_analysis": "This resurgence suggests that viral trends on the internet can have a cyclical nature, often resurfacing after an initial burst of popularity. The reasons behind this can be multifaceted, ranging from a shift in cultural zeitgeist to the algorithms driving social media platforms that can amplify and revive certain types of content.",
-    "impact": "As this trend continues to gain momentum, it offers a glimpse into the complex dynamics that shape online discourse and the way in which internet users consume and engage with content.",
-    "status": "rising"
+    "headline": "Viral 'Month Ago' Trend Captures Nostalgia for Simpler Times",
+    "summary": "The 'Month Ago' meme has taken social media by storm, as users post screenshots of their phone's calendar from exactly one month prior. This simple yet relatable trend taps into a universal longing for the recent past.",
+    "origin_story": "The trend emerged organically on various platforms, as users started sharing their 'Month Ago' calendar screenshots as a way to reminisce about the recent past.",
+    "expert_analysis": "The 'Month Ago' trend reflects a broader cultural phenomenon - a nostalgia for a time that feels not too distant, yet simpler and more carefree. In an increasingly chaotic world, this meme allows people to momentarily escape to a recent, more stable moment in their lives.",
+    "impact": "This viral trend has resonated with millions, sparking widespread participation and discussion around the power of collective nostalgia.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T13:57:26.921479+00:00",
+  "timestamp": "2026-02-07T15:52:52.999574+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -114,6 +114,10 @@
     },
     {
       "timestamp": "2026-02-07T13:57:26.921498+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T15:52:52.999589+00:00",
       "signal_score": 55
     }
   ]
