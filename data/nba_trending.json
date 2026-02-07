@@ -1,0 +1,58 @@
+{
+  "trend": "nba trending",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "211.7K",
+      "raw": 211728
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "nba trending",
+    "nba trending news today",
+    "nba trending news",
+    "nba trending players",
+    "nba trending topics"
+  ],
+  "analysis": {
+    "headline": "NBA Fever Sweeps the Nation: Decoding the Surge in Popularity",
+    "summary": "The NBA is dominating search trends, as fans eagerly follow the latest developments in the basketball world. From blockbuster trades to playoff excitement, the league's captivating narratives are captivating audiences nationwide.",
+    "origin_story": "The NBA's rising popularity can be traced to the return of marquee events like the NBA Playoffs, which have generated significant buzz on Google and other platforms.",
+    "expert_analysis": "The NBA's enduring appeal reflects its ability to capture the public's imagination with high-stakes competition, larger-than-life personalities, and a constant stream of breaking news. This trend underscores the league's cultural relevance and its ability to captivate sports fans across generations.",
+    "impact": "The surge in NBA-related searches is likely to drive increased viewership, merchandise sales, and deeper fan engagement, solidifying the league's status as a dominant force in the world of professional sports.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T14:58:27.016420+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:27.016439+00:00",
+      "signal_score": 50
+    }
+  ]
+}

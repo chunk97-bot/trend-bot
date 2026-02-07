@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "entertainment",
+  "category": "memes",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "45.9K",
-      "reposts": "13.5K",
-      "raw_posts": 45935,
-      "raw_reposts": 13538
+      "posts": "38.5K",
+      "reposts": "15.8K",
+      "raw_posts": 38482,
+      "raw_reposts": 15798
     },
     "tiktok": {
-      "views": "1.3M",
-      "videos": "2.6K",
-      "raw_views": 1291401
+      "views": "8.4M",
+      "videos": "9.5K",
+      "raw_views": 8381246
     },
     "instagram": {
       "posts": "0",
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Aesthetic Trend Sweeps Internet: Exploring the 681da8 Craze",
-    "summary": "A mesmerizing visual trend featuring the vibrant color code 681da8 has taken the internet by storm, captivating users across platforms with its alluring aesthetic and creative applications.",
-    "origin_story": "The trend first emerged on X and TikTok, where users began experimenting with the 681da8 color palette in various visual mediums, from art and design to fashion and interior decor.",
-    "expert_analysis": "This trend taps into the growing desire for calming, minimalist aesthetics that offer a visually soothing escape from the chaos of everyday life. The 681da8 palette's versatility and ability to be seamlessly integrated into diverse creative expressions have contributed to its viral appeal, as users seek to curate their digital spaces with a cohesive and visually pleasing visual language.",
-    "impact": "The widespread adoption of this trend has the potential to influence mainstream visual culture, from commercial branding to personal style and home decor.",
-    "status": "viral"
+    "headline": "Mysterious Symbol '681da8' Takes Social Media by Storm",
+    "summary": "A curious hexadecimal code '681da8' has suddenly emerged as a viral trend across TikTok and other platforms, captivating millions with its enigmatic origins and hidden meanings.",
+    "origin_story": "The trend first gained traction on TikTok, where users began posting videos speculating about the significance of the code and challenging others to uncover its secrets.",
+    "expert_analysis": "This trend taps into the human fascination with the unknown and the desire to uncover hidden meanings. By presenting a seemingly arbitrary code, it encourages users to engage in collective problem-solving and community-driven investigation, fueling the viral nature of the phenomenon.",
+    "impact": "As the trend continues to spread, it has the potential to spark widespread discussions about the nature of online virality, the power of shared curiosity, and the evolving landscape of social media engagement.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T13:57:07.317618+00:00",
+  "timestamp": "2026-02-07T14:57:57.251029+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:13.920008+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-06T11:13:09.234499+00:00",
       "signal_score": 85
@@ -139,6 +135,10 @@
     },
     {
       "timestamp": "2026-02-07T13:57:07.317640+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T14:57:57.251046+00:00",
       "signal_score": 85
     }
   ]

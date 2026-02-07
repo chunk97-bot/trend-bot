@@ -1,0 +1,58 @@
+{
+  "trend": "taylor swift trending",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "261.5K",
+      "raw": 261519
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "taylor swift trending",
+    "taylor swift trending songs",
+    "taylor swift trending dance",
+    "taylor swift trending song now",
+    "taylor swift trending song on tiktok"
+  ],
+  "analysis": {
+    "headline": "Taylor Swift's 'Lavender Haze' Takes the Internet by Storm",
+    "summary": "Taylor Swift's new single 'Lavender Haze' has taken the internet by storm, with fans and music enthusiasts alike captivated by the song's dreamy, ethereal sound and the singer's latest creative direction.",
+    "origin_story": "The track is part of Swift's acclaimed 10th studio album, 'Midnights', which was released on October 21st, 2022, sparking a wave of online discussion and anticipation.",
+    "expert_analysis": "The surge in interest around 'Lavender Haze' reflects Swift's enduring popularity and her ability to consistently capture the public's imagination with her music. The song's hazy, atmospheric production and introspective lyrics have resonated with listeners, tapping into the current cultural zeitgeist of introspection and escapism.",
+    "impact": "The widespread attention on 'Lavender Haze' is likely to drive increased streams and sales for Swift's latest album, further cementing her status as one of the most influential and successful artists of her generation.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T14:58:20.756919+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:20.756937+00:00",
+      "signal_score": 50
+    }
+  ]
+}

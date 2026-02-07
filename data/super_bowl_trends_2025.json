@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "222.3K",
-      "raw": 222296
+      "searches": "281.4K",
+      "raw": 281443
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Fans Flock to Google to Discuss Super Bowl 2025 Excitement",
-    "summary": "With the highly anticipated Super Bowl 2025 just around the corner, sports enthusiasts are flocking to Google to search for the latest news and updates, driving a significant spike in related queries.",
-    "origin_story": "The surge in Super Bowl 2025 search interest on Google likely stems from the growing excitement and anticipation surrounding the big game, which is set to take place in a new and innovative stadium location.",
-    "expert_analysis": "This trend reflects the enduring popularity of the Super Bowl as a cultural phenomenon, transcending the boundaries of sports and capturing the imagination of fans worldwide. The elevated search activity underscores the public's eagerness to stay informed and engaged with the event's unfolding storylines and developments.",
-    "impact": "The high level of Google searches for Super Bowl 2025 indicates that the event is set to generate significant media attention and drive widespread discussion and analysis across various platforms.",
-    "status": "rising"
+    "headline": "Super Bowl 2025 Hype Explodes as Fans Flock to Google",
+    "summary": "With the Super Bowl just months away, football fans are scouring Google for the latest news and updates on the big game. This unprecedented surge in search activity suggests immense anticipation for the highly anticipated 2025 event.",
+    "origin_story": "The Google search trend started gaining momentum in the last few weeks as teams qualified for the Super Bowl and the hype around the matchup began to build.",
+    "expert_analysis": "The spike in Google searches for Super Bowl 2025 reflects the ever-growing cultural significance of the event. As America's most-watched annual sporting event, the Super Bowl has become a true cultural phenomenon, with fans eager to consume every morsel of information leading up to the big day.",
+    "impact": "This trend showcases the intense public fascination with the Super Bowl, which will no doubt translate to record-breaking viewership and engagement when the game kicks off in 2025.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T12:00:01.516754+00:00",
+  "timestamp": "2026-02-07T14:58:17.466646+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -62,6 +62,10 @@
     },
     {
       "timestamp": "2026-02-07T12:00:01.516770+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:17.466662+00:00",
       "signal_score": 50
     }
   ]

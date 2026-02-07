@@ -1,14 +1,14 @@
 {
   "trend": "super bowl trends betting",
-  "category": "entertainment",
+  "category": "sports",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "118.3K",
-      "raw": 118285
+      "searches": "266.9K",
+      "raw": 266862
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "super bowl trends betting Takes Over The Internet",
-    "summary": "The topic 'super bowl trends betting' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Super Bowl Betting Frenzy Sweeps the Nation as Fans Wager Big",
+    "summary": "With the biggest football event of the year just around the corner, Americans are flocking to online betting platforms in record numbers to try their luck at predicting the outcome of Super Bowl LVII. This surge in interest reflects the growing mainstream acceptance of sports gambling.",
+    "origin_story": "The legalization of sports betting in more than 30 states over the past few years has fueled a nationwide craving for wagering on major sporting events like the Super Bowl.",
+    "expert_analysis": "The Super Bowl's status as a cultural phenomenon, combined with the convenience and accessibility of online betting, has turned the big game into a massive betting event. This trend speaks to the public's appetite for excitement and the lure of potential windfalls, even as concerns around problem gambling continue to loom.",
+    "impact": "The Super Bowl betting frenzy is expected to generate billions in wagers, with sportsbooks and state governments alike poised to reap the financial rewards.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T11:59:58.384670+00:00",
+  "timestamp": "2026-02-07T14:58:13.481847+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:29.869056+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-07T11:59:58.384684+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:13.481866+00:00",
       "signal_score": 50
     }
   ]

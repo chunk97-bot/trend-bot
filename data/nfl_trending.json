@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "282.7K",
-      "raw": 282741
+      "searches": "155.2K",
+      "raw": 155236
     },
     "x": {
       "posts": "0",
@@ -41,17 +41,21 @@
     "nfl trending twitter"
   ],
   "analysis": {
-    "headline": "NFL Dominates Google Searches as Football Fever Sweeps the Nation",
-    "summary": "The NFL is dominating Google searches as fans eagerly anticipate the upcoming season. From discussions of star players to the latest team news, people are turning to the internet to stay up-to-date on all things football.",
-    "origin_story": "The spike in NFL-related searches likely stems from pre-season hype and the recent release of team schedules, which have fans buzzing about the upcoming games.",
-    "expert_analysis": "The NFL's enduring popularity reflects America's deep-rooted love for the sport. Football serves as a unifying cultural force, bringing communities together and sparking passionate debates among fans. This trend highlights the NFL's ability to captivate the public's attention, even during the offseason.",
-    "impact": "The high volume of Google searches ensures the NFL remains a dominant force in the sports and entertainment landscape.",
-    "status": "viral"
+    "headline": "NFL Dominates Online Searches as Football Season Heats Up",
+    "summary": "Football fans across the country are flocking to Google to stay up-to-date on the latest NFL news and developments as the new season kicks off. Searches for 'NFL trending' have spiked, reflecting the high level of public interest in the league's teams, players, and storylines.",
+    "origin_story": "The surge in NFL-related searches began as the league's preseason games got underway, with fans eager to catch glimpses of their favorite teams and players in action.",
+    "expert_analysis": "The NFL's enduring popularity is a testament to its ability to captivate audiences year after year. As a cultural touchstone, the league's drama and rivalries often transcend the playing field, sparking passionate discussions and debates among fans across social media and other platforms.",
+    "impact": "The high volume of NFL-related searches underscores the sport's continued relevance and influence in the digital age.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T10:58:40.398983+00:00",
+  "timestamp": "2026-02-07T14:58:23.475713+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T10:58:40.398998+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:23.475732+00:00",
       "signal_score": 50
     }
   ]

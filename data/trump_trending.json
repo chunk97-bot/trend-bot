@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "165.8K",
-      "raw": 165828
+      "searches": "299.4K",
+      "raw": 299381
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Search Trends as Scandal Rumors Swirl",
-    "summary": "Former President Donald Trump has surged to the top of Google search trends as speculation grows around a potential indictment or other legal developments. This renewed interest underscores the continued political and cultural influence of the divisive figure.",
-    "origin_story": "The spike in Trump-related searches began after reports emerged of an impending indictment by the Manhattan District Attorney's office, though no charges have been officially filed.",
-    "expert_analysis": "Trump's ability to dominate the news cycle, even when not in office, reflects the enduring polarization of American politics. His supporters see any potential legal action as a political witch hunt, while critics view it as long-overdue accountability. This trend speaks to the outsized role that Trump continues to play in shaping the national discourse.",
-    "impact": "The intense focus on Trump could further inflame political tensions and shape the 2024 presidential race, should he choose to run again.",
+    "headline": "Trump Dominates Trending Searches as Speculation Swirls",
+    "summary": "Former President Donald Trump has once again seized the public's attention, with his name surfacing as a top trending search on Google. This renewed interest comes amid ongoing political and legal developments surrounding the ex-president.",
+    "origin_story": "The surge in Trump-related searches appears to have been sparked by a series of news reports and statements from the former president himself.",
+    "expert_analysis": "Trump's enduring popularity and polarizing presence in the public discourse underscores the continued influence he wields, even after leaving office. This trend reflects the intense political and cultural divisions in the country, as well as the insatiable public appetite for news and commentary about the former president.",
+    "impact": "The high volume of searches surrounding Trump is likely to further fuel speculation about his future political aspirations and the ongoing investigations into his actions.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T11:59:48.865133+00:00",
+  "timestamp": "2026-02-07T14:58:06.794492+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -100,6 +100,10 @@
     },
     {
       "timestamp": "2026-02-07T11:59:48.865150+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:06.794512+00:00",
       "signal_score": 50
     }
   ]

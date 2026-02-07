@@ -1,6 +1,6 @@
 {
   "trend": "ai trending song",
-  "category": "music",
+  "category": "technology",
   "platforms": {
     "google": true,
     "x": true
@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "145.9K",
-      "raw": 145883
+      "searches": "289.1K",
+      "raw": 289112
     },
     "x": {
-      "posts": "100.9K",
-      "reposts": "47.8K",
-      "raw_posts": 100946,
-      "raw_reposts": 47821
+      "posts": "24.0K",
+      "reposts": "14.1K",
+      "raw_posts": 24039,
+      "raw_reposts": 14092
     },
     "tiktok": {
       "views": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "The Rise of AI-Generated Music: A Viral Phenomenon Reshaping the Industry",
-    "summary": "AI-generated songs are taking the internet by storm, captivating users with their unique, almost human-like melodies and lyrics. This trend is fueled by the rapid advancements in AI technology and the public's fascination with the creative potential of artificial intelligence.",
-    "origin_story": "The trend emerged on platforms like Google and social media, where AI-generated music has been gaining traction as users share and discuss these AI-composed tracks.",
-    "expert_analysis": "This trend reflects the public's growing interest in the intersection of technology and art. As AI systems become more sophisticated in generating music, it raises questions about the future of human creativity and the role of technology in the music industry. The popularity of AI-generated songs also suggests a shift in how people consume and appreciate music, potentially blurring the lines between human and artificial creativity.",
-    "impact": "The rise of AI-generated music could have significant implications for the music industry, from the way music is produced to the way it is consumed and appreciated by audiences.",
-    "status": "rising"
+    "headline": "AI-Generated Music Explodes in Popularity, Sparking Debate",
+    "summary": "The emergence of AI-powered music composition tools has taken the internet by storm, with users flocking to create and share their own algorithmically-generated tracks. This trend reflects the public's fascination with the creative capabilities of artificial intelligence.",
+    "origin_story": "The rise in AI-composed music can be traced back to the growing accessibility of AI music generation tools, which have become more advanced and user-friendly in recent months.",
+    "expert_analysis": "This trend speaks to the public's curiosity about the future of creativity and the role of technology in the arts. As AI systems become increasingly sophisticated, the line between human-made and machine-generated music is blurring, sparking conversations around authorship, authenticity, and the very nature of artistic expression.",
+    "impact": "The popularity of AI-generated music could have far-reaching implications, from the way music is produced and consumed to the disruption of traditional music industry models.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T13:57:00.120861+00:00",
+  "timestamp": "2026-02-07T14:57:53.254261+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -108,6 +108,10 @@
     {
       "timestamp": "2026-02-07T13:57:00.120882+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T14:57:53.254280+00:00",
+      "signal_score": 85
     }
   ]
 }

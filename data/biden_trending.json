@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "249.5K",
-      "raw": 249521
+      "searches": "155.2K",
+      "raw": 155222
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending as Voters Anticipate Potential 2024 Announcement",
-    "summary": "President Joe Biden's name has surged on Google searches as speculation builds around his potential 2024 presidential run. The increased interest comes amid ongoing debates around his policies and performance in office.",
-    "origin_story": "The Biden trend started gaining traction on Google as news outlets reported on the President's remarks about his 2024 plans, which he has hinted at revealing in the coming weeks.",
-    "expert_analysis": "This spike in online interest reflects the high anticipation and polarization surrounding Biden's political future. Supporters and critics alike are closely following any signals about his re-election ambitions, underscoring the intense partisan divides in the country.",
-    "impact": "Biden's decision on 2024 will have major implications for the Democratic party and the direction of the country's leadership.",
-    "status": "rising"
+    "headline": "Biden Surges to Top of Google Searches Amid Political Turmoil",
+    "summary": "As the Biden administration faces mounting challenges, from economic concerns to geopolitical tensions, public interest in the president has spiked, driving a surge in Google searches around his name.",
+    "origin_story": "The spike in Biden-related searches appears to be driven by ongoing news and commentary around the president's policies, actions, and overall performance in office.",
+    "expert_analysis": "This trend reflects the intense public scrutiny and polarization surrounding the Biden presidency. The elevated search interest highlights the American electorate's eagerness to stay informed and engaged with the political process, even amidst the chaos and division that has come to define the current era.",
+    "impact": "The heightened focus on Biden could shape public perception, drive media coverage, and influence the political discourse in the lead-up to the 2024 presidential election.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T13:57:50.922945+00:00",
+  "timestamp": "2026-02-07T14:58:09.800119+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -116,6 +116,10 @@
     },
     {
       "timestamp": "2026-02-07T13:57:50.922960+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:09.800137+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "158.5K",
-      "raw": 158451
+      "searches": "189.0K",
+      "raw": 189015
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The AI Prompt Craze: Sparking Creativity and Controversy Online",
-    "summary": "As AI-generated content becomes more prevalent, people are increasingly turning to AI prompts to inspire their own creative works. This trend has sparked both excitement and debate around the role of AI in art and expression.",
-    "origin_story": "The surge in interest around AI prompts can be traced back to the rise of AI text-generation models like GPT-3, which allow users to input a prompt and have the AI produce human-like text in response.",
-    "expert_analysis": "This trend reflects a growing fascination with the creative potential of AI, as well as the desire to harness advanced technology for personal expression. However, it also raises questions about authenticity, ownership, and the role of human artists in an AI-powered world.",
-    "impact": "As AI prompts continue to gain popularity, they could significantly shape the future of creative industries and challenge traditional notions of authorship and originality.",
-    "status": "rising"
+    "headline": "AI Prompts Take the Internet by Storm: The Rise of a Creative Revolution",
+    "summary": "AI-generated prompts have become the latest viral sensation, captivating the attention of internet users worldwide. Powered by advanced language models, these prompts are enabling users to create stunning and imaginative visual art with just a few words.",
+    "origin_story": "The trend first gained traction on platforms like Twitter and Reddit, where users began sharing their AI-generated creations and experimenting with prompt-writing techniques.",
+    "expert_analysis": "This trend reflects a growing fascination with the capabilities of AI and its potential to democratize creativity. By harnessing the power of language models, anyone can now explore their artistic side, blurring the lines between human and machine-generated art. It also speaks to the public's desire for innovative and engaging digital experiences.",
+    "impact": "As this trend continues to gain momentum, we may see a surge in AI-powered creative tools and applications, transforming the way we approach art, design, and visual expression.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T11:45:30.044859+00:00",
+  "timestamp": "2026-02-07T14:58:03.844573+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -118,6 +118,10 @@
     },
     {
       "timestamp": "2026-02-07T11:45:30.044870+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:03.844595+00:00",
       "signal_score": 50
     }
   ]
