@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "223.0K",
-      "raw": 222961
+      "searches": "263.2K",
+      "raw": 263175
     },
     "x": {
       "posts": "0",
@@ -37,18 +37,18 @@
     "taylor swift trending",
     "taylor swift trending songs",
     "taylor swift trending dance",
-    "taylor swift trending song now",
-    "taylor swift trending song on tiktok"
+    "taylor swift trending news",
+    "taylor swift trending tiktok song"
   ],
   "analysis": {
-    "headline": "Taylor Swift Dominates Google Searches as New Album Drops",
-    "summary": "Fans are swarming Google to search for details on Taylor Swift's highly anticipated 10th studio album, 'Midnights,' which was just released. The album has generated massive buzz across social media.",
-    "origin_story": "The surge in Google searches started immediately after Swift announced the album's release date and tracklist on her social media channels.",
-    "expert_analysis": "This trend reflects the intense devotion of Taylor Swift's fanbase, known as 'Swifties,' who eagerly follow her every move. The buzz around a new album drop is a reliable indicator of her continued cultural relevance and power to captivate audiences.",
-    "impact": "Swift's music and branding often have widespread influence, shaping pop culture conversations and even impacting commercial trends.",
+    "headline": "Swifties Flood the Internet as Taylor's Music Dominates Trends",
+    "summary": "Taylor Swift's music is taking the internet by storm, with her songs and dance challenges dominating Google search trends. Fans are rallying behind the pop star, driving massive engagement across social media and streaming platforms.",
+    "origin_story": "The surge in Taylor Swift's popularity can be traced to the release of her 10th studio album, 'Midnights,' which dropped on October 21st and has been met with widespread critical acclaim.",
+    "expert_analysis": "Taylor Swift's ability to captivate her audience and generate viral online phenomena speaks to her enduring influence as a cultural icon. Her dedicated fanbase, known as 'Swifties,' are known for their passionate engagement, which is fueling this latest trend and underscoring the power of stan culture in the digital age.",
+    "impact": "The ongoing trend around Taylor Swift's music is likely to drive increased streams, sales, and social media activity, solidifying her status as one of the biggest artists in the world.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:57:35.560137+00:00",
+  "timestamp": "2026-02-07T20:57:43.238279+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -60,6 +60,10 @@
     },
     {
       "timestamp": "2026-02-07T17:57:35.560152+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:43.238295+00:00",
       "signal_score": 50
     }
   ]

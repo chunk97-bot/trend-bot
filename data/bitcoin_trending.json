@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "116.1K",
-      "raw": 116114
+      "searches": "201.2K",
+      "raw": 201194
     },
     "x": {
       "posts": "0",
@@ -35,17 +35,21 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bitcoin Surges as Crypto Craze Intensifies Amid Inflation Fears",
-    "summary": "Bitcoin's skyrocketing search volume on Google reflects growing public interest in the leading cryptocurrency as investors seek refuge from rising inflation and economic uncertainty.",
-    "origin_story": "The recent spike in Bitcoin-related searches is driven by ongoing volatility in the crypto market, with Bitcoin's price fluctuating significantly in recent weeks.",
-    "expert_analysis": "The renewed interest in Bitcoin highlights the cryptocurrency's enduring appeal as a potential hedge against inflation and a diversification tool for investment portfolios. This trend reflects the public's growing awareness of digital assets and the desire for alternative financial instruments amid concerns about the traditional financial system.",
-    "impact": "The surge in Bitcoin searches could lead to increased adoption and investment in the cryptocurrency, potentially driving further market growth and mainstream acceptance.",
-    "status": "rising"
+    "headline": "Bitcoin Soars as Crypto Becomes Mainstream Obsession",
+    "summary": "The sudden spike in Google searches for 'bitcoin' reflects a growing fascination with cryptocurrencies as they gain mainstream acceptance. Investors are closely watching bitcoin's volatile price swings, driven by increasing institutional adoption and the promise of a new digital financial system.",
+    "origin_story": "Bitcoin's popularity has surged in recent months, with the cryptocurrency hitting new all-time highs and capturing the attention of investors, entrepreneurs, and the general public.",
+    "expert_analysis": "The renewed interest in bitcoin highlights the ongoing transformation of the global financial landscape, as digital currencies challenge traditional banking and investment models. This trend reflects a broader societal shift towards decentralized technologies and a growing distrust of centralized institutions.",
+    "impact": "As bitcoin's prominence continues to rise, it could have far-reaching implications for the future of money, finance, and the global economy.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T10:58:44.024402+00:00",
+  "timestamp": "2026-02-07T20:57:52.990550+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T10:58:44.024417+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:52.990566+00:00",
       "signal_score": 50
     }
   ]

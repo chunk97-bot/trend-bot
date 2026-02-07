@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "193.1K",
-      "raw": 193136
+      "searches": "109.2K",
+      "raw": 109150
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches Amid Ongoing Investigations",
-    "summary": "The former U.S. President Donald Trump has once again captured public attention, with his name trending on Google. This surge in interest is driven by the latest developments in the various legal investigations he faces.",
-    "origin_story": "Trump's name began trending on Google as news outlets reported on the latest updates regarding the numerous inquiries into his actions, both during and after his presidency.",
-    "expert_analysis": "This trend reflects the enduring public fascination with Trump, whose political career and legal troubles continue to dominate the national discourse. The intense scrutiny surrounding him underscores the deep partisan divisions within the country and the ongoing debates over the role of political leadership and accountability.",
-    "impact": "The sustained interest in Trump's legal battles is likely to shape the political landscape and public discourse in the months and years to come.",
+    "headline": "Trump Surges Back into the Spotlight as Midterm Elections Loom",
+    "summary": "As the 2022 midterm elections approach, former President Donald Trump has once again become a dominant figure in the political discourse, with his name seeing a significant surge in Google searches.",
+    "origin_story": "Trump's continued influence and involvement in the Republican party, as well as his potential 2024 presidential run, have kept him a central topic of discussion on social media and in the news.",
+    "expert_analysis": "Trump's trending status reflects the deep political divisions in the country and the ongoing debate over his legacy. While his supporters remain ardent, his critics are equally vocal, underscoring the polarized nature of American politics in the post-Trump era.",
+    "impact": "The intensity of public interest in Trump could shape the dynamics of the upcoming midterm elections and beyond, as both his allies and opponents seek to leverage his prominence for their respective political agendas.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:50:08.630510+00:00",
+  "timestamp": "2026-02-07T20:57:29.381294+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -120,6 +120,10 @@
     },
     {
       "timestamp": "2026-02-07T19:50:08.630527+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:29.381309+00:00",
       "signal_score": 50
     }
   ]

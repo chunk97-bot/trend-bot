@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "72.3K",
-      "reposts": "49.2K",
-      "raw_posts": 72266,
-      "raw_reposts": 49211
+      "posts": "84.6K",
+      "reposts": "36.2K",
+      "raw_posts": 84575,
+      "raw_reposts": 36163
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Year Ago Resurfaces as Nostalgic Viral Trend",
-    "summary": "The year 'Year Ago' has reemerged as a nostalgic trend, with thousands of social media users sharing memories and content from that time period. The sudden resurgence has struck a chord with netizens seeking a sentimental connection to the past.",
-    "origin_story": "The trend appears to have started organically on various platforms, as users began reminiscing about their experiences and discoveries from Year Ago.",
-    "expert_analysis": "This trend taps into the human desire to reflect on the passage of time and the changes we've experienced. In a fast-paced digital age, 'Year Ago' offers a chance to pause, reconnect with the past, and appreciate how far we've come, both personally and collectively.",
-    "impact": "The widespread engagement with this nostalgic trend suggests a broader cultural yearning for a sense of grounding and perspective in uncertain times.",
-    "status": "viral"
+    "headline": "Year Ago Hashtag Surges as Nostalgia Wave Sweeps Social Media",
+    "summary": "The simple hashtag '#YearAgo' has unexpectedly taken the internet by storm, as users across multiple platforms reflect on the past year and share poignant memories from this time in 2022.",
+    "origin_story": "The trend appears to have started organically on platforms like Twitter and Instagram, where people are posting sentimental photos and anecdotes accompanied by the '#YearAgo' tag.",
+    "expert_analysis": "This sudden uptick in '1 year ago' content speaks to a broader cultural phenomenon - a collective yearning for the pre-pandemic 'normal' and a need to find meaning and community in shared experiences, even if they're from the distant past. The trend taps into our universal desire for nostalgia and connection during uncertain times.",
+    "impact": "As this sentimental wave continues to build, it could cultivate a sense of solidarity and perspective among social media users grappling with the lasting effects of the pandemic.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T19:49:51.449310+00:00",
+  "timestamp": "2026-02-07T20:57:19.685665+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T10:48:18.284403+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:08:27.695565+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:49:51.449327+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T20:57:19.685679+00:00",
       "signal_score": 55
     }
   ]

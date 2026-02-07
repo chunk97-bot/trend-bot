@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "entertainment",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "133.0K",
-      "reposts": "23.2K",
-      "raw_posts": 132976,
-      "raw_reposts": 23238
+      "posts": "77.6K",
+      "reposts": "11.9K",
+      "raw_posts": 77644,
+      "raw_reposts": 11855
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Month Ago Takes Over The Internet",
-    "summary": "The topic 'Month Ago' is trending across x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Viral Trend Takes the Internet by Storm: Analyzing the Craze",
+    "summary": "A month-old trend has suddenly exploded across multiple online platforms, captivating users and sparking widespread discussion. This surge in popularity sheds light on the evolving digital landscape and the factors that drive user engagement.",
+    "origin_story": "The trend first emerged on x platform, where users began posting and sharing content related to the topic in large numbers.",
+    "expert_analysis": "This trend reflects the growing influence of internet subcultures and their ability to drive mainstream cultural discourse. The rapid spread of the content suggests a collective desire for content that resonates with specific communities and taps into shared experiences or interests.",
+    "impact": "The trend's viral nature has the potential to shape broader conversations and even influence real-world behaviors or attitudes.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T19:49:48.683219+00:00",
+  "timestamp": "2026-02-07T20:57:16.183543+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:13:28.807366+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:47:19.088124+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:49:48.683234+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T20:57:16.183563+00:00",
       "signal_score": 55
     }
   ]

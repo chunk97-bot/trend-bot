@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "211.7K",
-      "raw": 211728
+      "searches": "257.8K",
+      "raw": 257768
     },
     "x": {
       "posts": "0",
@@ -41,17 +41,21 @@
     "nba trending topics"
   ],
   "analysis": {
-    "headline": "NBA Fever Sweeps the Nation: Decoding the Surge in Popularity",
-    "summary": "The NBA is dominating search trends, as fans eagerly follow the latest developments in the basketball world. From blockbuster trades to playoff excitement, the league's captivating narratives are captivating audiences nationwide.",
-    "origin_story": "The NBA's rising popularity can be traced to the return of marquee events like the NBA Playoffs, which have generated significant buzz on Google and other platforms.",
-    "expert_analysis": "The NBA's enduring appeal reflects its ability to capture the public's imagination with high-stakes competition, larger-than-life personalities, and a constant stream of breaking news. This trend underscores the league's cultural relevance and its ability to captivate sports fans across generations.",
-    "impact": "The surge in NBA-related searches is likely to drive increased viewership, merchandise sales, and deeper fan engagement, solidifying the league's status as a dominant force in the world of professional sports.",
-    "status": "viral"
+    "headline": "NBA Fever Sweeps the Internet as Fans Crave Court Action",
+    "summary": "Basketball enthusiasts are flocking to Google, searching for the latest news and updates on their favorite NBA teams and players. This surge in interest reflects the growing anticipation for the upcoming season and the excitement surrounding key offseason moves.",
+    "origin_story": "The NBA trend has been building for weeks, with fans eagerly awaiting the release of the new season schedule and the outcomes of free agent signings.",
+    "expert_analysis": "The NBA's enduring popularity demonstrates the deep-rooted connection between sports, culture, and the digital world. Fans are using online platforms to stay informed, engage with the league, and share their passion for the game, creating a dynamic ecosystem that fuels the sport's growth and relevance.",
+    "impact": "This heightened interest in the NBA is likely to translate into increased viewership, merchandise sales, and overall engagement with the league, solidifying its position as a cultural touchstone.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T14:58:27.016420+00:00",
+  "timestamp": "2026-02-07T20:57:49.814762+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:27.016439+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:49.814777+00:00",
       "signal_score": 50
     }
   ]

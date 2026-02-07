@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "145.5K",
-      "raw": 145488
+      "searches": "264.9K",
+      "raw": 264878
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Super Bowl Goes Virtual: Fans Flock to the Metaverse",
-    "summary": "As the world's biggest sporting event, the Super Bowl has always been a cultural phenomenon. But in 2025, the game is taking a quantum leap into the virtual realm, captivating fans worldwide and sparking a surge in online searches.",
-    "origin_story": "The rise of the metaverse, a collective virtual shared space, has been steadily gaining momentum, and the 2025 Super Bowl is set to be the first major sporting event to be fully integrated into this digital landscape.",
-    "expert_analysis": "This trend reflects the growing appetite for immersive experiences and the blurring of the line between the physical and digital worlds. Fans now crave a level of engagement and personalization that traditional broadcasts cannot provide, and the metaverse offers a unique opportunity to deliver a truly interactive and customizable Super Bowl experience.",
-    "impact": "The virtual Super Bowl is poised to redefine how we consume and experience live sports, paving the way for a new era of digital entertainment and fan engagement.",
+    "headline": "Super Bowl 2025 Dominates Search Trends Amid Hype and Nostalgia",
+    "summary": "The upcoming Super Bowl in 2025 has taken the internet by storm, with Google searches reaching nearly 265,000 as fans eagerly anticipate the biggest event in American sports.",
+    "origin_story": "The surge in interest can be traced back to the announcement of the Super Bowl's return to a classic venue, sparking a wave of nostalgia and excitement among longtime fans.",
+    "expert_analysis": "This trend reflects the enduring appeal of the Super Bowl, a cultural institution that transcends the game itself. The anticipation speaks to the event's ability to unite communities and capture the public's imagination, even years in advance.",
+    "impact": "The intense online buzz suggests the 2025 Super Bowl could break viewership records and generate massive engagement across social media platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T19:06:40.529995+00:00",
+  "timestamp": "2026-02-07T20:57:39.853176+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:40.530010+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:39.853192+00:00",
       "signal_score": 50
     }
   ]

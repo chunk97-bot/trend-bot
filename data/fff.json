@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "20.0M",
-      "videos": "486.9K",
-      "raw_views": 20037092
+      "views": "87.2M",
+      "videos": "23.0K",
+      "raw_views": 87232749
     },
     "instagram": {
-      "posts": "6.9M",
-      "reach": "30.5M",
-      "raw_posts": 6894563
+      "posts": "5.6M",
+      "reach": "22.3M",
+      "raw_posts": 5638956
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Captivating Rise of the 'fff' Trend Across Social Media",
-    "summary": "A seemingly simple, yet visually striking trend featuring the hexadecimal color code '#fff' (pure white) has taken the internet by storm, capturing the attention of millions across TikTok and Instagram.",
-    "origin_story": "The trend first emerged on TikTok, where users began creating videos showcasing the stark contrast of the bright white hue against various backgrounds, sparking a wave of creative and engaging content.",
-    "expert_analysis": "The popularity of the 'fff' trend speaks to the internet's enduring fascination with minimalist aesthetics and visual simplicity. In a world saturated with complex digital stimuli, the clean, uncluttered appeal of this trend provides a refreshing respite, allowing users to appreciate the beauty in the most fundamental of colors.",
-    "impact": "The trend's widespread reach and engagement across multiple platforms demonstrate the power of visual-driven content to captivate and unite online communities.",
+    "headline": "Viral #fff Trend Sweeps Social Media, Sparking Minimalist Craze",
+    "summary": "A simple yet captivating trend centered around the hexadecimal color code #fff (white) has taken the internet by storm, inspiring millions to share stark, minimalist content across TikTok and Instagram.",
+    "origin_story": "The trend originated on TikTok, where users began posting clean, white-themed videos and images, quickly racking up millions of views and sparking a viral wave.",
+    "expert_analysis": "The #fff trend taps into a growing desire for digital simplicity and visual minimalism, reflecting a cultural shift away from the busy, overstimulating online landscapes that have dominated in recent years. This back-to-basics approach resonates with users seeking a calming respite from the noise of social media.",
+    "impact": "The trend has spread far beyond its TikTok origins, with millions of Instagram posts now using the #fff hashtag and a surge of white-themed content across various platforms.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:49:27.945842+00:00",
+  "timestamp": "2026-02-07T20:57:09.233684+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -138,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-07T19:49:27.945858+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T20:57:09.233700+00:00",
       "signal_score": 90
     }
   ]

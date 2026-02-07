@@ -1,21 +1,20 @@
 {
   "trend": "ai trending song",
-  "category": "entertainment",
+  "category": "technology",
   "platforms": {
-    "google": true,
-    "x": true
+    "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "119.8K",
-      "raw": 119826
+      "searches": "286.6K",
+      "raw": 286647
     },
     "x": {
-      "posts": "117.6K",
-      "reposts": "39.3K",
-      "raw_posts": 117578,
-      "raw_reposts": 39298
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
     },
     "tiktok": {
       "views": "0",
@@ -28,26 +27,22 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
   "locations": [
     "global"
   ],
-  "related_trends": [
-    "ai trending song",
-    "ai trending",
-    "Trending"
-  ],
+  "related_trends": [],
   "analysis": {
-    "headline": "ai trending song Takes Over The Internet",
-    "summary": "The topic 'ai trending song' is trending across google, x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "AI-Generated Song Captivates the Internet, Sparking Debate and Wonder",
+    "summary": "An AI-composed song has gone viral, captivating listeners with its uncanny ability to mimic human-made music. This trend has sparked discussions around the future of music and the role of artificial intelligence in creative pursuits.",
+    "origin_story": "The song emerged from the rapid advancements in AI technology, with platforms like Google leading the charge in developing increasingly sophisticated language and music models.",
+    "expert_analysis": "This viral trend reflects the growing public fascination with the intersection of technology and creativity. As AI systems become more adept at generating content that can pass as human-made, it raises questions about the nature of artistic expression and the role of human ingenuity in a rapidly evolving digital landscape.",
+    "impact": "The popularity of this AI-generated song could pave the way for more widespread integration of AI in the music industry, sparking debates about the future of human creativity and the potential impacts on the livelihoods of traditional musicians.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T19:49:24.660481+00:00",
+  "timestamp": "2026-02-07T20:57:22.995234+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -136,6 +131,10 @@
     {
       "timestamp": "2026-02-07T19:49:24.660501+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T20:57:22.995250+00:00",
+      "signal_score": 50
     }
   ]
 }

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "108.7K",
-      "raw": 108710
+      "searches": "179.9K",
+      "raw": 179920
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "nfl trending twitter"
   ],
   "analysis": {
-    "headline": "NFL Dominates Google Searches as Fans Eagerly Await the Season",
-    "summary": "With the NFL preseason in full swing and the regular season just around the corner, football fans are flocking to Google to stay up-to-date on the latest team news and player updates.",
-    "origin_story": "The surge in NFL-related searches on Google is a natural consequence of the sport's immense popularity and the excitement building around the upcoming season.",
-    "expert_analysis": "The NFL's enduring appeal reflects its deep cultural significance in America, where the sport has become intertwined with identity, community, and the celebration of athleticism. As the league navigates ongoing challenges, such as player safety concerns and social justice issues, the public's fascination with the game continues to captivate.",
-    "impact": "The high volume of NFL-related searches on Google underscores the sport's continued relevance and the intense interest of fans eager to follow their favorite teams and players.",
+    "headline": "NFL Dominates Trending Searches as the Season Kicks Off",
+    "summary": "With the highly anticipated NFL season underway, fans are flocking to Google to stay up-to-date on their favorite teams and players. This surge in interest reflects the enduring appeal of professional football in American culture.",
+    "origin_story": "The NFL has been a consistent trending topic on Google, as the league's devoted fanbase eagerly anticipates each new season and the latest news and updates.",
+    "expert_analysis": "The spike in NFL-related searches underscores the sport's cultural significance in the United States. Football's ability to captivate audiences, foster community, and generate intense emotions continues to drive its prominence in the national consciousness, especially as the new season begins.",
+    "impact": "The NFL's trending status on Google will likely translate to increased viewership, merchandise sales, and engagement across various media platforms as the season progresses.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T17:02:46.063496+00:00",
+  "timestamp": "2026-02-07T20:57:46.732837+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T10:58:40.398998+00:00",
@@ -60,6 +60,10 @@
     },
     {
       "timestamp": "2026-02-07T17:02:46.063511+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:46.732852+00:00",
       "signal_score": 50
     }
   ]
