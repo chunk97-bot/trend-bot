@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "179.9K",
-      "raw": 179920
+      "searches": "144.7K",
+      "raw": 144736
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "nfl trending twitter"
   ],
   "analysis": {
-    "headline": "NFL Dominates Trending Searches as the Season Kicks Off",
-    "summary": "With the highly anticipated NFL season underway, fans are flocking to Google to stay up-to-date on their favorite teams and players. This surge in interest reflects the enduring appeal of professional football in American culture.",
-    "origin_story": "The NFL has been a consistent trending topic on Google, as the league's devoted fanbase eagerly anticipates each new season and the latest news and updates.",
-    "expert_analysis": "The spike in NFL-related searches underscores the sport's cultural significance in the United States. Football's ability to captivate audiences, foster community, and generate intense emotions continues to drive its prominence in the national consciousness, especially as the new season begins.",
-    "impact": "The NFL's trending status on Google will likely translate to increased viewership, merchandise sales, and engagement across various media platforms as the season progresses.",
+    "headline": "NFL Dominates Online Searches as Fans Gear Up for Season",
+    "summary": "The NFL is trending on Google as football fans eagerly anticipate the upcoming season. Searches have spiked as people look for news on their favorite teams, players, and the latest developments in the league.",
+    "origin_story": "The NFL's popularity has always been strong, but searches tend to increase as the new season approaches and excitement builds.",
+    "expert_analysis": "This trend reflects the deep-rooted passion of NFL fans and the cultural significance of professional football in the United States. The high search volume indicates that the league remains a major source of entertainment and interest for millions of Americans.",
+    "impact": "The NFL's continued dominance in online searches suggests the league's ability to captivate audiences and drive engagement, which is crucial for its commercial success and media partnerships.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T20:57:46.732837+00:00",
+  "timestamp": "2026-02-07T23:01:05.007562+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T10:58:40.398998+00:00",
@@ -64,6 +64,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:46.732852+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:01:05.007576+00:00",
       "signal_score": 50
     }
   ]

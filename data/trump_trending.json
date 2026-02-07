@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "156.1K",
-      "raw": 156129
+      "searches": "205.8K",
+      "raw": 205813
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Surges Back into the Spotlight as Chatter Ramps Up",
-    "summary": "Former President Donald Trump has once again become a major topic of discussion online, with a significant spike in Google searches around his name. This heightened interest comes amidst ongoing political and legal developments surrounding Trump.",
-    "origin_story": "The renewed interest in Trump appears to have been sparked by a range of recent events, including the ongoing investigation into the January 6th Capitol attack and the FBI's search of his Mar-a-Lago residence.",
-    "expert_analysis": "Trump's ability to captivate public attention, even out of office, speaks to his enduring influence and the deep partisan divisions in the country. This trend reflects the intense polarization in American politics, as well as the public's fascination with political drama and controversy.",
-    "impact": "As Trump remains a central figure in the national discourse, this surge in online interest could impact public opinion, media coverage, and the broader political landscape.",
+    "headline": "Trump Surges Back to the Forefront of Online Discourse",
+    "summary": "Former President Donald Trump's name is once again dominating online search trends, as the public eagerly follows the latest developments in his potential 2024 presidential run and ongoing legal battles.",
+    "origin_story": "Trump's resurgence in online popularity is likely driven by recent news around his potential campaign and a series of high-profile investigations into his business practices and role in the January 6th Capitol riots.",
+    "expert_analysis": "Trump's persistent grip on the national spotlight reveals an enduring fascination with the former president, even as he remains a deeply polarizing figure. This trend underscores the powerful hold that celebrity-driven politics and controversy can have on the public consciousness.",
+    "impact": "As the 2024 election cycle approaches, Trump's online popularity will undoubtedly shape the political landscape and influence the national discourse.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T21:55:10.167517+00:00",
+  "timestamp": "2026-02-07T23:00:43.098365+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -128,6 +128,10 @@
     },
     {
       "timestamp": "2026-02-07T21:55:10.167533+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:43.098381+00:00",
       "signal_score": 50
     }
   ]

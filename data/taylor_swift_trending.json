@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "201.3K",
-      "raw": 201314
+      "searches": "280.3K",
+      "raw": 280324
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "taylor swift trending song on tiktok"
   ],
   "analysis": {
-    "headline": "Taylor Swift Fever Grips the Internet as New Song Captivates Fans",
-    "summary": "Taylor Swift's highly anticipated new single has taken the internet by storm, with searches for the artist and her music skyrocketing. Fans are eagerly dissecting the lyrics and speculating about the song's deeper meaning.",
-    "origin_story": "The trend began on Google as fans searched for information about Swift's latest release, which has sparked widespread discussion and excitement across social media platforms.",
-    "expert_analysis": "This surge in interest highlights the enduring popularity and cultural influence of Taylor Swift, who has managed to maintain her status as a global superstar and a lightning rod for fan engagement. The intense reaction to her new music underscores the deep emotional connection she has forged with her audience over the years.",
-    "impact": "The trend is expected to continue as fans immerse themselves in the new song and await further updates from the artist.",
+    "headline": "Taylor Swift Reenters Charts, Captivating Fans with New Music",
+    "summary": "Taylor Swift's latest songs have surged in popularity on Google, as the music icon's devoted fanbase eagerly embraces her newest releases and anticipates her next big move.",
+    "origin_story": "The spike in searches for 'taylor swift trending' and related terms began with the recent launch of Swift's latest singles, driving a wave of renewed interest in the singer-songwriter's work.",
+    "expert_analysis": "Swift's ability to consistently capture the public's attention speaks to her enduring cultural relevance and the deep connection she has forged with her fanbase. This trend highlights the power of Swift's artistry to captivate audiences and drive music industry conversations.",
+    "impact": "The surge in Taylor Swift's online presence is likely to translate into strong sales and streaming performance for her new music, further cementing her status as a global superstar.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T21:55:23.161101+00:00",
+  "timestamp": "2026-02-07T23:01:01.678660+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -68,6 +68,10 @@
     },
     {
       "timestamp": "2026-02-07T21:55:23.161118+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:01:01.678674+00:00",
       "signal_score": 50
     }
   ]

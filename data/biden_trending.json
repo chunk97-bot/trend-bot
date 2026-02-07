@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "154.1K",
-      "raw": 154096
+      "searches": "170.9K",
+      "raw": 170901
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending as Speculation Swirls Over President's 2024 Plans",
-    "summary": "Searches for 'Biden' have surged on Google as rumors circulate about the president's potential run for a second term in 2024. The renewed interest comes amid ongoing discussions about the Democratic party's leadership and the future of American politics.",
-    "origin_story": "The spike in 'Biden' searches appears to have been sparked by recent media reports and political commentary surrounding the president's future plans.",
-    "expert_analysis": "This trend highlights the intense public fascination with the Biden presidency and the high stakes of the 2024 election. It reflects the deep political polarization in the US, as well as the enduring influence of internet discourse on the national conversation.",
-    "impact": "The Biden trending topic could shape the political narrative in the coming months and influence the direction of the Democratic party.",
+    "headline": "Biden Surges to Top of Google Search Trends Amid Political Controversy",
+    "summary": "The name 'Biden' has exploded in Google search traffic as the president finds himself embroiled in a range of political issues, from the ongoing classified documents saga to renewed scrutiny over his son Hunter's business dealings.",
+    "origin_story": "The spike in searches began following the revelation that classified government documents were discovered in Biden's private residence and former office, reigniting a political firestorm.",
+    "expert_analysis": "This trend reflects the public's enduring fascination with the Biden family and the president's ability to draw intense media attention, even when the news is unfavorable. It also highlights the influence of online search behavior as a real-time barometer of shifting political narratives.",
+    "impact": "The heightened search interest could shape public perception and drive the news cycle surrounding the Biden administration in the coming weeks.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T21:55:13.654724+00:00",
+  "timestamp": "2026-02-07T23:00:46.701934+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T10:48:28.329726+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:08:55.200198+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-07T21:55:13.654742+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:46.701948+00:00",
       "signal_score": 50
     }
   ]

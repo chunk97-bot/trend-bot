@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "memes",
+  "category": "art",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "35.0K",
-      "reposts": "16.3K",
-      "raw_posts": 35040,
-      "raw_reposts": 16304
+      "posts": "84.1K",
+      "reposts": "19.0K",
+      "raw_posts": 84117,
+      "raw_reposts": 19017
     },
     "tiktok": {
-      "views": "2.4M",
-      "videos": "11.2K",
-      "raw_views": 2379305
+      "views": "8.0M",
+      "videos": "27.0K",
+      "raw_views": 7981198
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Hex Code' Trend Sparks Speculation and Creativity",
-    "summary": "A mysterious string of hexadecimal code, '681da8', has taken the internet by storm, with users across platforms like TikTok and Twitter scrambling to uncover its meaning and significance.",
-    "origin_story": "The trend appears to have originated on TikTok, where users have been posting videos speculating about the code's purpose and creating art, music, and other content inspired by it.",
-    "expert_analysis": "This trend taps into the human desire to decode and unravel mysteries, as well as the internet's penchant for generating and amplifying viral phenomena from seemingly innocuous starting points. It also highlights the power of collective creativity and the ability of online communities to transform something seemingly mundane into a captivating cultural moment.",
-    "impact": "The widespread engagement and creative output surrounding the '681da8' trend suggests it has the potential to evolve into a larger cultural phenomenon, with potential implications for branding, marketing, and the way we collectively engage with and interpret digital content.",
-    "status": "rising"
+    "headline": "Viral Hashtag #681da8 Sparks Creative Outpouring on TikTok and Twitter",
+    "summary": "A mysterious hexadecimal color code, #681da8, has taken the internet by storm, inspiring thousands of creative TikTok videos and Twitter posts as users explore the artistic possibilities of this vibrant hue.",
+    "origin_story": "The trend appears to have started on TikTok, where users began posting videos showcasing their interpretations of the color, from fashion and makeup to digital art and photography.",
+    "expert_analysis": "The viral spread of #681da8 taps into the human desire to find meaning and express creativity within constraints. The simplicity of a single color code has allowed for a boundless array of personal interpretations, highlighting the power of social media to foster collective artistic exploration.",
+    "impact": "As the trend continues to gain momentum, it has the potential to inspire collaborations, challenges, and a broader appreciation for the creative potential of digital platforms.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T21:54:41.255297+00:00",
+  "timestamp": "2026-02-07T23:00:19.375600+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T17:31:29.333039+00:00",
-      "signal_score": 75
-    },
     {
       "timestamp": "2026-02-06T19:50:03.144506+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-07T21:54:41.255314+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T23:00:19.375621+00:00",
+      "signal_score": 100
     }
   ]
 }
