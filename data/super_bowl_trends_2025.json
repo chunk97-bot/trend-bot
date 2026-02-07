@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "263.6K",
-      "raw": 263643
+      "searches": "145.5K",
+      "raw": 145488
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Anticipation Builds for the Super Bowl of the Future",
-    "summary": "As the 2025 Super Bowl approaches, a surge in Google searches indicates widespread excitement and speculation around the game's innovative new features and format. Fans are eager to see how the event will adapt to evolving technology and viewer preferences.",
-    "origin_story": "The spike in interest emerged in the wake of the NFL's announcement of major changes to the 2025 Super Bowl, which will take place in a cutting-edge, fully immersive virtual stadium.",
-    "expert_analysis": "This trend reflects the public's growing fascination with the intersection of sports, technology, and entertainment. Fans are hungry for the Super Bowl to push the boundaries of the live event experience, leveraging the latest advancements in VR, AI, and other emerging technologies.",
-    "impact": "The intense anticipation surrounding the 2025 Super Bowl signals that the future of major sporting events could be radically transformed, offering a more personalized, interactive, and digitally-enhanced experience for viewers.",
+    "headline": "The Super Bowl Goes Virtual: Fans Flock to the Metaverse",
+    "summary": "As the world's biggest sporting event, the Super Bowl has always been a cultural phenomenon. But in 2025, the game is taking a quantum leap into the virtual realm, captivating fans worldwide and sparking a surge in online searches.",
+    "origin_story": "The rise of the metaverse, a collective virtual shared space, has been steadily gaining momentum, and the 2025 Super Bowl is set to be the first major sporting event to be fully integrated into this digital landscape.",
+    "expert_analysis": "This trend reflects the growing appetite for immersive experiences and the blurring of the line between the physical and digital worlds. Fans now crave a level of engagement and personalization that traditional broadcasts cannot provide, and the metaverse offers a unique opportunity to deliver a truly interactive and customizable Super Bowl experience.",
+    "impact": "The virtual Super Bowl is poised to redefine how we consume and experience live sports, paving the way for a new era of digital entertainment and fan engagement.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T17:57:32.334529+00:00",
+  "timestamp": "2026-02-07T19:06:40.529995+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-07T17:57:32.334545+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:40.530010+00:00",
       "signal_score": 50
     }
   ]

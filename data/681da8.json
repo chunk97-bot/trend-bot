@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "culture",
+  "category": "technology",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "62.1K",
-      "reposts": "12.2K",
-      "raw_posts": 62123,
-      "raw_reposts": 12193
+      "posts": "31.2K",
+      "reposts": "21.7K",
+      "raw_posts": 31245,
+      "raw_reposts": 21664
     },
     "tiktok": {
-      "views": "7.2M",
-      "videos": "42.9K",
-      "raw_views": 7163008
+      "views": "1.5M",
+      "videos": "49.1K",
+      "raw_views": 1490085
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hexadecimal Code Captivates Viral Internet Audiences",
-    "summary": "A mysterious hexadecimal code, '681da8', has taken the internet by storm, sparking intense speculation and intrigue across social media platforms like TikTok and Twitter.",
-    "origin_story": "The trend appears to have started on TikTok, where users have been creating videos exploring the potential meaning and origins of the code.",
-    "expert_analysis": "This viral phenomenon taps into the human desire to uncover hidden meanings and solve mysteries. The cryptic nature of the code has captured the imagination of internet users, who are eager to collectively decipher its significance, reflecting the power of online communities to collectively investigate and speculate.",
-    "impact": "The widespread interest in the '681da8' code has the potential to spawn creative fan theories, artistic interpretations, and even real-world investigations, demonstrating the internet's ability to amplify and propel even the most enigmatic of trends.",
-    "status": "rising"
+    "headline": "Viral 'Glitch' Clip Sparks Debate on Digital Reality and the Uncanny",
+    "summary": "A bizarre video clip depicting a seemingly 'glitched' environment has taken the internet by storm, captivating viewers with its unsettling yet mesmerizing visuals. The mysterious footage has sparked discussions around the boundaries of digital realism and the power of the uncanny.",
+    "origin_story": "The clip, which has been widely shared on platforms like TikTok and Twitter, first emerged from an anonymous user's social media account, adding to the enigmatic nature of its origins.",
+    "expert_analysis": "This trend taps into a growing fascination with the blurring lines between the physical and virtual worlds. As technology continues to advance, the public's appetite for content that challenges our perceptions of reality has intensified. The 'glitch' video resonates with audiences because it evokes a sense of unease and wonder, hinting at the limitations of our digital constructs.",
+    "impact": "The widespread engagement with this trend suggests a deeper cultural interest in exploring the implications of our increasingly technologically-mediated existence.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T17:56:52.707455+00:00",
+  "timestamp": "2026-02-07T19:05:54.825162+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:10:23.770715+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-06T12:20:11.872058+00:00",
       "signal_score": 100
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-07T17:56:52.707471+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T19:05:54.825177+00:00",
+      "signal_score": 85
     }
   ]
 }

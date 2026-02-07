@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "205.2K",
-      "raw": 205184
+      "searches": "287.5K",
+      "raw": 287485
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Online Discourse as Chatbots Captivate the Public",
-    "summary": "Artificial intelligence is taking the internet by storm, with AI-powered chatbots and language models capturing the public's imagination. People are flocking to engage with these advanced conversational agents, driving a surge in online chatter and searches.",
-    "origin_story": "The recent explosion of interest in AI can be traced back to the launch of ChatGPT, an AI chatbot developed by OpenAI that has wowed users with its ability to engage in natural language conversations.",
-    "expert_analysis": "The meteoric rise of AI-related trends underscores the public's fascination with the rapidly advancing capabilities of these technologies. As AI systems become more sophisticated, they are blurring the lines between human and machine, prompting widespread curiosity and speculation about the future implications of artificial intelligence.",
-    "impact": "The growing prominence of AI in online discourse is likely to have far-reaching effects on various industries, from education and healthcare to entertainment and marketing.",
+    "headline": "AI Takes the Spotlight: Why the World Can't Stop Talking",
+    "summary": "As the world grapples with the rapid advancements in artificial intelligence, the public's fascination with this transformative technology has reached new heights. Google searches for AI-related topics have surged, reflecting a growing interest in the potential and implications of this cutting-edge field.",
+    "origin_story": "The recent launch of ChatGPT, a powerful language model developed by OpenAI, has ignited a widespread conversation about the future of AI and its impact on various aspects of our lives.",
+    "expert_analysis": "This trend speaks to the public's insatiable curiosity about the capabilities and limitations of AI. People are eager to understand how this technology can revolutionize industries, reshape communication, and potentially redefine the human experience. The surge in interest also underscores the need for thoughtful discussions around the ethical considerations and societal implications of AI development.",
+    "impact": "As AI continues to advance, its influence will likely permeate more areas of our lives, from education and healthcare to finance and entertainment, making it a topic of paramount importance for both individuals and policymakers.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:19:52.399957+00:00",
+  "timestamp": "2026-02-07T19:06:19.220755+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -102,6 +102,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:52.399973+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:19.220770+00:00",
       "signal_score": 50
     }
   ]

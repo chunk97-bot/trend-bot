@@ -1,6 +1,6 @@
 {
   "trend": "fff",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "tiktok": true,
     "instagram": true
@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "63.1M",
-      "videos": "391.3K",
-      "raw_views": 63100931
+      "views": "91.7M",
+      "videos": "216.7K",
+      "raw_views": 91709653
     },
     "instagram": {
-      "posts": "1.5M",
-      "reach": "47.5M",
-      "raw_posts": 1499174
+      "posts": "6.8M",
+      "reach": "48.5M",
+      "raw_posts": 6812253
     }
   },
   "signal_score": 90,
@@ -39,14 +39,14 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Dazzling Allure of Blank Canvases: Why 'fff' Is Captivating Social Media",
-    "summary": "The simple yet mesmerizing trend of posting images with the hex code '#fff' (representing the color white) has taken the internet by storm, amassing millions of views and engagements across TikTok and Instagram.",
-    "origin_story": "The trend began on TikTok, where users discovered the visual appeal of a plain white canvas and the creative possibilities it offers.",
-    "expert_analysis": "The 'fff' trend speaks to our innate human desire for simplicity and minimalism in a visually cluttered digital landscape. It taps into the calming power of empty spaces, allowing users to project their own interpretations and emotions onto a blank slate.",
-    "impact": "This trend has transcended its digital boundaries, with users exploring the concept in physical spaces and art forms, showcasing the trend's broader cultural resonance.",
+    "headline": "Dazzling 'fff' Trend Takes Over Social Media, Captivating Millions",
+    "summary": "The mysterious 'fff' trend has taken the internet by storm, with millions of users across TikTok and Instagram creating and engaging with content featuring the enigmatic hexadecimal code. The trend's rapid rise has left many wondering about its origins and significance.",
+    "origin_story": "The 'fff' trend appears to have first gained traction on TikTok, where users have been creating and sharing videos showcasing the vibrant, pure white color represented by the hexadecimal code #FFFFFF.",
+    "expert_analysis": "The 'fff' trend taps into a universal human desire for simplicity and purity, offering a digital respite from the visual noise and complexity that often characterize modern social media. By embracing the minimalist aesthetic of pure white, users are engaging in a form of digital minimalism that resonates with a generation seeking more mindful online experiences.",
+    "impact": "The trend's staggering reach, with over 91 million TikTok views and 6.8 million Instagram posts, suggests that 'fff' has struck a chord with a wide audience, transcending traditional social media boundaries.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:56:56.844343+00:00",
+  "timestamp": "2026-02-07T19:05:51.388781+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:48.293420+00:00",
@@ -130,6 +130,10 @@
     },
     {
       "timestamp": "2026-02-07T17:56:56.844358+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-07T19:05:51.388796+00:00",
       "signal_score": 90
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "273.1K",
-      "raw": 273143
+      "searches": "133.1K",
+      "raw": 133067
     },
     "x": {
       "posts": "0",
@@ -35,20 +35,20 @@
   ],
   "related_trends": [
     "biden trending",
-    "biden trending news",
-    "biden trending video",
-    "biden trending debate",
-    "biden trending news today"
+    "joe biden trending",
+    "hunter biden trending",
+    "jill biden trending",
+    "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to Top of Google Searches Amid Heated Discourse",
-    "summary": "President Joe Biden has found himself at the center of intense online attention, with his name dominating Google search trends. This surge in interest reflects the divisive political climate and the public's ongoing fascination with the administration's policies and actions.",
-    "origin_story": "The increased search activity around Biden likely stems from a combination of recent news events and the continued polarization of American politics.",
-    "expert_analysis": "This trend underscores the outsized influence of the internet and social media in shaping political narratives. The public's voracious appetite for information, both factual and speculative, has made Biden a focal point of discussion, fueling ongoing debates around his leadership and the direction of the country.",
-    "impact": "The intensity of this online interest could shape public opinion and influence the political landscape in the months and years ahead.",
-    "status": "viral"
+    "headline": "Biden Surges to Top of Google Searches Amid Ongoing Controversies",
+    "summary": "President Joe Biden's name has been dominating Google searches, driven by a resurgence of interest in the ongoing investigations into his son Hunter Biden's business dealings and revelations from the president's classified documents case.",
+    "origin_story": "The spike in Biden-related searches began after recent news reports about the discoveries of classified materials at the president's private residence and former office.",
+    "expert_analysis": "This trend reflects the public's enduring fascination with political scandals and the Biden family's legal troubles. It also highlights the power of internet search data to quickly gauge shifting public attention and concerns around political figures.",
+    "impact": "The intense scrutiny could put further pressure on the Biden administration and shape the political narrative ahead of the 2024 presidential election.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T17:19:58.767268+00:00",
+  "timestamp": "2026-02-07T19:06:28.295763+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -132,6 +132,10 @@
     },
     {
       "timestamp": "2026-02-07T17:19:58.767284+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:28.295781+00:00",
       "signal_score": 50
     }
   ]

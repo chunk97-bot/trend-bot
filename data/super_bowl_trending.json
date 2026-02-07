@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "201.1K",
-      "raw": 201112
+      "searches": "116.1K",
+      "raw": 116053
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Fever Grips the Internet as Game Day Approaches",
-    "summary": "As the highly anticipated Super Bowl approaches, the internet is abuzz with excitement and anticipation. Google searches related to the big game have surged, indicating a widespread interest in the event among online users.",
-    "origin_story": "The Super Bowl is a yearly event that has captured the attention of sports fans and casual viewers alike. The game's prominence on social media and search engines reflects its status as a cultural phenomenon.",
-    "expert_analysis": "The spike in Super Bowl-related searches highlights the event's enduring appeal and the way it transcends the boundaries of sports, tapping into broader cultural and social trends. The Super Bowl serves as a shared experience, bringing people together through the shared excitement of the game, the commercials, and the halftime show.",
-    "impact": "The massive online engagement surrounding the Super Bowl underscores its far-reaching impact, as fans and non-fans alike eagerly anticipate the spectacle.",
-    "status": "viral"
+    "headline": "Super Bowl Frenzy Sweeps the Internet as Big Game Approaches",
+    "summary": "With the Super Bowl just around the corner, excitement is reaching a fever pitch on Google as fans search for the latest news, highlights, and predictions about the big game. This annual sports spectacle has captured the attention of millions, driving a surge in online activity.",
+    "origin_story": "The Super Bowl's popularity as a cultural event has long been established, but this year's search trends indicate that anticipation is especially high as the world's top football teams prepare to battle it out.",
+    "expert_analysis": "The spike in Super Bowl-related searches on Google reflects the event's deep-rooted status as a unifying force in American culture. The Super Bowl has evolved into much more than just a sports competition, becoming a shared experience that transcends fandom and brings people together through the shared excitement of the game, the halftime show, and the iconic commercials.",
+    "impact": "This trend demonstrates the enduring appeal of the Super Bowl, which continues to captivate audiences and drive significant online engagement.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T17:20:07.936014+00:00",
+  "timestamp": "2026-02-07T19:06:32.473220+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:14:00.482771+00:00",
@@ -110,6 +110,10 @@
     },
     {
       "timestamp": "2026-02-07T17:20:07.936031+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:32.473235+00:00",
       "signal_score": 50
     }
   ]

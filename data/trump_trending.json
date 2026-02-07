@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "186.6K",
-      "raw": 186598
+      "searches": "261.2K",
+      "raw": 261219
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Online Search as Political Tensions Escalate",
-    "summary": "Former President Donald Trump is once again a hot topic on Google, with searches for his name spiking amidst ongoing legal battles and his potential 2024 presidential run. The renewed interest highlights the continued polarization and fascination surrounding Trump's political career.",
-    "origin_story": "The surge in Trump-related searches appears to be driven by a combination of recent developments, including the investigation into the handling of classified documents at his Mar-a-Lago residence and his ongoing legal challenges.",
-    "expert_analysis": "Trump's enduring presence in online discourse reflects the deep division in American politics. While his supporters remain fervent, the intense scrutiny and legal troubles he faces are fueling renewed interest and debate around his political future and influence.",
-    "impact": "The high-profile nature of these developments ensures that Trump will continue to be a dominant figure in the national conversation, with far-reaching implications for the political landscape.",
+    "headline": "Trump Dominates Trending Searches Amid Political Turmoil",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name surging to the top of Google search trends. The spike in interest comes amidst ongoing legal battles and the anticipation of a potential 2024 presidential run.",
+    "origin_story": "Trump's name started trending on Google after reports surfaced of his legal team negotiating a possible surrender to face criminal charges in New York.",
+    "expert_analysis": "Trump's enduring influence on the national conversation is a testament to his polarizing political persona. Whether it's his legal troubles or speculation about another White House bid, the public remains captivated by the former president's every move, highlighting the deep partisan divide in the country.",
+    "impact": "This trend underscores the outsized role Trump continues to play in shaping the political landscape, even after leaving office.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T17:57:25.110488+00:00",
+  "timestamp": "2026-02-07T19:06:22.949673+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -112,6 +112,10 @@
     },
     {
       "timestamp": "2026-02-07T17:57:25.110503+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:22.949688+00:00",
       "signal_score": 50
     }
   ]
