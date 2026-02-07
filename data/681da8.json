@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "59.7K",
-      "reposts": "22.4K",
-      "raw_posts": 59718,
-      "raw_reposts": 22409
+      "posts": "43.8K",
+      "reposts": "17.7K",
+      "raw_posts": 43760,
+      "raw_reposts": 17685
     },
     "tiktok": {
-      "views": "8.8M",
-      "videos": "15.0K",
-      "raw_views": 8819171
+      "views": "7.6M",
+      "videos": "16.3K",
+      "raw_views": 7573585
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,14 +36,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hex Code Captivates Social Media: A Colorful Craze Unraveled",
-    "summary": "A seemingly innocuous string of hexadecimal digits, '681da8', has taken the internet by storm, sparking a viral frenzy across platforms like TikTok and Twitter. Users are eager to uncover the meaning and origin behind this captivating code.",
-    "origin_story": "The trend first emerged on TikTok, where users began sharing videos speculating about the significance of the hex code, leading to a wave of engagement and creative content.",
-    "expert_analysis": "This trend reflects the internet's insatiable curiosity and collective desire to find meaning in the seemingly mundane. The allure of deciphering hidden codes or uncovering the unexpected captivates a generation of digital natives, who find joy in solving online mysteries and participating in viral challenges.",
-    "impact": "As the trend continues to gain momentum, it highlights the power of social media to amplify niche interests and foster a sense of community around even the most enigmatic of digital phenomena.",
-    "status": "rising"
+    "headline": "Mysterious Hexagon Sparks Widespread Online Fascination",
+    "summary": "A mysterious hexagonal symbol has taken the internet by storm, captivating users across social media platforms with its enigmatic nature and potential hidden meaning.",
+    "origin_story": "The symbol, identified as '681da8', first gained traction on TikTok and other visual-centric platforms, sparking speculation and curiosity among a growing number of users.",
+    "expert_analysis": "This trend speaks to the internet's insatiable appetite for mysteries and hidden codes. In an age where information is readily available, the allure of an uncracked digital puzzle has clearly resonated with a wide audience, tapping into our collective desire to uncover the unknown.",
+    "impact": "As this viral phenomenon continues to spread, it has the potential to inspire creative problem-solving, community-driven investigations, and even new artistic or cultural expressions.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T09:02:49.371376+00:00",
+  "timestamp": "2026-02-07T09:58:09.714110+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:43:01.180677+00:00",
@@ -128,6 +128,10 @@
     {
       "timestamp": "2026-02-07T09:02:49.371400+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T09:58:09.714126+00:00",
+      "signal_score": 85
     }
   ]
 }

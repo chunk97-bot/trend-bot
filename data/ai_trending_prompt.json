@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "288.3K",
-      "raw": 288347
+      "searches": "127.5K",
+      "raw": 127513
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Powered Prompts Captivate the Internet: The Rise of a New Creative Frontier",
-    "summary": "As AI models like ChatGPT have grown in sophistication, a new trend has emerged - the use of AI-generated prompts to inspire and guide creative expression. People are flocking to explore the endless possibilities unlocked by this innovative approach to art, writing, and more.",
-    "origin_story": "The trend gained momentum on social media platforms like Twitter, where users began sharing their AI-generated prompts and the intriguing results they produced.",
-    "expert_analysis": "This trend reflects a growing fascination with the capabilities of AI and a desire to harness this technology to push the boundaries of creativity. It also speaks to the human need for inspiration and the way technology can facilitate new forms of self-expression.",
-    "impact": "As AI-powered prompts continue to captivate the public, we may see a surge in innovative artistic and literary works, as well as the emergence of new creative communities and collaborations.",
-    "status": "rising"
+    "headline": "AI Prompts Take the Internet by Storm: The Rise of Creative Expression",
+    "summary": "AI-generated text prompts have become a viral sensation, as people across the internet discover the power of AI to unleash their creative potential. This trend reflects a growing fascination with the capabilities of AI and a desire to push the boundaries of self-expression.",
+    "origin_story": "The trend started on platforms like Twitter and Reddit, where users began sharing their AI-generated text prompts, showcasing the diverse and often surprising results.",
+    "expert_analysis": "This trend speaks to the public's growing interest in the creative applications of AI technology. As AI systems become more advanced, people are exploring how they can leverage these tools to express themselves in new and imaginative ways, blurring the lines between human and machine creativity.",
+    "impact": "The AI prompt trend has the potential to revolutionize creative industries, as people discover new ways to collaborate with AI and push the boundaries of what's possible.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T09:03:13.309756+00:00",
+  "timestamp": "2026-02-07T09:58:27.193333+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:14.370934+00:00",
@@ -106,6 +106,10 @@
     },
     {
       "timestamp": "2026-02-07T09:03:13.309772+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:27.193348+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "256.1K",
-      "raw": 256100
+      "searches": "113.0K",
+      "raw": 112962
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Google Searches as Curiosity and Confusion Swirl",
-    "summary": "People are flocking to Google to learn more about artificial intelligence, driven by the rapid advancements and public fascination with AI-powered chatbots and tools. This surge in interest reflects both excitement and uncertainty around the technology's potential impact.",
-    "origin_story": "The recent release of ChatGPT, a highly capable AI chatbot, has sparked widespread curiosity and discussion about the capabilities of AI across the internet.",
-    "expert_analysis": "The spike in AI-related searches underscores the public's eagerness to understand and engage with this transformative technology. As AI systems become more sophisticated and accessible, people are grappling with both the promise and the pitfalls, leading to this heightened level of interest and inquiry.",
-    "impact": "This trend signals that AI is poised to shape the future in significant ways, with implications for industries, workplaces, and daily life.",
+    "headline": "Artificial Intelligence Dominates Trending Topics Across the Web",
+    "summary": "AI has become a major point of fascination and discussion online, with searches for AI-related topics spiking to over 113,000 on Google as people seek to understand the latest advancements and implications of this rapidly evolving technology.",
+    "origin_story": "The surge in AI-related searches can be traced back to the viral success of ChatGPT, the advanced language model developed by OpenAI that has captured the public's imagination with its remarkable conversational abilities.",
+    "expert_analysis": "The intense interest in AI reflects a growing awareness and curiosity about the transformative potential of this technology, which is poised to disrupt numerous industries and reshape the way we live, work, and interact. As AI systems become more sophisticated, the public is grappling with both the exciting possibilities and the ethical challenges that come with these advancements.",
+    "impact": "The prevalence of AI-related trends underscores the far-reaching impact that this technology will have on our society, driving both innovation and complex conversations about the future.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:03:17.377528+00:00",
+  "timestamp": "2026-02-07T09:58:31.157148+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -74,6 +74,10 @@
     },
     {
       "timestamp": "2026-02-07T09:03:17.377545+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:31.157164+00:00",
       "signal_score": 50
     }
   ]

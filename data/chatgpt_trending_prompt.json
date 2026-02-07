@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "108.6K",
-      "raw": 108597
+      "searches": "118.3K",
+      "raw": 118306
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "chatgpt trending prompt christmas"
   ],
   "analysis": {
-    "headline": "The Meteoric Rise of ChatGPT Prompts Trend Frenzy",
-    "summary": "The surge in popularity of ChatGPT, the cutting-edge AI language model, has sparked an online craze for creative prompts that can unlock its full potential. Google searches for 'chatgpt trending prompt' have skyrocketed as users seek new ways to push the boundaries of this powerful AI assistant.",
-    "origin_story": "The trend started on social media platforms like Twitter, where users began sharing their most engaging and innovative ChatGPT prompts, showcasing the model's diverse capabilities.",
-    "expert_analysis": "This trend reflects the public's fascination with the transformative power of AI technology and the endless possibilities it offers for creative expression and problem-solving. As ChatGPT continues to captivate the global audience, the hunt for the perfect prompt has become a new form of digital exploration and self-discovery.",
-    "impact": "The widespread interest in ChatGPT prompts could lead to advancements in AI-driven content creation and user-generated experiences, transforming how we interact with technology in our daily lives.",
-    "status": "rising"
+    "headline": "ChatGPT Prompts Take the Internet by Storm: Mastering the Art of Creative Expression",
+    "summary": "The internet is abuzz with the latest craze: ChatGPT prompts. People are flocking to Google to discover how to craft the perfect prompt, unleashing a wave of creativity and innovation across the digital landscape.",
+    "origin_story": "The surge in interest around ChatGPT prompts began on various social media platforms, where users shared their experiences and techniques for eliciting exceptional responses from the AI language model.",
+    "expert_analysis": "This trend reflects a growing fascination with the capabilities of artificial intelligence and the desire to push the boundaries of creative expression. As ChatGPT continues to capture the public's imagination, the quest for the ultimate prompt has become a cultural phenomenon, showcasing the human need to collaborate with technology in innovative and unexpected ways.",
+    "impact": "The widespread adoption of ChatGPT prompts has the potential to revolutionize fields such as content creation, marketing, and education, as individuals and businesses harness the power of this AI technology to enhance their output and engage their audiences.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T07:58:00.348483+00:00",
+  "timestamp": "2026-02-07T09:58:37.734496+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -109,6 +109,10 @@
     },
     {
       "timestamp": "2026-02-07T07:58:00.348494+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:37.734512+00:00",
       "signal_score": 50
     }
   ]

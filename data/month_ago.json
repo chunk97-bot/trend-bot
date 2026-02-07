@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "134.1K",
-      "reposts": "32.1K",
-      "raw_posts": 134110,
-      "raw_reposts": 32101
+      "posts": "173.9K",
+      "reposts": "40.6K",
+      "raw_posts": 173937,
+      "raw_reposts": 40650
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Retro Aesthetic Reclaims Internet Amid Uncertain Times",
-    "summary": "A nostalgic trend for '90s and early 2000s aesthetics has taken over social media, as people seek comfort in familiar digital styles during a period of global instability.",
-    "origin_story": "The trend originated on platforms like TikTok, where users have been recreating iconic website designs and sharing their favorite retro tech.",
-    "expert_analysis": "This aesthetic revival reflects a broader cultural longing for simpler, more carefree digital spaces. As the modern internet feels increasingly chaotic and overwhelming, people are turning to the familiar comforts of the past to find solace.",
-    "impact": "The trend has sparked a wave of creativity, with users building retro-inspired websites and apps that offer a respite from the complexities of the present.",
+    "headline": "Viral Dance Craze Sweeps the Internet, Sparking Joy Amid Chaos",
+    "summary": "A recent month-old dance trend has taken the internet by storm, captivating users across various platforms with its upbeat, feel-good energy. The surge in popularity reflects a collective need for lighthearted escapism during these turbulent times.",
+    "origin_story": "The dance originated on TikTok, where users have been sharing their own interpretations and iterations of the choreography.",
+    "expert_analysis": "This trend speaks to the power of social media to unite people around shared experiences and expressions of joy. In a world often consumed by negative news and uncertainty, the viral dance craze offers a much-needed respite, allowing people to connect through the universal language of music and movement.",
+    "impact": "The trend has transcended social media, with the dance being performed and shared across a wide range of online and offline communities.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T09:03:02.143985+00:00",
+  "timestamp": "2026-02-07T09:58:16.346202+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-07T09:03:02.144004+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T09:58:16.346219+00:00",
       "signal_score": 55
     }
   ]

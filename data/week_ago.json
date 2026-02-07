@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "71.7K",
-      "reposts": "11.0K",
-      "raw_posts": 71663,
-      "raw_reposts": 10996
+      "posts": "191.0K",
+      "reposts": "21.5K",
+      "raw_posts": 190984,
+      "raw_reposts": 21475
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Week Ago' Trend Sparks Nostalgia and Reflection",
-    "summary": "A seemingly simple hashtag has taken the internet by storm, as users across multiple platforms share their personal experiences and memories from a week prior. This trend taps into a universal human desire to pause and reflect on the passage of time.",
-    "origin_story": "The trend appears to have started on x, with users sharing posts using the '#WeekAgo' hashtag to reminisce about their lives, activities, and emotions from the previous week.",
-    "expert_analysis": "This trend reveals a deeper longing for connection and shared experiences in an increasingly digital world. By collectively reflecting on the recent past, people are finding common ground and a sense of community, even among strangers. It also suggests a growing desire to slow down and appreciate the present moment, rather than constantly rushing towards the future.",
-    "impact": "The widespread adoption of this trend across multiple platforms demonstrates its ability to resonate with a broad audience and spark meaningful conversations.",
+    "headline": "Viral 'Week Ago' Meme Captures Fleeting Relevance of Internet Trends",
+    "summary": "The 'Week Ago' meme has taken social media by storm, poking fun at how quickly online crazes come and go in the digital age. The simple image juxtaposes a popular topic from just days prior with the realization of its now-waning relevance.",
+    "origin_story": "The 'Week Ago' meme originated on Reddit, where users began posting the image to poke fun at faddish internet trends.",
+    "expert_analysis": "This viral meme taps into a universal experience - the realization that something that was all the rage just days ago has already been replaced by the next big thing. It highlights the fleeting nature of online attention, and how quickly the cultural zeitgeist can shift in our fast-paced digital world.",
+    "impact": "The 'Week Ago' meme has resonated widely, sparking tens of thousands of posts across social media as users relate to the sentiment of internet trends' short-lived relevance.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T07:57:37.602203+00:00",
+  "timestamp": "2026-02-07T09:58:12.765100+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-07T07:57:37.602215+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T09:58:12.765115+00:00",
       "signal_score": 55
     }
   ]
