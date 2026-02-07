@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "287.5K",
-      "raw": 287485
+      "searches": "180.4K",
+      "raw": 180371
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Takes the Spotlight: Why the World Can't Stop Talking",
-    "summary": "As the world grapples with the rapid advancements in artificial intelligence, the public's fascination with this transformative technology has reached new heights. Google searches for AI-related topics have surged, reflecting a growing interest in the potential and implications of this cutting-edge field.",
-    "origin_story": "The recent launch of ChatGPT, a powerful language model developed by OpenAI, has ignited a widespread conversation about the future of AI and its impact on various aspects of our lives.",
-    "expert_analysis": "This trend speaks to the public's insatiable curiosity about the capabilities and limitations of AI. People are eager to understand how this technology can revolutionize industries, reshape communication, and potentially redefine the human experience. The surge in interest also underscores the need for thoughtful discussions around the ethical considerations and societal implications of AI development.",
-    "impact": "As AI continues to advance, its influence will likely permeate more areas of our lives, from education and healthcare to finance and entertainment, making it a topic of paramount importance for both individuals and policymakers.",
-    "status": "viral"
+    "headline": "The Rise of AI: Searching for Answers in a Tech-Driven World",
+    "summary": "As AI-related search terms surge on Google, the public's fascination with the transformative potential of artificial intelligence is on full display. From chatbots to image generators, the capabilities of this technology are captivating the global audience.",
+    "origin_story": "The recent advancements and widespread deployment of AI-powered applications, such as ChatGPT and DALL-E, have ignited a surge of public interest in this rapidly evolving field.",
+    "expert_analysis": "This trend reflects a growing societal curiosity about the impact of AI on our lives, from how it can enhance productivity and creativity to the ethical considerations that come with its increasing integration. As AI continues to push the boundaries of what's possible, people are eager to understand its implications for the future.",
+    "impact": "The heightened interest in AI-related topics signifies a pivotal moment, as the public seeks to navigate the opportunities and challenges presented by this transformative technology.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T19:06:19.220755+00:00",
+  "timestamp": "2026-02-07T19:50:01.455743+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -106,6 +106,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:19.220770+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:01.455760+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "291.5K",
-      "raw": 291541
+      "searches": "106.6K",
+      "raw": 106593
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bettors Flock to Super Bowl Odds as Big Game Approaches",
-    "summary": "With the highly anticipated Super Bowl just around the corner, sports betting enthusiasts are flocking to online platforms to research and place their wagers on the big game. This surge in interest reflects the growing popularity of sports betting in the United States.",
-    "origin_story": "The increased interest in Super Bowl betting odds has been evident on Google, with a significant spike in related searches in the past few weeks as the game approaches.",
-    "expert_analysis": "The rise in Super Bowl betting trends underscores the broader shift in societal attitudes towards sports gambling. As more states legalize and regulate the industry, it has become more accessible and normalized, attracting a wider audience of casual and seasoned bettors alike.",
-    "impact": "The heavy volume of Super Bowl betting activity is expected to generate significant revenue for the sports betting industry and sportsbook operators, further solidifying the event's status as a major cultural and economic phenomenon.",
+    "headline": "Super Bowl Betting Craze Sweeps the Nation as Legalization Spreads",
+    "summary": "With more states legalizing sports betting, the Super Bowl has become a major event for gambling enthusiasts. Bettors are flocking to online platforms to place wagers on everything from the game's outcome to prop bets.",
+    "origin_story": "The rise in Super Bowl betting can be traced to the 2018 Supreme Court decision that struck down the federal ban on sports gambling, allowing individual states to legalize the practice.",
+    "expert_analysis": "This trend reflects a broader cultural shift towards the normalization of sports gambling. As more people gain access to legal betting options, the Super Bowl has become a high-stakes arena for casual and seasoned bettors alike to showcase their prognosticating skills.",
+    "impact": "The explosion in Super Bowl betting is likely to generate record-breaking wagers and revenue for the gambling industry.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:06:36.314092+00:00",
+  "timestamp": "2026-02-07T19:50:14.504438+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:29.869056+00:00",
@@ -110,6 +110,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:36.314108+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:14.504455+00:00",
       "signal_score": 50
     }
   ]

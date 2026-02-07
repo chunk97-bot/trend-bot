@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "290.4K",
-      "raw": 290358
+      "searches": "101.8K",
+      "raw": 101811
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Powered Prompts Take the Internet by Storm",
-    "summary": "People are captivated by the ability to generate unique and creative content using AI-driven prompts, transforming the way they approach tasks from writing to art creation.",
-    "origin_story": "The trend first gained traction on social media platforms like Twitter, where users began sharing their AI-generated outputs, sparking widespread interest.",
-    "expert_analysis": "This trend speaks to the public's growing fascination with the potential of AI technology to augment and enhance human creativity. It reflects a desire to harness the power of machine learning to unlock new possibilities in self-expression and problem-solving.",
-    "impact": "The widespread adoption of AI-powered prompts could revolutionize how we approach various creative and intellectual pursuits, from education to the arts.",
+    "headline": "AI Prompts Take the Internet by Storm, Sparking Creativity and Debate",
+    "summary": "The rapid rise in popularity of AI-generated prompts has captivated internet users, who are using these prompts to create everything from stunning artwork to thought-provoking narratives. The trend is fueled by the power of these prompts to unlock new creative avenues.",
+    "origin_story": "The trend began on platforms like Twitter and Reddit, where users started sharing their AI-generated creations and prompts, sparking a viral wave of interest and experimentation.",
+    "expert_analysis": "This trend speaks to the growing fascination with the capabilities of artificial intelligence and the ways in which it can augment and inspire human creativity. As AI tools become more accessible, people are exploring the boundaries of what's possible, blurring the lines between human and machine-driven innovation.",
+    "impact": "The widespread popularity of AI prompts is likely to have a lasting impact on creative industries, as more people embrace the technology to enhance their artistic and storytelling abilities.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:06:15.698476+00:00",
+  "timestamp": "2026-02-07T19:49:58.168823+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:17.234351+00:00",
-      "signal_score": 80
-    },
     {
       "timestamp": "2026-02-06T11:13:13.446856+00:00",
       "signal_score": 75
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:15.698491+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:49:58.168839+00:00",
       "signal_score": 50
     }
   ]

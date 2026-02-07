@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "116.1K",
-      "raw": 116053
+      "searches": "112.3K",
+      "raw": 112279
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Frenzy Sweeps the Internet as Big Game Approaches",
-    "summary": "With the Super Bowl just around the corner, excitement is reaching a fever pitch on Google as fans search for the latest news, highlights, and predictions about the big game. This annual sports spectacle has captured the attention of millions, driving a surge in online activity.",
-    "origin_story": "The Super Bowl's popularity as a cultural event has long been established, but this year's search trends indicate that anticipation is especially high as the world's top football teams prepare to battle it out.",
-    "expert_analysis": "The spike in Super Bowl-related searches on Google reflects the event's deep-rooted status as a unifying force in American culture. The Super Bowl has evolved into much more than just a sports competition, becoming a shared experience that transcends fandom and brings people together through the shared excitement of the game, the halftime show, and the iconic commercials.",
-    "impact": "This trend demonstrates the enduring appeal of the Super Bowl, which continues to captivate audiences and drive significant online engagement.",
-    "status": "rising"
+    "headline": "Super Bowl Fever Sweeps the Internet as Game Day Approaches",
+    "summary": "As the biggest annual sporting event in the US, the Super Bowl has captured the attention of millions online. People are searching for the latest news, predictions, and pop culture moments surrounding this year's game.",
+    "origin_story": "The Super Bowl's popularity as a cultural phenomenon has been building for decades, and each year it generates massive online buzz in the weeks leading up to the big game.",
+    "expert_analysis": "The Super Bowl's status as a major cultural event transcends just sports fans. It's become an annual tradition for many Americans, with people tuning in for the thrilling gameplay, star-studded halftime show, and viral commercials. This year's event is generating particularly high interest, likely due to the excitement around the matchup and the return of large in-person gatherings.",
+    "impact": "The sustained online interest in the Super Bowl demonstrates its enduring power as a unifying shared experience for millions of people.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T19:06:32.473220+00:00",
+  "timestamp": "2026-02-07T19:50:11.707906+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:14:00.482771+00:00",
@@ -114,6 +114,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:32.473235+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:11.707922+00:00",
       "signal_score": 50
     }
   ]

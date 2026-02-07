@@ -1,6 +1,6 @@
 {
   "trend": "ai trending song",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true,
     "x": true
@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "245.6K",
-      "raw": 245568
+      "searches": "119.8K",
+      "raw": 119826
     },
     "x": {
-      "posts": "165.0K",
-      "reposts": "25.4K",
-      "raw_posts": 165032,
-      "raw_reposts": 25409
+      "posts": "117.6K",
+      "reposts": "39.3K",
+      "raw_posts": 117578,
+      "raw_reposts": 39298
     },
     "tiktok": {
       "views": "0",
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Songs Take the Internet by Storm",
-    "summary": "Fueled by the rise of powerful AI language models, a new trend of AI-generated music has captivated audiences worldwide. These algorithmically-composed songs are gaining traction across social media, sparking discussions on the intersection of technology and creativity.",
-    "origin_story": "The recent advancements in AI-powered music generation, led by platforms like Jukebox and Soundful, have made it possible for users to create unique, AI-composed tracks with just a few prompts.",
-    "expert_analysis": "This trend reflects the public's fascination with the creative potential of artificial intelligence. As AI systems become more sophisticated, they challenge traditional notions of authorship and artistry, blurring the lines between human and machine-generated content. The widespread interest in AI-produced music highlights our evolving relationship with technology and its role in shaping the future of creative expression.",
-    "impact": "The rise of AI-generated songs could have far-reaching implications for the music industry, potentially disrupting traditional songwriting and production processes.",
+    "headline": "ai trending song Takes Over The Internet",
+    "summary": "The topic 'ai trending song' is trending across google, x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T19:05:47.179835+00:00",
+  "timestamp": "2026-02-07T19:49:24.660481+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:05:45.138982+00:00",
@@ -131,6 +131,10 @@
     },
     {
       "timestamp": "2026-02-07T19:05:47.179855+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T19:49:24.660501+00:00",
       "signal_score": 100
     }
   ]

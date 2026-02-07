@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "125.6K",
-      "reposts": "17.9K",
-      "raw_posts": 125571,
-      "raw_reposts": 17882
+      "posts": "133.0K",
+      "reposts": "23.2K",
+      "raw_posts": 132976,
+      "raw_reposts": 23238
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Vintage Aesthetic Sparks Nostalgia Craze Across Social Media",
-    "summary": "Users are flooding social media with retro-inspired images and videos, tapping into a collective yearning for simpler times. The trend has gained momentum as people seek comfort and escapism in the face of current challenges.",
-    "origin_story": "The trend first took off on TikTok, where users began sharing nostalgic content featuring vintage fashion, music, and aesthetics from the 90s and early 2000s.",
-    "expert_analysis": "This trend reflects a broader cultural phenomenon of seeking refuge in the familiar and comforting. In times of uncertainty, people often turn to the past as a way to find solace and a sense of stability. The visual appeal of vintage aesthetics taps into our collective nostalgia, allowing us to momentarily step away from the pressures of the present.",
-    "impact": "The trend has sparked a surge in demand for vintage-inspired products and has influenced various industries, from fashion to entertainment.",
-    "status": "viral"
+    "headline": "Month Ago Takes Over The Internet",
+    "summary": "The topic 'Month Ago' is trending across x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T19:06:05.266681+00:00",
+  "timestamp": "2026-02-07T19:49:48.683219+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:13:28.807366+00:00",
@@ -134,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:05.266696+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T19:49:48.683234+00:00",
       "signal_score": 55
     }
   ]

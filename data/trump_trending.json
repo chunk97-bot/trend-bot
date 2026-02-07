@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "261.2K",
-      "raw": 261219
+      "searches": "193.1K",
+      "raw": 193136
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Trending Searches Amid Political Turmoil",
-    "summary": "Former President Donald Trump has once again captured the public's attention, with his name surging to the top of Google search trends. The spike in interest comes amidst ongoing legal battles and the anticipation of a potential 2024 presidential run.",
-    "origin_story": "Trump's name started trending on Google after reports surfaced of his legal team negotiating a possible surrender to face criminal charges in New York.",
-    "expert_analysis": "Trump's enduring influence on the national conversation is a testament to his polarizing political persona. Whether it's his legal troubles or speculation about another White House bid, the public remains captivated by the former president's every move, highlighting the deep partisan divide in the country.",
-    "impact": "This trend underscores the outsized role Trump continues to play in shaping the political landscape, even after leaving office.",
+    "headline": "Trump Dominates Google Searches Amid Ongoing Investigations",
+    "summary": "The former U.S. President Donald Trump has once again captured public attention, with his name trending on Google. This surge in interest is driven by the latest developments in the various legal investigations he faces.",
+    "origin_story": "Trump's name began trending on Google as news outlets reported on the latest updates regarding the numerous inquiries into his actions, both during and after his presidency.",
+    "expert_analysis": "This trend reflects the enduring public fascination with Trump, whose political career and legal troubles continue to dominate the national discourse. The intense scrutiny surrounding him underscores the deep partisan divisions within the country and the ongoing debates over the role of political leadership and accountability.",
+    "impact": "The sustained interest in Trump's legal battles is likely to shape the political landscape and public discourse in the months and years to come.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:06:22.949673+00:00",
+  "timestamp": "2026-02-07T19:50:08.630510+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -116,6 +116,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:22.949688+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:08.630527+00:00",
       "signal_score": 50
     }
   ]

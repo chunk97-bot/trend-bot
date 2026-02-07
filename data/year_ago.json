@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "197.4K",
-      "reposts": "37.7K",
-      "raw_posts": 197425,
-      "raw_reposts": 37720
+      "posts": "72.3K",
+      "reposts": "49.2K",
+      "raw_posts": 72266,
+      "raw_reposts": 49211
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Throwback Craze Sweeps Internet as 'Year Ago' Posts Surge",
-    "summary": "Social media users are digging up and sharing their old posts from exactly one year ago, sparking a nostalgic trend that has taken the internet by storm. This collective trip down memory lane is resonating with millions as people reconnect with their past selves.",
-    "origin_story": "The 'Year Ago' trend first emerged on various platforms, with users combing through their archives to find and repost content from the same date a year prior.",
-    "expert_analysis": "This trend speaks to our universal human desire to reflect on the passage of time and find meaning in our personal histories. In a fast-paced digital world, these 'Year Ago' posts allow people to pause and appreciate how far they've come, or perhaps mourn how much has changed.",
-    "impact": "The trend has sparked lively conversations and interactions as people bond over shared experiences from the past year.",
+    "headline": "Year Ago Resurfaces as Nostalgic Viral Trend",
+    "summary": "The year 'Year Ago' has reemerged as a nostalgic trend, with thousands of social media users sharing memories and content from that time period. The sudden resurgence has struck a chord with netizens seeking a sentimental connection to the past.",
+    "origin_story": "The trend appears to have started organically on various platforms, as users began reminiscing about their experiences and discoveries from Year Ago.",
+    "expert_analysis": "This trend taps into the human desire to reflect on the passage of time and the changes we've experienced. In a fast-paced digital age, 'Year Ago' offers a chance to pause, reconnect with the past, and appreciate how far we've come, both personally and collectively.",
+    "impact": "The widespread engagement with this nostalgic trend suggests a broader cultural yearning for a sense of grounding and perspective in uncertain times.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:06:08.856592+00:00",
+  "timestamp": "2026-02-07T19:49:51.449310+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:18.284403+00:00",
@@ -134,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:06:08.856608+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T19:49:51.449327+00:00",
       "signal_score": 55
     }
   ]
