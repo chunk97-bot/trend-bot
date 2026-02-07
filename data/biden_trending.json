@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "135.6K",
-      "raw": 135559
+      "searches": "283.4K",
+      "raw": 283420
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Biden's Business Dealings",
-    "summary": "The name 'Biden' has surged in Google searches as the public focuses on newly released documents related to Hunter Biden's overseas business activities and the potential involvement of his father, President Joe Biden.",
-    "origin_story": "The trend began after new reports emerged about Hunter Biden's foreign business dealings, igniting renewed discussions about potential conflicts of interest.",
-    "expert_analysis": "This trend reflects the ongoing political tensions and public interest in the Biden family's business relationships. It highlights the enduring power of political scandals to captivate public attention, even in the midst of other pressing national issues.",
-    "impact": "The Biden family's business dealings continue to be a source of intense debate and could have broader implications for the president's agenda and public perception.",
+    "headline": "Biden Surges to Top of Search Trends Amid Controversy",
+    "summary": "President Joe Biden's name has spiked in Google searches as the public follows the latest developments surrounding him and his family. This trend coincides with increased attention on issues like the classified documents case and Hunter Biden's business dealings.",
+    "origin_story": "The recent spike in Biden-related searches began after news broke of classified documents being discovered at the president's home and former office.",
+    "expert_analysis": "The renewed focus on Biden reflects the public's enduring fascination with the nation's leadership and its controversies. This trend underscores the intense political polarization in the US, where any perceived misstep by the president quickly captivates national attention.",
+    "impact": "The continued prominence of Biden-related searches will shape the political discourse and media coverage in the coming weeks and months.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T11:45:51.375677+00:00",
+  "timestamp": "2026-02-07T11:59:51.686357+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:28.329726+00:00",
@@ -108,6 +108,10 @@
     },
     {
       "timestamp": "2026-02-07T11:45:51.375688+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:51.686373+00:00",
       "signal_score": 50
     }
   ]

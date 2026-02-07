@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "252.4K",
-      "raw": 252384
+      "searches": "222.3K",
+      "raw": 222296
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Trends Dominate 2025 as Fans Crave Next Big Moment",
-    "summary": "The 2025 Super Bowl has become the epicenter of internet attention, with a surge in Google searches as fans eagerly anticipate the biggest event in American sports. The upcoming game has captured the collective imagination, driving conversations and speculation around the teams, matchups, and potential game-changing moments.",
-    "origin_story": "The buzz around the Super Bowl has always been strong, but this year's event seems to have struck a chord with digital-savvy fans who are turning to Google to stay up-to-date on the latest developments.",
-    "expert_analysis": "The intense interest in the 2025 Super Bowl reflects a broader cultural shift towards live, shared experiences that captivate the public imagination. In an era of fragmented attention spans and endless content options, major sporting events like the Super Bowl have become rare communal touchpoints that bring people together, both online and offline.",
-    "impact": "The surging interest in the Super Bowl is likely to have a significant impact on advertising, viewership, and the overall cultural footprint of the event.",
-    "status": "viral"
+    "headline": "Fans Flock to Google to Discuss Super Bowl 2025 Excitement",
+    "summary": "With the highly anticipated Super Bowl 2025 just around the corner, sports enthusiasts are flocking to Google to search for the latest news and updates, driving a significant spike in related queries.",
+    "origin_story": "The surge in Super Bowl 2025 search interest on Google likely stems from the growing excitement and anticipation surrounding the big game, which is set to take place in a new and innovative stadium location.",
+    "expert_analysis": "This trend reflects the enduring popularity of the Super Bowl as a cultural phenomenon, transcending the boundaries of sports and capturing the imagination of fans worldwide. The elevated search activity underscores the public's eagerness to stay informed and engaged with the event's unfolding storylines and developments.",
+    "impact": "The high level of Google searches for Super Bowl 2025 indicates that the event is set to generate significant media attention and drive widespread discussion and analysis across various platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T10:58:37.589724+00:00",
+  "timestamp": "2026-02-07T12:00:01.516754+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-07T10:58:37.589738+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T12:00:01.516770+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "197.6K",
-      "raw": 197645
+      "searches": "140.9K",
+      "raw": 140851
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Dominates Search Trends as the Future of Computing Captivates the Public",
-    "summary": "Artificial intelligence has seized the public's attention, with a surge in Google searches reflecting a growing fascination with the transformative potential of this technology. From chatbots to machine learning, AI is shaping the way we interact with the digital world.",
-    "origin_story": "The recent breakthroughs and public debuts of advanced AI models like ChatGPT have ignited widespread interest, sparking discussions about the implications of these intelligent systems.",
-    "expert_analysis": "The AI trend reveals a societal shift towards embracing technology that can augment and enhance human capabilities. As AI becomes more sophisticated and accessible, people are eager to explore its applications in fields ranging from creative pursuits to problem-solving, signaling a growing comfort with the integration of artificial and human intelligence.",
-    "impact": "The surge in AI-related searches underscores the public's desire to understand and harness the transformative power of this technology, which is poised to reshape industries, transform workflows, and redefine the future of human-machine interaction.",
+    "headline": "AI Dominates Searches as Public Fascination Grows",
+    "summary": "Across Google, searches for 'AI' have surged to over 140,900, reflecting the public's growing curiosity and excitement around the rapid advancement of artificial intelligence technology.",
+    "origin_story": "The recent explosion of AI-powered chatbots, image generators, and other applications has captured the public's imagination, driving this surge in online interest.",
+    "expert_analysis": "This spike in AI-related searches underscores the public's eagerness to understand and engage with these transformative technologies. As AI becomes increasingly integrated into our daily lives, this trend signals a widespread fascination with the potential - and potential pitfalls - of artificial intelligence.",
+    "impact": "The intense public focus on AI is poised to reshape everything from education and the workforce to entertainment and creative industries.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T11:45:33.246378+00:00",
+  "timestamp": "2026-02-07T11:59:35.908701+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-07T11:45:33.246388+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:35.908717+00:00",
       "signal_score": 50
     }
   ]

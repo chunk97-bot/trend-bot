@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "entertainment",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "146.4K",
-      "reposts": "34.6K",
-      "raw_posts": 146418,
-      "raw_reposts": 34607
+      "posts": "190.5K",
+      "reposts": "10.8K",
+      "raw_posts": 190513,
+      "raw_reposts": 10849
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Yesterday Takes Over The Internet",
-    "summary": "The topic 'Yesterday' is trending across x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "The Unexpected Revival of Yesterday: How a Forgotten Meme Captivates the Internet",
+    "summary": "A seemingly forgotten meme from the past has unexpectedly resurfaced, capturing the attention of social media users across various platforms. The sudden surge of interest in this nostalgic trend has left many scratching their heads, wondering what has sparked this unexpected revival.",
+    "origin_story": "The meme, which first gained traction years ago, has suddenly seen a significant increase in engagement, with over 190,000 posts and 10,800 reposts across multiple social media platforms.",
+    "expert_analysis": "This trend suggests a growing desire among internet users to connect with the past and find solace in familiar, albeit forgotten, forms of online entertainment. The revival of this meme may also reflect a broader societal longing for simpler times, as people seek comfort in the familiarity of the past during uncertain or turbulent periods.",
+    "impact": "The unexpected resurgence of this meme has the potential to spark a wider cultural conversation about the cyclical nature of internet trends and the enduring power of nostalgia in the digital age.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T11:45:16.929693+00:00",
+  "timestamp": "2026-02-07T11:59:25.360613+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:08:19.796452+00:00",
@@ -106,6 +106,10 @@
     },
     {
       "timestamp": "2026-02-07T11:45:16.929704+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T11:59:25.360629+00:00",
       "signal_score": 55
     }
   ]

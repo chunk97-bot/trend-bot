@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "entertainment",
+  "category": "memes",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "8.2K",
-      "reposts": "3.2K",
-      "raw_posts": 8153,
-      "raw_reposts": 3177
+      "posts": "26.2K",
+      "reposts": "17.0K",
+      "raw_posts": 26198,
+      "raw_reposts": 16976
     },
     "tiktok": {
-      "views": "4.2M",
-      "videos": "7.9K",
-      "raw_views": 4190567
+      "views": "5.5M",
+      "videos": "37.5K",
+      "raw_views": 5482922
     },
     "instagram": {
       "posts": "0",
@@ -28,27 +28,23 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 75,
+  "signal_score": 85,
   "momentum": "rising",
-  "lifecycle": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "681da8 Takes Over The Internet",
-    "summary": "The topic '681da8' is trending across x, tiktok.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Mysterious Code '681da8' Sparks Viral Craze Across x and TikTok",
+    "summary": "A cryptic, six-character alphanumeric code, '681da8', has taken the internet by storm, with millions of users across x and TikTok racing to decipher its meaning and significance.",
+    "origin_story": "The trend first emerged on x, where users began sharing the code and speculating about its origins, before quickly spreading to TikTok and other social media platforms.",
+    "expert_analysis": "This viral phenomenon highlights the internet's insatiable appetite for mystery and the collective desire to uncover hidden meanings. The code's simplicity and ambiguity have allowed it to capture the imagination of users, who are eager to participate in the hunt for answers and to be part of an emergent cultural moment.",
+    "impact": "As the trend continues to grow, it has the potential to transcend the digital sphere and spill over into the real world, sparking offline conversations and even inspiring real-world actions.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T11:45:10.522929+00:00",
+  "timestamp": "2026-02-07T11:59:21.653163+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T10:43:01.180677+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-06T10:48:12.462433+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-07T11:45:10.522941+00:00",
       "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-07T11:59:21.653180+00:00",
+      "signal_score": 85
     }
   ]
 }

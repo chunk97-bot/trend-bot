@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "290.4K",
-      "raw": 290406
+      "searches": "165.8K",
+      "raw": 165828
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates the Internet as Searches Surge Amid Political Turmoil",
-    "summary": "Former President Donald Trump has once again captured the attention of the internet as his name becomes a top search term on Google. This renewed online interest reflects the ongoing political upheaval and his continued influence in the public discourse.",
-    "origin_story": "The spike in Trump-related searches likely stems from the latest developments in the legal cases and investigations surrounding the former president, as well as his ongoing involvement in the Republican party's activities.",
-    "expert_analysis": "Trump's ability to consistently drive online conversations underscores his enduring impact on American politics and the public's fascination with his persona. This trend speaks to the polarized nature of the current political climate and the power of celebrity in shaping the national dialogue.",
-    "impact": "As Trump continues to dominate internet searches, it highlights the outsized influence he wields in shaping the national narrative and the challenges faced by the political establishment in moving the discourse beyond his divisive presence.",
+    "headline": "Trump Dominates Search Trends as Scandal Rumors Swirl",
+    "summary": "Former President Donald Trump has surged to the top of Google search trends as speculation grows around a potential indictment or other legal developments. This renewed interest underscores the continued political and cultural influence of the divisive figure.",
+    "origin_story": "The spike in Trump-related searches began after reports emerged of an impending indictment by the Manhattan District Attorney's office, though no charges have been officially filed.",
+    "expert_analysis": "Trump's ability to dominate the news cycle, even when not in office, reflects the enduring polarization of American politics. His supporters see any potential legal action as a political witch hunt, while critics view it as long-overdue accountability. This trend speaks to the outsized role that Trump continues to play in shaping the national discourse.",
+    "impact": "The intense focus on Trump could further inflame political tensions and shape the 2024 presidential race, should he choose to run again.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T11:45:47.825048+00:00",
+  "timestamp": "2026-02-07T11:59:48.865133+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -96,6 +96,10 @@
     },
     {
       "timestamp": "2026-02-07T11:45:47.825057+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:48.865150+00:00",
       "signal_score": 50
     }
   ]
