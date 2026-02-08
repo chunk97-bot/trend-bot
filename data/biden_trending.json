@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "206.6K",
-      "raw": 206626
+      "searches": "201.5K",
+      "raw": 201545
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Google Searches Amid Political Turmoil",
-    "summary": "The name 'Biden' is dominating Google searches as the president faces mounting criticism over his handling of domestic and foreign policy issues, from the economy to the ongoing conflict in Ukraine.",
-    "origin_story": "The spike in Biden-related searches began in the past week, likely driven by the intensifying political debates and media coverage surrounding the administration.",
-    "expert_analysis": "This trend reflects the public's heightened interest and concern over the direction of the country under Biden's leadership. It underscores the intense political polarization in the US, with both supporters and critics closely scrutinizing the president's every move.",
-    "impact": "The surge in Biden-related searches could shape public opinion and put increased pressure on the administration to address the issues driving this trend.",
+    "headline": "Biden Surges to the Top of Google Trends Amid Political Turmoil",
+    "summary": "The name 'Biden' has skyrocketed to the top of Google's trending searches, as the U.S. president finds himself at the center of a rapidly evolving political storm. This spike in online interest underscores the public's heightened scrutiny of the Biden administration.",
+    "origin_story": "The surge in Biden-related searches began following a series of high-profile events, including the release of classified documents found at the president's home and the ongoing investigations into his son Hunter Biden's business dealings.",
+    "expert_analysis": "This trend reflects the public's deep fascination with the inner workings of the U.S. government and the intense political polarization that continues to shape the national discourse. As the Biden administration navigates these challenges, the online conversation surrounding the president will likely remain a barometer of the public's mood and expectations.",
+    "impact": "The sustained interest in Biden-related topics could have far-reaching implications, influencing public opinion, media coverage, and the broader political landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:02:53.200467+00:00",
+  "timestamp": "2026-02-08T17:58:25.053997+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T21:04:40.556309+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T22:54:12.069928+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T17:02:53.200483+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:25.054012+00:00",
       "signal_score": 50
     }
   ]

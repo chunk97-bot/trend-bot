@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "292.0K",
-      "raw": 291957
+      "searches": "124.9K",
+      "raw": 124906
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump Dominates Google Searches as Controversies Swirl",
-    "summary": "Former President Donald Trump has surged to the top of Google's search trends, as a series of high-profile legal battles and political developments involving him continue to captivate public attention.",
-    "origin_story": "The spike in Trump-related searches appears to be driven by a combination of ongoing investigations, legal troubles, and his potential 2024 presidential campaign.",
-    "expert_analysis": "Trump's enduring presence in the public discourse reflects the polarized and often turbulent nature of American politics. Despite no longer being in office, he remains a lightning rod for both ardent supporters and fierce critics, driving intense interest and engagement across the political spectrum.",
-    "impact": "The continued prominence of Trump in search trends underscores his outsized influence on the national conversation and the ongoing power dynamics within the Republican Party.",
+    "headline": "Former President Trump Dominates Trending Searches Amidst Legal Battles",
+    "summary": "Searches for 'Trump' have spiked on Google as the former president faces a barrage of legal challenges, including his indictment in New York and ongoing investigations in other states. The heightened interest reflects the public's enduring fascination with Trump's political future.",
+    "origin_story": "The surge in Google searches for 'Trump' coincides with the recent indictment of the former president by a Manhattan grand jury, the first criminal charges ever brought against a former U.S. president.",
+    "expert_analysis": "This trending topic underscores the polarizing nature of Trump's political career and the public's insatiable appetite for news about his legal troubles. The intense interest reflects the deep political divisions in the country and the ongoing debate over Trump's role in the future of the Republican Party.",
+    "impact": "The sustained public interest in Trump's legal battles could shape the political landscape in the lead-up to the 2024 presidential election.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T15:54:55.317464+00:00",
+  "timestamp": "2026-02-08T17:58:19.593793+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:25.019401+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-08T15:54:55.317478+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:19.593807+00:00",
       "signal_score": 50
     }
   ]

@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "194.4K",
-      "reposts": "49.8K",
-      "raw_posts": 194356,
-      "raw_reposts": 49770
+      "posts": "160.2K",
+      "reposts": "38.1K",
+      "raw_posts": 160222,
+      "raw_reposts": 38062
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgia for a Year Ago Sweeps the Internet",
-    "summary": "People are reminiscing about their lives and experiences from exactly one year ago, as the COVID-19 pandemic has profoundly shifted our world. Sharing memories and comparing how much has changed in just 12 months has struck a chord across social media.",
-    "origin_story": "The 'Year Ago' trend emerged organically as people scrolled back through their social media feeds, rediscovering old posts and feeling a mix of wistfulness and wonder at how quickly life can transform.",
-    "expert_analysis": "This trend taps into a universal human desire to make sense of upheaval and find meaning in the past. As the pandemic persists, people are seeking comfort in recalling a time before COVID-19 radically altered daily life. Reflecting on the past year also highlights how resilient and adaptable we can be in the face of massive change.",
-    "impact": "The 'Year Ago' trend has resonated globally, sparking shared experiences and fostering a sense of community during a period of prolonged uncertainty.",
+    "headline": "Nostalgia Wave Sweeps the Internet as 'Year Ago' Trend Resurfaces",
+    "summary": "Across various social media platforms, users are reminiscing about their activities and experiences from exactly one year ago, sparking a wave of nostalgia and reflection.",
+    "origin_story": "The trend first emerged on TikTok, where users began sharing videos and photos from their lives a year prior, prompting others to do the same.",
+    "expert_analysis": "This 'Year Ago' trend taps into our innate human desire to reminisce and make sense of the passage of time. In a world that often feels increasingly chaotic, this trend allows people to find comfort and perspective in their personal histories.",
+    "impact": "As the trend continues to spread, it offers a unique window into the collective experience of the past year, revealing shared joys, challenges, and the resilience of the human spirit.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T13:58:53.719205+00:00",
+  "timestamp": "2026-02-08T17:57:58.467726+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:26:01.474237+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T15:06:11.402428+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T13:58:53.719221+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T17:57:58.467741+00:00",
       "signal_score": 55
     }
   ]

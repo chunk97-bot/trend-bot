@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "entertainment",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "134.7K",
-      "reposts": "35.9K",
-      "raw_posts": 134706,
-      "raw_reposts": 35934
+      "posts": "160.6K",
+      "reposts": "37.6K",
+      "raw_posts": 160578,
+      "raw_reposts": 37579
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Yesterday Takes Over The Internet",
-    "summary": "The topic 'Yesterday' is trending across x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Yesterday Trends as Gen Z Shares Poignant Reflections on Time's Passage",
+    "summary": "The hashtag #Yesterday has taken over social media as Gen Z users reflect on the rapid pace of life and the fleeting nature of time. This viral trend has struck a chord with young people seeking to slow down and savor the present moment.",
+    "origin_story": "The trend appears to have started on TikTok, where users have been posting videos and captions pondering the idea of 'yesterday' and how quickly the recent past can feel distant.",
+    "expert_analysis": "This trend taps into a growing desire among younger generations to be more mindful and appreciative of the present. As the pace of life continues to accelerate, especially for digital natives, there is a longing to pause and reflect on how quickly time passes.",
+    "impact": "The emotional resonance of this trend has led to thousands of shares and engagement across social media platforms, highlighting the universal human experience of grappling with the relentless march of time.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T15:54:29.562054+00:00",
+  "timestamp": "2026-02-08T17:57:50.658500+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:50:09.210107+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T21:56:54.775458+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T15:54:29.562068+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T17:57:50.658515+00:00",
       "signal_score": 55
     }
   ]

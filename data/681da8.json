@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "75.7K",
-      "reposts": "17.0K",
-      "raw_posts": 75722,
-      "raw_reposts": 17021
+      "posts": "35.2K",
+      "reposts": "13.4K",
+      "raw_posts": 35225,
+      "raw_reposts": 13393
     },
     "tiktok": {
-      "views": "9.6M",
-      "videos": "47.7K",
-      "raw_views": 9601834
+      "views": "5.8M",
+      "videos": "46.5K",
+      "raw_views": 5797939
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Cryptic Hex Code Sparks Viral Scavenger Hunt Across Social Media",
-    "summary": "A mysterious 6-digit hex code, 681da8, has taken the internet by storm as users across TikTok and other platforms race to uncover its hidden meaning and origin. The surge in activity has generated millions of views and posts as the online community collaborates to solve this digital puzzle.",
-    "origin_story": "The trend appears to have started on TikTok, where users began sharing videos speculating about the significance of the hex code and encouraging others to participate in the search.",
-    "expert_analysis": "This viral craze taps into the human desire to uncover secrets and solve mysteries. In an age of information overload, the allure of a cryptic code sparking collective intrigue speaks to our yearning for a sense of community and shared discovery online. The trend also highlights the power of social media to rapidly amplify cultural phenomena that capture the public's imagination.",
-    "impact": "As the frenzy continues to build, this internet-fueled scavenger hunt has the potential to inspire creative collaborations, boost engagement across platforms, and perhaps even yield unexpected real-world revelations.",
+    "headline": "Mysterious 'Hex Code' Craze Captivates Internet, Sparking Frenzy",
+    "summary": "A peculiar six-character hex code, '681da8', has taken the internet by storm, dominating conversations across platforms like TikTok and Twitter. The surge in popularity has left many users intrigued, wondering about the meaning and significance behind this cryptic digital phenomenon.",
+    "origin_story": "The trend first emerged on TikTok, where users have been sharing videos and speculating about the mysterious hex code, leading to a massive viral wave across social media.",
+    "expert_analysis": "The rapid spread of this trend reflects the internet's insatiable appetite for puzzles and hidden meanings. In an era where many seek digital breadcrumbs to uncover deeper truths, this hex code has captured the collective imagination, sparking a sense of mystery and the desire to unravel its secrets.",
+    "impact": "The frenzy surrounding '681da8' has transcended the digital realm, with users eagerly searching for any clues or explanations that could shed light on this captivating trend.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:02:18.444361+00:00",
+  "timestamp": "2026-02-08T17:57:44.187169+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T11:45:10.522941+00:00",
-      "signal_score": 75
-    },
     {
       "timestamp": "2026-02-07T11:59:21.653180+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T17:02:18.444377+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T17:57:44.187184+00:00",
+      "signal_score": 85
     }
   ]
 }

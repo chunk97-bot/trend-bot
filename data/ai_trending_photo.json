@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "100.5K",
-      "raw": 100511
+      "searches": "178.6K",
+      "raw": 178599
     },
     "x": {
-      "posts": "179.7K",
-      "reposts": "49.5K",
-      "raw_posts": 179721,
-      "raw_reposts": 49509
+      "posts": "176.6K",
+      "reposts": "14.5K",
+      "raw_posts": 176634,
+      "raw_reposts": 14461
     },
     "tiktok": {
       "views": "0",
@@ -40,19 +40,15 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Portraits Take the Internet by Storm",
-    "summary": "AI-powered image generation tools are captivating the public, as people experiment with creating unique, artistic portraits. This trend reflects the public's fascination with the rapid advancements in AI technology and its creative potential.",
-    "origin_story": "The trend gained momentum as users shared their AI-generated portraits on platforms like Google and social media, showcasing the striking and often surreal results.",
-    "expert_analysis": "This trend taps into the public's curiosity about the capabilities of AI and its ability to produce visually compelling and imaginative artwork. It also highlights the growing accessibility of these technologies, which are enabling more people to explore their creative potential.",
-    "impact": "The popularity of AI-generated portraits could drive further innovation and exploration in the field of AI-powered art and design.",
+    "headline": "AI-Generated Art Sparks Debate: Creativity or Copycats?",
+    "summary": "The rapid rise of AI-powered image generation tools has captivated the internet, with users exploring the limits of what these AI models can create. But the trend has also ignited discussions around the ethics and implications of AI art.",
+    "origin_story": "The trend began gaining steam on social media as users shared their AI-generated images, showcasing the technology's ability to produce visually striking and often surreal artworks.",
+    "expert_analysis": "This trend reflects the public's fascination with the creative potential of AI, as well as the ongoing debate around the role of automation in the arts. Some see AI-generated art as a revolutionary tool that democratizes creativity, while others worry it could devalue human artistic expression and lead to concerns around copyright and intellectual property.",
+    "impact": "As AI image generation tools become more accessible, this trend is likely to have far-reaching implications for the creative industry and the way we approach art and authorship.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T17:02:14.492612+00:00",
+  "timestamp": "2026-02-08T17:57:35.520664+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T10:48:19.285980+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:08:31.411271+00:00",
       "signal_score": 50
@@ -143,6 +139,10 @@
     },
     {
       "timestamp": "2026-02-08T17:02:14.492639+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T17:57:35.520709+00:00",
       "signal_score": 100
     }
   ]
