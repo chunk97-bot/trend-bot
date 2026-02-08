@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "206.7K",
-      "raw": 206699
+      "searches": "298.0K",
+      "raw": 298043
     },
     "x": {
       "posts": "0",
@@ -39,19 +39,15 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Fever Sweeps the Internet as Fans Eagerly Await the Big Game",
-    "summary": "The upcoming Super Bowl has sparked a frenzy of online activity, with Google searches for the event reaching record highs. Fans are buzzing about the highly anticipated matchup, the star-studded halftime show, and the beloved Super Bowl commercials.",
-    "origin_story": "The surge in Super Bowl-related searches began in the days leading up to the big game, as people across the country gear up for the annual football extravaganza.",
-    "expert_analysis": "The intense interest in the Super Bowl reflects the enduring cultural significance of this event. For many Americans, the Super Bowl has become a cherished tradition, a shared experience that transcends the boundaries of fandom and brings people together to celebrate the pinnacle of American sports.",
-    "impact": "The widespread attention on the Super Bowl is expected to drive record-breaking viewership and engagement, with brands and advertisers vying for a piece of the action.",
+    "headline": "Super Bowl Fever Sweeps the Internet as Fans Gear Up for the Big Game",
+    "summary": "With the Super Bowl just around the corner, search interest in the annual sports extravaganza is soaring, as fans eagerly anticipate the game, the halftime show, and all the buzz surrounding the event.",
+    "origin_story": "Google data shows that search interest in the Super Bowl has been steadily increasing in the weeks leading up to the big game, with people seeking out information on teams, players, and the latest news and updates.",
+    "expert_analysis": "The surge in Super Bowl-related searches reflects the enduring popularity of the event, which has become a cultural phenomenon that transcends the realm of sports. The Super Bowl's ability to captivate audiences, both casual fans and dedicated sports enthusiasts, speaks to its broader significance as a shared experience that brings people together, whether virtually or in-person.",
+    "impact": "The intense interest in the Super Bowl is likely to translate into significant viewership and engagement, with millions of people tuning in to watch the game, the halftime show, and the much-anticipated commercials.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T21:56:12.322887+00:00",
+  "timestamp": "2026-02-08T23:02:01.729977+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:50:39.526592+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T21:04:44.481337+00:00",
       "signal_score": 50
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T21:56:12.322904+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:02:01.729992+00:00",
       "signal_score": 50
     }
   ]

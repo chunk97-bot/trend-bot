@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "65.5K",
-      "reposts": "21.1K",
-      "raw_posts": 65486,
-      "raw_reposts": 21050
+      "posts": "107.4K",
+      "reposts": "11.6K",
+      "raw_posts": 107424,
+      "raw_reposts": 11637
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic 'Year Ago' Trend Sparks Reflections on Pandemic's Passage",
-    "summary": "The 'Year Ago' trend has people sharing social media posts from exactly one year prior, offering a poignant look back at the early days of the COVID-19 pandemic and how much has changed since then.",
-    "origin_story": "The trend began on various social media platforms as users rediscover and repost their own content from a year ago, when lockdowns, remote work, and other pandemic realities were just setting in.",
-    "expert_analysis": "This trend taps into our universal human desire to make sense of disruptive events by looking back. It allows people to collectively reflect on how far we've come, while also highlighting the emotional toll of the past year's upheaval.",
-    "impact": "The 'Year Ago' trend provides a shared moment of pandemic retrospection, sparking conversations about resilience and recovery.",
+    "headline": "Nostalgic 'Year Ago' Trend Sparks Waves of Collective Reflection",
+    "summary": "The 'Year Ago' trend has swept across social media platforms, as users share posts and memories from exactly one year prior. This bittersweet trip down memory lane resonates with many, providing a poignant look at how life has changed in the span of a year.",
+    "origin_story": "The trend started as users on platforms like Twitter and Instagram began revisiting and sharing their old posts from the same date a year ago, sparking a wave of reminiscence.",
+    "expert_analysis": "The 'Year Ago' trend speaks to our innate desire to pause and reflect on the passage of time. In a fast-paced digital age, this trend offers a moment of introspection, allowing people to appreciate how their lives and the world around them have evolved, both positively and negatively, over the course of a single year.",
+    "impact": "This trend has the power to foster a sense of community and shared experience, as people bond over their collective memories and the bittersweet realities of life's ebbs and flows.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T20:58:29.998464+00:00",
+  "timestamp": "2026-02-08T23:01:35.249643+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T17:31:44.601647+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T19:50:16.249602+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:29.998483+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T23:01:35.249659+00:00",
       "signal_score": 55
     }
   ]

@@ -1,14 +1,14 @@
 {
   "trend": "chatgpt trending prompt",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "263.4K",
-      "raw": 263370
+      "searches": "290.7K",
+      "raw": 290678
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "chatgpt trending"
   ],
   "analysis": {
-    "headline": "ChatGPT Prompts Explode as Users Discover Creative Potential",
-    "summary": "The internet is abuzz with people sharing their most inventive ChatGPT prompts, showcasing the AI's remarkable ability to generate unique and engaging content on demand. This trend reflects growing excitement around the technology's creative applications.",
-    "origin_story": "The trend emerged as ChatGPT users experimented with the platform, posting their most imaginative prompts and the resulting outputs on social media platforms like Twitter and Reddit.",
-    "expert_analysis": "This surge in ChatGPT prompt sharing illustrates the public's fascination with the AI's expansive capabilities. By sharing their prompts, users are not only expressing their own creativity, but also exploring the limits of what ChatGPT can produce, fueling further innovation and discovery.",
-    "impact": "As this trend continues, it could lead to greater mainstream adoption of ChatGPT and other AI assistants, transforming how people approach creative tasks and problem-solving.",
-    "status": "viral"
+    "headline": "chatgpt trending prompt Takes Over The Internet",
+    "summary": "The topic 'chatgpt trending prompt' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T20:58:44.761973+00:00",
+  "timestamp": "2026-02-08T23:01:47.370754+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -129,6 +129,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:44.762003+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:47.370768+00:00",
       "signal_score": 50
     }
   ]

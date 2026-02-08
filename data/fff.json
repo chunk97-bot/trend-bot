@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "65.7M",
-      "videos": "459.1K",
-      "raw_views": 65730150
+      "views": "30.2M",
+      "videos": "328.0K",
+      "raw_views": 30186363
     },
     "instagram": {
-      "posts": "1.8M",
-      "reach": "22.3M",
-      "raw_posts": 1842515
+      "posts": "1.5M",
+      "reach": "26.9M",
+      "raw_posts": 1547416
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Rise of FFF: Exploring the Viral Hex Color Trend Sweeping Social Media",
-    "summary": "A simple hexadecimal color code, #FFF or 'FFF,' has taken the internet by storm, capturing the attention of millions across TikTok and Instagram. This unexpected trend reveals a deeper fascination with minimalism and the power of visual simplicity in the digital age.",
-    "origin_story": "The 'FFF' trend first gained traction on TikTok, where users began creating content around the pure white color, leading to over 65 million views and nearly half a million videos.",
-    "expert_analysis": "This trend taps into a growing desire for digital minimalism and a return to the basics. In a world saturated with content, the allure of a simple, clean aesthetic resonates with audiences seeking respite from visual clutter. The universality of the color white also allows for broad interpretation and personal expression, fueling the trend's viral appeal.",
-    "impact": "The widespread adoption of 'FFF' across social media platforms underscores the internet's ability to collectively embrace and amplify seemingly mundane elements, transforming them into cultural phenomena.",
+    "headline": "Minimalist 'fff' Trend Sweeps Social Media, Sparking Debate",
+    "summary": "The simple yet striking 'fff' hashtag has taken over TikTok and Instagram, captivating millions with its minimalist aesthetic. As users express themselves through this three-letter trend, it's revealing deeper insights about our digital culture.",
+    "origin_story": "The 'fff' trend originated on TikTok, where users have posted over 328,000 videos using the hashtag, amassing over 30 million views. It has since expanded to Instagram, where over 1.5 million posts have reached nearly 27 million accounts.",
+    "expert_analysis": "At its core, the 'fff' trend reflects our modern desire for simplicity and self-expression in an increasingly complex digital landscape. By distilling their message down to the bare essentials, users are finding creative freedom and sparking introspection about the role of minimalism in our lives.",
+    "impact": "This trend's widespread appeal has the potential to influence design, art, and even marketing, as brands and creators seek to tap into the growing preference for clean, impactful visual communication.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T21:55:26.888252+00:00",
+  "timestamp": "2026-02-08T23:01:20.994537+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T17:02:01.514105+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-07T17:19:26.963659+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T21:55:26.888268+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T23:01:20.994560+00:00",
       "signal_score": 90
     }
   ]

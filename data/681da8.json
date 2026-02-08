@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "memes",
+  "category": "entertainment",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "93.5K",
-      "reposts": "27.9K",
-      "raw_posts": 93487,
-      "raw_reposts": 27920
+      "posts": "8.0K",
+      "reposts": "10.8K",
+      "raw_posts": 7970,
+      "raw_reposts": 10792
     },
     "tiktok": {
-      "views": "3.9M",
-      "videos": "6.9K",
-      "raw_views": 3916687
+      "views": "351.0K",
+      "videos": "13.5K",
+      "raw_views": 350992
     },
     "instagram": {
       "posts": "0",
@@ -28,27 +28,23 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 65,
+  "momentum": "stable",
+  "lifecycle": "rising",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious Hexagon Captivates Netizens Across Platforms",
-    "summary": "A peculiar hexagonal symbol, known only by its cryptic code '681da8', has taken the internet by storm, sparking widespread curiosity and speculation among users on TikTok and other social media platforms.",
-    "origin_story": "The trend first emerged on TikTok, where users have been creating and sharing videos exploring the meaning and origins of the enigmatic hexagon.",
-    "expert_analysis": "This viral phenomenon taps into the human desire to uncover hidden meanings and unravel mysteries. The anonymity and elusiveness of the symbol have captivated audiences, who are eager to collectively piece together the puzzle and uncover its significance, reflecting the internet's power to unite people around shared curiosities.",
-    "impact": "The widespread engagement and the desire to decipher the symbolism have the potential to spawn a larger cultural phenomenon, with users engaging in collaborative investigations and speculating on the possible implications of the mysterious '681da8' hexagon.",
+    "headline": "681da8 Takes Over The Internet",
+    "summary": "The topic '681da8' is trending across x, tiktok.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T21:55:22.835478+00:00",
+  "timestamp": "2026-02-08T23:01:28.065913+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T17:01:58.753146+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T17:19:22.800789+00:00",
       "signal_score": 100
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T21:55:22.835500+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T23:01:28.065928+00:00",
+      "signal_score": 65
     }
   ]
 }

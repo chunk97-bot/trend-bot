@@ -1,14 +1,14 @@
 {
   "trend": "biden trending",
-  "category": "entertainment",
+  "category": "politics",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "153.6K",
-      "raw": 153570
+      "searches": "249.6K",
+      "raw": 249581
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "biden trending Takes Over The Internet",
-    "summary": "The topic 'biden trending' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Biden Surge: Renewed Interest in President Ahead of Midterms",
+    "summary": "Online searches for President Biden have spiked, driven by renewed public attention on his administration and policies ahead of the upcoming midterm elections. This trending topic reflects heightened political engagement among voters.",
+    "origin_story": "The uptick in Biden-related searches originated on Google, where his name has seen a significant increase in queries over the past week.",
+    "expert_analysis": "This surge in Biden-related interest underscores the pivotal role the president will play in the midterm elections, as voters seek to understand his policies and performance. It also highlights the continued political polarization in the country, with both supporters and critics closely following the administration's actions.",
+    "impact": "This trend could influence voter turnout and messaging from political campaigns in the coming months.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T21:56:07.848503+00:00",
+  "timestamp": "2026-02-08T23:01:58.054734+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T11:45:51.375688+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T11:59:51.686373+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T21:56:07.848517+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:58.054750+00:00",
       "signal_score": 50
     }
   ]
