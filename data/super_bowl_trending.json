@@ -1,14 +1,14 @@
 {
   "trend": "super bowl trending",
-  "category": "entertainment",
+  "category": "sports",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "291.0K",
-      "raw": 290968
+      "searches": "292.4K",
+      "raw": 292382
     },
     "x": {
       "posts": "0",
@@ -39,19 +39,15 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "super bowl trending Takes Over The Internet",
-    "summary": "The topic 'super bowl trending' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "Super Bowl Hype Sweeps the Internet as Big Game Approaches",
+    "summary": "With the highly anticipated Super Bowl just around the corner, search interest in the annual sporting event has skyrocketed as fans eagerly anticipate the big game and all the excitement that surrounds it.",
+    "origin_story": "The surge in Super Bowl-related searches on Google reflects the growing public interest and excitement as the event draws near, with people seeking information about the game, teams, commercials, and more.",
+    "expert_analysis": "The intense interest in the Super Bowl showcases the enduring appeal of this iconic American sporting tradition, which has become a cultural phenomenon that transcends the boundaries of sports. The big game generates immense excitement and social engagement, capturing the imagination of millions of fans worldwide.",
+    "impact": "The widespread attention on the Super Bowl highlights the event's significant cultural and economic impact, with the game serving as a major platform for advertising, entertainment, and community engagement.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T11:48:30.961028+00:00",
+  "timestamp": "2026-02-08T15:55:04.693902+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:14:00.482771+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:33:18.489184+00:00",
       "signal_score": 50
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:30.961051+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:55:04.693917+00:00",
       "signal_score": 50
     }
   ]

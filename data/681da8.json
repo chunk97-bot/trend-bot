@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "technology",
+  "category": "memes",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "23.1K",
-      "reposts": "21.0K",
-      "raw_posts": 23096,
-      "raw_reposts": 21046
+      "posts": "22.3K",
+      "reposts": "25.8K",
+      "raw_posts": 22330,
+      "raw_reposts": 25825
     },
     "tiktok": {
-      "views": "5.0M",
-      "videos": "14.8K",
-      "raw_views": 5002008
+      "views": "460.1K",
+      "videos": "4.6K",
+      "raw_views": 460127
     },
     "instagram": {
       "posts": "0",
@@ -28,27 +28,23 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 65,
+  "momentum": "stable",
+  "lifecycle": "rising",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Cryptic Code Sparks Frenzy Across Social Media",
-    "summary": "A mysterious code, '681da8', has taken the internet by storm, captivating users on platforms like TikTok and X. The rapid spread of this trend has left many curious and speculative about its hidden meaning and potential significance.",
-    "origin_story": "The code first emerged on TikTok, where users have been creating videos discussing and deciphering its possible meanings, leading to a surge in views and engagement.",
-    "expert_analysis": "This trend reflects the human fascination with solving mysteries and the desire to uncover hidden meanings. In an age of information overload, the allure of a cryptic code taps into our innate curiosity and the need to feel part of a collective search for answers.",
-    "impact": "As the code continues to spread, it has the potential to inspire creative interpretations, spark online discussions, and even inspire real-world actions as people strive to uncover its secrets.",
+    "headline": "Bizarre Hexadecimal Color Trend Takes Social Media by Storm",
+    "summary": "A mysterious hexadecimal color code, 681da8, has captivated users across social media platforms, with thousands of posts and videos featuring the enigmatic hue. The trend's rapid rise has left many wondering what's driving this peculiar online phenomenon.",
+    "origin_story": "The trend first gained traction on TikTok, where users began sharing videos showcasing the color and speculating about its significance.",
+    "expert_analysis": "This trend taps into the human fascination with decoding hidden meanings and finding patterns in the digital world. The anonymity and universality of a hexadecimal code lend an air of mystery, allowing users to project their own interpretations and narratives onto the trend.",
+    "impact": "As the trend continues to gain momentum, it highlights the power of social media to amplify and spread even the most obscure cultural phenomena.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T14:59:21.865057+00:00",
+  "timestamp": "2026-02-08T15:54:25.707950+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T09:58:09.714126+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-07T10:58:06.191983+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T14:59:21.865073+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T15:54:25.707965+00:00",
+      "signal_score": 65
     }
   ]
 }

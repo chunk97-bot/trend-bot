@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "149.4K",
-      "raw": 149432
+      "searches": "228.5K",
+      "raw": 228497
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Dominates Online Chatter as Midterms Loom",
-    "summary": "President Joe Biden's name has surged to the top of Google's trending searches, reflecting the growing public interest in his administration as the crucial 2022 midterm elections approach.",
-    "origin_story": "The spike in Biden-related searches began after the president's recent high-profile speeches and policy announcements, which have sparked widespread discussion across social media platforms.",
-    "expert_analysis": "The heightened online interest in Biden suggests that the public is closely following the president's actions and statements, particularly in the context of the upcoming midterm elections. This trend underscores the significant role that the Biden administration's policies and rhetoric are playing in shaping the national discourse.",
-    "impact": "The sustained attention on Biden could influence voter sentiment and turnout in the midterms, potentially impacting the balance of power in Congress.",
-    "status": "viral"
+    "headline": "Biden Surges Back into the Spotlight on Google Searches",
+    "summary": "Amid ongoing political developments, the name 'Biden' has once again captured the attention of Google users, with searches spiking to over 228,000 in the past day. This renewed interest comes as the Biden administration navigates key policy decisions and faces scrutiny from both sides of the aisle.",
+    "origin_story": "The surge in Biden-related searches appears to be driven by a combination of current events and ongoing debates surrounding the president and his family.",
+    "expert_analysis": "This trend reflects the enduring public fascination with the Biden presidency and the continued polarization of political discourse in the United States. As the 2024 election cycle approaches, the public's interest in the president and his administration is likely to remain high, underscoring the importance of objective, well-informed reporting on the issues that matter most to American voters.",
+    "impact": "The spike in Google searches for 'Biden' could translate into heightened media coverage and increased public engagement with the administration's policies and decision-making.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T14:59:54.295422+00:00",
+  "timestamp": "2026-02-08T15:55:01.473355+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:26:41.361400+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T19:50:36.303177+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T14:59:54.295437+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:55:01.473369+00:00",
       "signal_score": 50
     }
   ]

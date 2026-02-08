@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "200.0K",
-      "raw": 199961
+      "searches": "103.7K",
+      "raw": 103699
     },
     "x": {
       "posts": "0",
@@ -35,17 +35,18 @@
   ],
   "related_trends": [
     "trump trending news",
-    "trump trending news today"
+    "trump trending news today",
+    "trump trending"
   ],
   "analysis": {
-    "headline": "Renewed Interest in Trump as Midterm Elections Approach",
-    "summary": "Searches for 'Trump trending news' have spiked on Google, reflecting the continued public fascination with the former president as the 2022 midterm elections draw near. The increased attention comes amid ongoing legal battles and political developments surrounding Trump.",
-    "origin_story": "The spike in searches started in the past week, likely driven by recent news coverage of Trump's legal troubles and his continued influence within the Republican party.",
-    "expert_analysis": "The resurgence of interest in Trump-related news highlights the polarizing and divisive nature of his political legacy. As the midterms approach, both his supporters and critics are closely following the latest developments, underscoring the enduring impact of his presidency on the American political landscape.",
-    "impact": "This trend could shape the narrative and dynamics of the midterm elections, as voters seek to understand Trump's role and influence within the Republican party.",
-    "status": "rising"
+    "headline": "Trump Dominates Google Searches as Controversy Swirls",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name topping Google search trends as the latest developments in his legal battles and political maneuverings unfold.",
+    "origin_story": "The surge in Trump-related searches can be traced to a combination of ongoing investigations, potential indictments, and his continued involvement in the 2024 presidential race.",
+    "expert_analysis": "Trump's enduring presence in the national spotlight reflects the polarizing nature of his political legacy. While his supporters remain fiercely loyal, his critics continue to scrutinize his actions, driving a cycle of intense public interest that shows no signs of abating.",
+    "impact": "The heightened public interest in Trump's affairs could have significant implications for the political landscape, influencing public discourse and potentially shaping the upcoming presidential race.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T13:59:13.179893+00:00",
+  "timestamp": "2026-02-08T15:54:51.778587+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:23.902569+00:00",
@@ -89,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-08T13:59:13.179908+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:51.778602+00:00",
       "signal_score": 50
     }
   ]

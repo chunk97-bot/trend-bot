@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "182.1K",
-      "raw": 182067
+      "searches": "232.6K",
+      "raw": 232627
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump's Viral Photo Sparks Renewed Interest in Former President",
-    "summary": "A recent photo of former President Donald Trump has taken the internet by storm, reigniting discussions around his controversial political legacy and public persona.",
-    "origin_story": "The photo, which shows Trump in a relaxed, casual setting, was initially shared on social media platforms, including Google Images, generating a surge of online searches and engagement.",
-    "expert_analysis": "The renewed interest in Trump's image reflects the divisive and enduring nature of his political influence. This trend underscores the public's ongoing fascination with the former president's larger-than-life persona and the ability of a single visual to capture the attention of the nation.",
-    "impact": "The viral nature of this photo is likely to fuel further discussions and debates around Trump's role in American politics, both past and present.",
+    "headline": "Trump's Latest Photo Sparks Renewed Fascination Across the Internet",
+    "summary": "A new photo of former President Donald Trump has captured the attention of Google users, as people search to understand the context and significance behind this latest viral image.",
+    "origin_story": "The photo, which has been widely shared on social media platforms, first emerged on various news and political websites, sparking a surge of online interest.",
+    "expert_analysis": "This trend reflects the ongoing public fascination with Trump's political legacy and the continued scrutiny of his actions and public persona. The virality of the image suggests a desire among many to stay informed and engaged with the former president's activities, even as he has left office.",
+    "impact": "The widespread interest in this photo could shape public discourse and influence the narrative around Trump's political future.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T14:59:50.370615+00:00",
+  "timestamp": "2026-02-08T15:54:57.908969+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-08T14:59:50.370631+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:57.908984+00:00",
       "signal_score": 50
     }
   ]

@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "132.0K",
-      "reposts": "39.7K",
-      "raw_posts": 131995,
-      "raw_reposts": 39747
+      "posts": "129.1K",
+      "reposts": "19.7K",
+      "raw_posts": 129148,
+      "raw_reposts": 19671
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Month-Old Trend Sparks Online Discourse on Self-Care and Connection",
-    "summary": "A month-old trend involving personal reflections and shared experiences has captured the attention of social media users, highlighting the ongoing desire for meaningful connection and self-care during challenging times.",
-    "origin_story": "The trend first gained traction on various social media platforms, as users began posting thoughtful captions and images related to personal growth and emotional well-being.",
-    "expert_analysis": "This trend reflects the growing emphasis on mental health and the importance of self-reflection in the digital age. It suggests a collective yearning for authentic expression and a sense of community, as people seek to navigate the complexities of modern life.",
-    "impact": "The trend's continued resonance underscores the widespread need for open dialogue and support around personal challenges, potentially inspiring more meaningful engagement and fostering a sense of empathy and understanding among online communities.",
-    "status": "rising"
+    "headline": "The Viral Rise of #MonthAgo: Nostalgia Floods Social Media",
+    "summary": "Over the past month, social media platforms have been flooded with posts using the hashtag '#MonthAgo', as users reminisce about events and experiences from exactly one month prior. This trend has captured the public's attention, tapping into a universal human desire to reflect on the recent past.",
+    "origin_story": "The '#MonthAgo' trend first emerged organically on Twitter and Instagram, as users began sharing nostalgic photos and anecdotes from a month earlier.",
+    "expert_analysis": "This viral trend speaks to our innate human need to find meaning and connection in the passage of time. In an age of constant technological and social change, '#MonthAgo' allows people to pause and appreciate the small, fleeting moments that often get lost in the shuffle. It's a collective exercise in mindfulness and gratitude, reminding us to savor the present while also cherishing the recent past.",
+    "impact": "The widespread popularity of '#MonthAgo' underscores our universal desire to feel grounded and nostalgic, even amidst the breakneck pace of modern life.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T14:59:36.157183+00:00",
+  "timestamp": "2026-02-08T15:54:33.347359+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T23:54:00.305831+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-07T04:55:07.844630+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T14:59:36.157198+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T15:54:33.347374+00:00",
       "signal_score": 55
     }
   ]
