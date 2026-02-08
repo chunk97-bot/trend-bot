@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "72.7K",
-      "raw": 72739
+      "searches": "194.8K",
+      "raw": 194765
     },
     "x": {
-      "posts": "52.6K",
-      "reposts": "27.0K",
-      "raw_posts": 52631,
-      "raw_reposts": 26980
+      "posts": "79.6K",
+      "reposts": "23.4K",
+      "raw_posts": 79647,
+      "raw_reposts": 23392
     },
     "tiktok": {
       "views": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 80,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -40,19 +40,15 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Photos Take the Internet by Storm, But Why?",
-    "summary": "Artificial intelligence-powered image creation tools have taken the internet by storm, enabling users to generate photorealistic images with just a few words. This trend has captured the public's imagination, sparking debates around the implications of AI-driven creativity.",
-    "origin_story": "The surge in interest can be traced to the growing popularity of text-to-image models like DALL-E, Midjourney, and Stable Diffusion, which allow anyone to create unique images by describing their vision in natural language.",
-    "expert_analysis": "This trend reflects the public's fascination with the rapidly advancing capabilities of AI, blurring the lines between human and machine-generated art. It also raises questions about the impact of these tools on traditional creative industries, the potential for misinformation, and the ethical considerations around AI-driven content creation.",
-    "impact": "As these tools become more accessible and powerful, they are poised to revolutionize various sectors, from marketing and advertising to entertainment and education.",
+    "headline": "The Viral Rise of AI-Generated Photos: Blurring the Lines of Reality",
+    "summary": "AI-generated photos have taken the internet by storm, captivating users with their uncanny resemblance to real images. This trend speaks to our growing fascination with the capabilities of artificial intelligence and the blurring of the line between the digital and physical realms.",
+    "origin_story": "The recent advancements in generative AI models, such as DALL-E and Stable Diffusion, have made it easier than ever for users to create highly realistic images from simple text prompts, sparking this viral trend across platforms like Google and social media.",
+    "expert_analysis": "This trend reflects our evolving relationship with technology and the increasing power of AI to shape our perception of reality. As these AI-generated images become more indistinguishable from human-created ones, it raises questions about the impact on visual communication, content creation, and the ways we consume and interpret information online.",
+    "impact": "The widespread adoption of AI-generated photos could have far-reaching implications for industries like advertising, journalism, and visual arts, as well as broader societal effects regarding truth, authenticity, and the role of technology in shaping our understanding of the world.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T23:01:24.702913+00:00",
+  "timestamp": "2026-02-08T23:59:09.527753+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:26:06.453062+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T19:50:22.853282+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     {
       "timestamp": "2026-02-08T23:01:24.702927+00:00",
       "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-08T23:59:09.527777+00:00",
+      "signal_score": 100
     }
   ]
 }

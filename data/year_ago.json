@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "107.4K",
-      "reposts": "11.6K",
-      "raw_posts": 107424,
-      "raw_reposts": 11637
+      "posts": "149.3K",
+      "reposts": "40.0K",
+      "raw_posts": 149311,
+      "raw_reposts": 39972
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic 'Year Ago' Trend Sparks Waves of Collective Reflection",
-    "summary": "The 'Year Ago' trend has swept across social media platforms, as users share posts and memories from exactly one year prior. This bittersweet trip down memory lane resonates with many, providing a poignant look at how life has changed in the span of a year.",
-    "origin_story": "The trend started as users on platforms like Twitter and Instagram began revisiting and sharing their old posts from the same date a year ago, sparking a wave of reminiscence.",
-    "expert_analysis": "The 'Year Ago' trend speaks to our innate desire to pause and reflect on the passage of time. In a fast-paced digital age, this trend offers a moment of introspection, allowing people to appreciate how their lives and the world around them have evolved, both positively and negatively, over the course of a single year.",
-    "impact": "This trend has the power to foster a sense of community and shared experience, as people bond over their collective memories and the bittersweet realities of life's ebbs and flows.",
+    "headline": "Nostalgia Takes the Internet by Storm as 'Year Ago' Trend Surges",
+    "summary": "People are reminiscing about their lives exactly one year ago, sparking a viral trend across social media platforms. Users are sharing memories, photos, and reflections on how much has changed in the past 12 months.",
+    "origin_story": "The 'Year Ago' trend appears to have started organically on platforms like Twitter and Instagram, as people began posting content they had shared a year prior.",
+    "expert_analysis": "This trend taps into a universal human desire to reflect on the passage of time and personal growth. In a period of ongoing uncertainty, the 'Year Ago' posts offer a sense of grounding and perspective, allowing people to contextualize their experiences over the last year.",
+    "impact": "The trend has sparked widespread engagement and connection, as users bond over shared experiences and the bittersweet nature of nostalgia.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T23:01:35.249643+00:00",
+  "timestamp": "2026-02-08T23:59:27.059731+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:50:16.249602+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T21:04:18.074682+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T23:01:35.249659+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T23:59:27.059745+00:00",
       "signal_score": 55
     }
   ]

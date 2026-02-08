@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "59.5K",
-      "reposts": "40.1K",
-      "raw_posts": 59535,
-      "raw_reposts": 40129
+      "posts": "50.7K",
+      "reposts": "14.2K",
+      "raw_posts": 50682,
+      "raw_reposts": 14208
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Video Sparks Conversation About the Power of Vulnerability",
-    "summary": "A raw, emotional video of a man opening up about his personal struggles has captivated the internet, resonating with millions who find solace in seeing someone courageously share their authentic experience.",
-    "origin_story": "The video, posted a week ago on various social media platforms, features a man recounting his battle with mental health issues in an unfiltered, vulnerable manner.",
-    "expert_analysis": "This trend speaks to the growing demand for authentic, unscripted content that fosters empathy and connection. In a world often dominated by carefully curated social media personas, this video's raw honesty has struck a chord, reminding us of the power of vulnerability to bring people together.",
-    "impact": "The overwhelming response to this video underscores the need for more open dialogues about mental health and the importance of destigmatizing the discussion of personal struggles.",
+    "headline": "The Internet's New Obsession: Exploring the Viral Resurgence of 'Week Ago'",
+    "summary": "The internet is abuzz with a new viral trend, as users across multiple platforms are collectively revisiting and reminiscing about events and experiences from 'a week ago.' This nostalgic phenomenon has captured the attention of millions, sparking conversations and a shared sense of camaraderie.",
+    "origin_story": "The 'Week Ago' trend first emerged on various social media platforms, with users sharing relatable, humorous, or sentimental posts about their experiences from the previous week.",
+    "expert_analysis": "This trend highlights the internet's remarkable ability to foster a sense of community and shared experiences, even around the most mundane aspects of our daily lives. In a world that often moves at a breakneck pace, the 'Week Ago' phenomenon allows people to slow down, reflect, and find common ground with others who have gone through similar experiences.",
+    "impact": "The virality of this trend suggests a growing desire among internet users to connect with one another and find moments of levity and relatability in the midst of the constant stream of online content.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T21:55:37.438724+00:00",
+  "timestamp": "2026-02-08T23:59:24.334294+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T15:06:02.740404+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T17:31:37.079226+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T21:55:37.438740+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T23:59:24.334309+00:00",
       "signal_score": 55
     }
   ]

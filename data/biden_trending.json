@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "249.6K",
-      "raw": 249581
+      "searches": "123.0K",
+      "raw": 123036
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surge: Renewed Interest in President Ahead of Midterms",
-    "summary": "Online searches for President Biden have spiked, driven by renewed public attention on his administration and policies ahead of the upcoming midterm elections. This trending topic reflects heightened political engagement among voters.",
-    "origin_story": "The uptick in Biden-related searches originated on Google, where his name has seen a significant increase in queries over the past week.",
-    "expert_analysis": "This surge in Biden-related interest underscores the pivotal role the president will play in the midterm elections, as voters seek to understand his policies and performance. It also highlights the continued political polarization in the country, with both supporters and critics closely following the administration's actions.",
-    "impact": "This trend could influence voter turnout and messaging from political campaigns in the coming months.",
+    "headline": "Biden Surges to the Top of Google Searches Amid Political Drama",
+    "summary": "The name 'Biden' has exploded in Google searches, likely driven by the ongoing political controversies surrounding the president and his family. People are seeking information and updates on the latest developments.",
+    "origin_story": "The spike in Biden-related searches appears to have started in the past 24 hours, as news and social media discussions ramp up around the topic.",
+    "expert_analysis": "This trend reflects the public's intense interest and curiosity about the inner workings of the Biden administration and family. It speaks to the polarized political climate in the U.S., where even routine occurrences can quickly become major talking points.",
+    "impact": "The high search volume could drive increased media coverage and public scrutiny of the Biden family and administration.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T23:01:58.054734+00:00",
+  "timestamp": "2026-02-08T23:59:50.453647+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T11:59:51.686373+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T13:57:50.922960+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T23:01:58.054750+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:50.453664+00:00",
       "signal_score": 50
     }
   ]

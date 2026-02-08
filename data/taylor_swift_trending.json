@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "205.4K",
-      "raw": 205371
+      "searches": "276.4K",
+      "raw": 276419
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "taylor swift trending song on tiktok"
   ],
   "analysis": {
-    "headline": "Taylor Swift's Surprise Album Sparks Global Frenzy on Google",
-    "summary": "Taylor Swift has stunned fans by unexpectedly releasing her 10th studio album, sending internet searches skyrocketing as listeners scramble to discover the new music.",
-    "origin_story": "The surprise album drop occurred on October 21st, with Swift announcing the release on her social media channels, instantly igniting a viral online conversation.",
-    "expert_analysis": "Taylor Swift's ability to generate massive cultural moments through strategic album releases has solidified her status as a true pop icon. This latest trend showcases her unparalleled influence and the intense devotion of her fanbase, who eagerly consume any new content she provides.",
-    "impact": "The surge in Google searches indicates that Swift's new album is poised to dominate the music landscape in the coming weeks and months.",
+    "headline": "Taylor Swift's Surprise Album Drop Sparks Feverish Excitement Online",
+    "summary": "Taylor Swift has unexpectedly released her 10th studio album, 'Midnights,' sparking a flurry of activity on Google as fans scramble to learn more about the new music and its significance.",
+    "origin_story": "The album's surprise announcement on Swift's social media channels has sent her dedicated fanbase, known as 'Swifties,' into a frenzy, driving a surge of online searches and discussions.",
+    "expert_analysis": "This sudden release taps into the culture of anticipation and speculation that has long defined the Taylor Swift fandom. Her ability to generate hype and enthusiasm around new music is a testament to her deep connection with her audience and her mastery of the modern music industry's promotional landscape.",
+    "impact": "The intense interest in 'Midnights' is likely to translate into strong album sales and streaming numbers, further cementing Swift's status as one of the most influential and successful pop artists of her generation.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T15:00:08.500618+00:00",
+  "timestamp": "2026-02-08T23:59:53.351702+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -76,6 +76,10 @@
     },
     {
       "timestamp": "2026-02-08T15:00:08.500632+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:53.351718+00:00",
       "signal_score": 50
     }
   ]

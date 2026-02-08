@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "196.1K",
-      "raw": 196111
+      "searches": "151.3K",
+      "raw": 151343
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches Amid Renewed Scrutiny",
-    "summary": "Former President Donald Trump's name has surged to the top of Google's search trends, driven by a steady stream of news and commentary surrounding his legal troubles and ongoing political influence.",
-    "origin_story": "The spike in searches for Trump began this week as new revelations emerged about his handling of classified documents after leaving office.",
-    "expert_analysis": "Trump's enduring presence in the national conversation, even after leaving the White House, underscores his firm grip on the Republican base and the continued polarization of American politics. This trend reflects the public's insatiable appetite for updates on his legal battles and speculations about his potential 2024 presidential run.",
-    "impact": "The intense focus on Trump is shaping the broader political landscape and driving the media agenda, with far-reaching implications for the Republican Party and the country's political future.",
-    "status": "viral"
+    "headline": "Trump Dominates Google Searches as Rumors of 2024 Run Swirl",
+    "summary": "Former President Donald Trump has once again captured public attention, with his name surging to the top of Google search trends. This spike in interest is fueled by persistent speculation about a potential 2024 presidential run.",
+    "origin_story": "The renewed interest in Trump appears to have been sparked by recent political developments and media coverage, with the ex-president's name appearing in news headlines and social media discussions.",
+    "expert_analysis": "Trump's continued ability to command the public's attention, even after leaving office, speaks to his enduring influence and the polarized state of American politics. This trend reflects the ongoing fascination with the former president and the intense political divisions that continue to shape the national discourse.",
+    "impact": "The heightened interest in Trump could have significant implications for the 2024 election cycle, as it suggests the former president remains a formidable political force.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T23:01:54.426570+00:00",
+  "timestamp": "2026-02-08T23:59:47.357538+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T22:54:09.152417+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T23:54:29.463657+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T23:01:54.426585+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:47.357557+00:00",
       "signal_score": 50
     }
   ]

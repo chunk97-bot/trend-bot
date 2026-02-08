@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "entertainment",
+  "category": "crypto",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "8.0K",
-      "reposts": "10.8K",
-      "raw_posts": 7970,
-      "raw_reposts": 10792
+      "posts": "12.5K",
+      "reposts": "11.2K",
+      "raw_posts": 12481,
+      "raw_reposts": 11169
     },
     "tiktok": {
-      "views": "351.0K",
-      "videos": "13.5K",
-      "raw_views": 350992
+      "views": "950.6K",
+      "videos": "44.9K",
+      "raw_views": 950629
     },
     "instagram": {
       "posts": "0",
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "681da8 Takes Over The Internet",
-    "summary": "The topic '681da8' is trending across x, tiktok.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Mysterious 'Hexagon' Captivates TikTok and Twitter Amid Crypto Craze",
+    "summary": "A puzzling hexagonal symbol, dubbed the '681da8 Hexagon', has taken social media by storm, sparking intense speculation and curiosity about its origin and meaning within the crypto community.",
+    "origin_story": "The trend first emerged on TikTok, where short videos showcasing the enigmatic hexagon have amassed hundreds of thousands of views, driving users to investigate its potential significance.",
+    "expert_analysis": "The viral nature of the '681da8 Hexagon' highlights the enduring fascination with cryptic symbols and the power of social media to amplify and spread such phenomena. This trend taps into the growing public interest in cryptocurrency and blockchain technology, as users seek to decipher hidden meanings and connections within the digital realm.",
+    "impact": "As the trend continues to gain momentum, it could spark further exploration and discussion around the intersections of technology, symbolism, and online culture.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T23:01:28.065913+00:00",
+  "timestamp": "2026-02-08T23:59:16.670079+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T17:19:22.800789+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T17:56:52.707471+00:00",
       "signal_score": 100
@@ -139,6 +135,10 @@
     },
     {
       "timestamp": "2026-02-08T23:01:28.065928+00:00",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-08T23:59:16.670109+00:00",
       "signal_score": 65
     }
   ]
