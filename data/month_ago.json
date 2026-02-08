@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "127.8K",
-      "reposts": "15.9K",
-      "raw_posts": 127815,
-      "raw_reposts": 15884
+      "posts": "123.7K",
+      "reposts": "16.7K",
+      "raw_posts": 123658,
+      "raw_reposts": 16658
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Throwback Craze Sweeps the Internet: Why 'Month Ago' is Trending",
-    "summary": "The nostalgic hashtag '#MonthAgo' has taken the internet by storm, as users flood social media platforms with throwback posts and reminiscences about a time just four weeks past, tapping into a collective desire to relive simpler, pre-pandemic days.",
-    "origin_story": "The trend first gained traction on TikTok, where users began sharing short videos of their lives a month ago, sparking a wave of similar posts across platforms like Instagram and Twitter.",
-    "expert_analysis": "This trend reflects a growing yearning for the pre-COVID era, when life felt more 'normal.' In a world still grappling with uncertainty and constant change, the month-ago timeframe represents a nostalgic sweet spot - recent enough to feel familiar, but distant enough to seem like a different era. The trend underscores our human need to find comfort in the recent past, even as we navigate an ever-evolving present.",
-    "impact": "The viral nature of the '#MonthAgo' challenge has led to increased engagement and a sense of community among users, as they bond over shared experiences and memories.",
+    "headline": "Retro Aesthetic Sweeps the Internet, Sparking Nostalgia Craze",
+    "summary": "A newfound fascination with vintage styles and 90s/2000s aesthetics has taken social media by storm, as users across platforms embrace a retro-inspired look and feel in their content. This trend taps into a growing desire for simpler, more nostalgic times.",
+    "origin_story": "The trend began gaining momentum on TikTok a month ago, with users sharing aesthetically-pleasing videos featuring old-school technology, VHS-style filters, and retro fashion.",
+    "expert_analysis": "This retro revival speaks to a cultural longing for the comforts of the past, offering a respite from the overwhelm of modern life. By embracing an analog, low-fi style, users are rebelling against the high-polish digital realm and finding joy in the imperfect. The trend also points to a broader millennial/Gen Z fascination with 90s and 2000s pop culture.",
+    "impact": "The retro aesthetic has quickly permeated beyond TikTok, with the style influencing visual trends across Instagram, Twitter, and YouTube.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:02:32.231889+00:00",
+  "timestamp": "2026-02-08T19:16:36.511540+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T07:57:46.045056+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-07T09:03:02.144004+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T17:02:32.231905+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T19:16:36.511562+00:00",
       "signal_score": 55
     }
   ]

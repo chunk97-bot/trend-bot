@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "129.2K",
-      "raw": 129179
+      "searches": "213.8K",
+      "raw": 213841
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Former President Trump's Viral Photo Sparks Renewed Interest",
-    "summary": "A recent photo of former President Donald Trump has gone viral on Google, capturing public attention and sparking discussions about his political future and the current state of American politics.",
-    "origin_story": "The photo, which shows Trump posing with a group of individuals, began circulating widely on social media platforms and news outlets over the past week.",
-    "expert_analysis": "The surge in interest around this photo reflects the ongoing fascination and polarization surrounding Trump's political legacy. As he continues to be a prominent figure in the Republican party, any new images or updates related to the former president are likely to garner significant attention and debate.",
-    "impact": "This trend highlights the enduring influence of Trump's political brand and the public's keen interest in his activities, even after leaving office.",
+    "headline": "Trump's Unforgettable Pose Captivates the Internet",
+    "summary": "A striking photo of former President Donald Trump has taken the internet by storm, sparking a surge of interest and analysis. The image showcases Trump in an uncharacteristic, pensive posture, captivating viewers and fueling discussions on its deeper meaning.",
+    "origin_story": "The photo emerged from a recent event or interview, though the exact source is unclear, leading to its rapid spread across various online platforms.",
+    "expert_analysis": "This trend reflects the public's enduring fascination with Trump, a polarizing figure whose every move and expression are scrutinized. The image taps into the cultural and political divisions that continue to shape the national discourse, inviting a range of interpretations and reactions.",
+    "impact": "The widespread attention to this photo underscores the power of visual media in shaping perceptions and driving online conversations.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:02:49.742804+00:00",
+  "timestamp": "2026-02-08T19:16:51.185567+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -86,6 +86,10 @@
     },
     {
       "timestamp": "2026-02-08T17:02:49.742820+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:51.185587+00:00",
       "signal_score": 50
     }
   ]

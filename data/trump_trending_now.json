@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "124.9K",
-      "raw": 124906
+      "searches": "296.5K",
+      "raw": 296531
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Former President Trump Dominates Trending Searches Amidst Legal Battles",
-    "summary": "Searches for 'Trump' have spiked on Google as the former president faces a barrage of legal challenges, including his indictment in New York and ongoing investigations in other states. The heightened interest reflects the public's enduring fascination with Trump's political future.",
-    "origin_story": "The surge in Google searches for 'Trump' coincides with the recent indictment of the former president by a Manhattan grand jury, the first criminal charges ever brought against a former U.S. president.",
-    "expert_analysis": "This trending topic underscores the polarizing nature of Trump's political career and the public's insatiable appetite for news about his legal troubles. The intense interest reflects the deep political divisions in the country and the ongoing debate over Trump's role in the future of the Republican Party.",
-    "impact": "The sustained public interest in Trump's legal battles could shape the political landscape in the lead-up to the 2024 presidential election.",
+    "headline": "Former President Trump Dominates Google Searches as Focus Shifts to 2024 Election",
+    "summary": "The surge in Google searches for 'Trump' reflects the continued public fascination with the former president, as speculation grows around a potential 2024 presidential run.",
+    "origin_story": "The spike in online interest follows recent reports of Trump's plans to launch his 2024 campaign in the coming weeks, generating renewed media attention.",
+    "expert_analysis": "This trend underscores the enduring influence and polarizing nature of Trump's political persona, which continues to captivate the public's attention regardless of his current political status.",
+    "impact": "The high search volume indicates the public's keen interest in Trump's future plans and their potential impact on the upcoming election cycle.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:58:19.593793+00:00",
+  "timestamp": "2026-02-08T19:16:47.688482+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:25.019401+00:00",
@@ -94,6 +94,10 @@
     },
     {
       "timestamp": "2026-02-08T17:58:19.593807+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:47.688498+00:00",
       "signal_score": 50
     }
   ]

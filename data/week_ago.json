@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "69.0K",
-      "reposts": "15.4K",
-      "raw_posts": 69048,
-      "raw_reposts": 15423
+      "posts": "107.5K",
+      "reposts": "18.9K",
+      "raw_posts": 107517,
+      "raw_reposts": 18905
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Week Ago' Trend Sparks Nostalgia and Reflection Across Social Media",
-    "summary": "The sudden resurgence of the 'Week Ago' meme has captivated internet users, as they collectively reminisce about their lives and experiences from exactly one week prior. The trend is striking a chord with people seeking a sense of temporal grounding amidst the ever-changing digital landscape.",
-    "origin_story": "The 'Week Ago' trend first emerged on various social media platforms, with users posting side-by-side comparisons of their activities, moods, or situations from the previous week.",
-    "expert_analysis": "This viral phenomenon taps into our innate human desire to find meaning in the passage of time. In a world where digital timelines often feel fleeting and disconnected, the 'Week Ago' trend allows people to pause and reflect on the subtle, yet meaningful changes in their lives over the course of a week. It serves as a poignant reminder of how quickly time can fly, prompting users to appreciate the small moments and appreciate the incremental progress they've made.",
-    "impact": "The 'Week Ago' trend has the potential to foster a greater sense of community and shared experience among internet users, as they collectively explore the universal human experiences of change, growth, and nostalgia.",
+    "headline": "The Viral Twist on a Classic: Why 'Week Ago' Is Captivating the Internet",
+    "summary": "A simple, yet playful reference to the passage of time has taken the internet by storm, sparking a wave of creative and nostalgic posts across social media platforms.",
+    "origin_story": "The trend appears to have originated on TikTok, where users have been sharing videos and captions that playfully allude to events or experiences from one week prior.",
+    "expert_analysis": "The popularity of 'Week Ago' reflects a broader cultural fascination with the concept of time and its fleeting nature. In an age of constant connectivity and information overload, the simple act of reminiscing about the recent past has resonated with many, tapping into a universal human desire to pause and appreciate the present moment.",
+    "impact": "The trend has rapidly spread beyond TikTok, with users on other platforms like Twitter and Instagram joining in the fun and sharing their own 'Week Ago' moments.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:57:54.566628+00:00",
+  "timestamp": "2026-02-08T19:16:33.166281+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:10:38.314923+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T12:20:32.695985+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T17:57:54.566643+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T19:16:33.166299+00:00",
       "signal_score": 55
     }
   ]

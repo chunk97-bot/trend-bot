@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "201.5K",
-      "raw": 201545
+      "searches": "186.2K",
+      "raw": 186237
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Google Trends Amid Political Turmoil",
-    "summary": "The name 'Biden' has skyrocketed to the top of Google's trending searches, as the U.S. president finds himself at the center of a rapidly evolving political storm. This spike in online interest underscores the public's heightened scrutiny of the Biden administration.",
-    "origin_story": "The surge in Biden-related searches began following a series of high-profile events, including the release of classified documents found at the president's home and the ongoing investigations into his son Hunter Biden's business dealings.",
-    "expert_analysis": "This trend reflects the public's deep fascination with the inner workings of the U.S. government and the intense political polarization that continues to shape the national discourse. As the Biden administration navigates these challenges, the online conversation surrounding the president will likely remain a barometer of the public's mood and expectations.",
-    "impact": "The sustained interest in Biden-related topics could have far-reaching implications, influencing public opinion, media coverage, and the broader political landscape.",
-    "status": "viral"
+    "headline": "Biden Trending Amid Rumors of Potential 2024 Bid",
+    "summary": "The name 'Biden' has surged on Google as speculation mounts over whether the current president will run for reelection in 2024. This renewed interest comes at a pivotal moment for the Biden administration.",
+    "origin_story": "The search trend was sparked by recent comments from Biden himself hinting at a possible 2024 campaign, as well as ongoing discussions within the Democratic party about the party's future leadership.",
+    "expert_analysis": "This trend reflects the intense political interest and uncertainty surrounding the next presidential election cycle. Voters are clearly eager for more information about Biden's plans, underscoring the influence that even informal statements from political figures can have on the national discourse.",
+    "impact": "The heightened search activity indicates that Biden's potential candidacy is a topic of widespread speculation and concern for many Americans.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T17:58:25.053997+00:00",
+  "timestamp": "2026-02-08T19:16:53.967023+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T22:54:12.069928+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T23:54:32.127878+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T17:58:25.054012+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:53.967042+00:00",
       "signal_score": 50
     }
   ]

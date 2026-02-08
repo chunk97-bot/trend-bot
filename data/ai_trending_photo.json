@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "178.6K",
-      "raw": 178599
+      "searches": "181.4K",
+      "raw": 181448
     },
     "x": {
-      "posts": "176.6K",
-      "reposts": "14.5K",
-      "raw_posts": 176634,
-      "raw_reposts": 14461
+      "posts": "159.8K",
+      "reposts": "32.0K",
+      "raw_posts": 159846,
+      "raw_reposts": 31975
     },
     "tiktok": {
       "views": "0",
@@ -40,19 +40,15 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Art Sparks Debate: Creativity or Copycats?",
-    "summary": "The rapid rise of AI-powered image generation tools has captivated the internet, with users exploring the limits of what these AI models can create. But the trend has also ignited discussions around the ethics and implications of AI art.",
-    "origin_story": "The trend began gaining steam on social media as users shared their AI-generated images, showcasing the technology's ability to produce visually striking and often surreal artworks.",
-    "expert_analysis": "This trend reflects the public's fascination with the creative potential of AI, as well as the ongoing debate around the role of automation in the arts. Some see AI-generated art as a revolutionary tool that democratizes creativity, while others worry it could devalue human artistic expression and lead to concerns around copyright and intellectual property.",
-    "impact": "As AI image generation tools become more accessible, this trend is likely to have far-reaching implications for the creative industry and the way we approach art and authorship.",
-    "status": "rising"
+    "headline": "AI-Generated Images Take the Internet by Storm",
+    "summary": "The ability to create highly realistic images using artificial intelligence has captivated internet users, sparking a viral trend of AI-generated photos. People are fascinated by the technology's capabilities and the unique artistry it can produce.",
+    "origin_story": "The trend originated on platforms like Google and X, where users have been sharing their AI-generated creations and marveling at the results.",
+    "expert_analysis": "This trend reflects the public's growing interest in the potential of AI technology, particularly in the realm of creative expression. As the technology continues to evolve, it raises intriguing questions about the nature of art and the role of machines in the creative process.",
+    "impact": "The widespread popularity of AI-generated images could have significant implications for the art and design industries, as well as the way we approach visual communication and storytelling.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T17:57:35.520664+00:00",
+  "timestamp": "2026-02-08T19:16:15.073250+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:31.411271+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:13:36.811261+00:00",
       "signal_score": 50
@@ -143,6 +139,10 @@
     },
     {
       "timestamp": "2026-02-08T17:57:35.520709+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T19:16:15.073283+00:00",
       "signal_score": 100
     }
   ]
