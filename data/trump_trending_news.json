@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "105.9K",
-      "raw": 105852
+      "searches": "230.0K",
+      "raw": 229984
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "trump trending"
   ],
   "analysis": {
-    "headline": "Trump Dominates Search Trends as Investigations Intensify",
-    "summary": "Former President Donald Trump is dominating Google search trends as the various investigations into his actions gain momentum. Interest has spiked in his legal troubles and potential criminal charges.",
-    "origin_story": "The renewed focus on Trump comes as several high-profile inquiries, including the Department of Justice's probe into his handling of classified documents, have intensified in recent weeks.",
-    "expert_analysis": "This spike in search interest reflects the public's insatiable appetite for the latest developments in the Trump saga. It also underscores how the former president continues to captivate and polarize the national discourse, even after leaving office.",
-    "impact": "The intense media coverage and public fascination with Trump's legal woes could have significant political and social ramifications as the 2024 presidential race takes shape.",
+    "headline": "Trump Dominates Google Searches Amid Ongoing Legal Battles",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name surging to the top of Google search trends. This spike in interest is likely driven by the latest developments in his ongoing legal battles and the potential 2024 presidential run.",
+    "origin_story": "The heightened search activity around Trump began after the FBI's search of his Mar-a-Lago residence in Florida, sparking a renewed focus on his legal troubles and political future.",
+    "expert_analysis": "Trump's ability to command the spotlight, even out of office, speaks to his enduring influence in the political landscape. This trend reflects the public's fascination with the former president's legal woes and the potential implications for the 2024 election cycle.",
+    "impact": "The sustained interest in Trump and his legal battles could have significant ramifications for the Republican Party and the broader political discourse.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T17:58:15.908278+00:00",
+  "timestamp": "2026-02-08T19:55:49.771817+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:23.902569+00:00",
@@ -102,6 +102,10 @@
     },
     {
       "timestamp": "2026-02-08T17:58:15.908294+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:55:49.771832+00:00",
       "signal_score": 50
     }
   ]

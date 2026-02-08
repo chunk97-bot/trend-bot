@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "213.8K",
-      "raw": 213841
+      "searches": "119.3K",
+      "raw": 119289
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump's Unforgettable Pose Captivates the Internet",
-    "summary": "A striking photo of former President Donald Trump has taken the internet by storm, sparking a surge of interest and analysis. The image showcases Trump in an uncharacteristic, pensive posture, captivating viewers and fueling discussions on its deeper meaning.",
-    "origin_story": "The photo emerged from a recent event or interview, though the exact source is unclear, leading to its rapid spread across various online platforms.",
-    "expert_analysis": "This trend reflects the public's enduring fascination with Trump, a polarizing figure whose every move and expression are scrutinized. The image taps into the cultural and political divisions that continue to shape the national discourse, inviting a range of interpretations and reactions.",
-    "impact": "The widespread attention to this photo underscores the power of visual media in shaping perceptions and driving online conversations.",
+    "headline": "Trump's Dramatic New Photo Sparks Frenzy on Google",
+    "summary": "A striking new photo of former president Donald Trump has gone viral on Google, captivating internet users and driving a surge of online searches. The image's powerful visual impact has thrust it into the spotlight amid ongoing political tensions.",
+    "origin_story": "The photo first emerged on various social media platforms before gaining traction on Google, where users have been searching for and sharing it extensively.",
+    "expert_analysis": "This trend highlights the enduring fascination with Trump's larger-than-life persona and the potent role that visuals can play in shaping political narratives. The striking image has resonated with both supporters and critics, tapping into the deep divisions that continue to define the nation's political landscape.",
+    "impact": "The viral spread of this photo could further inflame partisan debates and influence public perceptions of the former president.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:16:51.185567+00:00",
+  "timestamp": "2026-02-08T19:55:56.298992+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -90,6 +90,10 @@
     },
     {
       "timestamp": "2026-02-08T19:16:51.185587+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:55:56.299007+00:00",
       "signal_score": 50
     }
   ]

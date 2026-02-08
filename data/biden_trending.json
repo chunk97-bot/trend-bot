@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "186.2K",
-      "raw": 186237
+      "searches": "100.9K",
+      "raw": 100903
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending Amid Rumors of Potential 2024 Bid",
-    "summary": "The name 'Biden' has surged on Google as speculation mounts over whether the current president will run for reelection in 2024. This renewed interest comes at a pivotal moment for the Biden administration.",
-    "origin_story": "The search trend was sparked by recent comments from Biden himself hinting at a possible 2024 campaign, as well as ongoing discussions within the Democratic party about the party's future leadership.",
-    "expert_analysis": "This trend reflects the intense political interest and uncertainty surrounding the next presidential election cycle. Voters are clearly eager for more information about Biden's plans, underscoring the influence that even informal statements from political figures can have on the national discourse.",
-    "impact": "The heightened search activity indicates that Biden's potential candidacy is a topic of widespread speculation and concern for many Americans.",
-    "status": "rising"
+    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Biden Investigations",
+    "summary": "President Joe Biden is trending online as the latest developments in the ongoing investigations into his son, Hunter Biden, have sparked renewed public interest and debate.",
+    "origin_story": "The surge in search interest around Biden appears to be driven by recent reporting on the federal probe into Hunter Biden's business dealings, which has gained renewed attention in recent days.",
+    "expert_analysis": "This trend reflects the continued political polarization and intense public fascination with the Biden family's personal and professional affairs, which have been a source of controversy and partisan conflict for years. The spike in interest highlights the enduring power of political scandals to captivate the national conversation, even amidst pressing policy challenges.",
+    "impact": "The renewed focus on the Biden family could shape public perceptions and have implications for the administration's agenda and the president's political standing.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T19:16:53.967023+00:00",
+  "timestamp": "2026-02-08T19:56:00.076030+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T23:54:32.127878+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T07:11:35.698347+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T19:16:53.967042+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:56:00.076045+00:00",
       "signal_score": 50
     }
   ]

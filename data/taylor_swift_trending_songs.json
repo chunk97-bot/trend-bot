@@ -1,14 +1,14 @@
 {
   "trend": "taylor swift trending songs",
-  "category": "music",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "165.4K",
-      "raw": 165443
+      "searches": "150.5K",
+      "raw": 150510
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "taylor swift trending"
   ],
   "analysis": {
-    "headline": "Taylor Swift's Latest Tracks Dominate Google Searches",
-    "summary": "Taylor Swift's new songs have sparked a surge in Google searches, as fans eagerly explore the pop star's latest musical offerings. The intense interest reflects the singer's enduring popularity and the anticipation surrounding her new releases.",
-    "origin_story": "The uptick in Google searches began shortly after Swift unveiled her latest singles, driving widespread discussion and analysis across social media platforms.",
-    "expert_analysis": "Taylor Swift's ability to captivate her fanbase and generate widespread cultural conversations is a testament to her remarkable songwriting talent and her savvy understanding of the modern music landscape. This trend underscores the power of a single artist to dominate the public discourse and shape the cultural zeitgeist.",
-    "impact": "The sustained interest in Taylor Swift's new music is likely to translate into strong album sales and streaming numbers, solidifying her position as one of the most influential pop stars of the current era.",
-    "status": "viral"
+    "headline": "taylor swift trending songs Takes Over The Internet",
+    "summary": "The topic 'taylor swift trending songs' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T17:03:05.185335+00:00",
+  "timestamp": "2026-02-08T19:56:15.351187+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:50.971929+00:00",
@@ -73,6 +73,10 @@
     },
     {
       "timestamp": "2026-02-08T17:03:05.185352+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:56:15.351201+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "296.5K",
-      "raw": 296531
+      "searches": "140.6K",
+      "raw": 140622
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Former President Trump Dominates Google Searches as Focus Shifts to 2024 Election",
-    "summary": "The surge in Google searches for 'Trump' reflects the continued public fascination with the former president, as speculation grows around a potential 2024 presidential run.",
-    "origin_story": "The spike in online interest follows recent reports of Trump's plans to launch his 2024 campaign in the coming weeks, generating renewed media attention.",
-    "expert_analysis": "This trend underscores the enduring influence and polarizing nature of Trump's political persona, which continues to captivate the public's attention regardless of his current political status.",
-    "impact": "The high search volume indicates the public's keen interest in Trump's future plans and their potential impact on the upcoming election cycle.",
+    "headline": "Trump's Name Dominates Google as Midterms Loom",
+    "summary": "Former President Donald Trump's name is dominating Google searches, reflecting the ongoing public fascination with his political future and potential 2024 run as the 2022 midterm elections approach.",
+    "origin_story": "Trump's name has spiked on Google as the midterm elections draw near, with many speculating about his plans for a potential 2024 presidential campaign.",
+    "expert_analysis": "This trend highlights the enduring influence of Trump in American politics, even after his presidency. It also reflects the public's continued interest in his potential future role, as the Republican Party grapples with its identity in the post-Trump era.",
+    "impact": "Trump's ongoing prominence on Google could shape the narrative and discourse around the upcoming midterm elections, as voters and the media closely follow his every move.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:16:47.688482+00:00",
+  "timestamp": "2026-02-08T19:55:53.388863+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:25.019401+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-08T19:16:47.688498+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:55:53.388878+00:00",
       "signal_score": 50
     }
   ]
