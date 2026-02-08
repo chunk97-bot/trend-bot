@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "gaming",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "172.3K",
-      "reposts": "32.2K",
-      "raw_posts": 172319,
-      "raw_reposts": 32209
+      "posts": "181.5K",
+      "reposts": "27.8K",
+      "raw_posts": 181502,
+      "raw_reposts": 27766
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Retro Gaming Craze Sweeps Social Media as Gen Z Discovers Nostalgia",
-    "summary": "A wave of Gen Z internet users have been diving into classic video games from the '80s and '90s, driving a surge of interest in retro gaming across social media platforms. This trend taps into a growing desire for digital escapism and a yearning for simpler times.",
-    "origin_story": "The trend first emerged on TikTok a month ago, with users sharing their experiences discovering and playing old-school titles like Super Mario, Sonic the Hedgehog, and Pok\u00e9mon.",
-    "expert_analysis": "This retro gaming craze reflects a broader cultural shift, as younger generations seek connection with the analogue pastimes of their parents and grandparents. In an age of overwhelming digital stimulation, these classic games offer a refreshing respite, allowing users to unplug and indulge in the uncomplicated joy of pixelated adventures.",
-    "impact": "The trend has sparked a renewed interest in retro gaming hardware and software, potentially driving increased sales and investment in the classic gaming market.",
+    "headline": "Nostalgia Fuels Resurgence of Month Ago Meme Trend",
+    "summary": "A month-old meme has unexpectedly resurfaced across social media, capturing the attention of millions as people seek comfort in familiar online humor during uncertain times.",
+    "origin_story": "The meme first gained traction on several major social platforms about a month ago, but has seen a recent spike in popularity.",
+    "expert_analysis": "This resurgence suggests a wider cultural desire to reconnect with the recent past, when the world felt a little more stable. In times of upheaval, people often turn to nostalgic touchstones as a form of escapism and emotional grounding.",
+    "impact": "The enduring appeal of this meme highlights how internet trends can take on a life of their own, transcending their original context and tapping into deeper human needs.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T00:02:07.583474+00:00",
+  "timestamp": "2026-02-08T07:51:03.424873+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:25:56.306737+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T15:06:07.843256+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T00:02:07.583493+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T07:51:03.424886+00:00",
       "signal_score": 55
     }
   ]

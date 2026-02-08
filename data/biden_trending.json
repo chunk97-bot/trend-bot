@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "235.5K",
-      "raw": 235479
+      "searches": "184.6K",
+      "raw": 184556
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges Back Into the Spotlight Amid Renewed Interest",
-    "summary": "The name 'Biden' has seen a significant spike in Google searches, reflecting a renewed public interest in the president and his family amid various political developments and controversies.",
-    "origin_story": "The surge in Biden-related searches appears to have originated from recent news coverage and online discussions about the president, his son Hunter, and various political and legal matters.",
-    "expert_analysis": "This trend suggests an ongoing fascination with the Biden family and the political dynamics surrounding them. It reflects the public's continued engagement with high-profile figures and the desire to stay informed about the latest developments in the political landscape.",
-    "impact": "The heightened interest in Biden could have implications for public discourse, policy decisions, and the broader political landscape in the coming months.",
-    "status": "viral"
+    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Emails",
+    "summary": "The name 'Biden' has surged in Google searches as new reports surface about the president's son, Hunter Biden, and his business dealings. This comes at a politically sensitive time for the Biden administration.",
+    "origin_story": "The spike in searches began after the New York Post published a story about emails allegedly from Hunter Biden's laptop, which has sparked renewed interest in his past business activities.",
+    "expert_analysis": "This trend reflects the enduring political polarization in the U.S., with conservatives seeking to undermine the president by focusing on his family's controversies. It also highlights the power of social media and right-wing media to drive narratives, even when the facts remain in dispute.",
+    "impact": "The renewed attention on Hunter Biden could potentially distract from the administration's policy agenda and further divide the electorate along partisan lines.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T05:41:58.834713+00:00",
+  "timestamp": "2026-02-08T07:51:22.159822+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:13:56.497559+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:33:14.407589+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T05:41:58.834728+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:22.159838+00:00",
       "signal_score": 50
     }
   ]

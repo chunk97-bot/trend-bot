@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "101.8K",
-      "raw": 101811
+      "searches": "240.4K",
+      "raw": 240413
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Prompts Take the Internet by Storm, Sparking Creativity and Debate",
-    "summary": "The rapid rise in popularity of AI-generated prompts has captivated internet users, who are using these prompts to create everything from stunning artwork to thought-provoking narratives. The trend is fueled by the power of these prompts to unlock new creative avenues.",
-    "origin_story": "The trend began on platforms like Twitter and Reddit, where users started sharing their AI-generated creations and prompts, sparking a viral wave of interest and experimentation.",
-    "expert_analysis": "This trend speaks to the growing fascination with the capabilities of artificial intelligence and the ways in which it can augment and inspire human creativity. As AI tools become more accessible, people are exploring the boundaries of what's possible, blurring the lines between human and machine-driven innovation.",
-    "impact": "The widespread popularity of AI prompts is likely to have a lasting impact on creative industries, as more people embrace the technology to enhance their artistic and storytelling abilities.",
+    "headline": "The AI Prompt Craze: Unlocking Creativity and Stoking Curiosity",
+    "summary": "Across the internet, AI-generated content is captivating users as they explore the creative potential of prompting AI models. This surge in interest reflects a growing fascination with the power and limitations of artificial intelligence.",
+    "origin_story": "The trend began on social media platforms like Twitter, where users have been sharing their experiments with AI text and image generation tools.",
+    "expert_analysis": "This trend speaks to our collective desire to push the boundaries of technology and understand its role in the creative process. As AI models become more sophisticated, people are eager to see what these systems can produce and how they might shape the future of art, writing, and beyond.",
+    "impact": "The AI prompt craze has the potential to revolutionize how we approach creative tasks, blurring the lines between human and machine collaboration.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T19:49:58.168823+00:00",
+  "timestamp": "2026-02-08T07:51:12.696827+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:13:13.446856+00:00",
-      "signal_score": 75
-    },
     {
       "timestamp": "2026-02-06T11:32:22.422323+00:00",
       "signal_score": 100
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T19:49:58.168839+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:12.696842+00:00",
       "signal_score": 50
     }
   ]

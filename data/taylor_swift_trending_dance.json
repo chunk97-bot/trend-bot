@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "158.3K",
-      "raw": 158341
+      "searches": "238.9K",
+      "raw": 238947
     },
     "x": {
       "posts": "0",
@@ -42,10 +42,14 @@
     "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T21:04:54.819348+00:00",
+  "timestamp": "2026-02-08T07:51:35.316388+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:54.819363+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:35.316423+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "207.4K",
-      "raw": 207433
+      "searches": "278.2K",
+      "raw": 278250
     },
     "x": {
       "posts": "0",
@@ -36,19 +36,19 @@
   "related_trends": [
     "chatgpt trending",
     "chatgpt trending prompt",
+    "chatgpt trending photo prompt",
     "chatgpt trending image generator prompt",
-    "chatgpt trending christmas photo prompt",
-    "chatgpt trending prompt christmas"
+    "chatgpt trending christmas photo prompt"
   ],
   "analysis": {
-    "headline": "ChatGPT Surges as Public Fascination with AI Hits New Heights",
-    "summary": "The viral popularity of OpenAI's ChatGPT chatbot has sparked a nationwide obsession, with Google searches for the AI reaching record levels. People are captivated by its uncanny ability to engage in human-like dialogue and tackle complex tasks with ease.",
-    "origin_story": "ChatGPT was publicly released by OpenAI in late November 2022, quickly amassing over 1 million users within its first week and becoming a viral internet sensation.",
-    "expert_analysis": "The meteoric rise of ChatGPT taps into the public's growing fascination with the potential of artificial intelligence. As the technology behind the chatbot becomes more advanced, it challenges our notions of what machines are capable of, blurring the lines between human and artificial intelligence.",
-    "impact": "The viral popularity of ChatGPT has far-reaching implications, from revolutionizing how we interact with technology to raising ethical concerns about the role of AI in our lives.",
+    "headline": "ChatGPT Craze Sweeps the Internet as AI Chatbot Captivates Millions",
+    "summary": "The meteoric rise of ChatGPT, an advanced AI chatbot, has taken the digital world by storm, sparking intense curiosity and fascination among internet users. People are flocking to Google to learn more about this cutting-edge technology and its remarkable capabilities.",
+    "origin_story": "ChatGPT, developed by Anthropic, was launched in late 2022 and has quickly gained traction on social media platforms, with users sharing their experiences and impressions of the AI's conversational abilities.",
+    "expert_analysis": "The ChatGPT trend reveals a growing public interest in the potential of artificial intelligence to transform various aspects of our lives, from creative tasks to problem-solving. This surge in popularity underscores the public's fascination with the rapid advancements in AI technology and its ability to mimic human-like responses.",
+    "impact": "The widespread attention on ChatGPT has the potential to drive further innovation in the field of AI, as well as raise important ethical and societal questions about the role of AI in our lives.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T05:41:52.676177+00:00",
+  "timestamp": "2026-02-08T07:51:16.893936+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T15:53:10.581263+00:00",
@@ -76,6 +76,10 @@
     },
     {
       "timestamp": "2026-02-08T05:41:52.676210+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:16.893951+00:00",
       "signal_score": 50
     }
   ]

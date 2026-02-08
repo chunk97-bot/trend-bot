@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "240.9K",
-      "raw": 240926
+      "searches": "199.8K",
+      "raw": 199783
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "taylor swift trending"
   ],
   "analysis": {
-    "headline": "Taylor Swift's Latest Releases Spark Viral Streaming Frenzy",
-    "summary": "Taylor Swift's fans have been flocking to Google to search for the pop superstar's newest songs, driving a surge in online interest. The renewed attention is fueled by Swift's recent album and single drops, which have captivated her devoted fanbase.",
-    "origin_story": "The trending searches originate from Google, where users have been avidly searching for information about Taylor Swift's latest musical releases.",
-    "expert_analysis": "Taylor Swift's ability to consistently generate intense online buzz speaks to her unparalleled influence in the music industry. Her dedicated fan base eagerly follows her every move, driving spikes in search activity that reflect the cultural phenomenon surrounding her work.",
-    "impact": "The viral nature of these Taylor Swift-related searches underscores the power of her brand and the lasting impact she has on the music landscape.",
+    "headline": "Taylor Swift's Latest Album Tracks Dominate Google Searches",
+    "summary": "Fans of Taylor Swift are flocking to Google to search for the singer's newest album tracks, showcasing the enduring popularity of the global superstar and her music.",
+    "origin_story": "The surge in Google searches for Taylor Swift's songs began shortly after the release of her 10th studio album, 'Midnights', which dropped on October 21st.",
+    "expert_analysis": "Taylor Swift's ability to captivate her fans and maintain her relevance in the music industry is a testament to her creative prowess and connection with her audience. The intense interest in her new songs reflects the dedicated fan base she has cultivated over the years, who eagerly anticipate and devour her musical offerings.",
+    "impact": "This trend demonstrates the continued cultural impact of Taylor Swift and her music, which likely translates to increased streams, sales, and further solidification of her status as one of the biggest stars in the world.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T05:42:09.235036+00:00",
+  "timestamp": "2026-02-08T07:51:32.074730+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:50.971929+00:00",
@@ -57,6 +57,10 @@
     },
     {
       "timestamp": "2026-02-08T05:42:09.235051+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:32.074745+00:00",
       "signal_score": 50
     }
   ]
