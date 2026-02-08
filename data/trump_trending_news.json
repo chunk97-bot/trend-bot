@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "281.4K",
-      "raw": 281409
+      "searches": "200.0K",
+      "raw": 199961
     },
     "x": {
       "posts": "0",
@@ -35,18 +35,17 @@
   ],
   "related_trends": [
     "trump trending news",
-    "trump trending news today",
-    "trump trending"
+    "trump trending news today"
   ],
   "analysis": {
-    "headline": "Trump's Latest Controversy Ignites Fiery Online Debate",
-    "summary": "Former President Donald Trump's recent comments on a sensitive political issue have sparked a surge of online discussion and analysis, as people from across the political spectrum weigh in on the implications and impact of his statements.",
-    "origin_story": "The trending news began after Trump's remarks were widely reported by major media outlets, triggering a wave of social media reactions and increased Google searches.",
-    "expert_analysis": "This trend reflects the enduring influence and polarizing nature of Trump's public persona, with his every utterance continuing to captivate and divide public attention. It highlights the ongoing political and cultural tensions that continue to shape the national discourse.",
-    "impact": "The intensity of this online discussion underscores the power of Trump's brand and the lingering impact of his presidency, even as he remains a divisive figure in American politics.",
-    "status": "viral"
+    "headline": "Renewed Interest in Trump as Midterm Elections Approach",
+    "summary": "Searches for 'Trump trending news' have spiked on Google, reflecting the continued public fascination with the former president as the 2022 midterm elections draw near. The increased attention comes amid ongoing legal battles and political developments surrounding Trump.",
+    "origin_story": "The spike in searches started in the past week, likely driven by recent news coverage of Trump's legal troubles and his continued influence within the Republican party.",
+    "expert_analysis": "The resurgence of interest in Trump-related news highlights the polarizing and divisive nature of his political legacy. As the midterms approach, both his supporters and critics are closely following the latest developments, underscoring the enduring impact of his presidency on the American political landscape.",
+    "impact": "This trend could shape the narrative and dynamics of the midterm elections, as voters seek to understand Trump's role and influence within the Republican party.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T11:48:13.212117+00:00",
+  "timestamp": "2026-02-08T13:59:13.179893+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:23.902569+00:00",
@@ -86,6 +85,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:13.212132+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:59:13.179908+00:00",
       "signal_score": 50
     }
   ]

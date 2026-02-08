@@ -1,14 +1,14 @@
 {
   "trend": "ai trending prompt",
-  "category": "entertainment",
+  "category": "technology",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "144.5K",
-      "raw": 144519
+      "searches": "272.9K",
+      "raw": 272890
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "ai trending prompt Takes Over The Internet",
-    "summary": "The topic 'ai trending prompt' is trending across google.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "AI Prompt Writing Explodes as Users Seek Creative Breakthroughs",
+    "summary": "As AI language models become more powerful, people are turning to AI-generated prompts to unlock their own creative potential. This trend is driven by the desire for novel ideas and the convenience of AI-assisted writing.",
+    "origin_story": "The rise in AI prompt usage began on social media as users shared their unique prompts and the resulting AI-generated content.",
+    "expert_analysis": "This trend reflects a broader societal shift towards embracing AI technology as a tool for enhancing human creativity, rather than replacing it. It also highlights the growing interest in the capabilities and limitations of AI language models.",
+    "impact": "The popularity of AI prompt writing could have far-reaching implications for content creation, education, and the future of human-AI collaboration.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T11:48:08.400050+00:00",
+  "timestamp": "2026-02-08T13:59:06.962998+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:25:24.201970+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-06T21:04:22.116105+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:08.400066+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:59:06.963016+00:00",
       "signal_score": 50
     }
   ]

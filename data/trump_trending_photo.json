@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "194.9K",
-      "raw": 194925
+      "searches": "272.2K",
+      "raw": 272198
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump's Viral Photo Sparks Online Frenzy: A Deeper Look",
-    "summary": "A recently shared photo of former President Donald Trump has taken the internet by storm, captivating users across Google searches. The image has sparked discussions around Trump's ongoing political influence and the public's fascination with his persona.",
-    "origin_story": "The photo, which appears to have been taken at a recent event, began circulating widely on various social media platforms before gaining traction on Google.",
-    "expert_analysis": "This trend reflects the enduring interest in Trump's political legacy and the continued polarization surrounding his figure. The viral nature of the image suggests that even out of office, Trump maintains a powerful hold on the public's attention, highlighting the complex dynamics of modern-day politics and celebrity culture.",
-    "impact": "The surge in Google searches for this photo underscores the significant impact that a single image can have in shaping the national discourse and public perception.",
+    "headline": "Trump's Controversial Photo Takes the Internet by Storm",
+    "summary": "A recent photo of former President Donald Trump has gone viral, sparking intense discussions and reactions across social media platforms. The image has become a hot topic as it taps into ongoing political tensions and debates.",
+    "origin_story": "The photo first gained traction on Google, where people have been searching for it in large numbers, indicating a high level of public interest.",
+    "expert_analysis": "This trend reflects the enduring influence and polarizing nature of Trump's political legacy. The photo's virality speaks to the public's ongoing fascination with the former president and the divisive issues he represents. It also highlights the power of visual media in shaping political narratives and public discourse.",
+    "impact": "The widespread attention to this photo could potentially impact public opinion and fuel further political discourse around Trump and his legacy.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:48:22.512260+00:00",
+  "timestamp": "2026-02-08T13:59:17.884326+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -70,6 +70,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:22.512275+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:59:17.884340+00:00",
       "signal_score": 50
     }
   ]

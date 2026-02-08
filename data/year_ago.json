@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "73.2K",
-      "reposts": "42.7K",
-      "raw_posts": 73200,
-      "raw_reposts": 42672
+      "posts": "194.4K",
+      "reposts": "49.8K",
+      "raw_posts": 194356,
+      "raw_reposts": 49770
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic Yearnings Sweep the Internet: 'Year Ago' Trend Captures Collective Reflection",
-    "summary": "The 'Year Ago' trend has taken social media by storm, as users share posts from exactly one year prior, evoking a sense of nostalgia and perspective in the midst of a constantly changing digital landscape.",
-    "origin_story": "The trend originated on various platforms, with users posting screenshots or links to their previous year's content, sparking a wave of introspection and shared experiences.",
-    "expert_analysis": "This trend reflects a desire for connection and a search for meaning in the fleeting nature of online content. It suggests a collective need to pause, reflect, and appreciate the passage of time, even within the fast-paced world of social media.",
-    "impact": "The 'Year Ago' trend has the potential to foster a sense of community and shared experiences, as users bond over their personal journeys and the subtle shifts in their lives over the course of a year.",
+    "headline": "Nostalgia for a Year Ago Sweeps the Internet",
+    "summary": "People are reminiscing about their lives and experiences from exactly one year ago, as the COVID-19 pandemic has profoundly shifted our world. Sharing memories and comparing how much has changed in just 12 months has struck a chord across social media.",
+    "origin_story": "The 'Year Ago' trend emerged organically as people scrolled back through their social media feeds, rediscovering old posts and feeling a mix of wistfulness and wonder at how quickly life can transform.",
+    "expert_analysis": "This trend taps into a universal human desire to make sense of upheaval and find meaning in the past. As the pandemic persists, people are seeking comfort in recalling a time before COVID-19 radically altered daily life. Reflecting on the past year also highlights how resilient and adaptable we can be in the face of massive change.",
+    "impact": "The 'Year Ago' trend has resonated globally, sparking shared experiences and fostering a sense of community during a period of prolonged uncertainty.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:00:03.908331+00:00",
+  "timestamp": "2026-02-08T13:58:53.719205+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:10:48.399625+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T12:26:01.474237+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T11:00:03.908366+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T13:58:53.719221+00:00",
       "signal_score": 55
     }
   ]
