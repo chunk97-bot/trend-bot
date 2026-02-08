@@ -1,14 +1,14 @@
 {
   "trend": "ai trending pictures",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "143.3K",
-      "raw": 143275
+      "searches": "272.2K",
+      "raw": 272165
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Art Sparks Viral Trend Across Google",
-    "summary": "The internet is captivated by AI-powered tools that can create stunning, highly realistic images on demand. As these technologies become more accessible, users are flocking to experiment and share their creations.",
-    "origin_story": "The recent explosion of AI art tools like DALL-E and Midjourney, which allow users to generate custom images from text prompts, has fueled this viral trend across Google searches.",
-    "expert_analysis": "This trend reflects the public's growing fascination with the creative potential of artificial intelligence. As these tools become more sophisticated, they challenge traditional notions of art and authorship, sparking discussions about the role of AI in creative expression.",
-    "impact": "The popularity of AI-generated art could have far-reaching implications for the artistic and creative industries, as well as broader societal debates around the ethics and implications of AI technology.",
-    "status": "viral"
+    "headline": "ai trending pictures Takes Over The Internet",
+    "summary": "The topic 'ai trending pictures' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T19:55:38.523129+00:00",
+  "timestamp": "2026-02-08T20:58:37.507803+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T13:57:34.745142+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T14:58:00.384816+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T19:55:38.523145+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:37.507820+00:00",
       "signal_score": 50
     }
   ]

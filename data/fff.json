@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "55.8M",
-      "videos": "406.2K",
-      "raw_views": 55817955
+      "views": "84.4M",
+      "videos": "338.8K",
+      "raw_views": 84422381
     },
     "instagram": {
-      "posts": "647.0K",
-      "reach": "1.9M",
-      "raw_posts": 646961
+      "posts": "6.2M",
+      "reach": "10.8M",
+      "raw_posts": 6202183
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Viral White Aesthetic Taking Over Social Media",
-    "summary": "The hashtag #fff, which represents the hexadecimal code for pure white, has exploded in popularity across TikTok and Instagram. Creators are using this minimalist aesthetic to showcase clean, bright, and visually striking content.",
-    "origin_story": "The trend appears to have started on TikTok, where users began posting videos with plain white backgrounds and incorporating the #fff hashtag.",
-    "expert_analysis": "The rise of the 'fff' trend speaks to the enduring appeal of minimalist, visually-pleasing aesthetics on social media. In a world increasingly cluttered with content, these pared-down, high-contrast visuals offer a refreshing reprieve and allow creative expression to shine.",
-    "impact": "This trend has reached massive scale, with over 55 million TikTok views and 1.9 million Instagram accounts reached.",
+    "headline": "The Allure of Simplicity: Why the Hashtag #fff is Dominating Social Media",
+    "summary": "The minimalist hashtag '#fff' has taken the internet by storm, amassing staggering engagement across TikTok and Instagram. This stark white-on-white trend speaks to a cultural craving for digital detoxification and aesthetic purity.",
+    "origin_story": "The #fff trend first emerged on TikTok, where users began posting simple, white-themed videos and images, often featuring the hashtag prominently.",
+    "expert_analysis": "In an age of information overload and visual saturation, the appeal of '#fff' lies in its ability to offer a refreshing respite from the relentless stimuli of modern social media. This trend taps into a broader desire for digital minimalism, reflecting a yearning for more thoughtful, intentional online experiences.",
+    "impact": "The widespread adoption of '#fff' signals a shift in social media consumption, with users increasingly seeking calming, decluttered content that provides a sense of tranquility and focus.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:55:27.496516+00:00",
+  "timestamp": "2026-02-08T20:58:11.417572+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T14:57:49.132847+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-07T15:52:39.156584+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T19:55:27.496530+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T20:58:11.417593+00:00",
       "signal_score": 90
     }
   ]

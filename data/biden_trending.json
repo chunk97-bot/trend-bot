@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "100.9K",
-      "raw": 100903
+      "searches": "167.7K",
+      "raw": 167731
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Biden Investigations",
-    "summary": "President Joe Biden is trending online as the latest developments in the ongoing investigations into his son, Hunter Biden, have sparked renewed public interest and debate.",
-    "origin_story": "The surge in search interest around Biden appears to be driven by recent reporting on the federal probe into Hunter Biden's business dealings, which has gained renewed attention in recent days.",
-    "expert_analysis": "This trend reflects the continued political polarization and intense public fascination with the Biden family's personal and professional affairs, which have been a source of controversy and partisan conflict for years. The spike in interest highlights the enduring power of political scandals to captivate the national conversation, even amidst pressing policy challenges.",
-    "impact": "The renewed focus on the Biden family could shape public perceptions and have implications for the administration's agenda and the president's political standing.",
+    "headline": "Biden Surges to the Top of Google Trends Amid Ongoing Political Narratives",
+    "summary": "Former Vice President Joe Biden is dominating Google search trends, as recent developments in his political career and his son Hunter Biden's business dealings continue to captivate public interest.",
+    "origin_story": "The spike in searches for 'Biden' and related terms started in the past week, coinciding with the latest news cycle surrounding the Biden family.",
+    "expert_analysis": "This trend reflects the public's enduring fascination with the Biden family's political and personal saga, which has become a central focus of the ongoing national discourse. The intense interest speaks to the polarized nature of American politics, where even routine events can quickly escalate into major talking points.",
+    "impact": "The sustained online attention could influence public perception and have broader implications for Biden's political standing and the national agenda.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:56:00.076030+00:00",
+  "timestamp": "2026-02-08T20:58:58.776734+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T07:11:35.698347+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T07:58:15.106444+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T19:56:00.076045+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:58.776753+00:00",
       "signal_score": 50
     }
   ]

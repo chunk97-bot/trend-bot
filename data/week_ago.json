@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "107.5K",
-      "reposts": "18.9K",
-      "raw_posts": 107517,
-      "raw_reposts": 18905
+      "posts": "82.7K",
+      "reposts": "28.0K",
+      "raw_posts": 82651,
+      "raw_reposts": 27967
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Viral Twist on a Classic: Why 'Week Ago' Is Captivating the Internet",
-    "summary": "A simple, yet playful reference to the passage of time has taken the internet by storm, sparking a wave of creative and nostalgic posts across social media platforms.",
-    "origin_story": "The trend appears to have originated on TikTok, where users have been sharing videos and captions that playfully allude to events or experiences from one week prior.",
-    "expert_analysis": "The popularity of 'Week Ago' reflects a broader cultural fascination with the concept of time and its fleeting nature. In an age of constant connectivity and information overload, the simple act of reminiscing about the recent past has resonated with many, tapping into a universal human desire to pause and appreciate the present moment.",
-    "impact": "The trend has rapidly spread beyond TikTok, with users on other platforms like Twitter and Instagram joining in the fun and sharing their own 'Week Ago' moments.",
+    "headline": "Nostalgic 90s Craze Sweeps the Internet as Millennials Seek Comfort",
+    "summary": "A wave of 90s nostalgia has taken over social media, with users sharing memories, memes, and recreations of beloved TV shows, movies, and video games from their childhood. This trend taps into a broader cultural longing for simpler, more carefree times.",
+    "origin_story": "The surge in 90s content began on TikTok, where users have been posting videos showcasing their favorite 90s trends, from Pokemon to Tamagotchis.",
+    "expert_analysis": "This nostalgia-driven trend reflects the desire of millennials and older Gen Z users to reconnect with the pop culture that defined their formative years. In uncertain times, the comfort and familiarity of 90s media offers a sense of escapism and belonging for many.",
+    "impact": "The 90s revival has sparked a renewed interest in retro merchandise, reboots, and reruns, potentially influencing entertainment and consumer trends.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:16:33.166281+00:00",
+  "timestamp": "2026-02-08T20:58:23.337799+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:20:32.695985+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T12:25:51.079325+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T19:16:33.166299+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T20:58:23.337818+00:00",
       "signal_score": 55
     }
   ]

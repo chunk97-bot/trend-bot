@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "154.5K",
-      "raw": 154492
+      "searches": "76.4K",
+      "raw": 76424
     },
     "x": {
-      "posts": "47.0K",
-      "reposts": "37.9K",
-      "raw_posts": 47009,
-      "raw_reposts": 37923
+      "posts": "154.4K",
+      "reposts": "4.1K",
+      "raw_posts": 154430,
+      "raw_reposts": 4087
     },
     "tiktok": {
       "views": "0",
@@ -28,9 +28,9 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 70,
+  "momentum": "stable",
+  "lifecycle": "rising",
   "locations": [
     "global"
   ],
@@ -40,19 +40,15 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Images Captivate the Internet as the Latest Viral Trend",
-    "summary": "The ability to create photorealistic images using AI technology has ignited a global fascination, with users generating a wide range of imaginative and surreal visuals that are taking social media by storm.",
-    "origin_story": "The surge in AI-generated art can be traced back to the widespread adoption of tools like DALL-E and Midjourney, which allow users to craft custom images simply by typing a text prompt.",
-    "expert_analysis": "This trend reveals a growing public interest in the capabilities of generative AI and the potential for this technology to democratize creativity. As users experiment with the limits of these tools, the results showcase both the remarkable progress in AI-driven image generation and the human desire to explore the boundaries of the possible.",
-    "impact": "The viral popularity of AI-generated art has captured the attention of the mainstream media and could drive further investment and innovation in this emerging field.",
+    "headline": "AI-Generated Photos Captivate the Internet: A Glimpse into the Future of Creativity",
+    "summary": "The rise of AI-powered image generation tools has sparked a viral trend, as people are fascinated by the ability to create photorealistic images with just a few text prompts. This cutting-edge technology is capturing the public's imagination and raising questions about the evolving relationship between humans and machines.",
+    "origin_story": "The trend emerged from the increasing popularity of AI image generation models like DALL-E, Midjourney, and Stable Diffusion, which have become widely accessible to the general public.",
+    "expert_analysis": "This trend reflects the public's growing interest in the capabilities of artificial intelligence and its potential to revolutionize creative industries. It also highlights the blurring lines between human and machine-generated content, as AI-produced images can be virtually indistinguishable from those created by human artists.",
+    "impact": "As this technology continues to evolve, it could have far-reaching implications for fields like art, design, and visual storytelling, potentially empowering more people to express their creativity and ideas.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:55:31.378360+00:00",
+  "timestamp": "2026-02-08T20:58:14.743502+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:32:42.332550+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:47:02.601363+00:00",
       "signal_score": 100
@@ -144,6 +140,10 @@
     {
       "timestamp": "2026-02-08T19:55:31.378375+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T20:58:14.743520+00:00",
+      "signal_score": 70
     }
   ]
 }
