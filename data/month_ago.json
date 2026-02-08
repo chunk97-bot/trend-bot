@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "160.2K",
-      "reposts": "14.6K",
-      "raw_posts": 160197,
-      "raw_reposts": 14635
+      "posts": "106.7K",
+      "reposts": "26.1K",
+      "raw_posts": 106696,
+      "raw_reposts": 26072
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The 'Yassified' Trend Has the Internet Obsessed with Glamorous Edits",
-    "summary": "The 'yassification' trend has taken the internet by storm, with users applying dramatic, glam filters to photos to create a highly stylized, exaggerated look. This viral craze speaks to our cultural fascination with beauty standards and the power of digital transformation.",
-    "origin_story": "The term 'yassify' originated on TikTok, where users started sharing their heavily edited, ultra-femme selfies using the hashtag #yassified.",
-    "expert_analysis": "The yassification trend taps into our cultural preoccupation with image curation and the pursuit of an idealized, hyper-feminine aesthetic. It reflects how social media has conditioned us to constantly reimagine and enhance our appearance through filters and digital tools.",
-    "impact": "The trend has exploded across platforms, sparking debates about the line between self-expression and superficial image-making.",
-    "status": "viral"
+    "headline": "'Month Ago' Trend Resurfaces, Sparking Nostalgia and Curiosity",
+    "summary": "A month-old online trend has recently resurfaced, capturing the attention of thousands of social media users. The trend involves [brief description of the trend], and its sudden reemergence has left many wondering what's driving this renewed interest.",
+    "origin_story": "The trend first emerged [X] months ago on [platform(s)], where it quickly gained traction and became a topic of discussion among online communities.",
+    "expert_analysis": "The resurgence of this 'Month Ago' trend suggests a broader cultural desire to revisit and reflect on the recent past. In a world that often moves at a breakneck pace, this trend taps into a universal human need to pause, reminisce, and find meaning in the fleeting moments of our lives.",
+    "impact": "As this trend continues to gain momentum, it could offer insights into the ways in which we collectively process and make sense of the passage of time in the digital age.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T09:02:39.238669+00:00",
+  "timestamp": "2026-02-08T11:47:54.345942+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T17:31:40.499203+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T19:50:12.808109+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T09:02:39.238685+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T11:47:54.345958+00:00",
       "signal_score": 55
     }
   ]

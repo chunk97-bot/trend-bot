@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "139.3K",
-      "raw": 139327
+      "searches": "281.4K",
+      "raw": 281409
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "trump trending"
   ],
   "analysis": {
-    "headline": "Trump Trending Amid Renewed Scrutiny and 2024 Speculation",
-    "summary": "Former President Donald Trump has emerged as a top search trend on Google, driven by ongoing investigations into his conduct and growing speculation about a potential 2024 presidential run.",
-    "origin_story": "The surge in Trump-related searches began after recent developments in the various legal and political sagas surrounding the former president.",
-    "expert_analysis": "This renewed interest in Trump reflects the enduring polarization in American politics, with the former president continuing to command the attention of both his ardent supporters and vocal critics. The trend also underscores the public's fascination with the potential for another high-stakes presidential campaign.",
-    "impact": "The intense focus on Trump could shape the political landscape in the lead-up to the 2024 election cycle.",
+    "headline": "Trump's Latest Controversy Ignites Fiery Online Debate",
+    "summary": "Former President Donald Trump's recent comments on a sensitive political issue have sparked a surge of online discussion and analysis, as people from across the political spectrum weigh in on the implications and impact of his statements.",
+    "origin_story": "The trending news began after Trump's remarks were widely reported by major media outlets, triggering a wave of social media reactions and increased Google searches.",
+    "expert_analysis": "This trend reflects the enduring influence and polarizing nature of Trump's public persona, with his every utterance continuing to captivate and divide public attention. It highlights the ongoing political and cultural tensions that continue to shape the national discourse.",
+    "impact": "The intensity of this online discussion underscores the power of Trump's brand and the lingering impact of his presidency, even as he remains a divisive figure in American politics.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:00:14.912656+00:00",
+  "timestamp": "2026-02-08T11:48:13.212117+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:23.902569+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-08T11:00:14.912671+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:13.212132+00:00",
       "signal_score": 50
     }
   ]

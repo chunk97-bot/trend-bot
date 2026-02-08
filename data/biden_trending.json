@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "198.8K",
-      "raw": 198782
+      "searches": "264.5K",
+      "raw": 264541
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Fever Grips the Nation as Searches Skyrocket",
-    "summary": "The name 'Biden' has become a hot search term on Google, with people across the country seeking information on the President and his family. This surge in interest reflects the polarized political climate and the public's ongoing fascination with the Biden administration.",
-    "origin_story": "The spike in Biden-related searches appears to have been triggered by recent news and events surrounding the President and his family.",
-    "expert_analysis": "This trend underscores the intense public scrutiny and polarization that has become a hallmark of the modern political landscape. It suggests that people are deeply invested in the goings-on of the Biden administration, whether out of support or opposition.",
-    "impact": "The high level of interest in Biden could have significant implications for public discourse and the political decision-making process.",
+    "headline": "Biden Trending on Google Amid Ongoing Political Scrutiny",
+    "summary": "Former Vice President Joe Biden is trending on Google, likely due to the continued public focus on his son Hunter Biden's business dealings and the president's impeachment trial.",
+    "origin_story": "The search interest in 'Biden' spiked on Google, likely stemming from the ongoing impeachment proceedings and renewed attention on the Biden family's ties to Ukraine.",
+    "expert_analysis": "This trend reflects the polarized political climate in the United States, where Biden's name has become a lightning rod for partisan debate. The public's fascination with the Biden family's alleged misconduct speaks to the broader mistrust in government and the desire for transparency in the political process.",
+    "impact": "The sustained interest in Biden could shape public opinion and potentially influence the upcoming 2020 presidential election.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:00:25.669785+00:00",
+  "timestamp": "2026-02-08T11:48:26.566650+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:11:25.983776+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T12:21:11.194960+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T11:00:25.669801+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:26.566666+00:00",
       "signal_score": 50
     }
   ]

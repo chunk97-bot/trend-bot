@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "138.6K",
-      "raw": 138577
+      "searches": "194.9K",
+      "raw": 194925
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Photo of Trump Sparks Intense Online Reaction",
-    "summary": "A newly surfaced photo of former President Donald Trump has captivated the internet, with Google searches for the image spiking to over 138,000. The striking image has reignited debates about Trump's legacy and personality.",
-    "origin_story": "The photo, which appears to be from an unspecified event, began circulating widely on social media platforms like Twitter and Reddit.",
-    "expert_analysis": "This trending photo taps into the polarized public perception of Trump, with his supporters and critics responding strongly. It reveals the enduring fascination, both positive and negative, that the former president evokes online, even after leaving office.",
-    "impact": "The viral response to this image underscores Trump's continued influence on the national discourse, even as a private citizen.",
+    "headline": "Trump's Viral Photo Sparks Online Frenzy: A Deeper Look",
+    "summary": "A recently shared photo of former President Donald Trump has taken the internet by storm, captivating users across Google searches. The image has sparked discussions around Trump's ongoing political influence and the public's fascination with his persona.",
+    "origin_story": "The photo, which appears to have been taken at a recent event, began circulating widely on various social media platforms before gaining traction on Google.",
+    "expert_analysis": "This trend reflects the enduring interest in Trump's political legacy and the continued polarization surrounding his figure. The viral nature of the image suggests that even out of office, Trump maintains a powerful hold on the public's attention, highlighting the complex dynamics of modern-day politics and celebrity culture.",
+    "impact": "The surge in Google searches for this photo underscores the significant impact that a single image can have in shaping the national discourse and public perception.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:00:21.820490+00:00",
+  "timestamp": "2026-02-08T11:48:22.512260+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -66,6 +66,10 @@
     },
     {
       "timestamp": "2026-02-08T11:00:21.820505+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:22.512275+00:00",
       "signal_score": 50
     }
   ]

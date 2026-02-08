@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "memes",
+  "category": "entertainment",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "77.5K",
-      "reposts": "19.9K",
-      "raw_posts": 77512,
-      "raw_reposts": 19908
+      "posts": "29.8K",
+      "reposts": "20.2K",
+      "raw_posts": 29831,
+      "raw_reposts": 20233
     },
     "tiktok": {
-      "views": "6.4M",
-      "videos": "37.8K",
-      "raw_views": 6357021
+      "views": "4.6M",
+      "videos": "22.7K",
+      "raw_views": 4556082
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
+  "signal_score": 85,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Cursed Image' Puzzles Internet, Sparks Creativity",
-    "summary": "A bizarre, distorted image of an unknown object has taken the internet by storm, captivating users across platforms with its surreal and enigmatic nature. People are scrambling to decipher the origins and meaning behind this perplexing visual.",
-    "origin_story": "The image, dubbed the '681da8' trend, first surfaced on various social media platforms, including TikTok and X, where it has amassed millions of views and sparked a wave of creative interpretations.",
-    "expert_analysis": "This trend taps into the human fascination with the unexplained and the desire to unravel mysteries. The ambiguous nature of the image allows for limitless speculation, fueling the imagination of users who are drawn to the challenge of unraveling its secrets. It's a testament to the internet's power to collectively explore and make sense of the unknown.",
-    "impact": "The viral spread of this 'cursed image' has inspired a surge of artistic and humorous responses, showcasing the internet's ability to transform a simple, puzzling visual into a catalyst for creative expression.",
-    "status": "rising"
+    "headline": "Mysterious Colored Squares Captivate the Internet: The Visual Puzzle Trend Taking Over",
+    "summary": "Colorful square grids, labeled with a mysterious hexadecimal code '681da8', have taken social media by storm, sparking a viral craze as users race to decipher the hidden meanings behind these captivating visual puzzles.",
+    "origin_story": "The trend first emerged on the anonymous image-sharing platform 'x' before quickly spreading to TikTok, where users have created millions of views and thousands of videos exploring the phenomenon.",
+    "expert_analysis": "This trend taps into the human desire to uncover hidden meanings and solve mysteries, captivating a generation of digital natives who thrive on decoding online enigmas. The simplicity and visual appeal of the squares also make them highly shareable, contributing to their rapid spread across social media.",
+    "impact": "As the viral puzzle continues to gain traction, it has the potential to spawn a new wave of digital treasure hunts and collaborative problem-solving communities.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T10:59:51.663979+00:00",
+  "timestamp": "2026-02-08T11:47:48.152359+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T07:10:56.306927+00:00",
-      "signal_score": 70
-    },
     {
       "timestamp": "2026-02-07T07:57:30.093603+00:00",
       "signal_score": 75
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T10:59:51.663994+00:00",
       "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T11:47:48.152374+00:00",
+      "signal_score": 85
     }
   ]
 }

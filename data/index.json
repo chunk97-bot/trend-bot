@@ -1,10 +1,11 @@
 {
   "files": [
+    "fff.json",
     "ai_trending_photo.json",
     "681da8.json",
-    "fff.json",
-    "yesterday.json",
-    "year_ago.json",
+    "week_ago.json",
+    "month_ago.json",
+    "ai_trending_song.json",
     "ai_trending_pictures.json",
     "ai_trending_prompt.json",
     "trump_trending_news.json",
@@ -13,7 +14,6 @@
     "biden_trending.json",
     "super_bowl_trending.json",
     "super_bowl_trends_betting.json",
-    "super_bowl_trends_2025.json",
-    "taylor_swift_trending_songs.json"
+    "super_bowl_trends_2025.json"
   ]
 }
