@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "109.5K",
-      "raw": 109474
+      "searches": "173.9K",
+      "raw": 173908
     },
     "x": {
-      "posts": "76.1K",
-      "reposts": "24.1K",
-      "raw_posts": 76111,
-      "raw_reposts": 24060
+      "posts": "183.5K",
+      "reposts": "36.5K",
+      "raw_posts": 183497,
+      "raw_reposts": 36500
     },
     "tiktok": {
       "views": "0",
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Photos Take Social Media by Storm: A Viral Phenomenon Explored",
-    "summary": "The surge in popularity of AI-generated photos has captivated social media users, who are increasingly using these AI-powered tools to create unique and visually striking images. This trend reflects a growing fascination with the capabilities of AI technology and its potential impact on the creative landscape.",
-    "origin_story": "The trend began on social media platforms like Google and X, where users have been sharing and discussing the AI-generated photos, marveling at their lifelike quality and artistic flair.",
-    "expert_analysis": "This trend speaks to our evolving relationship with technology and the creative process. As AI algorithms become more sophisticated, they are blurring the lines between human and machine-generated art, raising questions about the nature of creativity and the role of technology in shaping our visual culture.",
-    "impact": "The widespread adoption of AI-generated photos could have far-reaching implications for the creative industries, from photography and graphic design to advertising and entertainment.",
-    "status": "rising"
+    "headline": "The AI-Powered Photography Craze Taking the Internet by Storm",
+    "summary": "Artificial intelligence-generated photos are taking the internet by storm, captivating users with their stunning, dreamlike imagery. This trend taps into the growing public fascination with the capabilities of AI technologies.",
+    "origin_story": "The surge in AI-generated photo popularity can be traced back to the rise of AI image generation tools like DALL-E, Midjourney, and Stable Diffusion, which allow users to create unique, personalized images from text prompts.",
+    "expert_analysis": "This trend speaks to the public's eagerness to explore the creative potential of AI technologies. As these tools become more accessible, people are experimenting with the boundless possibilities of AI-powered art, blurring the lines between human and machine-generated creativity.",
+    "impact": "The proliferation of AI-created photos on social media and search platforms is driving discussions around the future of art, creativity, and the role of technology in shaping visual culture.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T09:59:01.624279+00:00",
+  "timestamp": "2026-02-08T10:59:47.172727+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:19.285980+00:00",
@@ -119,6 +119,10 @@
     },
     {
       "timestamp": "2026-02-08T09:59:01.624301+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T10:59:47.172747+00:00",
       "signal_score": 100
     }
   ]

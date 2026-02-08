@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "275.2K",
-      "raw": 275185
+      "searches": "138.6K",
+      "raw": 138577
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Iconic Trump Mug Shot Sparks Viral Social Media Frenzy",
-    "summary": "A mugshot of former President Donald Trump has gone viral across the internet, captivating millions as the latest development in his ongoing legal battles. The striking image has become a subject of intense fascination and discussion.",
-    "origin_story": "The mugshot was taken following Trump's surrender at the Fulton County Jail in Georgia, where he faces charges related to his efforts to overturn the 2020 election results in the state.",
-    "expert_analysis": "This trend taps into the public's enduring fascination with Trump, a polarizing figure whose every move is scrutinized and dissected. The mugshot provides a visually striking representation of his legal troubles, fueling memes, commentary and heated debates about the implications for the 2024 presidential race.",
-    "impact": "The viral spread of this mugshot has the potential to shape the national discourse around Trump's legal woes and their political ramifications.",
+    "headline": "Viral Photo of Trump Sparks Intense Online Reaction",
+    "summary": "A newly surfaced photo of former President Donald Trump has captivated the internet, with Google searches for the image spiking to over 138,000. The striking image has reignited debates about Trump's legacy and personality.",
+    "origin_story": "The photo, which appears to be from an unspecified event, began circulating widely on social media platforms like Twitter and Reddit.",
+    "expert_analysis": "This trending photo taps into the polarized public perception of Trump, with his supporters and critics responding strongly. It reveals the enduring fascination, both positive and negative, that the former president evokes online, even after leaving office.",
+    "impact": "The viral response to this image underscores Trump's continued influence on the national discourse, even as a private citizen.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T12:11:21.664664+00:00",
+  "timestamp": "2026-02-08T11:00:21.820490+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -62,6 +62,10 @@
     },
     {
       "timestamp": "2026-02-06T12:11:21.665371+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:21.820505+00:00",
       "signal_score": 50
     }
   ]

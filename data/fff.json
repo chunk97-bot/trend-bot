@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "37.7M",
-      "videos": "275.4K",
-      "raw_views": 37670032
+      "views": "51.8M",
+      "videos": "291.5K",
+      "raw_views": 51772279
     },
     "instagram": {
-      "posts": "6.2M",
-      "reach": "30.2M",
-      "raw_posts": 6151783
+      "posts": "7.0M",
+      "reach": "7.9M",
+      "raw_posts": 6992641
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "Viral 'fff' Craze Sweeps Social Media, Sparking Creativity and Curiosity",
-    "summary": "The simple, four-letter 'fff' trend has taken the internet by storm, amassing millions of views and posts across TikTok and Instagram as users explore its mysterious allure and creative potential.",
-    "origin_story": "The trend first gained traction on TikTok, where users began posting videos featuring the 'fff' text, often with accompanying visuals or audio tracks.",
-    "expert_analysis": "The widespread appeal of the 'fff' trend highlights the internet's insatiable appetite for minimalist, open-ended content that allows for individual interpretation and self-expression. This viral phenomenon taps into our desire for digital canvases that can be customized and transformed in endless ways.",
-    "impact": "The 'fff' craze has inspired a proliferation of user-generated content, sparking a collaborative, participatory culture across social media.",
+    "headline": "Internet Captivated by Mysterious 'fff' Trend Spanning TikTok and Instagram",
+    "summary": "An enigmatic new trend featuring the simple text 'fff' has taken the internet by storm, racking up millions of views and posts across TikTok and Instagram. Users are baffling over the meaning and origin of this perplexing phenomenon.",
+    "origin_story": "The 'fff' trend first emerged on TikTok, where it has spawned over 291,500 videos accumulating 51.8 million views. It has since spread to Instagram, generating over 7 million posts with a reach of 7.9 million.",
+    "expert_analysis": "This trend reflects the internet's insatiable appetite for the mysterious and unexplained. By presenting a vague, ambiguous message, 'fff' taps into our natural human curiosity and desire to uncover hidden meanings. The trend's minimalist nature also allows users to imbue it with their own interpretations, fueling widespread engagement and speculation.",
+    "impact": "The rapid, viral spread of 'fff' underscores the power of social media to transform even the most minimal of online activities into a full-blown cultural phenomenon.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T09:59:07.712051+00:00",
+  "timestamp": "2026-02-08T10:59:54.968007+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T04:54:59.185669+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-07T07:10:52.034257+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T09:59:07.712070+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T10:59:54.968024+00:00",
       "signal_score": 90
     }
   ]

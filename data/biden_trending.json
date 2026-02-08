@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "135.3K",
-      "raw": 135252
+      "searches": "198.8K",
+      "raw": 198782
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending as Investigations Heat Up Ahead of 2024",
-    "summary": "President Joe Biden's name has been surging on Google as renewed scrutiny over his son Hunter's business dealings reignite political tensions ahead of the 2024 election cycle.",
-    "origin_story": "The latest spike in Google searches for 'Biden' and related terms began following reports that federal prosecutors were escalating their investigation into Hunter Biden's overseas business activities.",
-    "expert_analysis": "This trend reflects the enduring polarization of American politics, with Biden's opponents seizing on the Hunter Biden saga to attack the president's integrity and family. However, it also signals the growing importance of online discourse and information-gathering in shaping political narratives.",
-    "impact": "The Biden family's legal troubles could have far-reaching implications for the president's political future and the dynamics of the 2024 race.",
+    "headline": "Biden Fever Grips the Nation as Searches Skyrocket",
+    "summary": "The name 'Biden' has become a hot search term on Google, with people across the country seeking information on the President and his family. This surge in interest reflects the polarized political climate and the public's ongoing fascination with the Biden administration.",
+    "origin_story": "The spike in Biden-related searches appears to have been triggered by recent news and events surrounding the President and his family.",
+    "expert_analysis": "This trend underscores the intense public scrutiny and polarization that has become a hallmark of the modern political landscape. It suggests that people are deeply invested in the goings-on of the Biden administration, whether out of support or opposition.",
+    "impact": "The high level of interest in Biden could have significant implications for public discourse and the political decision-making process.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T09:03:02.615272+00:00",
+  "timestamp": "2026-02-08T11:00:25.669785+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:47:57.668101+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T12:11:25.983776+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T09:03:02.615289+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:25.669801+00:00",
       "signal_score": 50
     }
   ]

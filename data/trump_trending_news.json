@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "287.5K",
-      "raw": 287460
+      "searches": "139.3K",
+      "raw": 139327
     },
     "x": {
       "posts": "0",
@@ -35,18 +35,18 @@
   ],
   "related_trends": [
     "trump trending news",
-    "trump trending",
-    "trump trending news today"
+    "trump trending news today",
+    "trump trending"
   ],
   "analysis": {
-    "headline": "Trump News Dominates Searches as Ex-President Makes Headlines",
-    "summary": "Interest in news about former President Donald Trump is surging, as the Republican continues to make waves with his ongoing political activities and legal battles. This spike in search activity reflects the enduring public fascination with Trump's divisive persona and his central role in the current political landscape.",
-    "origin_story": "Trump's name has remained a top search term on Google as he remains a central figure in American politics, with his potential 2024 presidential run and the various investigations surrounding him driving intense media coverage.",
-    "expert_analysis": "Trump's ability to command public attention, even after leaving office, underscores his unique status as a polarizing political force. This trend reflects the degree to which Trump has become a symbol, both for his supporters and critics, in the ongoing ideological battles shaping the US political discourse.",
-    "impact": "The sustained public interest in Trump-related news signals the lasting impact of his presidency and the pivotal role he is likely to play in the upcoming election cycle.",
+    "headline": "Trump Trending Amid Renewed Scrutiny and 2024 Speculation",
+    "summary": "Former President Donald Trump has emerged as a top search trend on Google, driven by ongoing investigations into his conduct and growing speculation about a potential 2024 presidential run.",
+    "origin_story": "The surge in Trump-related searches began after recent developments in the various legal and political sagas surrounding the former president.",
+    "expert_analysis": "This renewed interest in Trump reflects the enduring polarization in American politics, with the former president continuing to command the attention of both his ardent supporters and vocal critics. The trend also underscores the public's fascination with the potential for another high-stakes presidential campaign.",
+    "impact": "The intense focus on Trump could shape the political landscape in the lead-up to the 2024 election cycle.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T12:26:29.128571+00:00",
+  "timestamp": "2026-02-08T11:00:14.912656+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:23.902569+00:00",
@@ -78,6 +78,10 @@
     },
     {
       "timestamp": "2026-02-06T12:26:29.128571+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:14.912671+00:00",
       "signal_score": 50
     }
   ]

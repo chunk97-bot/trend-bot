@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "66.5K",
-      "reposts": "4.1K",
-      "raw_posts": 66505,
-      "raw_reposts": 4052
+      "posts": "77.5K",
+      "reposts": "19.9K",
+      "raw_posts": 77512,
+      "raw_reposts": 19908
     },
     "tiktok": {
-      "views": "2.8M",
-      "videos": "33.6K",
-      "raw_views": 2847666
+      "views": "6.4M",
+      "videos": "37.8K",
+      "raw_views": 6357021
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 90,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bizarre Color Code Sparks Viral Craze Across Social Media",
-    "summary": "A mysterious string of hexadecimal digits, '681da8', has taken the internet by storm, with users across platforms like TikTok and X scrambling to decipher its meaning and significance.",
-    "origin_story": "The trend appears to have started on TikTok, where users have been posting videos speculating about the code's origins and purpose, driving millions of views and sparking intense discussion.",
-    "expert_analysis": "This viral phenomenon taps into our collective fascination with hidden messages and online mysteries. The ambiguity of the code, combined with the organic spread across social media, has created a sense of communal intrigue, as users band together to unravel the puzzle.",
-    "impact": "As the trend continues to gain momentum, it's likely to spawn a wave of creative content, memes, and even potential real-world implications as the internet community works to decipher the code's meaning.",
-    "status": "viral"
+    "headline": "Viral 'Cursed Image' Puzzles Internet, Sparks Creativity",
+    "summary": "A bizarre, distorted image of an unknown object has taken the internet by storm, captivating users across platforms with its surreal and enigmatic nature. People are scrambling to decipher the origins and meaning behind this perplexing visual.",
+    "origin_story": "The image, dubbed the '681da8' trend, first surfaced on various social media platforms, including TikTok and X, where it has amassed millions of views and sparked a wave of creative interpretations.",
+    "expert_analysis": "This trend taps into the human fascination with the unexplained and the desire to unravel mysteries. The ambiguous nature of the image allows for limitless speculation, fueling the imagination of users who are drawn to the challenge of unraveling its secrets. It's a testament to the internet's power to collectively explore and make sense of the unknown.",
+    "impact": "The viral spread of this 'cursed image' has inspired a surge of artistic and humorous responses, showcasing the internet's ability to transform a simple, puzzling visual into a catalyst for creative expression.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T09:59:04.843908+00:00",
+  "timestamp": "2026-02-08T10:59:51.663979+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T04:54:56.135432+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T07:10:56.306927+00:00",
       "signal_score": 70
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T09:59:04.843923+00:00",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T10:59:51.663994+00:00",
+      "signal_score": 100
     }
   ]
 }

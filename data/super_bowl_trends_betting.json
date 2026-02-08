@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "196.0K",
-      "raw": 196041
+      "searches": "159.6K",
+      "raw": 159623
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Betting Craze Grips Online Gamblers Ahead of Big Game",
-    "summary": "As the Super Bowl approaches, sports betting has surged to the forefront of online searches, reflecting the growing interest and accessibility of legal sports wagering across the United States.",
-    "origin_story": "The spike in Google searches for 'super bowl trends betting' coincides with the NFL playoffs, as fans eagerly explore their options for placing bets on the championship game.",
-    "expert_analysis": "This trend underscores the widespread cultural shift towards embracing sports betting, fueled by the legalization of the practice in an increasing number of states. The fervor around Super Bowl wagering reflects the high stakes and excitement surrounding the most-watched annual sporting event.",
-    "impact": "The surge in Super Bowl betting interest is likely to translate into record-breaking handle and revenue for sportsbooks, further cementing the sport's role as a major driver of the growing gambling industry.",
-    "status": "viral"
+    "headline": "Betting Bonanza: Super Bowl Trends Surge as Fans Seek Excitement",
+    "summary": "With the highly anticipated Super Bowl just around the corner, sports enthusiasts and casual fans alike are flocking to online platforms to explore the world of Super Bowl betting. This spike in interest reflects the growing popularity of sports betting and the desire for added excitement during the big game.",
+    "origin_story": "The surge in Super Bowl betting-related searches on Google can be attributed to the increasing legalization and accessibility of sports gambling across the United States.",
+    "expert_analysis": "This trend highlights the changing landscape of sports fandom, where the thrill of the game is no longer enough for some fans. The integration of betting into the viewing experience has transformed the way people engage with major sporting events, adding an extra layer of excitement and, for some, the potential for financial gain.",
+    "impact": "As the Super Bowl approaches, the continued growth of this trend could have significant implications for the sports betting industry, as well as the overall fan experience of the game.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T09:59:32.395001+00:00",
+  "timestamp": "2026-02-08T11:00:33.693609+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:59.208063+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T15:06:37.875562+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T09:59:32.395016+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:33.693626+00:00",
       "signal_score": 50
     }
   ]
