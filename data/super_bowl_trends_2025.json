@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "185.3K",
-      "raw": 185259
+      "searches": "261.4K",
+      "raw": 261411
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Fans Eagerly Anticipate the Most Innovative Super Bowl Yet",
-    "summary": "As the 2025 Super Bowl approaches, the excitement is palpening. Fans are scouring the internet for the latest updates, driving a surge in Google searches for 'super bowl trends 2025' as they clamor to stay ahead of the game.",
-    "origin_story": "The buzz around the upcoming Super Bowl started building on social media, as fans and industry insiders speculate about the new technologies and experiences that will be featured at the event.",
-    "expert_analysis": "This trend reflects the public's growing appetite for innovation and cutting-edge experiences at major sporting events. Fans are no longer satisfied with just watching the game - they want to be immersed in a truly futuristic spectacle that pushes the boundaries of what's possible.",
-    "impact": "The intense interest in 2025 Super Bowl trends is likely to drive significant investment and experimentation from brands, technology companies, and the NFL itself, ensuring that this year's event will be a landmark moment in the evolution of live sports entertainment.",
+    "headline": "Fans Flock to Google for Super Bowl 2025 Predictions and Hype",
+    "summary": "As the biggest sports event of the year approaches, Google searches for 'Super Bowl 2025' have surged, indicating widespread excitement and speculation around the upcoming game.",
+    "origin_story": "The spike in Google searches likely began as fans eagerly anticipated details about the teams, location, and other key details for the Super Bowl scheduled to take place in 2025.",
+    "expert_analysis": "This trend reflects the continued cultural significance of the Super Bowl, which has become a highly anticipated annual spectacle that captivates sports fans and casual viewers alike. The intense public interest points to the enduring popularity of American football and the Super Bowl's ability to generate national excitement and discussion.",
+    "impact": "The high search volume suggests that the 2025 Super Bowl will be a major event that commands significant attention and media coverage.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T07:51:28.642123+00:00",
+  "timestamp": "2026-02-08T09:03:11.139073+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -110,6 +110,10 @@
     },
     {
       "timestamp": "2026-02-08T07:51:28.642138+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:03:11.139089+00:00",
       "signal_score": 50
     }
   ]

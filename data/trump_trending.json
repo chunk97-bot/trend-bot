@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "297.5K",
-      "raw": 297458
+      "searches": "196.9K",
+      "raw": 196897
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches, Sparking Renewed Political Debate",
-    "summary": "Former President Donald Trump has surged to the top of Google search trends, reflecting the ongoing public fascination with his political future and the controversies surrounding him. This spike in interest comes amid speculation about a potential 2024 presidential run.",
-    "origin_story": "The increased search activity for 'Trump trending' and related terms began on [DATE] after [SPECIFIC EVENT OR STATEMENT FROM TRUMP].",
-    "expert_analysis": "Trump's enduring presence in the public consciousness underscores the polarized political climate in the United States. While his supporters remain ardent, his detractors continue to voice concerns about his rhetoric and the impact of his actions. This trend suggests that the former president continues to be a divisive and influential figure in American politics.",
-    "impact": "The heightened online interest in Trump could translate to increased media coverage and public discourse, further shaping the political landscape in the lead-up to the next presidential election.",
+    "headline": "Trump Resurges as Dominant Trending Topic Across Search Engines",
+    "summary": "Former President Donald Trump has once again become a widely searched and discussed figure, with his name topping Google's trending topics. This surge in interest likely stems from recent high-profile events and comments related to the ongoing political landscape.",
+    "origin_story": "Trump's name began trending heavily on Google after he made several public appearances and statements that garnered significant media attention.",
+    "expert_analysis": "Trump's ability to command public attention, even years after leaving office, speaks to his enduring influence and the polarizing nature of his political persona. This trending data suggests the continued fascination, both positive and negative, that the former president elicits from the American public.",
+    "impact": "Trump's trending status will likely fuel further speculation about his future political ambitions and impact the broader discourse around the Republican party's direction.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T07:51:19.474633+00:00",
+  "timestamp": "2026-02-08T09:02:59.292726+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T15:06:29.758917+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T17:32:01.621019+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T07:51:19.474649+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:59.292742+00:00",
       "signal_score": 50
     }
   ]

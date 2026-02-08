@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "184.6K",
-      "raw": 184556
+      "searches": "135.3K",
+      "raw": 135252
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending Amid Renewed Scrutiny of Hunter Emails",
-    "summary": "The name 'Biden' has surged in Google searches as new reports surface about the president's son, Hunter Biden, and his business dealings. This comes at a politically sensitive time for the Biden administration.",
-    "origin_story": "The spike in searches began after the New York Post published a story about emails allegedly from Hunter Biden's laptop, which has sparked renewed interest in his past business activities.",
-    "expert_analysis": "This trend reflects the enduring political polarization in the U.S., with conservatives seeking to undermine the president by focusing on his family's controversies. It also highlights the power of social media and right-wing media to drive narratives, even when the facts remain in dispute.",
-    "impact": "The renewed attention on Hunter Biden could potentially distract from the administration's policy agenda and further divide the electorate along partisan lines.",
-    "status": "rising"
+    "headline": "Biden Trending as Investigations Heat Up Ahead of 2024",
+    "summary": "President Joe Biden's name has been surging on Google as renewed scrutiny over his son Hunter's business dealings reignite political tensions ahead of the 2024 election cycle.",
+    "origin_story": "The latest spike in Google searches for 'Biden' and related terms began following reports that federal prosecutors were escalating their investigation into Hunter Biden's overseas business activities.",
+    "expert_analysis": "This trend reflects the enduring polarization of American politics, with Biden's opponents seizing on the Hunter Biden saga to attack the president's integrity and family. However, it also signals the growing importance of online discourse and information-gathering in shaping political narratives.",
+    "impact": "The Biden family's legal troubles could have far-reaching implications for the president's political future and the dynamics of the 2024 race.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T07:51:22.159822+00:00",
+  "timestamp": "2026-02-08T09:03:02.615272+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:33:14.407589+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:47:57.668101+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T07:51:22.159838+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:03:02.615289+00:00",
       "signal_score": 50
     }
   ]

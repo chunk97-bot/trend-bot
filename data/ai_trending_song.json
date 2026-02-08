@@ -1,14 +1,14 @@
 {
   "trend": "ai trending song",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "148.3K",
-      "raw": 148342
+      "searches": "129.0K",
+      "raw": 128969
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI Generated Music Captivates the Internet: The Rise of a Surprising Trend",
-    "summary": "The internet has been abuzz with the emergence of AI-generated songs, sparking widespread fascination and debate. This unexpected trend reveals a growing public interest in the potential of artificial intelligence to create music.",
-    "origin_story": "The trend began gaining traction as AI music generation tools, such as Jukebox and Soundful, became more accessible and showcased their ability to produce surprisingly listenable, if not always coherent, musical compositions.",
-    "expert_analysis": "This trend reflects the public's curiosity about the capabilities and limitations of AI in the creative arts. As AI technology continues to evolve, it raises questions about the role of human creativity and the future of music production.",
-    "impact": "The rise of AI-generated music has the potential to disrupt the traditional music industry, challenging established norms and sparking discussions about the ethical and artistic implications of artificial creativity.",
+    "headline": "ai trending song Takes Over The Internet",
+    "summary": "The topic 'ai trending song' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T05:41:45.231428+00:00",
+  "timestamp": "2026-02-08T09:02:46.140668+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T21:04:02.994413+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-06T21:56:40.542519+00:00",
       "signal_score": 90
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T05:41:45.231443+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:46.140683+00:00",
       "signal_score": 50
     }
   ]

@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "43.0K",
-      "reposts": "14.1K",
-      "raw_posts": 43012,
-      "raw_reposts": 14113
+      "posts": "79.4K",
+      "reposts": "8.2K",
+      "raw_posts": 79426,
+      "raw_reposts": 8219
     },
     "tiktok": {
-      "views": "8.3M",
-      "videos": "5.0K",
-      "raw_views": 8345444
+      "views": "8.2M",
+      "videos": "23.9K",
+      "raw_views": 8223027
     },
     "instagram": {
       "posts": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 85,
+  "signal_score": 90,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Mysterious Code 681da8: A Viral Phenomenon Gripping the Internet",
-    "summary": "The enigmatic code '681da8' has taken the internet by storm, sparking fascination and speculation across various social media platforms. Users are scrambling to unravel the mystery behind this seemingly random alphanumeric sequence.",
-    "origin_story": "The trend first emerged on TikTok, where users have posted over 5,000 videos exploring the code's possible meanings and origins, amassing an impressive 8.3 million views.",
-    "expert_analysis": "The rapid spread of the '681da8' trend highlights the internet's insatiable appetite for mystery and the collective desire to decipher the unknown. This phenomenon taps into the human instinct to seek patterns and uncover hidden meanings, captivating a generation of digital natives who thrive on the excitement of community-driven investigations.",
-    "impact": "As the trend continues to gain momentum, it raises questions about the power of social media to amplify and propel even the most obscure cultural phenomena into the global spotlight.",
-    "status": "viral"
+    "headline": "Viral Hex Code Sparks Mysterious Online Craze",
+    "summary": "A seemingly innocuous hex code has taken the internet by storm, with millions of users across TikTok and other platforms eagerly exploring its hidden meaning and potential significance.",
+    "origin_story": "The trend appears to have started on TikTok, where users began posting videos featuring the hex code '681da8' and speculating about its origins and purpose.",
+    "expert_analysis": "This viral phenomenon taps into the human desire to uncover hidden messages and solve mysteries, particularly in the digital age where information can spread rapidly. The obsession with this hex code reflects our collective fascination with the unknown and the power of the internet to amplify and propagate such enigmas.",
+    "impact": "As the trend continues to gain momentum, it could lead to further exploration of the potential significance or meaning behind the hex code, sparking conversations and even potential real-world implications.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T07:50:57.495714+00:00",
+  "timestamp": "2026-02-08T09:02:29.488709+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T22:53:30.089202+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-06T23:53:53.218135+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T07:50:57.495729+00:00",
       "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T09:02:29.488726+00:00",
+      "signal_score": 90
     }
   ]
 }
