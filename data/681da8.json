@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "79.4K",
-      "reposts": "8.2K",
-      "raw_posts": 79426,
-      "raw_reposts": 8219
+      "posts": "66.5K",
+      "reposts": "4.1K",
+      "raw_posts": 66505,
+      "raw_reposts": 4052
     },
     "tiktok": {
-      "views": "8.2M",
-      "videos": "23.9K",
-      "raw_views": 8223027
+      "views": "2.8M",
+      "videos": "33.6K",
+      "raw_views": 2847666
     },
     "instagram": {
       "posts": "0",
@@ -36,19 +36,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Hex Code Sparks Mysterious Online Craze",
-    "summary": "A seemingly innocuous hex code has taken the internet by storm, with millions of users across TikTok and other platforms eagerly exploring its hidden meaning and potential significance.",
-    "origin_story": "The trend appears to have started on TikTok, where users began posting videos featuring the hex code '681da8' and speculating about its origins and purpose.",
-    "expert_analysis": "This viral phenomenon taps into the human desire to uncover hidden messages and solve mysteries, particularly in the digital age where information can spread rapidly. The obsession with this hex code reflects our collective fascination with the unknown and the power of the internet to amplify and propagate such enigmas.",
-    "impact": "As the trend continues to gain momentum, it could lead to further exploration of the potential significance or meaning behind the hex code, sparking conversations and even potential real-world implications.",
-    "status": "rising"
+    "headline": "Bizarre Color Code Sparks Viral Craze Across Social Media",
+    "summary": "A mysterious string of hexadecimal digits, '681da8', has taken the internet by storm, with users across platforms like TikTok and X scrambling to decipher its meaning and significance.",
+    "origin_story": "The trend appears to have started on TikTok, where users have been posting videos speculating about the code's origins and purpose, driving millions of views and sparking intense discussion.",
+    "expert_analysis": "This viral phenomenon taps into our collective fascination with hidden messages and online mysteries. The ambiguity of the code, combined with the organic spread across social media, has created a sense of communal intrigue, as users band together to unravel the puzzle.",
+    "impact": "As the trend continues to gain momentum, it's likely to spawn a wave of creative content, memes, and even potential real-world implications as the internet community works to decipher the code's meaning.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T09:02:29.488709+00:00",
+  "timestamp": "2026-02-08T09:59:04.843908+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T23:53:53.218135+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-07T04:54:56.135432+00:00",
       "signal_score": 100
@@ -139,6 +135,10 @@
     },
     {
       "timestamp": "2026-02-08T09:02:29.488726+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T09:59:04.843923+00:00",
       "signal_score": 90
     }
   ]

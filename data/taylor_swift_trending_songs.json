@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "199.8K",
-      "raw": 199783
+      "searches": "106.9K",
+      "raw": 106928
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "taylor swift trending"
   ],
   "analysis": {
-    "headline": "Taylor Swift's Latest Album Tracks Dominate Google Searches",
-    "summary": "Fans of Taylor Swift are flocking to Google to search for the singer's newest album tracks, showcasing the enduring popularity of the global superstar and her music.",
-    "origin_story": "The surge in Google searches for Taylor Swift's songs began shortly after the release of her 10th studio album, 'Midnights', which dropped on October 21st.",
-    "expert_analysis": "Taylor Swift's ability to captivate her fans and maintain her relevance in the music industry is a testament to her creative prowess and connection with her audience. The intense interest in her new songs reflects the dedicated fan base she has cultivated over the years, who eagerly anticipate and devour her musical offerings.",
-    "impact": "This trend demonstrates the continued cultural impact of Taylor Swift and her music, which likely translates to increased streams, sales, and further solidification of her status as one of the biggest stars in the world.",
-    "status": "viral"
+    "headline": "Taylor Swift's Catalog Sparks Renewed Interest Across Platforms",
+    "summary": "Taylor Swift's vast and acclaimed musical catalog has once again captured the attention of fans and music enthusiasts alike, with a surge in Google searches for her trending songs. This renewed interest highlights the enduring popularity and cultural impact of the acclaimed singer-songwriter.",
+    "origin_story": "The spike in Google searches for Taylor Swift's trending songs appears to have been sparked by a combination of recent album re-recordings and ongoing discussions around her music and career.",
+    "expert_analysis": "This trend underscores the deep connection Swift has forged with her fanbase, who continue to explore and rediscover her extensive discography. It also reflects the broader cultural significance of her artistry, which has transcended mere commercial success to become a touchstone for discussions around creative control, artistic integrity, and the evolving music industry.",
+    "impact": "The sustained interest in Taylor Swift's catalog is likely to drive increased streaming, sales, and media coverage, further cementing her status as one of the most influential and beloved artists of her generation.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T07:51:32.074730+00:00",
+  "timestamp": "2026-02-08T09:59:35.206255+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:50.971929+00:00",
@@ -61,6 +61,10 @@
     },
     {
       "timestamp": "2026-02-08T07:51:32.074745+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:35.206271+00:00",
       "signal_score": 50
     }
   ]

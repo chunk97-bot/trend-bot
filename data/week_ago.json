@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "80.8K",
-      "reposts": "41.6K",
-      "raw_posts": 80775,
-      "raw_reposts": 41608
+      "posts": "142.8K",
+      "reposts": "44.1K",
+      "raw_posts": 142756,
+      "raw_reposts": 44088
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral Trend Sparks Online Debate About Productivity Norms",
-    "summary": "A recent viral trend of posting one's 'week in review' has struck a nerve online, sparking discussions about work-life balance and the pressure to be constantly productive.",
-    "origin_story": "The trend first gained traction on TikTok, where users have been sharing detailed breakdowns of how they spent their time over the past week.",
-    "expert_analysis": "This trend reveals the growing cultural fixation on quantifying and optimizing one's time, often at the expense of work-life balance. It highlights the pressure many feel to constantly be 'on' and productive, even during leisure hours.",
-    "impact": "The discussion has resonated widely, prompting people to reflect on their own habits and priorities.",
+    "headline": "Viral Challenge Has Internet In Stitches Over Relatable Struggle",
+    "summary": "A new challenge has taken social media by storm, with users sharing hilarious videos of themselves hilariously failing at a simple task. The trend has resonated with millions, tapping into our universal experience of occasionally feeling like an uncoordinated mess.",
+    "origin_story": "The challenge originated on TikTok a week ago, where users began posting clips of themselves trying and failing to complete a basic everyday activity.",
+    "expert_analysis": "This trend speaks to the enduring appeal of content that makes us feel a little less alone in our awkwardness and imperfections. In an era of curated perfection online, these relatable 'fail' videos offer a refreshing dose of authenticity and humor that users are clearly craving.",
+    "impact": "The challenge has already racked up millions of views and shares across social media, striking a chord with people worldwide.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T05:41:38.292831+00:00",
+  "timestamp": "2026-02-08T09:59:12.131978+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -130,6 +130,10 @@
     },
     {
       "timestamp": "2026-02-08T05:41:38.292846+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T09:59:12.131992+00:00",
       "signal_score": 55
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "246.3K",
-      "raw": 246304
+      "searches": "274.3K",
+      "raw": 274306
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "nba trending topics"
   ],
   "analysis": {
-    "headline": "NBA Fever Sweeps the Nation: A Closer Look at the Trending Craze",
-    "summary": "NBA fever has taken over the internet, with fans and enthusiasts flocking to Google to stay up-to-date on the latest news and developments. This surge in interest reflects the passionate following of the league and the excitement surrounding the upcoming playoffs and championship race.",
-    "origin_story": "The increased search activity on Google can be attributed to the ongoing NBA season, with teams jockeying for playoff positioning and star players making headlines.",
-    "expert_analysis": "The NBA's ability to captivate the public's attention speaks to the league's enduring popularity and cultural relevance. Fans are eager to stay informed on their favorite teams and players, showcasing the deep-rooted connection between the NBA and its dedicated fanbase.",
-    "impact": "This trending interest in the NBA is likely to translate into increased viewership, merchandising sales, and overall engagement with the league, solidifying its position as a cultural touchstone in the world of sports.",
-    "status": "rising"
+    "headline": "NBA Takes the Internet by Storm: Insights into the League's Viral Moment",
+    "summary": "The NBA has become the center of attention on the internet, with thousands of fans and enthusiasts flocking to search engines to discuss the latest happenings in the league. This surge in interest reflects the growing passion and engagement of basketball fans worldwide.",
+    "origin_story": "The NBA's trending status emerged from a combination of recent game highlights, player news, and the excitement surrounding the ongoing NBA playoffs.",
+    "expert_analysis": "This NBA-focused trend highlights the power of sports to captivate and unite audiences online. The league's ability to generate widespread conversation and interest demonstrates the enduring appeal of professional basketball, as well as the increasing importance of digital platforms in shaping fan engagement and cultural relevance.",
+    "impact": "The NBA's viral moment has the potential to drive increased viewership, merchandise sales, and further cement the league's status as a global entertainment powerhouse.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T23:01:07.826820+00:00",
+  "timestamp": "2026-02-08T09:59:48.546459+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:27.016439+00:00",
@@ -60,6 +60,10 @@
     },
     {
       "timestamp": "2026-02-07T23:01:07.826835+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:48.546474+00:00",
       "signal_score": 50
     }
   ]

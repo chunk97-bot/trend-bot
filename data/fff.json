@@ -1,6 +1,6 @@
 {
   "trend": "fff",
-  "category": "culture",
+  "category": "memes",
   "platforms": {
     "tiktok": true,
     "instagram": true
@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "73.8M",
-      "videos": "102.5K",
-      "raw_views": 73835665
+      "views": "37.7M",
+      "videos": "275.4K",
+      "raw_views": 37670032
     },
     "instagram": {
-      "posts": "1.1M",
-      "reach": "27.8M",
-      "raw_posts": 1065890
+      "posts": "6.2M",
+      "reach": "30.2M",
+      "raw_posts": 6151783
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "Viral Monochrome Madness: The Rise of the #fff Trend",
-    "summary": "The internet is captivated by a seemingly simple, yet visually striking trend - the use of the hex color code #fff, or pure white, across social media platforms. This minimalist aesthetic has taken the digital world by storm, sparking creativity and collective fascination.",
-    "origin_story": "The #fff trend first gained traction on TikTok, where users began creating content showcasing pure white backgrounds, outfits, and visual effects. This monochrome approach quickly spread to Instagram, where users have flooded the platform with a sea of #fff-inspired posts.",
-    "expert_analysis": "This trend reflects a growing desire for visual simplicity and minimalism in an increasingly cluttered digital landscape. The uniformity and clean aesthetic of #fff offer a refreshing respite, allowing users to focus on the content itself rather than distracting visuals. Additionally, the trend highlights the power of social media in shaping cultural phenomena, as users collectively embrace and amplify this shared aesthetic preference.",
-    "impact": "The widespread adoption of the #fff trend has spawned a vibrant creative community, with users experimenting with various applications of the minimalist style across fashion, photography, and beyond.",
+    "headline": "Viral 'fff' Craze Sweeps Social Media, Sparking Creativity and Curiosity",
+    "summary": "The simple, four-letter 'fff' trend has taken the internet by storm, amassing millions of views and posts across TikTok and Instagram as users explore its mysterious allure and creative potential.",
+    "origin_story": "The trend first gained traction on TikTok, where users began posting videos featuring the 'fff' text, often with accompanying visuals or audio tracks.",
+    "expert_analysis": "The widespread appeal of the 'fff' trend highlights the internet's insatiable appetite for minimalist, open-ended content that allows for individual interpretation and self-expression. This viral phenomenon taps into our desire for digital canvases that can be customized and transformed in endless ways.",
+    "impact": "The 'fff' craze has inspired a proliferation of user-generated content, sparking a collaborative, participatory culture across social media.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T09:02:32.918483+00:00",
+  "timestamp": "2026-02-08T09:59:07.712051+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T23:53:49.983451+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-07T04:54:59.185669+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T09:02:32.918499+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T09:59:07.712070+00:00",
       "signal_score": 90
     }
   ]
