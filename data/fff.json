@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "84.4M",
-      "videos": "338.8K",
-      "raw_views": 84422381
+      "views": "65.7M",
+      "videos": "459.1K",
+      "raw_views": 65730150
     },
     "instagram": {
-      "posts": "6.2M",
-      "reach": "10.8M",
-      "raw_posts": 6202183
+      "posts": "1.8M",
+      "reach": "22.3M",
+      "raw_posts": 1842515
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Allure of Simplicity: Why the Hashtag #fff is Dominating Social Media",
-    "summary": "The minimalist hashtag '#fff' has taken the internet by storm, amassing staggering engagement across TikTok and Instagram. This stark white-on-white trend speaks to a cultural craving for digital detoxification and aesthetic purity.",
-    "origin_story": "The #fff trend first emerged on TikTok, where users began posting simple, white-themed videos and images, often featuring the hashtag prominently.",
-    "expert_analysis": "In an age of information overload and visual saturation, the appeal of '#fff' lies in its ability to offer a refreshing respite from the relentless stimuli of modern social media. This trend taps into a broader desire for digital minimalism, reflecting a yearning for more thoughtful, intentional online experiences.",
-    "impact": "The widespread adoption of '#fff' signals a shift in social media consumption, with users increasingly seeking calming, decluttered content that provides a sense of tranquility and focus.",
+    "headline": "The Rise of FFF: Exploring the Viral Hex Color Trend Sweeping Social Media",
+    "summary": "A simple hexadecimal color code, #FFF or 'FFF,' has taken the internet by storm, capturing the attention of millions across TikTok and Instagram. This unexpected trend reveals a deeper fascination with minimalism and the power of visual simplicity in the digital age.",
+    "origin_story": "The 'FFF' trend first gained traction on TikTok, where users began creating content around the pure white color, leading to over 65 million views and nearly half a million videos.",
+    "expert_analysis": "This trend taps into a growing desire for digital minimalism and a return to the basics. In a world saturated with content, the allure of a simple, clean aesthetic resonates with audiences seeking respite from visual clutter. The universality of the color white also allows for broad interpretation and personal expression, fueling the trend's viral appeal.",
+    "impact": "The widespread adoption of 'FFF' across social media platforms underscores the internet's ability to collectively embrace and amplify seemingly mundane elements, transforming them into cultural phenomena.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T20:58:11.417572+00:00",
+  "timestamp": "2026-02-08T21:55:26.888252+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T15:52:39.156584+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-07T17:02:01.514105+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:11.417593+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T21:55:26.888268+00:00",
       "signal_score": 90
     }
   ]

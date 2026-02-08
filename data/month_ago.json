@@ -1,6 +1,6 @@
 {
   "trend": "Month Ago",
-  "category": "gaming",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "142.9K",
-      "reposts": "44.1K",
-      "raw_posts": 142917,
-      "raw_reposts": 44079
+      "posts": "187.0K",
+      "reposts": "24.7K",
+      "raw_posts": 187008,
+      "raw_reposts": 24656
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Retro Gaming Craze Sweeps the Internet as 90s Nostalgia Booms",
-    "summary": "Vintage video game consoles and classic titles from the 90s are suddenly all the rage online, as a wave of 90s nostalgia takes the internet by storm. Gamers and collectors are fueling a surge in demand for retro gaming hardware and software.",
-    "origin_story": "The trend took off on platforms like Reddit and YouTube, where passionate retro gaming communities have been sharing their love of classic consoles and games.",
-    "expert_analysis": "This retro gaming craze speaks to a broader cultural longing for the simpler, more analog technologies of the past. As modern life becomes increasingly digital and screen-based, many are finding comfort and joy in the tactile, low-fi appeal of 90s gaming.",
-    "impact": "The skyrocketing demand has led to shortages and price spikes for vintage consoles and games, creating new opportunities for collectors and resellers.",
+    "headline": "Month-Old Viral Trend Sparks Debate on Internet Culture",
+    "summary": "A month-old trend has suddenly taken the internet by storm, captivating users across multiple platforms. The surge in popularity has sparked discussions about the nature of viral content and the way it shapes online discourse.",
+    "origin_story": "The trend originated on x platforms, where users have been posting x_posts and sharing x_reposts.",
+    "expert_analysis": "This trend reveals the internet's insatiable appetite for novel, shareable content. The rapid spread of this month-old phenomenon highlights the speed at which ideas and memes can gain traction in the digital age, often bypassing traditional media outlets and catalyzing discussions on broader societal issues.",
+    "impact": "The widespread engagement with this trend suggests it has the potential to influence popular culture and public discourse.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T20:58:27.080877+00:00",
+  "timestamp": "2026-02-08T21:55:40.427865+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T09:58:16.346219+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-07T10:58:19.809876+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:27.080894+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T21:55:40.427880+00:00",
       "signal_score": 55
     }
   ]

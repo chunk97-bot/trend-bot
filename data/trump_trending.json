@@ -1,14 +1,14 @@
 {
   "trend": "trump trending",
-  "category": "politics",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "246.6K",
-      "raw": 246552
+      "searches": "267.7K",
+      "raw": 267727
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Trending Searches as Controversies Swirl",
-    "summary": "Former President Donald Trump has once again captured the public's attention, with his name topping Google search trends. The surge in interest reflects the ongoing controversies and political maneuverings surrounding the polarizing figure.",
-    "origin_story": "The renewed interest in Trump appears to have been sparked by a combination of factors, including his legal battles, potential 2024 presidential run, and the continued fallout from his presidency.",
-    "expert_analysis": "Trump's ability to command the spotlight is a testament to his enduring influence in American politics. This trend reveals the public's persistent fascination with the former president, even as he navigates a complex web of legal and political challenges.",
-    "impact": "The high-level interest in Trump is likely to shape the national discourse and the political landscape in the months to come.",
-    "status": "viral"
+    "headline": "trump trending Takes Over The Internet",
+    "summary": "The topic 'trump trending' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T20:58:56.195281+00:00",
+  "timestamp": "2026-02-08T21:56:04.774855+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T21:04:35.980624+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T21:57:23.764118+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:56.195302+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:04.774872+00:00",
       "signal_score": 50
     }
   ]

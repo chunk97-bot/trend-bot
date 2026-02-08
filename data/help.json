@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "84.4K",
-      "reposts": "38.9K",
-      "raw_posts": 84433,
-      "raw_reposts": 38855
+      "posts": "64.3K",
+      "reposts": "25.2K",
+      "raw_posts": 64311,
+      "raw_reposts": 25157
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "People Seeking 'Help' Online as Anxiety and Isolation Spike",
-    "summary": "Amid the ongoing global health crisis, people are turning to social media platforms in droves to seek emotional support and practical advice. This sudden surge in 'help'-related posts reflects a collective cry for assistance during a time of heightened stress and uncertainty.",
-    "origin_story": "The trend first emerged on various social media platforms as users opened up about their mental health struggles and daily challenges in adapting to the new normal.",
-    "expert_analysis": "This trend underscores the immense psychological toll of the pandemic, as people grapple with issues like job loss, social isolation, and health concerns. It also highlights the critical role that online communities can play in providing a much-needed outlet for emotional expression and mutual support during times of crisis.",
-    "impact": "The prevalence of 'help'-related posts signals a growing need for accessible mental health resources and community-based interventions to address the surge in anxiety, depression, and feelings of helplessness.",
+    "headline": "Viral 'Help' Trend Spotlights Societal Struggles in Real Time",
+    "summary": "People across social media are posting simple pleas for 'help' in droves, reflecting a collective sense of overwhelm, anxiety, and helplessness in the face of personal and global challenges.",
+    "origin_story": "The 'help' trend appears to have started on TikTok, with users sharing short videos expressing their need for support or a way out of difficult circumstances.",
+    "expert_analysis": "This trend taps into a widespread sentiment of isolation and desperation, as people grapple with the impacts of the pandemic, economic instability, and social unrest. The viral spread of these 'help' posts signals a deep human desire for connection and empathy during turbulent times.",
+    "impact": "While the trend itself may be fleeting, it underscores the urgent need for greater mental health resources and community-based support systems.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T19:16:26.714036+00:00",
+  "timestamp": "2026-02-08T21:55:33.527879+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:16.214848+00:00",
@@ -134,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T19:16:26.714054+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T21:55:33.527895+00:00",
       "signal_score": 55
     }
   ]

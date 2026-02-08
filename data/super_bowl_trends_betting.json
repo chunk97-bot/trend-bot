@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "111.9K",
-      "raw": 111926
+      "searches": "243.0K",
+      "raw": 243025
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Betting Frenzy Grips the Nation as Searches Soar",
-    "summary": "As the highly anticipated Super Bowl approaches, the public's fascination with sports betting has reached a fever pitch, with Google searches for 'super bowl trends betting' skyrocketing to over 111,000.",
-    "origin_story": "The surge in interest can be attributed to the growing legalization and mainstream acceptance of sports gambling across the United States, making it easier for fans to engage with the big game in new and exciting ways.",
-    "expert_analysis": "This trend reveals the evolving landscape of sports consumption, where fans are no longer content to simply watch the game - they want to have a personal stake in the outcome. The thrill of betting, combined with the high-stakes drama of the Super Bowl, has created a perfect storm of fan engagement that is captivating audiences nationwide.",
-    "impact": "As the Super Bowl betting craze continues to grow, it will likely have significant implications for the sports entertainment industry, as well as the broader gambling landscape in the United States.",
-    "status": "viral"
+    "headline": "Super Bowl Betting Frenzy Sweeps the Nation as Big Game Approaches",
+    "summary": "As the NFL's biggest spectacle, the Super Bowl, draws near, a surge in online searches for 'super bowl trends betting' reflects the growing popularity and mainstream acceptance of sports wagering across the United States.",
+    "origin_story": "The increased interest in Super Bowl betting coincides with the rapid expansion of legalized sports betting, with more than 30 states now offering some form of regulated sports gambling.",
+    "expert_analysis": "This trend highlights the evolving attitudes towards sports betting, which has transformed from a niche activity into a mainstream form of entertainment. The anticipation surrounding the Super Bowl, combined with the ease of accessing online sportsbooks, is driving a new generation of casual bettors to participate in the excitement of the big game.",
+    "impact": "The surge in Super Bowl betting interest underscores the profound impact that the legalization of sports gambling has had on the sports landscape and the broader cultural shift towards embracing this form of entertainment.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T19:56:07.475159+00:00",
+  "timestamp": "2026-02-08T21:56:15.295718+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T09:03:35.896003+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T10:58:34.119788+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T19:56:07.475175+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:15.295733+00:00",
       "signal_score": 50
     }
   ]

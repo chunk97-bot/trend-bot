@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "159.8K",
-      "raw": 159844
+      "searches": "229.9K",
+      "raw": 229936
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Powered Prompts Take Over the Internet: The Rise of Personalized Content Creation",
-    "summary": "As AI technology becomes more advanced, internet users are increasingly turning to AI-generated prompts to create customized content, from artwork to articles. This trend is driven by a desire for unique, personalized experiences across social media and creative platforms.",
-    "origin_story": "The surge in interest around AI prompts can be traced back to the growing popularity of AI image generation tools like DALL-E and Midjourney, which allow users to input text prompts and generate unique images.",
-    "expert_analysis": "This trend reflects a broader shift towards AI-powered personalization and creativity, as users seek to stand out in a crowded online landscape. By leveraging AI to create custom content, individuals can express their unique ideas and perspectives, blurring the lines between human and machine-generated expression.",
-    "impact": "The widespread adoption of AI prompts could have far-reaching implications for the future of content creation, as AI becomes increasingly integrated into our daily digital lives.",
-    "status": "rising"
+    "headline": "The Rise of AI-Powered Prompts: Unlocking Creativity and Controversy",
+    "summary": "As the use of AI-generated prompts surges, the public is captivated by the technology's potential to transform creative processes. This trend reflects a growing interest in the intersection of artificial intelligence and artistic expression.",
+    "origin_story": "The increasing popularity of AI-powered prompts can be traced back to the widespread adoption of AI-driven image generation tools like DALL-E and Midjourney, which allow users to create unique visuals by simply describing their desired output.",
+    "expert_analysis": "This trend reveals a fascination with the capabilities of AI and a desire to push the boundaries of human creativity. However, it also raises questions about the role of AI in the creative process and the potential implications for artists and the creative industry as a whole.",
+    "impact": "The rise of AI-powered prompts has the potential to democratize creative expression, but it also raises concerns about the ethical use of this technology and its impact on traditional artistic practices.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T20:58:41.686460+00:00",
+  "timestamp": "2026-02-08T21:55:51.138904+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T04:55:20.728890+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T07:11:13.186332+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:41.686479+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:55:51.138920+00:00",
       "signal_score": 50
     }
   ]

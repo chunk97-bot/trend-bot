@@ -1,14 +1,14 @@
 {
   "trend": "biden trending",
-  "category": "politics",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "167.7K",
-      "raw": 167731
+      "searches": "153.6K",
+      "raw": 153570
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to the Top of Google Trends Amid Ongoing Political Narratives",
-    "summary": "Former Vice President Joe Biden is dominating Google search trends, as recent developments in his political career and his son Hunter Biden's business dealings continue to captivate public interest.",
-    "origin_story": "The spike in searches for 'Biden' and related terms started in the past week, coinciding with the latest news cycle surrounding the Biden family.",
-    "expert_analysis": "This trend reflects the public's enduring fascination with the Biden family's political and personal saga, which has become a central focus of the ongoing national discourse. The intense interest speaks to the polarized nature of American politics, where even routine events can quickly escalate into major talking points.",
-    "impact": "The sustained online attention could influence public perception and have broader implications for Biden's political standing and the national agenda.",
-    "status": "viral"
+    "headline": "biden trending Takes Over The Internet",
+    "summary": "The topic 'biden trending' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T20:58:58.776734+00:00",
+  "timestamp": "2026-02-08T21:56:07.848503+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T07:58:15.106444+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T11:45:51.375688+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T20:58:58.776753+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:07.848517+00:00",
       "signal_score": 50
     }
   ]
