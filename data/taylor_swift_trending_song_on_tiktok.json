@@ -1,0 +1,52 @@
+{
+  "trend": "taylor swift trending song on tiktok",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "213.1K",
+      "raw": 213138
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Swift's TikTok Takeover: The Viral Allure of Taylor's Latest Hit",
+    "summary": "Taylor Swift's song 'Anti-Hero' has taken TikTok by storm, with users flooding the platform with creative videos and dance challenges centered around the track. The track's viral success speaks to Swift's enduring popularity and her ability to captivate the social media generation.",
+    "origin_story": "The song was released as part of Swift's 10th studio album, 'Midnights,' which debuted in October 2022. It quickly gained traction on TikTok, with users sharing their interpretations and personal connections to the track's relatable lyrics.",
+    "expert_analysis": "The virality of 'Anti-Hero' on TikTok reflects the platform's power to amplify and shape cultural trends. Swift's ability to resonate with younger audiences, who make up a significant portion of TikTok's user base, underscores her status as a cultural touchstone. The trend also highlights the platform's role in driving music consumption and shaping the pop cultural landscape.",
+    "impact": "The TikTok-fueled surge in popularity for 'Anti-Hero' has already translated to commercial success, with the song reaching the top of the Billboard Hot 100 chart.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T00:02:30.846863+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:30.846884+00:00",
+      "signal_score": 50
+    }
+  ]
+}

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "261.6K",
-      "raw": 261588
+      "searches": "101.7K",
+      "raw": 101709
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl 2025 Trends Set Internet Ablaze with Excitement",
-    "summary": "As the countdown to Super Bowl 2025 begins, the internet is buzzing with anticipation and speculation around the biggest annual sporting event. This year's trends have captured the public's imagination, driving a surge in online searches and engagement.",
-    "origin_story": "The Super Bowl has long been a cultural phenomenon, with fans eagerly awaiting the latest developments and innovations. This year, the excitement seems to have reached a fever pitch, with people scouring the web for the latest news and updates.",
-    "expert_analysis": "The spike in Super Bowl 2025 trends reflects the growing importance of this event in popular culture. Beyond just the game itself, people are eager to discover the latest halftime show performances, innovative commercials, and social media moments that will define the experience. This trend underscores the power of major sporting events to captivate and unite audiences across the globe.",
-    "impact": "The intense interest in Super Bowl 2025 trends is likely to have a significant impact on the event's marketing, viewership, and cultural relevance, solidifying the Super Bowl's status as one of the most anticipated events of the year.",
+    "headline": "Superbowl 2025 Dominates Google Searches as Fans Crave Nostalgia",
+    "summary": "As the nation eagerly anticipates the upcoming Superbowl in 2025, Google searches have surged, indicating a growing excitement for the big game. Fans are clearly craving a sense of nostalgia and tradition amidst the rapidly changing landscape of sports and entertainment.",
+    "origin_story": "The spike in Google searches can be traced back to the recent announcement of the Superbowl's return to its traditional format, after several years of pandemic-related changes and experimentation.",
+    "expert_analysis": "This trend reflects a broader desire among consumers to reconnect with familiar cultural touchstones. In a world of constant technological and social upheaval, the Superbowl remains a reliable source of comfort and community for many Americans. The high level of interest suggests that people are seeking stability and shared experiences in turbulent times.",
+    "impact": "The surge in Superbowl-related searches is likely to have a significant impact on advertising, media coverage, and overall fan engagement leading up to the big game.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T23:00:58.348813+00:00",
+  "timestamp": "2026-02-08T00:02:20.537962+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -98,6 +98,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:58.348828+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:20.537980+00:00",
       "signal_score": 50
     }
   ]

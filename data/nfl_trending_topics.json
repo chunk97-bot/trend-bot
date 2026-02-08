@@ -1,0 +1,52 @@
+{
+  "trend": "nfl trending topics",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "281.3K",
+      "raw": 281263
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "NFL Dominates Google Searches as Season Approaches",
+    "summary": "As the new NFL season approaches, football fans are scouring Google for the latest news and updates on their favorite teams and players. This surge in online interest reflects the enduring popularity of the league and the growing anticipation for the upcoming games.",
+    "origin_story": "The increased Google searches for NFL-related topics are a natural result of the approaching kickoff of the new season, which is always a highly anticipated event among sports enthusiasts.",
+    "expert_analysis": "The intense interest in the NFL on Google showcases the league's deep-rooted cultural significance in the United States. Football has long been woven into the fabric of American sports and entertainment, and the start of a new season represents a highly anticipated annual ritual for many fans.",
+    "impact": "This trend highlights the continued power of the NFL to captivate audiences and drive widespread engagement, both on and off the field.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-08T00:02:36.691479+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:36.691497+00:00",
+      "signal_score": 50
+    }
+  ]
+}

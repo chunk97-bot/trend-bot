@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "66.5K",
-      "raw": 66450
+      "searches": "148.2K",
+      "raw": 148215
     },
     "x": {
-      "posts": "112.2K",
-      "reposts": "21.0K",
-      "raw_posts": 112207,
-      "raw_reposts": 20951
+      "posts": "58.9K",
+      "reposts": "19.1K",
+      "raw_posts": 58916,
+      "raw_reposts": 19110
     },
     "tiktok": {
       "views": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 80,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -36,25 +36,29 @@
   ],
   "related_trends": [
     "ai trending",
-    "ai trending song",
-    "ai trending prompt",
     "ai trending photo",
-    "ai trending news",
+    "ai trending song",
+    "ai trending pictures",
+    "ai trending prompt",
     "Trending"
   ],
   "analysis": {
-    "headline": "The Meteoric Rise of AI: Captivating the Internet's Imagination",
-    "summary": "Artificial intelligence (AI) has taken the internet by storm, with search interest and social media activity soaring as people explore the capabilities of this cutting-edge technology. From AI-generated art to language models, the public's fascination with AI is undeniable.",
-    "origin_story": "The recent surge in AI trends can be traced back to the release of ChatGPT, an advanced language model developed by OpenAI, which has showcased the remarkable abilities of AI in tasks such as writing, analysis, and problem-solving.",
-    "expert_analysis": "The AI trend reflects the public's insatiable curiosity about the future of technology and its potential to transform industries, creativity, and even everyday life. As AI systems become more sophisticated and accessible, people are eager to experiment with their capabilities and understand the implications of this rapidly evolving field.",
-    "impact": "The widespread interest in AI has the potential to drive technological advancements, spur innovation, and shape the ways in which we interact with and utilize technology in the years to come.",
+    "headline": "The Meteoric Rise of AI Dominates Conversations Across the Web",
+    "summary": "Artificial intelligence (AI) has taken the internet by storm, with soaring interest in the topic reflected in skyrocketing Google searches and a deluge of posts and reposts on social media platforms. This surge in AI-related activity signals a growing fascination with the transformative potential of this technology.",
+    "origin_story": "The current AI craze can be traced back to the recent advancements and widespread adoption of large language models like ChatGPT, which have captivated users with their impressive conversational abilities and creative output.",
+    "expert_analysis": "This trend underscores the public's insatiable appetite for cutting-edge technology and its potential to reshape various industries and aspects of daily life. The intense interest in AI reflects both the excitement and trepidation surrounding the rapid progress of this field, as people grapple with the implications of intelligent machines becoming increasingly ubiquitous.",
+    "impact": "As AI continues to evolve and integrate into our lives, the reverberations of this trend will be felt across countless sectors, from education and healthcare to entertainment and beyond.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T17:31:26.360758+00:00",
+  "timestamp": "2026-02-08T00:01:53.480827+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T17:31:26.360770+00:00",
       "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-08T00:01:53.480854+00:00",
+      "signal_score": 100
     }
   ]
 }

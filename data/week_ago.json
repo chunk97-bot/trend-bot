@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "fashion",
+  "category": "memes",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "86.0K",
-      "reposts": "41.8K",
-      "raw_posts": 86011,
-      "raw_reposts": 41784
+      "posts": "53.2K",
+      "reposts": "34.7K",
+      "raw_posts": 53222,
+      "raw_reposts": 34684
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic '90s Trends Captivate the Internet Once More",
-    "summary": "From scrunchies to butterfly clips, retro fashion and accessories from the 1990s are dominating social media feeds, as millennials and Gen Z-ers seek comfort in the familiar styles of their youth.",
-    "origin_story": "The resurgence of '90s trends began on TikTok, where users have been sharing videos of themselves recreating iconic looks and trends from the decade.",
-    "expert_analysis": "This trend speaks to the enduring appeal of nostalgia, as people turn to the past for a sense of stability and belonging in uncertain times. It also reflects a cultural shift, where younger generations are embracing the aesthetic and cultural touchstones of their parents' youth.",
-    "impact": "The renewed interest in '90s fashion has led to a spike in sales for related items, as retailers rush to meet the demand for retro-inspired clothing and accessories.",
+    "headline": "Viral 'Week Ago' Meme Taps into Nostalgia and Irony Online",
+    "summary": "The 'Week Ago' meme is taking social media by storm, as users reminisce about the recent past with a touch of humor and self-awareness. The trend reflects a collective sense of the rapid passage of time and the need to find levity in the everyday.",
+    "origin_story": "The meme first gained traction on various platforms, with users posting images or videos captioned with the phrase 'Week Ago', often accompanied by a relatable or ironic situation.",
+    "expert_analysis": "The 'Week Ago' meme taps into the universal experience of how quickly time can fly by, even in the span of a single week. It also reflects a growing tendency for internet users to find humor and perspective in the mundane aspects of their lives, rather than just focusing on major events or milestones.",
+    "impact": "This trend has the potential to resonate with a wide range of internet users, as it allows them to bond over shared experiences and find common ground in the fleeting nature of modern life.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T21:54:52.323667+00:00",
+  "timestamp": "2026-02-08T00:02:03.411811+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -122,6 +122,10 @@
     },
     {
       "timestamp": "2026-02-07T21:54:52.323684+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T00:02:03.411829+00:00",
       "signal_score": 55
     }
   ]

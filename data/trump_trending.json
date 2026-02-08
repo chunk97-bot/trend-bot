@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "205.8K",
-      "raw": 205813
+      "searches": "174.5K",
+      "raw": 174493
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Surges Back to the Forefront of Online Discourse",
-    "summary": "Former President Donald Trump's name is once again dominating online search trends, as the public eagerly follows the latest developments in his potential 2024 presidential run and ongoing legal battles.",
-    "origin_story": "Trump's resurgence in online popularity is likely driven by recent news around his potential campaign and a series of high-profile investigations into his business practices and role in the January 6th Capitol riots.",
-    "expert_analysis": "Trump's persistent grip on the national spotlight reveals an enduring fascination with the former president, even as he remains a deeply polarizing figure. This trend underscores the powerful hold that celebrity-driven politics and controversy can have on the public consciousness.",
-    "impact": "As the 2024 election cycle approaches, Trump's online popularity will undoubtedly shape the political landscape and influence the national discourse.",
-    "status": "viral"
+    "headline": "Trump Reclaims Spotlight as Speculations Swirl Around 2024 Run",
+    "summary": "Former President Donald Trump's name has surged back into the public conversation, as rumors and speculation about a potential 2024 presidential campaign continue to gain traction among his supporters and the media.",
+    "origin_story": "The spike in Google searches for 'Trump trending' appears to have been triggered by recent reports and commentary around Trump's political future.",
+    "expert_analysis": "Trump's persistent grip on the Republican base, coupled with the ongoing investigation into his handling of classified documents, has kept him firmly in the national spotlight. This trend reflects the polarizing nature of his political legacy and the enduring fascination with his potential return to the campaign trail.",
+    "impact": "The heightened interest in Trump's political plans could shape the upcoming election cycle and influence the broader political discourse.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-07T23:00:43.098365+00:00",
+  "timestamp": "2026-02-08T00:02:13.018868+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -132,6 +132,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:43.098381+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:13.018888+00:00",
       "signal_score": 50
     }
   ]

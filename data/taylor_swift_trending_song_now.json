@@ -1,0 +1,52 @@
+{
+  "trend": "taylor swift trending song now",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "282.6K",
+      "raw": 282631
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Taylor Swift's Latest Single Sparks Viral Streaming Frenzy",
+    "summary": "Taylor Swift's new song has skyrocketed to the top of search trends, captivating fans worldwide. The track's release has ignited a massive surge in online engagement as listeners eagerly discover and discuss the latest offering from the acclaimed pop superstar.",
+    "origin_story": "The song, which dropped on major music platforms earlier this week, has quickly dominated online conversations, with fans flocking to Google to learn more about the track and its significance.",
+    "expert_analysis": "Swift's ability to consistently generate viral cultural moments speaks to her enduring appeal and the dedicated fanbase she has cultivated over her illustrious career. This latest trend underscores the power of her music to captivate the public imagination and drive intense online engagement, cementing her status as a true pop icon.",
+    "impact": "The widespread interest in Taylor Swift's new song is likely to translate into record-breaking streaming numbers and renewed chart success, further solidifying her position as one of the most influential artists of her generation.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T00:02:26.915860+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:26.915877+00:00",
+      "signal_score": 50
+    }
+  ]
+}

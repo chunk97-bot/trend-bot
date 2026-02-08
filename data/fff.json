@@ -18,14 +18,14 @@
       "raw_reposts": 0
     },
     "tiktok": {
-      "views": "86.2M",
-      "videos": "177.0K",
-      "raw_views": 86192571
+      "views": "49.3M",
+      "videos": "265.8K",
+      "raw_views": 49274263
     },
     "instagram": {
-      "posts": "5.3M",
-      "reach": "32.7M",
-      "raw_posts": 5276634
+      "posts": "8.7M",
+      "reach": "813.2K",
+      "raw_posts": 8745812
     }
   },
   "signal_score": 90,
@@ -39,19 +39,15 @@
     "#FFFFFF"
   ],
   "analysis": {
-    "headline": "The Mysterious Allure of the Blank Hashtag: #fff Takes the Internet by Storm",
-    "summary": "The simple yet enigmatic hashtag #fff has become a viral sensation across TikTok and Instagram, captivating users with its minimalist appeal and sparking a wave of creative expression.",
-    "origin_story": "The trend originated on TikTok, where users began experimenting with the blank hashtag, leading to a surge in views and videos that has now spilled over into Instagram.",
-    "expert_analysis": "The popularity of #fff speaks to the growing desire for digital simplicity and the power of minimalism in a world saturated with content. This trend taps into the human need for self-expression through the most basic of means, allowing users to communicate without words and explore the boundaries of online creativity.",
-    "impact": "This viral phenomenon has the potential to influence marketing strategies, artistic practices, and the way we conceptualize digital identity and self-presentation.",
+    "headline": "The Viral Allure of the Mysterious 'fff' Trend Sweeping Social Media",
+    "summary": "The simple yet enigmatic hashtag '#fff' has taken the internet by storm, amassing millions of views and posts across TikTok and Instagram. This baffling trend has captivated users, leaving many to wonder: what does 'fff' actually mean?",
+    "origin_story": "The 'fff' craze first emerged on TikTok, where it quickly gained traction, sparking an explosion of short-form videos and challenges centered around the mysterious tag.",
+    "expert_analysis": "The 'fff' trend taps into the human desire for discovery and the allure of the unknown. By leaving the meaning open to interpretation, the trend has fostered a sense of collective curiosity and community as users speculate and engage with the phenomenon. This dynamic illustrates how the internet can amplify and spread trends that defy easy explanation, harnessing our innate fascination with the mysterious.",
+    "impact": "As the 'fff' trend continues to gain momentum, it has the potential to permeate mainstream culture and inspire a new wave of content and conversation around the power of ambiguity in the digital age.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T23:00:22.135317+00:00",
+  "timestamp": "2026-02-08T00:01:57.281389+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:49:59.396197+00:00",
-      "signal_score": 90
-    },
     {
       "timestamp": "2026-02-06T21:04:10.084103+00:00",
       "signal_score": 90
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:22.135332+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T00:01:57.281409+00:00",
       "signal_score": 90
     }
   ]

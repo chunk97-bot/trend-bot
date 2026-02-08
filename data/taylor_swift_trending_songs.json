@@ -1,14 +1,14 @@
 {
   "trend": "taylor swift trending songs",
-  "category": "music",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "211.7K",
-      "raw": 211715
+      "searches": "178.2K",
+      "raw": 178162
     },
     "x": {
       "posts": "0",
@@ -38,17 +38,21 @@
     "taylor swift trending"
   ],
   "analysis": {
-    "headline": "Taylor Swift Dominates Music Charts with Surprise Album Releases",
-    "summary": "Fans of Taylor Swift are flocking to Google to search for her latest album releases, as the pop superstar continues to surprise and delight her loyal fanbase with unexpected drops of new music.",
-    "origin_story": "The recent spike in Google searches for 'Taylor Swift trending songs' can be traced back to the artist's surprise release of her 10th studio album, 'Midnights', on October 21st.",
-    "expert_analysis": "Swift's ability to generate massive excitement and engagement with her music, even without traditional promotional campaigns, speaks to her unparalleled connection with her fans. This trend highlights the power of fan loyalty and the influence of social media in driving music industry success.",
-    "impact": "The continued dominance of Taylor Swift's music on streaming platforms and the charts will likely cement her status as one of the most influential and successful artists of her generation.",
-    "status": "viral"
+    "headline": "taylor swift trending songs Takes Over The Internet",
+    "summary": "The topic 'taylor swift trending songs' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-06T21:04:50.971896+00:00",
+  "timestamp": "2026-02-08T00:02:23.933122+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:50.971929+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:23.933139+00:00",
       "signal_score": 50
     }
   ]

@@ -1,0 +1,52 @@
+{
+  "trend": "nfl trending players",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "125.1K",
+      "raw": 125114
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "NFL's Rising Stars Take Center Stage Across the Internet",
+    "summary": "The NFL's top draft picks and young talent are dominating Google searches as fans eagerly follow the next generation of football superstars. This surge in interest reflects the public's fascination with the future of the league.",
+    "origin_story": "The increased searches for NFL players likely stem from the 2022 NFL draft and pre-season hype around promising newcomers to the league.",
+    "expert_analysis": "This trend speaks to the NFL's continued cultural prominence and the public's insatiable appetite for the next wave of athletic talent. Fans are eager to discover which young players will shape the future of the sport.",
+    "impact": "The high search volume indicates growing anticipation for the upcoming NFL season and the emergence of new fan favorites.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-08T00:02:34.336183+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:34.336201+00:00",
+      "signal_score": 50
+    }
+  ]
+}
