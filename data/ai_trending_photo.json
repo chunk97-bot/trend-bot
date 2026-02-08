@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "242.2K",
-      "raw": 242230
+      "searches": "237.8K",
+      "raw": 237788
     },
     "x": {
-      "posts": "27.5K",
-      "reposts": "7.6K",
-      "raw_posts": 27540,
-      "raw_reposts": 7564
+      "posts": "71.3K",
+      "reposts": "1.7K",
+      "raw_posts": 71327,
+      "raw_reposts": 1723
     },
     "tiktok": {
       "views": "0",
@@ -28,9 +28,9 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 75,
+  "signal_score": 90,
   "momentum": "rising",
-  "lifecycle": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "Artificial Intelligence Dominates Viral Photo Trend Across the Web",
-    "summary": "An AI-generated photo trend is sweeping the internet, captivating users with its uncanny ability to create photorealistic images. This emerging technology is sparking both awe and debate around its implications for the future of visual media.",
-    "origin_story": "The trend started on platforms like Google and X, where users have been uploading and sharing their AI-generated photos, showcasing the impressive capabilities of these new image-creation tools.",
-    "expert_analysis": "This viral trend reflects the public's growing fascination with the rapid advancements in AI technology. As these tools become more accessible and sophisticated, they are blurring the lines between reality and digital creation, raising questions about the authenticity of visual media and the role of human creativity.",
-    "impact": "The widespread popularity of this AI photo trend highlights the significant impact these technologies are having on how we consume and create visual content, with far-reaching implications for industries like art, journalism, and beyond.",
+    "headline": "AI-Generated Photos Captivate the Internet: A Glimpse into the Future",
+    "summary": "The rapid rise of AI-powered image generation has sparked a viral trend, with people across social media platforms sharing and marveling at the stunning, lifelike photographs created by these advanced algorithms.",
+    "origin_story": "The trend gained momentum on platforms like Google and the social network X, where users have been uploading and sharing their AI-generated images, leading to a surge in interest and engagement.",
+    "expert_analysis": "This trend reflects the public's fascination with the rapid advancements in AI technology and its ability to produce highly convincing and creative visual content. It also highlights the ongoing debate around the ethical implications of AI and its potential impact on creative industries.",
+    "impact": "As this trend continues to captivate the internet, it could pave the way for new artistic and commercial applications of AI-generated imagery, while also raising important questions about the future of human creativity and the role of technology in shaping our visual landscape.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T23:00:26.044217+00:00",
+  "timestamp": "2026-02-08T05:41:28.193872+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:19.285980+00:00",
@@ -104,6 +104,10 @@
     {
       "timestamp": "2026-02-07T23:00:26.044232+00:00",
       "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-08T05:41:28.193893+00:00",
+      "signal_score": 90
     }
   ]
 }

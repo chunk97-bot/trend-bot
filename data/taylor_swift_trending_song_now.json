@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "282.6K",
-      "raw": 282631
+      "searches": "250.8K",
+      "raw": 250790
     },
     "x": {
       "posts": "0",
@@ -35,17 +35,21 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Taylor Swift's Latest Single Sparks Viral Streaming Frenzy",
-    "summary": "Taylor Swift's new song has skyrocketed to the top of search trends, captivating fans worldwide. The track's release has ignited a massive surge in online engagement as listeners eagerly discover and discuss the latest offering from the acclaimed pop superstar.",
-    "origin_story": "The song, which dropped on major music platforms earlier this week, has quickly dominated online conversations, with fans flocking to Google to learn more about the track and its significance.",
-    "expert_analysis": "Swift's ability to consistently generate viral cultural moments speaks to her enduring appeal and the dedicated fanbase she has cultivated over her illustrious career. This latest trend underscores the power of her music to captivate the public imagination and drive intense online engagement, cementing her status as a true pop icon.",
-    "impact": "The widespread interest in Taylor Swift's new song is likely to translate into record-breaking streaming numbers and renewed chart success, further solidifying her position as one of the most influential artists of her generation.",
+    "headline": "Taylor Swift's New Song Sparks Viral Frenzy on Google",
+    "summary": "Taylor Swift's latest single has ignited a massive surge in online searches, as fans eagerly seek to discover and discuss the pop superstar's latest musical offering.",
+    "origin_story": "The spike in Google searches for Taylor Swift's new song was first detected across the platform, reflecting the immense interest and excitement among her dedicated fanbase.",
+    "expert_analysis": "This viral trend underscores the enduring popularity and cultural influence of Taylor Swift, whose ability to captivate her audience with each new release continues to be unparalleled. The intense interest in her latest work speaks to her ability to remain at the forefront of the music industry and connect with fans on a deeply personal level.",
+    "impact": "The widespread attention on Taylor Swift's new song is likely to drive significant engagement and discussion across social media platforms, solidifying her status as a global superstar.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T00:02:26.915860+00:00",
+  "timestamp": "2026-02-08T05:42:13.038808+00:00",
   "history": [
     {
       "timestamp": "2026-02-08T00:02:26.915877+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:13.038823+00:00",
       "signal_score": 50
     }
   ]

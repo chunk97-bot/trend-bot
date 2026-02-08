@@ -1,14 +1,14 @@
 {
   "trend": "taylor swift trending song on tiktok",
-  "category": "music",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "213.1K",
-      "raw": 213138
+      "searches": "143.4K",
+      "raw": 143376
     },
     "x": {
       "posts": "0",
@@ -35,17 +35,21 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Swift's TikTok Takeover: The Viral Allure of Taylor's Latest Hit",
-    "summary": "Taylor Swift's song 'Anti-Hero' has taken TikTok by storm, with users flooding the platform with creative videos and dance challenges centered around the track. The track's viral success speaks to Swift's enduring popularity and her ability to captivate the social media generation.",
-    "origin_story": "The song was released as part of Swift's 10th studio album, 'Midnights,' which debuted in October 2022. It quickly gained traction on TikTok, with users sharing their interpretations and personal connections to the track's relatable lyrics.",
-    "expert_analysis": "The virality of 'Anti-Hero' on TikTok reflects the platform's power to amplify and shape cultural trends. Swift's ability to resonate with younger audiences, who make up a significant portion of TikTok's user base, underscores her status as a cultural touchstone. The trend also highlights the platform's role in driving music consumption and shaping the pop cultural landscape.",
-    "impact": "The TikTok-fueled surge in popularity for 'Anti-Hero' has already translated to commercial success, with the song reaching the top of the Billboard Hot 100 chart.",
-    "status": "viral"
+    "headline": "taylor swift trending song on tiktok Takes Over The Internet",
+    "summary": "The topic 'taylor swift trending song on tiktok' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T00:02:30.846863+00:00",
+  "timestamp": "2026-02-08T05:42:17.161128+00:00",
   "history": [
     {
       "timestamp": "2026-02-08T00:02:30.846884+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:17.161142+00:00",
       "signal_score": 50
     }
   ]

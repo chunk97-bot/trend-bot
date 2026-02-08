@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "84.6K",
-      "reposts": "36.2K",
-      "raw_posts": 84575,
-      "raw_reposts": 36163
+      "posts": "136.1K",
+      "reposts": "32.1K",
+      "raw_posts": 136061,
+      "raw_reposts": 32064
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Year Ago Hashtag Surges as Nostalgia Wave Sweeps Social Media",
-    "summary": "The simple hashtag '#YearAgo' has unexpectedly taken the internet by storm, as users across multiple platforms reflect on the past year and share poignant memories from this time in 2022.",
-    "origin_story": "The trend appears to have started organically on platforms like Twitter and Instagram, where people are posting sentimental photos and anecdotes accompanied by the '#YearAgo' tag.",
-    "expert_analysis": "This sudden uptick in '1 year ago' content speaks to a broader cultural phenomenon - a collective yearning for the pre-pandemic 'normal' and a need to find meaning and community in shared experiences, even if they're from the distant past. The trend taps into our universal desire for nostalgia and connection during uncertain times.",
-    "impact": "As this sentimental wave continues to build, it could cultivate a sense of solidarity and perspective among social media users grappling with the lasting effects of the pandemic.",
-    "status": "rising"
+    "headline": "Nostalgic 'Year Ago' Trend Surges Across Social Media",
+    "summary": "People are sharing memories and throwback posts from exactly one year ago, sparking a wave of reflection and connection as the pandemic's anniversary approaches.",
+    "origin_story": "The trend originated organically on platforms like Twitter and Instagram, where users began posting their 'year ago' content as a way to reminisce about pre-pandemic life.",
+    "expert_analysis": "This trend taps into the universal human desire to look back and make sense of the dramatic changes we've all experienced over the past year. It reflects a collective longing for a return to normalcy and the comforts of the 'before times'.",
+    "impact": "The 'Year Ago' trend has struck a chord globally, generating millions of nostalgic posts and sparking conversations about resilience, loss, and the hope for better days ahead.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T20:57:19.685665+00:00",
+  "timestamp": "2026-02-08T05:41:41.871114+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:27.695565+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:13:33.297140+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T20:57:19.685679+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T05:41:41.871128+00:00",
       "signal_score": 55
     }
   ]

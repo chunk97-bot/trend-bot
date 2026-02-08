@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "53.2K",
-      "reposts": "34.7K",
-      "raw_posts": 53222,
-      "raw_reposts": 34684
+      "posts": "80.8K",
+      "reposts": "41.6K",
+      "raw_posts": 80775,
+      "raw_reposts": 41608
     },
     "tiktok": {
       "views": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Week Ago' Meme Taps into Nostalgia and Irony Online",
-    "summary": "The 'Week Ago' meme is taking social media by storm, as users reminisce about the recent past with a touch of humor and self-awareness. The trend reflects a collective sense of the rapid passage of time and the need to find levity in the everyday.",
-    "origin_story": "The meme first gained traction on various platforms, with users posting images or videos captioned with the phrase 'Week Ago', often accompanied by a relatable or ironic situation.",
-    "expert_analysis": "The 'Week Ago' meme taps into the universal experience of how quickly time can fly by, even in the span of a single week. It also reflects a growing tendency for internet users to find humor and perspective in the mundane aspects of their lives, rather than just focusing on major events or milestones.",
-    "impact": "This trend has the potential to resonate with a wide range of internet users, as it allows them to bond over shared experiences and find common ground in the fleeting nature of modern life.",
+    "headline": "Viral Trend Sparks Online Debate About Productivity Norms",
+    "summary": "A recent viral trend of posting one's 'week in review' has struck a nerve online, sparking discussions about work-life balance and the pressure to be constantly productive.",
+    "origin_story": "The trend first gained traction on TikTok, where users have been sharing detailed breakdowns of how they spent their time over the past week.",
+    "expert_analysis": "This trend reveals the growing cultural fixation on quantifying and optimizing one's time, often at the expense of work-life balance. It highlights the pressure many feel to constantly be 'on' and productive, even during leisure hours.",
+    "impact": "The discussion has resonated widely, prompting people to reflect on their own habits and priorities.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T00:02:03.411811+00:00",
+  "timestamp": "2026-02-08T05:41:38.292831+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:17.053375+00:00",
@@ -126,6 +126,10 @@
     },
     {
       "timestamp": "2026-02-08T00:02:03.411829+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T05:41:38.292846+00:00",
       "signal_score": 55
     }
   ]

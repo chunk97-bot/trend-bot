@@ -1,19 +1,19 @@
 {
   "files": [
-    "ai_trending.json",
+    "ai_trending_photo.json",
     "fff.json",
     "681da8.json",
     "week_ago.json",
-    "month_ago.json",
+    "year_ago.json",
+    "ai_trending_song.json",
+    "ai_trending_pictures.json",
     "chatgpt_trending.json",
     "trump_trending.json",
-    "super_bowl_trends_betting.json",
+    "biden_trending.json",
+    "super_bowl_trending.json",
     "super_bowl_trends_2025.json",
     "taylor_swift_trending_songs.json",
     "taylor_swift_trending_song_now.json",
-    "taylor_swift_trending_song_on_tiktok.json",
-    "nfl_trending_players.json",
-    "nfl_trending_topics.json",
-    "nfl_trending_twitter.json"
+    "taylor_swift_trending_song_on_tiktok.json"
   ]
 }

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "297.6K",
-      "raw": 297600
+      "searches": "148.3K",
+      "raw": 148342
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Music Captivates the Internet's Attention",
-    "summary": "The rapid rise of AI-powered music generation has sparked a viral trend, as internet users flock to create and share their own AI-composed songs. This phenomenon reveals the public's fascination with the capabilities of AI technology.",
-    "origin_story": "The trend emerged on various online platforms, with users experimenting with AI music generation tools and showcasing their creations.",
-    "expert_analysis": "This trend reflects the public's growing interest in the intersection of technology and creativity. As AI systems become increasingly sophisticated, the ability to generate original music has captured the imagination of internet users, who are curious to see what these tools can produce.",
-    "impact": "The widespread popularity of AI-generated music could have significant implications for the music industry, as well as the way we perceive and consume creative content.",
+    "headline": "AI Generated Music Captivates the Internet: The Rise of a Surprising Trend",
+    "summary": "The internet has been abuzz with the emergence of AI-generated songs, sparking widespread fascination and debate. This unexpected trend reveals a growing public interest in the potential of artificial intelligence to create music.",
+    "origin_story": "The trend began gaining traction as AI music generation tools, such as Jukebox and Soundful, became more accessible and showcased their ability to produce surprisingly listenable, if not always coherent, musical compositions.",
+    "expert_analysis": "This trend reflects the public's curiosity about the capabilities and limitations of AI in the creative arts. As AI technology continues to evolve, it raises questions about the role of human creativity and the future of music production.",
+    "impact": "The rise of AI-generated music has the potential to disrupt the traditional music industry, challenging established norms and sparking discussions about the ethical and artistic implications of artificial creativity.",
     "status": "rising"
   },
-  "timestamp": "2026-02-07T23:00:35.999085+00:00",
+  "timestamp": "2026-02-08T05:41:45.231428+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:49:52.307871+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-06T21:04:02.994413+00:00",
       "signal_score": 100
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:35.999100+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:45.231443+00:00",
       "signal_score": 50
     }
   ]

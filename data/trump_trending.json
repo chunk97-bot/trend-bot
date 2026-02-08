@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "174.5K",
-      "raw": 174493
+      "searches": "214.1K",
+      "raw": 214081
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Reclaims Spotlight as Speculations Swirl Around 2024 Run",
-    "summary": "Former President Donald Trump's name has surged back into the public conversation, as rumors and speculation about a potential 2024 presidential campaign continue to gain traction among his supporters and the media.",
-    "origin_story": "The spike in Google searches for 'Trump trending' appears to have been triggered by recent reports and commentary around Trump's political future.",
-    "expert_analysis": "Trump's persistent grip on the Republican base, coupled with the ongoing investigation into his handling of classified documents, has kept him firmly in the national spotlight. This trend reflects the polarizing nature of his political legacy and the enduring fascination with his potential return to the campaign trail.",
-    "impact": "The heightened interest in Trump's political plans could shape the upcoming election cycle and influence the broader political discourse.",
-    "status": "rising"
+    "headline": "Trump Trending Amid Renewed Scrutiny in Investigations",
+    "summary": "Former President Donald Trump is once again dominating online conversations as new revelations emerge about various investigations into his actions and businesses. The renewed interest follows several high-profile developments that have thrust Trump back into the national spotlight.",
+    "origin_story": "Trump's name has been surfacing frequently on Google as news outlets report on the latest twists and turns in the numerous probes targeting the former president and his associates.",
+    "expert_analysis": "This trend speaks to the enduring polarization in American politics, with Trump's supporters and critics continuing to engage in heated debates over his legacy and the legitimacy of the investigations. It also highlights the public's appetite for the latest updates on these high-stakes legal battles.",
+    "impact": "The intense media coverage and public fascination surrounding the Trump investigations have the potential to shape the political landscape and influence the national discourse in the months and years to come.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T00:02:13.018868+00:00",
+  "timestamp": "2026-02-08T05:41:55.680938+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:29.758917+00:00",
@@ -136,6 +136,10 @@
     },
     {
       "timestamp": "2026-02-08T00:02:13.018888+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:55.680952+00:00",
       "signal_score": 50
     }
   ]

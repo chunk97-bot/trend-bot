@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "170.9K",
-      "raw": 170901
+      "searches": "235.5K",
+      "raw": 235479
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Surges to Top of Google Search Trends Amid Political Controversy",
-    "summary": "The name 'Biden' has exploded in Google search traffic as the president finds himself embroiled in a range of political issues, from the ongoing classified documents saga to renewed scrutiny over his son Hunter's business dealings.",
-    "origin_story": "The spike in searches began following the revelation that classified government documents were discovered in Biden's private residence and former office, reigniting a political firestorm.",
-    "expert_analysis": "This trend reflects the public's enduring fascination with the Biden family and the president's ability to draw intense media attention, even when the news is unfavorable. It also highlights the influence of online search behavior as a real-time barometer of shifting political narratives.",
-    "impact": "The heightened search interest could shape public perception and drive the news cycle surrounding the Biden administration in the coming weeks.",
-    "status": "rising"
+    "headline": "Biden Surges Back Into the Spotlight Amid Renewed Interest",
+    "summary": "The name 'Biden' has seen a significant spike in Google searches, reflecting a renewed public interest in the president and his family amid various political developments and controversies.",
+    "origin_story": "The surge in Biden-related searches appears to have originated from recent news coverage and online discussions about the president, his son Hunter, and various political and legal matters.",
+    "expert_analysis": "This trend suggests an ongoing fascination with the Biden family and the political dynamics surrounding them. It reflects the public's continued engagement with high-profile figures and the desire to stay informed about the latest developments in the political landscape.",
+    "impact": "The heightened interest in Biden could have implications for public discourse, policy decisions, and the broader political landscape in the coming months.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T23:00:46.701934+00:00",
+  "timestamp": "2026-02-08T05:41:58.834713+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:55.200198+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T11:13:56.497559+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:46.701948+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:58.834728+00:00",
       "signal_score": 50
     }
   ]

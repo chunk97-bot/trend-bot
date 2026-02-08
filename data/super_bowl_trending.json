@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "260.4K",
-      "raw": 260374
+      "searches": "189.0K",
+      "raw": 188993
     },
     "x": {
       "posts": "0",
@@ -39,14 +39,14 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Mania Sweeps the Internet as Fans Gear Up for the Big Game",
-    "summary": "The Super Bowl, the annual championship game of the National Football League (NFL), has become a cultural phenomenon, capturing the attention of millions worldwide. As the big game approaches, the excitement is palpable, with fans eagerly searching for updates, predictions, and all things related to the highly anticipated event.",
-    "origin_story": "The Super Bowl's growing popularity can be traced back to its inception in 1967, when the AFL and NFL champions first faced off. Over the years, the game has evolved into a spectacle that transcends sports, encompassing halftime shows, commercials, and a sense of community that brings people together.",
-    "expert_analysis": "The surge in online interest reflects the Super Bowl's enduring appeal as a unifying cultural event. Beyond the game itself, fans are captivated by the pageantry, the star-studded halftime performances, and the highly anticipated commercials that have become an integral part of the experience. This trend highlights the power of the Super Bowl to captivate a global audience and spark conversations across social media platforms.",
-    "impact": "The Super Bowl's cultural significance extends far beyond the field, with the event generating billions in revenue and shaping popular culture.",
+    "headline": "Super Bowl Fever Sweeps the Internet as Game Day Approaches",
+    "summary": "As the biggest annual sporting event in the US, the Super Bowl has the internet buzzing with excitement. Fans and non-fans alike are searching for the latest updates, predictions, and rumors surrounding the big game.",
+    "origin_story": "The Super Bowl trend has been steadily building on Google as the championship game on February 12 draws near. Searches for terms like 'Super Bowl trending' and 'Super Bowl song' have spiked in the past week.",
+    "expert_analysis": "The enduring popularity of the Super Bowl reflects America's deep-rooted love of football and the cultural significance of this iconic event. The Super Bowl transcends sports, becoming a shared experience that brings together people from all walks of life to celebrate, socialize, and enjoy the spectacle.",
+    "impact": "The Super Bowl's viral trending status on Google underscores its status as a national obsession that captivates the attention of millions.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T23:00:51.796559+00:00",
+  "timestamp": "2026-02-08T05:42:02.940617+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T11:14:00.482771+00:00",
@@ -122,6 +122,10 @@
     },
     {
       "timestamp": "2026-02-07T23:00:51.796573+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:02.940632+00:00",
       "signal_score": 50
     }
   ]
