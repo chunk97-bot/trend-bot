@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "232.6K",
-      "raw": 232627
+      "searches": "129.2K",
+      "raw": 129179
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump's Latest Photo Sparks Renewed Fascination Across the Internet",
-    "summary": "A new photo of former President Donald Trump has captured the attention of Google users, as people search to understand the context and significance behind this latest viral image.",
-    "origin_story": "The photo, which has been widely shared on social media platforms, first emerged on various news and political websites, sparking a surge of online interest.",
-    "expert_analysis": "This trend reflects the ongoing public fascination with Trump's political legacy and the continued scrutiny of his actions and public persona. The virality of the image suggests a desire among many to stay informed and engaged with the former president's activities, even as he has left office.",
-    "impact": "The widespread interest in this photo could shape public discourse and influence the narrative around Trump's political future.",
+    "headline": "Former President Trump's Viral Photo Sparks Renewed Interest",
+    "summary": "A recent photo of former President Donald Trump has gone viral on Google, capturing public attention and sparking discussions about his political future and the current state of American politics.",
+    "origin_story": "The photo, which shows Trump posing with a group of individuals, began circulating widely on social media platforms and news outlets over the past week.",
+    "expert_analysis": "The surge in interest around this photo reflects the ongoing fascination and polarization surrounding Trump's political legacy. As he continues to be a prominent figure in the Republican party, any new images or updates related to the former president are likely to garner significant attention and debate.",
+    "impact": "This trend highlights the enduring influence of Trump's political brand and the public's keen interest in his activities, even after leaving office.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T15:54:57.908969+00:00",
+  "timestamp": "2026-02-08T17:02:49.742804+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:26.918171+00:00",
@@ -82,6 +82,10 @@
     },
     {
       "timestamp": "2026-02-08T15:54:57.908984+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:49.742820+00:00",
       "signal_score": 50
     }
   ]

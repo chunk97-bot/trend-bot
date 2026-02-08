@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "22.3K",
-      "reposts": "25.8K",
-      "raw_posts": 22330,
-      "raw_reposts": 25825
+      "posts": "75.7K",
+      "reposts": "17.0K",
+      "raw_posts": 75722,
+      "raw_reposts": 17021
     },
     "tiktok": {
-      "views": "460.1K",
-      "videos": "4.6K",
-      "raw_views": 460127
+      "views": "9.6M",
+      "videos": "47.7K",
+      "raw_views": 9601834
     },
     "instagram": {
       "posts": "0",
@@ -28,27 +28,23 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 65,
-  "momentum": "stable",
-  "lifecycle": "rising",
+  "signal_score": 100,
+  "momentum": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bizarre Hexadecimal Color Trend Takes Social Media by Storm",
-    "summary": "A mysterious hexadecimal color code, 681da8, has captivated users across social media platforms, with thousands of posts and videos featuring the enigmatic hue. The trend's rapid rise has left many wondering what's driving this peculiar online phenomenon.",
-    "origin_story": "The trend first gained traction on TikTok, where users began sharing videos showcasing the color and speculating about its significance.",
-    "expert_analysis": "This trend taps into the human fascination with decoding hidden meanings and finding patterns in the digital world. The anonymity and universality of a hexadecimal code lend an air of mystery, allowing users to project their own interpretations and narratives onto the trend.",
-    "impact": "As the trend continues to gain momentum, it highlights the power of social media to amplify and spread even the most obscure cultural phenomena.",
+    "headline": "Cryptic Hex Code Sparks Viral Scavenger Hunt Across Social Media",
+    "summary": "A mysterious 6-digit hex code, 681da8, has taken the internet by storm as users across TikTok and other platforms race to uncover its hidden meaning and origin. The surge in activity has generated millions of views and posts as the online community collaborates to solve this digital puzzle.",
+    "origin_story": "The trend appears to have started on TikTok, where users began sharing videos speculating about the significance of the hex code and encouraging others to participate in the search.",
+    "expert_analysis": "This viral craze taps into the human desire to uncover secrets and solve mysteries. In an age of information overload, the allure of a cryptic code sparking collective intrigue speaks to our yearning for a sense of community and shared discovery online. The trend also highlights the power of social media to rapidly amplify cultural phenomena that capture the public's imagination.",
+    "impact": "As the frenzy continues to build, this internet-fueled scavenger hunt has the potential to inspire creative collaborations, boost engagement across platforms, and perhaps even yield unexpected real-world revelations.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T15:54:25.707950+00:00",
+  "timestamp": "2026-02-08T17:02:18.444361+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T10:58:06.191983+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-07T11:45:10.522941+00:00",
       "signal_score": 75
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T15:54:25.707965+00:00",
       "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-08T17:02:18.444377+00:00",
+      "signal_score": 100
     }
   ]
 }

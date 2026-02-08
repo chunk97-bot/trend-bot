@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "292.4K",
-      "raw": 292382
+      "searches": "284.3K",
+      "raw": 284289
     },
     "x": {
       "posts": "0",
@@ -39,19 +39,15 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Hype Sweeps the Internet as Big Game Approaches",
-    "summary": "With the highly anticipated Super Bowl just around the corner, search interest in the annual sporting event has skyrocketed as fans eagerly anticipate the big game and all the excitement that surrounds it.",
-    "origin_story": "The surge in Super Bowl-related searches on Google reflects the growing public interest and excitement as the event draws near, with people seeking information about the game, teams, commercials, and more.",
-    "expert_analysis": "The intense interest in the Super Bowl showcases the enduring appeal of this iconic American sporting tradition, which has become a cultural phenomenon that transcends the boundaries of sports. The big game generates immense excitement and social engagement, capturing the imagination of millions of fans worldwide.",
-    "impact": "The widespread attention on the Super Bowl highlights the event's significant cultural and economic impact, with the game serving as a major platform for advertising, entertainment, and community engagement.",
-    "status": "viral"
+    "headline": "Super Bowl Fever Grips the Internet as Search Trends Soar",
+    "summary": "With the biggest sporting event of the year just around the corner, the internet is abuzz with anticipation and excitement for the Super Bowl. Google searches for the Super Bowl have skyrocketed, indicating that fans are eagerly searching for the latest news, predictions, and hype surrounding the game.",
+    "origin_story": "The Super Bowl's popularity as a cultural phenomenon has been steadily growing over the years, with fans flocking to social media and search engines to stay updated on the latest developments.",
+    "expert_analysis": "The surge in Super Bowl-related searches reflects the enduring appeal of this iconic event. The Super Bowl has become more than just a football game \u2013 it's a cultural touchstone that brings people together, fueling discussions about the teams, the halftime show, the commercials, and the overall spectacle of the event.",
+    "impact": "The intense interest in the Super Bowl is likely to translate into high viewership numbers and increased engagement on social media platforms, making it a prime opportunity for brands and advertisers to reach a massive audience.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T15:55:04.693902+00:00",
+  "timestamp": "2026-02-08T17:02:58.093236+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:33:18.489184+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T12:21:15.305097+00:00",
       "signal_score": 50
@@ -142,6 +138,10 @@
     },
     {
       "timestamp": "2026-02-08T15:55:04.693917+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:58.093252+00:00",
       "signal_score": 50
     }
   ]

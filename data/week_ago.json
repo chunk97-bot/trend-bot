@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "culture",
+  "category": "gaming",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "70.0K",
-      "reposts": "27.5K",
-      "raw_posts": 69992,
-      "raw_reposts": 27539
+      "posts": "104.3K",
+      "reposts": "11.2K",
+      "raw_posts": 104324,
+      "raw_reposts": 11228
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Unstoppable Rise of the Week Ago Trend: Capturing the Fleeting Moments of the Internet",
-    "summary": "A peculiar phenomenon has swept the internet, with users obsessively sharing and discussing content that is, well, a week old. This unexpected surge in interest has left many scratching their heads, but a deeper look reveals the complex psychology behind this quirky trend.",
-    "origin_story": "The 'Week Ago' trend first gained traction on various social media platforms, with users unearthing and amplifying content that had been posted seven days prior.",
-    "expert_analysis": "This trend speaks to our desire for nostalgia, our fascination with the ephemeral nature of internet culture, and our need to find meaning in the fleeting moments that captivate us. By revisiting content from a week ago, users are able to collectively reminisce and relive the internet's short-lived sensations, creating a sense of community and shared experience.",
-    "impact": "The 'Week Ago' trend has the potential to reshape how we engage with and consume online content, as users become increasingly attuned to the cyclical nature of internet trends.",
-    "status": "rising"
+    "headline": "Retro Gaming Craze Sweeps the Internet as Nostalgia Takes Over",
+    "summary": "A renewed interest in classic video games from the 80s and 90s has taken the internet by storm, with users sharing their love for old-school gaming systems and iconic titles across various social media platforms.",
+    "origin_story": "The trend started on x, where users began posting videos and photos of themselves playing vintage consoles like the Nintendo Entertainment System and Sega Genesis.",
+    "expert_analysis": "This trend reflects a growing desire among millennials and Gen Z to reconnect with the pop culture and technology of their childhood. As the world becomes increasingly digital and fast-paced, people are seeking a sense of comfort and familiarity in the gaming experiences that defined their formative years.",
+    "impact": "The surge in retro gaming interest has led to a resurgence in demand for classic consoles and games, with some vintage items selling for hundreds of dollars on the secondary market.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T14:59:32.834810+00:00",
+  "timestamp": "2026-02-08T17:02:29.055547+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:13:24.809563+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:47:15.087899+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T14:59:32.834825+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T17:02:29.055567+00:00",
       "signal_score": 55
     }
   ]

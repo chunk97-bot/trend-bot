@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "143.4K",
-      "raw": 143364
+      "searches": "146.9K",
+      "raw": 146865
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Music Takes the Internet by Storm",
-    "summary": "AI-powered music creation is captivating audiences worldwide, sparking a surge of interest in the innovative technology behind it. As more artists and fans explore the capabilities of AI-generated tunes, it's clear this trend is redefining the boundaries of musical expression.",
-    "origin_story": "The recent explosion of interest in AI-generated music can be traced back to the growing availability of user-friendly AI music creation tools and the increasingly high-quality outputs they produce.",
-    "expert_analysis": "This trend reflects the public's fascination with the transformative potential of AI technology. By empowering people to create unique musical compositions with ease, AI is democratizing the creative process and pushing the limits of what's possible in the world of music.",
-    "impact": "As AI music continues to gain mainstream attention, it could disrupt traditional music production and distribution, while also opening up new avenues for artistic experimentation and collaboration.",
+    "headline": "AI-Generated Songs Take the Internet by Storm",
+    "summary": "The ability to create music using artificial intelligence has captured the public's imagination, as AI-powered songs gain massive popularity online. This trend reflects the growing fascination with the creative potential of AI technology.",
+    "origin_story": "The recent surge in interest can be traced back to the release of tools like Mubert and Soundful, which allow users to generate original music by simply inputting a few parameters.",
+    "expert_analysis": "This trend speaks to our evolving relationship with technology and the blurring lines between human and machine creativity. As AI systems become more sophisticated, the public is eager to explore the artistic capabilities of these tools and the implications for the future of music.",
+    "impact": "The popularity of AI-generated songs could reshape the music industry, challenging traditional notions of authorship and originality.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T15:54:36.838775+00:00",
+  "timestamp": "2026-02-08T17:02:36.593868+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T07:57:22.486425+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T09:02:55.268645+00:00",
       "signal_score": 85
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T15:54:36.838788+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:36.593885+00:00",
       "signal_score": 50
     }
   ]

@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "233.9K",
-      "raw": 233919
+      "searches": "165.4K",
+      "raw": 165443
     },
     "x": {
       "posts": "0",
@@ -38,14 +38,14 @@
     "taylor swift trending"
   ],
   "analysis": {
-    "headline": "Taylor Swift's Latest Songs Dominate Google Searches Worldwide",
-    "summary": "Taylor Swift's recent music releases have sparked a surge of interest, with her new songs topping Google search trends globally. Fans are eagerly searching for information about her latest album and singles.",
-    "origin_story": "The spike in Google searches for Taylor Swift's songs began shortly after the release of her new album and singles, generating significant buzz online.",
-    "expert_analysis": "Taylor Swift's enduring popularity and the anticipation surrounding her new music demonstrate the power of the singer-songwriter's devoted fanbase. Her ability to consistently capture the public's attention reflects her cultural relevance and the way her music resonates with listeners worldwide.",
-    "impact": "The intense interest in Taylor Swift's latest offerings is likely to translate into strong album sales and streaming numbers, further cementing her status as one of the music industry's biggest stars.",
+    "headline": "Taylor Swift's Latest Tracks Dominate Google Searches",
+    "summary": "Taylor Swift's new songs have sparked a surge in Google searches, as fans eagerly explore the pop star's latest musical offerings. The intense interest reflects the singer's enduring popularity and the anticipation surrounding her new releases.",
+    "origin_story": "The uptick in Google searches began shortly after Swift unveiled her latest singles, driving widespread discussion and analysis across social media platforms.",
+    "expert_analysis": "Taylor Swift's ability to captivate her fanbase and generate widespread cultural conversations is a testament to her remarkable songwriting talent and her savvy understanding of the modern music landscape. This trend underscores the power of a single artist to dominate the public discourse and shape the cultural zeitgeist.",
+    "impact": "The sustained interest in Taylor Swift's new music is likely to translate into strong album sales and streaming numbers, solidifying her position as one of the most influential pop stars of the current era.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:00:40.522710+00:00",
+  "timestamp": "2026-02-08T17:03:05.185335+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T21:04:50.971929+00:00",
@@ -69,6 +69,10 @@
     },
     {
       "timestamp": "2026-02-08T11:00:40.522727+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:03:05.185352+00:00",
       "signal_score": 50
     }
   ]

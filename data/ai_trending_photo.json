@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "168.0K",
-      "raw": 168018
+      "searches": "100.5K",
+      "raw": 100511
     },
     "x": {
-      "posts": "166.3K",
-      "reposts": "1.9K",
-      "raw_posts": 166325,
-      "raw_reposts": 1878
+      "posts": "179.7K",
+      "reposts": "49.5K",
+      "raw_posts": 179721,
+      "raw_reposts": 49509
     },
     "tiktok": {
       "views": "0",
@@ -28,7 +28,7 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 90,
+  "signal_score": 100,
   "momentum": "rising",
   "lifecycle": "new",
   "locations": [
@@ -40,14 +40,14 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Images Spark Creativity and Controversy Online",
-    "summary": "The recent surge in interest around AI-powered image generation tools has captivated the internet. People are fascinated by the ability to create unique, dreamlike visuals with just a few lines of text as input.",
-    "origin_story": "The trend took off as more users gained access to platforms like DALL-E, Midjourney, and Stable Diffusion, which use advanced AI models to generate original images.",
-    "expert_analysis": "This trend reflects the public's curiosity about the capabilities and limitations of artificial intelligence. As these tools become more accessible, people are experimenting with the technology, sparking discussions around the nature of creativity, artistic expression, and the ethical implications of AI-generated content.",
-    "impact": "The widespread interest in AI-powered image generation has the potential to reshape industries like art, design, and marketing.",
-    "status": "viral"
+    "headline": "AI-Generated Portraits Take the Internet by Storm",
+    "summary": "AI-powered image generation tools are captivating the public, as people experiment with creating unique, artistic portraits. This trend reflects the public's fascination with the rapid advancements in AI technology and its creative potential.",
+    "origin_story": "The trend gained momentum as users shared their AI-generated portraits on platforms like Google and social media, showcasing the striking and often surreal results.",
+    "expert_analysis": "This trend taps into the public's curiosity about the capabilities of AI and its ability to produce visually compelling and imaginative artwork. It also highlights the growing accessibility of these technologies, which are enabling more people to explore their creative potential.",
+    "impact": "The popularity of AI-generated portraits could drive further innovation and exploration in the field of AI-powered art and design.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T15:54:18.074893+00:00",
+  "timestamp": "2026-02-08T17:02:14.492612+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:19.285980+00:00",
@@ -140,6 +140,10 @@
     {
       "timestamp": "2026-02-08T15:54:18.074914+00:00",
       "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T17:02:14.492639+00:00",
+      "signal_score": 100
     }
   ]
 }
