@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "284.6K",
-      "raw": 284616
+      "searches": "193.2K",
+      "raw": 193157
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl Betting Craze Sweeps the Nation as Legal Wagering Expands",
-    "summary": "As the Super Bowl approaches, bettors are flocking to legal sportsbooks across the U.S. to wager on the big game, driving a surge in online searches and betting activity.",
-    "origin_story": "The trend emerged as more states have legalized sports betting in recent years, making it easier for fans to place bets on the Super Bowl and other major sporting events.",
-    "expert_analysis": "This trend reflects the growing cultural acceptance and normalization of sports gambling in the U.S. It also highlights how the expansion of legal betting options is fueling increased public interest and participation.",
-    "impact": "The Super Bowl betting frenzy is poised to generate record-breaking handle for sportsbooks, underscoring the massive commercial potential of the legalized sports betting industry.",
+    "headline": "Super Bowl Betting Fever Grips the Nation Ahead of Big Game",
+    "summary": "With the Super Bowl just around the corner, Americans are flocking to online platforms to place their bets on the big game. The unprecedented interest in sports betting reflects the growing legalization and social acceptance of this once-taboo activity.",
+    "origin_story": "The surge in Super Bowl betting queries on Google coincides with the rapid expansion of legal sports betting across the United States in recent years.",
+    "expert_analysis": "The meteoric rise in Super Bowl betting reflects a fundamental shift in cultural attitudes towards gambling. Once seen as a vice, sports betting has become a mainstream form of entertainment, particularly among younger generations. This trend underscores the public's growing appetite for high-stakes thrills and the integration of gambling into the fabric of American sports culture.",
+    "impact": "The surge in Super Bowl betting is expected to generate billions in wagers and have a significant financial impact on the sports and gambling industries.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:48:34.020690+00:00",
+  "timestamp": "2026-02-08T14:59:57.567252+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T17:32:09.075722+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T19:50:42.713212+00:00",
       "signal_score": 50
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:34.020704+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T14:59:57.567268+00:00",
       "signal_score": 50
     }
   ]

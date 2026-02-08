@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "entertainment",
+  "category": "music",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "139.5K",
-      "reposts": "45.5K",
-      "raw_posts": 139496,
-      "raw_reposts": 45540
+      "posts": "101.1K",
+      "reposts": "17.4K",
+      "raw_posts": 101077,
+      "raw_reposts": 17391
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Nostalgia Wave: Why 'Yesterday' Is Dominating Social Media",
-    "summary": "The 2019 film 'Yesterday' has unexpectedly resurfaced on social media, sparking a wave of nostalgic discussion about the iconic music of The Beatles and the power of shared cultural experiences.",
-    "origin_story": "The film, which imagines a world where only one man remembers The Beatles, initially gained a cult following but has recently seen a resurgence in popularity on TikTok and Twitter.",
-    "expert_analysis": "This trend taps into our collective longing for simpler times and the unifying nature of music that transcends generations. The renewed interest in 'Yesterday' reflects a broader cultural craving for escapism and shared touchstones in an increasingly fragmented digital landscape.",
-    "impact": "The trend's virality suggests a widespread desire to reconnect with timeless art and the collective experiences that define our shared history.",
+    "headline": "Nostalgic Viral Trend Sweeps the Internet: 'Yesterday' Takes Over",
+    "summary": "The classic Beatles song 'Yesterday' has unexpectedly surged in popularity on social media, as users share personal memories and reflections triggered by the timeless track.",
+    "origin_story": "The trend appears to have started organically on TikTok, where users have been posting videos of themselves listening to 'Yesterday' and describing how the song resonates with them.",
+    "expert_analysis": "The sudden virality of 'Yesterday' reflects a broader cultural yearning for simpler times and the power of music to evoke profound emotions. In an age of constant technological change and uncertainty, people are turning to familiar, comforting sounds that provide a sense of stability and reminiscence.",
+    "impact": "This trend has the potential to introduce the classic song to a new generation of listeners and spark meaningful conversations about the role of nostalgia in our lives.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T13:58:41.809346+00:00",
+  "timestamp": "2026-02-08T14:59:28.654473+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:25:44.172834+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T15:05:59.027414+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T13:58:41.809363+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T14:59:28.654488+00:00",
       "signal_score": 55
     }
   ]

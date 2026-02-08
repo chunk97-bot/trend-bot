@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "181.6K",
-      "reposts": "24.3K",
-      "raw_posts": 181553,
-      "raw_reposts": 24329
+      "posts": "132.0K",
+      "reposts": "39.7K",
+      "raw_posts": 131995,
+      "raw_reposts": 39747
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Viral Nostalgia Fueling the 'Month Ago' Trend",
-    "summary": "Across social media, users are posting images and videos from exactly one month ago, sparking a wave of relatable nostalgia. This quirky trend taps into our innate desire to reflect on the recent past and find comfort in the familiar.",
-    "origin_story": "The trend seems to have started on TikTok, where users are stitching or duetting their own content from the previous month, showcasing how much has changed in their lives or the world.",
-    "expert_analysis": "The 'Month Ago' trend speaks to our collective need for grounding and perspective amidst the breakneck pace of modern life. In an era of constant change and uncertainty, revisiting our recent past offers a sense of stability and emotional connection that social media users are clearly craving.",
-    "impact": "As this trend continues to spread, it may inspire deeper introspection and self-awareness, as people take stock of their personal growth and the evolution of their circumstances.",
+    "headline": "Month-Old Trend Sparks Online Discourse on Self-Care and Connection",
+    "summary": "A month-old trend involving personal reflections and shared experiences has captured the attention of social media users, highlighting the ongoing desire for meaningful connection and self-care during challenging times.",
+    "origin_story": "The trend first gained traction on various social media platforms, as users began posting thoughtful captions and images related to personal growth and emotional well-being.",
+    "expert_analysis": "This trend reflects the growing emphasis on mental health and the importance of self-reflection in the digital age. It suggests a collective yearning for authentic expression and a sense of community, as people seek to navigate the complexities of modern life.",
+    "impact": "The trend's continued resonance underscores the widespread need for open dialogue and support around personal challenges, potentially inspiring more meaningful engagement and fostering a sense of empathy and understanding among online communities.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T13:58:49.653813+00:00",
+  "timestamp": "2026-02-08T14:59:36.157183+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T22:53:41.391338+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T23:54:00.305831+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T13:58:49.653828+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T14:59:36.157198+00:00",
       "signal_score": 55
     }
   ]

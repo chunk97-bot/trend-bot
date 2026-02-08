@@ -1,6 +1,6 @@
 {
   "trend": "Week Ago",
-  "category": "memes",
+  "category": "culture",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "65.4K",
-      "reposts": "17.7K",
-      "raw_posts": 65351,
-      "raw_reposts": 17682
+      "posts": "70.0K",
+      "reposts": "27.5K",
+      "raw_posts": 69992,
+      "raw_reposts": 27539
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "The Viral Resurgence of a Decade-Old Internet Meme",
-    "summary": "A nostalgic resurgence of a classic internet meme from the 2010s is sweeping social media, captivating a new generation of users and sparking waves of engagement and discussion.",
-    "origin_story": "The meme, which first went viral around a week ago, originated on various social media platforms as users rediscovered and shared the iconic image.",
-    "expert_analysis": "This trend taps into the enduring appeal of internet culture's shared touchstones, as users seek out familiar touchpoints and communal experiences in an ever-evolving digital landscape. The meme's resurgence also highlights the cyclical nature of online trends and the way certain cultural artifacts can transcend their original context to resonate with new audiences.",
-    "impact": "The renewed interest in this classic meme has the potential to spawn a wave of nostalgic content, as well as fostering a sense of shared experience and community among internet users.",
+    "headline": "The Unstoppable Rise of the Week Ago Trend: Capturing the Fleeting Moments of the Internet",
+    "summary": "A peculiar phenomenon has swept the internet, with users obsessively sharing and discussing content that is, well, a week old. This unexpected surge in interest has left many scratching their heads, but a deeper look reveals the complex psychology behind this quirky trend.",
+    "origin_story": "The 'Week Ago' trend first gained traction on various social media platforms, with users unearthing and amplifying content that had been posted seven days prior.",
+    "expert_analysis": "This trend speaks to our desire for nostalgia, our fascination with the ephemeral nature of internet culture, and our need to find meaning in the fleeting moments that captivate us. By revisiting content from a week ago, users are able to collectively reminisce and relive the internet's short-lived sensations, creating a sense of community and shared experience.",
+    "impact": "The 'Week Ago' trend has the potential to reshape how we engage with and consume online content, as users become increasingly attuned to the cyclical nature of internet trends.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T13:58:45.597501+00:00",
+  "timestamp": "2026-02-08T14:59:32.834810+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T11:08:23.526416+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-06T11:13:24.809563+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T13:58:45.597517+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T14:59:32.834825+00:00",
       "signal_score": 55
     }
   ]

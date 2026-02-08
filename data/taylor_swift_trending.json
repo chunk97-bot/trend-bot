@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "280.3K",
-      "raw": 280324
+      "searches": "205.4K",
+      "raw": 205371
     },
     "x": {
       "posts": "0",
@@ -41,14 +41,14 @@
     "taylor swift trending song on tiktok"
   ],
   "analysis": {
-    "headline": "Taylor Swift Reenters Charts, Captivating Fans with New Music",
-    "summary": "Taylor Swift's latest songs have surged in popularity on Google, as the music icon's devoted fanbase eagerly embraces her newest releases and anticipates her next big move.",
-    "origin_story": "The spike in searches for 'taylor swift trending' and related terms began with the recent launch of Swift's latest singles, driving a wave of renewed interest in the singer-songwriter's work.",
-    "expert_analysis": "Swift's ability to consistently capture the public's attention speaks to her enduring cultural relevance and the deep connection she has forged with her fanbase. This trend highlights the power of Swift's artistry to captivate audiences and drive music industry conversations.",
-    "impact": "The surge in Taylor Swift's online presence is likely to translate into strong sales and streaming performance for her new music, further cementing her status as a global superstar.",
+    "headline": "Taylor Swift's Surprise Album Sparks Global Frenzy on Google",
+    "summary": "Taylor Swift has stunned fans by unexpectedly releasing her 10th studio album, sending internet searches skyrocketing as listeners scramble to discover the new music.",
+    "origin_story": "The surprise album drop occurred on October 21st, with Swift announcing the release on her social media channels, instantly igniting a viral online conversation.",
+    "expert_analysis": "Taylor Swift's ability to generate massive cultural moments through strategic album releases has solidified her status as a true pop icon. This latest trend showcases her unparalleled influence and the intense devotion of her fanbase, who eagerly consume any new content she provides.",
+    "impact": "The surge in Google searches indicates that Swift's new album is poised to dominate the music landscape in the coming weeks and months.",
     "status": "viral"
   },
-  "timestamp": "2026-02-07T23:01:01.678660+00:00",
+  "timestamp": "2026-02-08T15:00:08.500618+00:00",
   "history": [
     {
       "timestamp": "2026-02-07T14:58:20.756937+00:00",
@@ -72,6 +72,10 @@
     },
     {
       "timestamp": "2026-02-07T23:01:01.678674+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:00:08.500632+00:00",
       "signal_score": 50
     }
   ]

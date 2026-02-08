@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "264.5K",
-      "raw": 264541
+      "searches": "149.4K",
+      "raw": 149432
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "joe biden trending news"
   ],
   "analysis": {
-    "headline": "Biden Trending on Google Amid Ongoing Political Scrutiny",
-    "summary": "Former Vice President Joe Biden is trending on Google, likely due to the continued public focus on his son Hunter Biden's business dealings and the president's impeachment trial.",
-    "origin_story": "The search interest in 'Biden' spiked on Google, likely stemming from the ongoing impeachment proceedings and renewed attention on the Biden family's ties to Ukraine.",
-    "expert_analysis": "This trend reflects the polarized political climate in the United States, where Biden's name has become a lightning rod for partisan debate. The public's fascination with the Biden family's alleged misconduct speaks to the broader mistrust in government and the desire for transparency in the political process.",
-    "impact": "The sustained interest in Biden could shape public opinion and potentially influence the upcoming 2020 presidential election.",
+    "headline": "Biden Dominates Online Chatter as Midterms Loom",
+    "summary": "President Joe Biden's name has surged to the top of Google's trending searches, reflecting the growing public interest in his administration as the crucial 2022 midterm elections approach.",
+    "origin_story": "The spike in Biden-related searches began after the president's recent high-profile speeches and policy announcements, which have sparked widespread discussion across social media platforms.",
+    "expert_analysis": "The heightened online interest in Biden suggests that the public is closely following the president's actions and statements, particularly in the context of the upcoming midterm elections. This trend underscores the significant role that the Biden administration's policies and rhetoric are playing in shaping the national discourse.",
+    "impact": "The sustained attention on Biden could influence voter sentiment and turnout in the midterms, potentially impacting the balance of power in Congress.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T11:48:26.566650+00:00",
+  "timestamp": "2026-02-08T14:59:54.295422+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T12:21:11.194960+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T12:26:41.361400+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:26.566666+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T14:59:54.295437+00:00",
       "signal_score": 50
     }
   ]

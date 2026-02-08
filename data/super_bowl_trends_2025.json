@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "238.9K",
-      "raw": 238854
+      "searches": "158.2K",
+      "raw": 158168
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "2025 Super Bowl Trends Grip the Internet as Fans Gear Up",
-    "summary": "As the countdown to the 2025 Super Bowl begins, the internet is abuzz with excitement, with Google searches for the big game spiking to unprecedented levels. Fans are eagerly anticipating the matchup and all the cultural moments that come with it.",
-    "origin_story": "The surge in Super Bowl-related searches likely stems from the growing hype and speculation around the event, which is widely considered one of the biggest annual sporting and cultural events in the world.",
-    "expert_analysis": "This trend underscores the enduring appeal of the Super Bowl, which has become a true cultural phenomenon far beyond just the game itself. Fans are increasingly invested in every aspect of the event, from the halftime show to the commercials, making the Super Bowl a must-see event for millions around the globe.",
-    "impact": "The intense online interest in the 2025 Super Bowl is a testament to the event's ability to captivate and unite audiences, transcending the boundaries of sports and becoming a global cultural touchstone.",
+    "headline": "The Big Game's Surprising 2025 Trends Reveal a Shift in Viewer Priorities",
+    "summary": "As the world's biggest sporting event, the Super Bowl has always been a cultural phenomenon. But this year's trends show that fans are increasingly interested in aspects beyond just the game itself, signaling a shift in how viewers engage with the spectacle.",
+    "origin_story": "Google search data indicates that queries around the Super Bowl in 2025 have spiked, with people looking for information on everything from the halftime show to the latest AR/VR integrations.",
+    "expert_analysis": "This trend suggests that viewers are seeking a more immersive, multifaceted Super Bowl experience. They're not just tuning in for the final score, but want to be entertained, connected, and informed throughout the event.",
+    "impact": "As the Super Bowl remains a cultural juggernaut, these shifting viewer priorities will likely influence how networks, brands, and the NFL itself approach the broadcast and surrounding events in the years to come.",
     "status": "rising"
   },
-  "timestamp": "2026-02-08T11:48:37.688248+00:00",
+  "timestamp": "2026-02-08T15:00:01.886968+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -122,6 +122,10 @@
     },
     {
       "timestamp": "2026-02-08T11:48:37.688264+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:00:01.886984+00:00",
       "signal_score": 50
     }
   ]
