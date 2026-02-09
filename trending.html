@@ -3,7 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trending Now</title>
+  <title>Trending Now | Trend Radar</title>
+  <meta name="description" content="Real-time trending topics from across the internet. AI-powered analysis of what's viral on TikTok, X, Instagram, and more." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="🔥 Trending Now | Trend Radar" />
+  <meta property="og:description" content="Real-time trending topics from across the internet. AI-powered analysis of what's viral on TikTok, X, Instagram, and more." />
+  <meta property="og:image" content="assets/social-preview.png" />
+  <meta property="og:url" content="https://trendradar.app/trending.html" />
+  <meta property="og:site_name" content="Trend Radar" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="🔥 Trending Now | Trend Radar" />
+  <meta name="twitter:description" content="Real-time trending topics from across the internet. AI-powered analysis of what's viral." />
+  <meta name="twitter:image" content="assets/social-preview.png" />
+  <meta name="twitter:site" content="@TrendRadar" />
+  
+  <!-- Additional SEO -->
+  <meta name="keywords" content="trending, viral, trends, TikTok, Twitter, X, Instagram, memes, news, real-time" />
+  <meta name="author" content="Trend Radar" />
+  <meta name="theme-color" content="#6c5ce7" />
+  
   <link rel="stylesheet" href="style.css" />
   <script src="theme.js"></script>
 </head>
@@ -84,6 +106,27 @@
     </select>
   </div>
   <div class="toolbar-actions">
+    <!-- Regional Filter Dropdown -->
+    <div class="region-filter-wrapper">
+      <button class="toolbar-btn" id="region-filter-btn">
+        🌍 <span id="region-filter-label">Global</span>
+      </button>
+      <div class="region-filter-dropdown" id="region-filter-dropdown">
+        <div class="region-dropdown-header">
+          <span>🌍 Filter by Region</span>
+        </div>
+        <div class="region-options">
+          <button class="region-option active" data-region="global">🌐 Global</button>
+          <button class="region-option" data-region="us">🇺🇸 United States</button>
+          <button class="region-option" data-region="uk">🇬🇧 United Kingdom</button>
+          <button class="region-option" data-region="eu">🇪🇺 Europe</button>
+          <button class="region-option" data-region="asia">🌏 Asia</button>
+          <button class="region-option" data-region="latam">🌎 Latin America</button>
+          <button class="region-option" data-region="africa">🌍 Africa</button>
+          <button class="region-option" data-region="oceania">🦘 Oceania</button>
+        </div>
+      </div>
+    </div>
     <!-- Date Filter Dropdown -->
     <div class="date-filter-wrapper">
       <button class="toolbar-btn" id="date-filter-btn">

@@ -26,5 +26,11 @@
     "token_relevant": false
   },
   "token": null,
-  "timestamp": "2026-02-04T11:44:52.612155"
+  "timestamp": "2026-02-04T11:44:52.612155",
+  "image": {
+    "url": "https://images.unsplash.com/photo-1526797072-6f5b4aec8421?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxwaG90b3N5bnRoZXNpc3xlbnwwfDB8fHwxNzcwNDY2ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1526797072-6f5b4aec8421?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxwaG90b3N5bnRoZXNpc3xlbnwwfDB8fHwxNzcwNDY2ODM5fDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Kumiko SHIMIZU",
+    "credit_link": "https://unsplash.com/@shimikumi32"
+  }
 }

@@ -14,11 +14,15 @@ import time
 import re
 from urllib.parse import quote
 from pytrends.request import TrendReq
+import feedparser
 
 # ================= CONFIG =================
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 CLAUDE_MODEL = "claude-3-haiku-20240307"
+
+# Unsplash API for images
+UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY")
 
 DATA_DIR = "data"
 TRACK_FILE = "tracked_trends.json"
@@ -96,34 +100,32 @@ SEED_TOPICS = [
 # ================= GOOGLE TRENDS SCRAPING =================
 
 def scrape_google_trends_global():
-    """Get trending searches from multiple countries"""
+    """Get trending searches from multiple countries with retry logic"""
     print("   📊 Scraping Google Trends...")
     all_trends = {}
-    
-    # Try pytrends first
-    for location in GLOBAL_LOCATIONS[:3]:  # Limit to 3 locations per run
-        try:
-            pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
-            df = pytrends.trending_searches(pn=location)
-            trends = df[0].tolist()[:20]
-            
-            for trend in trends:
-                normalized = normalize_trend(trend)
-                if normalized not in all_trends:
-                    all_trends[normalized] = {
-                        "name": trend,
-                        "platforms": {"google": True},
-                        "metrics": {"google_searches": random.randint(50000, 500000)},
-                        "locations": [location]
-                    }
-                else:
-                    all_trends[normalized]["locations"].append(location)
-                    
-            print(f"      ✓ {location}: {len(trends)} trends")
-            random_delay()
-        except Exception as e:
-            print(f"      ✗ {location}: {e}")
-    
+    for location in GLOBAL_LOCATIONS[:3]:
+        for attempt in range(3):
+            try:
+                pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
+                df = pytrends.trending_searches(pn=location)
+                trends = df[0].tolist()[:20]
+                for trend in trends:
+                    normalized = normalize_trend(trend)
+                    if normalized not in all_trends:
+                        all_trends[normalized] = {
+                            "name": trend,
+                            "platforms": {"google": True},
+                            "metrics": {"google_searches": random.randint(50000, 500000)},
+                            "locations": [location]
+                        }
+                    else:
+                        all_trends[normalized]["locations"].append(location)
+                print(f"      ✓ {location}: {len(trends)} trends")
+                random_delay()
+                break
+            except Exception as e:
+                print(f"      ✗ {location} (attempt {attempt+1}): {e}")
+                time.sleep(2)
     return all_trends
 
 def get_google_realtime_trends():
@@ -334,162 +336,50 @@ def scrape_x_trends():
 # ================= TIKTOK SCRAPING =================
 
 def scrape_tiktok_trends():
-    """Scrape trending topics from TikTok"""
-    print("   🎵 Scraping TikTok trends...")
-    trends = {}
-    
-    headers = {
-        **get_headers(),
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "https://www.tiktok.com/"
-    }
-    
-    # Try TikTok's public creative center for trends
-    try:
-        response = requests.get(
-            "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
-            headers=headers,
-            timeout=15
-        )
-        
-        if response.status_code == 200:
-            # Extract hashtags from page
-            hashtags = re.findall(r'#(\w+)', response.text)
-            for tag in set(hashtags[:25]):
-                if len(tag) > 2:
-                    normalized = normalize_trend(tag)
-                    trends[normalized] = {
-                        "name": f"#{tag}",
-                        "platforms": {"tiktok": True},
-                        "metrics": {
-                            "tiktok_views": random.randint(1000000, 100000000),
-                            "tiktok_videos": random.randint(10000, 500000)
-                        },
-                        "locations": ["global"]
-                    }
-            print(f"      ✓ Creative Center: {len(hashtags[:25])} hashtags")
-    except Exception as e:
-        print(f"      ✗ Creative Center: {e}")
-    
-    # Alternative: Scrape from TikTok trend aggregators
-    try:
-        response = requests.get(
-            "https://tokboard.com/",
-            headers=get_headers(),
-            timeout=15
-        )
-        if response.status_code == 200:
-            hashtags = re.findall(r'#(\w{3,30})', response.text)
-            for tag in set(hashtags[:20]):
-                normalized = normalize_trend(tag)
-                if normalized not in trends:
-                    trends[normalized] = {
-                        "name": f"#{tag}",
-                        "platforms": {"tiktok": True},
-                        "metrics": {
-                            "tiktok_views": random.randint(500000, 50000000),
-                            "tiktok_videos": random.randint(5000, 200000)
-                        },
-                        "locations": ["global"]
-                    }
-            print(f"      ✓ Tokboard: found hashtags")
-    except Exception as e:
-        print(f"      ✗ Tokboard: {e}")
-    
-    # Fallback: Use Google to find TikTok trends
-    try:
-        response = requests.get(
-            "https://www.google.com/search?q=tiktok+trending+hashtags+today",
-            headers=get_headers(),
-            timeout=10
-        )
-        if response.status_code == 200:
-            hashtags = re.findall(r'#(\w+)', response.text)
-            for tag in set(hashtags[:15]):
-                if len(tag) > 3:
-                    normalized = normalize_trend(tag)
-                    if normalized not in trends:
-                        trends[normalized] = {
-                            "name": f"#{tag}",
-                            "platforms": {"tiktok": True},
-                            "metrics": {
-                                "tiktok_views": random.randint(100000, 10000000),
-                                "tiktok_videos": random.randint(1000, 50000)
-                            },
-                            "locations": ["global"]
-                        }
-    except:
-        pass
-    
-    print(f"      Total TikTok trends: {len(trends)}")
-    return trends
+    # TikTok scraping removed (no free reliable source)
+    return {}
 
 # ================= INSTAGRAM SCRAPING =================
 
 def scrape_instagram_trends():
-    """Scrape trending topics from Instagram"""
-    print("   📸 Scraping Instagram trends...")
+    # Instagram scraping removed (no free reliable source)
+    return {}
+
+# ================= RSS NEWS SCRAPING =================
+
+NEWS_FEEDS = [
+    "http://feeds.bbci.co.uk/news/rss.xml",
+    "http://rss.cnn.com/rss/edition.rss",
+    "https://feeds.reuters.com/reuters/topNews",
+    "https://www.npr.org/rss/rss.php?id=1001",
+    "https://www.theguardian.com/world/rss"
+]
+
+def scrape_news_trends():
+    """Scrape trending topics from major news RSS feeds"""
+    print("   📰 Scraping news RSS feeds...")
     trends = {}
-    
-    # Instagram is hard to scrape without auth, use aggregators
-    aggregator_urls = [
-        "https://best-hashtags.com/",
-        "https://top-hashtags.com/instagram/"
-    ]
-    
-    for url in aggregator_urls:
+    for url in NEWS_FEEDS:
         try:
-            response = requests.get(url, headers=get_headers(), timeout=15)
-            if response.status_code == 200:
-                hashtags = re.findall(r'#(\w{3,30})', response.text)
-                for tag in set(hashtags[:30]):
-                    normalized = normalize_trend(tag)
-                    if normalized not in trends:
-                        trends[normalized] = {
-                            "name": f"#{tag}",
-                            "platforms": {"instagram": True},
-                            "metrics": {
-                                "instagram_posts": random.randint(100000, 10000000),
-                                "instagram_reach": random.randint(500000, 50000000)
-                            },
-                            "locations": ["global"]
-                        }
-                print(f"      ✓ {url.split('/')[2]}: {len(hashtags[:30])} hashtags")
-                break
+            feed = feedparser.parse(url)
+            for entry in feed.entries[:10]:
+                title = entry.title
+                normalized = normalize_trend(title)
+                if normalized not in trends:
+                    trends[normalized] = {
+                        "name": title,
+                        "platforms": {"news": True},
+                        "metrics": {"news_mentions": 1},
+                        "locations": ["global"]
+                    }
         except Exception as e:
-            print(f"      ✗ {url}: {e}")
-    
-    # Use Google to find Instagram trends
-    try:
-        response = requests.get(
-            "https://www.google.com/search?q=instagram+trending+hashtags+today",
-            headers=get_headers(),
-            timeout=10
-        )
-        if response.status_code == 200:
-            hashtags = re.findall(r'#?(\w{4,25})', response.text)
-            for tag in set(hashtags[:20]):
-                if tag.lower() not in ['instagram', 'hashtags', 'trending', 'today', 'best']:
-                    normalized = normalize_trend(tag)
-                    if normalized not in trends:
-                        trends[normalized] = {
-                            "name": f"#{tag}",
-                            "platforms": {"instagram": True},
-                            "metrics": {
-                                "instagram_posts": random.randint(50000, 5000000),
-                                "instagram_reach": random.randint(100000, 20000000)
-                            },
-                            "locations": ["global"]
-                        }
-    except:
-        pass
-    
-    print(f"      Total Instagram trends: {len(trends)}")
+            print(f"      ✗ RSS {url}: {e}")
+    print(f"      Total news trends: {len(trends)}")
     return trends
 
 # ================= TREND AGGREGATION =================
 
-def merge_trends(google, x, tiktok, instagram, reddit=None):
+def merge_trends(google, x, reddit, news):
     """Merge trends from all platforms, keeping those on 1+ platforms"""
     print("\n🔄 Merging and deduplicating trends...")
     
@@ -499,12 +389,9 @@ def merge_trends(google, x, tiktok, instagram, reddit=None):
     all_sources = [
         (google, "google"),
         (x, "x"), 
-        (tiktok, "tiktok"),
-        (instagram, "instagram")
+        (reddit, "reddit"),
+        (news, "news")
     ]
-    
-    if reddit:
-        all_sources.append((reddit, "reddit"))
     
     for trends_dict, platform in all_sources:
         for normalized, data in trends_dict.items():
@@ -586,6 +473,46 @@ def calculate_trend_score(data):
     score += min(len(set(locations)) * 5, 25)
     
     return min(score, 100)
+
+# ================= UNSPLASH IMAGE INTEGRATION =================
+
+def fetch_unsplash_image(query):
+    """Fetch a relevant image from Unsplash based on trend keywords"""
+    if not UNSPLASH_ACCESS_KEY:
+        print("      (No Unsplash key - skipping image)")
+        return None
+    
+    try:
+        # Clean and simplify the query for better results
+        search_query = re.sub(r'[^a-zA-Z0-9 ]', '', query)[:50]
+        
+        response = requests.get(
+            "https://api.unsplash.com/search/photos",
+            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
+            params={
+                "query": search_query,
+                "per_page": 1,
+                "orientation": "landscape"
+            },
+            timeout=10
+        )
+        
+        if response.status_code == 200:
+            data = response.json()
+            if data.get("results"):
+                photo = data["results"][0]
+                return {
+                    "url": photo["urls"]["regular"],
+                    "thumb": photo["urls"]["small"],
+                    "credit": photo["user"]["name"],
+                    "credit_link": photo["user"]["links"]["html"]
+                }
+        else:
+            print(f"      Unsplash error: {response.status_code}")
+    except Exception as e:
+        print(f"      Unsplash error: {e}")
+    
+    return None
 
 # ================= CLAUDE AI INTEGRATION =================
 
@@ -700,6 +627,25 @@ def generate_post_html(trend_name, trend_data):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{headline} | Trend Radar</title>
+  <meta name="description" content="{summary[:160]}..." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{headline}" />
+  <meta property="og:description" content="{summary[:160]}..." />
+  <meta property="og:image" content="../assets/social-preview.png" />
+  <meta property="og:url" content="https://trendradar.app/posts/{post_name}.html" />
+  <meta property="og:site_name" content="Trend Radar" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{headline}" />
+  <meta name="twitter:description" content="{summary[:160]}..." />
+  <meta name="twitter:image" content="../assets/social-preview.png" />
+  <meta name="twitter:site" content="@TrendRadar" />
+  
+  <meta name="theme-color" content="#6c5ce7" />
+  
   <link rel="stylesheet" href="../style.css">
   <script>
     // Apply saved theme
@@ -806,105 +752,54 @@ def generate_post_html(trend_name, trend_data):
 
 def main():
     print("=" * 60)
-    print("🔮 TREND RADAR - Multi-Platform Trend Aggregator")
-    print(f"   Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"🔮 TREND RADAR - Multi-Platform Trend Aggregator\n   Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
-    
-    # Step 1: Scrape trends from all platforms (X first for priority)
+
+    # PHASE 1: Scrape all sources
     print("\n📡 PHASE 1: Scraping platforms...")
-    
-    # X/Twitter first - primary source
-    x_trends = scrape_x_trends()
-    
-    random_delay()
     google_trends = scrape_google_trends_global()
-    google_realtime = get_google_realtime_trends()
-    google_trends.update(google_realtime)
-    
-    random_delay()
-    tiktok_trends = scrape_tiktok_trends()
-    
-    random_delay()
-    instagram_trends = scrape_instagram_trends()
-    
-    random_delay()
+    x_trends = scrape_x_trends()
     reddit_trends = scrape_reddit_trends()
-    
-    # Step 2: Merge and filter trends
-    print("\n🔄 PHASE 2: Processing trends...")
-    merged = merge_trends(google_trends, x_trends, tiktok_trends, instagram_trends, reddit_trends)
-    
-    if not merged:
-        print("❌ No trends found. Using fallback...")
-        # Create some fallback trends from all sources combined
-        all_fallback = {**google_trends, **x_trends, **tiktok_trends, **instagram_trends, **reddit_trends}
-        merged = {k: v for k, v in list(all_fallback.items())[:15]}
-        for data in merged.values():
-            data["platform_count"] = 1
-    
-    # Group related trends
+    news_trends = scrape_news_trends()
+
+    # PHASE 2: Merge and deduplicate
+    merged = merge_trends(google_trends, x_trends, reddit_trends, news_trends)
+    print(f"\n   ✓ {len(merged)} merged trends")
+
+    # PHASE 3: Group related trends
     grouped = group_related_trends(merged)
-    
-    # Calculate scores and sort
-    for normalized, data in grouped.items():
+
+    # PHASE 4: Score and select top trends
+    for norm, data in grouped.items():
         data["signal_score"] = calculate_trend_score(data)
-    
-    # Sort by score and take top trends
     sorted_trends = sorted(
-        grouped.items(), 
-        key=lambda x: x[1]["signal_score"], 
+        grouped.items(),
+        key=lambda x: x[1]["signal_score"],
         reverse=True
     )[:MAX_TRENDS_PER_RUN]
-    
     print(f"   ✓ Selected top {len(sorted_trends)} trends")
-    
-    # Step 3: Generate news content for each trend
-    print("\n📰 PHASE 3: Generating news content...")
+
+    # PHASE 5: Generate news content for each trend
+    print("\n📰 PHASE 5: Generating news content...")
     if not CLAUDE_API_KEY:
         print("   ⚠️ CLAUDE_API_KEY not set - using fallback content")
-    
+
     final_trends = []
-    
     for i, (normalized, data) in enumerate(sorted_trends, 1):
         trend_name = data["name"].replace("#", "").strip()
         print(f"   [{i}/{len(sorted_trends)}] Processing: {trend_name}...", end=" ")
-        
-        # Generate news content
         news = generate_trend_news(
             trend_name,
             data["platforms"],
             data["metrics"],
             data.get("related", [])
         )
-        
-        # Build final trend object
         trend_data = {
             "trend": trend_name,
             "category": news.get("category", "entertainment"),
             "platforms": data["platforms"],
             "platform_count": data["platform_count"],
-            "metrics": {
-                "google": {
-                    "searches": format_number(data["metrics"].get("google_searches", 0)),
-                    "raw": data["metrics"].get("google_searches", 0)
-                },
-                "x": {
-                    "posts": format_number(data["metrics"].get("x_posts", 0)),
-                    "reposts": format_number(data["metrics"].get("x_reposts", 0)),
-                    "raw_posts": data["metrics"].get("x_posts", 0),
-                    "raw_reposts": data["metrics"].get("x_reposts", 0)
-                },
-                "tiktok": {
-                    "views": format_number(data["metrics"].get("tiktok_views", 0)),
-                    "videos": format_number(data["metrics"].get("tiktok_videos", 0)),
-                    "raw_views": data["metrics"].get("tiktok_views", 0)
-                },
-                "instagram": {
-                    "posts": format_number(data["metrics"].get("instagram_posts", 0)),
-                    "reach": format_number(data["metrics"].get("instagram_reach", 0)),
-                    "raw_posts": data["metrics"].get("instagram_posts", 0)
-                }
-            },
+            "metrics": data["metrics"],
             "signal_score": data["signal_score"],
             "momentum": "rising" if data["signal_score"] > 70 else "stable",
             "lifecycle": "new" if data["signal_score"] >= 80 else ("rising" if data["signal_score"] >= 60 else ("peak" if data["signal_score"] >= 40 else "declining")),
@@ -924,12 +819,8 @@ def main():
                 "signal_score": data["signal_score"]
             }]
         }
-        
-        # Save to file
         filename = safe_name(trend_name)
         filepath = f"{DATA_DIR}/{filename}.json"
-        
-        # Preserve history if file exists
         if os.path.exists(filepath):
             try:
                 with open(filepath) as f:
@@ -938,25 +829,19 @@ def main():
                     trend_data["history"] = (old_history + trend_data["history"])[-24:]
             except:
                 pass
-        
         with open(filepath, "w") as f:
             json.dump(trend_data, f, indent=2)
-        
-        # Generate post HTML page
         post_name = generate_post_html(trend_name, trend_data)
-        
         final_trends.append(filename)
         print(f"✓ (score: {data['signal_score']})")
-        
         random_delay()
-    
-    # Update index file
+    # Update index file with ALL trend files (not just new ones)
+    all_trend_files = [f for f in sorted(os.listdir(DATA_DIR)) if f.endswith('.json') and f != 'index.json']
     with open(f"{DATA_DIR}/index.json", "w") as f:
-        json.dump({"files": [f"{t}.json" for t in final_trends]}, f, indent=2)
-    
-    # Summary
+        json.dump({"files": all_trend_files}, f, indent=2)
     print("\n" + "=" * 60)
-    print(f"✅ COMPLETE! Generated {len(final_trends)} trend reports + posts")
+    print(f"✅ COMPLETE! Generated {len(final_trends)} new trend reports")
+    print(f"   Total trends in index: {len(all_trend_files)}")
     print(f"   Index updated: {DATA_DIR}/index.json")
     print(f"   Posts updated: {POSTS_DIR}/")
     print("=" * 60)

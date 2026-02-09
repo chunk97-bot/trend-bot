@@ -580,9 +580,6 @@ function renderTrend(t, index = 0) {
   // Mark as seen
   markTrendAsSeen(t.trend);
 
-  // Images disabled - can be re-enabled later with Picsum, Unsplash, or DALL-E
-  const imageHtml = '';
-
   card.innerHTML = `
     <div class="card-header">
       <span class="category-tag">${categoryIcon} ${t.category || 'other'}</span>
@@ -593,8 +590,6 @@ function renderTrend(t, index = 0) {
         </div>
       </div>
     </div>
-
-    ${imageHtml}
 
     <div class="card-meta">
       ${trendTimestamp ? `<span class="post-timestamp">🕐 ${formatPostDate(trendTimestamp)}</span>` : ''}
@@ -631,13 +626,6 @@ function renderTrend(t, index = 0) {
           <span>📍 Started on: ${getOriginPlatform(t)}</span>
         </div>
       </div>
-    </div>
-
-    <div class="popularity-meter" title="Popularity: ${t.signal_score}%">
-      <div class="meter-bar">
-        <div class="meter-fill" style="width: ${Math.min(100, t.signal_score)}%; background: ${t.signal_score >= 70 ? '#10b981' : t.signal_score >= 40 ? '#f59e0b' : '#ef4444'}"></div>
-      </div>
-      <span class="meter-value">${t.signal_score}%</span>
     </div>
 
     <div class="metrics">
@@ -1073,6 +1061,13 @@ loadTrends().then(() => {
 // Update live viewers every 5 seconds
 setInterval(updateLiveViewers, 5000);
 
+// Auto-refresh trends every 15 minutes to check for new data
+setInterval(async () => {
+  console.log('Auto-refreshing trends...');
+  await loadTrends();
+  showToast('Trends refreshed');
+}, 15 * 60 * 1000);
+
 // Add highlight pulse animation
 const style = document.createElement('style');
 style.textContent = `
@@ -1395,4 +1390,111 @@ function renderFilteredTrends(filteredTrends) {
 // Initialize date filter when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   initDateFilter();
+  initRegionFilter();
 });
+
+// ========== REGIONAL FILTER ==========
+let currentRegion = 'global';
+
+// Region keywords to detect region from trend content
+const regionKeywords = {
+  us: ['america', 'american', 'usa', 'united states', 'biden', 'trump', 'congress', 'senate', 'nfl', 'nba', 'super bowl', 'washington', 'new york', 'california', 'texas', 'hollywood', 'silicon valley', 'wall street'],
+  uk: ['britain', 'british', 'uk', 'united kingdom', 'england', 'london', 'parliament', 'premier league', 'bbc', 'royal', 'king charles', 'westminster'],
+  eu: ['europe', 'european', 'eu', 'germany', 'france', 'spain', 'italy', 'berlin', 'paris', 'brussels', 'euro', 'bundesliga', 'la liga', 'serie a'],
+  asia: ['asia', 'asian', 'china', 'chinese', 'japan', 'japanese', 'korea', 'korean', 'india', 'indian', 'beijing', 'tokyo', 'anime', 'k-pop', 'bollywood', 'samsung', 'sony', 'huawei'],
+  latam: ['latin america', 'brazil', 'brazilian', 'mexico', 'mexican', 'argentina', 'colombian', 'latin', 'south america', 'caribbean'],
+  africa: ['africa', 'african', 'nigeria', 'south africa', 'kenya', 'egypt', 'morocco'],
+  oceania: ['australia', 'australian', 'new zealand', 'oceania', 'sydney', 'melbourne', 'afl']
+};
+
+function detectTrendRegion(trend) {
+  const text = `${trend.trend} ${trend.analysis?.analysis || ''} ${trend.analysis?.summary || ''}`.toLowerCase();
+  
+  for (const [region, keywords] of Object.entries(regionKeywords)) {
+    for (const keyword of keywords) {
+      if (text.includes(keyword)) {
+        return region;
+      }
+    }
+  }
+  return 'global'; // Default to global if no region detected
+}
+
+function initRegionFilter() {
+  const filterBtn = document.getElementById('region-filter-btn');
+  const dropdown = document.getElementById('region-filter-dropdown');
+  const regionOptions = document.querySelectorAll('.region-option');
+  const filterLabel = document.getElementById('region-filter-label');
+  
+  if (!filterBtn || !dropdown) return;
+  
+  // Load saved region preference
+  const savedRegion = localStorage.getItem('trendRadar_region');
+  if (savedRegion) {
+    currentRegion = savedRegion;
+    const activeOption = document.querySelector(`.region-option[data-region="${savedRegion}"]`);
+    if (activeOption) {
+      regionOptions.forEach(o => o.classList.remove('active'));
+      activeOption.classList.add('active');
+      filterLabel.textContent = activeOption.textContent.split(' ').slice(1).join(' ');
+    }
+  }
+  
+  // Toggle dropdown
+  filterBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    // Close date dropdown if open
+    const dateDropdown = document.getElementById('date-filter-dropdown');
+    if (dateDropdown) dateDropdown.classList.remove('show');
+    dropdown.classList.toggle('show');
+  });
+  
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!dropdown.contains(e.target) && !filterBtn.contains(e.target)) {
+      dropdown.classList.remove('show');
+    }
+  });
+  
+  // Handle region option clicks
+  regionOptions.forEach(option => {
+    option.addEventListener('click', () => {
+      regionOptions.forEach(o => o.classList.remove('active'));
+      option.classList.add('active');
+      
+      const region = option.dataset.region;
+      currentRegion = region;
+      localStorage.setItem('trendRadar_region', region);
+      
+      // Update button label (remove emoji)
+      filterLabel.textContent = option.textContent.split(' ').slice(1).join(' ');
+      
+      dropdown.classList.remove('show');
+      applyRegionFilterToTrends();
+    });
+  });
+}
+
+function applyRegionFilterToTrends() {
+  if (!allTrends || allTrends.length === 0) return;
+  
+  let filteredTrends;
+  
+  if (currentRegion === 'global') {
+    filteredTrends = [...allTrends];
+  } else {
+    filteredTrends = allTrends.filter(trend => {
+      const trendRegion = detectTrendRegion(trend);
+      return trendRegion === currentRegion || trendRegion === 'global';
+    });
+  }
+  
+  // Re-render with filtered trends
+  currentPage = 1;
+  renderFilteredTrends(filteredTrends);
+  
+  // Update count
+  if (trendsCount) {
+    trendsCount.textContent = `Showing ${filteredTrends.length} trends from ${currentRegion.toUpperCase()}`;
+  }
+}

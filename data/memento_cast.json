@@ -32,5 +32,11 @@
     "liquidity_usd": 241769.59,
     "url": "https://dexscreener.com/base/0xc3f617c8a3da6d286c8f97af946a8f293632c852"
   },
-  "timestamp": "2026-02-05T22:59:41.135300"
+  "timestamp": "2026-02-05T22:59:41.135300",
+  "image": {
+    "url": "https://images.unsplash.com/photo-1643884067749-da62e007b73f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxtZW1lbnRvJTIwY2FzdHxlbnwwfDB8fHwxNzcwNDY2ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1643884067749-da62e007b73f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxtZW1lbnRvJTIwY2FzdHxlbnwwfDB8fHwxNzcwNDY2ODAyfDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Olga Solodilova",
+    "credit_link": "https://unsplash.com/@olyushkaso"
+  }
 }

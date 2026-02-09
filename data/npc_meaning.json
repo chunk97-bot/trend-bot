@@ -40,6 +40,11 @@
     "image_prompt": null
   },
   "token": null,
-  "image": null,
+  "image": {
+    "url": "https://images.unsplash.com/photo-1609164256462-9d4bd4e86e7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxucGMlMjBtZWFuaW5nfGVufDB8MHx8fDE3NzA0NjY4MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1609164256462-9d4bd4e86e7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxucGMlMjBtZWFuaW5nfGVufDB8MHx8fDE3NzA0NjY4MjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Marija Zaric",
+    "credit_link": "https://unsplash.com/@simplicity"
+  },
   "timestamp": "2026-02-06T10:24:57.180709"
 }

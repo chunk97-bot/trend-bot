@@ -32,5 +32,11 @@
     "liquidity_usd": null,
     "url": "https://dexscreener.com/base/0x209520543001f7129e5f2d693310943f9bb00037035fcdf1336ba96280fa9852"
   },
-  "timestamp": "2026-02-05T19:48:39.308955"
+  "timestamp": "2026-02-05T19:48:39.308955",
+  "image": {
+    "url": "https://images.unsplash.com/photo-1631167625625-17d191aad8c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxwaG90byUyMGVkaXRvcnxlbnwwfDB8fHwxNzcwNDY2ODMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1631167625625-17d191aad8c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxwaG90byUyMGVkaXRvcnxlbnwwfDB8fHwxNzcwNDY2ODMzfDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Rohit Kashyap",
+    "credit_link": "https://unsplash.com/@rohitkashyap0035"
+  }
 }

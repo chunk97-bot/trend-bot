@@ -26,5 +26,11 @@
     "token_relevant": false
   },
   "token": null,
-  "timestamp": "2026-02-05T22:59:38.148041"
+  "timestamp": "2026-02-05T22:59:38.148041",
+  "image": {
+    "url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaXxlbnwwfDB8fHwxNzcwNDY2NzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaXxlbnwwfDB8fHwxNzcwNDY2NzAwfDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Igor Omilaev",
+    "credit_link": "https://unsplash.com/@omilaev"
+  }
 }

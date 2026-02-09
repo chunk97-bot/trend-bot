@@ -32,5 +32,11 @@
     "liquidity_usd": 286787.27,
     "url": "https://dexscreener.com/base/0xc3f617c8a3da6d286c8f97af946a8f293632c852"
   },
-  "timestamp": "2026-02-04T13:14:44.729039"
+  "timestamp": "2026-02-04T13:14:44.729039",
+  "image": {
+    "url": "https://images.unsplash.com/photo-1693166738900-d83028bf9978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxtZW1lbnRvJTIwbW9yaXxlbnwwfDB8fHwxNzcwNDY2ODAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1693166738900-d83028bf9978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxtZW1lbnRvJTIwbW9yaXxlbnwwfDB8fHwxNzcwNDY2ODAzfDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "The Cleveland Museum of Art",
+    "credit_link": "https://unsplash.com/@clevelandart"
+  }
 }

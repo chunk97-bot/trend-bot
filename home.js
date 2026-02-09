@@ -42,7 +42,7 @@ function renderTop(t) {
 
     <div class="metrics">
       🚀 Momentum: <strong>${t.momentum}</strong><br/>
-      📊 Signal Score: ${t.signal_score}
+      📊 Signal Score: <strong>${t.signal_score}</strong>
     </div>
 
     ${

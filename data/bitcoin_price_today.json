@@ -32,6 +32,11 @@
     "image_prompt": null
   },
   "token": null,
-  "image": null,
+  "image": {
+    "url": "https://images.unsplash.com/photo-1627570120184-7aec90f5613a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxiaXRjb2luJTIwcHJpY2UlMjB0b2RheXxlbnwwfDB8fHwxNzcwNDY2Nzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1627570120184-7aec90f5613a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxiaXRjb2luJTIwcHJpY2UlMjB0b2RheXxlbnwwfDB8fHwxNzcwNDY2Nzc4fDA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Siarhei Palishchuk",
+    "credit_link": "https://unsplash.com/@smeshny"
+  },
   "timestamp": "2026-02-06T10:23:19.972777"
 }

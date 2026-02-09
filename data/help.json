@@ -68,5 +68,11 @@
       "timestamp": "2026-02-06T12:25:37.549009+00:00",
       "signal_score": 55
     }
-  ]
+  ],
+  "image": {
+    "url": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxIZWxwfGVufDB8MHx8fDE3NzA0NjY3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxIZWxwfGVufDB8MHx8fDE3NzA0NjY3OTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Hannah Busing",
+    "credit_link": "https://unsplash.com/@hannahbusing"
+  }
 }

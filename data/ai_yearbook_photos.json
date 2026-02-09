@@ -16,5 +16,11 @@
     "meme": "When your AI yearbook photo looks more human than you do.",
     "image_prompt": "An AI-generated yearbook photo of a robot smiling awkwardly next to a human student."
   },
-  "token": null
+  "token": null,
+  "image": {
+    "url": "https://images.unsplash.com/photo-1748746269731-899a6cde0c0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaSUyMHllYXJib29rJTIwcGhvdG9zfGVufDB8MHx8fDE3NzA0NjY3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1748746269731-899a6cde0c0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaSUyMHllYXJib29rJTIwcGhvdG9zfGVufDB8MHx8fDE3NzA0NjY3NjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "rawkkim",
+    "credit_link": "https://unsplash.com/@rawkkim"
+  }
 }

@@ -16,5 +16,11 @@
     "meme": "When your 'girl dinner' is just a bag of chips and a diet coke, but you still post it on Instagram like it's a gourmet meal.",
     "image_prompt": "A girl sitting on the floor, surrounded by empty takeout containers, scrolling through her phone and captioning the image 'Treat yo self!'"
   },
-  "token": null
+  "token": null,
+  "image": {
+    "url": "https://images.unsplash.com/photo-1681657687044-9bde75edb38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxnaXJsJTIwZGlubmVyfGVufDB8MHx8fDE3NzA0NjY3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1681657687044-9bde75edb38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxnaXJsJTIwZGlubmVyfGVufDB8MHx8fDE3NzA0NjY3OTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Bohdan",
+    "credit_link": "https://unsplash.com/@undiabler"
+  }
 }

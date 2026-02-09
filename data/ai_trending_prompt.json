@@ -81,5 +81,11 @@
       "timestamp": "2026-02-06T12:25:24.201970+00:00",
       "signal_score": 100
     }
-  ]
+  ],
+  "image": {
+    "url": "https://images.unsplash.com/photo-1733759845560-48d4187ea107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaSUyMHRyZW5kaW5nJTIwcHJvbXB0fGVufDB8MHx8fDE3NzA0NjY3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "thumb": "https://images.unsplash.com/photo-1733759845560-48d4187ea107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njk4Njd8MHwxfHNlYXJjaHwxfHxhaSUyMHRyZW5kaW5nJTIwcHJvbXB0fGVufDB8MHx8fDE3NzA0NjY3NjF8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "credit": "Ruan Richard Rodrigues",
+    "credit_link": "https://unsplash.com/@ricdeoliveira"
+  }
 }

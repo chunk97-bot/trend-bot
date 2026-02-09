@@ -292,6 +292,10 @@ function renderTrend(t, index = 0) {
       </div>
     </div>
 
+    <div class="trend-image loaded" style="background: linear-gradient(135deg, #7c3aed 0%, #f59e0b 100%); display: flex; align-items: center; justify-content: center;">
+      <span style="font-size: 48px; opacity: 0.9;">🪙</span>
+    </div>
+
     <div class="card-meta">
       ${trendTimestamp ? `<span class="post-timestamp">🕐 ${formatPostDate(trendTimestamp)}</span>` : ''}
     </div>
@@ -327,13 +331,6 @@ function renderTrend(t, index = 0) {
           <span>📍 Started on: ${getOriginPlatform(t)}</span>
         </div>
       </div>
-    </div>
-
-    <div class="popularity-meter" title="Popularity: ${t.signal_score}%">
-      <div class="meter-bar">
-        <div class="meter-fill" style="width: ${Math.min(100, t.signal_score)}%; background: ${t.signal_score >= 70 ? '#10b981' : t.signal_score >= 40 ? '#f59e0b' : '#ef4444'}"></div>
-      </div>
-      <span class="meter-value">${t.signal_score}%</span>
     </div>
 
     <div class="metrics">
