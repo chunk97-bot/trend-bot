@@ -196,8 +196,8 @@ async function loadCryptoTrends() {
     } catch {}
   }
 
-  // Filter to only crypto trends
-  cryptoTrends = allTrends.filter(isCryptoTrend);
+  // Filter to only crypto trends with a valid DexScreener token
+  cryptoTrends = allTrends.filter(t => isCryptoTrend(t) && t.token && t.token.url && t.token.url.includes('dexscreener'));
   
   // Update stats
   document.getElementById('trending-coins-count').textContent = cryptoTrends.length;
