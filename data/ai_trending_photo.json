@@ -1,6 +1,6 @@
 {
   "trend": "ai trending photo",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true,
     "x": true
@@ -8,14 +8,14 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "194.8K",
-      "raw": 194765
+      "searches": "142.8K",
+      "raw": 142832
     },
     "x": {
-      "posts": "79.6K",
-      "reposts": "23.4K",
-      "raw_posts": 79647,
-      "raw_reposts": 23392
+      "posts": "143.7K",
+      "reposts": "28.9K",
+      "raw_posts": 143697,
+      "raw_reposts": 28901
     },
     "tiktok": {
       "views": "0",
@@ -40,19 +40,15 @@
     "Trending"
   ],
   "analysis": {
-    "headline": "The Viral Rise of AI-Generated Photos: Blurring the Lines of Reality",
-    "summary": "AI-generated photos have taken the internet by storm, captivating users with their uncanny resemblance to real images. This trend speaks to our growing fascination with the capabilities of artificial intelligence and the blurring of the line between the digital and physical realms.",
-    "origin_story": "The recent advancements in generative AI models, such as DALL-E and Stable Diffusion, have made it easier than ever for users to create highly realistic images from simple text prompts, sparking this viral trend across platforms like Google and social media.",
-    "expert_analysis": "This trend reflects our evolving relationship with technology and the increasing power of AI to shape our perception of reality. As these AI-generated images become more indistinguishable from human-created ones, it raises questions about the impact on visual communication, content creation, and the ways we consume and interpret information online.",
-    "impact": "The widespread adoption of AI-generated photos could have far-reaching implications for industries like advertising, journalism, and visual arts, as well as broader societal effects regarding truth, authenticity, and the role of technology in shaping our understanding of the world.",
-    "status": "viral"
+    "headline": "ai trending photo Takes Over The Internet",
+    "summary": "The topic 'ai trending photo' is trending across google, x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T23:59:09.527753+00:00",
+  "timestamp": "2026-02-09T05:48:05.178863+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T19:50:22.853282+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-06T21:57:07.789012+00:00",
       "signal_score": 50
@@ -143,6 +139,10 @@
     },
     {
       "timestamp": "2026-02-08T23:59:09.527777+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-09T05:48:05.178884+00:00",
       "signal_score": 100
     }
   ]

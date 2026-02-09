@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "151.3K",
-      "raw": 151343
+      "searches": "195.5K",
+      "raw": 195451
     },
     "x": {
       "posts": "0",
@@ -41,19 +41,15 @@
     "trump trending photo"
   ],
   "analysis": {
-    "headline": "Trump Dominates Google Searches as Rumors of 2024 Run Swirl",
-    "summary": "Former President Donald Trump has once again captured public attention, with his name surging to the top of Google search trends. This spike in interest is fueled by persistent speculation about a potential 2024 presidential run.",
-    "origin_story": "The renewed interest in Trump appears to have been sparked by recent political developments and media coverage, with the ex-president's name appearing in news headlines and social media discussions.",
-    "expert_analysis": "Trump's continued ability to command the public's attention, even after leaving office, speaks to his enduring influence and the polarized state of American politics. This trend reflects the ongoing fascination with the former president and the intense political divisions that continue to shape the national discourse.",
-    "impact": "The heightened interest in Trump could have significant implications for the 2024 election cycle, as it suggests the former president remains a formidable political force.",
-    "status": "rising"
+    "headline": "Trump Dominates Search Trends as Midterm Elections Loom",
+    "summary": "Former President Donald Trump's name is dominating online searches as the 2022 midterm elections approach, with a surge of interest in his latest political moves and potential 2024 presidential run.",
+    "origin_story": "Trump's perennial presence in the news cycle has kept him a top search topic on Google, with the 195,500 searches related to his name in the past day.",
+    "expert_analysis": "Trump's continued popularity among his base, coupled with the high-stakes nature of the upcoming midterms, is driving intense interest in his every word and action. This trend reflects the former president's enduring influence over the Republican party and the political discourse.",
+    "impact": "Trump's search dominance signals the extent to which he remains a central figure in American politics, with his potential 2024 candidacy already capturing the public's attention.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T23:59:47.357538+00:00",
+  "timestamp": "2026-02-09T05:48:56.232772+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-06T23:54:29.463657+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T04:55:36.357547+00:00",
       "signal_score": 50
@@ -144,6 +140,10 @@
     },
     {
       "timestamp": "2026-02-08T23:59:47.357557+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:56.232787+00:00",
       "signal_score": 50
     }
   ]

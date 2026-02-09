@@ -1,6 +1,6 @@
 {
   "trend": "681da8",
-  "category": "crypto",
+  "category": "technology",
   "platforms": {
     "x": true,
     "tiktok": true
@@ -12,15 +12,15 @@
       "raw": 0
     },
     "x": {
-      "posts": "12.5K",
-      "reposts": "11.2K",
-      "raw_posts": 12481,
-      "raw_reposts": 11169
+      "posts": "49.9K",
+      "reposts": "15.6K",
+      "raw_posts": 49924,
+      "raw_reposts": 15589
     },
     "tiktok": {
-      "views": "950.6K",
-      "videos": "44.9K",
-      "raw_views": 950629
+      "views": "2.1M",
+      "videos": "24.0K",
+      "raw_views": 2106262
     },
     "instagram": {
       "posts": "0",
@@ -28,27 +28,23 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 65,
-  "momentum": "stable",
-  "lifecycle": "rising",
+  "signal_score": 85,
+  "momentum": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Mysterious 'Hexagon' Captivates TikTok and Twitter Amid Crypto Craze",
-    "summary": "A puzzling hexagonal symbol, dubbed the '681da8 Hexagon', has taken social media by storm, sparking intense speculation and curiosity about its origin and meaning within the crypto community.",
-    "origin_story": "The trend first emerged on TikTok, where short videos showcasing the enigmatic hexagon have amassed hundreds of thousands of views, driving users to investigate its potential significance.",
-    "expert_analysis": "The viral nature of the '681da8 Hexagon' highlights the enduring fascination with cryptic symbols and the power of social media to amplify and spread such phenomena. This trend taps into the growing public interest in cryptocurrency and blockchain technology, as users seek to decipher hidden meanings and connections within the digital realm.",
-    "impact": "As the trend continues to gain momentum, it could spark further exploration and discussion around the intersections of technology, symbolism, and online culture.",
-    "status": "rising"
+    "headline": "Mysterious Hexadecimal Code Captivates the Internet: Cracking the 681da8 Trend",
+    "summary": "A baffling hexadecimal code, 681da8, has taken social media by storm, sparking widespread speculation and curiosity about its meaning and origins. With millions of views and posts across TikTok and other platforms, this digital enigma has captured the imagination of users worldwide.",
+    "origin_story": "The trend first emerged on TikTok, where users began sharing and discussing the cryptic code, leading to a surge in engagement and a race to uncover its hidden significance.",
+    "expert_analysis": "The 681da8 trend taps into our innate human desire to solve mysteries and decipher hidden meanings. In an age of information overload, the public's fascination with this code reflects a craving for something novel and intriguing that stands out from the constant stream of digital content. This trend highlights our collective curiosity and the power of the internet to amplify and spread enigmatic phenomena.",
+    "impact": "The 681da8 trend has transcended social media, sparking discussions across various online communities and potentially leading to new discoveries or creative interpretations.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T23:59:16.670079+00:00",
+  "timestamp": "2026-02-09T05:48:12.389775+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T17:56:52.707471+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T19:05:54.825177+00:00",
       "signal_score": 85
@@ -140,6 +136,10 @@
     {
       "timestamp": "2026-02-08T23:59:16.670109+00:00",
       "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-09T05:48:12.389790+00:00",
+      "signal_score": 85
     }
   ]
 }

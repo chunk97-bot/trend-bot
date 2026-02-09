@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "102.3K",
-      "raw": 102301
+      "searches": "275.7K",
+      "raw": 275666
     },
     "x": {
       "posts": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "AI-Generated Song Sparks Viral Craze on Google",
-    "summary": "An AI-created song has taken the internet by storm, with users flocking to Google to search for and experience this groundbreaking musical creation.",
-    "origin_story": "The song, reportedly generated using advanced AI and machine learning algorithms, first gained attention on social media platforms before the trend skyrocketed on Google.",
-    "expert_analysis": "This viral surge highlights the growing public fascination with the capabilities of artificial intelligence, particularly in the realm of creative pursuits like music. The trend reflects our curiosity about the potential of AI to push the boundaries of artistic expression.",
-    "impact": "The widespread interest in this AI-generated song could pave the way for further exploration and integration of AI technology in the music industry.",
+    "headline": "AI-Generated Song Takes Internet by Storm, Sparking Debate",
+    "summary": "An AI-composed song has gone viral, captivating listeners and igniting discussions about the future of music creation. The track, which blends human-like vocals with synthetic instrumentation, has captured the public's imagination.",
+    "origin_story": "The song first gained traction on various social media platforms, where users shared their reactions and speculated about the technological advancements behind its creation.",
+    "expert_analysis": "This trend reflects the growing influence of AI in the arts, challenging traditional notions of creativity and authorship. As AI systems become more sophisticated in generating content, the public is grappling with the implications for the music industry and the creative process as a whole.",
+    "impact": "The widespread interest in this AI-generated song suggests a shift in how people consume and perceive music, potentially shaping the future of the industry.",
     "status": "viral"
   },
-  "timestamp": "2026-02-08T23:01:37.806378+00:00",
+  "timestamp": "2026-02-09T05:48:41.218946+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T11:59:14.438563+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T13:57:00.120882+00:00",
       "signal_score": 100
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T23:01:37.806393+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:41.218961+00:00",
       "signal_score": 50
     }
   ]

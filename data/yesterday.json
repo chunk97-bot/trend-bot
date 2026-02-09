@@ -1,6 +1,6 @@
 {
   "trend": "Yesterday",
-  "category": "culture",
+  "category": "entertainment",
   "platforms": {
     "x": true
   },
@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "108.4K",
-      "reposts": "42.4K",
-      "raw_posts": 108398,
-      "raw_reposts": 42416
+      "posts": "80.1K",
+      "reposts": "34.2K",
+      "raw_posts": 80086,
+      "raw_reposts": 34186
     },
     "tiktok": {
       "views": "0",
@@ -35,19 +35,15 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Nostalgic Throwback to Yesterday Takes the Internet by Storm",
-    "summary": "A simple, one-word social media trend has gone viral as users reminisce about the simple pleasures of 'yesterday.' The trend highlights a collective longing for simpler times, offering a moment of respite from the fast-paced nature of modern life.",
-    "origin_story": "The trend started on Twitter, where users began posting the single word 'yesterday' as a response to various prompts and questions, sparking a wave of nostalgic engagement.",
-    "expert_analysis": "The 'yesterday' trend taps into a universal human desire to slow down and reflect on the past. In an era of constant connectivity and information overload, this trend suggests a collective yearning for a time when life moved at a gentler pace, free from the pressures and distractions of the digital age.",
-    "impact": "The trend has resonated across social media platforms, fostering a sense of shared experience and community as users bond over their shared nostalgia for the simpler pleasures of the past.",
-    "status": "viral"
+    "headline": "Yesterday Takes Over The Internet",
+    "summary": "The topic 'Yesterday' is trending across x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-08T23:59:20.220748+00:00",
+  "timestamp": "2026-02-09T05:48:20.536822+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T09:02:58.997291+00:00",
-      "signal_score": 55
-    },
     {
       "timestamp": "2026-02-07T10:58:12.126181+00:00",
       "signal_score": 55
@@ -138,6 +134,10 @@
     },
     {
       "timestamp": "2026-02-08T23:59:20.220763+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-09T05:48:20.536837+00:00",
       "signal_score": 55
     }
   ]

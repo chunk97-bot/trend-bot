@@ -3,17 +3,17 @@
     "ai_trending_photo.json",
     "fff.json",
     "681da8.json",
+    "help.json",
     "yesterday.json",
     "week_ago.json",
     "year_ago.json",
+    "3c4043.json",
+    "rso.json",
+    "bottomads.json",
+    "ai_trending_song.json",
     "ai_trending_pictures.json",
-    "ai_trending_prompt.json",
-    "chatgpt_trending_prompt.json",
     "chatgpt_trending_photo.json",
     "chatgpt_trending_image_generator_prompt.json",
-    "trump_trending.json",
-    "biden_trending.json",
-    "taylor_swift_trending.json",
-    "nfl_trending.json"
+    "trump_trending.json"
   ]
 }
