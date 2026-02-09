@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Trend Radar - X-First Meme Coin & Trend Aggregator
 Priority: X/Twitter signals → Cross-validate on Google, TikTok, Instagram
