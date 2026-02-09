@@ -2013,26 +2013,13 @@ def generate_post_html(trend_name, trend_data):
       </div>
       
       <!-- AI Analysis -->
-      {f'''<div class="content-section ai-analysis">
-        <h3>&#129302; AI Analysis</h3>
-        <p>{expert_take}</p>
-      </div>''' if expert_take else ''}
+      {('<div class="content-section ai-analysis"><h3>&#129302; AI Analysis</h3><p>' + expert_take + '</p></div>') if expert_take else ''}
       
       <!-- Origin Story -->
-      {f'''<div class="content-section origin-section">
-        <h3>&#128214; Origin Story</h3>
-        <p>{origin_story}</p>
-        <div class="origin-meta">
-          <div class="origin-meta-item">&#128197; First detected: <strong data-timestamp="{timestamp}">Recently</strong></div>
-          <div class="origin-meta-item">&#128205; Started on: <strong>{'Multiple platforms' if len(platforms) > 1 else (platforms[0] if platforms else 'Social Media')}</strong></div>
-        </div>
-      </div>''' if origin_story else ''}
+      {('<div class="content-section origin-section"><h3>&#128214; Origin Story</h3><p>' + origin_story + '</p><div class="origin-meta"><div class="origin-meta-item">&#128197; First detected: <strong data-timestamp="' + timestamp + '">Recently</strong></div><div class="origin-meta-item">&#128205; Started on: <strong>' + ('Multiple platforms' if len(platforms) > 1 else (platforms[0] if platforms else 'Social Media')) + '</strong></div></div></div>') if origin_story else ''}
       
       <!-- Impact -->
-      {f'''<div class="content-section impact-section">
-        <h3>&#128165; Why This Matters</h3>
-        <p>{impact}</p>
-      </div>''' if impact else ''}
+      {('<div class="content-section impact-section"><h3>&#128165; Why This Matters</h3><p>' + impact + '</p></div>') if impact else ''}
       
       <!-- Platforms -->
       <div class="platforms-section">
