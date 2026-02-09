@@ -1,0 +1,52 @@
+{
+  "trend": "rso",
+  "category": "memes",
+  "platforms": {
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "69.9K",
+      "reposts": "17.5K",
+      "raw_posts": 69929,
+      "raw_reposts": 17457
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 55,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "The Enigmatic Rise of 'rso': Uncovering the Viral Allure",
+    "summary": "The cryptic term 'rso' has taken the internet by storm, sparking curiosity and conversations across various platforms. This mysterious trend reveals a deeper fascination with the unknown and the power of collective intrigue.",
+    "origin_story": "The origins of 'rso' can be traced back to a series of posts on social media, where users began sharing the enigmatic abbreviation without providing any clear context.",
+    "expert_analysis": "The rapid spread of 'rso' highlights the internet's ability to amplify and propagate mysteries. This trend taps into our innate desire to uncover hidden meanings, fostering a sense of community among those seeking to decipher the enigma. It also reflects the power of ambiguity to capture the public's attention and spark imagination.",
+    "impact": "As the 'rso' trend continues to gain momentum, it may inspire further exploration into the nature of online trends and the psychology behind our fascination with the unknown.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-09T05:48:33.818714+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T05:48:33.818729+00:00",
+      "signal_score": 55
+    }
+  ]
+}

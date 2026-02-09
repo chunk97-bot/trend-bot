@@ -1,0 +1,52 @@
+{
+  "trend": "bottomads",
+  "category": "technology",
+  "platforms": {
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "83.7K",
+      "reposts": "10.4K",
+      "raw_posts": 83742,
+      "raw_reposts": 10432
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 55,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "The Viral Rise of 'Bottom Ads': Exposing the Dark Side of Online Monetization",
+    "summary": "The unexpected popularity of 'bottom ads' on social media platforms has sparked a conversation about the unsavory tactics used by some content creators to generate revenue. This trend sheds light on the complex relationship between monetization and authentic engagement.",
+    "origin_story": "The 'bottom ads' trend originated on TikTok, where some users began intentionally placing advertisements at the very bottom of their videos in an attempt to bypass viewer attention.",
+    "expert_analysis": "This trend reveals the lengths some creators will go to in order to generate income, even at the expense of user experience. It highlights the ongoing tension between the need for monetization and the desire for genuine, uninterrupted content on social media platforms.",
+    "impact": "The rise of 'bottom ads' has sparked a wider debate about the ethics of online monetization and the responsibility of platforms to protect their users from deceptive practices.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-09T05:48:37.496345+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T05:48:37.496360+00:00",
+      "signal_score": 55
+    }
+  ]
+}

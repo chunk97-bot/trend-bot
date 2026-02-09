@@ -1,0 +1,86 @@
+{
+  "trend": "nfl trending",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "286.7K",
+      "raw": 286733
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "nfl trending",
+    "nfl trending news",
+    "nfl trending players",
+    "nfl trending topics",
+    "nfl trending twitter"
+  ],
+  "analysis": {
+    "headline": "NFL Dominates Google Searches as Season Kicks Off",
+    "summary": "The NFL is trending on Google as football fans eagerly anticipate the start of the new season. With preseason games underway and the regular season right around the corner, people are searching for the latest news, predictions, and player updates.",
+    "origin_story": "The NFL's popularity has long been a staple on Google, as the league commands a massive national following. As the season approaches, search interest naturally spikes as fans seek information about their favorite teams and players.",
+    "expert_analysis": "The NFL's enduring presence as a top Google trend speaks to the league's cultural dominance and the intense passion of its fanbase. Football remains one of America's most beloved sports, captivating audiences across the country and driving widespread engagement online.",
+    "impact": "The high search volume for NFL-related terms will likely translate to increased viewership and engagement as the season gets underway, bolstering the league's commercial success and cementing its status as a cultural phenomenon.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-08T23:59:57.176451+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T10:58:40.398998+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:23.475732+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:46.063511+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:46.732852+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:01:05.007576+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:45.129237+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:00:12.626233+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:57.176465+00:00",
+      "signal_score": 50
+    }
+  ]
+}

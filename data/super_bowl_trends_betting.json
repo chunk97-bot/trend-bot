@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "237.9K",
-      "raw": 237868
+      "searches": "293.1K",
+      "raw": 293083
     },
     "x": {
       "posts": "0",
@@ -29,25 +29,115 @@
   },
   "signal_score": 50,
   "momentum": "stable",
+  "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Bettors Bet Big on Super Bowl LVII",
-    "summary": "With the Super Bowl just around the corner, sports betting enthusiasts are flocking to place their wagers, driving a surge in related online searches.",
-    "origin_story": "The Super Bowl has long been a major event for sports betting, and this year's game is no exception.",
-    "impact": "The increasing popularity of sports betting is transforming the way fans engage with the biggest game of the year.",
+    "headline": "Super Bowl Betting Frenzy Grips Online Searches",
+    "summary": "As the highly anticipated Super Bowl approaches, a surge in Google searches around sports betting has taken the internet by storm, reflecting the growing interest and excitement among fans.",
+    "origin_story": "The spike in Super Bowl betting-related searches has been fueled by the increasing legalization and mainstream acceptance of sports gambling across the United States.",
+    "expert_analysis": "This trend highlights the profound impact of legalized sports betting on the fan experience. It signals a shift in the way people engage with major sporting events, blending the thrill of the game with the allure of potentially lucrative wagers.",
+    "impact": "The Super Bowl betting craze is set to reshape the viewing habits and financial landscape of the event, with far-reaching implications for the sports industry and the broader entertainment ecosystem.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T11:08:59.208063+00:00",
+  "timestamp": "2026-02-08T23:02:04.857379+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T10:48:29.869056+00:00",
+      "timestamp": "2026-02-07T11:59:58.384684+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T11:08:59.208063+00:00",
+      "timestamp": "2026-02-07T14:58:13.481866+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:21.023674+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:38.337714+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:10.645724+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:28.381520+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:36.314108+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:14.504455+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:36.987319+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:17.327335+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:55.527612+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:16.483542+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:24.900733+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:03:07.924233+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:32.395016+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:33.693626+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:34.020704+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T14:59:57.567268+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:55:07.829669+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:03:01.153710+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:17:01.188755+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:56:07.475175+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:15.295733+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:02:04.857395+00:00",
       "signal_score": 50
     }
   ]

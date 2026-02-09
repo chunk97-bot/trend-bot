@@ -1,0 +1,52 @@
+{
+  "trend": "3c4043",
+  "category": "culture",
+  "platforms": {
+    "x": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "0",
+      "raw": 0
+    },
+    "x": {
+      "posts": "81.4K",
+      "reposts": "26.6K",
+      "raw_posts": 81418,
+      "raw_reposts": 26647
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 55,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Mysterious Color Code '3c4043' Sparks Viral Internet Speculation",
+    "summary": "A cryptic color code, '3c4043,' has captivated the internet, with thousands of posts speculating about its meaning and origin. The trend has sparked intense online discussions across various platforms.",
+    "origin_story": "The trend appears to have started on an undisclosed platform, with users sharing the color code and inviting others to investigate its significance.",
+    "expert_analysis": "This trend speaks to the internet's insatiable curiosity and the power of online communities to collectively investigate and unravel mysteries. The viral nature of the '3c4043' phenomenon highlights the internet's ability to amplify and spread information rapidly, often leading to speculation and theories that capture the public's imagination.",
+    "impact": "As the trend continues to gain momentum, it could inspire creative interpretations, artistic expressions, and even deeper explorations into the nature of online culture and the human desire to solve digital puzzles.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T05:48:30.890831+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T05:48:30.890846+00:00",
+      "signal_score": 55
+    }
+  ]
+}

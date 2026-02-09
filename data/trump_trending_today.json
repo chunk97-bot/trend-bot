@@ -1,0 +1,52 @@
+{
+  "trend": "trump trending today",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "256.1K",
+      "raw": 256099
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Trump Dominates Search Trends as Controversy Swirls",
+    "summary": "Former President Donald Trump has once again captured the public's attention, with his name dominating Google search trends. This surge in online interest is directly tied to the ongoing investigations and legal proceedings surrounding him.",
+    "origin_story": "Trump's name has been a consistent presence in online searches, but the current spike can be traced to the recent indictment of his company and the ongoing probe into the January 6th Capitol attack.",
+    "expert_analysis": "Trump's ability to command the news cycle, even in the face of legal challenges, underscores his enduring influence and the polarized nature of American politics. This trend reflects the public's insatiable appetite for information and commentary on one of the most divisive figures in modern US history.",
+    "impact": "The intense interest in Trump's affairs has the potential to shape public discourse and the broader political landscape in the months leading up to the 2024 presidential election.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T13:59:21.289574+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T13:59:21.289588+00:00",
+      "signal_score": 50
+    }
+  ]
+}

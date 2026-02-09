@@ -1,0 +1,86 @@
+{
+  "trend": "taylor swift trending",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "276.4K",
+      "raw": 276419
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "taylor swift trending",
+    "taylor swift trending songs",
+    "taylor swift trending dance",
+    "taylor swift trending song now",
+    "taylor swift trending song on tiktok"
+  ],
+  "analysis": {
+    "headline": "Taylor Swift's Surprise Album Drop Sparks Feverish Excitement Online",
+    "summary": "Taylor Swift has unexpectedly released her 10th studio album, 'Midnights,' sparking a flurry of activity on Google as fans scramble to learn more about the new music and its significance.",
+    "origin_story": "The album's surprise announcement on Swift's social media channels has sent her dedicated fanbase, known as 'Swifties,' into a frenzy, driving a surge of online searches and discussions.",
+    "expert_analysis": "This sudden release taps into the culture of anticipation and speculation that has long defined the Taylor Swift fandom. Her ability to generate hype and enthusiasm around new music is a testament to her deep connection with her audience and her mastery of the modern music industry's promotional landscape.",
+    "impact": "The intense interest in 'Midnights' is likely to translate into strong album sales and streaming numbers, further cementing Swift's status as one of the most influential and successful pop artists of her generation.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T23:59:53.351702+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:20.756937+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:18.589367+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:35.560152+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:43.238295+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:23.161118+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:01:01.678674+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:00:08.500632+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:53.351718+00:00",
+      "signal_score": 50
+    }
+  ]
+}

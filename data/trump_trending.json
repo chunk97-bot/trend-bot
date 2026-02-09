@@ -1,0 +1,150 @@
+{
+  "trend": "trump trending",
+  "category": "politics",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "195.5K",
+      "raw": 195451
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "trump trending",
+    "trump trending news",
+    "trump trending news today",
+    "trump trending now",
+    "trump trending photo"
+  ],
+  "analysis": {
+    "headline": "Trump Dominates Search Trends as Midterm Elections Loom",
+    "summary": "Former President Donald Trump's name is dominating online searches as the 2022 midterm elections approach, with a surge of interest in his latest political moves and potential 2024 presidential run.",
+    "origin_story": "Trump's perennial presence in the news cycle has kept him a top search topic on Google, with the 195,500 searches related to his name in the past day.",
+    "expert_analysis": "Trump's continued popularity among his base, coupled with the high-stakes nature of the upcoming midterms, is driving intense interest in his every word and action. This trend reflects the former president's enduring influence over the Republican party and the political discourse.",
+    "impact": "Trump's search dominance signals the extent to which he remains a central figure in American politics, with his potential 2024 candidacy already capturing the public's attention.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-09T05:48:56.232772+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T04:55:36.357547+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:32.842251+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:58:11.379082+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:30.506271+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:47.043733+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:47.825057+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:48.865150+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:06.794512+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:30.607508+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:25.110503+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:22.949688+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:08.630527+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:29.381309+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:10.167533+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:43.098381+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:13.018888+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:55.680952+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:19.474649+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:59.292742+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:56.195302+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:04.774872+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:54.426585+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:47.357557+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:56.232787+00:00",
+      "signal_score": 50
+    }
+  ]
+}

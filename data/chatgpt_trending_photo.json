@@ -1,0 +1,131 @@
+{
+  "trend": "chatgpt trending photo",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "184.7K",
+      "raw": 184681
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending photo",
+    "chatgpt trending photo prompt"
+  ],
+  "analysis": {
+    "headline": "Viral AI-Generated Photos Captivate the Internet",
+    "summary": "As the ChatGPT AI chatbot continues to dominate the tech conversation, a new trend has emerged: users generating unique and often surreal images using ChatGPT's image creation capabilities. This visual creativity is sparking widespread fascination online.",
+    "origin_story": "The trend began when ChatGPT users discovered they could provide the AI with text prompts and have it generate corresponding images, opening up a world of artistic expression.",
+    "expert_analysis": "This trend speaks to the public's growing fascination with the creative potential of AI technology. As ChatGPT demonstrates its linguistic capabilities, its visual counterpart is now captivating internet users with its ability to transform abstract ideas into tangible artworks. This merging of AI and creativity taps into our desire to see technology push the boundaries of human expression.",
+    "impact": "The viral spread of these AI-generated images is likely to further drive public discourse around the role of AI in creative fields and spur experimentation with the technology's image-generating capabilities.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-09T05:48:48.249448+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:23.746499+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T17:31:48.128663+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T19:50:27.519013+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:04:28.021280+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:11.540063+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:53:55.462717+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:15.901202+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:23.585468+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:20.873352+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:57:56.567538+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:21.031262+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:34.772796+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T10:58:29.247504+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:36.859896+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:39.553174+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:48.501221+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:55:53.809763+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:50.986386+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:40.600758+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:48.249462+00:00",
+      "signal_score": 50
+    }
+  ]
+}

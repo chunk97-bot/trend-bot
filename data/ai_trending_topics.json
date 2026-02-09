@@ -1,0 +1,116 @@
+{
+  "trend": "ai trending topics",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "180.4K",
+      "raw": 180371
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "The Rise of AI: Searching for Answers in a Tech-Driven World",
+    "summary": "As AI-related search terms surge on Google, the public's fascination with the transformative potential of artificial intelligence is on full display. From chatbots to image generators, the capabilities of this technology are captivating the global audience.",
+    "origin_story": "The recent advancements and widespread deployment of AI-powered applications, such as ChatGPT and DALL-E, have ignited a surge of public interest in this rapidly evolving field.",
+    "expert_analysis": "This trend reflects a growing societal curiosity about the impact of AI on our lives, from how it can enhance productivity and creativity to the ethical considerations that come with its increasing integration. As AI continues to push the boundaries of what's possible, people are eager to understand its implications for the future.",
+    "impact": "The heightened interest in AI-related topics signifies a pivotal moment, as the public seeks to navigate the opportunities and challenges presented by this transformative technology.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-07T19:50:01.455743+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:19.181435+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T19:50:18.858529+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:04:25.317177+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:04.329837+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:53:52.553136+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:12.850190+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:17.216890+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:17.377545+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:31.157164+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:33.246388+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:35.908717+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T13:57:37.367480+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:07.189394+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:27.708410+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:19:52.399973+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:19.220770+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:01.455760+00:00",
+      "signal_score": 50
+    }
+  ]
+}

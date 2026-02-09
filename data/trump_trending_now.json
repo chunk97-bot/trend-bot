@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "245.0K",
-      "raw": 245002
+      "searches": "140.6K",
+      "raw": 140622
     },
     "x": {
       "posts": "0",
@@ -35,14 +35,14 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Trump Dominates Google Searches Amid Political Firestorm",
-    "summary": "Former President Donald Trump is dominating Google searches as the ongoing investigations and controversies surrounding him continue to captivate public attention. The surge in searches reflects the enduring fascination with one of the most polarizing political figures in modern history.",
-    "origin_story": "The spike in Google searches for 'Trump' coincides with the latest developments in the numerous legal and political battles the former president is embroiled in, including the classified documents probe and his role in the January 6th Capitol riots.",
-    "expert_analysis": "Trump's continued relevance in the public discourse underscores the deep political divisions in the country and the former president's ability to command attention, even out of office. This trend reflects the polarizing and often inflammatory nature of Trump's political brand, which continues to captivate and provoke strong reactions from supporters and critics alike.",
-    "impact": "The intense public interest in Trump's ongoing legal and political saga is likely to have far-reaching implications, shaping the national discourse and influencing the political landscape in the run-up to the 2024 presidential election.",
+    "headline": "Trump's Name Dominates Google as Midterms Loom",
+    "summary": "Former President Donald Trump's name is dominating Google searches, reflecting the ongoing public fascination with his political future and potential 2024 run as the 2022 midterm elections approach.",
+    "origin_story": "Trump's name has spiked on Google as the midterm elections draw near, with many speculating about his plans for a potential 2024 presidential campaign.",
+    "expert_analysis": "This trend highlights the enduring influence of Trump in American politics, even after his presidency. It also reflects the public's continued interest in his potential future role, as the Republican Party grapples with its identity in the post-Trump era.",
+    "impact": "Trump's ongoing prominence on Google could shape the narrative and discourse around the upcoming midterm elections, as voters and the media closely follow his every move.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T12:26:35.195962+00:00",
+  "timestamp": "2026-02-08T19:55:53.388863+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:25.019401+00:00",
@@ -74,6 +74,34 @@
     },
     {
       "timestamp": "2026-02-06T12:26:35.195962+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:17.923313+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:18.480762+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T14:59:46.807978+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:55.317478+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:19.593807+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:47.688498+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:55:53.388878+00:00",
       "signal_score": 50
     }
   ]

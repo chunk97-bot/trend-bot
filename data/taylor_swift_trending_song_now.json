@@ -1,0 +1,60 @@
+{
+  "trend": "taylor swift trending song now",
+  "category": "music",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "148.6K",
+      "raw": 148554
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Taylor Swift's New Song Sparks Frenzy on Google Searches",
+    "summary": "Taylor Swift's latest song release has sent fans and music enthusiasts into a frenzy, driving a surge in Google searches as they clamor to discover and discuss the new track.",
+    "origin_story": "The spike in Google searches can be attributed to the recent drop of a new Taylor Swift song, which has quickly gained traction across social media platforms.",
+    "expert_analysis": "Taylor Swift's ability to command attention and generate hype with her music releases highlights the powerful cultural influence the pop superstar wields. This trend taps into the fervent fan base that eagerly awaits and dissects every new offering from the artist, reflecting the deep connection she has cultivated with her audience.",
+    "impact": "The intense Google search activity underscores the broad reach and impact of Taylor Swift's music, signaling her enduring appeal and the anticipation surrounding her creative output.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T09:59:41.681739+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:26.915877+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:13.038823+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:41.681755+00:00",
+      "signal_score": 50
+    }
+  ]
+}

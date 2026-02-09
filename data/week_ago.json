@@ -11,10 +11,10 @@
       "raw": 0
     },
     "x": {
-      "posts": "133.8K",
-      "reposts": "27.6K",
-      "raw_posts": 133810,
-      "raw_reposts": 27557
+      "posts": "67.7K",
+      "reposts": "24.1K",
+      "raw_posts": 67701,
+      "raw_reposts": 24123
     },
     "tiktok": {
       "views": "0",
@@ -35,41 +35,109 @@
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Viral 'Week Ago' Trend Taps Into Nostalgic Longing for Simpler Times",
-    "summary": "The resurgence of the 'Week Ago' meme has captured the internet's imagination, as people seek respite from the chaos of the present by reminiscing about the relatively carefree days of just one week prior.",
-    "origin_story": "The trend originated on various social media platforms, where users have been sharing images and captions expressing a longing for the simplicity of the recent past.",
-    "expert_analysis": "This viral trend taps into a widespread desire to escape the overwhelming nature of modern life, even if just for a brief moment. By reflecting on the recent past, people are finding a sense of comfort and control in a world that often feels chaotic and unpredictable.",
-    "impact": "The 'Week Ago' trend has resonated with millions of internet users, providing a temporary refuge from the stresses and uncertainties of the present.",
+    "headline": "Viral 'Week Ago' Meme Captures Fleeting Nature of Internet Trends",
+    "summary": "The 'Week Ago' meme has taken the internet by storm, poking fun at how quickly online fascinations come and go. Users are posting nostalgic images or videos from just a week prior, highlighting how rapidly public attention shifts.",
+    "origin_story": "The meme started gaining traction on various social media platforms like TikTok and Twitter, as users began sharing their own 'Week Ago' content.",
+    "expert_analysis": "The 'Week Ago' trend underscores the accelerated pace of internet culture, where viral phenomena have an increasingly short shelf life. It reflects our collective inability to stay focused on any one thing for long, as we rapidly move from one new craze to the next.",
+    "impact": "This meme has resonated widely, sparking engagement and discussion around the fleeting nature of online trends.",
     "status": "viral"
   },
-  "timestamp": "2026-02-06T12:25:51.079325+00:00",
+  "timestamp": "2026-02-09T05:48:23.563450+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T10:48:17.053375+00:00",
+      "timestamp": "2026-02-06T21:04:14.184380+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T11:08:23.526416+00:00",
+      "timestamp": "2026-02-07T07:10:59.534067+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T11:13:24.809563+00:00",
+      "timestamp": "2026-02-07T07:57:37.602215+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T11:47:15.087899+00:00",
+      "timestamp": "2026-02-07T09:58:12.765115+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T12:10:38.314923+00:00",
+      "timestamp": "2026-02-07T10:58:16.941832+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T12:20:32.695985+00:00",
+      "timestamp": "2026-02-07T11:45:19.769594+00:00",
       "signal_score": 55
     },
     {
-      "timestamp": "2026-02-06T12:25:51.079325+00:00",
+      "timestamp": "2026-02-07T13:57:23.385213+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T15:52:49.044072+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T17:57:05.501646+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T19:49:44.458185+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-07T21:54:52.323684+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T00:02:03.411829+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T05:41:38.292846+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T09:59:12.131992+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T11:47:50.868489+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T13:58:45.597517+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T14:59:32.834825+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T17:02:29.055567+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T17:57:54.566643+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T19:16:33.166299+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T20:58:23.337818+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T21:55:37.438740+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-08T23:59:24.334309+00:00",
+      "signal_score": 55
+    },
+    {
+      "timestamp": "2026-02-09T05:48:23.563464+00:00",
       "signal_score": 55
     }
   ]

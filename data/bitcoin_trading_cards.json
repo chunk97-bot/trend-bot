@@ -1,0 +1,52 @@
+{
+  "trend": "bitcoin trading cards",
+  "category": "crypto",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "103.3K",
+      "raw": 103275
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Crypto Collectibles Soar: The Craze for Bitcoin Trading Cards",
+    "summary": "Bitcoin enthusiasts are going wild over the latest digital collectibles - Bitcoin trading cards. These unique blockchain-based assets are capturing the imagination of crypto fans worldwide.",
+    "origin_story": "The trend started on online platforms like OpenSea, where Bitcoin-themed digital cards are being bought, sold, and traded like physical sports cards.",
+    "expert_analysis": "This trend reflects the growing mainstream appeal of cryptocurrencies and the desire for crypto-native collectibles. It taps into the human love of owning unique, scarce digital items that can be displayed and traded.",
+    "impact": "The surging popularity of Bitcoin trading cards could pave the way for more blockchain-based collectibles to enter the mainstream.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-07T14:58:33.860529+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:33.860545+00:00",
+      "signal_score": 50
+    }
+  ]
+}

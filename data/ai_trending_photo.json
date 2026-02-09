@@ -1,20 +1,21 @@
 {
   "trend": "ai trending photo",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
-    "google": true
+    "google": true,
+    "x": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "110.3K",
-      "raw": 110251
+      "searches": "142.8K",
+      "raw": 142832
     },
     "x": {
-      "posts": "0",
-      "reposts": "0",
-      "raw_posts": 0,
-      "raw_reposts": 0
+      "posts": "143.7K",
+      "reposts": "28.9K",
+      "raw_posts": 143697,
+      "raw_reposts": 28901
     },
     "tiktok": {
       "views": "0",
@@ -27,53 +28,122 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 50,
-  "momentum": "stable",
-  "lifecycle": "peak",
+  "signal_score": 100,
+  "momentum": "rising",
+  "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [
     "ai trending photo",
-    "ai trending photo prompt"
+    "ai trending",
+    "Trending"
   ],
   "analysis": {
-    "headline": "AI-Generated Photos Take the Internet by Storm",
-    "summary": "The latest craze sweeping the internet is the ability to create stunningly realistic images using artificial intelligence. People are flocking to try out AI photo generation tools, leading to a surge in popularity and online discussion.",
-    "origin_story": "The trend started gaining momentum on social media platforms like Twitter, where users began sharing their AI-generated creations and marveling at the technology's capabilities.",
-    "expert_analysis": "This trend speaks to our collective fascination with the rapid advancements in AI technology and its ability to blur the lines between reality and imagination. It also highlights our growing appetite for creative self-expression, as people use these tools to explore their artistic side and push the boundaries of what's possible.",
-    "impact": "The rise of AI-generated photos has the potential to revolutionize the way we create and consume visual content, with far-reaching implications for industries like art, advertising, and entertainment.",
+    "headline": "ai trending photo Takes Over The Internet",
+    "summary": "The topic 'ai trending photo' is trending across google, x.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T12:26:06.453062+00:00",
+  "timestamp": "2026-02-09T05:48:05.178863+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T10:48:19.285980+00:00",
+      "timestamp": "2026-02-06T21:57:07.789012+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T11:08:31.411271+00:00",
-      "signal_score": 50
-    },
-    {
-      "timestamp": "2026-02-06T11:13:36.811261+00:00",
-      "signal_score": 50
-    },
-    {
-      "timestamp": "2026-02-06T11:32:42.332550+00:00",
-      "signal_score": 50
-    },
-    {
-      "timestamp": "2026-02-06T11:47:02.601363+00:00",
+      "timestamp": "2026-02-06T23:53:47.207314+00:00",
       "signal_score": 100
     },
     {
-      "timestamp": "2026-02-06T12:20:16.956420+00:00",
+      "timestamp": "2026-02-07T04:54:52.283665+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T20:57:12.795976+00:00",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-07T21:54:33.614358+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T23:00:26.044232+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-08T05:41:28.193893+00:00",
       "signal_score": 90
     },
     {
-      "timestamp": "2026-02-06T12:26:06.453062+00:00",
-      "signal_score": 50
+      "timestamp": "2026-02-08T07:50:48.599370+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T09:02:26.647287+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T09:59:01.624301+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T10:59:47.172747+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T11:47:44.190477+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T13:58:27.685245+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T14:59:25.238685+00:00",
+      "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-08T15:54:18.074914+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T17:02:14.492639+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T17:57:35.520709+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T19:16:15.073283+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T19:55:31.378375+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T20:58:14.743520+00:00",
+      "signal_score": 70
+    },
+    {
+      "timestamp": "2026-02-08T21:55:30.633628+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T23:01:24.702927+00:00",
+      "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-08T23:59:09.527777+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-09T05:48:05.178884+00:00",
+      "signal_score": 100
     }
   ]
 }

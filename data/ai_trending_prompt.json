@@ -2,20 +2,19 @@
   "trend": "ai trending prompt",
   "category": "technology",
   "platforms": {
-    "google": true,
-    "x": true
+    "google": true
   },
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "192.6K",
-      "raw": 192587
+      "searches": "118.4K",
+      "raw": 118369
     },
     "x": {
-      "posts": "112.9K",
-      "reposts": "44.3K",
-      "raw_posts": 112865,
-      "raw_reposts": 44281
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
     },
     "tiktok": {
       "views": "0",
@@ -28,58 +27,118 @@
       "raw_posts": 0
     }
   },
-  "signal_score": 100,
-  "momentum": "rising",
-  "lifecycle": "new",
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
   "locations": [
     "global"
   ],
-  "related_trends": [
-    "ai trending prompt",
-    "ai trending",
-    "Trending"
-  ],
+  "related_trends": [],
   "analysis": {
-    "headline": "The AI Prompt Revolution: How Creative Wizardry is Captivating the Web",
-    "summary": "AI-powered text generation is taking the internet by storm, as users discover the boundless creative potential of prompting AI models to produce content. From imaginative art to clever writing, this trend reflects a profound shift in how we interact with technology.",
-    "origin_story": "The AI prompt trend emerged from the growing popularity of AI art and language models like DALL-E and GPT-3, which allow users to generate custom images and text by inputting text prompts.",
-    "expert_analysis": "This trend highlights our desire for more engaging, personalized digital experiences. By leveraging AI, users can unleash their creativity in novel ways, blurring the lines between human and machine intelligence. It also taps into the public's fascination with the capabilities and limitations of AI technology.",
-    "impact": "As AI prompting becomes more mainstream, it could revolutionize content creation, problem-solving, and even education, empowering individuals to harness the power of artificial intelligence in their daily lives.",
+    "headline": "AI Prompt Explosion: The Next Gen of Content Creation",
+    "summary": "AI-generated prompts have taken the internet by storm, transforming how people create everything from art to articles. The meteoric rise in searches reflects a growing fascination with this powerful new tool.",
+    "origin_story": "The trend began with the widespread adoption of AI image generation tools like DALL-E and Midjourney, which allow users to create unique visuals by simply typing in a descriptive prompt.",
+    "expert_analysis": "This surge in AI prompt interest underscores a broader cultural shift towards harnessing artificial intelligence to augment and enhance human creativity. As the technology becomes more accessible, it's empowering a new generation of content creators to push the boundaries of what's possible.",
+    "impact": "AI prompts are poised to disrupt industries ranging from art and design to marketing and journalism, as people explore the potential of this transformative technology.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T12:25:24.170040+00:00",
+  "timestamp": "2026-02-08T23:59:33.976395+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T10:48:14.370934+00:00",
-      "signal_score": 75
-    },
-    {
-      "timestamp": "2026-02-06T11:08:17.234351+00:00",
-      "signal_score": 80
-    },
-    {
-      "timestamp": "2026-02-06T11:13:13.446856+00:00",
-      "signal_score": 75
-    },
-    {
-      "timestamp": "2026-02-06T11:32:22.422323+00:00",
-      "signal_score": 100
-    },
-    {
-      "timestamp": "2026-02-06T11:47:27.728920+00:00",
+      "timestamp": "2026-02-07T09:03:13.309772+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T12:10:03.744794+00:00",
-      "signal_score": 100
-    },
-    {
-      "timestamp": "2026-02-06T12:20:43.112931+00:00",
+      "timestamp": "2026-02-07T09:58:27.193348+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T12:25:24.201970+00:00",
-      "signal_score": 100
+      "timestamp": "2026-02-07T10:58:25.849375+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:45:30.044870+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:03.844595+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:03.475990+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:24.008306+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:19:49.595067+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:17.885297+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:15.698491+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:49:58.168839+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:12.696842+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:53.032578+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:21.828088+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:10.530994+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:08.400066+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:59:06.963016+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:44.058300+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:10.001228+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:55:42.860854+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:41.686479+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:55:51.138920+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:43.879523+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:33.976412+00:00",
+      "signal_score": 50
     }
   ],
   "image": {

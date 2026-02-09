@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "168.2K",
-      "raw": 168216
+      "searches": "273.5K",
+      "raw": 273474
     },
     "x": {
       "posts": "0",
@@ -29,18 +29,20 @@
   },
   "signal_score": 50,
   "momentum": "stable",
+  "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "Super Bowl 2025 Promises Innovative Experiences",
-    "summary": "With 168.2K Google searches, the trends for Super Bowl 2025 are on the rise, indicating heightened public interest in the event's evolving offerings.",
-    "origin_story": "As technology continues to shape the future of live events, the Super Bowl is poised to unveil new and exciting experiences for fans.",
-    "impact": "The trends suggest that the Super Bowl 2025 will push the boundaries of sports entertainment, captivating audiences with cutting-edge innovations.",
+    "headline": "Super Bowl 2025 Fever Grips the Internet: A Glimpse into the Future",
+    "summary": "With the Super Bowl just months away, excitement is reaching a fever pitch online as fans eagerly anticipate the biggest sporting event of the year. Google searches for 'Super Bowl 2025' have surged to over 273,500, indicating a widespread fascination with the upcoming game.",
+    "origin_story": "The immense interest in Super Bowl 2025 can be traced back to the league's recent announcement of groundbreaking innovations and technological advancements that will be featured during the event.",
+    "expert_analysis": "This trend reflects the public's insatiable appetite for the Super Bowl's ability to captivate and innovate. As the pinnacle of American football, the game has long been a cultural touchstone, and the anticipation for 2025 suggests that the league is poised to push the boundaries of what's possible, both on and off the field.",
+    "impact": "The surge in Super Bowl 2025 searches signals that this event will have a significant impact on the wider cultural landscape, from entertainment and technology to societal trends and the global zeitgeist.",
     "status": "rising"
   },
-  "timestamp": "2026-02-06T11:09:03.367866+00:00",
+  "timestamp": "2026-02-08T23:02:08.088660+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:31.383817+00:00",
@@ -48,6 +50,94 @@
     },
     {
       "timestamp": "2026-02-06T11:09:03.367866+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T17:32:12.557392+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T10:58:37.589738+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T12:00:01.516770+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:17.466662+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:24.486855+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:02:42.148175+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:15.533803+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:32.334545+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:40.530010+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:39.853192+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:20.266436+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:58.348828+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:20.537980+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:06.341440+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:28.642138+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:03:11.139089+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:36.692786+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:37.688264+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:00:01.886984+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:17:04.540838+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:56:11.641714+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:02:08.088676+00:00",
       "signal_score": 50
     }
   ]

@@ -1,0 +1,56 @@
+{
+  "trend": "chatgpt trending searches",
+  "category": "technology",
+  "platforms": {
+    "google": true,
+    "instagram": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "96.6K",
+      "raw": 96564
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "3.1M",
+      "reach": "3.6M",
+      "raw_posts": 3112602
+    }
+  },
+  "signal_score": 70,
+  "momentum": "stable",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending searches",
+    "#Search"
+  ],
+  "analysis": {
+    "headline": "ChatGPT Craze Sweeps the Internet as AI Chatbot Captivates the World",
+    "summary": "ChatGPT, the advanced language model developed by OpenAI, has taken the internet by storm, sparking a surge in searches and social media chatter as people explore its remarkable capabilities in everything from creative writing to coding.",
+    "origin_story": "The chatbot was released to the public in late November 2022, quickly going viral as users shared their impressive interactions with the AI on platforms like Twitter and Instagram.",
+    "expert_analysis": "The ChatGPT trend reflects a growing fascination with the potential of artificial intelligence to transform how we approach tasks and solve problems. The chatbot's ability to engage in human-like dialogue and provide nuanced, contextual responses has captured the public's imagination, fueling discussions about the future of AI and its societal implications.",
+    "impact": "As the ChatGPT craze continues to grow, it has the potential to shape the way we interact with technology, learn new skills, and even approach creative and professional endeavors.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-07T13:57:11.702331+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T13:57:11.702345+00:00",
+      "signal_score": 70
+    }
+  ]
+}

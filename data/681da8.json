@@ -1,74 +1,153 @@
 {
   "trend": "681da8",
-  "category": "entertainment",
+    "category": "technology",
   "platforms": {
     "x": true
   },
   "platform_count": 1,
   "metrics": {
-    "x_posts": 80917,
-    "x_reposts": 19159
-  },
-  "signal_score": 55,
-  "momentum": "stable",
-  "lifecycle": "peak",
+      "google": {
+        "searches": "0",
+        "raw": 0
+      },
+      "x": {
+        "posts": "49.9K",
+        "reposts": "15.6K",
+        "raw_posts": 49924,
+        "raw_reposts": 15589
+      },
+      "tiktok": {
+        "views": "2.1M",
+        "videos": "24.0K",
+        "raw_views": 2106262
+      },
+      "instagram": {
+        "posts": "0",
+        "reach": "0",
+        "raw_posts": 0
+      }
+    },
+    "signal_score": 85,
+    "momentum": "rising",
+    "lifecycle": "new",
   "locations": [
     "global"
   ],
   "related_trends": [],
   "analysis": {
-    "headline": "681da8 Takes Over The Internet",
-    "summary": "The topic '681da8' is trending across x.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
-  },
-  "timestamp": "2026-02-08T14:13:53.608823+00:00",
+      "headline": "Mysterious Hexadecimal Code Captivates the Internet: Cracking the 681da8 Trend",
+      "summary": "A baffling hexadecimal code, 681da8, has taken social media by storm, sparking widespread speculation and curiosity about its meaning and origins. With millions of views and posts across TikTok and other platforms, this digital enigma has captured the imagination of users worldwide.",
+      "origin_story": "The trend first emerged on TikTok, where users began sharing and discussing the cryptic code, leading to a surge in engagement and a race to uncover its hidden significance.",
+      "expert_analysis": "The 681da8 trend taps into our innate human desire to solve mysteries and decipher hidden meanings. In an age of information overload, the public's fascination with this code reflects a craving for something novel and intriguing that stands out from the constant stream of digital content. This trend highlights our collective curiosity and the power of the internet to amplify and spread enigmatic phenomena.",
+      "impact": "The 681da8 trend has transcended social media, sparking discussions across various online communities and potentially leading to new discoveries or creative interpretations.",
+      "status": "viral"
+    },
+    "timestamp": "2026-02-09T05:48:12.389775+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T10:43:01.180677+00:00",
+      "timestamp": "2026-02-07T19:05:54.825177+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T19:49:32.624341+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T20:57:05.559998+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T21:54:41.255314+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T23:00:19.375621+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T00:02:00.307347+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T05:41:35.823347+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T07:50:57.495729+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-08T09:02:29.488726+00:00",
       "signal_score": 90
     },
     {
-      "timestamp": "2026-02-06T10:48:12.462433+00:00",
+      "timestamp": "2026-02-08T09:59:04.843923+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T10:59:51.663994+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T11:47:48.152374+00:00",
       "signal_score": 85
     },
     {
-      "timestamp": "2026-02-06T11:08:13.920008+00:00",
+      "timestamp": "2026-02-08T13:58:34.380163+00:00",
       "signal_score": 85
     },
     {
-      "timestamp": "2026-02-06T11:13:09.234499+00:00",
+      "timestamp": "2026-02-08T14:59:21.865073+00:00",
       "signal_score": 85
     },
     {
-      "timestamp": "2026-02-06T11:29:32.829236+00:00",
+      "timestamp": "2026-02-08T15:54:25.707965+00:00",
       "signal_score": 65
     },
     {
-      "timestamp": "2026-02-06T11:32:27.233961+00:00",
+      "timestamp": "2026-02-08T17:02:18.444377+00:00",
       "signal_score": 100
     },
     {
-      "timestamp": "2026-02-06T11:47:06.441640+00:00",
-      "signal_score": 100
-    },
-    {
-      "timestamp": "2026-02-06T12:10:23.770715+00:00",
+      "timestamp": "2026-02-08T17:57:44.187184+00:00",
       "signal_score": 85
     },
     {
-      "timestamp": "2026-02-06T12:20:11.872058+00:00",
+      "timestamp": "2026-02-08T19:16:19.621262+00:00",
       "signal_score": 100
     },
     {
+<<<<<<< HEAD
       "timestamp": "2026-02-06T12:25:30.652325+00:00",
       "signal_score": 75
     },
     {
       "timestamp": "2026-02-08T14:13:53.608823+00:00",
       "signal_score": 55
+=======
+      "timestamp": "2026-02-08T19:55:23.655681+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-08T20:58:07.522339+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T21:55:22.835500+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-08T23:01:28.065928+00:00",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-08T23:59:16.670109+00:00",
+      "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-09T05:48:12.389790+00:00",
+      "signal_score": 85
+>>>>>>> 5ed623a47a46394fb1abfd6f28bfe77c647b1b71
     }
   ]
 }

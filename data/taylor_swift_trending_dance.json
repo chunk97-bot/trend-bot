@@ -1,0 +1,60 @@
+{
+  "trend": "taylor swift trending dance",
+  "category": "entertainment",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "143.6K",
+      "raw": 143620
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Taylor Swift Fans Break the Internet with Viral Dance Challenge",
+    "summary": "Millions of Taylor Swift fans have taken to the internet to showcase their best dance moves to the pop star's latest hit song, sparking a global craze that has captivated the online world.",
+    "origin_story": "The trend first emerged on TikTok, where users began posting videos of themselves dancing to Swift's energetic track, encouraging others to join the challenge.",
+    "expert_analysis": "This viral dance trend speaks to the unparalleled influence and devoted fan base of Taylor Swift. It showcases how the singer's music can transcend the boundaries of the platform and become a cultural phenomenon, uniting fans across the globe through a shared love of her artistry.",
+    "impact": "The Taylor Swift dance challenge has already reached millions, showcasing the power of social media to amplify and spread cultural trends at a breakneck pace.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T09:59:37.852763+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T21:04:54.819363+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:35.316423+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:37.852777+00:00",
+      "signal_score": 50
+    }
+  ]
+}

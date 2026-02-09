@@ -1,0 +1,52 @@
+{
+  "trend": "bitcoin trading platform",
+  "category": "crypto",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "229.5K",
+      "raw": 229538
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "Bitcoin Trading Platforms Surge Amid Crypto Resurgence",
+    "summary": "Interest in bitcoin trading platforms has spiked as the cryptocurrency market experiences a resurgence, with investors looking to capitalize on the latest price fluctuations.",
+    "origin_story": "The trend is centered around popular trading platforms like Coinbase, Binance, and Kraken, as people seek efficient ways to buy, sell, and manage their digital assets.",
+    "expert_analysis": "This surge in bitcoin trading platform searches reflects the growing mainstream adoption and influence of cryptocurrencies. As the market becomes more volatile, traders are seeking reliable platforms to navigate the complex and dynamic crypto landscape.",
+    "impact": "The increased activity on these platforms could lead to further investment and innovation in the cryptocurrency sector, potentially driving wider acceptance and integration of digital assets in the financial system.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-07T14:58:37.197533+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:37.197552+00:00",
+      "signal_score": 50
+    }
+  ]
+}

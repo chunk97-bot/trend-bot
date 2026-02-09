@@ -1,0 +1,116 @@
+{
+  "trend": "chatgpt trending image generator prompt",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "290.8K",
+      "raw": 290846
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "The AI Image Generator Trend Grips the Internet",
+    "summary": "Prompted by the growing popularity of ChatGPT, people are flocking to AI-powered image generators to create unique and visually striking images with just a few words. This trend is captivating the public's attention.",
+    "origin_story": "The trend first emerged as more people gained access to AI image generators like DALL-E and Midjourney, which allow users to create custom images from text prompts.",
+    "expert_analysis": "This trend reflects the public's fascination with the capabilities of AI and their desire to harness this technology for creative expression. It also highlights the growing role of AI in shaping our visual culture and the way we communicate.",
+    "impact": "The widespread use of AI image generators has the potential to transform industries like design, marketing, and entertainment.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T05:48:52.362528+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-06T15:06:26.910838+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T17:31:55.223288+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:04:31.750626+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T21:57:17.422855+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T22:54:02.616375+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-06T23:54:22.546945+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T04:55:30.094710+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:11:27.400682+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T07:58:03.884428+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:24.321567+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:41.111309+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:42.501623+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T13:57:43.952139+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:52.558045+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:00.943962+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:59:43.848951+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:52.362542+00:00",
+      "signal_score": 50
+    }
+  ]
+}

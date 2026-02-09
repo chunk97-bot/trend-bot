@@ -1,0 +1,114 @@
+{
+  "trend": "chatgpt trending",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "131.3K",
+      "raw": 131341
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "chatgpt trending",
+    "chatgpt trending prompt",
+    "chatgpt trending photo",
+    "chatgpt trending photo prompt",
+    "chatgpt trending image generator prompt"
+  ],
+  "analysis": {
+    "headline": "ChatGPT Dominates Google Searches as AI Chatbot Captivates the World",
+    "summary": "ChatGPT, the advanced language model developed by OpenAI, has taken the internet by storm, with Google searches for the AI chatbot skyrocketing. People are fascinated by its human-like conversational abilities and its potential to revolutionize how we interact with technology.",
+    "origin_story": "ChatGPT was released to the public in late 2022, and its popularity has grown rapidly, with users sharing their experiences and prompts on social media platforms like Twitter.",
+    "expert_analysis": "This trend reflects a growing public interest in the capabilities and implications of artificial intelligence. As ChatGPT demonstrates its ability to assist with a wide range of tasks, from writing to coding, it has sparked discussions about the future of work, education, and even creative pursuits. The trend also highlights the public's desire for more accessible and user-friendly AI tools.",
+    "impact": "The surge in ChatGPT's popularity could have far-reaching consequences, from reshaping the job market to transforming the way we approach problem-solving and education.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T19:16:45.195621+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T15:53:10.581263+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:19:56.186593+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:57:20.397633+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:05.004917+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:55:04.871182+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T00:02:10.609024+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:52.676210+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T07:51:16.893951+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:56.402481+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:25.604528+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:59:10.142239+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:48.127570+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:43.646528+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:13.118955+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:45.195639+00:00",
+      "signal_score": 50
+    }
+  ]
+}

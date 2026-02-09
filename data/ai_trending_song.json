@@ -1,0 +1,144 @@
+{
+  "trend": "ai trending song",
+  "category": "technology",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "275.7K",
+      "raw": 275666
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "AI-Generated Song Takes Internet by Storm, Sparking Debate",
+    "summary": "An AI-composed song has gone viral, captivating listeners and igniting discussions about the future of music creation. The track, which blends human-like vocals with synthetic instrumentation, has captured the public's imagination.",
+    "origin_story": "The song first gained traction on various social media platforms, where users shared their reactions and speculated about the technological advancements behind its creation.",
+    "expert_analysis": "This trend reflects the growing influence of AI in the arts, challenging traditional notions of creativity and authorship. As AI systems become more sophisticated in generating content, the public is grappling with the implications for the music industry and the creative process as a whole.",
+    "impact": "The widespread interest in this AI-generated song suggests a shift in how people consume and perceive music, potentially shaping the future of the industry.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-09T05:48:41.218946+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T13:57:00.120882+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T14:57:53.254280+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T15:52:42.413631+00:00",
+      "signal_score": 80
+    },
+    {
+      "timestamp": "2026-02-07T17:01:55.040453+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T17:19:33.777535+00:00",
+      "signal_score": 85
+    },
+    {
+      "timestamp": "2026-02-07T17:56:48.614537+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T19:05:47.179855+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T19:49:24.660501+00:00",
+      "signal_score": 100
+    },
+    {
+      "timestamp": "2026-02-07T20:57:22.995250+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T21:54:57.993572+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:35.999100+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:41:45.231443+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:02:46.140683+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:14.779884+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:47:58.388809+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T13:58:56.516261+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T14:59:39.773981+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:54:36.838788+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:36.593885+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:02.240515+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T20:58:33.938067+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:55:43.511194+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:01:37.806393+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-09T05:48:41.218961+00:00",
+      "signal_score": 50
+    }
+  ]
+}

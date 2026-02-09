@@ -1,0 +1,52 @@
+{
+  "trend": "nfl trending twitter",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "169.0K",
+      "raw": 168975
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "analysis": {
+    "headline": "NFL Dominates Twitter as Fans Eagerly Await Game Day",
+    "summary": "With the NFL regular season in full swing, football fans have flocked to Twitter to discuss their favorite teams and players. The surge in online chatter reflects the passionate following the league commands among sports enthusiasts.",
+    "origin_story": "The NFL's presence on Twitter has been a long-standing trend, with the platform serving as a hub for real-time updates, analysis, and fan engagement during game days and throughout the season.",
+    "expert_analysis": "The NFL's enduring popularity on social media underscores the league's ability to captivate audiences across generations. The combination of high-stakes competition, star-studded rosters, and the shared experience of game day creates a unique sense of community among fans, who turn to Twitter to connect, debate, and celebrate their team's successes.",
+    "impact": "The NFL's strong online presence translates to increased fan engagement, which can drive viewership, merchandise sales, and the overall popularity of the league.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T00:02:40.309966+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-08T00:02:40.309987+00:00",
+      "signal_score": 50
+    }
+  ]
+}

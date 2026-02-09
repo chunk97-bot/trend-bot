@@ -1,0 +1,59 @@
+{
+  "trend": "bitcoin tradingview",
+  "category": "crypto",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "164.3K",
+      "raw": 164289
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "bitcoin tradingview",
+    "bitcoin trading"
+  ],
+  "analysis": {
+    "headline": "Bitcoin TradingView Searches Soar as Crypto Traders Seek Insights",
+    "summary": "Bitcoin traders are flocking to TradingView, a popular financial data platform, as they seek in-depth analysis and technical insights to navigate the volatile cryptocurrency market.",
+    "origin_story": "The surge in Google searches for 'bitcoin tradingview' has been driven by the platform's robust charting tools, indicators, and community of active traders.",
+    "expert_analysis": "This trend reflects the growing sophistication and engagement of the retail crypto trading community. Investors are increasingly relying on data-driven analysis and peer-to-peer insights to make informed decisions amid the market's ups and downs.",
+    "impact": "The heightened interest in TradingView could drive more users to the platform, further enhancing its position as a go-to resource for cryptocurrency traders.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-07T14:58:30.640300+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T10:58:47.112871+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T14:58:30.640319+00:00",
+      "signal_score": 50
+    }
+  ]
+}

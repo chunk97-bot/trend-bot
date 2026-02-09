@@ -7,8 +7,8 @@
   "platform_count": 1,
   "metrics": {
     "google": {
-      "searches": "173.4K",
-      "raw": 173380
+      "searches": "298.0K",
+      "raw": 298043
     },
     "x": {
       "posts": "0",
@@ -39,29 +39,109 @@
     "super bowl trending song"
   ],
   "analysis": {
-    "headline": "Super Bowl Fever Sweeps the Internet as Big Game Approaches",
-    "summary": "As the highly anticipated Super Bowl nears, fans and spectators alike are turning to Google to search for the latest updates, news, and information surrounding the big event. The surge in interest reflects the growing anticipation and excitement leading up to the championship showdown.",
-    "origin_story": "The spike in Google searches for 'super bowl trending' and related terms is a clear indicator that the Super Bowl has captured the public's attention, with fans eagerly following the developments and discussions around the game.",
-    "expert_analysis": "The intense interest in the Super Bowl is a testament to the event's enduring cultural significance. The big game has transcended its status as a mere sports event, becoming a cultural phenomenon that encompasses entertainment, advertising, and social commentary. This trend reflects the deep-rooted passion and engagement of sports fans, as well as the broader public's fascination with the spectacle and pageantry surrounding the Super Bowl.",
-    "impact": "The widespread interest in the Super Bowl and its related trends is likely to translate into increased viewership, engagement, and conversations, ultimately driving broader cultural and economic impact.",
-    "status": "rising"
+    "headline": "Super Bowl Fever Sweeps the Internet as Fans Gear Up for the Big Game",
+    "summary": "With the Super Bowl just around the corner, search interest in the annual sports extravaganza is soaring, as fans eagerly anticipate the game, the halftime show, and all the buzz surrounding the event.",
+    "origin_story": "Google data shows that search interest in the Super Bowl has been steadily increasing in the weeks leading up to the big game, with people seeking out information on teams, players, and the latest news and updates.",
+    "expert_analysis": "The surge in Super Bowl-related searches reflects the enduring popularity of the event, which has become a cultural phenomenon that transcends the realm of sports. The Super Bowl's ability to captivate audiences, both casual fans and dedicated sports enthusiasts, speaks to its broader significance as a shared experience that brings people together, whether virtually or in-person.",
+    "impact": "The intense interest in the Super Bowl is likely to translate into significant viewership and engagement, with millions of people tuning in to watch the game, the halftime show, and the much-anticipated commercials.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-06T12:26:50.372998+00:00",
+  "timestamp": "2026-02-08T23:02:01.729977+00:00",
   "history": [
     {
-      "timestamp": "2026-02-06T11:14:00.482771+00:00",
+      "timestamp": "2026-02-06T21:04:44.481337+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T11:33:18.489184+00:00",
+      "timestamp": "2026-02-06T22:54:15.943340+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T12:21:15.305097+00:00",
+      "timestamp": "2026-02-07T07:11:38.554836+00:00",
       "signal_score": 50
     },
     {
-      "timestamp": "2026-02-06T12:26:50.372998+00:00",
+      "timestamp": "2026-02-07T07:58:17.779856+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:03:33.267178+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T09:58:50.557038+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T11:59:55.371867+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T15:53:17.472901+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T17:20:07.936031+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:06:32.473235+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T19:50:11.707922+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:00:51.796573+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T05:42:02.940632+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:03:05.485715+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:29.333898+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:00:29.418945+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T11:48:30.961051+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T15:55:04.693917+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:02:58.093252+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T17:58:29.987357+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:16:57.308903+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T19:56:03.224713+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T21:56:12.322904+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T23:02:01.729992+00:00",
       "signal_score": 50
     }
   ]

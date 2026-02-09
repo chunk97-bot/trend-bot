@@ -1,0 +1,70 @@
+{
+  "trend": "nba trending",
+  "category": "sports",
+  "platforms": {
+    "google": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "google": {
+      "searches": "274.3K",
+      "raw": 274306
+    },
+    "x": {
+      "posts": "0",
+      "reposts": "0",
+      "raw_posts": 0,
+      "raw_reposts": 0
+    },
+    "tiktok": {
+      "views": "0",
+      "videos": "0",
+      "raw_views": 0
+    },
+    "instagram": {
+      "posts": "0",
+      "reach": "0",
+      "raw_posts": 0
+    }
+  },
+  "signal_score": 50,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [
+    "nba trending",
+    "nba trending news today",
+    "nba trending news",
+    "nba trending players",
+    "nba trending topics"
+  ],
+  "analysis": {
+    "headline": "NBA Takes the Internet by Storm: Insights into the League's Viral Moment",
+    "summary": "The NBA has become the center of attention on the internet, with thousands of fans and enthusiasts flocking to search engines to discuss the latest happenings in the league. This surge in interest reflects the growing passion and engagement of basketball fans worldwide.",
+    "origin_story": "The NBA's trending status emerged from a combination of recent game highlights, player news, and the excitement surrounding the ongoing NBA playoffs.",
+    "expert_analysis": "This NBA-focused trend highlights the power of sports to captivate and unite audiences online. The league's ability to generate widespread conversation and interest demonstrates the enduring appeal of professional basketball, as well as the increasing importance of digital platforms in shaping fan engagement and cultural relevance.",
+    "impact": "The NBA's viral moment has the potential to drive increased viewership, merchandise sales, and further cement the league's status as a global entertainment powerhouse.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-08T09:59:48.546459+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-07T14:58:27.016439+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T20:57:49.814777+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-07T23:01:07.826835+00:00",
+      "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-08T09:59:48.546474+00:00",
+      "signal_score": 50
+    }
+  ]
+}
