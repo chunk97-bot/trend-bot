@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Trend Radar - X-First Meme Coin & Trend Aggregator
-Priority: X/Twitter signals → Cross-validate on Google, TikTok, Instagram
+Priority: X/Twitter signals &rarr; Cross-validate on Google, TikTok, Instagram
 Focus: Meme coins, crypto, viral content, influencer tweets
 Generates news-style content with Claude AI
 """
@@ -18,6 +18,28 @@ from pytrends.request import TrendReq
 import feedparser
 
 # ================= CONFIG =================
+
+# Emoji constants as HTML entities (avoid encoding issues on different platforms)
+EMOJI = {
+    'robot': '&#129302;',      # &#129302;
+    'book': '&#128214;',       # &#128214;
+    'calendar': '&#128197;',   # &#128197;
+    'pin': '&#128205;',        # &#128205;
+    'boom': '&#128165;',       # &#128165;
+    'fire': '&#128293;',       # &#128293;
+    'chart': '&#128200;',      # &#128200;
+    'target': '&#127919;',     # &#127919;
+    'phone': '&#128241;',      # &#128241;
+    'stats': '&#128202;',      # &#128202;
+    'bird': '&#128038;',       # &#128038;
+    'magnify': '&#128269;',    # &#128269;
+    'music': '&#127925;',      # &#127925;
+    'money': '&#128176;',      # &#128176;
+    'red': '&#128308;',        # &#128308;
+    'warning': '&#9888;',      # &#9888;
+    'check': '&#10003;',       # &#10003;
+    'cross': '&#10007;',       # &#10007;
+}
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 CLAUDE_MODEL = "claude-3-haiku-20240307"
@@ -250,7 +272,7 @@ SEED_TOPICS = [
 
 def scrape_google_trends_global():
     """Get trending searches from multiple countries with retry logic"""
-    print("   📊 Scraping Google Trends...")
+    print("   &#128202; Scraping Google Trends...")
     all_trends = {}
     for location in GLOBAL_LOCATIONS[:3]:
         for attempt in range(3):
@@ -269,17 +291,17 @@ def scrape_google_trends_global():
                         }
                     else:
                         all_trends[normalized]["locations"].append(location)
-                print(f"      ✓ {location}: {len(trends)} trends")
+                print(f"      &#10003; {location}: {len(trends)} trends")
                 random_delay()
                 break
             except Exception as e:
-                print(f"      ✗ {location} (attempt {attempt+1}): {e}")
+                print(f"      &#10007; {location} (attempt {attempt+1}): {e}")
                 time.sleep(2)
     return all_trends
 
 def get_google_realtime_trends():
     """Get real-time search trends using Google's public endpoint"""
-    print("   📈 Getting real-time Google trends...")
+    print("   &#128200; Getting real-time Google trends...")
     trends = {}
     
     try:
@@ -301,10 +323,10 @@ def get_google_realtime_trends():
                         "locations": ["global"]
                     }
     except Exception as e:
-        print(f"      ✗ RSS Error: {e}")
+        print(f"      &#10007; RSS Error: {e}")
     
     # Fallback: Use Google Autocomplete for seed topics
-    print("   📈 Using Google Autocomplete fallback...")
+    print("   &#128200; Using Google Autocomplete fallback...")
     autocomplete_count = 0
     for seed in SEED_TOPICS[:10]:
         try:
@@ -328,7 +350,7 @@ def get_google_realtime_trends():
                         autocomplete_count += 1
         except:
             pass
-    print(f"      ✓ Autocomplete: {autocomplete_count} trends")
+    print(f"      &#10003; Autocomplete: {autocomplete_count} trends")
     
     return trends
 
@@ -336,7 +358,7 @@ def get_google_realtime_trends():
 
 def scrape_reddit_trends():
     """Scrape trending topics from Reddit"""
-    print("   🔴 Scraping Reddit trends...")
+    print("   &#128308; Scraping Reddit trends...")
     trends = {}
     
     # Reddit's public JSON endpoints (no auth needed)
@@ -378,7 +400,7 @@ def scrape_reddit_trends():
                             }
             random_delay()
         except Exception as e:
-            print(f"      ✗ r/{subreddit}: {e}")
+            print(f"      &#10007; r/{subreddit}: {e}")
     
     print(f"      Total Reddit trends: {len(trends)}")
     return trends
@@ -386,7 +408,7 @@ def scrape_reddit_trends():
 
 def scrape_crypto_trends():
     """Scrape trending crypto coins from CoinGecko (FREE API, no key needed)"""
-    print("   💰 Scraping crypto trends (CoinGecko)...")
+    print("   &#128176; Scraping crypto trends (CoinGecko)...")
     trends = {}
     
     # CoinGecko free API - trending coins
@@ -431,9 +453,9 @@ def scrape_crypto_trends():
                         "locations": ["global"]
                     }
             
-            print(f"      ✓ CoinGecko: {len(trends)} trending coins")
+            print(f"      &#10003; CoinGecko: {len(trends)} trending coins")
     except Exception as e:
-        print(f"      ✗ CoinGecko error: {e}")
+        print(f"      &#10007; CoinGecko error: {e}")
     
     # Also get top gainers/losers (volatile = interesting for meme coins)
     try:
@@ -468,9 +490,9 @@ def scrape_crypto_trends():
                             "locations": ["global"]
                         }
             
-            print(f"      ✓ CoinGecko movers: {len([t for t in trends.values() if t.get('source') == 'coingecko_movers'])} coins")
+            print(f"      &#10003; CoinGecko movers: {len([t for t in trends.values() if t.get('source') == 'coingecko_movers'])} coins")
     except Exception as e:
-        print(f"      ✗ CoinGecko movers error: {e}")
+        print(f"      &#10007; CoinGecko movers error: {e}")
     
     return trends
 
@@ -515,11 +537,11 @@ def scrape_telegram_channel(channel_username):
             time.sleep(1)  # Wait before retry
             continue
         except Exception as e:
-            print(f"      ⚠ Attempt {attempt + 1} failed: {e}")
+            print(f"      &#9888; Attempt {attempt + 1} failed: {e}")
             continue
     
     if not html:
-        print(f"      ✗ Failed to fetch {channel_username} after 3 attempts")
+        print(f"      &#10007; Failed to fetch {channel_username} after 3 attempts")
         return posts
     
     try:
@@ -604,10 +626,10 @@ def scrape_telegram_channel(channel_username):
             
             posts.append(post)
         
-        print(f"      ✓ {channel_username}: {len(posts)} posts scraped")
+        print(f"      &#10003; {channel_username}: {len(posts)} posts scraped")
         
     except Exception as e:
-        print(f"      ✗ Telegram error for {channel_username}: {e}")
+        print(f"      &#10007; Telegram error for {channel_username}: {e}")
     
     return posts
 
@@ -634,7 +656,7 @@ def detect_post_type(content):
 
 def scrape_all_telegram_channels():
     """Scrape all configured Telegram channels"""
-    print("\n   📱 Scraping Telegram channels...")
+    print("\n   &#128241; Scraping Telegram channels...")
     all_posts = []
     
     for channel in TELEGRAM_CHANNELS:
@@ -690,7 +712,7 @@ def save_telegram_posts(posts):
     with open(telegram_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
-    print(f"      ✓ Saved {len(merged)} posts ({len(new_posts)} new)")
+    print(f"      &#10003; Saved {len(merged)} posts ({len(new_posts)} new)")
     return merged
 
 
@@ -698,7 +720,7 @@ def save_telegram_posts(posts):
 
 def scrape_x_trends():
     """Scrape trending topics from X/Twitter using Nitter instances"""
-    print("   🐦 Scraping X/Twitter trends...")
+    print("   &#128038; Scraping X/Twitter trends...")
     trends = {}
     
     # Public Nitter instances (no auth required)
@@ -733,10 +755,10 @@ def scrape_x_trends():
                                 },
                                 "locations": ["global"]
                             }
-                print(f"      ✓ {instance}: {len(hashtags[:20])} hashtags")
+                print(f"      &#10003; {instance}: {len(hashtags[:20])} hashtags")
                 break
         except Exception as e:
-            print(f"      ✗ {instance}: {e}")
+            print(f"      &#10007; {instance}: {e}")
     
     # Additional: Scrape from whatstrending-style aggregators
     try:
@@ -762,9 +784,9 @@ def scrape_x_trends():
                             },
                             "locations": ["global"]
                         }
-            print(f"      ✓ getdaytrends: found topics")
+            print(f"      &#10003; getdaytrends: found topics")
     except Exception as e:
-        print(f"      ✗ Day trends: {e}")
+        print(f"      &#10007; Day trends: {e}")
     
     # Fallback: Google search for Twitter trends
     try:
@@ -798,7 +820,7 @@ def scrape_x_trends():
 def run_apify_actor(actor_id, input_data, timeout=120):
     """Run an Apify actor and wait for results"""
     if not APIFY_API_KEY:
-        print(f"      ⚠️ No APIFY_API_KEY set - skipping {actor_id}")
+        print(f"      &#9888; No APIFY_API_KEY set - skipping {actor_id}")
         return None
     
     try:
@@ -810,14 +832,14 @@ def run_apify_actor(actor_id, input_data, timeout=120):
         response = requests.post(run_url, json=input_data, timeout=30)
         
         if response.status_code != 201:
-            print(f"      ✗ Failed to start {actor_id}: {response.status_code}")
+            print(f"      &#10007; Failed to start {actor_id}: {response.status_code}")
             return None
         
         run_data = response.json().get("data", {})
         run_id = run_data.get("id")
         
         if not run_id:
-            print(f"      ✗ No run ID returned for {actor_id}")
+            print(f"      &#10007; No run ID returned for {actor_id}")
             return None
         
         # Wait for the run to complete
@@ -839,32 +861,32 @@ def run_apify_actor(actor_id, input_data, timeout=120):
                                 return items_res.json()
                         return []
                     elif status in ["FAILED", "ABORTED", "TIMED-OUT"]:
-                        print(f"      ✗ {actor_id} run {status}")
+                        print(f"      &#10007; {actor_id} run {status}")
                         return None
                 time.sleep(3)  # Reduced sleep time
             except requests.exceptions.Timeout:
                 continue
             except requests.exceptions.RequestException as e:
-                print(f"      ⚠️ Request error: {e}")
+                print(f"      &#9888; Request error: {e}")
                 time.sleep(5)
         
-        print(f"      ✗ {actor_id} timed out")
+        print(f"      &#10007; {actor_id} timed out")
         return None
         
     except Exception as e:
-        print(f"      ✗ Apify error for {actor_id}: {e}")
+        print(f"      &#10007; Apify error for {actor_id}: {e}")
         return None
 
 # ================= X-FIRST SCRAPING (PRIORITY) =================
 
 def scrape_x_influencers():
     """Scrape recent tweets from tracked influencer accounts - HIGHEST PRIORITY"""
-    print("\n   🎯 PHASE 1A: Scraping influencer accounts (X-First)...")
+    print("\n   &#127919; PHASE 1A: Scraping influencer accounts (X-First)...")
     trends = {}
     tweets_data = []  # Store raw tweet data
     
     if not APIFY_API_KEY:
-        print("      ⚠️ No APIFY_API_KEY - cannot scrape influencers")
+        print("      &#9888; No APIFY_API_KEY - cannot scrape influencers")
         return {}, []
     
     # Flatten all influencer accounts with tier info
@@ -882,7 +904,7 @@ def scrape_x_influencers():
         if not tier_accounts:
             continue
             
-        print(f"      → Tier {tier_num}: {len(tier_accounts)} accounts...")
+        print(f"      &rarr; Tier {tier_num}: {len(tier_accounts)} accounts...")
         
         # Scrape tweets from these accounts using search queries (from:username)
         # gentle_cloud/twitter-tweets-scraper uses searchTerms for search
@@ -982,17 +1004,17 @@ def scrape_x_influencers():
                             if engagement_score > trends[normalized]["metrics"].get("engagement_score", 0):
                                 trends[normalized]["metrics"]["engagement_score"] = engagement_score
     
-    print(f"      ✓ Found {len(trends)} influencer trends from {len(tweets_data)} tweets")
+    print(f"      &#10003; Found {len(trends)} influencer trends from {len(tweets_data)} tweets")
     return trends, tweets_data
 
 
 def scrape_x_trending_hashtags():
     """Scrape trending hashtags and topics from X - SECOND PRIORITY"""
-    print("\n   🔥 PHASE 1B: Scraping X trending hashtags...")
+    print("\n   &#128293; PHASE 1B: Scraping X trending hashtags...")
     trends = {}
     
     if not APIFY_API_KEY:
-        print("      ⚠️ No APIFY_API_KEY - using fallback")
+        print("      &#9888; No APIFY_API_KEY - using fallback")
         return scrape_x_trends_fallback()
     
     # Search for trending crypto/meme content
@@ -1077,7 +1099,7 @@ def scrape_x_trending_hashtags():
                 else:
                     trends[normalized]["metrics"]["x_retweets"] = trends[normalized]["metrics"].get("x_retweets", 0) + retweets
     
-    print(f"      ✓ Found {len(trends)} trending hashtags/cashtags")
+    print(f"      &#10003; Found {len(trends)} trending hashtags/cashtags")
     return trends
 
 
@@ -1113,7 +1135,7 @@ def scrape_x_trends_fallback():
 
 def cross_validate_trends(x_keywords):
     """Take keywords from X and check them on Google, TikTok, Instagram"""
-    print("\n   🔍 PHASE 2: Cross-validating X trends on other platforms...")
+    print("\n   &#128269; PHASE 2: Cross-validating X trends on other platforms...")
     validation_results = {}
     
     for keyword in x_keywords[:20]:  # Limit to top 20 keywords
@@ -1127,7 +1149,7 @@ def cross_validate_trends(x_keywords):
         }
     
     # Check Google Trends
-    print("      → Checking Google Trends...")
+    print("      &rarr; Checking Google Trends...")
     try:
         pytrends = TrendReq(hl='en-US', tz=360)
         # Process in batches of 5 (Google Trends limit)
@@ -1147,11 +1169,11 @@ def cross_validate_trends(x_keywords):
                 pass
             random_delay()
     except Exception as e:
-        print(f"      ✗ Google Trends error: {e}")
+        print(f"      &#10007; Google Trends error: {e}")
     
     # Check TikTok via Apify
     if APIFY_API_KEY:
-        print("      → Checking TikTok...")
+        print("      &rarr; Checking TikTok...")
         for keyword in x_keywords[:10]:  # Limit to save API calls
             input_data = {
                 "hashtags": [keyword.replace("#", "").replace("$", "")],
@@ -1165,7 +1187,7 @@ def cross_validate_trends(x_keywords):
             random_delay()
         
         # Check Instagram via Apify
-        print("      → Checking Instagram...")
+        print("      &rarr; Checking Instagram...")
         for keyword in x_keywords[:10]:
             input_data = {
                 "hashtags": [keyword.replace("#", "").replace("$", "")],
@@ -1180,14 +1202,14 @@ def cross_validate_trends(x_keywords):
     # Count validations
     validated_count = sum(1 for k, v in validation_results.items() 
                          if v["google"] or v["tiktok"] or v["instagram"])
-    print(f"      ✓ Cross-validated {validated_count}/{len(x_keywords[:20])} trends")
+    print(f"      &#10003; Cross-validated {validated_count}/{len(x_keywords[:20])} trends")
     
     return validation_results
 
 
 def get_meme_coin_signals(trends, tweets_data):
     """Extract meme coin specific signals from trends and tweets"""
-    print("\n   💰 PHASE 3: Extracting meme coin signals...")
+    print("\n   &#128176; PHASE 3: Extracting meme coin signals...")
     signals = []
     
     # Check all tweets for meme coin mentions
@@ -1225,18 +1247,18 @@ def get_meme_coin_signals(trends, tweets_data):
     # Sort by engagement score
     signals.sort(key=lambda x: x.get("engagement_score", 0), reverse=True)
     
-    print(f"      ✓ Found {len(signals)} meme coin signals")
+    print(f"      &#10003; Found {len(signals)} meme coin signals")
     return signals[:20]  # Top 20 signals
 
 # ================= TIKTOK SCRAPING (APIFY) =================
 
 def scrape_tiktok_trends():
     """Scrape trending TikTok hashtags and videos using Apify"""
-    print("   🎵 Scraping TikTok trends via Apify...")
+    print("   &#127925; Scraping TikTok trends via Apify...")
     trends = {}
     
     if not APIFY_API_KEY:
-        print("      ⚠️ No APIFY_API_KEY - using fallback")
+        print("      &#9888; No APIFY_API_KEY - using fallback")
         return scrape_tiktok_trends_fallback()
     
     # Search for trending hashtags
@@ -1271,9 +1293,9 @@ def scrape_tiktok_trends():
                             },
                             "locations": ["global"]
                         }
-        print(f"      ✓ TikTok: {len(trends)} trends found")
+        print(f"      &#10003; TikTok: {len(trends)} trends found")
     else:
-        print("      ⚠️ Apify returned no results, using fallback")
+        print("      &#9888; Apify returned no results, using fallback")
         return scrape_tiktok_trends_fallback()
     
     return trends
@@ -1306,7 +1328,7 @@ def scrape_tiktok_trends_fallback():
                             "locations": ["global"]
                         }
     except Exception as e:
-        print(f"      ✗ TikTok fallback error: {e}")
+        print(f"      &#10007; TikTok fallback error: {e}")
     
     print(f"      Total TikTok trends (fallback): {len(trends)}")
     return trends
@@ -1319,7 +1341,7 @@ def scrape_instagram_trends():
     trends = {}
     
     if not APIFY_API_KEY:
-        print("      ⚠️ No APIFY_API_KEY - using fallback")
+        print("      &#9888; No APIFY_API_KEY - using fallback")
         return scrape_instagram_trends_fallback()
     
     # Search for trending hashtags
@@ -1350,9 +1372,9 @@ def scrape_instagram_trends():
                             },
                             "locations": ["global"]
                         }
-        print(f"      ✓ Instagram: {len(trends)} trends found")
+        print(f"      &#10003; Instagram: {len(trends)} trends found")
     else:
-        print("      ⚠️ Apify returned no results, using fallback")
+        print("      &#9888; Apify returned no results, using fallback")
         return scrape_instagram_trends_fallback()
     
     return trends
@@ -1384,7 +1406,7 @@ def scrape_instagram_trends_fallback():
                             "locations": ["global"]
                         }
     except Exception as e:
-        print(f"      ✗ Instagram fallback error: {e}")
+        print(f"      &#10007; Instagram fallback error: {e}")
     
     print(f"      Total Instagram trends (fallback): {len(trends)}")
     return trends
@@ -1393,7 +1415,7 @@ def scrape_instagram_trends_fallback():
 
 def scrape_x_trends_apify():
     """Scrape trending Twitter/X topics using Apify"""
-    print("   🐦 Scraping X/Twitter trends via Apify...")
+    print("   &#128038; Scraping X/Twitter trends via Apify...")
     trends = {}
     
     if not APIFY_API_KEY:
@@ -1427,7 +1449,7 @@ def scrape_x_trends_apify():
                             },
                             "locations": ["global"]
                         }
-        print(f"      ✓ X/Twitter (Apify): {len(trends)} trends found")
+        print(f"      &#10003; X/Twitter (Apify): {len(trends)} trends found")
     
     return trends
 
@@ -1459,7 +1481,7 @@ def scrape_news_trends():
                         "locations": ["global"]
                     }
         except Exception as e:
-            print(f"      ✗ RSS {url}: {e}")
+            print(f"      &#10007; RSS {url}: {e}")
     print(f"      Total news trends: {len(trends)}")
     return trends
 
@@ -1503,7 +1525,7 @@ def merge_trends(google, x, reddit, news, tiktok=None, instagram=None):
                 data["multi_platform_bonus"] = True
             filtered[normalized] = data
     
-    print(f"   ✓ {len(merged)} total trends → {len(filtered)} qualifying trends")
+    print(f"   &#10003; {len(merged)} total trends &rarr; {len(filtered)} qualifying trends")
     return filtered
 
 def group_related_trends(trends):
@@ -1734,10 +1756,10 @@ def generate_post_html(trend_name, trend_data):
     # Platform badges with icons
     platform_icons = {
         "x": ("X/Twitter", "𝕏"),
-        "google": ("Google", "🔍"),
-        "tiktok": ("TikTok", "🎵"),
+        "google": ("Google", "&#128269;"),
+        "tiktok": ("TikTok", "&#127925;"),
         "instagram": ("Instagram", "📸"),
-        "reddit": ("Reddit", "🔴"),
+        "reddit": ("Reddit", "&#128308;"),
         "news": ("News", "📰")
     }
     platforms = []
@@ -1769,7 +1791,7 @@ def generate_post_html(trend_name, trend_data):
           <div class="source-avatar">@{influencer}</div>
           <div class="source-info">
             <p>Originally posted by <strong>@{influencer}</strong></p>
-            <a href="{tweet_url}" target="_blank" rel="noopener" class="source-link">View Original Tweet →</a>
+            <a href="{tweet_url}" target="_blank" rel="noopener" class="source-link">View Original Tweet &rarr;</a>
           </div>
         </div>
       </div>'''
@@ -1791,14 +1813,14 @@ def generate_post_html(trend_name, trend_data):
     
     # Category styling
     category_styles = {
-        "meme_coin": ("💰", "rgba(245, 158, 11, 0.15)", "#f59e0b"),
+        "meme_coin": ("&#128176;", "rgba(245, 158, 11, 0.15)", "#f59e0b"),
         "crypto_news": ("🪙", "rgba(99, 102, 241, 0.15)", "#6366f1"),
         "politics": ("🏛️", "rgba(239, 68, 68, 0.15)", "#ef4444"),
         "entertainment": ("🎬", "rgba(168, 85, 247, 0.15)", "#a855f7"),
         "memes": ("😂", "rgba(34, 197, 94, 0.15)", "#22c55e"),
         "sports": ("🏈", "rgba(59, 130, 246, 0.15)", "#3b82f6"),
     }
-    cat_icon, cat_bg, cat_color = category_styles.get(category, ("🔥", "rgba(99, 102, 241, 0.15)", "#6366f1"))
+    cat_icon, cat_bg, cat_color = category_styles.get(category, ("&#128293;", "rgba(99, 102, 241, 0.15)", "#6366f1"))
     
     # Timestamp formatting
     timestamp = trend_data.get("timestamp", datetime.datetime.now(datetime.timezone.utc).isoformat())
@@ -1933,10 +1955,10 @@ def generate_post_html(trend_name, trend_data):
     </a>
     <nav class="nav">
       <a href="../index.html">🏠 Home</a>
-      <a href="../trending.html">🔥 Trending</a>
+      <a href="../trending.html">&#128293; Trending</a>
       <a href="../crypto.html">🪙 Crypto</a>
-      <a href="../search.html">🔍 Search</a>
-      <a href="../timeline.html">📅 Timeline</a>
+      <a href="../search.html">&#128269; Search</a>
+      <a href="../timeline.html">&#128197; Timeline</a>
       <a href="../bookmarks.html">🔖 Bookmarks</a>
     </nav>
   </header>
@@ -1969,7 +1991,7 @@ def generate_post_html(trend_name, trend_data):
       <!-- Quick Stats -->
       <div class="quick-stats">
         <div class="quick-stat">
-          <span class="quick-stat-icon">📊</span>
+          <span class="quick-stat-icon">&#128202;</span>
           <span class="quick-stat-value">{score}</span>
           <span class="quick-stat-label">Signal Score</span>
         </div>
@@ -1979,12 +2001,12 @@ def generate_post_html(trend_name, trend_data):
           <span class="quick-stat-label">Momentum</span>
         </div>
         <div class="quick-stat">
-          <span class="quick-stat-icon">🌐</span>
+          <span class="quick-stat-icon">&#127760;</span>
           <span class="quick-stat-value">{trend_data.get("platform_count", len(platforms))}</span>
           <span class="quick-stat-label">Platforms</span>
         </div>
         <div class="quick-stat">
-          <span class="quick-stat-icon">📈</span>
+          <span class="quick-stat-icon">&#128200;</span>
           <span class="quick-stat-value">{status.title()}</span>
           <span class="quick-stat-label">Status</span>
         </div>
@@ -1992,31 +2014,31 @@ def generate_post_html(trend_name, trend_data):
       
       <!-- AI Analysis -->
       {f'''<div class="content-section ai-analysis">
-        <h3>🤖 AI Analysis</h3>
+        <h3>&#129302; AI Analysis</h3>
         <p>{expert_take}</p>
       </div>''' if expert_take else ''}
       
       <!-- Origin Story -->
       {f'''<div class="content-section origin-section">
-        <h3>📖 Origin Story</h3>
+        <h3>&#128214; Origin Story</h3>
         <p>{origin_story}</p>
         <div class="origin-meta">
-          <div class="origin-meta-item">📅 First detected: <strong data-timestamp="{timestamp}">Recently</strong></div>
-          <div class="origin-meta-item">📍 Started on: <strong>{'Multiple platforms' if len(platforms) > 1 else (platforms[0] if platforms else 'Social Media')}</strong></div>
+          <div class="origin-meta-item">&#128197; First detected: <strong data-timestamp="{timestamp}">Recently</strong></div>
+          <div class="origin-meta-item">&#128205; Started on: <strong>{'Multiple platforms' if len(platforms) > 1 else (platforms[0] if platforms else 'Social Media')}</strong></div>
         </div>
       </div>''' if origin_story else ''}
       
       <!-- Impact -->
       {f'''<div class="content-section impact-section">
-        <h3>💥 Why This Matters</h3>
+        <h3>&#128165; Why This Matters</h3>
         <p>{impact}</p>
       </div>''' if impact else ''}
       
       <!-- Platforms -->
       <div class="platforms-section">
-        <h3>🔥 Trending On</h3>
+        <h3>&#128293; Trending On</h3>
         <div class="platform-badges">
-          {platform_badges if platform_badges else '<span class="platform-badge">🌐 Multiple Platforms</span>'}
+          {platform_badges if platform_badges else '<span class="platform-badge">&#127760; Multiple Platforms</span>'}
         </div>
       </div>
       
@@ -2086,7 +2108,7 @@ def main():
     
     # Combine X trends
     all_x_trends = {**influencer_trends, **x_trending}
-    print(f"\n   📊 Total X trends: {len(all_x_trends)}")
+    print(f"\n   &#128202; Total X trends: {len(all_x_trends)}")
     
     # Extract keywords for cross-validation
     x_keywords = []
@@ -2166,10 +2188,10 @@ def main():
                 merged[normalized] = data.copy()
                 merged[normalized]["x_first_penalty"] = True  # Mark as non-X origin
     
-    print(f"   ✓ Total merged trends: {len(merged)}")
+    print(f"   &#10003; Total merged trends: {len(merged)}")
     
     # PHASE 6: Score and select top trends
-    print("\n📈 PHASE 6: Scoring trends (X-first weighting)...")
+    print("\n&#128200; PHASE 6: Scoring trends (X-first weighting)...")
     for norm, data in merged.items():
         # Calculate platform count
         platform_count = len([p for p in data.get("platforms", {}).values() if p])
@@ -2207,7 +2229,7 @@ def main():
         reverse=True
     )[:MAX_TRENDS_PER_RUN]
     
-    print(f"   ✓ Selected top {len(sorted_trends)} trends")
+    print(f"   &#10003; Selected top {len(sorted_trends)} trends")
     
     # Show top 5 for preview
     print("\n   🔝 Top 5 Trends:")
@@ -2220,7 +2242,7 @@ def main():
     # PHASE 7: Generate news content for each trend
     print("\n📰 PHASE 7: Generating news content...")
     if not CLAUDE_API_KEY:
-        print("   ⚠️ CLAUDE_API_KEY not set - using fallback content")
+        print("   &#9888; CLAUDE_API_KEY not set - using fallback content")
 
     final_trends = []
     for i, (normalized, data) in enumerate(sorted_trends, 1):
@@ -2293,7 +2315,7 @@ def main():
         
         post_name = generate_post_html(trend_name, trend_data)
         final_trends.append(filename)
-        print(f"✓ (score: {data['signal_score']})")
+        print(f"&#10003; (score: {data['signal_score']})")
         random_delay()
     
     # Save meme coin signals separately for quick reference
@@ -2304,7 +2326,7 @@ def main():
                 "signals": meme_signals,
                 "updated": datetime.datetime.now(datetime.timezone.utc).isoformat()
             }, f, indent=2)
-        print(f"\n   💰 Saved {len(meme_signals)} meme coin signals to {signals_path}")
+        print(f"\n   &#128176; Saved {len(meme_signals)} meme coin signals to {signals_path}")
     
     # Update index file with ALL trend files
     all_trend_files = [f for f in sorted(os.listdir(DATA_DIR)) if f.endswith('.json') and f != 'index.json' and f != 'meme_signals.json']
@@ -2313,8 +2335,8 @@ def main():
     
     print("\n" + "=" * 60)
     print(f"✅ COMPLETE! Generated {len(final_trends)} trend reports")
-    print(f"   📊 Total trends in index: {len(all_trend_files)}")
-    print(f"   💰 Meme coin signals: {len(meme_signals)}")
+    print(f"   &#128202; Total trends in index: {len(all_trend_files)}")
+    print(f"   &#128176; Meme coin signals: {len(meme_signals)}")
     print(f"   📁 Data: {DATA_DIR}/")
     print(f"   📄 Posts: {POSTS_DIR}/")
     print("=" * 60)
