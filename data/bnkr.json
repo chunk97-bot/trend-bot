@@ -1,0 +1,44 @@
+{
+  "trend": "$BNKR",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 302,
+    "price_btc": 1.2329632694329173e-08,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$BNKR"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$BNKR Takes Over The Internet",
+    "summary": "The topic '$BNKR' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T12:30:49.924014+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T12:30:49.924014+00:00",
+      "signal_score": 90
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "trend": "$XRP",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 5,
+    "price_btc": 2.0330522826191842e-05,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$XRP"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$XRP Takes Over The Internet",
+    "summary": "The topic '$XRP' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T12:30:58.593243+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:36:43.687613+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T11:42:48.811997+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T11:51:18.916692+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T12:30:58.593243+00:00",
+      "signal_score": 75
+    }
+  ]
+}

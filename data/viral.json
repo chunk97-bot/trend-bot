@@ -1,19 +1,36 @@
 {
   "trend": "viral",
-  "category": "memes",
-  "google_trends": {
-    "interest_score": 0,
-    "trend_direction": "flat"
+  "category": "entertainment",
+  "platforms": {
+    "tiktok": true
   },
-  "social_presence": {
-    "x": "high",
-    "tiktok": "low",
-    "instagram": "high"
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 4300000,
+    "tiktok_likes": 459400,
+    "tiktok_shares": 4701
   },
-  "signal_score": 65,
-  "momentum": "+0%",
+  "signal_score": 40,
+  "momentum": "stable",
   "lifecycle": "peak",
-  "highlight": false,
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "viral Takes Over The Internet",
+    "summary": "The topic 'viral' is trending across tiktok.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T11:17:06.274205+00:00",
   "history": [
     {
       "timestamp": "2026-02-04T10:59:20.649240",
@@ -30,16 +47,10 @@
     {
       "timestamp": "2026-02-06T10:26:27.428968",
       "signal_score": 65
+    },
+    {
+      "timestamp": "2026-02-09T11:17:06.274205+00:00",
+      "signal_score": 40
     }
-  ],
-  "analysis": {
-    "analysis": "",
-    "status": "stable",
-    "meme": "",
-    "token_relevant": false,
-    "image_prompt": null
-  },
-  "token": null,
-  "image": null,
-  "timestamp": "2026-02-06T10:26:28.296548"
+  ]
 }

@@ -4,7 +4,7 @@ const trendsCount = document.getElementById("trends-count");
 
 let allTrends = [];
 let currentFilter = "all";
-let currentSort = "score";
+let currentSort = "date";
 let currentPage = 1;
 const TRENDS_PER_PAGE = 10;
 

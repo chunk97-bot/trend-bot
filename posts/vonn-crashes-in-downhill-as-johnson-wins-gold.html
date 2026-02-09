@@ -26,32 +26,77 @@
   <link rel="stylesheet" href="../style.css">
   <script>
     // Apply saved theme
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = localStorage.getItem('trend-radar-theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
   </script>
   <style>
     .post-container { max-width: 800px; margin: 0 auto; padding: 20px; padding-top: 100px; }
     .post-header { margin-bottom: 32px; }
-    .back-link { color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+    .back-link { color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; font-weight: 500; }
     .back-link:hover { text-decoration: underline; }
-    .post-category { display: inline-block; background: rgba(99, 102, 241, 0.1); color: var(--accent-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 16px; text-transform: capitalize; }
-    .post-title { font-size: 2.2rem; font-weight: 700; color: var(--text-primary); line-height: 1.3; margin-bottom: 16px; }
-    .post-meta { display: flex; gap: 16px; color: var(--text-secondary); font-size: 0.9rem; flex-wrap: wrap; align-items: center; }
-    .post-status { padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; }
-    .post-status.rising, .post-status.viral { background: rgba(34, 197, 94, 0.1); color: #22c55e; }
-    .post-status.peak { background: rgba(245, 158, 11, 0.1); color: #f59e0b; }
-    .post-status.declining { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
-    .post-content { background: var(--bg-secondary); border-radius: 16px; padding: 32px; margin-bottom: 24px; }
-    .post-content h2 { font-size: 1.3rem; color: var(--text-primary); margin-bottom: 16px; }
-    .post-content p { color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px; }
-    .platforms-section { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; align-items: center; }
-    .platform-badge { background: var(--bg-card); color: var(--text-secondary); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); }
-    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-top: 24px; }
-    .metric-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px; text-align: center; }
-    .metric-value { font-size: 1.5rem; font-weight: 700; color: var(--accent-primary); }
-    .metric-label { font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; }
-    .expert-section { background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.05)); border-left: 4px solid var(--accent-primary); padding: 24px; border-radius: 0 16px 16px 0; margin-top: 24px; }
-    .expert-section h3 { color: var(--accent-primary); margin-bottom: 12px; }
+    
+    .post-meta-top { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .time-badge { background: var(--bg-secondary); color: var(--text-secondary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; }
+    .post-category { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: capitalize; }
+    
+    .post-title { font-size: 2rem; font-weight: 700; color: var(--text-primary); line-height: 1.3; margin-bottom: 20px; }
+    
+    .topic-tag { display: inline-flex; align-items: center; gap: 6px; color: var(--accent-secondary); font-size: 0.95rem; margin-bottom: 20px; }
+    .topic-tag strong { color: var(--accent-primary); }
+    
+    /* Quick Stats Bar */
+    .quick-stats { display: flex; gap: 24px; padding: 16px 20px; background: var(--bg-secondary); border-radius: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+    .quick-stat { display: flex; align-items: center; gap: 8px; }
+    .quick-stat-icon { font-size: 1.2rem; }
+    .quick-stat-value { font-weight: 700; color: var(--text-primary); }
+    .quick-stat-label { color: var(--text-secondary); font-size: 0.85rem; }
+    
+    /* Content Sections */
+    .content-section { background: var(--bg-secondary); border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+    .content-section h3 { font-size: 1.1rem; color: var(--text-primary); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+    .content-section p { color: var(--text-secondary); line-height: 1.8; font-size: 1rem; }
+    
+    /* Summary Box - Highlighted */
+    .summary-box { background: var(--bg-secondary); border-left: 4px solid var(--accent-primary); padding: 20px 24px; border-radius: 0 12px 12px 0; margin-bottom: 24px; }
+    .summary-box p { color: var(--text-primary); font-size: 1.05rem; line-height: 1.7; margin: 0; }
+    
+    /* AI Analysis - Special styling */
+    .ai-analysis { background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(139, 92, 246, 0.05)); border: 1px solid rgba(99, 102, 241, 0.2); }
+    .ai-analysis h3 { color: var(--accent-primary); }
+    .ai-analysis p { font-style: italic; }
+    
+    /* Origin Story */
+    .origin-section { background: var(--bg-secondary); }
+    .origin-meta { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-color); }
+    .origin-meta-item { display: flex; align-items: center; gap: 8px; color: var(--text-secondary); font-size: 0.9rem; }
+    
+    /* Impact Box */
+    .impact-section { background: rgba(34, 197, 94, 0.05); border: 1px solid rgba(34, 197, 94, 0.2); }
+    .impact-section h3 { color: #22c55e; }
+    
+    /* Platform Pills */
+    .platforms-section { margin-bottom: 24px; }
+    .platforms-section h3 { font-size: 1rem; color: var(--text-primary); margin-bottom: 12px; }
+    .platform-badges { display: flex; gap: 10px; flex-wrap: wrap; }
+    .platform-badge { background: var(--bg-card); color: var(--text-primary); padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; border: 1px solid var(--border-color); display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+    .platform-badge:hover { border-color: var(--accent-primary); transform: translateY(-2px); }
+    
+    /* Score Indicator */
+    .score-indicator { display: flex; align-items: center; gap: 16px; padding: 20px; background: var(--bg-secondary); border-radius: 12px; margin-bottom: 24px; }
+    .score-circle { width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column; font-weight: 700; color: white; }
+    .score-number { font-size: 1.4rem; line-height: 1; }
+    .score-info h4 { color: var(--text-primary); margin: 0 0 4px 0; font-size: 1.1rem; }
+    .score-info p { color: var(--text-secondary); margin: 0; font-size: 0.9rem; }
+    
+    /* Related Tags */
+    .related-section { margin-top: 24px; }
+    .related-section h3 { font-size: 1rem; color: var(--text-primary); margin-bottom: 12px; }
+    .related-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .related-tag { background: var(--bg-card); color: var(--text-secondary); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); cursor: pointer; transition: all 0.2s; }
+    .related-tag:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+    
+    /* Divider */
+    .section-divider { height: 1px; background: var(--border-color); margin: 24px 0; }
   </style>
 </head>
 <body>
@@ -72,6 +117,7 @@
       <a href="../trending.html">🔥 Trending</a>
       <a href="../crypto.html">🪙 Crypto</a>
       <a href="../search.html">🔍 Search</a>
+      <a href="../timeline.html">📅 Timeline</a>
       <a href="../bookmarks.html">🔖 Bookmarks</a>
     </nav>
   </header>
@@ -79,42 +125,109 @@
   <main class="post-container">
     <a href="../trending.html" class="back-link">← Back to Trends</a>
     
-    <article class="post-header">
-      <span class="post-category">entertainment</span>
+    <article>
+      <div class="post-meta-top">
+        <span class="time-badge" data-timestamp="2026-02-08T14:14:02.875950+00:00">🕐 Just now</span>
+        <span class="post-category">entertainment</span>
+      </div>
+      
       <h1 class="post-title">Vonn crashes in downhill as Johnson wins gold Takes Over The Internet</h1>
-      <div class="post-meta">
-        <span class="post-status rising">rising</span>
-        <span>📊 Signal Score: 30</span>
-        <span>🌐 1 platforms</span>
+      
+      <div class="topic-tag">📌 Topic: <strong>Vonn crashes in downhill as Johnson wins gold</strong></div>
+      
+      <!-- Summary - The Key Takeaway -->
+      <div class="summary-box">
+        <p>The topic 'Vonn crashes in downhill as Johnson wins gold' is trending across news.</p>
       </div>
-    </article>
-    
-    <section class="post-content">
-      <h2>Summary</h2>
-      <p>The topic 'Vonn crashes in downhill as Johnson wins gold' is trending across news.</p>
+      
+      <!-- Quick Stats -->
+      <div class="quick-stats">
+        <div class="quick-stat">
+          <span class="quick-stat-icon">📊</span>
+          <span class="quick-stat-value">30</span>
+          <span class="quick-stat-label">Signal Score</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">🚀</span>
+          <span class="quick-stat-value">Stable</span>
+          <span class="quick-stat-label">Momentum</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">🌐</span>
+          <span class="quick-stat-value">1</span>
+          <span class="quick-stat-label">Platforms</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">📈</span>
+          <span class="quick-stat-value">Rising</span>
+          <span class="quick-stat-label">Status</span>
+        </div>
+      </div>
+      
+      <!-- AI Analysis -->
       
       
+      <!-- Origin Story -->
+      <div class="content-section origin-section">
+        <h3>📖 Origin Story</h3>
+        <p>This trend emerged from viral social media content.</p>
+        <div class="origin-meta">
+          <div class="origin-meta-item">📅 First detected: <strong data-timestamp="2026-02-08T14:14:02.875950+00:00">Recently</strong></div>
+          <div class="origin-meta-item">📍 Started on: <strong>📰 News</strong></div>
+        </div>
+      </div>
       
+      <!-- Impact -->
+      <div class="content-section impact-section">
+        <h3>💥 Why This Matters</h3>
+        <p>It's capturing attention across multiple platforms.</p>
+      </div>
+      
+      <!-- Platforms -->
       <div class="platforms-section">
-        <strong>Trending on:</strong>
-        <span class="platform-badge">Multiple Platforms</span>
+        <h3>🔥 Trending On</h3>
+        <div class="platform-badges">
+          <span class="platform-badge">📰 News</span>
+        </div>
       </div>
       
-      <div class="metrics-grid">
-        <div class="metric-card">
-          <div class="metric-value">30</div>
-          <div class="metric-label">Signal Score</div>
+      <!-- Signal Score Visual -->
+      <div class="score-indicator">
+        <div class="score-circle" style="background: linear-gradient(135deg, #8b5cf6, #8b5cf6dd);">
+          <span class="score-number">30</span>
         </div>
-        <div class="metric-card">
-          <div class="metric-value">Stable</div>
-          <div class="metric-label">Momentum</div>
-        </div>
-        <div class="metric-card">
-          <div class="metric-value">1</div>
-          <div class="metric-label">Platforms</div>
+        <div class="score-info">
+          <h4>Emerging Trend</h4>
+          <p>This trend is just starting to emerge</p>
         </div>
       </div>
-    </section>
+      
+      <!-- Related Trends -->
+      
+      
+    </article>
   </main>
+  
+  <script>
+    // Format timestamps to relative time
+    function formatTimeAgo(timestamp) {
+      const date = new Date(timestamp);
+      const now = new Date();
+      const seconds = Math.floor((now - date) / 1000);
+      
+      if (seconds < 60) return 'Just now';
+      if (seconds < 3600) return Math.floor(seconds / 60) + 'm ago';
+      if (seconds < 86400) return Math.floor(seconds / 3600) + 'h ago';
+      if (seconds < 604800) return Math.floor(seconds / 86400) + 'd ago';
+      return date.toLocaleDateString();
+    }
+    
+    document.querySelectorAll('[data-timestamp]').forEach(el => {
+      const ts = el.getAttribute('data-timestamp');
+      if (ts) {
+        el.textContent = (el.querySelector('.time-badge') ? '🕐 ' : '') + formatTimeAgo(ts);
+      }
+    });
+  </script>
 </body>
 </html>

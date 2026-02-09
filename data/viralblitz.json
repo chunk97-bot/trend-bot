@@ -1,0 +1,40 @@
+{
+  "trend": "viralblitz",
+  "category": "entertainment",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 83200000,
+    "tiktok_likes": 3000000,
+    "tiktok_shares": 505400
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "viralblitz Takes Over The Internet",
+    "summary": "The topic 'viralblitz' is trending across tiktok.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T11:51:29.606885+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:51:29.606885+00:00",
+      "signal_score": 40
+    }
+  ]
+}

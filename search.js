@@ -53,7 +53,7 @@ async function loadTrends() {
       }
     }
 
-    trends.sort((a, b) => (b.signal_score || 0) - (a.signal_score || 0));
+    trends.sort((a, b) => new Date(b.timestamp || 0) - new Date(a.timestamp || 0));
     render(trends);
   } catch (err) {
     results.innerHTML = "<p class='error-message'>Failed to load trend data.</p>";

@@ -1,0 +1,43 @@
+{
+  "trend": "tiktok trending songs",
+  "category": "entertainment",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1301125,
+    "tiktok_likes": 95165
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "tiktok trending songs Takes Over The Internet",
+    "summary": "The topic 'tiktok trending songs' is trending across tiktok.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T11:11:29.121394+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:08:59.890620+00:00",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-09T11:11:29.121394+00:00",
+      "signal_score": 40
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "trend": "$AXS",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 156,
+    "price_btc": 2.1317209442662455e-05,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$AXS"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$AXS Takes Over The Internet",
+    "summary": "The topic '$AXS' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T12:30:45.323514+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:36:33.845171+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-09T11:42:39.631455+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-09T11:51:09.029218+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-09T12:30:45.323514+00:00",
+      "signal_score": 90
+    }
+  ]
+}

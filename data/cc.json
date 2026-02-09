@@ -1,0 +1,44 @@
+{
+  "trend": "$CC",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 18,
+    "price_btc": 2.3507083234702325e-06,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$CC"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$CC Takes Over The Internet",
+    "summary": "The topic '$CC' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T12:31:03.064250+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T12:31:03.064250+00:00",
+      "signal_score": 75
+    }
+  ]
+}

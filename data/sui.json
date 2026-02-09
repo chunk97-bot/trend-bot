@@ -1,0 +1,56 @@
+{
+  "trend": "$SUI",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 29,
+    "price_btc": 1.3643764193867835e-05,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$SUI"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$SUI Takes Over The Internet",
+    "summary": "The topic '$SUI' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T12:30:53.764578+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:36:41.701399+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T11:42:45.724268+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T11:51:17.396111+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-09T12:30:53.764578+00:00",
+      "signal_score": 75
+    }
+  ]
+}

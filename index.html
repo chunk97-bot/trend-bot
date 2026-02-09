@@ -125,8 +125,9 @@
   <nav class="nav">
     <a href="./index.html">🏠 Home</a>
     <a href="./trending.html">🔥 Trending</a>
-    
+    <a href="./crypto.html">🪙 Crypto</a>
     <a href="./search.html">🔍 Search</a>
+    <a href="./timeline.html">📅 Timeline</a>
     <a href="./bookmarks.html" class="nav-bookmark">
       🔖 <span id="nav-bookmark-count" class="bookmark-count">0</span>
     </a>
@@ -435,12 +436,13 @@
       `).join('');
     });
   
-  // Update live stats
-  function updateLiveStats() {
-    const viewers = Math.floor(Math.random() * 50) + 100;
-    document.getElementById('live-viewers').textContent = viewers;
-  }
-  setInterval(updateLiveStats, 5000);
+  // Update live stats (disabled - element doesn't exist on this page)
+  // function updateLiveStats() {
+  //   const viewers = Math.floor(Math.random() * 50) + 100;
+  //   const el = document.getElementById('live-viewers');
+  //   if (el) el.textContent = viewers;
+  // }
+  // setInterval(updateLiveStats, 5000);
   
   // Update bookmark count in nav
   if (typeof Bookmarks !== 'undefined') {

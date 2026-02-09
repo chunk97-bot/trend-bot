@@ -3,9 +3,1237 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crypto Trends | Trend Radar</title>
+  <title>Crypto & Trading Signals | Trend Radar</title>
   <link rel="stylesheet" href="style.css" />
   <script src="theme.js"></script>
+  <style>
+    /* Reset for buttons */
+    .crypto-dashboard button {
+      font-family: inherit;
+      box-sizing: border-box;
+    }
+    
+    /* Crypto Page Specific Styles */
+    .crypto-dashboard {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem 2rem;
+    }
+    
+    /* Override base style.css main grid */
+    .crypto-dashboard main {
+      display: flex !important;
+      flex-direction: column !important;
+      grid-template-columns: unset !important;
+      gap: 0 !important;
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      min-width: 0;
+    }
+    
+    @media (max-width: 1024px) {
+      .crypto-dashboard {
+        grid-template-columns: 1fr;
+        padding: 0 1rem 2rem;
+      }
+    }
+    
+    /* Futuristic Page Header */
+    .crypto-header {
+      position: relative;
+      padding: 3rem 2rem !important;
+      margin: 0 auto 2rem !important;
+      max-width: 1400px;
+      background: linear-gradient(135deg, 
+        rgba(99, 102, 241, 0.15) 0%, 
+        rgba(139, 92, 246, 0.1) 25%,
+        rgba(6, 182, 212, 0.1) 50%,
+        rgba(16, 185, 129, 0.15) 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+    
+    .crypto-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.3) 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.25) 0%, transparent 40%),
+        radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
+      z-index: 0;
+      animation: pulse-glow 4s ease-in-out infinite alternate;
+    }
+    
+    .crypto-header::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        45deg,
+        transparent 40%,
+        rgba(255, 255, 255, 0.03) 45%,
+        rgba(255, 255, 255, 0.05) 50%,
+        rgba(255, 255, 255, 0.03) 55%,
+        transparent 60%
+      );
+      animation: shimmer 8s linear infinite;
+      z-index: 1;
+    }
+    
+    @keyframes pulse-glow {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+    
+    @keyframes shimmer {
+      0% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
+      100% { transform: translateX(50%) translateY(50%) rotate(0deg); }
+    }
+    
+    .crypto-header h1 {
+      position: relative;
+      z-index: 2;
+      font-size: 2.5rem !important;
+      font-weight: 800 !important;
+      background: linear-gradient(90deg, #fff 0%, #a5b4fc 50%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 40px rgba(99, 102, 241, 0.5);
+      margin-bottom: 0.75rem !important;
+      letter-spacing: -0.5px;
+    }
+    
+    .crypto-header p {
+      position: relative;
+      z-index: 2;
+      font-size: 1rem !important;
+      color: rgba(255, 255, 255, 0.8) !important;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    
+    .crypto-header .cyber-grid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        linear-gradient(rgba(99, 102, 241, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.1) 1px, transparent 1px);
+      background-size: 40px 40px;
+      z-index: 0;
+    }
+    
+    @media (max-width: 768px) {
+      .crypto-header {
+        padding: 2rem 1rem !important;
+        margin: 0 1rem 1.5rem !important;
+      }
+      
+      .crypto-header h1 {
+        font-size: 1.75rem !important;
+      }
+      
+      .crypto-header p {
+        font-size: 0.875rem !important;
+      }
+    }
+    
+    /* Light Theme Overrides */
+    :root:not([data-theme="dark"]) .crypto-header {
+      background: linear-gradient(135deg, 
+        rgba(99, 102, 241, 0.12) 0%, 
+        rgba(139, 92, 246, 0.08) 25%,
+        rgba(6, 182, 212, 0.08) 50%,
+        rgba(16, 185, 129, 0.12) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .crypto-header::before {
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+    }
+    
+    :root:not([data-theme="dark"]) .crypto-header h1 {
+      background: linear-gradient(90deg, #1e293b 0%, #6366f1 50%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    :root:not([data-theme="dark"]) .crypto-header p {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-wrapper {
+      background: linear-gradient(90deg, #ffffff 0%, rgba(99, 102, 241, 0.08) 50%, #ffffff 100%);
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-header {
+      background: var(--accent-gradient, linear-gradient(135deg, #6366f1, #8b5cf6));
+      color: #ffffff;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-symbol {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-name {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-price {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-change {
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .ticker-item {
+      border-right-color: rgba(99, 102, 241, 0.2);
+    }
+    
+    :root:not([data-theme="dark"]) .topic-nav {
+      background: #ffffff;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .topic-item:hover {
+      background: rgba(99, 102, 241, 0.08);
+    }
+    
+    :root:not([data-theme="dark"]) .topic-item.active {
+      background: rgba(99, 102, 241, 0.12);
+    }
+    
+    :root:not([data-theme="dark"]) .topic-title {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .topic-preview {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .topic-meta {
+      background: #6366f1;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .sidebar-card {
+      background: #ffffff;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .sidebar-title {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .trending-item {
+      background: #f1f5f9;
+    }
+    
+    :root:not([data-theme="dark"]) .trending-name {
+      color: #0f172a !important;
+      font-weight: 600;
+    }
+    
+    :root:not([data-theme="dark"]) .trending-change {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .section-header {
+      background: #ffffff;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .section-title {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .section-badge {
+      background: #6366f1;
+      color: #ffffff;
+    }
+    
+    :root:not([data-theme="dark"]) .post-card {
+      background: #ffffff;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    
+    :root:not([data-theme="dark"]) .post-title {
+      color: #0f172a !important;
+    }
+    
+    :root:not([data-theme="dark"]) .post-content {
+      color: #1e293b !important;
+    }
+    
+    :root:not([data-theme="dark"]) .post-meta {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .stat-value {
+      color: #0f172a !important;
+      font-weight: 700;
+    }
+    
+    :root:not([data-theme="dark"]) .stat-label {
+      color: #475569 !important;
+    }
+    
+    :root #last-update {
+      color: #475569 !important;
+    }
+    
+    :root:not([data-theme="dark"]) .empty-state h3 {
+      color: #0f172a !important;
+    }
+    
+    :root:not([data-theme="dark"]) .empty-state p {
+      color: #475569 !important;
+    }
+    
+    /* Dark Theme - Keep Original Styles */
+    [data-theme="dark"] .crypto-header {
+      background: linear-gradient(135deg, 
+        rgba(99, 102, 241, 0.15) 0%, 
+        rgba(139, 92, 246, 0.1) 25%,
+        rgba(6, 182, 212, 0.1) 50%,
+        rgba(16, 185, 129, 0.15) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+    
+    [data-theme="dark"] .crypto-header::before {
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.3) 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.25) 0%, transparent 40%),
+        radial-gradient(circle at 40% 40%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
+    }
+    
+    [data-theme="dark"] .crypto-header h1 {
+      background: linear-gradient(90deg, #fff 0%, #a5b4fc 50%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    [data-theme="dark"] .crypto-header p {
+      color: rgba(255, 255, 255, 0.8) !important;
+    }
+    
+    [data-theme="dark"] .ticker-wrapper {
+      background: linear-gradient(90deg, var(--card-bg) 0%, rgba(99, 102, 241, 0.1) 50%, var(--card-bg) 100%);
+    }
+    
+    [data-theme="dark"] .ticker-header {
+      background: linear-gradient(90deg, rgba(99, 102, 241, 0.15), rgba(139, 92, 246, 0.15));
+      color: #f1f5f9;
+    }
+    
+    [data-theme="dark"] .ticker-symbol {
+      color: #f1f5f9;
+    }
+    
+    [data-theme="dark"] .ticker-name {
+      color: #94a3b8;
+    }
+    
+    [data-theme="dark"] .topic-nav {
+      background: #16161d;
+    }
+    
+    [data-theme="dark"] .topic-item:hover {
+      background: rgba(99, 102, 241, 0.1);
+    }
+    
+    [data-theme="dark"] .topic-item.active {
+      background: rgba(99, 102, 241, 0.15);
+    }
+    
+    [data-theme="dark"] .topic-title {
+      color: #f1f5f9;
+    }
+    
+    [data-theme="dark"] .topic-preview {
+      color: #94a3b8;
+    }
+    
+    [data-theme="dark"] .sidebar-card {
+      background: #16161d;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    
+    [data-theme="dark"] .trending-item {
+      background: #1e1e26;
+    }
+    
+    [data-theme="dark"] .section-header {
+      background: #16161d;
+    }
+    
+    [data-theme="dark"] .post-card {
+      background: #16161d;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    [data-theme="dark"] .ticker-price {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .ticker-item {
+      border-right-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    [data-theme="dark"] .ticker-symbol {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .ticker-name {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .ticker-change {
+      font-weight: 700;
+    }
+    
+    [data-theme="dark"] .topic-meta {
+      background: #818cf8;
+      color: #ffffff;
+    }
+    
+    [data-theme="dark"] .sidebar-title {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .trending-name {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .trending-change {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .section-title {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .section-badge {
+      background: #818cf8;
+      color: #ffffff;
+    }
+    
+    [data-theme="dark"] .post-title {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .post-content {
+      color: #cbd5e1 !important;
+    }
+    
+    [data-theme="dark"] .post-meta {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .stat-value {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .stat-label {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] #last-update {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .empty-state h3 {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .empty-state p {
+      color: #94a3b8 !important;
+    }
+    
+    [data-theme="dark"] .topic-title {
+      color: #f1f5f9 !important;
+    }
+    
+    [data-theme="dark"] .topic-preview {
+      color: #94a3b8 !important;
+    }
+    
+    /* Scrolling Ticker */
+    .ticker-wrapper {
+      background: linear-gradient(90deg, var(--card-bg) 0%, rgba(var(--accent-rgb, 99, 102, 241), 0.1) 50%, var(--card-bg) 100%);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+    
+    .ticker-wrapper::before,
+    .ticker-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 60px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    
+    .ticker-wrapper::before {
+      left: 0;
+      background: linear-gradient(90deg, var(--card-bg) 0%, transparent 100%);
+    }
+    
+    .ticker-wrapper::after {
+      right: 0;
+      background: linear-gradient(90deg, transparent 0%, var(--card-bg) 100%);
+    }
+    
+    .ticker-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+    
+    .ticker-header .pulse {
+      width: 8px;
+      height: 8px;
+      background: #10b981;
+      border-radius: 50%;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.2); }
+    }
+    
+    .ticker-track {
+      display: flex;
+      animation: scroll 40s linear infinite;
+      width: max-content;
+    }
+    
+    .ticker-track:hover {
+      animation-play-state: paused;
+    }
+    
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    
+    .ticker-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1.5rem;
+      border-right: 1px solid var(--border-color, rgba(255,255,255,0.1));
+      white-space: nowrap;
+    }
+    
+    .ticker-item:hover {
+      background: rgba(var(--accent-rgb, 99, 102, 241), 0.1);
+    }
+    
+    .ticker-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .ticker-icon.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+      color: white;
+      font-weight: 700;
+      font-size: 0.75rem;
+    }
+    
+    .ticker-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+    
+    .ticker-symbol {
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    
+    .ticker-name {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      max-width: 80px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .ticker-price {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    
+    .ticker-change {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+    
+    .ticker-change.up {
+      color: #10b981;
+      background: rgba(16, 185, 129, 0.15);
+    }
+    
+    .ticker-change.down {
+      color: #ef4444;
+      background: rgba(239, 68, 68, 0.15);
+    }
+    
+    .ticker-rank {
+      width: 20px;
+      height: 20px;
+      background: var(--accent);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      font-weight: 700;
+    }
+    
+    /* Legacy styles kept for compatibility */
+    .price-label {
+      font-size: 0.75rem;
+      opacity: 0.7;
+    }
+    
+    .price-value {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    
+    .price-change {
+      font-size: 0.85rem;
+    }
+    
+    .price-change.up { color: #10b981; }
+    .price-change.down { color: #ef4444; }
+    
+    /* Fear & Greed */
+    .fear-greed {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      min-width: 160px;
+    }
+    
+    .fg-meter {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: white;
+    }
+    
+    .fg-meter.extreme-fear { background: linear-gradient(135deg, #7f1d1d 0%, #dc2626 100%); }
+    .fg-meter.fear { background: linear-gradient(135deg, #dc2626 0%, #f97316 100%); }
+    .fg-meter.neutral { background: linear-gradient(135deg, #eab308 0%, #facc15 100%); color: #1a1a1a; }
+    .fg-meter.greed { background: linear-gradient(135deg, #22c55e 0%, #84cc16 100%); }
+    .fg-meter.extreme-greed { background: linear-gradient(135deg, #15803d 0%, #22c55e 100%); }
+    
+    /* Section Headers */
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--accent);
+    }
+    
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .section-badge {
+      background: var(--accent);
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    
+    .section-header .post-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    
+    /* Telegram Feed */
+    .telegram-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .telegram-post {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.25rem;
+      border-left: 4px solid var(--accent);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .telegram-post:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    .telegram-post.market_overview { border-left-color: #3b82f6; }
+    .telegram-post.onchain_analysis { border-left-color: #8b5cf6; }
+    .telegram-post.trade_signal { border-left-color: #10b981; }
+    .telegram-post.whale_tracking { border-left-color: #06b6d4; }
+    .telegram-post.alert { border-left-color: #ef4444; }
+    
+    .post-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    
+    .post-type {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .post-type.market_overview { color: #3b82f6; }
+    .post-type.onchain_analysis { color: #8b5cf6; }
+    .post-type.trade_signal { color: #10b981; }
+    .post-type.whale_tracking { color: #06b6d4; }
+    .post-type.alert { color: #ef4444; }
+    .post-type.general { color: var(--text-muted); }
+    
+    .post-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    
+    .post-content {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+    
+    .post-coins {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    
+    .coin-tag {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark, #4f46e5) 100%);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    
+    /* Trade Signal Card */
+    .trade-signal-box {
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .signal-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .signal-row:last-child {
+      border-bottom: none;
+    }
+    
+    .signal-label {
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    
+    .signal-value {
+      font-weight: 700;
+    }
+    
+    .signal-value.entry { color: #3b82f6; }
+    .signal-value.tp { color: #10b981; }
+    .signal-value.sl { color: #ef4444; }
+    
+    /* Filter Tabs */
+    .filter-tabs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      padding: 0;
+      background: transparent;
+    }
+    
+    .filter-tab {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--border-color, rgba(255,255,255,0.1));
+      border-radius: 20px;
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    
+    .filter-tab:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    
+    .filter-tab.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    
+    /* Topic Navigation (Telegram-style) */
+    .topic-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      margin-bottom: 1.5rem;
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 0.5rem;
+      overflow: hidden;
+    }
+    
+    .topic-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    
+    .topic-item:hover {
+      background: rgba(var(--accent-rgb, 99, 102, 241), 0.1);
+    }
+    
+    .topic-item.active {
+      background: rgba(var(--accent-rgb, 99, 102, 241), 0.15);
+    }
+    
+    .topic-item.active::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3px;
+      height: 70%;
+      background: var(--accent);
+      border-radius: 0 2px 2px 0;
+    }
+    
+    .topic-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    
+    .topic-item[data-filter="market_overview"] .topic-icon {
+      background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+    }
+    
+    .topic-item[data-filter="onchain_analysis"] .topic-icon {
+      background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+    }
+    
+    .topic-item[data-filter="trade_signal"] .topic-icon {
+      background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+    }
+    
+    .topic-item[data-filter="whale_tracking"] .topic-icon {
+      background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%);
+    }
+    
+    .topic-item[data-filter="alert"] .topic-icon {
+      background: linear-gradient(135deg, #ef4444 0%, #f87171 100%);
+    }
+    
+    .topic-info {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .topic-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .topic-preview {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .topic-meta {
+      background: var(--accent);
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      min-width: 24px;
+      text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+      .topic-nav {
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 0.5rem;
+        gap: 0.5rem;
+      }
+      
+      .topic-item {
+        flex-direction: column;
+        text-align: center;
+        min-width: 80px;
+        padding: 0.75rem 0.5rem;
+      }
+      
+      .topic-item.active::before {
+        display: none;
+      }
+      
+      .topic-info {
+        display: none;
+      }
+      
+      .topic-meta {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        font-size: 0.6rem;
+        padding: 0.1rem 0.3rem;
+      }
+    }
+    
+    /* Sidebar */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    
+    .sidebar-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    
+    .sidebar-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    /* Trending Coins List */
+    .trending-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    
+    .trending-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+    }
+    
+    .trending-rank {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    
+    .trending-name {
+      flex: 1;
+      margin-left: 0.75rem;
+      font-weight: 600;
+    }
+    
+    .trending-change {
+      font-weight: 600;
+    }
+    
+    .trending-change.up { color: #10b981; }
+    .trending-change.down { color: #ef4444; }
+    
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+    
+    .stat-box {
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    
+    /* Quick Links */
+    .quick-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .quick-link {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: background 0.2s;
+    }
+    
+    .quick-link:hover {
+      background: var(--accent);
+      color: white;
+    }
+    
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+    
+    .empty-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    
+    /* Loading */
+    .loading-spinner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem;
+    }
+    
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid var(--bg-secondary);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    /* Channel Header */
+    .channel-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.25rem;
+      background: var(--card-bg);
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .channel-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0088cc 0%, #00bfff 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      color: white;
+      flex-shrink: 0;
+    }
+    
+    .channel-info {
+      flex: 1;
+      min-width: 150px;
+    }
+    
+    .channel-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    
+    .channel-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+    
+    .channel-link {
+      padding: 0.6rem 1.25rem;
+      background: #0088cc;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    
+    .channel-link:hover {
+      background: #006699;
+    }
+    
+    @media (max-width: 768px) {
+      .channel-header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .channel-info {
+        text-align: center;
+      }
+      .channel-link {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -27,6 +1255,7 @@
     <a href="./trending.html">🔥 Trending</a>
     <a href="./crypto.html" class="active">🪙 Crypto</a>
     <a href="./search.html">🔍 Search</a>
+    <a href="./timeline.html">📅 Timeline</a>
     <a href="./bookmarks.html">🔖 Bookmarks</a>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
       <span class="theme-icon icon-sun">☀️</span>
@@ -36,112 +1265,167 @@
 </header>
 
 <section class="page-header crypto-header">
-  <h1>🪙 Crypto Trends</h1>
-  <p>Only coins trending on <a href="https://dexscreener.com/" target="_blank" rel="noopener">DexScreener</a> are shown below. Real-time cryptocurrency trends, news & market sentiment · Powered by AI analysis</p>
+  <div class="cyber-grid"></div>
+  <h1>🪙 Crypto & Trading Signals</h1>
+  <p>Live trading signals · On-chain analysis · Whale tracking · Market insights from TrendRadar</p>
 </section>
 
-<!-- CRYPTO STATS BAR -->
-<section class="crypto-stats-bar">
-  <div class="crypto-stat">
-    <span class="stat-icon">₿</span>
-    <div class="stat-info">
-      <span class="stat-label">Bitcoin</span>
-      <span class="stat-value" id="btc-price">Loading...</span>
-    </div>
+<!-- SCROLLING TICKER -->
+<section class="ticker-wrapper" id="ticker-wrapper">
+  <div class="ticker-header">
+    <span class="pulse"></span>
+    <span>🔥 CoinGecko Trending</span>
+    <span style="margin-left: auto; font-weight: 400; opacity: 0.8;">LIVE</span>
   </div>
-  <div class="crypto-stat">
-    <span class="stat-icon">Ξ</span>
-    <div class="stat-info">
-      <span class="stat-label">Ethereum</span>
-      <span class="stat-value" id="eth-price">Loading...</span>
-    </div>
-  </div>
-  <div class="crypto-stat">
-    <span class="stat-icon">📊</span>
-    <div class="stat-info">
-      <span class="stat-label">Market Sentiment</span>
-      <span class="stat-value sentiment" id="market-sentiment">Analyzing...</span>
-    </div>
-  </div>
-  <div class="crypto-stat">
-    <span class="stat-icon">🔥</span>
-    <div class="stat-info">
-      <span class="stat-label">Trending Coins</span>
-      <span class="stat-value" id="trending-coins-count">--</span>
+  <div class="ticker-track" id="ticker-track">
+    <!-- Coins will be populated by JavaScript -->
+    <div class="ticker-item">
+      <div class="ticker-icon placeholder">...</div>
+      <div class="ticker-info">
+        <span class="ticker-symbol">Loading</span>
+        <span class="ticker-name">trending coins</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- CRYPTO FILTER TABS -->
-<section class="filter-section">
-  <div class="filter-container">
-    <div class="filter-label">Filter:</div>
-    <div class="filter-buttons" id="crypto-filter-buttons">
-      <button class="filter-btn active" data-filter="all">🌐 All Crypto</button>
-      <button class="filter-btn" data-filter="bitcoin">₿ Bitcoin</button>
-      <button class="filter-btn" data-filter="ethereum">Ξ Ethereum</button>
-      <button class="filter-btn" data-filter="altcoins">🪙 Altcoins</button>
-      <button class="filter-btn" data-filter="defi">🏦 DeFi</button>
-      <button class="filter-btn" data-filter="nft">🖼️ NFTs</button>
-      <button class="filter-btn" data-filter="memecoins">🐕 Meme Coins</button>
-      <button class="filter-btn" data-filter="regulations">⚖️ Regulations</button>
+<div class="crypto-dashboard">
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Topic Navigation (Telegram-style) -->
+    <div class="topic-nav" id="topic-nav">
+      <div class="topic-item active" data-filter="all">
+        <div class="topic-icon">📊</div>
+        <div class="topic-info">
+          <div class="topic-title">All Signals</div>
+          <div class="topic-preview">View all trading signals</div>
+        </div>
+        <div class="topic-meta" id="all-count">0</div>
+      </div>
+      <div class="topic-item" data-filter="market_overview">
+        <div class="topic-icon">📈</div>
+        <div class="topic-info">
+          <div class="topic-title">BTC-ETH Updates</div>
+          <div class="topic-preview">Daily market overview</div>
+        </div>
+        <div class="topic-meta" id="market-count">0</div>
+      </div>
+      <div class="topic-item" data-filter="onchain_analysis">
+        <div class="topic-icon">🔗</div>
+        <div class="topic-info">
+          <div class="topic-title">Altcoin On-Chain</div>
+          <div class="topic-preview">On-chain analysis & signals</div>
+        </div>
+        <div class="topic-meta" id="onchain-count">0</div>
+      </div>
+      <div class="topic-item" data-filter="trade_signal">
+        <div class="topic-icon">💹</div>
+        <div class="topic-info">
+          <div class="topic-title">Spot Signals</div>
+          <div class="topic-preview">Entry, TP, SL levels</div>
+        </div>
+        <div class="topic-meta" id="signal-count">0</div>
+      </div>
+      <div class="topic-item" data-filter="whale_tracking">
+        <div class="topic-icon">🐋</div>
+        <div class="topic-info">
+          <div class="topic-title">Whale Tracking</div>
+          <div class="topic-preview">Big player movements</div>
+        </div>
+        <div class="topic-meta" id="whale-count">0</div>
+      </div>
+      <div class="topic-item" data-filter="alert">
+        <div class="topic-icon">🚨</div>
+        <div class="topic-info">
+          <div class="topic-title">Alerts</div>
+          <div class="topic-preview">Urgent notifications</div>
+        </div>
+        <div class="topic-meta" id="alert-count">0</div>
+      </div>
     </div>
-  </div>
-</section>
-
-<!-- TRENDS COUNT -->
-<div class="trends-info">
-  <span id="trends-count">Loading crypto trends...</span>
-  <div class="live-status">
-    <span class="live-indicator pulse">
-      <span class="live-dot"></span>
-      LIVE
-    </span>
-    <span class="last-updated">Last updated: <span id="last-updated-time">--</span></span>
-  </div>
-</div>
-
-<!-- TOOLBAR -->
-<div class="trends-toolbar">
-  <div class="sort-options">
-    <span class="sort-label">Sort by:</span>
-    <select id="sort-select" class="sort-select">
-      <option value="score">📊 Signal Score</option>
-      <option value="date">📅 Latest</option>
-      <option value="momentum">🚀 Momentum</option>
-      <option value="name">🔤 Name</option>
-    </select>
-  </div>
-  <div class="toolbar-actions">
-    <button class="toolbar-btn" id="random-trend-btn">
-      🎲 Random Crypto
-    </button>
-    <a href="./bookmarks.html" class="toolbar-btn" style="text-decoration: none;">
-      🔖 Bookmarks <span id="bookmark-count" class="bookmark-count">0</span>
-    </a>
-  </div>
-</div>
-
-<!-- MAIN TRENDS CONTAINER -->
-<main id="trends"></main>
-
-<!-- Pagination -->
-<div id="pagination"></div>
-
-<!-- NO CRYPTO MESSAGE -->
-<div id="no-crypto-message" class="no-crypto-message" style="display: none;">
-  <div class="no-crypto-icon">🪙</div>
-  <h3>No Crypto Trends Found</h3>
-  <p>There are no cryptocurrency trends at the moment. Check back soon or explore all trends.</p>
-  <a href="./trending.html" class="btn-explore">Explore All Trends →</a>
+    
+    <!-- Section Header -->
+    <div class="section-header">
+      <div class="section-title">
+        <span>📱</span> Live Trading Feed
+        <span class="section-badge" id="post-count">0 posts</span>
+      </div>
+      <div class="post-meta">
+        <span id="last-update">Last updated: --</span>
+      </div>
+    </div>
+    
+    <!-- Telegram Feed -->
+    <div class="telegram-feed" id="telegram-feed">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    
+    <!-- Load More -->
+    <div id="load-more-container" style="text-align: center; margin-top: 2rem; display: none;">
+      <button id="load-more-btn" class="filter-tab">Load More Posts</button>
+    </div>
+  </main>
+  
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <!-- Stats -->
+    <div class="sidebar-card">
+      <div class="sidebar-title">📊 Feed Stats</div>
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-value" id="total-posts">0</div>
+          <div class="stat-label">Total Posts</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="signals-count">0</div>
+          <div class="stat-label">Trade Signals</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="analysis-count">0</div>
+          <div class="stat-label">Analysis</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value" id="coins-mentioned">0</div>
+          <div class="stat-label">Coins Mentioned</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Trending Coins from Feed -->
+    <div class="sidebar-card">
+      <div class="sidebar-title">🔥 Mentioned Coins</div>
+      <div class="trending-list" id="mentioned-coins">
+        <div class="empty-state" style="padding: 1rem;">
+          Loading...
+        </div>
+      </div>
+    </div>
+    
+    <!-- Quick Links -->
+    <div class="sidebar-card">
+      <div class="sidebar-title">🔗 Resources</div>
+      <div class="quick-links">
+        <a href="./trending.html" class="quick-link">
+          <span>🔥</span> Trending Topics
+        </a>
+        <a href="./search.html" class="quick-link">
+          <span>🔍</span> Search Trends
+        </a>
+        <a href="./timeline.html" class="quick-link">
+          <span>📅</span> Timeline
+        </a>
+      </div>
+    </div>
+  </aside>
 </div>
 
 <footer>
-  <p>Built with automation · Crypto data updates every 15 minutes</p>
+  <p>Built with automation · Powered by TrendRadar · Updates on each run</p>
 </footer>
 
 <script src="features.js"></script>
 <script src="crypto.js"></script>
 </body>
 </html>
-<!-- This page has been removed as per user request. -->

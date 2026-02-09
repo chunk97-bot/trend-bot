@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Npc | Trend Radar</title>
+  <meta name="description" content="..." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Npc" />
+  <meta property="og:description" content="..." />
+  <meta property="og:image" content="../assets/social-preview.png" />
+  <meta property="og:url" content="https://trendradar.app/posts/npc.html" />
+  <meta property="og:site_name" content="Trend Radar" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Npc" />
+  <meta name="twitter:description" content="..." />
+  <meta name="twitter:image" content="../assets/social-preview.png" />
+  <meta name="twitter:site" content="@TrendRadar" />
+  
+  <meta name="theme-color" content="#6c5ce7" />
+  
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    // Apply saved theme
+    const savedTheme = localStorage.getItem('trend-radar-theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+  <style>
+    .post-container { max-width: 800px; margin: 0 auto; padding: 20px; padding-top: 100px; }
+    .post-header { margin-bottom: 32px; }
+    .back-link { color: var(--accent-primary); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; font-weight: 500; }
+    .back-link:hover { text-decoration: underline; }
+    
+    .post-meta-top { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .time-badge { background: var(--bg-secondary); color: var(--text-secondary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 6px; }
+    .post-category { display: inline-block; background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: capitalize; }
+    
+    .post-title { font-size: 2rem; font-weight: 700; color: var(--text-primary); line-height: 1.3; margin-bottom: 20px; }
+    
+    .topic-tag { display: inline-flex; align-items: center; gap: 6px; color: var(--accent-secondary); font-size: 0.95rem; margin-bottom: 20px; }
+    .topic-tag strong { color: var(--accent-primary); }
+    
+    /* Quick Stats Bar */
+    .quick-stats { display: flex; gap: 24px; padding: 16px 20px; background: var(--bg-secondary); border-radius: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+    .quick-stat { display: flex; align-items: center; gap: 8px; }
+    .quick-stat-icon { font-size: 1.2rem; }
+    .quick-stat-value { font-weight: 700; color: var(--text-primary); }
+    .quick-stat-label { color: var(--text-secondary); font-size: 0.85rem; }
+    
+    /* Content Sections */
+    .content-section { background: var(--bg-secondary); border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+    .content-section h3 { font-size: 1.1rem; color: var(--text-primary); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+    .content-section p { color: var(--text-secondary); line-height: 1.8; font-size: 1rem; }
+    
+    /* Summary Box - Highlighted */
+    .summary-box { background: var(--bg-secondary); border-left: 4px solid var(--accent-primary); padding: 20px 24px; border-radius: 0 12px 12px 0; margin-bottom: 24px; }
+    .summary-box p { color: var(--text-primary); font-size: 1.05rem; line-height: 1.7; margin: 0; }
+    
+    /* AI Analysis - Special styling */
+    .ai-analysis { background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(139, 92, 246, 0.05)); border: 1px solid rgba(99, 102, 241, 0.2); }
+    .ai-analysis h3 { color: var(--accent-primary); }
+    .ai-analysis p { font-style: italic; }
+    
+    /* Origin Story */
+    .origin-section { background: var(--bg-secondary); }
+    .origin-meta { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-color); }
+    .origin-meta-item { display: flex; align-items: center; gap: 8px; color: var(--text-secondary); font-size: 0.9rem; }
+    
+    /* Impact Box */
+    .impact-section { background: rgba(34, 197, 94, 0.05); border: 1px solid rgba(34, 197, 94, 0.2); }
+    .impact-section h3 { color: #22c55e; }
+    
+    /* Platform Pills */
+    .platforms-section { margin-bottom: 24px; }
+    .platforms-section h3 { font-size: 1rem; color: var(--text-primary); margin-bottom: 12px; }
+    .platform-badges { display: flex; gap: 10px; flex-wrap: wrap; }
+    .platform-badge { background: var(--bg-card); color: var(--text-primary); padding: 8px 16px; border-radius: 25px; font-size: 0.9rem; border: 1px solid var(--border-color); display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; }
+    .platform-badge:hover { border-color: var(--accent-primary); transform: translateY(-2px); }
+    
+    /* Score Indicator */
+    .score-indicator { display: flex; align-items: center; gap: 16px; padding: 20px; background: var(--bg-secondary); border-radius: 12px; margin-bottom: 24px; }
+    .score-circle { width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-direction: column; font-weight: 700; color: white; }
+    .score-number { font-size: 1.4rem; line-height: 1; }
+    .score-info h4 { color: var(--text-primary); margin: 0 0 4px 0; font-size: 1.1rem; }
+    .score-info p { color: var(--text-secondary); margin: 0; font-size: 0.9rem; }
+    
+    /* Related Tags */
+    .related-section { margin-top: 24px; }
+    .related-section h3 { font-size: 1rem; color: var(--text-primary); margin-bottom: 12px; }
+    .related-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .related-tag { background: var(--bg-card); color: var(--text-secondary); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; border: 1px solid var(--border-color); cursor: pointer; transition: all 0.2s; }
+    .related-tag:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+    
+    /* Divider */
+    .section-divider { height: 1px; background: var(--border-color); margin: 24px 0; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="logo-link">
+      <div class="logo-3d">
+        <div class="glow"></div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="orb"></div>
+        <div class="scan-line"></div>
+      </div>
+      <span class="logo-text">Trend Radar</span>
+    </a>
+    <nav class="nav">
+      <a href="../index.html">🏠 Home</a>
+      <a href="../trending.html">🔥 Trending</a>
+      <a href="../crypto.html">🪙 Crypto</a>
+      <a href="../search.html">🔍 Search</a>
+      <a href="../timeline.html">📅 Timeline</a>
+      <a href="../bookmarks.html">🔖 Bookmarks</a>
+    </nav>
+  </header>
+  
+  <main class="post-container">
+    <a href="../trending.html" class="back-link">← Back to Trends</a>
+    
+    <article>
+      <div class="post-meta-top">
+        <span class="time-badge" data-timestamp="2026-02-06T10:24:31.484291">🕐 Just now</span>
+        <span class="post-category">memes</span>
+      </div>
+      
+      <h1 class="post-title">Npc</h1>
+      
+      <div class="topic-tag">📌 Topic: <strong>npc</strong></div>
+      
+      <!-- Summary - The Key Takeaway -->
+      <div class="summary-box">
+        <p></p>
+      </div>
+      
+      <!-- Quick Stats -->
+      <div class="quick-stats">
+        <div class="quick-stat">
+          <span class="quick-stat-icon">📊</span>
+          <span class="quick-stat-value">65</span>
+          <span class="quick-stat-label">Signal Score</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">🚀</span>
+          <span class="quick-stat-value">+0%</span>
+          <span class="quick-stat-label">Momentum</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">🌐</span>
+          <span class="quick-stat-value">0</span>
+          <span class="quick-stat-label">Platforms</span>
+        </div>
+        <div class="quick-stat">
+          <span class="quick-stat-icon">📈</span>
+          <span class="quick-stat-value">Stable</span>
+          <span class="quick-stat-label">Status</span>
+        </div>
+      </div>
+      
+      <!-- AI Analysis -->
+      
+      
+      <!-- Origin Story -->
+      
+      
+      <!-- Impact -->
+      
+      
+      <!-- Platforms -->
+      <div class="platforms-section">
+        <h3>🔥 Trending On</h3>
+        <div class="platform-badges">
+          <span class="platform-badge">🌐 Multiple Platforms</span>
+        </div>
+      </div>
+      
+      <!-- Signal Score Visual -->
+      <div class="score-indicator">
+        <div class="score-circle" style="background: linear-gradient(135deg, #f59e0b, #f59e0bdd);">
+          <span class="score-number">65</span>
+        </div>
+        <div class="score-info">
+          <h4>Hot Trend</h4>
+          <p>This trend is gaining significant traction</p>
+        </div>
+      </div>
+      
+      <!-- Related Trends -->
+      
+      
+    </article>
+  </main>
+  
+  <script>
+    // Format timestamps to relative time
+    function formatTimeAgo(timestamp) {
+      const date = new Date(timestamp);
+      const now = new Date();
+      const seconds = Math.floor((now - date) / 1000);
+      
+      if (seconds < 60) return 'Just now';
+      if (seconds < 3600) return Math.floor(seconds / 60) + 'm ago';
+      if (seconds < 86400) return Math.floor(seconds / 3600) + 'h ago';
+      if (seconds < 604800) return Math.floor(seconds / 86400) + 'd ago';
+      return date.toLocaleDateString();
+    }
+    
+    document.querySelectorAll('[data-timestamp]').forEach(el => {
+      const ts = el.getAttribute('data-timestamp');
+      if (ts) {
+        el.textContent = (el.querySelector('.time-badge') ? '🕐 ' : '') + formatTimeAgo(ts);
+      }
+    });
+  </script>
+</body>
+</html>

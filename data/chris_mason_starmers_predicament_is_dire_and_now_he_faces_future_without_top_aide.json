@@ -1,0 +1,46 @@
+{
+  "trend": "Chris Mason: Starmer's predicament is dire and now he faces future without top aide",
+  "category": "entertainment",
+  "platforms": {
+    "news": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "news_mentions": 1
+  },
+  "signal_score": 20,
+  "momentum": "stable",
+  "lifecycle": "declining",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Chris Mason: Starmer's predicament is dire and now he faces future without top aide Takes Over The Internet",
+    "summary": "The topic 'Chris Mason: Starmer's predicament is dire and now he faces future without top aide' is trending across news.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-09T11:17:15.966718+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-09T11:09:14.203020+00:00",
+      "signal_score": 20
+    },
+    {
+      "timestamp": "2026-02-09T11:11:38.314025+00:00",
+      "signal_score": 20
+    },
+    {
+      "timestamp": "2026-02-09T11:17:15.966718+00:00",
+      "signal_score": 20
+    }
+  ]
+}
