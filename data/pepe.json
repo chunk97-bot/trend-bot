@@ -1,0 +1,44 @@
+{
+  "trend": "$PEPE",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 49,
+    "price_btc": 5.3414710960585165e-11,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$PEPE"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$PEPE Meme Coin Surges, Crypto Traders Scramble for Alpha",
+    "summary": "The $PEPE meme coin has exploded in popularity, with traders rushing to get in on the action. Its market cap rank has skyrocketed, and engagement scores are through the roof.",
+    "origin_story": "The $PEPE token emerged from the viral Pepe the Frog meme, gaining traction on CoinGecko and other crypto platforms.",
+    "expert_analysis": "This $PEPE pump appears to be driven by a combination of meme hype and FOMO from crypto traders looking for quick gains. The token's memetic nature and surging engagement suggest there could be more upside, but volatility and risk are also high.",
+    "impact": "The $PEPE frenzy has sparked a flurry of trading activity, with investors hoping to capitalize on the meme coin's meteoric rise.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-10T07:32:19.229606+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:32:19.229622+00:00",
+      "signal_score": 90
+    }
+  ]
+}

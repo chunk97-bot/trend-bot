@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$BTC Takes Over The Internet",
-    "summary": "The topic '$BTC' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Bitcoin Continues Bullish Momentum as Crypto Investors Seek Alpha",
+    "summary": "Bitcoin, the flagship cryptocurrency, has been surging in price and market dominance, catching the attention of savvy traders looking to capitalize on its upward trend.",
+    "origin_story": "Bitcoin's recent rally has been fueled by renewed institutional and retail interest, with influential crypto figures and whales driving the demand.",
+    "expert_analysis": "The current Bitcoin market sentiment is highly bullish, with investors eager to ride the wave of momentum. Potential catalysts for further price appreciation include increased institutional adoption, positive regulatory developments, and continued retail FOMO.",
+    "impact": "The surge in Bitcoin's price has led to a corresponding increase in trading volume and overall market activity, signaling a renewed interest in the crypto space.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T12:30:51.794333+00:00",
+  "timestamp": "2026-02-10T07:32:38.028545+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:40.176152+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-09T12:30:51.794333+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:32:38.028561+00:00",
       "signal_score": 75
     }
   ]

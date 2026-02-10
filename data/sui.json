@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 29,
-    "price_btc": 1.3643764193867835e-05,
+    "price_btc": 1.3623001217595132e-05,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$SUI Takes Over The Internet",
-    "summary": "The topic '$SUI' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "$SUI Surges as Sui Network Hype Builds Among Crypto Degens",
+    "summary": "The layer-1 blockchain $SUI has seen a massive price surge as traders and influencers buzz about its potential. With its market cap ranking rising, this could be an early signal of a breakout alt season.",
+    "origin_story": "Rumors and leaks about the Sui Network, a new blockchain project, have been circulating in crypto Twitter circles for months. The native $SUI token recently listed on major exchanges, sparking a wave of hype and FOMO.",
+    "expert_analysis": "Crypto traders are aping into $SUI, sensing an opportunity to get in early on the next big thing. The Sui Network's strong technical team and novel approach to blockchain architecture have generated a lot of excitement in the degen community. If this momentum continues, we could see $SUI make a run at the top 10 coins.",
+    "impact": "The $SUI price surge has driven a significant increase in trading volume and attention, signaling that this trend has real legs in the current crypto market.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T12:30:53.764578+00:00",
+  "timestamp": "2026-02-10T07:32:52.390912+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:41.701399+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-09T12:30:53.764578+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:32:52.390927+00:00",
       "signal_score": 75
     }
   ]

@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 7,
-    "price_btc": 0.001213349044628898,
+    "price_btc": 0.0012276201410460134,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$SOL Takes Over The Internet",
-    "summary": "The topic '$SOL' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Solana Surges as Degens Pile In, Eyeing Massive Upside",
+    "summary": "Solana ($SOL) has been making waves in the crypto space, climbing the market cap ranks and drawing in a wave of new investors looking to catch the next big thing. Traders are swarming in, hoping to ride the SOL bull wave.",
+    "origin_story": "Solana has been steadily gaining traction on platforms like CoinGecko, where its engagement score is a robust 50. The Layer-1 blockchain is now ranked 7th by market cap, signaling growing mainstream adoption.",
+    "expert_analysis": "Solana's impressive performance is fueling a frenzy among crypto degens eager to 'get in early' and reap the rewards. The project's scalability, speed, and Ethereum compatibility make it an attractive option for DeFi and NFT applications, driving increased usage and bullish sentiment.",
+    "impact": "The Solana hype is translating to surging trading volume and a flurry of FOMO, as traders scramble to pile into the asset before it's too late.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T12:30:55.407924+00:00",
+  "timestamp": "2026-02-10T07:32:43.409533+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:42.953790+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-09T12:30:55.407924+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:32:43.409550+00:00",
       "signal_score": 75
     }
   ]

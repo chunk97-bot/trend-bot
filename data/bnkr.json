@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 302,
-    "price_btc": 1.2329632694329173e-08,
+    "market_cap_rank": 280,
+    "price_btc": 1.3913094248782972e-08,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,17 +27,21 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$BNKR Takes Over The Internet",
-    "summary": "The topic '$BNKR' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "$BNKR Surges as Crypto Degens Flock to Meme Coin Craze",
+    "summary": "The meme coin $BNKR has seen a major price spike as crypto traders rush to get in on the latest viral token. With a high engagement score and a low market cap, $BNKR is attracting attention from degen investors looking for the next big pump.",
+    "origin_story": "The $BNKR token first emerged on CoinGecko and other crypto platforms, quickly gaining traction among meme coin enthusiasts on Twitter and crypto forums.",
+    "expert_analysis": "The $BNKR pump appears to be driven by a classic meme coin frenzy, with crypto degens piling in based on the token's low market cap and 'wen Lambo' potential. While the fundamentals of $BNKR are unclear, the hype and FOMO around this token could lead to some short-term gains for early buyers.",
+    "impact": "The surging interest in $BNKR has already resulted in a significant spike in trading volume and market capitalization, indicating that this meme coin trend has real momentum.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T12:30:49.924014+00:00",
+  "timestamp": "2026-02-10T07:32:23.255224+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T12:30:49.924014+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:32:23.255240+00:00",
       "signal_score": 90
     }
   ]

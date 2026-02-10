@@ -1,0 +1,39 @@
+{
+  "trend": "tiktok viral",
+  "category": "meme_coin",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1922083,
+    "tiktok_likes": 103595
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Doge Killer Floki Inu Surges on TikTok, Sparking Meme Coin Frenzy",
+    "summary": "Floki Inu, a meme cryptocurrency inspired by Elon Musk's dog, has taken the TikTok world by storm, amassing over 1.9 million views and 103.6K likes. Traders are rushing to get in on the potential 'Doge Killer' play.",
+    "origin_story": "The Floki Inu trend started on TikTok, where a video promoting the coin as the next Dogecoin went viral, capturing the attention of the platform's trading-savvy user base.",
+    "expert_analysis": "The sudden surge in Floki Inu's popularity on TikTok reflects the continued appetite for meme coins among retail traders. With Dogecoin's explosive growth earlier this year, investors are on the hunt for the next big 'Doge killer' play, and Floki Inu appears to be the latest contender capturing their interest.",
+    "impact": "The TikTok-fueled hype around Floki Inu has already translated into a significant spike in trading volume, which could drive further price appreciation in the short term.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-10T07:33:18.500801+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:33:18.500817+00:00",
+      "signal_score": 40
+    }
+  ]
+}

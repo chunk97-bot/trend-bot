@@ -1,0 +1,44 @@
+{
+  "trend": "$POL",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 67,
+    "price_btc": 1.3491417589974234e-06,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$POL"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$POL Surges as Polkadot's Parachain Auctions Drive Renewed Interest",
+    "summary": "The Polkadot ($POL) token has seen a significant price surge, as investors and traders flock to capitalize on the network's upcoming parachain auctions. This event is poised to unlock a new era of interoperability and cross-chain functionality.",
+    "origin_story": "The Polkadot ecosystem has been building momentum for months, with the highly anticipated parachain auctions generating increasing hype and speculation among the crypto community.",
+    "expert_analysis": "The surge in $POL price is a clear indication that the market senses significant upside potential from Polkadot's parachain auctions. Traders are eager to get in early, anticipating that the successful integration of new parachains will drive further adoption and usage of the Polkadot network. As a leading 'Ethereum-killer' protocol, Polkadot's ability to facilitate interoperability and cross-chain communication is a key catalyst for this renewed interest.",
+    "impact": "The rising trading volume and market capitalization of $POL suggest that Polkadot is positioning itself as a major player in the decentralized finance (DeFi) and Web3 space.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:32:57.416322+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:32:57.416338+00:00",
+      "signal_score": 75
+    }
+  ]
+}

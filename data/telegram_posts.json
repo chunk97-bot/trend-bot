@@ -1,23 +1,39 @@
 {
-  "last_updated": "2026-02-09T18:00:00.000000+00:00",
+  "last_updated": "2026-02-10T07:32:06.321068+00:00",
   "channel": "tkresearch_tradingchannel",
-  "channel_name": "TKResearch Trading | Channel",
-  "channel_url": "https://t.me/tkresearch_tradingchannel",
+  "channel_name": "TKResearch Trading",
   "total_posts": 15,
-  "new_posts": 15,
+  "new_posts": 1,
   "type_counts": {
-    "market_overview": 4,
+    "whale_tracking": 1,
+    "analysis": 2,
     "onchain_analysis": 8,
-    "trade_signal": 2,
-    "analysis": 1
+    "market_overview": 3,
+    "trade_signal": 1
   },
   "posts": [
+    {
+      "id": "tkresearch_tradingchannel/111",
+      "channel": "tkresearch_tradingchannel",
+      "content": "🚨 WHALE CEX FLOW SYSTEM — OFFICIAL LAUNCH ON KIYOTAKA 🚀 We just published 2 institutional-grade Whale indicators: “CVD Whale Tracking V2 & Whale Dominant” This system is built to answer 5 core questions: 1. How much are whales net buying or selling? 2. Is whale flow strong relative to total volume? 3. Where is the main whale activity zone? 4. What is the current whale state? 5. Where do real whale orders appear? 🟢 Setup : 1/ Sign up Kiyotaka : kiyotaka.ai/ref=rn7d2DuH6W 2/ Search “Whale” and add: – CVD Whale Tracking V2 – Whale Dominant Timeframe: M15 (fixed) Preset: default 🤔 Indicator Overview 📌 CVD Whale Tracking V2 • Measure whale net buy / sell • Identify accumulation vs distribution • Track flow strength and persistence 📌 Whale Dominant (VWAP + Band + Bubble) • Locate primary whale activity zone • Define fair value vs extension • Detect real large-order execution areas 📘 Full Guidebook & Framework",
+      "content_html": "<b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9AA8.png')\"><b>🚨</b></i>WHALE CEX FLOW SYSTEM — OFFICIAL LAUNCH ON KIYOTAKA<i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9A80.png')\"><b>🚀</b></i></b><br/><br/>We just published 2 institutional-grade Whale indicators: <b>“CVD Whale Tracking V2 &amp; Whale Dominant”</b><br/><br/>This system is built to<b> answer 5 core questions:</b><br/><i>1.  <b>How much</b> are whales <b>net buying or selling?</b><br/>2. Is whale flow<b> strong relative to total volume?</b><br/>3. Where is the main <b>whale activity zone?</b><br/>4. What is the <b>current whale state?</b><br/>5. Where do real <b>whale orders appear?</b></i><br/><br/><b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i>Setup</b>:<br/><blockquote>1/ <b>Sign up Kiyotaka</b>: <a href=\"http://kiyotaka.ai/ref=rn7d2DuH6W\" target=\"_blank\" rel=\"noopener\">kiyotaka.ai/ref=rn7d2DuH6W</a><br/><br/>2/ Search <b>“Whale”</b> and add:<br/><b>– CVD Whale Tracking V2<br/>– Whale Dominant</b><br/><br/><b>Timeframe: M15 (fixed)</b><br/>Preset: default</blockquote><br/><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA494.png')\"><b>🤔</b></i><b>Indicator Overview</b><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i><b>CVD Whale Tracking V2</b><br/>• Measure whale net buy / sell<br/>• Identify accumulation vs distribution<br/>• Track flow strength and persistence<br/><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i><b>Whale Dominant (VWAP + Band + Bubble)</b><br/>• Locate primary whale activity zone<br/>• Define fair value vs extension<br/>• Detect real large-order execution areas<br/><br/><a href=\"https://rural-kidney-3c1.notion.site/Guidebook-CVD-Whale-Tracking-Whale-Dominant-Bubble-Chart-English-Version-2e85008f580f80e492a5cda3138ca13e\" target=\"_blank\" rel=\"noopener\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\"><b><u><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9398.png')\"><b>📘</b></i>Full Guidebook &amp; Framework</u></b></a>",
+      "type": "whale_tracking",
+      "coins": [],
+      "timestamp": "2026-01-20T01:08:43+00:00",
+      "views": "52",
+      "forwarded_from": null,
+      "url": "https://t.me/tkresearch_tradingchannel/111",
+      "trade_signal": null
+    },
     {
       "id": "tkresearch_tradingchannel/109",
       "channel": "tkresearch_tradingchannel",
       "content": "Over the past 24 hours, whales have shown almost no activity in BTC and ETH. Price has pulled back to the Whale VWAP — the zone where high bid volume is recorded. It's time to start looking for buy entries around this area. After entering, we'll continue to monitor the key conditions we outlined earlier.",
       "type": "analysis",
-      "coins": ["BTC", "ETH"],
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
       "timestamp": "2026-01-08T03:20:00+00:00",
       "views": "54",
       "forwarded_from": "TKResearch Trading | Community",
@@ -29,7 +45,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update - Early Signal for $KERNEL\n\n📊$KERNEL Supply Breakdown:\n- Circulating Supply: 286.3M KERNEL (Coinmarketcap)\n- Supply on Exchange: 102M\n⇒ Net Circulating Supply: 184.3M\n\n1/ Since Jan 5, Net Exchange Outflow = 26.4M $KERNEL. Exchange Balance drop from 128.4M -> 102M\n2/ 2 Fresh Wallet withdrew 28.82M $KERNEL from Coinbase around $0.079 (~28% Supply on Exchange and ~16% Net Circulating Supply)\n\n🤔Insight:\n$KERNEL is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["KERNEL"],
+      "coins": [
+        "KERNEL"
+      ],
       "timestamp": "2026-01-07T18:34:00+00:00",
       "views": "37",
       "forwarded_from": "TKResearch Trading | Community",
@@ -41,7 +59,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $SPK\n\n📊$SPK Supply Breakdown:\n- Circulating Supply: 2.23B SPK\n- Supply on Exchange: 604M\n⇒ Net Circulating Supply: 1.63B SPK\n\n1/ Since Jan 4, Net Exchange Outflow = 380M $SPK. Exchange Balance drop from 984M -> 604M\n2/ 5 Fresh Wallet withdrew 290M $SPK from Coinbase around $0.02-$0.03 (~48% Supply on Exchange and ~18% Net Circulating Supply)\n\n🤔Insight:\n$SPK is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["SPK"],
+      "coins": [
+        "SPK"
+      ],
       "timestamp": "2026-01-07T09:48:00+00:00",
       "views": "26",
       "forwarded_from": "TKResearch Trading | Community",
@@ -53,7 +73,10 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅 ETH Market Overview – 24H | Jan 7\n\n📊ETH Breakdown\n1/ Perp Data\n- Whale CVD: After taking profit $500M around $3,250, whales have shown limited new activity last 24H\n- Price corrected after touching the upper band of the Whale VWAP\n\n2/ Spot Data\n- Whale CVD: $62M in profit-taking recorded (out of a $130M total position)\n- Bubble Chart: Whale activity is cooling down\n\n🤔Insight\n1/ ETH price action is now largely BTC-driven\n2/ Current risk factors: Price sideways above upper Whale VWAP, no fresh whale longs on Perps\n\n📊 Scenarios\nScenario 1: BTC rallies → ETH extends toward $3,500\nScenario 2: BTC pulls back → ETH faces downside to $3,100 or $2,950",
       "type": "market_overview",
-      "coins": ["ETH", "BTC"],
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
       "timestamp": "2026-01-07T07:23:00+00:00",
       "views": "22",
       "forwarded_from": "TKResearch Trading | Community",
@@ -65,14 +88,20 @@
       "channel": "tkresearch_tradingchannel",
       "content": "Long Scalp #BREV (Max 10x)\n- Entry: 0.3566 - 0.3429\n- TP: 0.3828 - 0.4229 - 0.4366\n- SL: 0.3306",
       "type": "trade_signal",
-      "coins": ["BREV"],
+      "coins": [
+        "BREV"
+      ],
       "timestamp": "2026-01-07T06:32:00+00:00",
       "views": "17",
       "forwarded_from": "Nan",
       "url": "https://t.me/tkresearch_tradingchannel/104",
       "trade_signal": {
         "entry": "0.3566 - 0.3429",
-        "tp": ["0.3828", "0.4229", "0.4366"],
+        "tp": [
+          "0.3828",
+          "0.4229",
+          "0.4366"
+        ],
         "sl": "0.3306"
       }
     },
@@ -81,7 +110,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅 BTC Market Overview – 24H | Jan 7\n\nPrice pulled back to key support as whales reopened $300M in long positions.\n\n📊BTC Breakdown\n1/ Perp Data\n- Whale CVD: Whales reopened $300M in longs (Total Whale Long Position ~$945M, avg entry ~$93K)\n- Price retraced to the Whale VWAP with strong buying pressure\n\n2/ Spot Data\n- Whale CVD: Full profit-taking of $260M recorded near the $94K high\n- Bubble Chart: Whale activity remains muted\n\n🤔Insight\n- Primary driver for upside is now Perp market capital flow\n- Spot whale activity must rebound for sustainable uptrend\n\n📊Scenarios\nScenario 1: High whale activity → Price pumps to $96–97K\nScenario 2: Low whale activity → Price dumps to $91K",
       "type": "market_overview",
-      "coins": ["BTC"],
+      "coins": [
+        "BTC"
+      ],
       "timestamp": "2026-01-07T06:31:00+00:00",
       "views": "13",
       "forwarded_from": "TKResearch Trading | Community",
@@ -93,7 +124,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $SWFTC\n\n📊$SWFTC Supply Breakdown:\n- Circulating Supply: 10B SWFTC\n- Supply on Exchange: 2.05B SWFTC\n⇒ Net Circulating Supply: 7.95B\n\n1/ Since Nov 20, Net Exchange Outflow = 4.6B $SWFTC. Exchange Balance drop from 6.65B -> 2.05B\n2/ 9 Fresh Wallet withdrew 3.55B $SWFTC from Coinbase around $0.005xx (~173% Supply on Exchange and 45% Net Circulating Supply)\n\n🤔Insight:\n$SWFTC is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["SWFTC"],
+      "coins": [
+        "SWFTC"
+      ],
       "timestamp": "2026-01-06T14:00:00+00:00",
       "views": "14",
       "forwarded_from": "TKResearch Trading | Community",
@@ -105,7 +138,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $CVX\n\n📊$CVX Supply Breakdown:\n- Circulating Supply: 40.94M CVX\n- Supply on Exchange: 16.62M\n⇒ Net Circulating Supply: 24.31M\n\n1/ Since Dec 11, Net Exchange Outflow = 5.23M $CVX. Exchange Balance drop from 22.34M -> 17.11M\n2/ 7 Fresh Wallet withdrew 7.55M $CVX from Coinbase around $1.8 (~44% Supply on Exchange and ~31% Net Circulating Supply)\n\n🤔Insight:\n$CVX is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["CVX"],
+      "coins": [
+        "CVX"
+      ],
       "timestamp": "2026-01-06T12:31:00+00:00",
       "views": "13",
       "forwarded_from": "TKResearch Trading | Community",
@@ -117,7 +152,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $RENDER\n\n📊$RENDER Supply Breakdown:\n- Circulating Supply: 518.67M RENDER\n- Supply on Exchange: 168.5M (SOL + ETH Chain)\n⇒ Net Circulating Supply: 350.17M\n\n1/ Since Dec 7, Net Exchange Outflow = 33.5M $RENDER. Exchange Balance drop from 202M -> 168.5M\n2/ SOL Chain: 4 Top 5 EOA accumulated 47.6M $RENDER, withdrew from CEXs at $1.89 - $3.71\n3/ 4 Fresh Wallet withdrew 4.92M $RENDER from Coinbase at $2.6\n\nBigPlayer Balance = 52.5M $RENDER (~31% Supply on Exchange and ~15% Net Circulating Supply)\n\n🤔Insight:\n$RENDER is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["RENDER"],
+      "coins": [
+        "RENDER"
+      ],
       "timestamp": "2026-01-06T12:16:00+00:00",
       "views": "10",
       "forwarded_from": "TKResearch Trading | Community",
@@ -129,7 +166,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $FET\n\n📊$FET Supply Breakdown:\n- Circulating Supply: 2.31B\n- Supply on Exchange: 957.4M (BNB + ETH Chain)\n⇒ Net Circulating Supply: 1.353B\n\n1/ Since Dec 5, Net Exchange Outflow = 381M $FET. Exchange Balance drop from 1.34B -> 956M\n2/ ETH Chain: FET Custody Vaults withdrew 319M $FET from Coinbase at $0.234 - $0.272\n3/ 8 Fresh Wallet withdrew 83M $FET from CEXs around $0.234 - $0.284\n\nBigPlayer Balance = 402M $FET (~42% Supply on Exchange and ~30% Net Circulating Supply)\n\n🤔Insight:\n$FET is showing signs of supply exhaustion, with tokens controlled by Big Players",
       "type": "onchain_analysis",
-      "coins": ["FET"],
+      "coins": [
+        "FET"
+      ],
       "timestamp": "2026-01-06T11:35:00+00:00",
       "views": "12",
       "forwarded_from": "TKResearch Trading | Community",
@@ -141,7 +180,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅On-chain Update for $BAT (Continued)\n\n📊$BAT Supply Breakdown:\n- Circulating Supply: 1.49B\n- Supply on Exchanges: 434.5M\n⇒ Net Circulating Supply: 1.06B $BAT\n\n1/ Top 1&2&3 EOA accumulated 205.3M $BAT, avg entry ~$0.197 - $0.264\n2/ Fresh Wallet now holding 68.31M $BAT, avg entry ~$0.25 - $0.27\n\n🤔Insight:\n$BAT is showing clear exchange supply outflows. Big Players (Fresh Wallets + Top EOAs) continue to accumulate and now hold 273.6M $BAT (~63% of exchange supply and ~26% of net circulating supply)",
       "type": "onchain_analysis",
-      "coins": ["BAT"],
+      "coins": [
+        "BAT"
+      ],
       "timestamp": "2026-01-06T08:11:00+00:00",
       "views": "12",
       "forwarded_from": "TKResearch Trading | Community",
@@ -153,7 +194,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅Onchain Update for $AVNT (Continued)\n\n📊AVNT Supply Breakdown:\n- Circulating Supply: 258.2M AVNT\n- Supply on Exchange: 144M AVNT\n⇒ Net Circulating Supply: 114.2M AVNT\n\n1/ Fresh Wallet re-accumulated 4.5M $AVNT, avg ~$0.34. Previously took profit on 7M $AVNT around $0.4\n2/ Current Balance = 19.5M $AVNT\n\n🤔Insight:\n$AVNT is showing signs of re-accumulation by big players. Selling pressure has eased, and big players are still holding 19.5M $AVNT (~13.5% of exchange supply and ~17% of net circulating supply)",
       "type": "onchain_analysis",
-      "coins": ["AVNT"],
+      "coins": [
+        "AVNT"
+      ],
       "timestamp": "2026-01-06T07:45:00+00:00",
       "views": "11",
       "forwarded_from": "TKResearch Trading | Community",
@@ -165,7 +208,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "BTC still looks constructive overall, but with whale activity declining, the market is more likely to move sideways or see a mild pullback before continuing higher.\n\nFrom a technical analysis perspective, price is currently following a Darvas Box pattern. If a breakout occurs, BTC could extend toward the 105k level, based on TA projections.\n\nFrom an order book standpoint, the 100k zone is currently showing heavy sell-side liquidity, with a large concentration of sell volume acting as near-term resistance.",
       "type": "analysis",
-      "coins": ["BTC"],
+      "coins": [
+        "BTC"
+      ],
       "timestamp": "2026-01-06T06:54:00+00:00",
       "views": "12",
       "forwarded_from": "TKResearch Trading | Community",
@@ -177,7 +222,9 @@
       "channel": "tkresearch_tradingchannel",
       "content": "📅Market Overview BTC 24H – Jan 6\n\nBig players entered late but are still building and reinforcing long positions in BTC.\n\n📊For BTC\n1/Perp Data\n- Whale CVD: Whales began accumulating after BTC rallied to 92k level. Total Long Position ~$900M, avg entry ~92.3k (no signs of profit-taking)\n- Price has reached upper band of the Whale VWAP Line\n\n2/Spot Data\n- Whale CVD: Whales have maintained strong spot buying, totaling $260M from the 90k zone (no profit-taking)\n- Bubble Chart: Whale activity shows signs of cooling off near the top\n\n🤔Insight\n1/ BTC showing constructive signals: (1) Whales holding $900M in long positions with avg entry around 92.3k and (2) Whales accumulating $260M in spot\n2/ Risks: Price at upper band of Whale VWAP, and whale activity cooling near highs\n\nKey support: 92.3k (whales' avg entry) and 90.6k (Whale VWAP Line)\nNext upside target: around 100k level",
       "type": "market_overview",
-      "coins": ["BTC"],
+      "coins": [
+        "BTC"
+      ],
       "timestamp": "2026-01-06T06:54:00+00:00",
       "views": "11",
       "forwarded_from": "TKResearch Trading | Community",

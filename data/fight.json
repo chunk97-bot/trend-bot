@@ -1,0 +1,44 @@
+{
+  "trend": "$FIGHT",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 878,
+    "price_btc": 1.1893930589861267e-07,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$FIGHT"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$FIGHT Token Surges as Meme Coin Apes Pile In",
+    "summary": "The $FIGHT token, a meme-inspired cryptocurrency, has seen a major price spike as crypto traders and 'degens' rush to get in on the action. This sudden rise is driven by viral hype on social media.",
+    "origin_story": "$FIGHT first emerged on CoinGecko, gaining traction among meme coin enthusiasts looking for the next big 'moonshot' play.",
+    "expert_analysis": "With a market cap ranking outside the top 1,000, $FIGHT has all the hallmarks of a speculative meme coin play. Traders are 'aping in' based on the token's high engagement score, hoping to catch an explosive pump before the inevitable dump. However, the long-term viability of this project remains highly uncertain.",
+    "impact": "The $FIGHT price surge has driven a significant spike in trading volume across major crypto exchanges.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:32:08.385096+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:32:08.385113+00:00",
+      "signal_score": 90
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "trend": "tiktok viral christmas tree",
+  "category": "crypto_news",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1667169,
+    "tiktok_likes": 126491
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "TikTok's Viral Christmas Tree Craze Sparks New Crypto Opportunities",
+    "summary": "A quirky Christmas tree trend has taken over TikTok, capturing the attention of millions. This presents unique opportunities for crypto traders looking to capitalize on emerging viral memes and internet culture.",
+    "origin_story": "The trend started with users sharing videos of themselves decorating minimalist Christmas trees, often using unconventional items like pasta, cheese, and even their pets as ornaments. It quickly went viral across TikTok.",
+    "expert_analysis": "This trend taps into the growing desire for unique, personalized holiday experiences. For crypto traders, it signals the power of meme-driven hype and the need to stay ahead of viral internet culture. Savvy investors may look to capitalize on potential crypto projects or NFT collections inspired by the Christmas tree craze.",
+    "impact": "The trend has already generated over 1.7 million views and 126.5K likes on TikTok, indicating significant engagement and potential for further cultural impact.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-10T07:33:15.219761+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:33:15.219777+00:00",
+      "signal_score": 40
+    }
+  ]
+}

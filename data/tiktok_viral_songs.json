@@ -1,13 +1,13 @@
 {
   "trend": "tiktok viral songs",
-  "category": "entertainment",
+  "category": "meme_coin",
   "platforms": {
     "tiktok": true
   },
   "platform_count": 1,
   "metrics": {
-    "tiktok_views": 1246487,
-    "tiktok_likes": 35313
+    "tiktok_views": 1649169,
+    "tiktok_likes": 74945
   },
   "signal_score": 40,
   "momentum": "stable",
@@ -22,14 +22,14 @@
   "cashtags": [],
   "hashtags": [],
   "analysis": {
-    "headline": "tiktok viral songs Takes Over The Internet",
-    "summary": "The topic 'tiktok viral songs' is trending across tiktok.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
-    "status": "rising"
+    "headline": "TikTok Viral Songs Spark Meme Coin Frenzy as Traders Seek Early Gains",
+    "summary": "Popular TikTok songs are driving a surge in meme coin trading, as traders look to capitalize on the viral trends. The massive social engagement and potential for rapid price appreciation are fueling intense interest from crypto speculators.",
+    "origin_story": "The trend emerged from TikTok, where users have been sharing and engaging with trending songs, leading to massive view and like counts on the platform.",
+    "expert_analysis": "This trend reflects the influence of social media on cryptocurrency markets, as traders seek to identify and ride the wave of viral content. The potential for meme coins to see parabolic price gains based on TikTok virality has sparked a feeding frenzy among crypto speculators looking for outsized returns.",
+    "impact": "The surge in trading volume and interest in meme coins tied to TikTok trends could lead to significant price volatility and potential opportunities for savvy traders to profit.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-09T11:11:33.171270+00:00",
+  "timestamp": "2026-02-10T07:33:11.537071+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:09:06.242568+00:00",
@@ -37,6 +37,10 @@
     },
     {
       "timestamp": "2026-02-09T11:11:33.171270+00:00",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-10T07:33:11.537087+00:00",
       "signal_score": 40
     }
   ]

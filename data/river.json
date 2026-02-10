@@ -1,0 +1,44 @@
+{
+  "trend": "$RIVER",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 132,
+    "price_btc": 0.00022843966302759183,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$RIVER"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$RIVER Surging as Crypto Degens Ape Into Meme Coin Hype",
+    "summary": "The little-known meme coin $RIVER is seeing a massive price surge as crypto traders FOMO into the token, drawn by its impressive social engagement metrics and potential for quick gains.",
+    "origin_story": "The $RIVER hype train started on CoinGecko and other crypto platforms, where the token's rapid rise in the rankings caught the attention of degen traders looking for the next big meme coin pump.",
+    "expert_analysis": "With a market cap rank of 132 and a BTC price of 0.00022843966302759183, $RIVER is currently exhibiting all the classic signs of a meme coin on the verge of going viral. Crypto degens are piling in, hoping to catch the wave and 'ape' their way to quick profits before the inevitable dump.",
+    "impact": "The surge in $RIVER trading volume and social engagement suggests this trend has serious legs and could see further explosive upside in the short-term.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:32:12.149300+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:32:12.149316+00:00",
+      "signal_score": 90
+    }
+  ]
+}

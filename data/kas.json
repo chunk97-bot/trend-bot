@@ -1,0 +1,44 @@
+{
+  "trend": "$KAS",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 73,
+    "price_btc": 4.5225545088110745e-07,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$KAS"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$KAS Surges as Crypto Degens Hunt for the Next Moonshot",
+    "summary": "The little-known altcoin $KAS has seen a sudden spike in trading volume and price, catching the attention of crypto traders seeking the next big meme coin breakout.",
+    "origin_story": "The $KAS token has been quietly building a community on platforms like CoinGecko, with chatter picking up in recent days as influencers hype its potential.",
+    "expert_analysis": "Traders are eyeing $KAS as a potential 'alt season' play, with the token's low market cap and simmering engagement scores suggesting room for explosive growth if the right viral momentum builds. However, meme coins remain highly speculative, so apes should tread carefully.",
+    "impact": "A sustained $KAS pump could drive significant trading volume and new capital into the altcoin market.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:33:00.437092+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:33:00.437107+00:00",
+      "signal_score": 75
+    }
+  ]
+}

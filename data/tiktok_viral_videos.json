@@ -1,13 +1,13 @@
 {
   "trend": "tiktok viral videos",
-  "category": "entertainment",
+  "category": "meme_coin",
   "platforms": {
     "tiktok": true
   },
   "platform_count": 1,
   "metrics": {
-    "tiktok_views": 1257308,
-    "tiktok_likes": 112427
+    "tiktok_views": 1832600,
+    "tiktok_likes": 54959
   },
   "signal_score": 40,
   "momentum": "stable",
@@ -22,17 +22,21 @@
   "cashtags": [],
   "hashtags": [],
   "analysis": {
-    "headline": "tiktok viral videos Takes Over The Internet",
-    "summary": "The topic 'tiktok viral videos' is trending across tiktok.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "TikTok Meme Coins Soar: Identifying the Next Big Viral Trend",
+    "summary": "TikTok-fueled meme coins are experiencing a meteoric rise, as traders hunt for the next big viral cryptocurrency that could yield outsized returns. The platform's massive user base and ability to rapidly spread trends make it a crucial channel for crypto projects to gain attention and drive trading volume.",
+    "origin_story": "The recent TikTok craze around meme coins like Dogecoin has demonstrated the platform's power to ignite interest and trigger FOMO-driven buying frenzies in the crypto market.",
+    "expert_analysis": "Savvy crypto traders are closely monitoring TikTok for early signals of the next meme coin to go viral. The explosive growth potential of these assets, coupled with their high risk-reward profile, make them attractive targets for traders seeking alpha. However, the volatility and speculative nature of this market segment require careful risk management.",
+    "impact": "Viral TikTok trends can drive significant trading volume and price appreciation for meme coins in the short term, though long-term sustainability remains a key concern.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T11:09:02.810805+00:00",
+  "timestamp": "2026-02-10T07:33:08.043020+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:09:02.810805+00:00",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-10T07:33:08.043036+00:00",
       "signal_score": 40
     }
   ]

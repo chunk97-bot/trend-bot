@@ -1,0 +1,44 @@
+{
+  "trend": "$ZRO",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 110,
+    "price_btc": 2.798102508531449e-05,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$ZRO"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Memecoin $ZRO Soars, Crypto Degens Pile In for Potential Gains",
+    "summary": "The low-cap meme coin $ZRO has seen a massive surge in trading volume and social engagement, as crypto traders look to capitalize on the latest viral crypto trend. With a top-200 market cap ranking, $ZRO is gaining attention from those seeking outsized returns.",
+    "origin_story": "The $ZRO memecoin first gained traction on CoinGecko and crypto Twitter, where a growing community of 'degens' have been hyping up the project.",
+    "expert_analysis": "The sudden spike in $ZRO's price and trading activity suggests that crypto traders are piling in, likely seeking to 'buy the rumor and sell the news' on this emerging trend. While the long-term viability of memecoins is debatable, the current momentum behind $ZRO could present short-term trading opportunities for savvy investors.",
+    "impact": "The $ZRO pump has led to a significant increase in trading volume and market capitalization, indicating strong retail interest in this speculative crypto asset.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-10T07:32:15.947870+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:32:15.947886+00:00",
+      "signal_score": 90
+    }
+  ]
+}
