@@ -336,16 +336,22 @@ async function loadTrends() {
 
   // Track previous trend count for new trend detection
   const previousTrendCount = allTrends.length;
-  allTrends = [];
-
-  for (const file of index.files) {
+  
+  // Fetch all files in parallel for much faster loading
+  const ts = Date.now();
+  const fetchPromises = index.files.map(async (file) => {
     try {
-      const res = await fetch(`./data/${file}?ts=${Date.now()}`);
+      const res = await fetch(`./data/${file}?ts=${ts}`);
       const data = await res.json();
       data.category = data.category || detectCategory(data);
-      allTrends.push(data);
-    } catch {}
-  }
+      return data;
+    } catch {
+      return null;
+    }
+  });
+  
+  const results = await Promise.all(fetchPromises);
+  allTrends = results.filter(data => data !== null);
 
   // Update last update time
   lastUpdateTime = new Date();
