@@ -641,13 +641,13 @@ function renderTrend(t, index = 0) {
     </div>
 
     <div class="social platform-metrics">
-      ${t.metrics?.x?.posts ? `<span class="platform-badge x">🐦 X: ${t.metrics.x.posts} posts · ${t.metrics.x.reposts} reposts</span>` : 
-        (t.social_presence?.x ? `<span>🐦 X: ${t.social_presence.x}</span>` : '')}
-      ${t.metrics?.tiktok?.views ? `<span class="platform-badge tiktok">🎵 TikTok: ${t.metrics.tiktok.views} views · ${t.metrics.tiktok.videos} videos</span>` : 
-        (t.social_presence?.tiktok ? `<span>🎵 TikTok: ${t.social_presence.tiktok}</span>` : '')}
-      ${t.metrics?.instagram?.posts ? `<span class="platform-badge instagram">📸 IG: ${t.metrics.instagram.posts} posts · ${t.metrics.instagram.reach} reach</span>` : 
-        (t.social_presence?.instagram ? `<span>📸 IG: ${t.social_presence.instagram}</span>` : '')}
-      ${t.metrics?.google?.searches ? `<span class="platform-badge google">🔍 Google: ${t.metrics.google.searches} searches</span>` : ''}
+      ${t.metrics?.x ? `<span class="platform-badge x">🐦 X: ${t.metrics.x.posts || '0'} posts · ${t.metrics.x.reposts || '0'} reposts</span>` : 
+        (t.social_presence?.x ? `<span>🐦 X: ${t.social_presence.x}</span>` : '<span class="platform-badge x">🐦 X: -- posts</span>')}
+      ${t.metrics?.tiktok ? `<span class="platform-badge tiktok">🎵 TikTok: ${t.metrics.tiktok.views || '0'} views · ${t.metrics.tiktok.videos || '0'} videos</span>` : 
+        (t.social_presence?.tiktok ? `<span>🎵 TikTok: ${t.social_presence.tiktok}</span>` : '<span class="platform-badge tiktok">🎵 TikTok: -- views</span>')}
+      ${t.metrics?.instagram ? `<span class="platform-badge instagram">📸 IG: ${t.metrics.instagram.posts || '0'} posts · ${t.metrics.instagram.reach || '0'} reach</span>` : 
+        (t.social_presence?.instagram ? `<span>📸 IG: ${t.social_presence.instagram}</span>` : '<span class="platform-badge instagram">📸 IG: -- posts</span>')}
+      ${t.metrics?.google ? `<span class="platform-badge google">🔍 Google: ${t.metrics.google.searches || '0'} searches</span>` : '<span class="platform-badge google">🔍 Google: -- searches</span>'}
     </div>
     
     <!-- Related Trends -->

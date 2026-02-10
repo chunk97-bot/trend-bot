@@ -63,6 +63,9 @@ DATA_DIR = "data"
 POSTS_DIR = "posts"
 TRACK_FILE = "tracked_trends.json"
 
+# Age limit for trend data (72 hours)
+MAX_TREND_AGE_HOURS = 72
+
 # ================= X-FIRST CONFIGURATION =================
 
 # Influencer accounts to monitor (Tier system)
@@ -274,10 +277,13 @@ def scrape_google_trends_global():
     """Get trending searches from multiple countries with retry logic"""
     print("   &#128202; Scraping Google Trends...")
     all_trends = {}
+    
+    # Try pytrends first with better error handling
+    pytrends_failed = True
     for location in GLOBAL_LOCATIONS[:3]:
         for attempt in range(3):
             try:
-                pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
+                pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25), retries=2, backoff_factor=0.5)
                 df = pytrends.trending_searches(pn=location)
                 trends = df[0].tolist()[:20]
                 for trend in trends:
@@ -292,11 +298,24 @@ def scrape_google_trends_global():
                     else:
                         all_trends[normalized]["locations"].append(location)
                 print(f"      &#10003; {location}: {len(trends)} trends")
+                pytrends_failed = False
                 random_delay()
                 break
             except Exception as e:
+                error_msg = str(e)
+                if "404" in error_msg or "ResponseError" in error_msg:
+                    print(f"      &#9888; {location}: Google returned 404 - using fallback")
+                    break  # Don't retry on 404, use fallback instead
                 print(f"      &#10007; {location} (attempt {attempt+1}): {e}")
                 time.sleep(2)
+    
+    # Fallback: Use RSS feed and autocomplete if pytrends fails or returns few results
+    if pytrends_failed or len(all_trends) < 10:
+        print("      &#9888; Using Google Trends fallback methods...")
+        fallback_trends = get_google_realtime_trends()
+        all_trends.update(fallback_trends)
+        print(f"      &#10003; Fallback added {len(fallback_trends)} trends")
+    
     return all_trends
 
 def get_google_realtime_trends():
@@ -304,26 +323,37 @@ def get_google_realtime_trends():
     print("   &#128200; Getting real-time Google trends...")
     trends = {}
     
-    try:
-        # Google Trends RSS feed for real-time
-        rss_url = "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
-        response = requests.get(rss_url, headers=get_headers(), timeout=15)
-        
-        if response.status_code == 200:
-            # Parse titles from RSS
-            import xml.etree.ElementTree as ET
-            root = ET.fromstring(response.content)
-            for item in root.findall('.//item/title'):
-                if item.text:
-                    normalized = normalize_trend(item.text)
-                    trends[normalized] = {
-                        "name": item.text,
-                        "platforms": {"google": True},
-                        "metrics": {"google_searches": random.randint(100000, 1000000)},
-                        "locations": ["global"]
-                    }
-    except Exception as e:
-        print(f"      &#10007; RSS Error: {e}")
+    # Try multiple RSS feed URLs for better reliability
+    rss_urls = [
+        "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
+        "https://trends.google.com/trends/trendingsearches/daily/rss?geo=GB",
+        "https://trends.google.com/trends/trendingsearches/daily/rss?geo=IN",
+    ]
+    
+    for rss_url in rss_urls:
+        try:
+            response = requests.get(rss_url, headers=get_headers(), timeout=15)
+            
+            if response.status_code == 200:
+                # Parse titles from RSS
+                import xml.etree.ElementTree as ET
+                root = ET.fromstring(response.content)
+                for item in root.findall('.//item/title'):
+                    if item.text:
+                        normalized = normalize_trend(item.text)
+                        trends[normalized] = {
+                            "name": item.text,
+                            "platforms": {"google": True},
+                            "metrics": {"google_searches": random.randint(100000, 1000000)},
+                            "locations": ["global"]
+                        }
+                print(f"      &#10003; RSS feed: {len(trends)} trends")
+                break  # Success, no need to try other feeds
+            elif response.status_code == 404:
+                print(f"      &#9888; RSS returned 404 - trying next feed")
+                continue
+        except Exception as e:
+            print(f"      &#10007; RSS Error: {e}")
     
     # Fallback: Use Google Autocomplete for seed topics
     print("   &#128200; Using Google Autocomplete fallback...")
@@ -2078,12 +2108,44 @@ def generate_post_html(trend_name, trend_data):
 
 # ================= MAIN PIPELINE =================
 
+def cleanup_old_trends():
+    """Delete trend files older than 72 hours"""
+    print("\n🧹 Cleaning up old trend files (>72h)...")
+    now = datetime.datetime.now(datetime.timezone.utc)
+    deleted_count = 0
+    
+    for folder in [DATA_DIR, POSTS_DIR]:
+        if not os.path.exists(folder):
+            continue
+        for filename in os.listdir(folder):
+            if filename in ['index.json', 'meme_signals.json']:
+                continue
+            filepath = os.path.join(folder, filename)
+            try:
+                # Check file modification time
+                mtime = os.path.getmtime(filepath)
+                file_age = datetime.datetime.fromtimestamp(mtime, tz=datetime.timezone.utc)
+                age_hours = (now - file_age).total_seconds() / 3600
+                
+                if age_hours > MAX_TREND_AGE_HOURS:
+                    os.remove(filepath)
+                    deleted_count += 1
+            except Exception as e:
+                print(f"   ⚠ Could not check/delete {filename}: {e}")
+    
+    print(f"   ✓ Deleted {deleted_count} old files")
+    return deleted_count
+
+
 def main():
     print("=" * 60)
     print(f"🔮 TREND RADAR - X-First Meme Coin & Trend Aggregator")
     print(f"   Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"   Mode: X-First with Cross-Platform Validation")
     print("=" * 60)
+    
+    # Clean up old trends first
+    cleanup_old_trends()
 
     # ================= X-FIRST WORKFLOW =================
     

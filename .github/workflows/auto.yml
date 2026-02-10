@@ -29,6 +29,7 @@ jobs:
       - name: Run trend bot
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
           PYTHONIOENCODING: utf-8
           PYTHONUTF8: 1
           LC_ALL: C.UTF-8
