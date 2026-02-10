@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 398,
-    "price_btc": 3.914249277264702e-07,
+    "price_btc": 3.908673216531844e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Meme Coin $ZAMA Explodes as Degen Traders Ape In",
-    "summary": "The obscure meme coin $ZAMA has seen a massive price surge, with traders rushing to get in on the potential for outsized gains. The sudden spike in interest has crypto degens speculating on the next big memecoin moonshot.",
-    "origin_story": "Chatter about $ZAMA first picked up on CoinGecko and crypto Twitter, with influencers and shitposters hyping up the token's low market cap and meme potential.",
-    "expert_analysis": "The $ZAMA pump appears to be a classic 'ape in' scenario, as retail traders flock to the coin in hopes of catching the next big wave. While the fundamentals are thin, the engagement and social media buzz suggest this could have further to run in the short-term. Savvy traders may want to keep an eye on $ZAMA for potential trading opportunities.",
-    "impact": "The $ZAMA frenzy has already driven a significant spike in trading volume, catching the attention of the wider crypto community.",
+    "headline": "$ZAMA Surges as Meme Coin Mania Sweeps Crypto",
+    "summary": "The little-known meme coin $ZAMA has exploded in popularity, catching the attention of crypto traders searching for the next big degenerate play. With its absurd branding and cultish community, $ZAMA is the latest altcoin to capture the imagination of the 'ape' market.",
+    "origin_story": "Launched just weeks ago, $ZAMA has quickly gained traction on social media, with crypto influencers and shitposters hyping the token across TikTok, Twitter, and Telegram.",
+    "expert_analysis": "The meteoric rise of $ZAMA reflects the ongoing frenzy around meme coins, as traders continue to 'ape' into these highly speculative plays in search of massive gains. While fundamentals are largely irrelevant, the sheer momentum and memetic power of $ZAMA could propel it to new highs in the short-term as FOMO takes hold. However, the long-term prospects remain highly uncertain for this ultra high-risk, high-reward opportunity.",
+    "impact": "Surging trading volume and market capitalization have catapulted $ZAMA into the crypto top 400, demonstrating the outsized influence that viral hype can wield in this market.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:09.826480+00:00",
+  "timestamp": "2026-02-10T07:58:43.256619+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:39.105061+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:09.826496+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:43.256638+00:00",
       "signal_score": 90
     }
   ]

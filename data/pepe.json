@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 49,
-    "price_btc": 5.3313032241130664e-11,
+    "price_btc": 5.323379901275784e-11,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Pepe the Frog Meme Coin Surges, Traders Seek Early Gains",
-    "summary": "The $PEPE meme coin has seen a sudden spike in interest and trading volume, as crypto traders look to capitalize on the latest viral crypto trend.",
-    "origin_story": "$PEPE first emerged as a community-driven meme coin, gaining traction on platforms like CoinGecko and across crypto social media.",
-    "expert_analysis": "The sudden interest in $PEPE reflects the volatile nature of the meme coin market, where traders are always on the hunt for the next big breakout. With a high engagement score, $PEPE could see further gains if the momentum continues, but caution is advised given the inherent risks of these speculative assets.",
-    "impact": "The $PEPE rally has already driven a significant increase in trading volume, signaling that some traders may be looking to 'ape in' and ride the wave of hype.",
+    "headline": "$PEPE Surges as Memecoin Craze Grips Crypto Market",
+    "summary": "The obscure meme-inspired cryptocurrency $PEPE has seen a massive surge in interest and trading volume, riding the wave of the latest viral memecoin trend in the crypto space.",
+    "origin_story": "The $PEPE token, featuring the iconic Pepe the Frog meme, first gained traction on decentralized platforms like PancakeSwap and Uniswap before exploding in popularity across crypto social media.",
+    "expert_analysis": "Driven by a potent mix of nostalgia, speculative frenzy, and the search for the 'next big thing', $PEPE has captured the attention of retail crypto traders seeking outsized gains. While the fundamentals remain murky, the token's surging engagement score suggests strong memetic power that could translate into further price appreciation for savvy degen traders.",
+    "impact": "The $PEPE phenomenon has already translated into significant trading volume and market capitalization gains, underscoring the enduring appeal of memecoins in the current crypto landscape.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:02.840584+00:00",
+  "timestamp": "2026-02-10T07:58:48.004213+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:19.229622+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:02.840600+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:48.004232+00:00",
       "signal_score": 90
     }
   ]

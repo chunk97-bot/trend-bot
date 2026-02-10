@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 877,
-    "price_btc": 1.174335153757886e-07,
+    "market_cap_rank": 898,
+    "price_btc": 1.1567764330508093e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Meme Coin $FIGHT Catches Fire as Degens Aim to 'Pump It Up'",
-    "summary": "The obscure meme token $FIGHT has seen a sudden surge in trading volume and social engagement as crypto traders seek out the next big 'moonshot'. Speculators are betting this little-known coin could be the next big winner.",
-    "origin_story": "The $FIGHT token first emerged on DeFi platforms like PancakeSwap, gaining traction among the 'degen' crypto crowd looking for high-risk, high-reward plays.",
-    "expert_analysis": "Sentiment around $FIGHT is increasingly bullish, as retail traders pile in chasing parabolic gains. Key influencers on crypto Twitter have started shilling the token, stoking FOMO among their followers. However, the fundamentals behind $FIGHT remain murky, making it a highly speculative and volatile play.",
-    "impact": "A flood of new capital has poured into $FIGHT, driving a 2x surge in the token's market cap over the past 24 hours.",
-    "status": "rising"
+    "headline": "$FIGHT Meme Coin Surges as Degens Latch Onto Viral Rumors",
+    "summary": "The $FIGHT meme coin has seen a sudden spike in trading activity as crypto traders seek to capitalize on unverified hype around a potential celebrity endorsement or listing announcement. The price has soared, but will it hold?",
+    "origin_story": "Whispers of a high-profile partnership or exchange listing started circulating on crypto Twitter and Discord servers, sending the $FIGHT token into a frenzy.",
+    "expert_analysis": "This looks like a classic 'buy the rumor, sell the news' scenario common in the meme coin space. Traders are APEing in hoping to front-run an official announcement, but the fundamentals of $FIGHT remain questionable. Proceed with caution, as these types of speculative pumps rarely end well for latecomers.",
+    "impact": "Trading volume for $FIGHT has exploded, but the long-term viability of the project is unclear.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-10T07:41:51.739042+00:00",
+  "timestamp": "2026-02-10T07:58:29.481203+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:08.385113+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:41:51.739059+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:29.481223+00:00",
       "signal_score": 90
     }
   ]

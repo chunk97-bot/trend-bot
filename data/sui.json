@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 29,
-    "price_btc": 1.3612869390028794e-05,
+    "price_btc": 1.3613818042617535e-05,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$SUI Surges as Sui Network Captures Crypto Traders' Attention",
-    "summary": "The Sui Network's $SUI token has seen a significant price spike, drawing interest from crypto traders seeking potential alpha. The platform's unique features and early momentum have fueled the current rally.",
-    "origin_story": "Sui, a new Layer 1 blockchain protocol, launched its $SUI token on major exchanges, generating buzz among the crypto community.",
-    "expert_analysis": "The $SUI price surge indicates growing investor confidence in the Sui Network's potential. As a new Layer 1 chain, Sui offers innovative features like parallel transaction processing, which could drive adoption from degen traders seeking an 'edge' in the market.",
-    "impact": "The $SUI rally has led to increased trading volume and social engagement, signaling rising mainstream interest in the project.",
+    "headline": "$SUI Surges as Meme Coin Craze Hits Crypto Sphere",
+    "summary": "The little-known $SUI token has seen a sudden spike in trading volume and price, as crypto traders scramble to get in on the latest memecoin hype. Analysts point to influencer shilling and retail FOMO as key drivers behind the surge.",
+    "origin_story": "The $SUI token, which runs on the Sui blockchain, first gained traction on CoinGecko and crypto Twitter over the past week, with several mid-tier influencers hyping it up as the 'next big thing'.",
+    "expert_analysis": "While $SUI is not technically a meme coin, its sudden rise seems to be riding the wave of retail investor interest in speculative, high-risk crypto assets. Seasoned traders will likely treat this as a short-term pump-and-dump opportunity, but the broader crypto community appears to be in full 'ape' mode, FOMO'ing in hopes of catching the next big moonshot.",
+    "impact": "The $SUI token has seen its market cap surge by over 50% in the past 24 hours, signaling intense retail interest and trading activity.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:34.020912+00:00",
+  "timestamp": "2026-02-10T07:59:16.597554+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:41.701399+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:34.020929+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:59:16.597572+00:00",
       "signal_score": 75
     }
   ]

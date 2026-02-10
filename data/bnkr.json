@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 282,
-    "price_btc": 1.38433915457078e-08,
+    "market_cap_rank": 285,
+    "price_btc": 1.3808849614995095e-08,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$BNKR Surges as Degens Rush to Capitalize on Meme Coin Mania",
-    "summary": "The little-known meme coin $BNKR has seen a massive price surge as traders scramble to get in early. With a sky-high engagement score, this project is capturing the attention of the crypto degen crowd looking for the next big pump.",
-    "origin_story": "$BNKR first emerged on CoinGecko and other crypto platforms, quickly gaining traction among meme coin enthusiasts on social media.",
-    "expert_analysis": "The sudden spike in $BNKR's price and engagement signals that this is the latest project to capture the imagination of the crypto hype machine. Savvy traders are likely looking to buy in early and ride the wave of FOMO, hoping to sell at the top before the inevitable correction.",
-    "impact": "If the momentum continues, $BNKR could see a significant increase in trading volume and market capitalization in the short term.",
+    "headline": "$BNKR Meme Coin Surges as Degens Seek Next Big Pump",
+    "summary": "The low-cap meme token $BNKR has seen a sudden price spike, attracting crypto traders looking for the next x100 gem. With its engagement score soaring, the community is abuzz with speculation about potential catalysts.",
+    "origin_story": "Originating on smaller crypto platforms, $BNKR has gained traction in recent weeks as influencers and degen traders have started to take notice.",
+    "expert_analysis": "The sharp rise in $BNKR's price and engagement suggests growing retail interest, as traders search for undervalued meme coins that could see parabolic gains. While fundamentals remain unclear, the community's infectious hype could drive further short-term upside if the momentum continues.",
+    "impact": "A breakout in trading volume and social metrics indicates $BNKR is emerging as a new speculative focus for crypto investors.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:05.686359+00:00",
+  "timestamp": "2026-02-10T07:58:39.234083+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T12:30:49.924014+00:00",
@@ -46,6 +46,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:05.686374+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:39.234101+00:00",
       "signal_score": 90
     }
   ]

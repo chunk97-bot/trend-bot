@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 129,
-    "price_btc": 0.00022933182609700934,
+    "market_cap_rank": 125,
+    "price_btc": 0.00024040013312347976,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$RIVER Surges, Crypto Degens Chasing Moonshot Potential",
-    "summary": "The meme coin $RIVER has seen a massive surge in price and engagement, as crypto traders hunt for the next big altcoin to 'ape' into. With a low market cap and viral momentum, $RIVER is grabbing the attention of degen investors seeking outsized gains.",
-    "origin_story": "The $RIVER token first gained traction on CoinGecko and other crypto platforms, riding a wave of interest in low-cap meme coins with potential for explosive growth.",
-    "expert_analysis": "The $RIVER pump appears to be fueled by a mix of FOMO and speculation, as traders look to capitalize on the token's low market cap and rising engagement scores. While the fundamentals remain unclear, the community sentiment is decidedly bullish, with many degens convinced $RIVER could be the next 'moonshot' opportunity.",
-    "impact": "The $RIVER price surge has attracted significant trading volume, as crypto investors scramble to get in before the next leg up.",
+    "headline": "$RIVER Surges as Meme Coin Madness Sweeps Crypto Markets",
+    "summary": "The meme coin $RIVER has captured the attention of crypto traders, with its market cap surging as investors seek the next breakout altcoin. Fueled by social media hype and a growing community, $RIVER's price has spiked, offering potential trading opportunities.",
+    "origin_story": "$RIVER first gained traction on CoinGecko and other crypto platforms, where its memetic nature and surging engagement scores caught the eye of the degenerate trading community.",
+    "expert_analysis": "The $RIVER trend is a prime example of the speculative frenzy gripping the crypto markets. While meme coins are inherently high-risk, the potential for outsized gains has traders 'aping' in, hoping to catch the next big pump. The key will be monitoring influencer activity and community sentiment to gauge when the hype cycle may be peaking.",
+    "impact": "The explosive growth of $RIVER has driven a significant increase in trading volume, as traders look to capitalize on the coin's meteoric rise.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:41:55.473472+00:00",
+  "timestamp": "2026-02-10T07:58:35.991721+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:12.149316+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:41:55.473487+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:35.991739+00:00",
       "signal_score": 90
     }
   ]

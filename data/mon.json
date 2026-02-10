@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 191,
-    "price_btc": 2.445198554835929e-07,
+    "market_cap_rank": 192,
+    "price_btc": 2.4120452615902305e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$MON Takes Over The Internet",
-    "summary": "The topic '$MON' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "$MON Takes Crypto Twitter by Storm: A Memecoin Moonshot?",
+    "summary": "The little-known memecoin $MON has suddenly skyrocketed in popularity, sparking feverish trading as crypto degens seek the next big thing. Fueled by viral hype and FOMO, this low-cap altcoin is grabbing attention across the space.",
+    "origin_story": "The $MON trend first gained traction on CoinGecko and Crypto Twitter, with influencers and traders hyping up its potential for massive gains.",
+    "expert_analysis": "Sentiment around $MON is extremely bullish, as traders scramble to get in early before it 'moons'. The coin's meme-powered narrative, combined with its low market cap, make it a prime target for speculative pumps. However, volatility is high, and caution is advised for latecomers chasing quick returns.",
+    "impact": "The $MON frenzy has driven a significant spike in trading volume and market cap, but the long-term viability of this memecoin remains uncertain.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:17.770237+00:00",
+  "timestamp": "2026-02-10T07:58:59.195816+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:34.919856+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:17.770252+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:59.195833+00:00",
       "signal_score": 90
     }
   ]

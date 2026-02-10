@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 16,
-    "price_btc": 0.0004352189181257827,
+    "price_btc": 0.00043492742493311863,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$HYPE Takes Over The Internet",
-    "summary": "The topic '$HYPE' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "$HYPE Meme Coin Surges, Sparking Frenzy Among Degens",
+    "summary": "The $HYPE meme coin has exploded in popularity, with traders rushing to 'ape in' and ride the wave of hype. The coin's low price and surging social engagement have caught the attention of the crypto degen community.",
+    "origin_story": "The $HYPE token first gained traction on CoinGecko and crypto Twitter, where it has amassed a sizable following of shitcoin enthusiasts.",
+    "expert_analysis": "The $HYPE pump seems to be driven by a classic 'buy the rumor, sell the news' dynamic, as traders try to front-run the next big meme coin. While the fundamental value of $HYPE is debatable, the coin's growing social engagement and low market cap make it an enticing speculative play for degen traders looking for quick gains.",
+    "impact": "The $HYPE frenzy has already led to a significant surge in trading volume, as crypto degens pile into the token in hopes of 'mooning' their portfolios.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:27.043357+00:00",
+  "timestamp": "2026-02-10T07:59:09.982291+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:46.640305+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:27.043372+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:59:09.982309+00:00",
       "signal_score": 75
     }
   ]

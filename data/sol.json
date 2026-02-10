@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 7,
-    "price_btc": 0.0012253494501654248,
+    "price_btc": 0.0012270497678625912,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$SOL Surges as Solana Ecosystem Continues to Dazzle Crypto Traders",
-    "summary": "Solana's native token $SOL has been on a tear, surging in price as the Layer 1 blockchain ecosystem expands. Traders are bullish on Solana's growing DeFi, NFT, and Web3 applications.",
-    "origin_story": "The $SOL price pump has been driven by a combination of new Solana project launches, increased activity on the network, and endorsements from influential crypto figures.",
-    "expert_analysis": "The Solana ecosystem is capturing the attention of DeFi degens and NFT collectors alike. With its blazing fast speeds and low transaction fees, Solana is emerging as a serious challenger to Ethereum. Savvy traders are positioning themselves early to benefit from Solana's continued growth and adoption.",
-    "impact": "The $SOL price surge has led to a significant increase in trading volume and market capitalization, further solidifying Solana's place among the top cryptocurrency projects.",
-    "status": "rising"
+    "headline": "$SOL Surges as Solana Ecosystem Continues to Captivate Crypto Degens",
+    "summary": "Solana's native token $SOL has seen a significant price spike, as investors continue to pile into the fast-growing Solana ecosystem. This surge in interest is driven by Solana's impressive performance and the growing number of innovative DeFi and NFT projects being built on the platform.",
+    "origin_story": "The $SOL rally has been building for months, as Solana has emerged as a leading Ethereum competitor in the decentralized finance (DeFi) and non-fungible token (NFT) sectors. Key Solana-centric accounts on Twitter and Discord have been hyping the ecosystem, urging crypto 'degen' investors to 'ape in'.",
+    "expert_analysis": "Solana's scalability, low transaction fees, and fast block times have made it an attractive destination for DeFi protocols and NFT projects. The growing adoption and buzz around Solana has fueled a speculative frenzy, with traders looking to front-run the next big Solana-based 'moonshot'. However, some analysts caution that Solana's valuation may be getting ahead of its fundamentals, and a correction could be on the horizon.",
+    "impact": "The $SOL rally has driven significant trading volume and attention to the Solana ecosystem, further solidifying its position as a major player in the crypto space.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-10T07:42:30.354869+00:00",
+  "timestamp": "2026-02-10T07:59:13.219370+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:42.953790+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:30.354885+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:59:13.219388+00:00",
       "signal_score": 75
     }
   ]

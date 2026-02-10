@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 2,
-    "price_btc": 0.029124660096709897,
+    "price_btc": 0.029160136554964352,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Ethereum Soars as Investors Flock to Blue-Chip Crypto",
-    "summary": "Ethereum, the second-largest cryptocurrency, has seen a surge in trading activity and investor interest, indicating a renewed confidence in the broader crypto market.",
-    "origin_story": "Ethereum's price rise can be attributed to a combination of increased institutional adoption, the upcoming Merge upgrade, and the coin's reputation as a 'blue-chip' crypto asset.",
-    "expert_analysis": "The renewed interest in Ethereum suggests that traders and investors are looking to park their funds in more established cryptocurrencies, seeking stability and potential upside in the current market conditions. This trend could signal a broader shift towards a 'flight to quality' in the crypto space.",
-    "impact": "The surge in Ethereum's price and trading volume could have a ripple effect across the crypto market, potentially driving increased investment and trading activity in other major coins.",
+    "headline": "Ethereum Soars as Whales and Influencers Fuel the Hype Train",
+    "summary": "Ethereum (ETH) has been on a tear, surging in value as whales and crypto influencers drive a renewed wave of bullish sentiment. Traders are closely watching for potential 'alpha' opportunities as the market heats up.",
+    "origin_story": "The ETH rally has been spearheaded by high-profile crypto accounts and whale wallets, sparking renewed interest and FOMO among retail investors on platforms like CoinGecko.",
+    "expert_analysis": "The Ethereum hype is likely fueled by anticipation around the upcoming Merge upgrade, which could unlock new use cases and drive further institutional adoption. Savvy traders are looking to front-run any potential 'Merge pump' by getting in early on the ETH action.",
+    "impact": "The Ethereum surge has already boosted the entire crypto market, with traders scrambling to 'ape in' and capture outsized gains.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:42:23.985620+00:00",
+  "timestamp": "2026-02-10T07:59:06.478060+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:45.275298+00:00",
@@ -58,6 +58,10 @@
     },
     {
       "timestamp": "2026-02-10T07:42:23.985636+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:59:06.478078+00:00",
       "signal_score": 75
     }
   ]

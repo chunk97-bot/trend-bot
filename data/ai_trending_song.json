@@ -1,53 +1,35 @@
 {
   "trend": "ai trending song",
-  "category": "technology",
+  "category": "crypto_news",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
-    "google": {
-      "searches": "275.7K",
-      "raw": 275666
-    },
-    "x": {
-      "posts": "0",
-      "reposts": "0",
-      "raw_posts": 0,
-      "raw_reposts": 0
-    },
-    "tiktok": {
-      "views": "0",
-      "videos": "0",
-      "raw_views": 0
-    },
-    "instagram": {
-      "posts": "0",
-      "reach": "0",
-      "raw_posts": 0
-    }
+    "google_searches": 256797
   },
-  "signal_score": 50,
+  "signal_score": 40,
   "momentum": "stable",
   "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
   "analysis": {
-    "headline": "AI-Generated Song Takes Internet by Storm, Sparking Debate",
-    "summary": "An AI-composed song has gone viral, captivating listeners and igniting discussions about the future of music creation. The track, which blends human-like vocals with synthetic instrumentation, has captured the public's imagination.",
-    "origin_story": "The song first gained traction on various social media platforms, where users shared their reactions and speculated about the technological advancements behind its creation.",
-    "expert_analysis": "This trend reflects the growing influence of AI in the arts, challenging traditional notions of creativity and authorship. As AI systems become more sophisticated in generating content, the public is grappling with the implications for the music industry and the creative process as a whole.",
-    "impact": "The widespread interest in this AI-generated song suggests a shift in how people consume and perceive music, potentially shaping the future of the industry.",
-    "status": "viral"
+    "headline": "AI-Generated Music Hits the Charts, Sparking Crypto Buzz",
+    "summary": "AI-powered music creation is taking the industry by storm, with AI-generated songs climbing the charts and capturing the attention of crypto traders. This emerging trend could disrupt the music industry and present new opportunities for crypto investors.",
+    "origin_story": "The recent surge in AI-generated music can be traced to the growing capabilities of machine learning algorithms and the increasing accessibility of AI music creation tools for artists and producers.",
+    "expert_analysis": "The rise of AI-generated music is a significant development that could reshape the music industry. Crypto traders are closely monitoring this trend, as AI-powered music platforms may incorporate blockchain technology and cryptocurrencies to facilitate royalty payments and enable new business models. The potential for AI to democratize music creation and challenge traditional industry structures is driving interest among crypto investors seeking early-stage opportunities.",
+    "impact": "The popularity of AI-generated music could lead to increased investment and adoption of blockchain-based music platforms, as well as create new revenue streams and investment opportunities for crypto-savvy artists and producers.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-09T05:48:41.218946+00:00",
+  "timestamp": "2026-02-10T07:59:23.392124+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T13:57:00.120882+00:00",
-      "signal_score": 100
-    },
     {
       "timestamp": "2026-02-07T14:57:53.254280+00:00",
       "signal_score": 85
@@ -139,6 +121,10 @@
     {
       "timestamp": "2026-02-09T05:48:41.218961+00:00",
       "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-10T07:59:23.392142+00:00",
+      "signal_score": 40
     }
   ]
 }

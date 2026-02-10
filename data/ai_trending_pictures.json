@@ -1,53 +1,35 @@
 {
   "trend": "ai trending pictures",
-  "category": "technology",
+  "category": "entertainment",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
-    "google": {
-      "searches": "183.3K",
-      "raw": 183253
-    },
-    "x": {
-      "posts": "0",
-      "reposts": "0",
-      "raw_posts": 0,
-      "raw_reposts": 0
-    },
-    "tiktok": {
-      "views": "0",
-      "videos": "0",
-      "raw_views": 0
-    },
-    "instagram": {
-      "posts": "0",
-      "reach": "0",
-      "raw_posts": 0
-    }
+    "google_searches": 255665
   },
-  "signal_score": 50,
+  "signal_score": 40,
   "momentum": "stable",
   "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
   "analysis": {
-    "headline": "AI-Generated Images Take the Internet by Storm",
-    "summary": "The rise of AI-powered image generation tools has captivated the public, allowing anyone to create stunning, personalized artwork with just a few text prompts. This trend taps into the human desire for creative expression and the fascination with AI's rapidly advancing capabilities.",
-    "origin_story": "The surge in interest can be largely attributed to the growing popularity of platforms like DALL-E, Midjourney, and Stable Diffusion, which have made AI-generated art more accessible to the masses.",
-    "expert_analysis": "This trend reflects society's growing embrace of AI technology and a fascination with its potential to democratize creativity. It also highlights the public's appetite for novel, visually striking content that can be easily customized and shared across social media.",
-    "impact": "The widespread adoption of AI image generation could have far-reaching implications for the art world, design industry, and even the future of visual communication.",
-    "status": "viral"
+    "headline": "ai trending pictures Takes Over The Internet",
+    "summary": "The topic 'ai trending pictures' is trending across google.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-09T05:48:45.213965+00:00",
+  "timestamp": "2026-02-10T07:59:31.913907+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T17:57:15.073650+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T19:06:12.434435+00:00",
       "signal_score": 50
@@ -139,6 +121,10 @@
     {
       "timestamp": "2026-02-09T05:48:45.213980+00:00",
       "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-10T07:59:31.913925+00:00",
+      "signal_score": 40
     }
   ]
 }

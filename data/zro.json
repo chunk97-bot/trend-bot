@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 110,
-    "price_btc": 2.7922763539098722e-05,
+    "price_btc": 2.7991332666961313e-05,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$ZRO Surges as Degen Traders Pile In, Seeking Meme Coin Alpha",
-    "summary": "The meme coin $ZRO has seen a sudden spike in trading activity and social engagement, catching the attention of crypto traders seeking early-stage gains. With a surging market cap rank and eye-popping price action, this viral altcoin is on the radar of the degen crowd.",
-    "origin_story": "The $ZRO hype train began picking up steam on CoinGecko and other crypto platforms, driven by influential meme coin shillers and communities looking to 'ape' into the next big thing.",
-    "expert_analysis": "The explosive growth of $ZRO signals a shifting market sentiment, as traders increasingly seek out high-risk, high-reward opportunities in the volatile meme coin space. With an engagement score of 80, this coin has captured the attention of the crypto zeitgeist, potentially setting the stage for a parabolic 'pump' if the hype continues to build.",
-    "impact": "A continued surge in $ZRO could translate to significant trading volume and speculative capital flowing into the project, for better or worse.",
-    "status": "rising"
+    "headline": "$ZRO Surges as Degens Fomo Into Meme Coin Craze",
+    "summary": "The low-cap meme coin $ZRO has seen a massive price surge as traders pile in, attracted by its skyrocketing social engagement. This latest crypto trend is generating major FOMO among retail investors seeking outsized gains.",
+    "origin_story": "The $ZRO token first gained traction on CoinGecko and other crypto platforms, fueled by coordinated shilling from a growing community of meme coin enthusiasts.",
+    "expert_analysis": "With a high engagement score and 'meme coin' status, $ZRO is clearly capturing the imagination of the crypto degen crowd. The recent price action suggests this could be the start of a full-blown 'meme coin season' as traders look to ride the wave of hype and volatility.",
+    "impact": "A flood of new money has poured into $ZRO, driving up trading volume and market cap rapidly.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-10T07:41:59.643215+00:00",
+  "timestamp": "2026-02-10T07:58:33.274763+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:15.947886+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:41:59.643230+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:58:33.274782+00:00",
       "signal_score": 90
     }
   ]

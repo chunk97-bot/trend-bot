@@ -1,0 +1,44 @@
+{
+  "trend": "$HBAR",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 25,
+    "price_btc": 1.3226773391315187e-06,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$HBAR"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$HBAR Heats Up: Hashgraph's Parabolic Surge Captivates Traders",
+    "summary": "Hedera Hashgraph's native token $HBAR has been surging in the past week, catching the attention of crypto traders seeking potential alpha. With its impressive market cap ranking and solid fundamentals, $HBAR is emerging as a dark horse in the altcoin arena.",
+    "origin_story": "The $HBAR rally can be attributed to increased visibility on platforms like CoinGecko, as well as growing interest from the crypto community in Hedera's enterprise-focused blockchain technology.",
+    "expert_analysis": "The $HBAR price spike signals growing confidence in Hedera's scalable and secure distributed ledger. Traders are aping in, sensing a potential alt season breakout. Key factors driving the rally include Hedera's partnerships, protocol upgrades, and the token's relatively low valuation compared to other Layer 1 players.",
+    "impact": "The $HBAR rally has led to a significant uptick in trading volume and market interest, with the token climbing to the 25th spot by market capitalization.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:59:20.279104+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:59:20.279122+00:00",
+      "signal_score": 75
+    }
+  ]
+}

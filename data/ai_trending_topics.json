@@ -6,43 +6,29 @@
   },
   "platform_count": 1,
   "metrics": {
-    "google": {
-      "searches": "180.4K",
-      "raw": 180371
-    },
-    "x": {
-      "posts": "0",
-      "reposts": "0",
-      "raw_posts": 0,
-      "raw_reposts": 0
-    },
-    "tiktok": {
-      "views": "0",
-      "videos": "0",
-      "raw_views": 0
-    },
-    "instagram": {
-      "posts": "0",
-      "reach": "0",
-      "raw_posts": 0
-    }
+    "google_searches": 133715
   },
-  "signal_score": 50,
+  "signal_score": 40,
   "momentum": "stable",
   "lifecycle": "peak",
   "locations": [
     "global"
   ],
   "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
   "analysis": {
-    "headline": "The Rise of AI: Searching for Answers in a Tech-Driven World",
-    "summary": "As AI-related search terms surge on Google, the public's fascination with the transformative potential of artificial intelligence is on full display. From chatbots to image generators, the capabilities of this technology are captivating the global audience.",
-    "origin_story": "The recent advancements and widespread deployment of AI-powered applications, such as ChatGPT and DALL-E, have ignited a surge of public interest in this rapidly evolving field.",
-    "expert_analysis": "This trend reflects a growing societal curiosity about the impact of AI on our lives, from how it can enhance productivity and creativity to the ethical considerations that come with its increasing integration. As AI continues to push the boundaries of what's possible, people are eager to understand its implications for the future.",
-    "impact": "The heightened interest in AI-related topics signifies a pivotal moment, as the public seeks to navigate the opportunities and challenges presented by this transformative technology.",
-    "status": "rising"
+    "headline": "AI Hype Surges as Large Language Models Dominate the Zeitgeist",
+    "summary": "Large language models like ChatGPT have sparked a frenzy of interest in AI, with Google searches hitting a record high. Traders are eager to uncover emerging AI-related opportunities amidst this trend.",
+    "origin_story": "The rapid development and public release of advanced AI chatbots by companies like OpenAI have captured widespread attention across the internet.",
+    "expert_analysis": "The explosive growth in AI interest reflects both the remarkable capabilities of these new language models and the fear of missing out on the next big technological shift. Traders are closely watching for any AI-related crypto projects, tokens, or investment plays that could capitalize on the hype.",
+    "impact": "The surge in AI-related searches suggests growing mainstream adoption and a potentially lucrative environment for savvy traders and investors.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-07T19:50:01.455743+00:00",
+  "timestamp": "2026-02-10T07:59:38.615290+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T15:06:19.181435+00:00",
@@ -111,6 +97,10 @@
     {
       "timestamp": "2026-02-07T19:50:01.455760+00:00",
       "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-10T07:59:38.615309+00:00",
+      "signal_score": 40
     }
   ]
 }

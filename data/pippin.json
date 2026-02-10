@@ -1,0 +1,44 @@
+{
+  "trend": "$PIPPIN",
+  "category": "meme_coin",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 123,
+    "price_btc": 4.827331199355793e-06,
+    "is_meme_coin": true,
+    "engagement_score": 80
+  },
+  "signal_score": 90,
+  "momentum": "rising",
+  "lifecycle": "new",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$PIPPIN"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "$PIPPIN Surges as Meme Coin Hype Reaches Fever Pitch",
+    "summary": "The obscure meme coin $PIPPIN has exploded in popularity, with traders scrambling to get in on the action. Its low market cap and viral social media presence have fueled massive price gains.",
+    "origin_story": "The $PIPPIN project first gained traction on CoinGecko and crypto Twitter, where an army of degens have been shilling it relentlessly.",
+    "expert_analysis": "This screams classic meme coin pump-and-dump behavior. The hype is being driven by influencers and traders looking to ride the wave of momentum. While early investors may see quick gains, newcomers risk getting rugged when the bubble inevitably bursts.",
+    "impact": "The $PIPPIN frenzy has driven a massive spike in trading volume and market cap, but this is likely unsustainable.",
+    "status": "viral"
+  },
+  "timestamp": "2026-02-10T07:58:54.541946+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:58:54.541965+00:00",
+      "signal_score": 90
+    }
+  ]
+}
