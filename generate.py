@@ -700,7 +700,7 @@ def save_telegram_posts(posts):
     
     # Save
     data = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "last_updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "channel": "tkresearch_tradingchannel",
         "channel_name": "TKResearch Trading",
         "total_posts": len(merged),
