@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 53,
-    "price_btc": 8.806322011708846e-06,
+    "market_cap_rank": 50,
+    "price_btc": 9.069686498155954e-06,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$ASTER Takes Over The Internet",
-    "summary": "The topic '$ASTER' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "$ASTER Meme Coin Soars as Degens Flood in for Potential Pump",
+    "summary": "The little-known $ASTER meme coin has suddenly surged in popularity, with traders speculating on a potential short-term price pump. This obscure alt is now a top 50 crypto by market cap, driven by growing hype and FOMO on platforms like CoinGecko.",
+    "origin_story": "The $ASTER project first emerged on Ethereum, but has recently gained traction on crypto Twitter and Discord as a new meme play attracting degen capital.",
+    "expert_analysis": "Veteran crypto traders are closely watching $ASTER, as the recent spike in engagement and trading volume suggests this could be the next memecoin to explode. However, the project's fundamentals remain unclear, so savvy degen traders will likely try to ride the hype wave and cash out before the inevitable dump.",
+    "impact": "If $ASTER continues its meteoric rise, it could see a massive influx of new retail investors looking to get in on the action and 'ape' in before the top.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T11:51:22.684128+00:00",
+  "timestamp": "2026-02-10T07:42:38.036631+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:48.168747+00:00",
@@ -46,6 +46,10 @@
     },
     {
       "timestamp": "2026-02-09T11:51:22.684128+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:42:38.036646+00:00",
       "signal_score": 75
     }
   ]

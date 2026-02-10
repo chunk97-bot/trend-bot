@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 398,
-    "price_btc": 3.8884539646644216e-07,
+    "price_btc": 3.914249277264702e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$ZAMA Takes Over The Internet",
-    "summary": "The topic '$ZAMA' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Meme Coin $ZAMA Explodes as Degen Traders Ape In",
+    "summary": "The obscure meme coin $ZAMA has seen a massive price surge, with traders rushing to get in on the potential for outsized gains. The sudden spike in interest has crypto degens speculating on the next big memecoin moonshot.",
+    "origin_story": "Chatter about $ZAMA first picked up on CoinGecko and crypto Twitter, with influencers and shitposters hyping up the token's low market cap and meme potential.",
+    "expert_analysis": "The $ZAMA pump appears to be a classic 'ape in' scenario, as retail traders flock to the coin in hopes of catching the next big wave. While the fundamentals are thin, the engagement and social media buzz suggest this could have further to run in the short-term. Savvy traders may want to keep an eye on $ZAMA for potential trading opportunities.",
+    "impact": "The $ZAMA frenzy has already driven a significant spike in trading volume, catching the attention of the wider crypto community.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:26.726192+00:00",
+  "timestamp": "2026-02-10T07:42:09.826480+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:39.105061+00:00",
@@ -54,6 +54,10 @@
     },
     {
       "timestamp": "2026-02-10T07:32:26.726206+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:42:09.826496+00:00",
       "signal_score": 90
     }
   ]

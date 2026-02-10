@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 110,
-    "price_btc": 2.798102508531449e-05,
+    "price_btc": 2.7922763539098722e-05,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,17 +27,21 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Memecoin $ZRO Soars, Crypto Degens Pile In for Potential Gains",
-    "summary": "The low-cap meme coin $ZRO has seen a massive surge in trading volume and social engagement, as crypto traders look to capitalize on the latest viral crypto trend. With a top-200 market cap ranking, $ZRO is gaining attention from those seeking outsized returns.",
-    "origin_story": "The $ZRO memecoin first gained traction on CoinGecko and crypto Twitter, where a growing community of 'degens' have been hyping up the project.",
-    "expert_analysis": "The sudden spike in $ZRO's price and trading activity suggests that crypto traders are piling in, likely seeking to 'buy the rumor and sell the news' on this emerging trend. While the long-term viability of memecoins is debatable, the current momentum behind $ZRO could present short-term trading opportunities for savvy investors.",
-    "impact": "The $ZRO pump has led to a significant increase in trading volume and market capitalization, indicating strong retail interest in this speculative crypto asset.",
-    "status": "viral"
+    "headline": "$ZRO Surges as Degen Traders Pile In, Seeking Meme Coin Alpha",
+    "summary": "The meme coin $ZRO has seen a sudden spike in trading activity and social engagement, catching the attention of crypto traders seeking early-stage gains. With a surging market cap rank and eye-popping price action, this viral altcoin is on the radar of the degen crowd.",
+    "origin_story": "The $ZRO hype train began picking up steam on CoinGecko and other crypto platforms, driven by influential meme coin shillers and communities looking to 'ape' into the next big thing.",
+    "expert_analysis": "The explosive growth of $ZRO signals a shifting market sentiment, as traders increasingly seek out high-risk, high-reward opportunities in the volatile meme coin space. With an engagement score of 80, this coin has captured the attention of the crypto zeitgeist, potentially setting the stage for a parabolic 'pump' if the hype continues to build.",
+    "impact": "A continued surge in $ZRO could translate to significant trading volume and speculative capital flowing into the project, for better or worse.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:15.947870+00:00",
+  "timestamp": "2026-02-10T07:41:59.643215+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:15.947886+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:41:59.643230+00:00",
       "signal_score": 90
     }
   ]

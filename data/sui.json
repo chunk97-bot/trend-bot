@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 29,
-    "price_btc": 1.3623001217595132e-05,
+    "price_btc": 1.3612869390028794e-05,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$SUI Surges as Sui Network Hype Builds Among Crypto Degens",
-    "summary": "The layer-1 blockchain $SUI has seen a massive price surge as traders and influencers buzz about its potential. With its market cap ranking rising, this could be an early signal of a breakout alt season.",
-    "origin_story": "Rumors and leaks about the Sui Network, a new blockchain project, have been circulating in crypto Twitter circles for months. The native $SUI token recently listed on major exchanges, sparking a wave of hype and FOMO.",
-    "expert_analysis": "Crypto traders are aping into $SUI, sensing an opportunity to get in early on the next big thing. The Sui Network's strong technical team and novel approach to blockchain architecture have generated a lot of excitement in the degen community. If this momentum continues, we could see $SUI make a run at the top 10 coins.",
-    "impact": "The $SUI price surge has driven a significant increase in trading volume and attention, signaling that this trend has real legs in the current crypto market.",
+    "headline": "$SUI Surges as Sui Network Captures Crypto Traders' Attention",
+    "summary": "The Sui Network's $SUI token has seen a significant price spike, drawing interest from crypto traders seeking potential alpha. The platform's unique features and early momentum have fueled the current rally.",
+    "origin_story": "Sui, a new Layer 1 blockchain protocol, launched its $SUI token on major exchanges, generating buzz among the crypto community.",
+    "expert_analysis": "The $SUI price surge indicates growing investor confidence in the Sui Network's potential. As a new Layer 1 chain, Sui offers innovative features like parallel transaction processing, which could drive adoption from degen traders seeking an 'edge' in the market.",
+    "impact": "The $SUI rally has led to increased trading volume and social engagement, signaling rising mainstream interest in the project.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:52.390912+00:00",
+  "timestamp": "2026-02-10T07:42:34.020912+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:41.701399+00:00",
@@ -54,6 +54,10 @@
     },
     {
       "timestamp": "2026-02-10T07:32:52.390927+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T07:42:34.020929+00:00",
       "signal_score": 75
     }
   ]

@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 191,
-    "price_btc": 2.447896144610391e-07,
+    "price_btc": 2.445198554835929e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,17 +27,21 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$MON Meme Coin Surges, Degens Flock to Catch the Pump",
-    "summary": "The obscure meme coin $MON has seen a massive price surge, drawing the attention of crypto traders looking to ride the wave. Fueled by social media hype, the token's market cap has spiked, offering potential short-term gains for those brave enough to ape in.",
-    "origin_story": "The $MON hype originated on CoinGecko and crypto Twitter, where influencers and retail investors began shilling the token as the next big meme coin play.",
-    "expert_analysis": "With a market cap rank of 191 and sky-high volatility, $MON is a prime target for the degen crowd seeking outsized returns. However, the lack of fundamentals and potential for a swift rug pull means traders must exercise extreme caution and be prepared to take profits quickly.",
-    "impact": "The $MON pump has already driven a significant spike in trading volume, as crypto natives rush to get in on the action.",
+    "headline": "$MON Takes Over The Internet",
+    "summary": "The topic '$MON' is trending across coingecko, crypto.",
+    "origin_story": "This trend emerged from viral social media content.",
+    "expert_analysis": "",
+    "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:34.919841+00:00",
+  "timestamp": "2026-02-10T07:42:17.770237+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:34.919856+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:42:17.770252+00:00",
       "signal_score": 90
     }
   ]

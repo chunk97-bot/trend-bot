@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 280,
-    "price_btc": 1.3913094248782972e-08,
+    "market_cap_rank": 282,
+    "price_btc": 1.38433915457078e-08,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$BNKR Surges as Crypto Degens Flock to Meme Coin Craze",
-    "summary": "The meme coin $BNKR has seen a major price spike as crypto traders rush to get in on the latest viral token. With a high engagement score and a low market cap, $BNKR is attracting attention from degen investors looking for the next big pump.",
-    "origin_story": "The $BNKR token first emerged on CoinGecko and other crypto platforms, quickly gaining traction among meme coin enthusiasts on Twitter and crypto forums.",
-    "expert_analysis": "The $BNKR pump appears to be driven by a classic meme coin frenzy, with crypto degens piling in based on the token's low market cap and 'wen Lambo' potential. While the fundamentals of $BNKR are unclear, the hype and FOMO around this token could lead to some short-term gains for early buyers.",
-    "impact": "The surging interest in $BNKR has already resulted in a significant spike in trading volume and market capitalization, indicating that this meme coin trend has real momentum.",
+    "headline": "$BNKR Surges as Degens Rush to Capitalize on Meme Coin Mania",
+    "summary": "The little-known meme coin $BNKR has seen a massive price surge as traders scramble to get in early. With a sky-high engagement score, this project is capturing the attention of the crypto degen crowd looking for the next big pump.",
+    "origin_story": "$BNKR first emerged on CoinGecko and other crypto platforms, quickly gaining traction among meme coin enthusiasts on social media.",
+    "expert_analysis": "The sudden spike in $BNKR's price and engagement signals that this is the latest project to capture the imagination of the crypto hype machine. Savvy traders are likely looking to buy in early and ride the wave of FOMO, hoping to sell at the top before the inevitable correction.",
+    "impact": "If the momentum continues, $BNKR could see a significant increase in trading volume and market capitalization in the short term.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:23.255224+00:00",
+  "timestamp": "2026-02-10T07:42:05.686359+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T12:30:49.924014+00:00",
@@ -42,6 +42,10 @@
     },
     {
       "timestamp": "2026-02-10T07:32:23.255240+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:42:05.686374+00:00",
       "signal_score": 90
     }
   ]

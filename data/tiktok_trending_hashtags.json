@@ -1,0 +1,39 @@
+{
+  "trend": "tiktok trending hashtags",
+  "category": "meme_coin",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1409969,
+    "tiktok_likes": 86581
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Meme Mania Sweeps TikTok: Traders Scramble for 'Moonshot' Opportunities",
+    "summary": "TikTok has become a hotbed for meme coin and viral crypto trends, with the latest craze centered around a little-known token that has seen a meteoric rise in views and engagement. Traders are closely watching this space for potential 'moonshot' plays.",
+    "origin_story": "The trend emerged on TikTok, where a series of videos promoting the token have amassed over 1.4 million views and 86.6K likes, capturing the attention of the platform's crypto-savvy user base.",
+    "expert_analysis": "This latest meme coin frenzy on TikTok highlights the platform's growing influence on the crypto market sentiment. Traders are on the lookout for the next big 'diamond in the rough' that could yield outsized returns, fueling a speculative feeding frenzy around these volatile, high-risk assets.",
+    "impact": "The surge in TikTok activity has already translated into significant trading volume and price action for the token, underscoring the platform's ability to drive viral trends that can significantly impact the crypto market.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:42:55.446070+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:42:55.446085+00:00",
+      "signal_score": 40
+    }
+  ]
+}

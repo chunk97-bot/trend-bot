@@ -1,0 +1,40 @@
+{
+  "trend": "twitter trending",
+  "category": "meme_coin",
+  "platforms": {
+    "x": true,
+    "google": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "google_suggest": true,
+    "google_volume": 12
+  },
+  "signal_score": 65,
+  "momentum": "stable",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "fallback",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Dogecoin Surges as Elon Musk Tweets Iconic 'DOGE-1 to the Moon' Mission",
+    "summary": "Dogecoin, the meme-inspired cryptocurrency, has experienced a significant spike in interest and trading activity following a series of tweets from Elon Musk, the CEO of Tesla, announcing the upcoming 'DOGE-1 to the Moon' mission. Traders are closely watching this development for potential trading opportunities.",
+    "origin_story": "The recent Dogecoin surge can be traced back to a series of tweets by Elon Musk, who has been a vocal supporter of the cryptocurrency. Musk's announcement of the 'DOGE-1 to the Moon' mission, which will be the first-ever commercial payload to the moon paid entirely with Dogecoin, has sparked renewed enthusiasm among the crypto community.",
+    "expert_analysis": "The Dogecoin rally is likely a result of Musk's influence and the growing mainstream adoption of the cryptocurrency. Traders are closely monitoring the situation, as Musk's endorsements have historically had a significant impact on the price of Dogecoin. The 'DOGE-1 to the Moon' mission could serve as a catalyst for further price appreciation, as it represents a tangible real-world application of the cryptocurrency.",
+    "impact": "The Dogecoin surge has already resulted in a significant increase in trading volume and market capitalization, indicating strong investor interest and potential for further gains.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:42:46.854184+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:42:46.854200+00:00",
+      "signal_score": 65
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 49,
-    "price_btc": 5.3414710960585165e-11,
+    "price_btc": 5.3313032241130664e-11,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,17 +27,21 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$PEPE Meme Coin Surges, Crypto Traders Scramble for Alpha",
-    "summary": "The $PEPE meme coin has exploded in popularity, with traders rushing to get in on the action. Its market cap rank has skyrocketed, and engagement scores are through the roof.",
-    "origin_story": "The $PEPE token emerged from the viral Pepe the Frog meme, gaining traction on CoinGecko and other crypto platforms.",
-    "expert_analysis": "This $PEPE pump appears to be driven by a combination of meme hype and FOMO from crypto traders looking for quick gains. The token's memetic nature and surging engagement suggest there could be more upside, but volatility and risk are also high.",
-    "impact": "The $PEPE frenzy has sparked a flurry of trading activity, with investors hoping to capitalize on the meme coin's meteoric rise.",
-    "status": "viral"
+    "headline": "Pepe the Frog Meme Coin Surges, Traders Seek Early Gains",
+    "summary": "The $PEPE meme coin has seen a sudden spike in interest and trading volume, as crypto traders look to capitalize on the latest viral crypto trend.",
+    "origin_story": "$PEPE first emerged as a community-driven meme coin, gaining traction on platforms like CoinGecko and across crypto social media.",
+    "expert_analysis": "The sudden interest in $PEPE reflects the volatile nature of the meme coin market, where traders are always on the hunt for the next big breakout. With a high engagement score, $PEPE could see further gains if the momentum continues, but caution is advised given the inherent risks of these speculative assets.",
+    "impact": "The $PEPE rally has already driven a significant increase in trading volume, signaling that some traders may be looking to 'ape in' and ride the wave of hype.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-10T07:32:19.229606+00:00",
+  "timestamp": "2026-02-10T07:42:02.840584+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:19.229622+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T07:42:02.840600+00:00",
       "signal_score": 90
     }
   ]

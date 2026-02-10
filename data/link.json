@@ -1,0 +1,44 @@
+{
+  "trend": "$LINK",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 20,
+    "price_btc": 0.0001235966993633034,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$LINK"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "Chainlink (LINK) Gains Momentum as Traders Scent Potential Upside",
+    "summary": "Chainlink (LINK), the decentralized oracle network, has been gaining traction among crypto traders seeking early signals and alpha. Its market cap rank of 20 and positive engagement score suggest rising interest.",
+    "origin_story": "LINK has been a mainstay in the crypto space, powering numerous decentralized applications with its reliable oracle services. Recent developments and partnerships have kept the token in the spotlight.",
+    "expert_analysis": "Traders are closely watching LINK, sensing potential upside amid the broader crypto market volatility. The token's fundamentals and real-world use cases make it an attractive target for degen apes looking to ape in and ride the wave.",
+    "impact": "A surge in LINK's trading volume and price could signal increased institutional and retail interest, potentially driving further adoption of the Chainlink ecosystem.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:42:42.722920+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:42:42.722935+00:00",
+      "signal_score": 75
+    }
+  ]
+}

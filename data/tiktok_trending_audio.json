@@ -1,0 +1,39 @@
+{
+  "trend": "tiktok trending audio",
+  "category": "meme_coin",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1425001,
+    "tiktok_likes": 147160
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "TikTok Audio Sparks Meme Coin Frenzy: Traders Seek Early Gains",
+    "summary": "A trending TikTok audio is driving massive hype around a little-known meme coin, prompting traders to pile in early in search of outsized returns. This viral trend could signal the next big opportunity in the volatile meme coin market.",
+    "origin_story": "The audio, featuring a catchy rap verse, has amassed over 1.4 million views on TikTok, capturing the attention of the platform's crypto-savvy user base.",
+    "expert_analysis": "This TikTok trend underscores the continued influence of social media in shaping crypto market sentiment. Traders are closely watching for any signs of organic virality, as these can often precede significant price movements in meme coins. The speed at which this trend has taken off suggests strong speculative demand, which could translate into trading volume and potentially outsized gains for early movers.",
+    "impact": "The surge in interest around this meme coin could drive substantial trading volume and price volatility in the coming days.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:42:58.887796+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:42:58.887812+00:00",
+      "signal_score": 40
+    }
+  ]
+}

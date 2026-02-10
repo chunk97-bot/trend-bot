@@ -1,0 +1,39 @@
+{
+  "trend": "tiktok trending sounds",
+  "category": "meme_coin",
+  "platforms": {
+    "tiktok": true
+  },
+  "platform_count": 1,
+  "metrics": {
+    "tiktok_views": 1109630,
+    "tiktok_likes": 186041
+  },
+  "signal_score": 40,
+  "momentum": "stable",
+  "lifecycle": "peak",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
+  "analysis": {
+    "headline": "TikTok's Viral Sounds Spark Crypto FOMO: What Traders Need to Know",
+    "summary": "TikTok's ever-evolving audio trends are captivating the crypto community, with certain sounds quickly amassing over 1 million views. Savvy traders are closely watching these emerging meme signals for potential trading opportunities.",
+    "origin_story": "The latest viral TikTok sounds are originating from user-generated content, often organic audio clips that take on a life of their own across the platform.",
+    "expert_analysis": "These TikTok trends reflect the platform's massive influence on cultural zeitgeist and speculative investment. Crypto traders are closely monitoring these meme signals, looking for early indications of the next viral token or ecosystem poised to take off. The speed and scale of TikTok virality can catalyze significant trading volume and price action.",
+    "impact": "TikTok's audio-driven trends have the potential to drive substantial trading volume and hype around crypto assets, making them a key indicator to watch for alpha-seeking traders.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T07:43:02.947725+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T07:43:02.947740+00:00",
+      "signal_score": 40
+    }
+  ]
+}
