@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 49,
-    "price_btc": 5.323379901275784e-11,
+    "market_cap_rank": 50,
+    "price_btc": 5.3311777109793304e-11,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$PEPE Surges as Memecoin Craze Grips Crypto Market",
-    "summary": "The obscure meme-inspired cryptocurrency $PEPE has seen a massive surge in interest and trading volume, riding the wave of the latest viral memecoin trend in the crypto space.",
-    "origin_story": "The $PEPE token, featuring the iconic Pepe the Frog meme, first gained traction on decentralized platforms like PancakeSwap and Uniswap before exploding in popularity across crypto social media.",
-    "expert_analysis": "Driven by a potent mix of nostalgia, speculative frenzy, and the search for the 'next big thing', $PEPE has captured the attention of retail crypto traders seeking outsized gains. While the fundamentals remain murky, the token's surging engagement score suggests strong memetic power that could translate into further price appreciation for savvy degen traders.",
-    "impact": "The $PEPE phenomenon has already translated into significant trading volume and market capitalization gains, underscoring the enduring appeal of memecoins in the current crypto landscape.",
+    "headline": "$PEPE Pumps as Meme Coin Hype Takes Over Crypto Markets",
+    "summary": "The meme-inspired $PEPE token has seen a massive surge in price and trading volume, captivating the attention of crypto investors seeking the next big degen play.",
+    "origin_story": "The $PEPE token first gained traction on social media platforms like Twitter and Reddit, where a community of self-proclaimed 'Pepe degen' traders have been hyping up the asset.",
+    "expert_analysis": "The $PEPE pump appears to be driven by a classic 'fear of missing out' mentality, as traders scramble to get in on the action before the token potentially moons. Savvy investors may be able to ride the wave, but the long-term sustainability of this trend remains uncertain.",
+    "impact": "The $PEPE hype has significantly boosted trading volume and market capitalization, ranking it among the top 50 cryptocurrencies.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:58:48.004213+00:00",
+  "timestamp": "2026-02-10T08:09:52.077875+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:19.229622+00:00",
@@ -46,6 +46,10 @@
     },
     {
       "timestamp": "2026-02-10T07:58:48.004232+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T08:09:52.077887+00:00",
       "signal_score": 90
     }
   ]

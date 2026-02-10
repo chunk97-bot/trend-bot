@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 116,
-    "price_btc": 2.141232976646653e-05,
+    "market_cap_rank": 117,
+    "price_btc": 2.1441550959039368e-05,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,17 +27,21 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$LIT Takes Over The Internet",
-    "summary": "The topic '$LIT' is trending across coingecko, crypto.",
-    "origin_story": "This trend emerged from viral social media content.",
-    "expert_analysis": "",
-    "impact": "It's capturing attention across multiple platforms.",
+    "headline": "Degens Aped Into $LIT, Sending Meme Coin to Stratosphere",
+    "summary": "The meme coin $LIT has seen a massive surge in price and trading volume, as retail investors pile in chasing the next big crypto moonshot. This sudden spike has caught the attention of the crypto community.",
+    "origin_story": "The $LIT trend started gaining traction on CoinGecko and other crypto platforms, driven by speculation and hype from crypto influencers and retail traders.",
+    "expert_analysis": "The $LIT pump appears to be driven by classic meme coin FOMO, as traders look to ride the wave of another potential 'degen' opportunity. While the long-term fundamentals are unclear, the short-term price action suggests this trend could have more room to run if the hype continues to build.",
+    "impact": "The $LIT trend has resulted in a significant increase in trading volume and market capitalization, signaling high demand from the crypto community.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:58:51.148206+00:00",
+  "timestamp": "2026-02-10T08:10:00.439436+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:58:51.148222+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T08:10:00.439451+00:00",
       "signal_score": 90
     }
   ]

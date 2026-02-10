@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 898,
-    "price_btc": 1.1567764330508093e-07,
+    "market_cap_rank": 890,
+    "price_btc": 1.16728211741713e-07,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$FIGHT Meme Coin Surges as Degens Latch Onto Viral Rumors",
-    "summary": "The $FIGHT meme coin has seen a sudden spike in trading activity as crypto traders seek to capitalize on unverified hype around a potential celebrity endorsement or listing announcement. The price has soared, but will it hold?",
-    "origin_story": "Whispers of a high-profile partnership or exchange listing started circulating on crypto Twitter and Discord servers, sending the $FIGHT token into a frenzy.",
-    "expert_analysis": "This looks like a classic 'buy the rumor, sell the news' scenario common in the meme coin space. Traders are APEing in hoping to front-run an official announcement, but the fundamentals of $FIGHT remain questionable. Proceed with caution, as these types of speculative pumps rarely end well for latecomers.",
-    "impact": "Trading volume for $FIGHT has exploded, but the long-term viability of the project is unclear.",
-    "status": "viral"
+    "headline": "$FIGHT Meme Coin Explodes as Degens Rally Around Viral Trend",
+    "summary": "The meme coin $FIGHT has seen a massive surge in price and engagement as crypto traders pile into the latest viral cryptocurrency trend. The token's market cap rank has skyrocketed, signaling strong speculative interest.",
+    "origin_story": "The $FIGHT token emerged from the degen crypto community on CoinGecko, with influencers and crypto natives hyping it up across social media.",
+    "expert_analysis": "This $FIGHT pump appears to be driven by pure meme magic and FOMO, as traders try to ride the wave of virality. While the fundamentals behind the project are unclear, the high engagement score suggests this trend has legs in the short-term. Savvy traders may be able to catch an early pump before the inevitable dump.",
+    "impact": "The $FIGHT mania has resulted in a significant spike in trading volume and market capitalization, underscoring the power of meme coins to capture the attention of the crypto community.",
+    "status": "rising"
   },
-  "timestamp": "2026-02-10T07:58:29.481203+00:00",
+  "timestamp": "2026-02-10T08:09:36.661692+00:00",
   "history": [
     {
       "timestamp": "2026-02-10T07:32:08.385113+00:00",
@@ -46,6 +46,10 @@
     },
     {
       "timestamp": "2026-02-10T07:58:29.481223+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T08:09:36.661705+00:00",
       "signal_score": 90
     }
   ]

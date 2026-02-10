@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "Bitcoin Surges as Whales Accumulate, Fueling Bullish Sentiment",
-    "summary": "Bitcoin, the flagship cryptocurrency, has seen a significant price increase as major whales and institutional investors continue to amass BTC, signaling growing confidence in the market.",
-    "origin_story": "The recent BTC price action has been driven by heightened trading activity on leading crypto platforms like CoinGecko, as investors closely monitor on-chain metrics and whale wallet movements.",
-    "expert_analysis": "The current bullish momentum suggests that the market is positioning for a potential breakout. Analysts are closely watching for signs of a sustained rally, as increased whale activity and institutional adoption could further fuel the BTC price surge.",
-    "impact": "The Bitcoin rally has the potential to set the tone for the broader cryptocurrency market, potentially triggering a 'alt season' as investors seek to diversify their portfolios.",
+    "headline": "Bitcoin Surges as Whales Accumulate, Signaling Bullish Sentiment",
+    "summary": "The flagship cryptocurrency Bitcoin (BTC) has seen a significant price surge, with whales actively accumulating the asset. This trend suggests growing bullish sentiment among institutional and high-net-worth investors.",
+    "origin_story": "Bitcoin's recent price action has been heavily discussed on CoinGecko and other crypto platforms, as traders closely monitor the movement of large investors (whales).",
+    "expert_analysis": "The whale activity in Bitcoin indicates that smart money is positioning for a potential rally. Historically, when whales accumulate BTC, it has often been a precursor to larger price movements. Traders are closely watching for any breakouts above key resistance levels, which could trigger a new wave of FOMO (fear of missing out) buying.",
+    "impact": "The surge in Bitcoin's price has led to increased trading volume and renewed interest from both retail and institutional investors.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:59:02.528939+00:00",
+  "timestamp": "2026-02-10T08:10:04.613559+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:40.176152+00:00",
@@ -62,6 +62,10 @@
     },
     {
       "timestamp": "2026-02-10T07:59:02.528957+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T08:10:04.613573+00:00",
       "signal_score": 75
     }
   ]

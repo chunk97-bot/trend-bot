@@ -6,7 +6,7 @@
   },
   "platform_count": 1,
   "metrics": {
-    "google_searches": 275502
+    "google_searches": 236579
   },
   "signal_score": 40,
   "momentum": "stable",
@@ -21,19 +21,15 @@
   "cashtags": [],
   "hashtags": [],
   "analysis": {
-    "headline": "AI Prompts Spark Viral Trend: Traders Seek the Next Shiba Inu",
-    "summary": "AI-generated prompts have taken the internet by storm, with traders and investors closely watching this emerging trend for potential opportunities. The surging interest in AI-based content creation has sparked speculation around the next big meme coin or viral crypto project.",
-    "origin_story": "The AI prompt trend gained traction on platforms like Google, where searches have spiked by over 275,500 in the past week, signaling growing mainstream interest.",
-    "expert_analysis": "As traders seek the next big crypto opportunity, the AI prompt trend presents an intriguing proposition. The ability to generate unique, potentially viral content at scale could lead to the emergence of a new class of AI-powered meme coins or digital assets. This could drive significant trading volume and market interest, similar to the rise of Shiba Inu in 2021.",
-    "impact": "The AI prompt trend has the potential to reshape the crypto landscape, with traders closely monitoring for the next big project that can harness the power of generative AI.",
+    "headline": "AI Prompts Explode Across Google: Crypto Traders Seek Alpha",
+    "summary": "AI-generated content prompts have taken the internet by storm, drawing the attention of crypto traders seeking early signals and potential trading opportunities. The rapid surge in search interest suggests a new viral trend emerging.",
+    "origin_story": "The AI prompt trend originated on social media platforms like Twitter, where users have been sharing their own unique AI-generated content, sparking widespread fascination and experimentation.",
+    "expert_analysis": "This AI prompt trend aligns with the crypto community's appetite for novel, technology-driven narratives. Traders may see opportunities to get ahead of this emerging theme, potentially identifying related tokens or projects that could benefit from increased attention and adoption.",
+    "impact": "The explosive growth in Google searches indicates strong mainstream interest, which could translate to significant trading volume and cultural impact.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:59:36.025807+00:00",
+  "timestamp": "2026-02-10T08:10:41.473823+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T09:58:27.193348+00:00",
-      "signal_score": 50
-    },
     {
       "timestamp": "2026-02-07T10:58:25.849375+00:00",
       "signal_score": 50
@@ -124,6 +120,10 @@
     },
     {
       "timestamp": "2026-02-10T07:59:36.025824+00:00",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-10T08:10:41.473837+00:00",
       "signal_score": 40
     }
   ]

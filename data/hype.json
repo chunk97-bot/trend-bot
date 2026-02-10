@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 16,
-    "price_btc": 0.00043492742493311863,
+    "price_btc": 0.0004350769959338746,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$HYPE Meme Coin Surges, Sparking Frenzy Among Degens",
-    "summary": "The $HYPE meme coin has exploded in popularity, with traders rushing to 'ape in' and ride the wave of hype. The coin's low price and surging social engagement have caught the attention of the crypto degen community.",
-    "origin_story": "The $HYPE token first gained traction on CoinGecko and crypto Twitter, where it has amassed a sizable following of shitcoin enthusiasts.",
-    "expert_analysis": "The $HYPE pump seems to be driven by a classic 'buy the rumor, sell the news' dynamic, as traders try to front-run the next big meme coin. While the fundamental value of $HYPE is debatable, the coin's growing social engagement and low market cap make it an enticing speculative play for degen traders looking for quick gains.",
-    "impact": "The $HYPE frenzy has already led to a significant surge in trading volume, as crypto degens pile into the token in hopes of 'mooning' their portfolios.",
+    "headline": "$HYPE Meme Coin Surges as Crypto Degens Scent Potential Gains",
+    "summary": "The $HYPE meme coin has seen a sudden spike in trading volume and social engagement, as crypto traders try to get in early on the next big moonshot. The project's low market cap and mysterious roadmap have piqued the interest of degen investors.",
+    "origin_story": "Chatter around $HYPE first started picking up on Twitter and crypto forums, with influencers and anon accounts hyping the project's potential.",
+    "expert_analysis": "While the fundamentals of $HYPE remain uncertain, the surge in retail interest suggests traders are looking to capitalize on any momentum. Savvy investors will be watching for signs of organic growth, potential partnerships, or teases from the anonymous dev team - these could all catalyze a further price pump in the short-term.",
+    "impact": "If $HYPE can maintain its current trajectory, it could see a significant increase in trading volume and market capitalization in the coming days.",
     "status": "rising"
   },
-  "timestamp": "2026-02-10T07:59:09.982291+00:00",
+  "timestamp": "2026-02-10T08:10:08.190615+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:46.640305+00:00",
@@ -62,6 +62,10 @@
     },
     {
       "timestamp": "2026-02-10T07:59:09.982309+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T08:10:08.190626+00:00",
       "signal_score": 75
     }
   ]

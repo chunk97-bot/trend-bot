@@ -1,12 +1,12 @@
 {
   "trend": "ai trending song",
-  "category": "crypto_news",
+  "category": "music",
   "platforms": {
     "google": true
   },
   "platform_count": 1,
   "metrics": {
-    "google_searches": 256797
+    "google_searches": 178287
   },
   "signal_score": 40,
   "momentum": "stable",
@@ -21,19 +21,15 @@
   "cashtags": [],
   "hashtags": [],
   "analysis": {
-    "headline": "AI-Generated Music Hits the Charts, Sparking Crypto Buzz",
-    "summary": "AI-powered music creation is taking the industry by storm, with AI-generated songs climbing the charts and capturing the attention of crypto traders. This emerging trend could disrupt the music industry and present new opportunities for crypto investors.",
-    "origin_story": "The recent surge in AI-generated music can be traced to the growing capabilities of machine learning algorithms and the increasing accessibility of AI music creation tools for artists and producers.",
-    "expert_analysis": "The rise of AI-generated music is a significant development that could reshape the music industry. Crypto traders are closely monitoring this trend, as AI-powered music platforms may incorporate blockchain technology and cryptocurrencies to facilitate royalty payments and enable new business models. The potential for AI to democratize music creation and challenge traditional industry structures is driving interest among crypto investors seeking early-stage opportunities.",
-    "impact": "The popularity of AI-generated music could lead to increased investment and adoption of blockchain-based music platforms, as well as create new revenue streams and investment opportunities for crypto-savvy artists and producers.",
-    "status": "rising"
+    "headline": "AI-Generated Music Goes Viral, Fueling Crypto Trading Frenzy",
+    "summary": "An AI-powered song has taken the internet by storm, sparking a new wave of interest and trading in meme coins and AI-related crypto assets. Investors are scrambling to get in early on the latest viral craze.",
+    "origin_story": "The song, which was reportedly created using artificial intelligence, has been spreading rapidly across various social media platforms, capturing the attention of millions.",
+    "expert_analysis": "This trend highlights the growing impact of AI technology on the music industry and the broader cultural landscape. Investors are closely watching for any potential integrations or applications of AI in the cryptocurrency space, which could drive significant price movements in related assets.",
+    "impact": "The surge in interest has led to a noticeable increase in trading volume and volatility in the meme coin and AI-focused crypto markets.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-10T07:59:23.392124+00:00",
+  "timestamp": "2026-02-10T08:10:34.879172+00:00",
   "history": [
-    {
-      "timestamp": "2026-02-07T14:57:53.254280+00:00",
-      "signal_score": 85
-    },
     {
       "timestamp": "2026-02-07T15:52:42.413631+00:00",
       "signal_score": 80
@@ -124,6 +120,10 @@
     },
     {
       "timestamp": "2026-02-10T07:59:23.392142+00:00",
+      "signal_score": 40
+    },
+    {
+      "timestamp": "2026-02-10T08:10:34.879186+00:00",
       "signal_score": 40
     }
   ]

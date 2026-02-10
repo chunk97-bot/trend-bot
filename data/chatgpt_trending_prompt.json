@@ -6,46 +6,29 @@
   },
   "platform_count": 1,
   "metrics": {
-    "google": {
-      "searches": "137.9K",
-      "raw": 137853
-    },
-    "x": {
-      "posts": "0",
-      "reposts": "0",
-      "raw_posts": 0,
-      "raw_reposts": 0
-    },
-    "tiktok": {
-      "views": "0",
-      "videos": "0",
-      "raw_views": 0
-    },
-    "instagram": {
-      "posts": "0",
-      "reach": "0",
-      "raw_posts": 0
-    }
+    "google_searches": 105828
   },
-  "signal_score": 50,
+  "signal_score": 40,
   "momentum": "stable",
   "lifecycle": "peak",
   "locations": [
     "global"
   ],
-  "related_trends": [
-    "chatgpt trending prompt",
-    "chatgpt trending"
-  ],
+  "related_trends": [],
+  "source": "trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [],
+  "hashtags": [],
   "analysis": {
-    "headline": "ChatGPT Prompts Surge as Users Seek Engaging Conversation",
-    "summary": "As the AI chatbot ChatGPT continues to captivate the public, a new trend has emerged: users are searching for the best prompts to elicit the most intriguing and thoughtful responses from the AI.",
-    "origin_story": "This trend began on social media platforms like Twitter, where users started sharing their favorite ChatGPT prompts to showcase the AI's impressive conversational abilities.",
-    "expert_analysis": "This trend highlights the public's fascination with the potential of AI to engage in thoughtful and nuanced dialogue. People are eager to explore the limits of ChatGPT's capabilities and discover new ways to leverage the technology for creative and intellectual purposes.",
-    "impact": "As this trend continues to gain momentum, it could shape the way people interact with AI systems in the future, driving further advancements in natural language processing and conversational AI.",
-    "status": "rising"
+    "headline": "ChatGPT Mania Sweeps the Internet, Sparking Crypto Speculation",
+    "summary": "The AI chatbot ChatGPT has taken the world by storm, with Google searches surging as users flock to experiment with its advanced language capabilities. Crypto traders are now eyeing potential opportunities amidst the hype.",
+    "origin_story": "ChatGPT was launched by OpenAI in late 2022, quickly going viral on social media platforms like Twitter as users shared their impressive interactions with the AI.",
+    "expert_analysis": "The massive interest in ChatGPT signals a broader fascination with the potential of artificial intelligence. Crypto enthusiasts are now speculating about potential blockchain integrations or AI-powered crypto trading tools that could emerge from this trend.",
+    "impact": "The ChatGPT craze has driven significant traffic to related websites and platforms, with the potential to impact various industries, including finance and technology.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-08T23:59:37.288545+00:00",
+  "timestamp": "2026-02-10T08:10:44.740831+00:00",
   "history": [
     {
       "timestamp": "2026-02-06T10:48:20.856273+00:00",
@@ -138,6 +121,10 @@
     {
       "timestamp": "2026-02-08T23:59:37.288560+00:00",
       "signal_score": 50
+    },
+    {
+      "timestamp": "2026-02-10T08:10:44.740845+00:00",
+      "signal_score": 40
     }
   ]
 }

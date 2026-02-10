@@ -1,0 +1,44 @@
+{
+  "trend": "$PI",
+  "category": "crypto_news",
+  "platforms": {
+    "coingecko": true,
+    "crypto": true
+  },
+  "platform_count": 2,
+  "metrics": {
+    "market_cap_rank": 58,
+    "price_btc": 2.008448943523839e-06,
+    "is_meme_coin": false,
+    "engagement_score": 50
+  },
+  "signal_score": 75,
+  "momentum": "rising",
+  "lifecycle": "rising",
+  "locations": [
+    "global"
+  ],
+  "related_trends": [],
+  "source": "coingecko_trending",
+  "influencer": null,
+  "tweet_url": null,
+  "cashtags": [
+    "$PI"
+  ],
+  "hashtags": [],
+  "analysis": {
+    "headline": "PI Network's Meteoric Rise: Early Signals for Crypto Degens?",
+    "summary": "PI Network, a lesser-known cryptocurrency project, has suddenly surged in interest and trading volume, catching the attention of crypto traders seeking alpha. The token's market cap rank has skyrocketed, sparking speculation about its potential.",
+    "origin_story": "The PI Network token has been available on various platforms, including CoinGecko, and has recently seen a spike in engagement and buzz within the crypto community.",
+    "expert_analysis": "The sudden interest in PI Network could be driven by influential figures or online communities hyping the project, leading to a potential 'pump' in the making. Crypto traders are keeping a close eye on the token, looking for early signals of a possible breakout or lucrative trading opportunities.",
+    "impact": "The surge in PI Network's trading volume and market cap rank suggests this trend is gaining significant traction within the crypto sphere.",
+    "status": "rising"
+  },
+  "timestamp": "2026-02-10T08:10:28.595909+00:00",
+  "history": [
+    {
+      "timestamp": "2026-02-10T08:10:28.595920+00:00",
+      "signal_score": 75
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "platform_count": 2,
   "metrics": {
     "market_cap_rank": 285,
-    "price_btc": 1.3808849614995095e-08,
+    "price_btc": 1.3705810924724759e-08,
     "is_meme_coin": true,
     "engagement_score": 80
   },
@@ -27,14 +27,14 @@
   ],
   "hashtags": [],
   "analysis": {
-    "headline": "$BNKR Meme Coin Surges as Degens Seek Next Big Pump",
-    "summary": "The low-cap meme token $BNKR has seen a sudden price spike, attracting crypto traders looking for the next x100 gem. With its engagement score soaring, the community is abuzz with speculation about potential catalysts.",
-    "origin_story": "Originating on smaller crypto platforms, $BNKR has gained traction in recent weeks as influencers and degen traders have started to take notice.",
-    "expert_analysis": "The sharp rise in $BNKR's price and engagement suggests growing retail interest, as traders search for undervalued meme coins that could see parabolic gains. While fundamentals remain unclear, the community's infectious hype could drive further short-term upside if the momentum continues.",
-    "impact": "A breakout in trading volume and social metrics indicates $BNKR is emerging as a new speculative focus for crypto investors.",
-    "status": "rising"
+    "headline": "Viral Meme Coin $BNKR Sparks Degenerate Trading Frenzy",
+    "summary": "The obscure meme coin $BNKR has suddenly taken the crypto market by storm, with traders frantically trying to 'ape in' before the next big pump. The project's tongue-in-cheek approach and engagement-focused marketing have captivated the attention of the crypto degen community.",
+    "origin_story": "The $BNKR hype first began on crypto Twitter, where a handful of influential meme accounts and 'shitcoin influencers' started shilling the token to their large followings.",
+    "expert_analysis": "The sudden surge in $BNKR's popularity reflects the crypto market's insatiable appetite for high-risk, high-reward meme coins. Traders are likely hoping to catch the next 'moonshot' and ride the wave of FOMO-fueled price action, though the project's long-term viability remains highly speculative.",
+    "impact": "The $BNKR frenzy has already driven a significant spike in trading volume and market capitalization, as degen investors frantically try to get in before the next potential 'pump'.",
+    "status": "viral"
   },
-  "timestamp": "2026-02-10T07:58:39.234083+00:00",
+  "timestamp": "2026-02-10T08:09:48.481177+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T12:30:49.924014+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-10T07:58:39.234101+00:00",
+      "signal_score": 90
+    },
+    {
+      "timestamp": "2026-02-10T08:09:48.481192+00:00",
       "signal_score": 90
     }
   ]

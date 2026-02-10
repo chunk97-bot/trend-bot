@@ -7,8 +7,8 @@
   },
   "platform_count": 2,
   "metrics": {
-    "market_cap_rank": 97,
-    "price_btc": 2.2150547025176375e-06,
+    "market_cap_rank": 99,
+    "price_btc": 2.13521013470989e-06,
     "is_meme_coin": false,
     "engagement_score": 50
   },
@@ -34,7 +34,7 @@
     "impact": "It's capturing attention across multiple platforms.",
     "status": "rising"
   },
-  "timestamp": "2026-02-09T12:31:02.038905+00:00",
+  "timestamp": "2026-02-10T08:10:22.569779+00:00",
   "history": [
     {
       "timestamp": "2026-02-09T11:36:50.442355+00:00",
@@ -50,6 +50,10 @@
     },
     {
       "timestamp": "2026-02-09T12:31:02.038905+00:00",
+      "signal_score": 75
+    },
+    {
+      "timestamp": "2026-02-10T08:10:22.569792+00:00",
       "signal_score": 75
     }
   ]
