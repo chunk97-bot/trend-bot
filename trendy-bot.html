@@ -356,22 +356,27 @@ const TrendyBot = {
   async loadTrendData() {
     // Load all trend data from local JSON files
     try {
-      const indexResponse = await fetch('./data/_.json');
+      const indexResponse = await fetch(`./data/index.json?ts=${Date.now()}`);
       const index = await indexResponse.json();
       
       if (index.files && index.files.length > 0) {
         const promises = index.files.slice(0, 100).map(async (file) => {
           try {
-            const response = await fetch(`./data/${file}`);
+            const response = await fetch(`./data/${file}?ts=${Date.now()}`);
             const data = await response.json();
             const keyword = file.replace('.json', '').replace(/_/g, ' ');
             this.trendData[keyword.toLowerCase()] = data;
+            // Also store by trend name if available
+            if (data.trend) {
+              this.trendData[data.trend.toLowerCase().replace(/_/g, ' ')] = data;
+            }
           } catch (e) {}
         });
         await Promise.all(promises);
+        console.log(`Loaded ${Object.keys(this.trendData).length} trends`);
       }
     } catch (e) {
-      console.log('Loading trend data...');
+      console.log('Could not load trend data:', e);
     }
   },
   
@@ -452,34 +457,63 @@ const TrendyBot = {
   },
   
   formatLocalData(keyword, data) {
-    let html = `<h3>📊 Trend Analysis: ${keyword}</h3>`;
+    const icons = {
+      'google': '🔍', 'x': '🐦', 'tiktok': '🎵', 
+      'instagram': '📸', 'reddit': '🔴', 'youtube': '📺'
+    };
     
-    if (data.title) {
-      html += `<p><strong>${data.title}</strong></p>`;
+    let html = `<h3>📊 Trend Analysis: ${data.trend || keyword}</h3>`;
+    
+    // Handle platforms as object or array
+    let platformsList = [];
+    if (data.platforms) {
+      if (Array.isArray(data.platforms)) {
+        platformsList = data.platforms;
+      } else if (typeof data.platforms === 'object') {
+        platformsList = Object.keys(data.platforms).filter(p => data.platforms[p]);
+      }
     }
     
-    if (data.platforms && data.platforms.length > 0) {
-      html += `<p>Trending on: `;
-      data.platforms.forEach(p => {
-        const icons = {
-          'google': '🔍', 'x': '🐦', 'tiktok': '🎵', 
-          'instagram': '📸', 'reddit': '🔴', 'youtube': '📺'
-        };
+    if (platformsList.length > 0) {
+      html += `<p>📍 Trending on: `;
+      platformsList.forEach(p => {
         html += `<span class="platform-tag">${icons[p.toLowerCase()] || '📌'} ${p}</span> `;
       });
       html += `</p>`;
     }
     
-    if (data.search_volume) {
-      html += `<p>🔥 Search Volume: <strong>${data.search_volume.toLocaleString()}</strong></p>`;
+    // Show metrics if available
+    if (data.metrics) {
+      html += `<p>📈 <strong>Metrics:</strong></p><ul>`;
+      if (data.metrics.tiktok_views) html += `<li>TikTok Views: ${data.metrics.tiktok_views.toLocaleString()}</li>`;
+      if (data.metrics.tiktok_likes) html += `<li>TikTok Likes: ${data.metrics.tiktok_likes.toLocaleString()}</li>`;
+      if (data.metrics.google_search_volume) html += `<li>Google Search Volume: ${data.metrics.google_search_volume.toLocaleString()}</li>`;
+      if (data.metrics.reddit_score) html += `<li>Reddit Score: ${data.metrics.reddit_score.toLocaleString()}</li>`;
+      html += `</ul>`;
     }
     
-    if (data.description) {
-      html += `<p>${data.description}</p>`;
+    // Signal score and momentum
+    if (data.signal_score) {
+      html += `<p>🔥 Signal Score: <strong>${data.signal_score}/100</strong></p>`;
+    }
+    if (data.momentum) {
+      const momentumIcon = data.momentum === 'rising' ? '📈' : data.momentum === 'falling' ? '📉' : '➡️';
+      html += `<p>${momentumIcon} Momentum: <strong>${data.momentum}</strong></p>`;
     }
     
-    if (data.related_keywords && data.related_keywords.length > 0) {
-      html += `<p>Related: ${data.related_keywords.slice(0, 5).join(', ')}</p>`;
+    // Analysis
+    if (data.analysis) {
+      if (data.analysis.summary) {
+        html += `<p>${data.analysis.summary}</p>`;
+      }
+      if (data.analysis.expert_analysis) {
+        html += `<p>💡 ${data.analysis.expert_analysis}</p>`;
+      }
+    }
+    
+    // Related trends
+    if (data.related_trends && data.related_trends.length > 0) {
+      html += `<p>🔗 Related: ${data.related_trends.slice(0, 5).join(', ')}</p>`;
     }
     
     html += `<p style="color: #888; font-size: 0.85rem; margin-top: 10px;">💡 Data from Trend Radar database</p>`;
