@@ -391,6 +391,12 @@ def scrape_reddit_trends():
     print("   &#128308; Scraping Reddit trends...")
     trends = {}
     
+    # Reddit requires a specific user agent format
+    reddit_headers = {
+        "User-Agent": "TrendRadar/1.0 (by /u/trend-bot-scraper)",
+        "Accept": "application/json"
+    }
+    
     # Reddit's public JSON endpoints (no auth needed)
     subreddits = [
         "popular", "all", "news", "technology", "entertainment",
@@ -401,7 +407,7 @@ def scrape_reddit_trends():
         try:
             response = requests.get(
                 f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25",
-                headers={**get_headers(), "Accept": "application/json"},
+                headers=reddit_headers,
                 timeout=15
             )
             if response.status_code == 200:
@@ -428,6 +434,11 @@ def scrape_reddit_trends():
                                 },
                                 "locations": ["global"]
                             }
+            elif response.status_code == 403:
+                print(f"      &#9888; r/{subreddit}: Access forbidden (rate limited)")
+            elif response.status_code == 429:
+                print(f"      &#9888; r/{subreddit}: Too many requests, waiting...")
+                time.sleep(5)
             random_delay()
         except Exception as e:
             print(f"      &#10007; r/{subreddit}: {e}")
