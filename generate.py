@@ -149,10 +149,14 @@ CONTENT_CATEGORIES = {
 }
 
 # Trend discovery settings
-MIN_PLATFORMS = 1  # X-first: Accept single platform if engagement is high
+MIN_PLATFORMS = 2  # Require at least 2 platforms (X + Google preferred)
 MAX_TRENDS_PER_RUN = 20
 MIN_TRENDS_PER_RUN = 10
 MULTI_PLATFORM_BOOST = True
+
+# Primary platforms (X and Google are most important)
+PRIMARY_PLATFORMS = ["x", "google"]
+SECONDARY_PLATFORMS = ["tiktok", "instagram", "reddit"]
 
 # Global locations to scrape from
 GLOBAL_LOCATIONS = [
@@ -1554,16 +1558,27 @@ def merge_trends(google, x, reddit, news, tiktok=None, instagram=None):
             else:
                 merged[normalized] = data.copy()
     
-    # Filter: Keep only trends on MIN_PLATFORMS or more
+    # Filter: Keep only trends on MIN_PLATFORMS or more (X + Google preferred)
     filtered = {}
     for normalized, data in merged.items():
-        platform_count = len(data["platforms"])
-        if platform_count >= MIN_PLATFORMS:
+        platforms = data.get("platforms", {})
+        # Count only truthy platform values
+        platform_count = len([p for p in platforms.values() if p])
+        
+        # Check if it has primary platforms (X or Google)
+        has_primary = platforms.get("x") or platforms.get("google")
+        
+        # Accept if: 2+ platforms, OR crypto source (CoinGecko trends are reliable)
+        is_crypto = data.get("crypto_source") or data.get("source", "").startswith("coingecko")
+        
+        if platform_count >= MIN_PLATFORMS or (is_crypto and platform_count >= 1):
             data["platform_count"] = platform_count
             data["locations"] = list(set(data.get("locations", [])))
             # Boost multi-platform trends
             if MULTI_PLATFORM_BOOST and platform_count >= 2:
                 data["multi_platform_bonus"] = True
+            # Mark if has primary platform
+            data["has_primary_platform"] = has_primary
             filtered[normalized] = data
     
     print(f"   &#10003; {len(merged)} total trends &rarr; {len(filtered)} qualifying trends")
@@ -2250,15 +2265,34 @@ def main():
     
     print(f"   &#10003; Total merged trends: {len(merged)}")
     
-    # PHASE 6: Score and select top trends
-    print("\n&#128200; PHASE 6: Scoring trends (X-first weighting)...")
+    # PHASE 6: Score and select top trends (require 2+ platforms)
+    print("\n&#128200; PHASE 6: Scoring trends (X + Google priority)...")
     for norm, data in merged.items():
         # Calculate platform count
-        platform_count = len([p for p in data.get("platforms", {}).values() if p])
+        platforms = data.get("platforms", {})
+        platform_count = len([p for p in platforms.values() if p])
         data["platform_count"] = platform_count
+        
+        # Count primary platforms (X, Google) and secondary (TikTok, Instagram, Reddit)
+        primary_count = sum(1 for p in PRIMARY_PLATFORMS if platforms.get(p))
+        secondary_count = sum(1 for p in SECONDARY_PLATFORMS if platforms.get(p))
         
         # Calculate signal score with X-first weighting
         base_score = calculate_trend_score(data)
+        
+        # Primary platform bonuses (X and Google are most important)
+        if platforms.get("x"):
+            base_score += 25  # X is primary
+        if platforms.get("google"):
+            base_score += 20  # Google is primary
+        
+        # Secondary platform bonuses (TikTok, Instagram as supporting)
+        if platforms.get("tiktok"):
+            base_score += 10
+        if platforms.get("instagram"):
+            base_score += 10
+        if platforms.get("reddit"):
+            base_score += 5
         
         # X-first bonuses
         if data.get("source") == "influencer":
@@ -2276,9 +2310,13 @@ def main():
         if data.get("x_first_penalty"):
             base_score -= 10  # Penalty for non-X origin
         
-        # Cross-validation bonus
-        if data["platforms"].get("x") and platform_count >= 2:
-            base_score += 10 * (platform_count - 1)  # +10 per additional platform
+        # Cross-validation bonus (trending on multiple platforms)
+        if platform_count >= 2:
+            base_score += 15 * (platform_count - 1)  # +15 per additional platform
+        
+        # Bonus for having both primary platforms (X + Google)
+        if primary_count >= 2:
+            base_score += 20  # Strong signal when both X and Google agree
         
         data["signal_score"] = min(base_score, 100)
     
