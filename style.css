@@ -37,6 +37,19 @@
   --orb-color-3: rgba(99, 102, 241, 0.08);
   --particle-gradient: linear-gradient(135deg, #6366f1, #8b5cf6);
   --grid-color: rgba(99, 102, 241, 0.03);
+  
+  /* Splash screen */
+  --splash-bg: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 50%, #ddd6fe 100%);
+  --splash-node-color: rgba(99, 102, 241, 0.8);
+  --splash-node-glow: rgba(99, 102, 241, 0.4);
+  
+  /* CTA section */
+  --cta-bg: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --cta-text: #ffffff;
+  --cta-text-muted: rgba(255, 255, 255, 0.85);
+  --cta-btn-bg: #ffffff;
+  --cta-btn-color: #6366f1;
+  --cta-btn-hover: #f1f5f9;
 }
 
 [data-theme="dark"] {
@@ -75,6 +88,19 @@
   --orb-color-3: rgba(129, 140, 248, 0.10);
   --particle-gradient: linear-gradient(135deg, #818cf8, #a78bfa);
   --grid-color: rgba(129, 140, 248, 0.05);
+  
+  /* Splash screen - dark */
+  --splash-bg: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 50%, #0f0f23 100%);
+  --splash-node-color: rgba(129, 140, 248, 0.8);
+  --splash-node-glow: rgba(129, 140, 248, 0.4);
+  
+  /* CTA section - dark */
+  --cta-bg: linear-gradient(135deg, #312e81 0%, #4c1d95 100%);
+  --cta-text: #f1f5f9;
+  --cta-text-muted: rgba(241, 245, 249, 0.85);
+  --cta-btn-bg: var(--accent-gradient);
+  --cta-btn-color: #ffffff;
+  --cta-btn-hover: linear-gradient(135deg, #6366f1, #8b5cf6);
 }
 
 /* ===============================
@@ -1499,28 +1525,29 @@ footer {
 .cta-section {
   padding: 100px 32px;
   text-align: center;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: var(--cta-bg);
+  transition: background 0.3s ease;
 }
 
 .cta-section h2 {
   font-size: 36px;
   margin-bottom: 16px;
-  color: #fff;
+  color: var(--cta-text);
 }
 
 .cta-section p {
   font-size: 18px;
-  color: rgba(255,255,255,0.85);
+  color: var(--cta-text-muted);
   margin-bottom: 32px;
 }
 
 .cta-section .btn {
-  background: #fff;
-  color: #6366f1;
+  background: var(--cta-btn-bg);
+  color: var(--cta-btn-color);
 }
 
 .cta-section .btn:hover {
-  background: #f1f5f9;
+  background: var(--cta-btn-hover);
   transform: translateY(-2px);
 }
 
@@ -2240,8 +2267,9 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 50%, #0f0f23 100%);
+  background: var(--splash-bg);
   overflow: hidden;
+  transition: background 0.3s ease;
 }
 
 .splash-screen.fade-out {
@@ -2288,11 +2316,11 @@ footer {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: linear-gradient(135deg, #818cf8, #a78bfa);
+  background: var(--accent-gradient);
   border-radius: 50%;
   box-shadow: 
-    0 0 20px rgba(129, 140, 248, 0.8),
-    0 0 40px rgba(129, 140, 248, 0.4);
+    0 0 20px var(--splash-node-color),
+    0 0 40px var(--splash-node-glow);
   animation: nodeFloat 6s ease-in-out infinite;
 }
 
@@ -2342,7 +2370,7 @@ footer {
 .splash-title {
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(135deg, #818cf8, #a78bfa, #c084fc);
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2358,12 +2386,12 @@ footer {
 
 .typing-text {
   font-size: 18px;
-  color: #a5b4fc;
+  color: var(--accent-primary);
 }
 
 .cursor {
   font-size: 18px;
-  color: #818cf8;
+  color: var(--accent-secondary);
   animation: blink 1s step-end infinite;
 }
 
@@ -2373,7 +2401,7 @@ footer {
 
 .splash-tagline {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-muted);
   margin-bottom: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -2385,7 +2413,7 @@ footer {
   align-items: center;
   gap: 12px;
   padding: 18px 48px;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  background: var(--accent-gradient);
   border: none;
   border-radius: 999px;
   color: #fff;
@@ -2421,7 +2449,7 @@ footer {
   align-items: center;
   gap: 12px;
   margin-top: 40px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--text-muted);
   font-size: 14px;
 }
 
@@ -2454,13 +2482,13 @@ footer {
   left: 0;
   width: 100%;
   height: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--border-light);
 }
 
 .progress-bar {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #6366f1, #a78bfa, #c084fc);
+  background: var(--accent-gradient);
   transition: width 0.1s linear;
 }
 
